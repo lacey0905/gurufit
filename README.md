@@ -1,2 +1,0 @@
-# gurufit
-gurufit HTML

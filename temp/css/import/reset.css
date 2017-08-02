@@ -46,12 +46,6 @@ table {
 a {
 	text-decoration:none;
 }
-a:link {
-	color:inherit;
-}
-a:hover,
-a:active {}
-a:hover {}
 em, i {
 	font-style:normal;
 }

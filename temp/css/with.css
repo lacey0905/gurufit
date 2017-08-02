@@ -1155,9 +1155,9 @@
 	border:0;
 }
 .user_custom_filter > dl dt {
-	border-bottom:solid 1px #ebebeb;
-	padding-bottom:13px;
+	cursor:pointer;
 }
+.user_name {}
 .user_custom_filter > dl dt.close + dd {
 	display:none;
 }
@@ -1201,6 +1201,8 @@
 	font-size:13px;
 	color:#4a4a4a;
 	text-align:left;
+	border-bottom:solid 1px #ebebeb;
+	padding-bottom:13px;
 }
 .user_info .user_name strong {
 	font-size:20px;
@@ -1349,6 +1351,7 @@
 }
 .check_opt_box li.dis a {
 	opacity:0.5;
+	cursor:text;
 }
 .check_opt_box li:not(.dis).active a,
 .check_opt_box li:not(.dis):hover a {

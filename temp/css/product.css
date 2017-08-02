@@ -200,6 +200,21 @@
 	line-height:18px;
 	vertical-align:top;
 }
+.prd_type_b figure .thum a.my_list_btn:before {
+	content:"\f08a";
+	display:inline-block;
+	margin-right:7px;
+	font-weight:300;
+	font-size:15px;
+	font-family: FontAwesome;
+	color:#9b9b9b;
+	line-height:18px;
+	vertical-align:top;
+}
+.prd_type_b figure .thum a.my_list_btn.check:before {
+	color:#7053ff;
+}
+
 .prd_type_b figure .thum img {
 	width:100%;
 }
@@ -336,7 +351,6 @@
 .detial_opt_list .check_opt_box li a {
 	height:18px;
 	line-height:17px;
-	opacity:0.5;
 }
 .detial_opt_list .check_opt_box li:hover a,
 .detial_opt_list .check_opt_box li.active a {
@@ -347,3 +361,7 @@
 	border-color:#bbb;
 	opacity:1;
 }
+
+
+
+

@@ -250,13 +250,11 @@
 	line-height:19px;
 	text-align:center;
 	font-size:11px;
-	font-weight:bold;
 	border-radius:100%;
 	background-color:#7053ff;
 	font-size:11px;
 	font-family: 'texgyreadventorbold_italic';
-	font-weight:bold;
-	font-style:italic;
+	font-weight:500;
 	color:#fff;
 }
 /* 하단 날짜 카운트 */
@@ -774,6 +772,7 @@
 	width:1px;
 	height:20px;
 	border-left:solid 1px #979797;
+	box-sizing:border-box;
 }
 
 
@@ -782,6 +781,8 @@
 	position:relative;
 	display:inline-block;
 	background-color:#fff;
+	border: solid 1px #d8d8d8;
+	overflow:hidden;
 }
 .sel_custom:after {
 	position:absolute;
@@ -810,13 +811,14 @@
     outline: none;
 }
 .sel_nm_box select {
-	border: solid 1px #d8d8d8;
+	width:130%;
 	font-size:14px;
 	color:#4a4a4a;
 	text-align:center;
 	padding:10px 15px;
-	box-sizing:border-box;
 }
+
+
 
 /* SELECT SIZE */
 .sel_mid {

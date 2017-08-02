@@ -148,6 +148,7 @@
 	width:300px;
 	text-indent:15px;
 	outline:none;
+	vertical-align:middle;
 }
 .search_inp::-webkit-input-placeholder {
 	font-size:13px;
@@ -210,6 +211,7 @@
 }
 #footInfo .info h2 {
 	font-family: 'texgyreadventorbold_italic';
+	font-weight:500;
 	font-size:14px;
 	letter-spacing:0.5px;
 	color:#4a4a4a;

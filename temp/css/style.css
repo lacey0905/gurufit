@@ -47,8 +47,7 @@
 .sub_head > h2 {
 	position:relative;
 	font-family:texgyreadventorbold_italic;
-	font-style:italic;
-	font-weight:bold;
+	font-weight:500;
 	font-size:35px;
 	text-align:center;
 	color:#000;
@@ -303,9 +302,11 @@
 	font-size:14px;
 	color:#8f8f8f;
 	margin-right:18px;
+	vertical-align:middle;
 }
 .select_sort dd {
 	display:inline-block;
+	vertical-align:middle;
 }
 
 
@@ -447,8 +448,7 @@
 .info_icon_area strong {
 	display:inline-block;
 	font-size: 14px;
-	font-weight: bold;
-	font-style: italic;
+	font-weight: 500;
 	font-family: 'TeXGyreAdventor-BoldItalic';
 	text-align: center;
 	color: #000000;
@@ -573,7 +573,6 @@
 	display:inline-block;
 	font-size:24px;
 	font-family: 'TeXGyreAdventor-BoldItalic';
-	font-style:italic;
 	text-align:left;
 	letter-spacing:0.5px;
 	color:#232122;

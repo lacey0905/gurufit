@@ -15,14 +15,14 @@
 			<div class="tab_active_type">
 				<ul>
 					<li class="active"><a href="#">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
+					<li><a href="join.php">회원가입</a></li>
 				</ul>
 			</div>
 		</section>
 		<div class="member_box">
 			<h3>로그인</h3>
 			<p class="member_head_link"><a href="#">아이디 혹은 비밀번호가 기억나지 않으세요?</a></p>
-			<div id="loginBox" class="box_inner">
+			<div id="loginBox" class="box_type_a">
 				<div class="social_login_btn">
 					<dl>
 						<dt>소셜 계정을 사용하여 로그인</dt>
@@ -32,18 +32,16 @@
 					</dl>
 				</div>
 				<div class="inp_login">
-					<form action="" method="">
-						<fieldset>
-							<legend>이메일과 비밀번호로 로그인</legend>
-							<input type="text" value="" placeholder="이메일 주소" class="inp_nm_box inp_full" name="email">
-							<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="password">
-							<input type="submit" value="로그인" class="inp_submit_a inp_full">
-							<div class="custom_cbox login_chk_box">
-								<input type="checkbox" id="emailSave">
-								<label for="emailSave">이메일 주소 저장</label>
-							</div>
-						</fieldset>
-					</form>
+					<fieldset>
+						<legend>이메일과 비밀번호로 로그인</legend>
+						<input type="text" value="" placeholder="이메일 주소" class="inp_nm_box inp_full" name="email">
+						<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="password">
+						<a href="#" class="inp_submit_a inp_full">로그인</a>
+						<div class="custom_cbox login_chk_box">
+							<input type="checkbox" id="emailSave">
+							<label for="emailSave">이메일 주소 저장</label>
+						</div>
+					</fieldset>
 				</div>
 			</div>
 		</div>

@@ -2,11 +2,13 @@
 <html lang="ko">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>GURUFIT</title>
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/entypo-fontello/0.1/entypo.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 	<!-- Link Swiper's CSS -->
@@ -199,7 +201,7 @@
                         		<a href="#" class="pop_submit_a">쇼핑 계속하기</a>
                         	</div>
                         </div>
-                         -->
+                        -->
 					</li>
     			</ul>
 			</nav>
@@ -216,13 +218,11 @@
 			</nav>
 			<div id="lnbOpt">
 				<!-- 검색 -->
-				<form action="" method="">
-					<fieldset class="lnbSearch">
-						<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
-						<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
-						<input type="submit" class="icon_sch_x22 search_btn" value="Search">
-					</fieldset>
-				</form>
+				<fieldset class="lnbSearch">
+					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
+					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
+					<a href="#" class="icon_sch_x22 search_btn">Search</a>
+				</fieldset>
 			</div>
 		</div>
 	</section>

@@ -202,17 +202,18 @@
 	vertical-align:top;
 }
 .prd_type_b figure .thum a.my_list_btn:before {
-	content:"\f08a";
+	content:"\e801";
 	display:inline-block;
 	margin-right:7px;
 	font-weight:300;
-	font-size:15px;
-	font-family: FontAwesome;
+	font-size:14px;
+	font-family: fontello;
 	color:#9b9b9b;
 	line-height:18px;
 	vertical-align:top;
 }
 .prd_type_b figure .thum a.my_list_btn.check:before {
+	content:"\e805";
 	color:#7053ff;
 }
 

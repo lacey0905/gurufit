@@ -394,15 +394,15 @@
 	display:table-cell;
 	box-sizing:border-box;
 	border:solid 1px #ddd;
-	border-left:0;
+	border-right:0;
 	background-color:#fff;
 	vertical-align:middle;
 	text-align:center;
 	width:5em;
-	
+	min-width:158px;
 }
-.tab_active_type ul li:first-child {
-	border-left:solid 1px #ddd;
+.tab_active_type ul li:last-child {
+	border-right:solid 1px #ddd;
 }
 .tab_active_type ul li a {
 	display:block;
@@ -416,6 +416,9 @@
 }
 .tab_active_type ul li:hover {
 	border-color:#7053ff;
+}
+.tab_active_type ul li:hover + li {
+	border-left-color:#7053ff;
 }
 .tab_active_type ul li:not(.active):hover a {
 	color:#7053ff;
@@ -1090,9 +1093,6 @@
 	color:#4a4a4a;
 }
 
-
-
-
 /* RANGE SLIDER */
 .ui_range_a {
 	padding-top:10px;
@@ -1125,7 +1125,7 @@
 	width:10px !important;
 	height:10px !important;
 }
-.ui_range_a > input {
+.ui_range_a > span {
 	display:inline-block;
 	border:0;
 	color:#9b9b9b;
@@ -1134,16 +1134,14 @@
 	width:45%;
 	margin-top:10px;
 }
-.ui_range_a > input.amount_min {
+.ui_range_a > .amount_min {
 	text-align:left;
 	clear:both;
 }
-.ui_range_a > input.amount_max {
+.ui_range_a > .amount_max {
 	text-align:right;
 	float:right;
 }
-
-
 
 /* PRODUCT ASIDE */
 .user_custom_filter {
@@ -1290,7 +1288,7 @@
 	display:inline-block;
 	width: 13px;
 	height: 13px;
-	line-height:13px;
+	line-height:14px;
 	font-family:'Material Icons';
 	font-size:10px;
 	font-style:normal;
@@ -1325,6 +1323,7 @@
 	color: #9b9b9b;
 	line-height:20px;
 }
+.select_opt_list li:hover a,
 .select_opt_list li.active a {
 	font-weight:bold;
 	color:#f6a623;

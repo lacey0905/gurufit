@@ -25,7 +25,6 @@
 			<div id="userSearchBox" class="box_inner password_change_box_inner">
 				<div class="inp_login">
 				 <div class="password_change_wrap">
-					<form action="" method="">
 						<fieldset>
 							<legend class="blind">새로운 비밀번호 입력</legend>
 							<label>새로운 비밀번호<em>영문·숫자·특수문자 포함 6자 ~ 20자</em></label>
@@ -40,9 +39,8 @@
 									</div>
 								</div>
 							</div>
-							<input type="submit" value="비밀번호 링크 발송" class="inp_submit_a inp_full">
+							<a href="#" class="inp_submit_a inp_full">비밀번호 링크 발송</a>
 						</fieldset>
-					</form>
 				 </div>	
 				</div>
 			</div>

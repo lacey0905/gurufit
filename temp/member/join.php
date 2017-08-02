@@ -22,7 +22,6 @@
 		<div class="member_box">
 			<h3>회원정보 입력</h3>			
 			<div class="join_member_info">
-			<form action="" method="">	
 				<fieldset>
 					<legend class="blind">회원가입</legend>					
 						<ul>
@@ -112,10 +111,9 @@
 							</li>												
 						</ul>
 					<div class="join_member_info_button">
-						<input type="submit" value="회원 가입 완료" class="inp_submit_a inp_full">
+						<a href="#" class="inp_submit_a inp_full">회원 가입 완료</a>
 					</div>
-				</fieldset>
-				</form>			
+				</fieldset>		
 			</div>
 		</div>
 	</article>

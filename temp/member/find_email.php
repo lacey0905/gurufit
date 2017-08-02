@@ -26,7 +26,6 @@
 			</h3>
 			<div id="userSearchBox" class="box_inner">
 				<div class="inp_login">
-					<form action="" method="">
 						<fieldset>
 							<legend class="blind">아이디 찾기</legend>
 							<div class="inp_btn_a">
@@ -35,13 +34,11 @@
 							</div>
 							<input type="password" value="" placeholder="인증 번호 입력" class="inp_nm_box inp_full" name="verification_code">
 							<div class="find_email_count_time">남은시간 2분 23초</div>
-							<input type="submit" value="이메일 주소 확인" class="inp_submit_a inp_full">
-
+							<a href="#" class="inp_submit_a inp_full">이메일 주소 확인</a>
 							<div class="custom_linkBox">
 								<a href="#">로그인으로 돌아가기</a>
 							</div>
 						</fieldset>
-					</form>
 				</div>
 			</div>
 		</div>

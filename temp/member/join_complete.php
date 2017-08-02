@@ -25,7 +25,7 @@
 			</h3>
 			<div id="userSearchBox" class="box_inner join_complete_box_inner">
 				<div class="inp_login">
-					<form action="" method="">
+
 						<fieldset>
 							<legend class="blind">회원가입 완료</legend>
 							<div class="join_complate_box_result">
@@ -33,9 +33,9 @@
 								<p><em>김하영님</em>의 로그인 아이디는<br>
 								<em>hayoung1928763@verylongadress.com</em>입니다.</p>
 							</div>
-							<input type="submit" value="로그인" class="inp_submit_a inp_full">
+							<a href="#" class="inp_submit_a inp_full">로그인</a>
 						</fieldset>
-					</form>
+
 				</div>
 			</div>
 		</div>

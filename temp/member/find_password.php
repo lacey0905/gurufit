@@ -14,8 +14,8 @@
 			<h2>Serch Email / Password</h2>
 			<div class="tab_active_type">
 				<ul>
-					<li class="active"><a href="#">아이디찾기</a></li>
-					<li><a href="#">비밀번호찾기</a></li>
+					<li><a href="#">아이디찾기</a></li>
+					<li class="active"><a href="#">비밀번호찾기</a></li>
 				</ul>
 			</div>
 		</section>

@@ -33,7 +33,7 @@
 								로그인 아이디(이메일 주소)는<br>
 								<em>hayo**********@verylongandredundentemailaddress.com</em>입니다
 							</div>
-							<input type="submit" value="로그인으로 돌아가기" class="inp_submit_a inp_full">
+							<a href="#" class="inp_submit_a inp_full">로그인으로 돌아가기</a>
 						</fieldset>
 					</form>
 				</div>

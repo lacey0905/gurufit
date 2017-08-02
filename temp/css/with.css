@@ -398,7 +398,8 @@
 	background-color:#fff;
 	vertical-align:middle;
 	text-align:center;
-	width:1em;
+	width:5em;
+	
 }
 .tab_active_type ul li:first-child {
 	border-left:solid 1px #ddd;

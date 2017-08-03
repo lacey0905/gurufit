@@ -227,121 +227,230 @@
 					
 					<div class="product_spec_area">
 						<h4>상품스팩</h4>						
-						<table class="product_spec">
-							<tr>
-								<td>
-									<ul>
-										<li>내전</li>
-										<li>쿠셔닝 타입</li>
-										<li>무게</li>
-										<li>갑피 소재</li>
-										<li class="text_right">안감</li>
-										<li>밑창인솔</li>
-										<li class="text_right">미드솔</li>
-										<li class="text_right">아웃솔</li>
-										<li>굽 높이</li>
-										<li>힐 유형</li>
-										<li>부츠 목 높이</li>
-										<li class="text_right">통 둘레</li>
-										<li>기능</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>착화 환경</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-										<li>&nbsp;</li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-										<li><img src="../img/product_spec.png" alt="#"></li>
-									</ul>
-								</td>
-								<td>
-									<ul>
-										<li>과내전-내전</li>
-										<li>고탄성</li>
-										<li>매우 가벼움 283g</li>
-										<li>폴리에스터-메쉬</li>
-										<li>직물</li>
-										<li>메모리폼</li>
-										<li>Boost®</li>
-										<li>EVA</li>
-										<li>보통  3.2cm</li>
-										<li>스틸레토</li>
-										<li>종아리 14cm</li>
-										<li>매우 좁음 26cm</li>
-										<li>미끄럼방지</li>
-										<li>발수</li>
-										<li>유연성</li>
-										<li>통기성</li>
-										<li>항균</li>
-										<li>무봉제</li>
-										<li>방수</li>
-										<li>캐쥬얼</li>
-										<li>아웃도어</li>
-										<li>등산</li>
-										<li>비지니스</li>
-										<li>라이프스타일</li>
-										<li>바다</li>
-										<li>격식있는 자리</li>
-										<li>눈</li>
-										<li>비</li>
-									</ul>
-								</td>
-							</tr>				
-						</table>
-						<dl class="product_spec_brand">
-							<dt>브랜드</dt>
-							<dd><img src="" alt="#"></dd>
-							<dt>모델넘버</dt>
-							<dd>730SPW0020-DB4</dd>
-							<dt>제조사</dt>
-							<dd>FILA코리아</dd>
-							<dt>수입사</dt>
-							<dd>(주)화승</dd>
-							<dt>원산지</dt>
-							<dd>대한민국</dd>
-							<dt>제조국</dt>
-							<dd>중국</dd>
-							<dt>출시시즌</dt>
-							<dd>2017S(여름)</dd>
-						</dl>							
+							<ul>
+								<li>
+									<span class="type">내전</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">과내전-내전</span>
+								</li>
+								<li>
+									<span class="type">쿠셔닝 타입</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">고탄성</span>
+								</li>
+								<li>
+									<span class="type">무게</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">매우 가벼움 283g</span>
+								</li>
+								<li>
+									<span class="type">갑피 소재</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">고탄성</span>
+								</li>
+								<li>
+									<span class="type">안감</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">직물</span>
+								</li>
+								<li>
+									<span class="type">밑창인솔</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">메모리폼</span>
+								</li>
+								<li>
+									<span class="type">미드솔</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">Boost®</span>
+								</li>
+								<li>
+									<span class="type">미드솔</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">EVA</span>
+								</li>
+								<li>
+									<span class="type">굽높이</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">보통 3.2cm</span>
+								</li>
+								<li>
+									<span class="type">힐유형</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">스틸레토</span>
+								</li>
+								<li>
+									<span class="type">부츠 목 높이</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">종아리14cm</span>
+								</li>
+								<li>
+									<span class="type">통 둘레</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">매우 좁음 26cm</span>
+								</li>
+								<li>
+									<span class="type">기능</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">미끄럼방지</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">발수</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">유연성</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">통기성</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">향균</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">무봉제</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">방수</span>
+								</li>
+								<li>
+									<span class="type">착화환경</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">캐쥬얼</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">아웃도어</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">등산</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">비즈니스</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">라이프스타일</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">바다</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">격식있는 자리</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">눈</span>
+								</li>
+								<li>
+									<span class="type">&nbsp;</span>
+									<img src="../img/product_spec.png" alt="#">
+									<span class="explain">비</span>
+								</li>																																																																																																																																																																																																																								
+							</ul>
+							<ul class="brand_category">
+								<li>
+									<span>브랜드</span>
+									<span class="brand"><img src="../img/product_spec_brand.png" alt="#"></span>
+								</li>
+								<li>
+									<span>모델넘버</span>
+									<span>730SPW0020-DB4</span>
+								</li>
+								<li>
+									<span>제조사</span>
+									<span>FILA코리아</span>
+								</li>
+								<li>
+									<span>수입사</span>
+									<span>(주)화승</span>
+								</li>
+								<li>
+									<span>원산지</span>
+									<span>대한민국</span>
+								</li>
+								<li>
+									<span>제조국</span>
+									<span>중국</span>
+								</li>
+								<li>
+									<span>출시시즌</span>
+									<span>2017 S(여름)</span>
+								</li>
+							</ul>							
+							<div class="tip_buble spec_tip1">
+							'킬힐'이라고 하면 바로 스틸레토 Stiletto를 말하는 것입니다. 힐 높이가 5cm이상이고 길고 가느다란 형<br/>
+							태입니다.						
+							</div>
+							<div class="tip_buble spec_tip2">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip3">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip4">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip5">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip6">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip7">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip8">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip9">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip10">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip11">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip12">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip13">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip14">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip15">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip16">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>
+							<div class="tip_buble spec_tip17">
+							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
+							</div>																																																																																																																					
 					</div>
 					
 					<div class="test">

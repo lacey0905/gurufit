@@ -23,9 +23,16 @@
 		<div class="member_box">
 			<h3>
 				1:1문의
-				<em>셀렉트 박스</em>
 			</h3>
-			<select>교환·반품·A/S</select>
+			<dl class="select_sort question_select_sort">
+				<dd>
+					<div class="sel_custom sel_nm_box">
+						<select class="sel_mid">
+							<option>추천 제품 순</option>
+						</select>
+					</div>
+				</dd>
+			</dl>
 			<div class="question_wrap">
 				<textarea placeholder="문의하실 내용을 입력해 주세요." value="">
 				</textarea>

@@ -226,137 +226,122 @@
 					</ul>
 					
 					<div class="product_spec_area">
-
-					<h3>상품 스펙</h3>
-					
-					<table class="product_spec_one">
-						<tbody>
+						<h4>상품스팩</h4>						
+						<table class="product_spec">
 							<tr>
-							 <th>외피</th>
-							 <td><img src="" alt="#"></td>
-							 <td>겉감-소가죽</td>
-							</tr>
-							<tr>
-							 <th>&nbsp;</th>
-							 <td><img src="" alt="#"></td>
-							 <td>안감-린넨</td>
-							</tr>
-							<tr>
-							 <th>밑창 sole</th>
-							 <td><img src="" alt="#"></td>
-							 <td>안감-메모리폼</td>
-							</tr>
-							<tr>
-							 <th>&nbsp;</th>
-							 <td><img src="" alt="#"></td>
-							 <td>아웃솔-합성고무</td>
-							</tr>
-							<tr>
-							 <th>프로네이션</th>
-							 <td><img src="" alt="#"></td>
-							 <td>중립/과내전/과외전</td>
-							</tr>
-							<tr>
-							 <th>쿠션</th>
-							 <td><img src="" alt="#"></td>
-							 <td>고탄성</td>
-							</tr>
-							<tr>
-							 <th>무게</th>
-							 <td><img src="" alt="#"></td>
-							 <td>매우 가벼움 - 283g</td>
-							</tr>
-							<tr>
-							 <th>토toe모양</th>
-							 <td><img src="" alt="#"></td>
-							 <td>각진 토toe</td>
-							</tr>
-							<tr>
-							 <th>스타일</th>
-							 <td><img src="" alt="#"></td>
-							 <td>앵클ankel</td>
-							</tr>
-							<tr>
-							 <th>부츠 목 높이</th>
-							 <td><img src="" alt="#"></td>
-							 <td>발 목 높이-12cm</td>
-							</tr>
-							<tr>
-							 <th>부츠 통 둘레</th>
-							 <td><img src="" alt="#"></td>
-							 <td>매우 넓음-58cm</td>
-							</tr>																																																																												
-						</tbody>
-						
-						<tbody>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>논 슬립 non-slip</td>
-							</tr>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>방수</td>
-							</tr>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>유연성</td>
-							</tr>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>통기성</td>
-							</tr>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>향균</td>
-							</tr>
-							<tr>
-							 <th>기능</th>
-							 <td><img src="" alt="#"></td>
-							 <td>안전성</td>
-							</tr>
-							<tr>
-							 <th>장식</th>
-							 <td><img src="" alt="#"></td>
-							 <td>폼폼</td>
-							</tr>
-							<tr>
-							 <th>패턴</th>
-							 <td><img src="" alt="#"></td>
-							 <td>헤링본haringbone</td>
-							</tr>
-							<tr>
-							 <th>끈 타입</th>
-							 <td><img src="" alt="#"></td>
-							 <td>버클</td>
-							</tr>
-							<tr>
-							 <th>용도</th>
-							 <td>&nbsp;</td>
-							 <td>&nbsp;</td>
-							</tr>
-							<tr>
-							 <th>사용환경</th>
-							 <td><img src="" alt="#"></td>
-							 <td>트레일trail</td>
-							</tr>
-							<tr>
-							 <th>테마</th>
-							 <td><img src="" alt="#"></td>
-							 <td>캐주얼</td>
-							</tr>
-							<tr>
-							 <th>&nbsp;</th>
-							 <td>&nbsp;</td>
-							 <td>아웃도어</td>
-							</tr>																																																																																			
-						</tbody>						
-					</table>
-					
+								<td>
+									<ul>
+										<li>내전</li>
+										<li>쿠셔닝 타입</li>
+										<li>무게</li>
+										<li>갑피 소재</li>
+										<li class="text_right">안감</li>
+										<li>밑창인솔</li>
+										<li class="text_right">미드솔</li>
+										<li class="text_right">아웃솔</li>
+										<li>굽 높이</li>
+										<li>힐 유형</li>
+										<li>부츠 목 높이</li>
+										<li class="text_right">통 둘레</li>
+										<li>기능</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>착화 환경</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+										<li>&nbsp;</li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li><img src="./img/product_spec.png" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt="#"></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+										<li><img src="" alt=""></li>
+									</ul>
+								</td>
+								<td>
+									<ul>
+										<li>과내전-내전</li>
+										<li>고탄성</li>
+										<li>매우 가벼움 283g</li>
+										<li>폴리에스터-메쉬</li>
+										<li>직물</li>
+										<li>메모리폼</li>
+										<li>Boost®</li>
+										<li>EVA</li>
+										<li>보통  3.2cm</li>
+										<li>스틸레토</li>
+										<li>종아리 14cm</li>
+										<li>매우 좁음 26cm</li>
+										<li>미끄럼방지</li>
+										<li>발수</li>
+										<li>유연성</li>
+										<li>통기성</li>
+										<li>항균</li>
+										<li>무봉제</li>
+										<li>방수</li>
+										<li>캐쥬얼</li>
+										<li>아웃도어</li>
+										<li>등산</li>
+										<li>비지니스</li>
+										<li>라이프스타일</li>
+										<li>바다</li>
+										<li>격식있는 자리</li>
+										<li>눈</li>
+										<li>비</li>
+									</ul>
+								</td>
+							</tr>				
+						</table>
+						<dl class="product_spec_brand">
+							<dt>브랜드</dt>
+							<dd><img src="" alt="#"></dd>
+							<dt>모델넘버</dt>
+							<dd>730SPW0020-DB4</dd>
+							<dt>제조사</dt>
+							<dd>FILA코리아</dd>
+							<dt>수입사</dt>
+							<dd>(주)화승</dd>
+							<dt>원산지</dt>
+							<dd>대한민국</dd>
+							<dt>제조국</dt>
+							<dd>중국</dd>
+							<dt>출시시즌</dt>
+							<dd>2017S(여름)</dd>
+						</dl>							
 					</div>
 					
 					<div class="test">

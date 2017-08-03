@@ -76,12 +76,18 @@
 		<dd class="check_opt_list">
 			<ul>
 				<li class="custom_cbox cbox_a">
-					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
-					<label for="brand_01">AMERICAN WEST (21)</label>
+					<label>
+    					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
+    					<span class="box"></span>
+    					<span class="label">AMERICAN WEST (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_a">
-					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
-					<label for="brand_02">AMERICAN WEST (21)</label>
+					<label>
+    					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+    					<span class="box"></span>
+    					<span class="label">AMERICAN WEST (21)</span>
+    				</label>
 				</li>
 			</ul>
 			<a href="#" class="more_text">+ 전체 브랜드 보기</a>
@@ -92,28 +98,46 @@
 		<dd class="check_color_list">
 			<ul>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_block" name="c_block" class="c_black">
-					<label for="c_block">검정 (21)</label>
+					<label>
+    					<input type="checkbox" id="c_block" name="c_block" class="c_black">
+    					<span class="box"></span>
+    					<span class="label">검정 (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_red" name="c_red" class="c_red"> 
-					<label for="c_red">빨강 (42)</label>
+					<label>
+    					<input type="checkbox" id="c_red" name="c_red" class="c_red"> 
+    					<span class="box"></span>
+    					<span class="label">빨강 (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_blue" name="c_blue" class="c_blue"> 
-					<label for="c_blue">파랑 (18)</label>
+					<label>
+    					<input type="checkbox" id="c_blue" name="c_blue" class="c_blue"> 
+    					<span class="box"></span>
+    					<span class="label">파랑 (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_yellow" name="c_yellow" class="c_yellow"> 
-					<label for="c_yellow">노랑 (13)</label>
+					<label>
+    					<input type="checkbox" id="c_yellow" name="c_yellow" class="c_yellow"> 
+    					<span class="box"></span>
+    					<span class="label">노랑 (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_green" name="c_green" class="c_green"> 
-					<label for="c_green">녹색 (08)</label>
+					<label>
+    					<input type="checkbox" id="c_green" name="c_green" class="c_green"> 
+    					<span class="box"></span>
+    					<span class="label">녹색 (21)</span>
+    				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
-					<input type="checkbox" id="c_white" name="c_white" class="c_white"> 
-					<label for="c_white">흰색 (27)</label>
+					<label>
+    					<input type="checkbox" id="c_white" name="c_white" class="c_white"> 
+    					<span class="box"></span>
+    					<span class="label">흰색 (21)</span>
+    				</label>
 				</li>
 			</ul>
 			<a href="#" class="more_text">+ 색상 전체 보기</a>

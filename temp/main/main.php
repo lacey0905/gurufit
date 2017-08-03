@@ -143,4 +143,5 @@
 		</ul>
 		<a href="#" class="btn_more_big btn_hover_a">더보기</a>
 	</article>
+</section>
 <?php include "../inc/footer.php" ?>

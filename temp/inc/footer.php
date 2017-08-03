@@ -99,7 +99,6 @@
         </div>
 	</address>
 </footer>
-</section>
 </div>
 </body>
 </html>

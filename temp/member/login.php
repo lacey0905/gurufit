@@ -26,9 +26,20 @@
 				<div class="social_login_btn">
 					<dl>
 						<dt>소셜 계정을 사용하여 로그인</dt>
-						<dd><a href="#" class="btn_icon_facebook">페이스북 로그인</a></dd>
-						<dd><a href="#" class="btn_icon_naver">네이버 로그인</a></dd>
-						<dd><a href="#" class="btn_icon_kakao">카카오 로그인</a></dd>
+						<dd>
+							<form>
+								<input type="button" value="페이스북 로그인" class="btn_sns btn_icon_facebook">
+							</form>
+						</dd>
+						<dd>
+							<form>
+								<input type="button" value="네이버 로그인" class="btn_sns btn_icon_naver">
+							</form>
+						<dd>
+							<form>
+								<input type="button" value="네이버 로그인" class="btn_sns btn_icon_kakao">
+							</form>
+						</dd>
 					</dl>
 				</div>
 				<div class="inp_login">
@@ -38,8 +49,11 @@
 						<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="password">
 						<a href="#" class="inp_submit_a inp_full">로그인</a>
 						<div class="custom_cbox login_chk_box">
-							<input type="checkbox" id="emailSave">
-							<label for="emailSave">이메일 주소 저장</label>
+							<label>
+								<input type="checkbox">
+								<span class="box"></span>
+								<span class="label">이메일 주소 저장</span>
+							</label>
 						</div>
 					</fieldset>
 				</div>

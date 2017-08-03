@@ -21,10 +21,10 @@ $(function(){
 		});
 	}
 	
-	//
+	// 측면 메뉴 닫기 버튼 활성화
 	if($(".user_custom_filter").length > 0){
 		var aside = $(".user_custom_filter");
-		aside.find("dt").bind("click", function(){
+		aside.find(".filter_tit").bind("click", function(){
 			$(this).toggleClass("close");
 		});
 	}

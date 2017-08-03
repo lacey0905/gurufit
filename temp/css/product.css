@@ -1,7 +1,123 @@
 /* PRODUCT LIST TYPE */
-/* A - 메인에서 사용한 제품 리스트로 [x4,x2] 클레스를 추가하여 리스트 컬럼을 조절 할 수 있음 */
+/* A - 메인에서 사용한 제품 리스트로 [x2, x4~] 클레스를 추가하여 리스트 컬럼을 조절 할 수 있음 */
+.custom_prd {}
+.custom_prd .prd_more {
+	padding:65px 0;
+	text-align:center;
+}
+.custom_prd .prd_more a {
+	display:inline-block;
+	min-width:150px;
+	font-size:16px;
+	font-weight:300;
+	letter-spacing:-0.6px;
+	color:#4a4a4a;
+	padding:11px 24px;
+	background-color: #ffffff;
+	border: solid 1px #747474;
+	box-sizing:border-box;
+}
+.custom_prd .prd_more a em {
+	font-weight:600;
+	font-size:16px;
+	letter-spacing:-0.6px;
+	color:#4a4a4a;
+}
+.custom_prd .x2 > li {
+	width:50%;
+}
+.custom_prd .x3 > li {
+	width:33.334%;
+}
+.custom_prd .x4 > li {
+	width:25%;
+}
+.custom_prd .x5 > li {
+	width:20%;
+}
+.custom_prd .x2 > li:nth-child(3n),
+.custom_prd .x4 > li:nth-child(5n),
+.custom_prd .x4 > li:nth-child(6n) {
+	clear:both;
+}
+
+/* 제품 리스트 이미지 */
+.prd_thum,
+.prd_type_b figure .thum {
+	position:relative;
+	display:block;
+	padding-bottom:30px;
+}
+.prd_thum a.my_list_btn,
+.prd_type_b figure .thum a.my_list_btn {
+	display:none;
+	position:absolute;
+	top:0;
+	font-size:12px;
+	font-weight:300;
+	letter-spacing:-0.5px;
+	color:#4a4a4a;
+	line-height:18px;
+	vertical-align:top;
+}
+.prd_thum a.my_list_btn i,
+.prd_type_b figure .thum a.my_list_btn i {
+	display:inline-block;
+	margin-right:7px;
+	font-size:15px;
+	color:#9b9b9b;
+	line-height:18px;
+	vertical-align:top;
+}
+.prd_thum a.my_list_btn:before,
+.prd_type_b figure .thum a.my_list_btn:before {
+	content:"\e801";
+	display:inline-block;
+	margin-right:7px;
+	font-weight:300;
+	font-size:14px;
+	font-family: fontello;
+	color:#9b9b9b;
+	line-height:18px;
+	vertical-align:top;
+}
+.prd_thum a.my_list_btn.check:before,
+.prd_type_b figure .thum a.my_list_btn.check:before {
+	content:"\e805";
+	color:#7053ff;
+}
+.prd_thum img,
+.prd_type_b figure .thum img {
+	width:100%;
+}
+.prd_thum:after,
+.prd_type_b figure .thum:after {
+	content:" ";
+	display:block;
+	width:80%;
+	height:11px;
+	margin:5px auto 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,ffffff+70 */
+	background:none; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, #ffffff 70%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,#ffffff 70%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #e9e9e9 0%,#ffffff 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.prd_type_bgc figure .thum:after {
+	width:90%;
+	height:15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,f7f8fa+70 */
+	background:none; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, #f7f8fa 60%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,#f7f8fa 60%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #e9e9e9 0%,#f7f8fa 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#f7f8fa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
 .prd_type_a {
 	text-align:center;
+	margin-top:30px;
 }
 .prd_type_a > h2 {
 	font-family: 'texgyreadventorbold_italic';
@@ -23,20 +139,13 @@
 	padding-bottom:23px;
 	float:left;
 }
-.prd_type_a .x2 li {
-	width:50%;
-}
-.prd_type_a .x4 li {
-	width:25%;
-}
-.prd_type_a .x2 li:nth-child(3),
-.prd_type_a .x4 li:nth-child(5) {
-	clear:both;
-}
 .prd_type_a a {}
 .prd_type_a figure {
 	margin-left:30px;
 } 
+.prd_type_a .x3 figure {
+	margin-left:20px;
+}
 .prd_type_a figure img {
 	width:100%;
 }
@@ -164,85 +273,9 @@
 	margin-bottom:20px;
 	vertical-align:top;
 }
-.prd_type_b .x2 > li {
-	width:50%;
-}
-.prd_type_b .x4 > li {
-	width:25%;
-}
-.prd_type_b .x2 > li:nth-child(3),
-.prd_type_b .x4 > li:nth-child(5) {
-	clear:both;
-}
 .prd_type_b figure {
 	margin-left:20px;
 } 
-.prd_type_b figure .thum {
-	position:relative;
-	display:block;
-	padding-bottom:30px;
-}
-.prd_type_b figure .thum a.my_list_btn {
-	display:none;
-	position:absolute;
-	top:0;
-	font-size:12px;
-	font-weight:300;
-	letter-spacing:-0.5px;
-	color:#4a4a4a;
-	line-height:18px;
-	vertical-align:top;
-}
-.prd_type_b figure .thum a.my_list_btn i {
-	display:inline-block;
-	margin-right:7px;
-	font-size:15px;
-	color:#9b9b9b;
-	line-height:18px;
-	vertical-align:top;
-}
-.prd_type_b figure .thum a.my_list_btn:before {
-	content:"\e801";
-	display:inline-block;
-	margin-right:7px;
-	font-weight:300;
-	font-size:14px;
-	font-family: fontello;
-	color:#9b9b9b;
-	line-height:18px;
-	vertical-align:top;
-}
-.prd_type_b figure .thum a.my_list_btn.check:before {
-	content:"\e805";
-	color:#7053ff;
-}
-
-.prd_type_b figure .thum img {
-	width:100%;
-}
-.prd_type_b figure .thum:after {
-	content:" ";
-	display:block;
-	width:80%;
-	height:11px;
-	margin:5px auto 0;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,ffffff+70 */
-	background:none; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, #ffffff 70%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,#ffffff 70%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #e9e9e9 0%,#ffffff 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
-.prd_type_bgc figure .thum:after {
-	width:90%;
-	height:15px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,f7f8fa+70 */
-	background:none; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, #f7f8fa 60%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,#f7f8fa 60%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #e9e9e9 0%,#f7f8fa 60%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#f7f8fa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
 .prd_type_b figcaption {
 	margin-top:13px;
 }
@@ -319,7 +352,7 @@
 	background-color:#fff;
 	z-index:100;
 }
-.detial_color_list {
+.detial_color_list ul {
 	overflow:hidden;
 }
 .detial_color_list li {
@@ -354,8 +387,7 @@
 	height:18px;
 	line-height:17px;
 }
-.detial_opt_list .check_opt_box li:hover a,
-.detial_opt_list .check_opt_box li.active a {
+.detial_opt_list .check_opt_box li:not(.dis) a {
 	font-size:12px;
 	font-weight:400;
 	background-color:#fff;
@@ -363,6 +395,175 @@
 	border-color:#bbb;
 	opacity:1;
 }
+
+
+
+
+/* PRODUCT LIST TYPE */
+.prd_list_type {
+	width:100%;
+}
+.prd_list_type h3 {
+	font-size:22px;
+	font-weight:400;
+	color:#000;
+	text-align:left;
+	line-height:33px;
+	padding:43px 0 20px;
+	border-bottom:solid 2px #4a4a4a;
+}
+
+.prd_list_a {
+	width:100%;
+}
+.prd_list_a .col_check {
+	width:60px;
+}
+.prd_list_a .col_thum {
+	width:220px;
+}
+.prd_list_a .col_price {
+	width:150px;
+}
+.prd_list_a td {
+	padding:0;
+	border-bottom:solid 1px #e1e1e1;
+	text-align:center;
+	vertical-align:middle;
+}
+.prd_list_a .thum {}
+.prd_list_a .thum img {
+	display:block;
+	width:80%;
+	margin:0 auto;
+}
+.prd_list_a .cont {
+	padding-left:20px;
+	text-align:left;
+}
+.prd_list_a .cont .brand {
+	display:block;
+	margin-top:50px;
+}
+.prd_list_a .cont .name {
+	display:block;
+	font-size:20px;
+	font-weight:400;
+	text-align:left;	
+	color:#000;
+	line-height:29px;
+	margin-top:10px;
+}
+.prd_list_a .cont .opt {
+	display:inline-block;
+	max-width:80%;
+	margin-top:5px;
+}
+.prd_list_a .cont .opt dt,
+.prd_list_a .cont .opt dd {
+	display:inline-block;
+	font-size:14px;
+	color:#8f8f8f;
+	letter-spacing:-0.3px;
+	line-height:20px;
+}
+.prd_list_a .cont .opt dd {
+	margin-right:15px;
+}
+.prd_list_a .cont .btn_modify {
+	display:inline-block;
+	font-size:14px;
+	font-weight:300;
+	color:#4990e2;
+	line-height:20px;
+	text-decoration:underline;
+	vertical-align:top;
+	margin-top:5px;
+}
+.prd_list_a .cont .btn_del {
+	margin:30px 0 25px;
+}
+.prd_list_a .cont .btn_del a {
+	display:block;
+	font-size:14px;
+	color:#aaa;
+	text-align:left;
+	line-height:20px;
+	text-decoration:underline;
+}
+.prd_list_a .price {
+	line-height:30px;
+}
+.prd_list_a .price .customer,
+.prd_list_a .price .sell_price {
+	display:block;
+	font-size:20px;
+}
+.prd_list_a .price .customer {
+	font-weight:300;
+	color:#9b9b9b;
+}
+.prd_list_a .price .sell_price {
+	font-weight:600;
+	color:#000;
+}
+.prd_list_control {
+	margin-top:36px;
+}
+.prd_list_control .btn_left {}
+.prd_list_control .btn_left li {
+	display:inline-block;
+	border:solid 1px #e4e4e4; 
+	margin-right:7px;
+}
+.prd_list_control .btn_left li a {
+	display:block;
+	text-align:center;
+	font-size:14px;
+	color:#333;
+	line-height:16px;
+	padding:10px;
+}
+.prd_list_control .btn_left .s_lar {
+	min-width:170px;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

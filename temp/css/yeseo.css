@@ -373,7 +373,8 @@
 	width:100%;
 }
 
-.mem_list th,td {
+.mem_list th,
+.mem_list td {
 	background-color:#fff;	
 }
 
@@ -1303,6 +1304,11 @@
 }
 .product_spec td:nth-child(2) ul li{
 	width:58px;
+	text-align:center;
+}
+.product_spec td:nth-child(2) ul li img {
+	width:26px;
+	height:26px;	
 }
 .product_spec_area td {
 }

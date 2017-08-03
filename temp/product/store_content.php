@@ -263,33 +263,33 @@
 								</td>
 								<td>
 									<ul>
-										<li><img src="./img/product_spec.png" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt="#"></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
-										<li><img src="" alt=""></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
+										<li><img src="../img/product_spec.png" alt="#"></li>
 									</ul>
 								</td>
 								<td>

@@ -39,6 +39,7 @@
 									</div>
 								</div>
 							</div>
+							<a href="#" class="inp_submit_a inp_full">취소</a>
 							<a href="#" class="inp_submit_a inp_full">비밀번호 링크 발송</a>
 						</fieldset>
 				 </div>	

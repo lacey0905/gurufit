@@ -25,6 +25,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Swiper JS Plugin -->
+    <script src="../js/sectionDisplay.js"></script>
     <script src="../js/swiper.min.js"></script>
     <script src="../js/ui.js"></script>
 

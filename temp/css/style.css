@@ -1286,18 +1286,181 @@
 }
 
 
+/* SUB TITLE */
+.tit_sub_a {
+	font-size:22px;
+	font-weight:400;
+	color:#000;
+	text-align:left;
+	line-height:33px;
+	padding:43px 0 20px;
+	border-bottom:solid 2px #4a4a4a;
+}
+
+
+/* ADDRESS TABLE */
+.addr_wrap {
+	display:table;
+	width:100%;
+	border-bottom:solid 1px #d8d8d8;
+}
+.addr_inp_table {
+	display:table-cell;
+	width:638px;
+	padding:15px 30px 15px 0;
+}
+.addr_inp_table .addr_text {}
+.addr_inp_table .addr_text span {
+	display:block;
+	font-size:16px;
+	color:#4a4a4a;
+	text-align:left;
+	line-height:30px;
+}
+.addr_inp_table .tit {
+	width:160px;
+}
+.addr_inp_table .cont {}
+.addr_inp_table th {
+	font-size:16px;
+	font-weight:400;
+	text-align:left;
+	color:#8f8f8f;
+	padding:8px 0 8px 5px;
+}
+.addr_inp_table .tit_top {
+	vertical-align:top;
+}
+.addr_inp_table td {
+	font-size:16px;
+	color:#4a4a4a;
+	text-align:left;
+	padding:5px 0;
+}
+.addr_inp_table td.radio > .table_radio {
+	margin-right:20px;
+}
+.addr_inp_table td .tel_inp_wrap {
+	display:inline-block;
+	vertical-align:middle;
+	margin:0 10px 0 0;
+	font-size:0;
+}
+.addr_inp_table td .addr_inp_wrap a {
+	display:inline-block;
+	margin-right:10px;
+}
+.addr_inp_table .addr_inp_add {}
+.addr_inp_table .addr_inp_add input {
+	margin-top:10px;
+}
+.addr_inp_table .addr_inp_check {
+	text-align:right;
+	margin:10px 0;
+}
+/* 우측 주문인 정보 */
+.addr_result {
+	position:relative;
+	display:table-cell;
+	widht:428px;
+	border-left:solid 1px #d8d8d8;
+}
+.addr_result dl {
+	margin-left:25px;
+}
+.addr_result dt {
+	display:inline-block;
+	width:80px;
+	font-size:16px;
+	font-weight:400;
+	text-align:left;
+	color:#8f8f8f;
+	padding:8px 0 8px 5px;
+}
+.addr_result dd {
+	display:inline-block;
+	width:310px;
+	font-size:16px;
+	font-weight:400;
+	text-align:left;
+	color:#4a4a4a;
+	padding:8px 0 8px 5px;
+}
+.addr_result .btn_modify {
+	position:absolute;
+	top:21px;
+	right:0;
+}
 
 
 
-/* ORDER */
+/* PAYMENT */
+.payment_wrap {
+	border-bottom:solid 1px #d8d8d8;
+	padding:13px 0 0 2px;
+	overflow:hidden;
+}
+.payment_wrap .payment_tit {
+	display:block;
+	width:160px;
+	font-size:16px;
+	font-weight:400;
+	color:#8f8f8f;
+	line-height:40px;
+	float:left;
+}
+.payment_list {
+	float:left;
+}
+.payment_list .payment_radio {
+	font-weight:400;
+	display:inline-block;
+	margin-right:40px;
+	line-height:35px;
+}
+.payment_list .payment_child {
+	min-height:100px;
+	padding-bottom:20px;
+}
+.payment_list .child {}
+.payment_list .child .tip_list {}
+.payment_list .child .tip_list a {
+	display:inline-block;
+	font-size:12px;
+	font-weight:300;
+	color:#8f8f8f;
+	margin-left:12px;
+	line-height:40px;
+}
+.payment_list .child .tip_list a:after {
+	content:"\E887";
+	display:inline-block;
+	font-family:'Material Icons';
+	font-size:14px;
+	color:#8f8f8f;
+	opacity:0.5;
+	margin-left:5px;
+	vertical-align:top;
+	line-height:32px;
+}
+.payment_list .child .tip_info_list {
+	margin-top:25px;
+}
+.payment_list .child .tip_info_list li {
+	display:block;
+	font-size:12px;
+	line-height:25px;
+	color:#9b9b9b;
+}
+
+
 
 /* CART */
 .cart_result {}
-
-
 /* 쿠폰 선택 리스트 */
 .coupone_select_list {
-	margin:45px 0 17px;
+	padding:45px 0 17px;
+	border-bottom:solid 1px #d8d8d8;
 }
 .coupone_select_list dl {
 	position:relative;
@@ -1356,22 +1519,21 @@
 	background-color:#f8e71c;
 }
 
-
+/* 결제 정보 박스 */
 .order_result_box {}
-.order_result_box dl {
-	border-top:solid 1px #d8d8d8;
+.order_result_box .result_box_a {
 	padding:16px 20px 16px 30px;
 	background-color:#f9f9f9;
 	overflow:hidden;
 }
-.order_result_box dl dt {
+.order_result_box .result_box_a dt {
 	width:calc(100% - 100px);
 	font-size:14px;
 	color:#8f8f8f;
 	line-height:40px;
 	float:left;
 }
-.order_result_box dl dd {
+.order_result_box .result_box_a dd {
 	width:100px;
 	line-height:40px;
 	text-align:right;
@@ -1379,9 +1541,75 @@
 	color:#f6a623;
 	float:left;
 }
-.order_result_box dl dd.price {
+.order_result_box .result_box_a dd.price {
 	color:#4a4a4a;
 }
+
+.result_box_mix {
+	background-color:#f6f6f6;
+}
+.result_box_mix .order_cont {
+	display:table;
+	width:100%;	
+	border-top:solid 1px #d8d8d8;
+	padding:15px 0;
+}
+.result_box_mix .order_cont dl:first-child {
+	display:table-cell;
+	width:690px;
+	background-color:#f6f6f6;
+	vertical-align:top;
+	padding:0px 30px;
+}
+.result_box_mix .result_opt {
+	display:table-cell;
+	border-left:solid 1px #d8d8d8;
+	vertical-align:top;
+	padding-left:20px;
+}
+.result_box_mix .result_opt .result_opt_tit {
+	font-size:16px;
+	line-height:40px;
+	color:#8f8f8f;
+	float:left;
+}
+.result_box_mix .result_opt .result_opt_cont {
+	text-align:right;
+	padding-right:34px;
+	float:rihgt;
+}
+.result_box_mix .result_opt .result_opt_cont em,
+.result_box_mix .result_opt .result_opt_cont span {
+	display:block;
+	color:#4a4a4a;
+	font-size:16px;
+	line-height:20px;
+}
+.result_box_mix .result_opt .result_opt_cont em {
+	line-height:40px;
+}
+
+
+.order_number {
+	padding:25px 30px 12px;
+}
+.order_number em,
+.order_number span {
+	font-size:18px;
+	text-align:left;
+	line-height:27px
+}
+.order_number em {
+	color:#8f8f8f;
+	margin-right:5px;
+}
+.order_number span {
+	color:#000;
+}
+
+
+
+
 .order_result_box .total_price {
 	border-top:solid 1px #d8d8d8;
 	background-color:#f0f0f0;
@@ -1407,6 +1635,7 @@
 }
 
 
+/* 결제 버튼 */
 .btn_order_submit {
 	margin:30px 0 20px;
 	overflow:hidden;
@@ -1456,8 +1685,39 @@
 
 
 
-
-
+/* 완료 박스 */
+.complate_box_a {
+	text-align:center;
+}
+.complate_box_a .comp_tit,
+.complate_box_a .comp_tit em {
+	font-size:36px;
+	font-weight:300;
+	color:#0178ff;
+	letter-spacing:-0.5px;
+	text-align:center;
+}
+.complate_box_a .comp_tit {
+	position:relative;
+	padding:65px 0 35px;
+	line-height:54px;
+}
+.complate_box_a .comp_tit em {
+	font-weight:400;
+}
+.complate_box_a .comp_tit:after {
+	content:" ";
+	position:absolute;
+	bottom:0;
+	left:50%;
+	width:1px;
+	height:26px;
+	border-left:solid 1px #979797;
+}
+.complate_box_a .comp_cont {
+	display:inline-block;
+	margin-top:0px;
+}
 
 
 

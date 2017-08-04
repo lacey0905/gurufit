@@ -403,16 +403,6 @@
 .prd_list_type {
 	width:100%;
 }
-.prd_list_type h3 {
-	font-size:22px;
-	font-weight:400;
-	color:#000;
-	text-align:left;
-	line-height:33px;
-	padding:43px 0 20px;
-	border-bottom:solid 2px #4a4a4a;
-}
-
 .prd_list_a {
 	width:100%;
 }
@@ -431,7 +421,9 @@
 	text-align:center;
 	vertical-align:middle;
 }
-.prd_list_a .thum {}
+.prd_list_a .thum {
+	padding:23px 0;
+}
 .prd_list_a .thum img {
 	display:block;
 	width:80%;
@@ -443,7 +435,6 @@
 }
 .prd_list_a .cont .brand {
 	display:block;
-	margin-top:50px;
 }
 .prd_list_a .cont .name {
 	display:block;
@@ -481,7 +472,7 @@
 	margin-top:5px;
 }
 .prd_list_a .cont .btn_del {
-	margin:30px 0 25px;
+	margin:30px 0 0px;
 }
 .prd_list_a .cont .btn_del a {
 	display:block;

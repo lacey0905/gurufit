@@ -89,8 +89,8 @@
     					</figcaption>
 					</figure>
 				</a>
-			</li>
-		</ul>
+			</li>			
+		</ul>		
 	</article>
 	<article class="lookbook_type">
 		<dl>

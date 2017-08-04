@@ -30,6 +30,7 @@
 			<div class="my_dash_board">
 				<div class="dash_x3">
 					<h3 class="dash_tit">공개 뱃지</h3>
+					
 				</div>
 			</div>
 			

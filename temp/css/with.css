@@ -438,7 +438,7 @@
 	vertical-align:middle;
 	text-align:center;
 	width:5em;
-	min-width:158px;
+	min-width:122px;
 }
 .tab_active_type ul li:last-child {
 	border-right:solid 1px #ddd;

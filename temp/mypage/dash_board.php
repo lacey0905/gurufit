@@ -28,9 +28,38 @@
 			
 			
 			<div class="my_dash_board">
-				<div class="dash_x3">
+				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">공개 뱃지</h3>
-					
+					<figure class="dash_profile">
+						<img src="../img/review-1.png" alt="">
+						<figcaption>잘 나가는 리뷰어</figcaption>
+					</figure>
+					<div class="dash_badge_list">
+						<strong class="badge_tit">
+							경험치 뱃지
+							<a href="#" class="badge_more">공개뱃지 미션보기</a>
+						</strong>
+						<ul class="badge_list">
+							<li>
+								<a href="#">
+									<img src="../img/review-1.png" alt="">
+									<span>리뷰</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="" alt="">
+									<span>사진</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="" alt="">
+									<span>소셜</span>
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			
@@ -39,4 +68,30 @@
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  

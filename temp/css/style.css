@@ -1721,6 +1721,87 @@
 
 
 
+/* MAYPAGE */
+
+
+/* DASH BOARD */
+.my_dash_board {
+	background-color:#fcfcff;
+	border:solid 1px #e6e9f0;
+}
+.my_dash_board .dash_x3 {
+	width:33.334%;
+}
+.my_dash_board .dash_sec {
+	padding:25px 38px;
+}
+.dash_tit {
+	display:block;
+	font-size:18px;
+	font-weight:400;
+	color:#000;
+	line-height:27px;
+}
+.dash_profile {
+	margin-top:35px;
+}
+.dash_profile img {
+	display:block;
+	margin:0 auto;
+}
+.dash_profile figcaption {
+	display:block;
+	font-size:18px;
+	line-height:27px;
+	color:#4a4a4a;
+	text-align:center;
+	margin-top:8px;
+}
+.dash_badge_list {}
+.dash_badge_list .badge_tit {
+	font-size:16px;
+	font-weight:400;
+	color:#000;
+	line-height:24px;
+}
+.dash_badge_list .badge_tit .badge_more {
+	font-size:12px;
+	font-weight:400;
+	color:#2f54bd;
+	text-decoration:underline;
+	line-height:24px;
+	float:right;
+}
+.badge_list {
+	font-size:0;
+}
+.badge_list li {
+	display:inline-block;
+}
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -125,7 +125,7 @@
 					</tr>
 					<tr>
 						<th>연락처</th>
-						<td>
+						<td class="inline_btn_wrap">
 							<div class="tel_inp_wrap">
     							<input type="text" class="inp_nm_box h_mid w_x1">
     							<span class="inp_hyphen"></span>

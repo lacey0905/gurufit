@@ -1340,11 +1340,16 @@
 .addr_inp_table td.radio > .table_radio {
 	margin-right:20px;
 }
+.inline_btn_wrap {
+	font-size:0 !important;
+}
 .addr_inp_table td .tel_inp_wrap {
 	display:inline-block;
 	vertical-align:middle;
-	margin:0 10px 0 0;
 	font-size:0;
+}
+.addr_inp_table td .tel_inp_wrap + a {
+	margin-left:10px;
 }
 .addr_inp_table td .addr_inp_wrap a {
 	display:inline-block;

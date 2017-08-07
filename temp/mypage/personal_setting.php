@@ -49,7 +49,7 @@
 							<dl>
 								<dt>이름</dt>
 								<dd>홍길동</dd>
-								<dd>편집</dd>
+								<dd class="personal_info_edit">편집</dd>
 								<dt>닉네임</dt>
 								<dd>단호박정식</dd>
 								<dt>휴대전화번호</dt>
@@ -69,16 +69,16 @@
 						<td>
 							<dl>
 								<dt>배송지주소</dt>
-								<dd>
+								<dd class="name_area">
 									<p>이름 <span>김하영</span></p>
 									<p>연락처 <span>051-6215-8168</span></p>
-									<p>편집</p>	
+									<p class="shopping_info_edit">편집</p>	
 								</dd>
-								<dd>
+								<dd class="address_area">
 									<p>주소<span>47241</span></p>
 									<p>부산광역시 부산진구 전포대로275번길 20, 서면롯데캐슬스카이 123-2345</p>
 								</dd>
-								<dd>
+								<dd class="button_area">
 									<span>+ 새로운 주소 입력</span>
 								</dd>
 							</dl>
@@ -88,8 +88,9 @@
 						<th>알림설정</th>
 						<td>
 							<dl>
-								<dt>이메일 알림 설정</dt>
-								<dd>
+								<dt class="email">이메일 알림 설정</dt>
+								<dd class="new_contents">
+									<strong>콘텐츠 알림</strong>
 									<dl>
 										<dt>새로운 콘텐츠</dt>
 										<dd>팔로우 중인 guru / 슈어드바이저가 새로운 콘텐츠 업데이트하면 이메일 알림을 보냅니다.</dd>
@@ -99,8 +100,8 @@
 								</dd>
 								<dd>
 									<dl>
-										<dt>쇼핑 정보 알림</dt>
-										<dd>
+										<strong>쇼핑 정보 알림</strong>
+										<dd class="relative_products">
 											<dl>
 												<dt>연관 상품 업데이트 정보</dt>
 												<dd>
@@ -111,12 +112,12 @@
 												<dd>구루핏 쇼핑에서 진행하는 이벤트와 프로모션이 있는 경우 이메일 알림을 보내드립니다.</dd>
 											</dl>
 										</dd>
-										<dt>활동 업데이트</dt>
-										<dd>
+										<strong>활동 업데이트</strong>
+										<dd class="active_update_title">
 											<span>주간 업데이트</span>
 											<span>월간 업데이트</span>
 										</dd>
-										<dd>
+										<dd class="active_update_box">
 											<p><strong>경험치 알림</strong>리뷰 입력,사진등록,소셜활동을 통해 얻은 경험치 정보를 알려드립니다.</p>
 											<p><strong>뱃지알림</strong>활동을 통해 얻은 뱃지 정보를 알려드립니다.</p>
 											<p><strong>공감알림</strong>지정한 기간 동안 전에 등록한 리뷰와 사진이 얼마나 많은 공감을 얻었는지 알려드립니다.</p>
@@ -124,8 +125,8 @@
 									</dl>
 								</dd>
 							</dl>
-							<dl>
-								<dt>웹사이트 알림 설정</dt>
+							<dl class="website_area">
+								<dt class="website">웹사이트 알림 설정</dt>
 								<dd>
 									<dl>
 										<dt>알림 갯수 표시</dt>

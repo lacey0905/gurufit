@@ -105,7 +105,7 @@
 				</dl>
 			</div>
 			<div class="order_result_box">
-				<dl>
+				<dl class="result_box_a">
 					<dt>총 상품 금액</dt>
 					<dd class="price">184,000원</dd>
 					<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>

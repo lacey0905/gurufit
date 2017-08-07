@@ -2077,19 +2077,24 @@
 	width:1100px;
 }
 /*개인정보 설정-로그인 정보*/
-.personal_setting_wrapper .login_info > th {
+/*개인정보 설정-알림설정*/
+.personal_setting_wrapper .personal_alarm_setting {
+}
+.personal_setting_wrapper .personal_alarm_setting > th {
 	width: 240px;
 	background-color: #f6f6fa;
     font-size: 18px;
     text-align: center;
     color: #000000;
-    border-bottom: solid 1px #ebebeb;    	
+    border-bottom: solid 1px #ebebeb;	
 }
-.personal_setting_wrapper .login_info > td {
+.personal_setting_wrapper .personal_alarm_setting > td {
 	width:860px;
     border-bottom: solid 1px #ebebeb;	
 }
-.personal_setting_wrapper .login_info dl dt {
+.personal_setting_wrapper .personal_alarm_setting dl .email,
+.personal_setting_wrapper .personal_alarm_setting dl .website
+{
 	display:inline-block;
 	width:177px;
 	clear:both;
@@ -2100,25 +2105,80 @@
     letter-spacing: -0.6px;
     color: #000000;	
  	padding-left:40px;
-	
 }
-.personal_setting_wrapper .login_info dl dd {
-	float:left;
-	position:relative;
+.personal_setting_wrapper .personal_alarm_setting dd .strong {
+	font-size: 14px;
+    text-align: left;
+    color: #8f8f8f;
+}
+.personal_setting_wrapper .personal_alarm_setting .new_contents {
+}
+.personal_setting_wrapper .personal_alarm_setting .new_contents dt {
     font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #4a4a4a;
+}
+.personal_setting_wrapper .personal_alarm_setting .new_contents dd {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    color: #8f8f8f;	
+}
+.personal_setting_wrapper .personal_alarm_setting .relative_products {
+}
+.personal_setting_wrapper .personal_alarm_setting .relative_products dt {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.57;
+    color: #4a4a4a;
+}
+.personal_setting_wrapper .personal_alarm_setting .relative_products dd {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.69;
+    text-align: left;
+    color: #8f8f8f;	
+}
+.personal_setting_wrapper .personal_alarm_setting .active_update_title {
+}
+.personal_setting_wrapper .personal_alarm_setting .active_update_title span {
+    font-size: 14px;
+    font-weight: bold;
     text-align: left;
     color: #4a4a4a;
-    line-height: 40px;	
 }
-.personal_setting_wrapper .login_info dl dd span {
+.personal_setting_wrapper .personal_alarm_setting .active_update_box p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    color: #8f8f8f;
+}
+.personal_setting_wrapper .personal_alarm_setting .active_update_box strong {
     font-size: 14px;
-    letter-spacing: -0.6px;
-    text-align: right;
-    color: #4990e2;	
-    text-decoration:underline;
+    font-weight: bold;
 }
-.personal_setting_wrapper .login_info .email_change{
-	margin-left:9px;
+.personal_setting_wrapper .personal_alarm_setting .website_area {
+	position:relative;
+}
+.personal_setting_wrapper .personal_alarm_setting .website_area img {
+	position:absolute;
+	bottom:36px;
+	right:30px;
+}
+.personal_setting_wrapper .personal_alarm_setting .website dt{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.57;
+    color: #4a4a4a;	
+}
+.personal_setting_wrapper .personal_alarm_setting .website dd{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.69;
+    text-align: left;
+    color: #8f8f8f;	
 }
 
 

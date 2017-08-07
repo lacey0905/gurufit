@@ -12,110 +12,169 @@
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
 			<h2>Join</h2>
-			<div class="tab_active_type">
-				<ul>
-					<li class="active"><a href="#">01 회원정보입력</a></li>
-					<li><a href="#">02 회원가입완료</a></li>
-				</ul>
+			<div class="tab_step_arr">
+				<ol>
+					<li class="active">01 회원정보입력</li>
+					<li class="">02 회원가입완료</li>
+				</ol>
 			</div>
 		</section>
-		<div class="member_box">
-			<h3>회원정보 입력</h3>			
-			<div class="join_member_info">
-				<fieldset>
-					<legend class="blind">회원가입</legend>					
-						<ul>
-							<li class="join_member_info_container login_info">
-								<strong>로그인정보</strong>
-								<dl>
-									<dt>이메일 주소</dt>
-									<dd>
-										<span>groovy@shoeforrabbit.com</span>
-										<a href="#">이메일 주소 변경</a>
-									</dd>
-								</dl>							
-								<dl>
-									<dt>비밀번호</dt>
-									<dd>
-										<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="join_password">
-										<input type="password" value="" placeholder="비밀번호 확인" class="inp_nm_box inp_full" name="join_password_confirm">
-										<p>영문·숫자·특수문자 포함 6자 ~ 20자</p>	
-										<div class="password_change_progress">
-											<h4>비밀번호 안전도</h4>
-											<div class="password_progress">
-												<div class="progress">
-													<div class="progress_mask">
-													</div>
-													<span>최고 수준 보안</span>
-												</div>
-											</div>
-										</div>
-									</dd>
-								</dl>						
-							</li>
-							<li class="join_member_info_container">
-								<strong>로그인정보</strong>							
-								<dl>
-									<dt>이름</dt>
-									<dd>
-										<input type="text" value="" placeholder="이름" class="inp_nm_box inp_full" name="join_user_name">	
-									</dd>
-								</dl>
-								<dl>
-									<dt>성별</dt>
-									<dd>
-		 									<input type="radio" name="gender" value="여성" checked>여성<br>
-		 									<input type="radio" name="gender" value="남성">남성<br>	
-									</dd>
-								</dl>
-								<dl>
-									<dt>생년월일</dt>
-									<dd>
-										<input type="text" value="" placeholder="예)810714" class="inp_nm_box inp_full" name="join_user_birth">	
-									</dd>
-								</dl>
-								<dl>
-									<dt>휴대전화번호</dt>
-									<dd>
-										<input type="text" value="" placeholder="예)010-1234-1234" class="inp_nm_box inp_full" name="join_user_phone_num">	
-									</dd>
-								</dl>																											
-							</li>
-							<li class="join_member_info_container">
-								<strong>서비스 약관</strong>							
-								<dl>
-									<dt>이름</dt>
-									<dd>
-										<input type="text" value="" placeholder="이름" class="inp_nm_box inp_full" name="join_user_name">	
-									</dd>
-								</dl>
-								<dl>
-									<dt>성별</dt>
-									<dd>
-		 									<input type="radio" name="gender" value="여성" checked>여성<br>
-		 									<input type="radio" name="gender" value="남성">남성<br>	
-									</dd>
-								</dl>
-								<dl>
-									<dt>생년월일</dt>
-									<dd>
-										<input type="text" value="" placeholder="예)810714" class="inp_nm_box inp_full" name="join_user_birth">	
-									</dd>
-								</dl>
-								<dl>
-									<dt>휴대전화번호</dt>
-									<dd>
-										<input type="text" value="" placeholder="예)010-1234-1234" class="inp_nm_box inp_full" name="join_user_phone_num">	
-									</dd>
-								</dl>																											
-							</li>												
-						</ul>
-					<div class="join_member_info_button">
-						<a href="#" class="inp_submit_a inp_full">회원 가입 완료</a>
+		<div class="table_inp_wrap">
+    		<h3 class="tit_sub_b">회원정보 입력</h3>		
+    		<fieldset>
+    			<legend class="blind">회원정보 입력</legend>					
+				<ul class="form_inp_a">
+					<li>
+						<strong class="form_tit">로그인정보</strong>
+						<dl class="form_cont">
+							<dt>이메일 주소</dt>
+							<dd class="form_msg">
+								groovy@shoeforrabbit.com
+								<a href="#" class="btn_modify">이메일 주소 변경</a>
+							</dd>
+						</dl>							
+						<dl class="form_cont">
+							<dt class="tit_top x2">비밀번호</dt>
+							<dd>
+								<div class="form_inp_area">
+									<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="join_password">
+									<span class="form_inp_msg">영문·숫자·특수문자 포함 6자 ~ 20자</span>
+								</div>
+								<div class="form_inp_area">
+									<input type="password" value="" placeholder="비밀번호 확인" class="inp_nm_box inp_full" name="join_password_confirm">
+								</div>
+								<div class="progress_a">
+									<strong class="prog_tit">비밀번호 안전도</strong>
+									<div class="prog_wrap high">
+										<div class="prog_mask">
+    										<div class="prog_bar" style="width:80%;"></div>
+    									</div>
+    									<span class="prog_msg">최고 수준 보안</span>
+									</div>
+								</div>
+							</dd>
+						</dl>						
+					</li>
+					<li>
+						<strong class="form_tit">개인정보</strong>
+						<dl class="form_cont">
+							<dt class="">이름</dt>
+							<dd>
+								<div class="form_inp_area">
+									<input type="text" value="" placeholder="이름" class="inp_nm_box inp_full" name="user_name">
+								</div>
+							</dd>
+						</dl>									
+						<dl class="form_cont">
+							<dt class="">성별</dt>
+							<dd class="form_radio_wrap">
+								<div class="form_radio custom_radio">
+    								<label>
+    									<input type="radio" name="gender">
+    									<span class="box"></span>
+    									<span class="label">여성</span>
+    								</label>
+    							</div>
+    							<div class="form_radio custom_radio">
+    								<label>
+    									<input type="radio" name="gender" checked="checked"> 
+    									<span class="box"></span>
+    									<span class="label">남성</span>
+    								</label>
+    							</div>
+							</dd>
+						</dl>		
+						<dl class="form_cont">
+							<dt class="">생년월일</dt>
+							<dd>
+								<div class="form_inp_area">
+									<input type="text" value="" placeholder="예) 810714" class="inp_nm_box inp_full" name="">
+								</div>
+							</dd>
+						</dl>								
+						<dl class="form_cont">
+							<dt class="">휴대전화번호</dt>
+							<dd>
+								<div class="form_inp_area">
+									<input type="text" value="" placeholder="예) 010 - 1234 - 1234" class="inp_nm_box inp_full" name="">
+								</div>
+							</dd>
+						</dl>								
+					</li>
+					<li>
+						<strong class="form_tit">서비스 약관</strong>
+						<dl class="form_cont">
+							<dt class="tit_top">서비스 약관 동의</dt>
+							<dd>
+								<div class="agree_chk_wrap">
+									<div class="agree_head">
+        								<div class="custom_cbox cbox_d">
+                        					<label>
+                            					<input type="checkbox" id="" name="" value="" class="all_chk">
+                            					<span class="box"></span>
+                            					<span class="label">모든 약관 및 정책에 동의합니다.</span>
+                            				</label>
+                        				</div>	
+        							</div>
+        							<ul class="agree_list">
+        								<li>
+    										<div class="custom_cbox cbox_d">
+                            					<label>
+                                					<input type="checkbox" id="" name="" value="">
+                                					<span class="box"></span>
+                                					<span class="label">구루핏 구매회원 약관</span>
+                                				</label>
+                            				</div>	
+                            				<a href="#" class="agree_more">약관 전문 읽기</a>
+        								</li>
+        								<li>
+    										<div class="custom_cbox cbox_d">
+                            					<label>
+                                					<input type="checkbox" id="" name="" value="">
+                                					<span class="box"></span>
+                                					<span class="label">구루핏 전자금융 서비스 이용 약관</span>
+                                				</label>
+                            				</div>	
+                            				<a href="#" class="agree_more">약관 전문 읽기</a>
+        								</li>
+        								<li>
+    										<div class="custom_cbox cbox_d">
+                            					<label>
+                                					<input type="checkbox" id="" name="" value="">
+                                					<span class="box"></span>
+                                					<span class="label">개인정보 수집 및 이용 정책</span>
+                                				</label>
+                            				</div>	
+                            				<a href="#" class="agree_more">약관 전문 읽기</a>
+        								</li>
+        							</ul>
+								</div>
+							</dd>
+						</dl>									
+					</li>
+				</ul>
+				<script>
+				// 체크박스 전체 체크 하기
+				$(function(){
+					var elem = $(".agree_chk_wrap");
+					var check = false;
+					elem.find(".all_chk").bind("click", function(){
+						if($(this).is(":checked")){
+							check = true;
+						} else {
+							check = false;
+						}
+						elem.find(".agree_list input").prop("checked", check);
+					});
+				});
+				</script>
+				<div class="form_submit_wrap">
+					<div class="form_submit_r">
+						<a href="#" class="inp_submit_a btn_hover_shadow submit">회원 가입 완료</a>
 					</div>
-				</fieldset>		
-			</div>
-		</div>
+				</div>
+    		</fieldset>		
+    	</div>
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>

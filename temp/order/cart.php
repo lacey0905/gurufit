@@ -23,7 +23,7 @@
 		</section>
 		<!-- 장바구니 리스트 -->
 		<div class="prd_list_type">
-			<h3>01 장바구니</h3>
+			<h3 class="tit_sub_a">01 장바구니</h3>
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
 				<colgroup>
@@ -82,7 +82,7 @@
 		<div class="cart_result">
 			<!-- 쿠폰 체크 박스 -->
 			<div class="coupone_select_list">
-				<dl>
+				<dl> 
 					<dt>사용할 쿠폰 선택</dt>
 					<dd>
 						<label>
@@ -105,7 +105,7 @@
 				</dl>
 			</div>
 			<div class="order_result_box">
-				<dl>
+				<dl class="result_box_a">
 					<dt>총 상품 금액</dt>
 					<dd class="price">184,000원</dd>
 					<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
@@ -136,7 +136,7 @@
 		</div>
 		<!-- 위시리스트 리스트 -->
 		<div class="prd_list_type">
-			<h3>나중에 구매 할 상품</h3>
+			<h3 class="tit_sub_a">나중에 구매 할 상품</h3>
 			<table class="prd_list_a">
 				<caption class="blind">나중에 구매 할 상품</caption>
 				<colgroup>

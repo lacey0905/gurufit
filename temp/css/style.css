@@ -807,6 +807,10 @@
 }
 
 .review_box_list {}
+.review_box_list .review_box_head {}
+.review_box_list .review_box_head .btn_right {
+	text-align:right;
+}
 .review_box_list > ul {}
 .review_box_list > ul > li {
 	position:relative;
@@ -860,6 +864,26 @@
 	font-size:12px;
 	line-height:20px;
 }
+.review_box_list .review_list_thum {
+	width:100px;
+}
+.review_box_list .review_list_thum .thum {
+	display:block;
+	width:100%;
+	margin-bottom:15px;
+}
+.review_box_list .review_list_thum .tit,
+.review_box_list .review_list_thum .cont {
+	display:block;
+	font-size:12px;
+	color:#bbb;
+	line-height:20px;
+	text-align:left;
+}
+.review_box_list .review_list_thum .cont {
+	color:#666;
+}
+
 .review_box_list .review_list_box {
 	display:table-cell;
 	position:relative;
@@ -1750,12 +1774,22 @@
 .my_dash_board {
 	background-color:#fcfcff;
 	border:solid 1px #e6e9f0;
+	display:table;
+	width:100%;
+	padding:24px 0;
+	margin-top:50px;
 }
 .my_dash_board .dash_x3 {
+	display:table-cell;
 	width:33.334%;
 }
 .my_dash_board .dash_sec {
-	padding:25px 38px;
+	padding:0 38px;
+	box-sizing:border-box;
+	border-left: 1px solid #EBEBEB;
+}
+.my_dash_board .dash_sec:first-child {
+	border-left:0;
 }
 .dash_tit {
 	display:block;
@@ -1764,6 +1798,18 @@
 	color:#000;
 	line-height:27px;
 }
+.dash_tit .more {
+	display:inline-block;
+	font-size:12px;
+	font-weight:400;
+	color:#2f54bd;
+	line-height:15px;
+	border-bottom:solid 1px #2f54bd;
+	margin-top:6px;
+	float:right;
+}
+
+
 .dash_profile {
 	margin-top:35px;
 }
@@ -1779,7 +1825,9 @@
 	text-align:center;
 	margin-top:8px;
 }
-.dash_badge_list {}
+.dash_badge_list {
+	margin-top:50px;
+}
 .dash_badge_list .badge_tit {
 	font-size:16px;
 	font-weight:400;
@@ -1796,11 +1844,27 @@
 }
 .badge_list {
 	font-size:0;
+	margin-top:25px;
 }
 .badge_list li {
 	display:inline-block;
+	width:33.3334%;
+	text-align:center;
 }
-
+.badge_list li a {
+	display:block;
+}
+.badge_list li img {
+	display:inline-block;
+	width:60px;
+	margin:0 auto;
+}
+.badge_list li span {
+	display:block;
+	font-size:14px;
+	line-height:30px;
+	color:#4A4A4A;
+}
 
 
 
@@ -1865,7 +1929,7 @@
 }
 .form_inp_a .form_cont dd {
 	display:table-cell;
-	width:400px;
+	width:400px;  
 	padding-right:280px;
 	vertical-align:middle;
 }

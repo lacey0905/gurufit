@@ -71,7 +71,7 @@
 }
 .prd_thum a.my_list_btn:before,
 .prd_type_b figure .thum a.my_list_btn:before {
-	content:"\e801";
+	content:"\EE81";
 	display:inline-block;
 	margin-right:7px;
 	font-weight:300;
@@ -83,7 +83,7 @@
 }
 .prd_thum a.my_list_btn.check:before,
 .prd_type_b figure .thum a.my_list_btn.check:before {
-	content:"\e805";
+	content:"\EE80";
 	color:#7053ff;
 }
 .prd_thum img,

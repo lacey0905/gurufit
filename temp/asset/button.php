@@ -2,7 +2,7 @@
 <div id="button">
 
 
-<a href="#" class="btn_st_a w_x120 h_x30 btn_rnd btn_icon_heart">120x35</a >
+<a href="#" class="btn_ btn_xs1">118x35</a>
 
 
  
@@ -26,23 +26,29 @@
 330
 340
 400
+402
 
 사이즈 
-120 30
-140 40
-150 40
-150 50
-165 50
-290 60
-330 60
-130 54 
-120 54
-140 30
-165 50
-180 50
-340 60
-400 54
-400 60
+118 35 btn_x_s1
+140 40 btn_x_s2
+150 40 btn_x_s3
+150 50 btn_x_m1
+120 54 btn_x_m2
+130 54 btn_x_m3
+
+140 30 btn_s_s1
+
+165 50 btn_m_m1
+180 50 btn_m_m1
+
+290 60 btn_l_l1
+
+
+400 54 btn_xl_m1
+
+330 60 btn_xl_l1
+340 60 btn_xl_l2
+400 60 btn_xl_l3
 
 
 
@@ -57,6 +63,10 @@ btn_s_xs1 {
 btn_s_xs2 {
 	width:120px;
 	height:30px;
+}
+btn_s_xs3 {
+	width:120px;
+	height:32px;
 }
 
 

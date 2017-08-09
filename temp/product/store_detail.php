@@ -44,9 +44,9 @@
 						</h2>
 						<dl class="share">
 							<dt><em>41</em> Shares</dt>
-							<dd><a href="#" class="icon_kakao_x20">KAKAO</a></dd>
-							<dd><a href="#" class="icon_facebook_x18">FACEBOOK</a></dd>
-							<dd><a href="#" class="icon_insta_x18">INSTAGRAM</a></dd>
+							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
+							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
+							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
 						</dl>
 						<ul>
 							<li class="rating">
@@ -111,7 +111,21 @@
 						<div class="info_icon_area">
 							<ul>
 								<li>
-									<strong>Product<br>Info</strong>
+									<strong class="info_title">Product<br>Info</strong>
+									<div class="info_detail_box">
+										<strong class="tit">쿠셔닝 종류<em>Cuchioning Type</em></strong>
+										<div class="rnd_step_line">
+											<ol>
+												<li>최상의<br>쿠셔닝</li>
+												<li class="active">고탄성</li>
+												<li>경량<br>유연성</li>
+												<li>초박형</li>
+												<li>맨발에<br>가까운</li>
+											</ol>
+										</div>
+									</div>
+									
+									
 								</li>
 								<li>
 									<img src="../img/detail_icon_01.png" alt="">

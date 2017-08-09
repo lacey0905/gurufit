@@ -446,14 +446,9 @@
 							</tr>
 						</tbody>
 					</table>
-				</div>								
-
-																		
+				</div>																		
 			</div>
-		</section>				
-
-		
-		
+		</section>						
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>

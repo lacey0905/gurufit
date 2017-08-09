@@ -1277,6 +1277,33 @@
 
 /*상품상세페이지*/
 /*상품스펙*/
+.st_product_info_top {
+}
+.st_product_info_top > h3 {
+	color: #333333;	
+	font-size: 24px;	
+	line-height: 36px;
+	margin:28px 0 23px 0;	
+}
+.st_product_info_top > p {
+	color: #646464;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;
+	margin-bottom:34px;	
+}
+.st_product_info_top > ul {
+	list-style-type:disc;
+	padding-left: 20px;	
+}
+.st_product_info_top > ul > li {
+	color: #646464;	
+	font-family: SpoqaHanSans;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;	
+}
+
 .product_spec_area {
 	margin:60px 0 51px 0;
 	position:relative;
@@ -1607,6 +1634,46 @@
 }
 .spec_tip17:before {
     top: 12px;	
+}
+
+.st_product_info_bottom {
+	zoom:1;
+}
+.st_product_info_bottom:after {
+	content:"";
+	clear:both;
+	display:block;
+	
+}
+.st_product_info_bottom > h3 {
+	color: #000000;	
+	font-size: 16px;	
+	line-height: 21px;
+	margin-bottom:7px;	
+}
+.st_product_info_bottom > p {
+	width:490px;
+	height:144px;
+	
+	color: #000000;		
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 24px;	
+	text-align: justify;
+	float:left;	
+}
+.st_product_info_bottom > p > span {
+	color: #000000;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;
+	font-weight:500;
+	margin-left:5px;	
+}
+.st_product_info_bottom .st_des1 {
+	margin-right:20px;
+}
+.st_product_info_bottom .st_des2 {	
 }
 
 /*Help Desk*/

@@ -110,9 +110,11 @@
         				</a>
         			</li>
         		</ul>
-        		<div class="prd_more">
-    				<a href="#" class="btn_hover_a">더보기</a>
-    			</div>
+        		<article class="custom_prd prd_type_a">
+            		<div class="prd_more">
+        				<a href="#" class="btn_hover_a">더보기</a>
+        			</div>
+    			</article>
         	</article>
 		</section>
 	</article>

@@ -2,22 +2,89 @@
 @import url("product.css");
 
 
-
-
-
 /* BUTTON - 버튼  */
+/* 버튼 기본 속성 상속 */
+.btn_ {
+	display:inline-block;
+	vertical-align:middle;
+	text-align:center;
+	box-sizing:border-box;
+	border:solid 1px #747474;
+	color:#4A4A4A;
+}
+
+/* 버튼 포인트 컬러로 변경 */
+.btn_cp {
+	border-color:#7053FF !important;
+	background-color:#7053FF !important;
+	color:#fff !important;
+}
+/* 버튼 hover */
+.btn_hover_a:hover,
+.btn_hover_a:hover * {
+	border-color:#7053ff !important;
+	color:#7053ff !important;
+}
+.btn_hover_shadow:hover {
+	-moz-box-shadow: 3px 3px 0 0 #e6e1ff;
+	-webkit-box-shadow: 3px 3px 0 0 #e6e1ff;
+	box-shadow: 3px 3px 0 0 #e6e1ff;
+}
+/* 버튼 스타일 지정 */
+.btn_x_s1 {
+	width:118px;
+	padding:6px 0;
+	font-size:14px;
+	letter-spacing:-0.5px;
+}
+.btn_x_s2 {
+	width:140px;
+	padding:6px 0;
+	font-size:14px;
+	letter-spacing:-0.5px;
+}
+.btn_x_s3 {
+	width:150px;
+	padding:8px 0;
+	font-size:15px;
+	line-height:22px;
+}
+.btn_x_m1 {
+	width:150px;
+	padding:13px 0;
+	font-size:16px;
+	line-height:22px;
+}
+
+/*
+사이즈  네이밍 
+118 35 btn_x_s1
+140 40 btn_x_s2
+150 40 btn_x_s3
+150 50 btn_x_m1
+120 54 btn_x_m2
+130 54 btn_x_m3
+
+140 30 btn_s_s1
+
+165 50 btn_m_m1
+180 50 btn_m_m1
+
+290 60 btn_l_l1
 
 
-.h_x30 { height:30px; }
-.h_x35 { height:35px; }
-.h_x40 { height:40px; }
-.h_x50 { height:50px; }
-.h_x54 { height:54px; }
-.h_x60 { height:60px; }
+400 54 btn_xl_m1
+
+330 60 btn_xl_l1
+340 60 btn_xl_l2
+400 60 btn_xl_l3
+
+*/
 
 
 
-
+/************************/
+/* 구버전 버튼 */
 .btn_close_x47 {
 	display:inline-block;
 	width: 47px;
@@ -69,10 +136,6 @@
 	margin-top:-11px;
 	color:#000;
 }
-
-
-
-
 /* 포인트 컬러 버튼 */
 .btn_point_a {
 	display:inline-block;
@@ -82,13 +145,6 @@
 	color:#fff;
 	background-color:#7053ff;
 }
-
-
-
-
-
-
-
 /* 돋보기 버튼 */
 .btn_sch_icon {
 	display:inline-block;
@@ -111,9 +167,6 @@
     transform: rotate(-45deg);
     margin-right:7px;
 }
-
-
-
 .btn_myList {
 	display:inline-block;
 	font-size:14px;
@@ -142,16 +195,6 @@
 }
 .btn_myList > i {
 	margin-right:8px;
-}
-.btn_hover_a:hover,
-.btn_hover_a:hover * {
-	border-color:#7053ff !important;
-	color:#7053ff !important;
-}
-.btn_hover_shadow:hover {
-	-moz-box-shadow: 3px 3px 0 0 #e6e1ff;
-	-webkit-box-shadow: 3px 3px 0 0 #e6e1ff;
-	box-shadow: 3px 3px 0 0 #e6e1ff;
 }
 .btn_normal {
 	display:inline-block;

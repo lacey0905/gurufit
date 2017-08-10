@@ -2114,6 +2114,10 @@
 	font-weight:bold;
 	color:#f6a623;
 }
+
+
+/* 옵션 선택 박스 */
+
 .check_opt_box ul {
 	overflow:hidden;
 }

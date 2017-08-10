@@ -10,7 +10,9 @@
 		</div>
 	</div>
 	<article class="sub_content">
+		<!-- 상세 페이지 -->
 		<section class="detail_wrap">
+			<!-- 상세 페이지 상단 -->
 			<div class="detail_head">
 				<div class="custom_inner">
 					<div class="detail_thum">
@@ -62,6 +64,7 @@
 							<li class="price">
 								<strong>89,100원</strong>
 								<del>99,000원</del>
+								<span class="icon"><img src="../img/icon_detail_01.png" alt=""></span>
 							</li>
 						</ul>
 						<dl class="opt">
@@ -84,8 +87,16 @@
 							<dd class="opt_cont">
 								<div class="check_opt_box">
 									<ul class="x8">
-										<li class="active"><a href="#">230</a></li>
-										<li><a href="#">235</a></li>
+										<li class="active">
+											
+										
+										
+											<a href="#">230</a>
+										</li>
+										<li><a href="#">235</a>
+										
+										
+										</li>
 										<li><a href="#">240</a></li>
 										<li><a href="#">245</a></li>
 										<li><a href="#">250</a></li>
@@ -113,39 +124,161 @@
 								<li>
 									<strong class="info_title">Product<br>Info</strong>
 									<div class="info_detail_box">
-										<strong class="tit">쿠셔닝 종류<em>Cuchioning Type</em></strong>
-										<div class="rnd_step_line">
-											<ol>
-												<li>최상의<br>쿠셔닝</li>
-												<li class="active">고탄성</li>
-												<li>경량<br>유연성</li>
-												<li>초박형</li>
-												<li>맨발에<br>가까운</li>
-											</ol>
-										</div>
+										<div class="box_inner">
+    										<strong class="tit">쿠셔닝 종류<em>Cuchioning Type</em></strong>
+    										<div class="rnd_step_line">
+    											<ol>
+    												<li><em>최상의<br>쿠셔닝</em></li>
+    												<li class="active"><em>고탄성</em></li>
+    												<li><em>경량<br>유연성</em></li>
+    												<li><em>초박형</em></li>
+    												<li><em>맨발에<br>가까운</em></li>
+    											</ol>
+    										</div>
+    										<p class="info_msg_short">
+    											탄성이 좋은 소재의 미드솔을 사용하여 운동 시 피로감을 줄여줍니다.
+    										</p>
+    									</div>
 									</div>
-									
-									
 								</li>
 								<li>
 									<img src="../img/detail_icon_01.png" alt="">
 									<span>중립</span>
+									<div class="info_detail_box">
+										<div class="box_inner">
+    										<strong class="tit">뒷굽높이</strong>
+    										<div class="rnd_step_line active_caption">
+    											<ol>
+    												<li><em>낮음</em><br>2cm 미만</li>
+    												<li><em>보통</em><br>2~3.5cm</li>
+    												<li class="active"><em>높음</em><br>3.6~5cm<strong>4.5cm</strong></li>
+    												<li><em>매우 높음</em><br>5cm 초과</li>
+    											</ol>
+    										</div>
+    										<p class="info_msg_short">
+    											탄성이 좋은 소재의 미드솔을 사용하여 운동 시 피로감을 줄여줍니다.
+    										</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<img src="../img/detail_icon_02.png" alt="">
-									<span>매우 푹신함</span>
+									<span>무게</span>
+									<div class="info_detail_box">
+										<div class="box_inner">
+    										<strong class="tit">뒷굽높이</strong>
+    										<div class="rnd_step_line active_caption">
+    											<ol>
+    												<li><em>매우<br>가벼움</em></li>
+    												<li class="active"><em>가벼움</em><strong>325g</strong></li>
+    												<li><em>보통</em></li>
+    												<li><em>무거움</em></li>
+    												<li><em>매우<br>무거움</em></li>
+    											</ol>
+    										</div>
+    										<p class="info_msg_short">
+    											남성 트레이닝&짐 카테고리 상품 중 20~40%에 해당하는 가벼움
+    										</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<img src="../img/detail_icon_03.png" alt="">
 									<span>매우 가벼움</span>
+									<div class="info_detail_box">
+										<div class="box_inner">
+    										<strong class="tit">내전<em>Pronation</em></strong>
+    										<div class="rnd_step_line add_title">
+    											<ol>
+    												<li class="active">
+    													<div class="tit_img"><img src="../img/img_over_pronation.png" alt=""></div>
+    													<em>과내전</em><br>over pronation
+    												</li>
+    												<li><em>중립</em></li>
+    												<li class="">
+    													<div class="tit_img"><img src="../img/img_under_pronation.png" alt=""></div>
+    													<em>외전/과외전</em><br>under pronation
+    												</li>
+    											</ol>
+    										</div>
+    										<p class="info_msg_long">
+    											걷거나 달릴 때 충격을 흡수하기 위해 발이 자연스럽게 안쪽으로 기울어지는 현상을 내전이라고 합니다. 
+    											<em>과내전</em>은 내전 시 기울어지는 각도가 큰 경우를 의미합니다. 
+    											기울어지는 각도가 큰 만큼 자세가 불안정해지고 발목과 무릎에 가해지는 스트레스가 
+    											커지기 때문에 탄탄한 미드솔로 아치를 지지할 수 있는 안정성이 강화된 신발을 권장합니다.  
+    											<br><br>
+    											*정확한 측정을 바탕으로 적합한 러닝화를 착용해야 쉽게 피로하지 않고 부상을 방지할 수 있습니다. 
+    										</p>
+										</div>
+									</div>
 								</li>
 								<li>
 									<img src="../img/detail_icon_04.png" alt="">
 									<span>폴리에스터</span>
+									<div class="info_detail_box">
+										<div class="box_inner">
+    										<strong class="tit">부츠 발목높이</strong>
+    										<div class="rnd_step_line add_title active_caption">
+    											<ol>
+    												<li class="active">
+    													<div class="tit_img"><img src="../img/icon_high_01.png" alt=""></div>
+    													<em>발목</em>
+    													<br>10cm 이하
+    													<strong>8 cm</strong>
+    												</li>
+    												<li>
+    													<div class="tit_img"><img src="../img/icon_high_02.png" alt=""></div>
+    													<em>종아리</em>
+    													<br>10~20cm
+    												</li>
+    												<li class="">
+    													<div class="tit_img"><img src="../img/icon_high_03.png" alt=""></div>
+    													<em>무릎</em>
+    													<br>20~30cm
+    												</li>
+    											</ol>
+    										</div>
+										</div>
+									</div>
 								</li>
 								<li>
 									<img src="../img/detail_icon_05.png" alt="">
 									<span>스니커즈</span>
+									<div class="info_detail_box">
+										<div class="box_inner">
+    										<strong class="tit">주요 소재</strong>
+    										<div class="icon_title">
+    											<ul>
+    												<li>
+    													<img src="../img/icon_material_01.png" alt="">
+    													<span>천연가죽</span>
+    												</li>
+    												<li>
+    													<img src="../img/icon_material_01.png" alt="">
+    													<span>천연가죽</span>
+    												</li>
+    												<li>
+    													<img src="../img/icon_material_01.png" alt="">
+    													<span>천연가죽</span>
+    												</li>
+    											</ul>
+    											
+    										</div>
+    										<p class="info_msg_long">
+    											<strong>소가죽</strong>
+    											소가죽은 가장 보편적인 천연가죽 소재입니다. 
+    											겉면의 부드럽고 미세한 감촉은 물론 통기성, 
+    											내구성 등 모든면에서 가장 품질이 좋은 소재입니다. 
+    											가공법에 따라 다양한 유형과 품질로 구분됩니다. 
+    										</p>
+    										<p class="info_msg_long">
+    											<strong>나파 <em>Nappa</em></strong>
+    											미국 캘리포니아 나파밸리에 위치한 가죽 가공회사가 개발한, 
+    											가죽 고유의 결을 그대로 살리면서 부드럽게 가공하는 방법으로 생산된 가죽을 말합니다. 
+    											전통적인 가공법으로 만들어진 가죽보다 발색이 좋고 내구성이 뛰어나며 오염에 강합니다.
+    										</p>
+										</div>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -187,6 +320,10 @@
 					</div>
 				</nav>
 				<div class="custom_inner">
+				
+					<iframe src="./detail_frame.php"></iframe>
+				
+				
 					<h3>NIKE Metcon DSX Flyknit</h3>
 					<p>
 						93년도의 아이코닉한 러닝화와 엣지 있는 모던한 스타일이 결합하여 신선한 디자인을 선보이는 튜블라 시리즈입니다.<br>
@@ -666,7 +803,7 @@
 					</div>
 				</nav>
 				<div class="custom_inner">
-					<article class="custom_inner prd_type_a">
+					<article class="custom_inner custom_prd prd_type_a">
                 		<ul class="x4">
                 			<li>
                 				<a href="#">

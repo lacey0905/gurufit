@@ -102,6 +102,7 @@
 					</h3>
 					<div class="fun_badge_list">
 						<ul>
+							<li class="text_b"></li>
 							<li>
 								<img src="../img/fun_badge_01.png" alt="">
 								<span>하트 x 20</span>

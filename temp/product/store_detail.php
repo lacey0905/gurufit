@@ -44,13 +44,13 @@
 							<span class="brand"><a href="#"><img src="../img/brand_sample_x44.png" alt="Nike"></a></span>
 							<strong class="name">NIKE Metcon DSX Flyknit</strong>
 						</h2>
-						<dl class="share">
+						<dl class="icon_share_list">
 							<dt><em>41</em> Shares</dt>
 							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
 							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
 							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
 						</dl>
-						<ul>
+						<ul class="detail_cont_list">
 							<li class="rating">
 								<strong class="star_rating">
 		   							<i class="star_on"></i>
@@ -67,17 +67,42 @@
 								<span class="icon"><img src="../img/icon_detail_01.png" alt=""></span>
 							</li>
 						</ul>
-						<dl class="opt">
+						<dl class="detail_cont_opt">
 							<dt class="opt_tit">
 								<em>컬러 : BLACK/RED</em>
 							</dt>
 							<dd class="opt_cont">
 								<ul class="prd_sml_list">
-									<li class="active"><a href="#"><img src="../img/prd_sml_sample.png" alt="나이키"></a></li>
-									<li><a href="#"><img src="../img/prd_sml_sample.png" alt="나이키"></a></li>
-									<li><a href="#"><img src="../img/prd_sml_sample.png" alt="나이키"></a></li>
-									<li><a href="#"><img src="../img/prd_sml_sample.png" alt="나이키"></a></li>
-									<li><a href="#"><img src="../img/prd_sml_sample.png" alt="나이키"></a></li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="" checked="checked" >
+											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="">
+											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="">
+											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="">
+											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="">
+											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
 								</ul>
 							</dd>
 							<dt class="opt_tit">
@@ -87,38 +112,32 @@
 							<dd class="opt_cont">
 								<div class="check_opt_box">
 									<ul class="x8">
-										<li class="active">
-											
-										
-										
-											<a href="#">230</a>
-										</li>
-										<li><a href="#">235</a>
-										
-										
-										</li>
-										<li><a href="#">240</a></li>
-										<li><a href="#">245</a></li>
-										<li><a href="#">250</a></li>
-										<li class="dis"><a href="#">255</a></li>
-										<li><a href="#">260</a></li>
-										<li><a href="#">265</a></li>
-										<li><a href="#">270</a></li>
-										<li class="dis"><a href="#">275</a></li>
-										<li><a href="#">280</a></li>
-										<li><a href="#">285</a></li>
-										<li><a href="#">290</a></li>
-										<li class="dis"><a href="#">295</a></li>
-										<li class="dis"><a href="#">300</a></li>
-										<li class="dis"><a href="#">305</a></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="230" value="230"><span>230</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="235" value="235" disabled><span>235</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="240" value="240"><span>240</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="245" value="245"><span>245</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="250" value="250"><span>250</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="255" value="255" disabled><span>255</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="260" value="260" disabled><span>260</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="265" value="265" disabled><span>265</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="270" value="270"><span>270</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="275" value="275"><span>275</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="280" value="280"><span>280</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="285" value="285" disabled><span>285</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="290" value="290" disabled><span>290</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="295" value="295"><span>295</span></label></li>
+    									<li><label class="check_opt_inp"><input type="checkbox" name="300" value="300"><span>300</span></label></li>
+										<li><label class="check_opt_inp"><input type="checkbox" name="305" value="305" disabled><span>305</span></label></li>
 									</ul>
 								</div>
 							</dd>
 						</dl>
-						<div class="detail_btn">
-							<a href="#" class="btn_myList"><i class="fa fa-heart-o" aria-hidden="true"></i>나의 리스트에 담기</a>
-							<a href="#" class="btn_active">장바구니</a>
+						<!-- Order 버튼 -->
+						<div class="detail_order_wrap">
+							<a href="#" class="btn_ btn_m_m1 btn_hover_a btn_icon_heart">나의 리스트에 담기</a>
+							<a href="#" class="btn_ btn_m_m2 btn_cp btn_hover_shadow">장바구니</a>
 						</div>
+						<!-- 인포그래픽 -->
 						<div class="info_icon_area">
 							<ul>
 								<li>
@@ -289,12 +308,21 @@
 				<div class="custom_inner share_head">
 					<h2>Share Your gurufit</h2>
 					<ul class="hash_list">
-						<li><a href="#">#캐주얼 패션</a></li>
+						<li class="active"><a href="#">#캐주얼 패션</a></li>
 						<li><a href="#">#수트 패션</a></li>
 						<li><a href="#">#비즈니스 패션</a></li>
 					</ul>
-					<a href="#" class="btn_normal b_size_x140">사전등록하기</a>
+					<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a>
 				</div>
+				<!-- 등록 된 이미지가 없을 때 메시지 박스
+				<div class="null_cont_box gray">
+					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
+					<span class="null_cont_tit">등록된 이미지가 없습니다.</span>
+					<span class="null_cont_msg">
+						이미지를 등록해주시면 경험치 <em>100xp</em>를 드립니다.
+					</span>
+				</div>
+				-->
 				<ul class="photo_list swiper-wrapper">
 					<li class="swiper-slide"><a href="#"><img src="../img/true-1.png" alt=""></a></li>
 					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
@@ -311,67 +339,50 @@
 				<nav class="detail_nav">
 					<div class="custom_inner">
 						<ul>
-							<li class="active"><a href="#">상품 정보</a></li>
-							<li><a href="#">구매자 리뷰(11)</a></li>
-							<li><a href="#">연관 상품</a></li>
-							<li><a href="#">연관 컨텐츠</a></li>
+							<li class="active"><a href="#productInfo">상품 정보</a></li>
+							<li><a href="#productReview">구매자 리뷰(11)</a></li>
+							<li><a href="#relatedProduct">연관 상품</a></li>
+							<li><a href="#relatedContent">연관 컨텐츠</a></li>
 						</ul>
-						<a href="#" class="nav_btn btn_normal b_size_x140">상품문의 하기</a>
+						<a href="#" class="nav_btn btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">상품문의 하기</a>
 					</div>
 				</nav>
 				<div class="custom_inner">
-				
-					<iframe src="./detail_frame.php"></iframe>
-				
-				
-					<h3>NIKE Metcon DSX Flyknit</h3>
-					<p>
-						93년도의 아이코닉한 러닝화와 엣지 있는 모던한 스타일이 결합하여 신선한 디자인을 선보이는 튜블라 시리즈입니다.<br>
-						다이아몬드 패턴 디테일의 3D 투톤 멜랑주 니트 갑피가 눈을 사로잡는 룩을 연출합니다.<br>
-						대비색상 스티치가 돋보이는 부리토 설포가 편안하게 발을 감싸면서 꼭 맞는 핏을 제공합니다. EVA 미드솔이 하루 종일 지속되는 가벼운 쿠셔닝을 전달합니다.
-					</p>
-					<ul>
-						<li>엣지 있는 투톤 니트와 함께 재탄생한 튜블라 시리즈</li>
-						<li>투톤 플랫 니트 갑피</li>
-						<li>인체공학적 디자인으로 꼭 맞는 핏을 선사하는 부리토 설포; 반사소재 스티치 디테일</li>
-						<li>편안한 착용감의 안감 소재</li>
-						<li>경량의 쿠셔닝을 제공하는 EVA 미드솔</li>
-						<li>미드솔의 고무 패드</li>
-						<li>인체공학적 디자인으로 꼭 맞는 핏을 선사하는 부리토 설포; 반사소재 스티치 디테일</li>
-						<li>편안한 착용감의 안감 소재</li>
-					</ul>
-
-					<h3>상품 스펙</h3>
-					<dl>
-						<dt></dt>
-						<dd></dd>
-					</dl>
-
-					<h3>소재별 취급 주의 사항</h3>
-					<p>
-						천연가죽 - 젖었을 때는 직사일광 또는 불로 말리지 말고 그늘진 곳에서 건조시키세요. 오염시 부드러운 솔로 닦고, 슈크리너를 사용하세요. 적정한 온도와 습도에서 보관하는 것이 좋습니다.
-						섬유· 합성가죽 - 젖었을 때는 그늘진 곳에서 건조시키세요. 기름기가 있는 장소에서 사용을 피하세요. 불옆에 놓으면 수축 또는 변형이 발생할 수 있습니다. 표면이 오염되면 비눗물을 적신 천을 사용해 닦아내세요. 구두약과 같은 가죽용품을 사용할 필요가 없습니다.
-					</p>
-					<p>
-						신발 뒤꿈치를 꺾어 신지 마세요. 제품의 수명 연장을 위해 사용 용도를 주의해 주십시오.
-						제품 이상으로 인한 피해보상 또는 수선을 원하실 때는 1:1문의 후 구루핏으로 보내주세요.
-						수선비가 발생할 수 있습니다.
-						세탁 등 소비자 부주의로 인한 제품 훼손 및 변형, 품질 보증기간(6개월) 경과한 제품의 품질 이상에 대해서는 보상의 책임을 지지않습니다. 수선이 가능한 경우 실비로 수선하여 드립니다.
-					</p>
+					<!-- 상세페이지 컨텐츠 내용 iframe -->
+    				<iframe src="./detail_frame.php"style='width:120%' scrolling="no" frameborder="0" onLoad="setIFrameHeight(this)"></iframe>
+                    <script>
+                    	// iframe 세로 길이 자동 조절
+                        function setIFrameHeight(obj){
+                            if(obj.contentDocument){
+                                obj.height = obj.contentDocument.body.offsetHeight + 40;
+                            } else {
+                                obj.height = obj.contentWindow.document.body.scrollHeight;
+                            }
+                        }
+                    </script>
 				</div>
 			</div>
 			<div id="productReview">
 				<nav class="detail_nav">
 					<div class="custom_inner">
 						<ul>
-							<li class="active"><a href="#">상품 정보</a></li>
-							<li><a href="#">구매자 리뷰(11)</a></li>
-							<li><a href="#">연관 상품</a></li>
-							<li><a href="#">연관 컨텐츠</a></li>
+							<li><a href="#productInfo">상품 정보</a></li>
+							<li class="active"><a href="#productReview">구매자 리뷰(11)</a></li>
+							<li><a href="#relatedProduct">연관 상품</a></li>
+							<li><a href="#relatedContent">연관 컨텐츠</a></li>
 						</ul>
-						<a href="#" class="nav_btn btn_normal b_size_x140">상품문의 하기</a>
+						<a href="#" class="nav_btn btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">상품문의 하기</a>
 					</div>
 				</nav>
+				<!-- 등록 된 리뷰가 없을 때
+				<div class="null_cont_box">
+					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
+					<span class="null_cont_tit">등록된 리뷰가 없습니다.</span>
+					<span class="null_cont_msg">
+						상품 리뷰를 작성해주시면 경험치 <em>100xp</em>를 드립니다.
+					</span>
+				</div>
+				-->
 				<div class="custom_inner">
 					<h3>리뷰 요약</h3>
 					<div class="double_col_box">
@@ -548,13 +559,19 @@
         									<option></option>
         								</select>
     								</div>
-    								<div class="check_sort custom_cbox">
-    									<input type="checkbox" id="buyUser" class="gray">
-    									<label for="buyUser">구매 고객 리뷰만 보기</label>
+    								<div class="check_sort custom_cbox cbox_b gray">
+                    					<label>
+                        					<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        					<span class="box"></span>
+                        					<span class="label">구매 고객 리뷰만 보기</span>
+                        				</label>
     								</div>
-    								<div class="check_sort custom_cbox">
-    									<input type="checkbox" id="shoe" class="white">
-    									<label for="shoe">슈몰리에 리뷰만 보기</label>
+    								<div class="check_sort custom_cbox cbox_b gray">
+                    					<label>
+                        					<input type="checkbox" id="shoe">
+                        					<span class="box"></span>
+                        					<span class="label">슈몰리에 리뷰만 보기</span>
+                        				</label>
     								</div>
     							</dd>
     							<dd class="inp_search_a search_sort">
@@ -748,16 +765,100 @@
 					<div class="custom_inner">
 						<ul>
 							<li><a href="#">상품 정보</a></li>
-							<li><a href="#">구매자 리뷰(11)</a></li>
-							<li class="active"><a href="#">연관 상품</a></li>
-							<li><a href="#">연관 컨텐츠</a></li>
+							<li><a href="#productReview">구매자 리뷰(11)</a></li>
+							<li class="active"><a href="#relatedProduct">연관 상품</a></li>
+							<li><a href="##relatedContent">연관 컨텐츠</a></li>
 						</ul>
-						<a href="#" class="nav_btn btn_normal b_size_x140">연관상품 더보기</a>
+						<a href="#" class="nav_btn btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">연관상품 더보기</a>
 					</div>
 				</nav>
 				<div class="custom_inner">
-					<article class="prd_type_b">
+					<article class="custom_prd prd_type_b">
         				<ul class="x4">
+        					<li class="">
+        						<figure>
+        	    					<span class="thum">
+        	    						<a href="#" class="my_list_btn"><i class="fa fa-heart-o" aria-hidden="true"></i>나의 리스트에 담기</a>
+        	    						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_detail.php">
+        	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+            							</a>
+           							</span>
+        	    					<div class="rating">
+        	    						<strong class="star_rating">
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_off"></i>
+        	   							</strong>
+        	    						<span class="cnt">(29)</span>
+        	    						<span class="sale">Sale 40%</span>
+        	    					</div>
+        	    					<figcaption>
+        	    						<span class="subject">NIKE FREE 5.0</span>
+        	    						<span class="price">
+        	    							<strong class="sell_price">89,100<em>원</em></strong>
+        	    							<del class="customer_price">99,000원</del>
+        	    						</span>
+        	    					</figcaption>
+        						</figure>
+        					</li>
+        					<li class="">
+        						<figure>
+        	    					<span class="thum">
+        	    						<a href="#" class="my_list_btn"><i class="fa fa-heart-o" aria-hidden="true"></i>나의 리스트에 담기</a>
+        	    						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_detail.php">
+        	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+            							</a>
+           							</span>
+        	    					<div class="rating">
+        	    						<strong class="star_rating">
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_off"></i>
+        	   							</strong>
+        	    						<span class="cnt">(29)</span>
+        	    						<span class="sale">Sale 40%</span>
+        	    					</div>
+        	    					<figcaption>
+        	    						<span class="subject">NIKE FREE 5.0</span>
+        	    						<span class="price">
+        	    							<strong class="sell_price">89,100<em>원</em></strong>
+        	    							<del class="customer_price">99,000원</del>
+        	    						</span>
+        	    					</figcaption>
+        						</figure>
+        					</li>
+        					<li class="">
+        						<figure>
+        	    					<span class="thum">
+        	    						<a href="#" class="my_list_btn"><i class="fa fa-heart-o" aria-hidden="true"></i>나의 리스트에 담기</a>
+        	    						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_detail.php">
+        	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+            							</a>
+           							</span>
+        	    					<div class="rating">
+        	    						<strong class="star_rating">
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_off"></i>
+        	   							</strong>
+        	    						<span class="cnt">(29)</span>
+        	    						<span class="sale">Sale 40%</span>
+        	    					</div>
+        	    					<figcaption>
+        	    						<span class="subject">NIKE FREE 5.0</span>
+        	    						<span class="price">
+        	    							<strong class="sell_price">89,100<em>원</em></strong>
+        	    							<del class="customer_price">99,000원</del>
+        	    						</span>
+        	    					</figcaption>
+        						</figure>
+        					</li>
         					<li class="">
         						<figure>
         	    					<span class="thum">
@@ -790,21 +891,63 @@
         			</article>
 				</div>
 			</div>
-			<div id="relatedProduct">
+			<div id="relatedContent">
 				<nav class="detail_nav">
 					<div class="custom_inner">
 						<ul>
 							<li><a href="#">상품 정보</a></li>
-							<li><a href="#">구매자 리뷰(11)</a></li>
-							<li><a href="#">연관 상품</a></li>
-							<li class="active"><a href="#">연관 컨텐츠</a></li>
+							<li><a href="#productReview">구매자 리뷰(11)</a></li>
+							<li><a href="#relatedProduct">연관 상품</a></li>
+							<li class="active"><a href="#relatedContent">연관 컨텐츠</a></li>
 						</ul>
-						<a href="#" class="nav_btn btn_normal b_size_x140">연관컨텐츠 더보기</a>
+						<a href="#" class="nav_btn btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">연관컨텐츠 더보기</a>
 					</div>
 				</nav>
 				<div class="custom_inner">
-					<article class="custom_inner custom_prd prd_type_a">
+					<article class="custom_prd prd_type_a">
                 		<ul class="x4">
+                			<li>
+                				<a href="#">
+                					<figure>
+                						<img src="../img/prd_sample.png" alt="샘플상품">
+                						<figcaption>
+                							<span class="kind">인터뷰</span>
+                							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+                							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+                							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+                							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+                						</figcaption>
+                					</figure>
+                				</a>
+                			</li>
+                			<li>
+                				<a href="#">
+                					<figure>
+                						<img src="../img/prd_sample.png" alt="샘플상품">
+                						<figcaption>
+                							<span class="kind">인터뷰</span>
+                							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+                							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+                							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+                							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+                						</figcaption>
+                					</figure>
+                				</a>
+                			</li>
+                			<li>
+                				<a href="#">
+                					<figure>
+                						<img src="../img/prd_sample.png" alt="샘플상품">
+                						<figcaption>
+                							<span class="kind">인터뷰</span>
+                							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+                							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+                							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+                							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+                						</figcaption>
+                					</figure>
+                				</a>
+                			</li>
                 			<li>
                 				<a href="#">
                 					<figure>

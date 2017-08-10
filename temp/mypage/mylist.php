@@ -209,9 +209,9 @@
 						</tbody>
 					</table>
 				</div>																												
-        		<div class="prd_more prd_type_a custom_prd">
-    				<a href="#" class="btn_hover_a">더보기</a>
-    			</div>	
+        		<div class="alarm_prd_more">
+          			<a href="#" class="btn_hover_a">더보기</a>
+          		</div>
 			</div>
 		</section>		
 		

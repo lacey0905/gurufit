@@ -204,9 +204,9 @@
 						</tbody>
 					</table>
 				</div>																																
-        		<div class="">
-    				<a href="#" class="btn_ btn_more_big">더보기</a>
-    			</div>	
+        		<div class="alarm_prd_more">
+          			<a href="#" class="btn_hover_a">더보기</a>
+          		</div>
 			</div>
 		</section>		
 		

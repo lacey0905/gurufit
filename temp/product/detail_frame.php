@@ -314,6 +314,7 @@
 }
 .product_spec_area ul > li {
     list-style-type: none;
+    cursor:pointer;
 }
 .product_spec_area .type {
 	display:inline-block;
@@ -358,8 +359,14 @@
 	width:25px;
 	height:15px;
 }
+
+
+.product_spec_area ul > li:hover .tip_buble {
+    display:block;
+}
+
 .tip_buble {
-	
+	display:none;
 	width: 611.6px;	
 	border: 1px solid #7053FF;	
 	border-radius: 4px;	

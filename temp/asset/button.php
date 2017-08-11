@@ -4,7 +4,50 @@
 
 <a href="#" class="btn_ btn_xs1">118x35</a>
 
+<style>
+#hexagon {
+    display:block;
+    margin-left:300px;
+	width:100px;
+	height:100px;
+	position: relative;
+	background-color:#ddd;
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top:0px;
+	right:100%;
+	width:20px;
+	height:20px;
+	border-left: 20px solid blue;
+	border-right: 20px solid red;
+	border-top: 20px solid blue;
+	border-bottom: 20px solid blue;
+    z-index:10;
+    border-radius:50%/10% 0px 0px 10px;
+    border-style:inset;
+}
+/*
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid red;
+	border-radius:5px;
+}
 
+*/
+</style>
+<span class="test" id="hexagon">
+	<em>1</em>
+</span>
+ 
  
 
 

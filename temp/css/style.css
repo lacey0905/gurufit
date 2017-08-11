@@ -1729,21 +1729,80 @@
 }
 
 /* 나의 뱃지 */
-.my_badge_box {
-}
-.my_badge_box .my_badge_inner {]}
-.my_badge_box .my_badge_list {
-	display:table;
-	width:100%;
-	padding:40px 0;
+.my_badge_box {}
+.my_badge_box .my_badge_inner {
+	padding:40px 0 15px;
 	background-color:#fcfcff;
 	border:solid 1px #e6e9f0;
 }
+.my_badge_box .my_badge_list {
+	display:table;
+	width:100%;
+}
 .my_badge_box .my_badge_list li {
+	position:relative;
 	display:table-cell;
 	width:33%;
 	text-align:center;
 }
+.my_badge_box .my_badge_list li.active .my_badge_tip,
+.my_badge_box .my_badge_list li.active .my_badge_select {
+	display:block;
+}
+.my_badge_tip {
+	display:none;
+	position:absolute;
+	top:-50px;
+	width:100%;
+	padding:0 30px;
+	box-sizing:border-box;
+}
+.my_badge_tip p {
+	position:relative;
+	display:block;
+	font-size:16px;
+	color:#8f8f8f;
+	line-height:24px;
+	padding:10px 30px;
+	background-color:#fff;
+	border:solid 1px #ddd;
+	border-radius:5px;
+	box-sizing:border-box;
+	z-index:2000;
+	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+	-moz-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+}
+.my_badge_tip p:after,
+.my_badge_tip:after,
+.my_badge_tip:before {
+	content:"";
+	display:block;
+	position:absolute;
+	width:0px;
+	height:50px;
+	top:100%;
+	left:50%;
+	margin-left:-12px;
+	margin-top:-1px;
+	border-left: 11px solid transparent;
+	border-right: 11px solid transparent;
+	border-top: 15px solid #fff;
+	z-index:3000;
+}
+.my_badge_tip:before {
+	margin-left:-14px;
+	margin-top:-2px;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-top: 17px solid #ddd;
+	z-index:1000;
+}
+.my_badge_tip p:after {
+	margin:9px 0 0 0px;
+	border-top: 15px solid rgba(0, 0, 0, 0.09);
+}
+
 .my_badge_box .my_badge_list .my_badge_icon {
 	display:inline-block;	
 	width:140px;
@@ -1767,7 +1826,7 @@
 	margin-top:15px;
 }
 .my_badge_box .my_badge_list .my_badge_select {
-	display:block;
+	display:none;
 	font-size:14px;
 	font-weight:bold;
 	line-height:24px;
@@ -1785,8 +1844,49 @@
 	vertical-align:top;
 	margin:2px 6px 0;
 }
-
-
+.my_badge_box .my_badge_next {
+	text-align:left;
+	font-size:0;
+}
+.my_badge_box .my_badge_next dt {
+	border-top:solid 1px #ddd;
+	margin:50px 40px 0;
+}
+.my_badge_box .my_badge_next dt strong {
+	display:inline-block;
+	font-size:20px;
+	font-weight:400;
+	color:#000;
+	line-height:24px;
+	letter-spacing:-0.7px;
+	margin-top:-14px;
+	background-color:#fcfcff;
+	padding:0 40px;
+	vertical-align:top;
+}
+.my_badge_box .my_badge_next dt strong:before {
+	content:"\e088";
+	font-size:20px;
+	font-weight:600;
+	font-family:'simple-line-icons';
+	color:#000;
+	line-height:24px;
+	margin-right:10px;
+}
+.my_badge_box .my_badge_next dd {
+	display:inline-block;
+	width:33.334%;
+	text-align:center;
+	margin:25px 0;
+}
+.my_badge_box .my_badge_next dd a {
+	display:block;
+	font-size:16px;
+	letter-spacing:-0.5px;
+	line-height:24px;
+	color:#4a4a4a;
+	text-decoration:underline;
+}
 
 /* 입력 폼 */
 

@@ -345,7 +345,7 @@
 	display:inline-block;
 	width:18px;
 	height:18px;
-	background:url(../img/.icon_facebook_x23.png) no-repeat;
+	background:url(../img/icon_facebook_x23.png) no-repeat;
 	background-size:18px 18px;
 	vertical-align:middle;
 	text-indent:-9999px;
@@ -374,6 +374,40 @@
 	background:url(../img/user_level_bg.png) no-repeat;
 	vertical-align:middle;
 }
+
+
+
+
+/* 레벨 뱃지 */
+.badge_level {
+	display:inline-block;
+	width:172px;
+	height:176px;
+	line-height:176px;
+	text-align:center;
+	vertical-align:middle;
+}
+.badge_level span {
+	display:inline-block;
+	vertical-align:middle;
+	font-size:24px;
+	font-weight:500;
+	font-family: 'texgyreadventorbold_italic';
+	line-height:25px;
+	color:#b4c39c;
+}
+.bronze {
+	background:url(../img/icon_level_bronze.svg) no-repeat;
+}
+.bronze span {
+	color:#bronze;
+}
+
+
+
+
+
+
 
 /* Asset */
 /* 상단 유저 이름 에셋 */

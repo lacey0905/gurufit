@@ -405,8 +405,6 @@
 	border:solid 1px #d8d8d8;
 }
 
-
-
 /* Vertical Swiper */
 .vertical_swiper {
 	width:100%;
@@ -420,6 +418,8 @@
 }
 .vertical_swiper .swiper-slide img {
 	display:block;
+	width:600px;
+	margin:0 30px 0 70px;
 }
 .vertical_swiper .swiper-slide[data-swiper-slide-index="0"] .slide_img:after {
 	content:" ";
@@ -452,6 +452,9 @@
 .vertical_swiper .swiper-pagination span {
 	position:relative;
 	margin-bottom:10px;
+}
+.swiper-pagination-bullet {
+	background:none !important;
 }
 .vertical_swiper .swiper-pagination-bullet-active:after {
 	content:" ";
@@ -1095,6 +1098,13 @@
 	line-height:33px;
 	padding:43px 0 20px;
 }
+.tit_sub_c {
+	font-size:18px;
+	font-weight:400;
+	line-height:27px;
+	margin:30px 0 16px;
+	color:#000;
+}
 
 /* ADDRESS TABLE */
 .addr_wrap {
@@ -1563,8 +1573,6 @@
 	margin-top:6px;
 	float:right;
 }
-
-
 .dash_profile {
 	margin-top:35px;
 }
@@ -1622,6 +1630,161 @@
 }
 
 
+
+/* Membership Dash Board */
+.membership_dash {}
+.membership_cont {
+	display:table;
+	width:100%;
+	background-color:#FCFCFE;
+	border: 1px solid #E6E8F0;
+}
+.membership_cont > div {
+	display:table-cell;
+	width:33%;
+	padding:40px 45px 10px;
+	vertical-align:top;
+}
+.membership_dash > div .membership_tit {
+	font-size:18px;
+	font-weight:400;
+	line-height:20px;
+	color:#000;
+}
+.membership_foot {
+	border:solid 1px #e6e9f0;
+	border-top:0;
+	background-color:#f5f5fa;
+	padding:21px 45px;
+}
+.membership_foot .next_level {
+	display:inline-block;
+	vertical-align:middle;
+}
+.membership_foot .next_level a {
+	display:block;
+	font-size:14px;
+	font-weight:400;
+	color:#8f8f8f;
+	line-height:20px;
+}
+.membership_foot .next_level em {
+	display:inline-block;
+	font-size:20px;
+	font-family: 'texgyreadventorbold_italic';
+	color:#9aafc2;
+	margin-left:25px;
+}
+.membership_foot .membership_link {
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:25px;
+}
+.membership_foot .membership_link li {
+	display:inline-block;
+	margin-right:15px;
+	vertical-align:middle;
+}
+.membership_foot .membership_link li a {
+	display:block;
+	font-size:13px;
+	line-height:26px;
+	color:#9b9b9b;
+}
+.ms_level {
+	text-align:center;
+}
+.ms_level .user_name {
+	display:block;
+	position:relative;
+	font-size:14px;
+	color:#9b9b9b;
+	line-height:24px;
+	padding:15px 0;
+	margin-bottom:5px;
+}
+.ms_level .user_name:after {
+	content:" ";
+	position:absolute;
+	bottom:0;
+	left:50%;
+	width:1px;
+	height:10px;
+	background-color:#979797;
+}
+.ms_level .user_name em {
+	display:block;
+	font-size:18px;
+	font-weight:500;
+	line-height:20px;
+	font-family: 'texgyreadventorbold_italic';
+	color:#000;
+}
+.ms_level .date {
+	display:block;
+	font-size:12px;
+	color:#8f8f8f;
+	line-height:18px;
+	padding-bottom:30px;
+}
+
+/* 나의 뱃지 */
+.my_badge_box {
+}
+.my_badge_box .my_badge_inner {]}
+.my_badge_box .my_badge_list {
+	display:table;
+	width:100%;
+	padding:40px 0;
+	background-color:#fcfcff;
+	border:solid 1px #e6e9f0;
+}
+.my_badge_box .my_badge_list li {
+	display:table-cell;
+	width:33%;
+	text-align:center;
+}
+.my_badge_box .my_badge_list .my_badge_icon {
+	display:inline-block;	
+	width:140px;
+}
+.my_badge_box .my_badge_list .my_badge_name {
+	display:block;
+	font-size:24px;
+	font-weight:400;
+	line-height:24px;
+	letter-spacing:-0.8px;
+	color:#000;
+	margin-top:15px;
+}
+.my_badge_box .my_badge_list .my_badge_msg {
+	display:block;
+	font-size:14px;
+	line-height:18px;
+	letter-spacing:-0.3px;
+	font-weight:300;
+	color:#9b9b9b;
+	margin-top:15px;
+}
+.my_badge_box .my_badge_list .my_badge_select {
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	line-height:24px;
+	color:#f6a623;
+	margin-top:15px;
+}
+.my_badge_box .my_badge_list .my_badge_select:before {
+	content:"\E5CA";
+	display:inline-block;
+	font-size:18px;
+	font-family:'Material Icons';
+	font-weight:300;
+	line-height:22px;
+	color:#f6a623;
+	vertical-align:top;
+	margin:2px 6px 0;
+}
 
 
 
@@ -1992,6 +2155,7 @@
 .fun_badge_list li img {
 	display:block;
 	width:68px;
+	margin-bottom:5px;
 }
 .fun_badge_list li span {
 	display:block;
@@ -1999,6 +2163,24 @@
 	font-size:13px;
 	color:#5c5c5c;
 	line-height:24px;
+}
+.fun_badge_list .type_b li {
+	margin-top:15px;
+}
+.fun_badge_list .type_b img {
+	width:60px;
+	margin:0 8px 5px;
+}
+.fun_badge_list .type_b em,
+.fun_badge_list .type_b span {
+	display:block;
+	width:77px;
+	color:#4a4a4a;
+	font-size:12px;
+	line-height:16px;
+}
+.fun_badge_list .type_b em {
+	font-weight:600;
 }
 .fun_badge_list li:nth-child(3n-1) img,
 .fun_badge_list li:nth-child(3n-1) span {

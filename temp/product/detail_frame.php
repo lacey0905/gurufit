@@ -1,5 +1,5 @@
-				<div class="custom_inner">
-					<div class="st_product_info_top">
+				<div class="spec_view custom_inner">
+					<div class="spec_view st_product_info_top">
 						<h3>NIKE Metcon DSX Flyknit</h3>
 						<p>
 							93년도의 아이코닉한 러닝화와 엣지 있는 모던한 스타일이 결합하여 신선한 디자인을 선보이는 튜블라 시리즈입니다.<br>
@@ -18,206 +18,206 @@
 						</ul>
 					</div>
 					
-					<div class="product_spec_area">
+					<div class="spec_view product_spec_area">
 						<h4>상품스팩</h4>						
 							<ul>
 								<li>
-									<span class="type">내전</span>
-									<img src="../img/product_spec.png" alt="#" class="test">
-									<span class="explain">과내전-내전</span>
+									<span class="spec_view type">내전</span>
+									<img src="../img/product_spec.png" alt="#" class="spec_view test">
+									<span class="spec_view explain">과내전-내전</span>
 								</li>
 								<li>
-									<span class="type">쿠셔닝 타입</span>
+									<span class="spec_view type">쿠셔닝 타입</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">고탄성</span>
+									<span class="spec_view explain">고탄성</span>
 								</li>
 								<li>
-									<span class="type">무게</span>
+									<span class="spec_view type">무게</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">매우 가벼움 283g</span>
+									<span class="spec_view explain">매우 가벼움 283g</span>
 								</li>
 								<li>
-									<span class="type">갑피 소재</span>
+									<span class="spec_view type">갑피 소재</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">고탄성</span>
+									<span class="spec_view explain">고탄성</span>
 								</li>
 								<li>
-									<span class="type">안감</span>
+									<span class="spec_view type">안감</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">직물</span>
+									<span class="spec_view explain">직물</span>
 								</li>
 								<li>
-									<span class="type">밑창인솔</span>
+									<span class="spec_view type">밑창인솔</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">메모리폼</span>
+									<span class="spec_view explain">메모리폼</span>
 								</li>
 								<li>
-									<span class="type">미드솔</span>
+									<span class="spec_view type">미드솔</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">Boost®</span>
+									<span class="spec_view explain">Boost®</span>
 								</li>
 								<li>
-									<span class="type">미드솔</span>
+									<span class="spec_view type">미드솔</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">EVA</span>
+									<span class="spec_view explain">EVA</span>
 								</li>
 								<li>
-									<span class="type">굽높이</span>
+									<span class="spec_view type">굽높이</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">보통 3.2cm</span>
+									<span class="spec_view explain">보통 3.2cm</span>
 								</li>
-								<li class="tip1">
-									<span class="type">힐유형</span>
+								<li class="spec_view tip1">
+									<span class="spec_view type">힐유형</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">스틸레토</span>
-        							<div class="tip_buble spec_tip1">
+									<span class="spec_view explain">스틸레토</span>
+        							<div class="spec_view tip_buble spec_tip1">
         							'킬힐'이라고 하면 바로 스틸레토 Stiletto를 말하는 것입니다. 힐 높이가 5cm이상이고 길고 가느다란 형<br/>
         							태입니다.						
         							</div>									
 								</li>
 								<li>
-									<span class="type">부츠 목 높이</span>
+									<span class="spec_view type">부츠 목 높이</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">종아리14cm</span>								
+									<span class="spec_view explain">종아리14cm</span>								
 								</li>
 								<li>
-									<span class="type">통 둘레</span>
+									<span class="spec_view type">통 둘레</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">매우 좁음 26cm</span>								
+									<span class="spec_view explain">매우 좁음 26cm</span>								
 								</li>
-								<li class="tip2">
-									<span class="type">기능</span>
+								<li class="spec_view tip2">
+									<span class="spec_view type">기능</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">미끄럼방지</span>
-        							<div class="tip_buble spec_tip2">
+									<span class="spec_view explain">미끄럼방지</span>
+        							<div class="spec_view tip_buble spec_tip2">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip3">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip3">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">발수</span>
-        							<div class="tip_buble spec_tip3">
+									<span class="spec_view explain">발수</span>
+        							<div class="spec_view tip_buble spec_tip3">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip4">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip4">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">유연성</span>
-        							<div class="tip_buble spec_tip4">
+									<span class="spec_view explain">유연성</span>
+        							<div class="spec_view tip_buble spec_tip4">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip5">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip5">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">통기성</span>
-        							<div class="tip_buble spec_tip5">
+									<span class="spec_view explain">통기성</span>
+        							<div class="spec_view tip_buble spec_tip5">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip6">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip6">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">향균</span>
-        							<div class="tip_buble spec_tip6">
+									<span class="spec_view explain">향균</span>
+        							<div class="spec_view tip_buble spec_tip6">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip7">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip7">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">무봉제</span>
-        							<div class="tip_buble spec_tip7">
+									<span class="spec_view explain">무봉제</span>
+        							<div class="spec_view tip_buble spec_tip7">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip8">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip8">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">방수</span>
-        							<div class="tip_buble spec_tip8">
+									<span class="spec_view explain">방수</span>
+        							<div class="spec_view tip_buble spec_tip8">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip9">
-									<span class="type">착화환경</span>
+								<li class="spec_view tip9">
+									<span class="spec_view type">착화환경</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">캐쥬얼</span>
-        							<div class="tip_buble spec_tip9">
+									<span class="spec_view explain">캐쥬얼</span>
+        							<div class="spec_view tip_buble spec_tip9">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip10">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip10">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">아웃도어</span>								
-        							<div class="tip_buble spec_tip10">
+									<span class="spec_view explain">아웃도어</span>								
+        							<div class="spec_view tip_buble spec_tip10">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>								
 								</li>
-								<li class="tip11">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip11">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">등산</span>
-        							<div class="tip_buble spec_tip11">
+									<span class="spec_view explain">등산</span>
+        							<div class="spec_view tip_buble spec_tip11">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip12">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip12">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">비즈니스</span>
-        							<div class="tip_buble spec_tip12">
+									<span class="spec_view explain">비즈니스</span>
+        							<div class="spec_view tip_buble spec_tip12">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip13">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip13">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">라이프스타일</span>
-        							<div class="tip_buble spec_tip13">
+									<span class="spec_view explain">라이프스타일</span>
+        							<div class="spec_view tip_buble spec_tip13">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip14">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip14">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">바다</span>
-        							<div class="tip_buble spec_tip14">
+									<span class="spec_view explain">바다</span>
+        							<div class="spec_view tip_buble spec_tip14">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>										
 								</li>
-								<li class="tip15">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip15">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">격식있는 자리</span>
-        							<div class="tip_buble spec_tip15">
+									<span class="spec_view explain">격식있는 자리</span>
+        							<div class="spec_view tip_buble spec_tip15">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>										
 								</li>
-								<li class="tip16">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip16">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">눈</span>
-        							<div class="tip_buble spec_tip16">
+									<span class="spec_view explain">눈</span>
+        							<div class="spec_view tip_buble spec_tip16">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>
-								<li class="tip17">
-									<span class="type">&nbsp;</span>
+								<li class="spec_view tip17">
+									<span class="spec_view type">&nbsp;</span>
 									<img src="../img/product_spec.png" alt="#">
-									<span class="explain">비</span>
-        							<div class="tip_buble spec_tip17">
+									<span class="spec_view explain">비</span>
+        							<div class="spec_view tip_buble spec_tip17">
         							쉽게 미끄러지지 않는 재질의 아웃솔이 적용되어 있습니다.
         							</div>									
 								</li>																																																																																																																																																																																																																								
 							</ul>
-							<ul class="brand_category">
+							<ul class="spec_view brand_category">
 								<li>
 									<span>브랜드</span>
-									<span class="brand"><img src="../img/product_spec_brand.png" alt="#"></span>
+									<span class="spec_view brand"><img src="../img/product_spec_brand.png" alt="#"></span>
 								</li>
 								<li>
 									<span>모델넘버</span>
@@ -246,16 +246,16 @@
 							</ul>																																																																																																																										
 					</div>
 					
-					<div class="st_product_info_bottom">
+					<div class="spec_view st_product_info_bottom">
 						<h3>취급 주의 사항</h3>
-						<p class="st_des1">
+						<p class="spec_view st_des1">
 							<span>천연가죽</span>  젖었을 때는 직사일광 또는 불로 말리지 말고 그늘진 곳에서 건조시키세요. 오염
 							시 부드러운 솔로 닦고, 슈크리너를 사용하세요. 적정한 온도와 습도에서 보관하는 것이 좋습니다.<br>
 							<span>섬유· 합성가죽</span> 젖었을 때는 그늘진 곳에서 건조시키세요. 기름기가 있는 장소에서 사용을 
 							피하세요. 불옆에 놓으면 수축 또는 변형이 발생할 수 있습니다. 표면이 오염되면 비눗물을
 							적신 천을 사용해 닦아내세요. 구두약과 같은 가죽용품을 사용할 필요가 없습니다.
 						</p>
-						<p class="st_des2">
+						<p class="spec_view st_des2">
 							신발 뒤꿈치를 꺾어 신지 마세요. 제품의 수명 연장을 위해 사용 용도를 주의해 주십시오.
 							제품 이상으로 인한 피해보상 또는 수선을 원하실 때는 1:1문의 후 구루핏으로 보내주세요.
 							수선비가 발생할 수 있습니다.<br>

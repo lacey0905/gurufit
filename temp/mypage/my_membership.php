@@ -168,6 +168,10 @@
 			</div>
 		</section>
 		
+		<section class="my_fun_badge">
+			<h4 class="tit_sub_c">재미 뱃지</h4>
+		</section>
+		
 		
 		
 		

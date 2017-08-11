@@ -1851,6 +1851,7 @@
 .my_badge_box .my_badge_next dt {
 	border-top:solid 1px #ddd;
 	margin:50px 40px 0;
+	text-align:center;
 }
 .my_badge_box .my_badge_next dt strong {
 	display:inline-block;

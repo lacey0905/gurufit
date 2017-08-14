@@ -1,10 +1,10 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
 				<dt><a href="#">홈</a></dt>
-				<dd><a href="#">로그인</a></dd>
+				<dd><a href="#">마이페이지</a></dd>
 			</dl>
 			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
 		</div>
@@ -66,12 +66,14 @@
 							다음 등급 <em>Silver III</em> 까지 <em>1000xp</em> 남음
 						</strong>
     					<div class="deps_gauge">
+    						<!-- 현재 경험치 (가장 진한 색) -->
     						<div class="current" style="width:50%;">
     							<div class="msg_box_a level_info">
         							<span class="msg">1000xp</span>
         							<div class="shadow"></div>
         						</div>
     						</div>		
+    						<!-- 중간 진한색 -->
     						<div class="target" style="width:75%;"></div>
     					</div>
     					<strong class="deps_gauge_msg">
@@ -102,7 +104,6 @@
 					</h3>
 					<div class="fun_badge_list">
 						<ul>
-							<li class="text_b"></li>
 							<li>
 								<img src="../img/fun_badge_01.png" alt="">
 								<span>하트 x 20</span>
@@ -358,7 +359,26 @@
 					<div class="hover_thum_list">
 						<h4 class="blind">나의 사진 리스트</h4>
 						<ul class="thum_list x4">
-							<li>
+							<li class="">
+								<div class="list">
+    								<img src="../img/review_photo_sample.png" alt="" class="thum">
+    								<div class="thum_caption">
+    									<div class="caption">
+        									<a href="#">
+        										<strong class="thum_caption_tit">베스트 PIC</strong>
+        										<span class="thum_hash_list">
+        											<em>#nike</em>
+        											<em>#힙아이템</em>
+        											<em>#내가산거</em>
+        										</span>
+        										<span class="like up">52</span>
+        										<span class="like dw">4</span>
+        									</a>
+    									</div>
+    								</div>
+								</div>
+							</li>
+							<li class="">
 								<div class="list">
     								<img src="../img/review_photo_sample.png" alt="" class="thum">
     								<div class="thum_caption">
@@ -461,30 +481,4 @@
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  

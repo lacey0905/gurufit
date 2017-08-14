@@ -605,7 +605,7 @@
 }
 
 
-/* TAB DESIGN */
+/* Tab 디자인  */
 .tab_active_type {
 	display:table;
 	width:100%;
@@ -641,7 +641,7 @@
 .tab_active_type ul li:hover {
 	border-color:#7053ff;
 }
-.tab_active_type ul li:hover + li {
+.tab_active_type ul li:not(.active):hover + li {
 	border-left-color:#7053ff;
 }
 .tab_active_type ul li:not(.active):hover a {
@@ -2447,11 +2447,6 @@
 	font-weight:400;
 }
 
-
-
-
-
-
 /* 사진 hover Event 리스트 */
 .hover_thum_list {}
 .hover_thum_list .thum_list {
@@ -2475,6 +2470,7 @@
 .hover_thum_list .thum_list > li .thum_caption {
 	display:none;
 }
+.hover_thum_list .thum_list > li.active .thum_caption,
 .hover_thum_list .thum_list > li:hover .thum_caption {
 	display:block;
 	position:absolute;
@@ -2515,13 +2511,20 @@
 	font-weight:400;
 	line-height:33px;
 	color:#fff;
-	padding-left:17px;
 	margin-left:11px;
 	cursor:pointer;
 }
-.hover_thum_list .thum_list .thum_caption .like.up:after {
+.hover_thum_list .thum_list .thum_caption .like.up:before,
+.hover_thum_list .thum_list .thum_caption .like.dw:before {
+	content:"\E9F3";
+	display:inline-block;
+	font-size:16px;
+	font-weight:300;
+	font-family:fontello;
+	margin-right:10px;
 }
-.hover_thum_list .thum_list .thum_caption .like.dw {
+.hover_thum_list .thum_list .thum_caption .like.dw:before {
+	transform: rotateX( 180deg );
 }
 
 
@@ -2676,6 +2679,40 @@
 
 
 
+/* Null Box */
+.null_cont_box {
+	text-align:center;
+	padding:60px 0;
+}
+.null_cont_box .null_cont_icon {
+	display:block;
+	margin:0 auto;
+}
+.null_cont_box .null_cont_tit {
+	display:block;
+	font-size:20px;
+	font-weight:300;
+	line-height:36px;
+	margin-top:15px;
+	color:#9B9B9B;
+}
+.null_cont_box .null_cont_msg {
+	display:block;
+	font-size:14px;
+	font-weight:300;
+	line-height:24px;	
+	color:#9B9B9B;
+}
+.null_cont_box .null_cont_msg em {
+	font-weight:400;
+	font-size:14px;
+	line-height:24px;	
+	color:#9B9B9B;
+	color:#000;
+}
+.null_cont_box.gray {
+	background-color:#F0F0F0;
+}
 
 
 

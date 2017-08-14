@@ -1578,6 +1578,7 @@
 }
 .dash_profile img {
 	display:block;
+	width:180px;
 	margin:0 auto;
 }
 .dash_profile figcaption {
@@ -1753,17 +1754,18 @@
 	display:none;
 	position:absolute;
 	top:-50px;
-	width:100%;
-	padding:0 30px;
+	left:30px;
+	right:30px;
 	box-sizing:border-box;
 }
 .my_badge_tip p {
 	position:relative;
 	display:block;
+	min-width:300px;
 	font-size:16px;
 	color:#8f8f8f;
 	line-height:24px;
-	padding:10px 30px;
+	padding:10px 18px;
 	background-color:#fff;
 	border:solid 1px #ddd;
 	border-radius:5px;
@@ -1772,6 +1774,31 @@
 	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
 	-moz-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
 	-webkit-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+}
+.my_badge_tip img {
+	position:absolute;
+	top:20px;
+	left:20px;
+	width:64px;
+}
+.my_badge_tip strong {
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	color:#000;
+	line-height:24px;
+	padding-left:90px;
+	margin:5px 0 7px;
+	text-align:left;
+}
+.my_badge_tip em {
+	display:block;
+	color:#8F8F8F;
+	font-size:13px;
+	line-height:18px;
+	padding-left:90px;
+	text-align:justify;
+	margin-bottom:10px;
 }
 .my_badge_tip p:after,
 .my_badge_tip:after,
@@ -2126,8 +2153,7 @@
 
 
 
-/* 마이페이지 */
-
+/********* 마이페이지 **********/
 /* 레벨업 가이드 */
 .level_up_guide {
 	font-size:0;
@@ -2175,7 +2201,6 @@
 .level_up_guide dd.more:before {
 	visibility:hidden;
 }
-
 /* 쿠폰 보유량 */
 .coupon_count_box {}
 .coupon_count_box .box_tit {
@@ -2238,7 +2263,6 @@
 .coupon_count_box .count_box .count {
 	width:110px;
 }
-
 /* FUN 뱃지 */
 .fun_badge_list {
 	margin-top:20px;
@@ -2285,11 +2309,60 @@
 }
 .fun_badge_list li:nth-child(3n-1) img,
 .fun_badge_list li:nth-child(3n-1) span {
-	margin:0 auto;
+	margin:0 auto 5px;
 }
 .fun_badge_list li:nth-child(3n) img,
 .fun_badge_list li:nth-child(3n) span {
 	float:right;
+}
+/* Fun 뱃지 큰 버전 */
+.my_fun_badge {}
+.my_fun_list {
+	width:100%;
+	font-size:0;
+	padding:50px 0 10px;
+	background-color:#FCFCFE;
+	border: 1px solid #E6E8F0;
+}
+.my_fun_list li {
+	position:relative;
+	display:inline-block;
+	width:20%;
+	text-align:center;
+	margin-bottom:40px;
+}
+.my_fun_list li > img {
+	display:inline-block;
+	width:96px;
+	vertical-align:top;
+	margin-bottom:10px;
+}
+.my_fun_list li > em {
+	display:block;
+	font-size:18px;
+	line-height:24px;
+	color:#000;
+}
+.my_fun_list li > span {
+	display:block;
+	color:#BBB;
+	font-size:12px;
+	line-height:24px;
+}
+.my_fun_list li.active > span {
+	color:#555;
+}
+.my_fun_list li:hover .my_badge_tip {
+	display:block;
+	min-width:300px;
+	top:-90px;
+	left:50%;
+	margin-left:-150px;
+}
+.my_fun_list .badge_pop {
+	position:absolute;
+	top:0;
+	left:0;
 }
 
 /* 대쉬보드 탭 디자인 */
@@ -2379,40 +2452,6 @@
 
 
 
-/* Null Box */
-.null_cont_box {
-	text-align:center;
-	padding:60px 0;
-}
-.null_cont_box .null_cont_icon {
-	display:block;
-	margin:0 auto;
-}
-.null_cont_box .null_cont_tit {
-	display:block;
-	font-size:20px;
-	font-weight:300;
-	line-height:36px;
-	margin-top:15px;
-	color:#9B9B9B;
-}
-.null_cont_box .null_cont_msg {
-	display:block;
-	font-size:14px;
-	font-weight:300;
-	line-height:24px;	
-	color:#9B9B9B;
-}
-.null_cont_box .null_cont_msg em {
-	font-weight:400;
-	font-size:14px;
-	line-height:24px;	
-	color:#9B9B9B;
-	color:#000;
-}
-.null_cont_box.gray {
-	background-color:#F0F0F0;
-}
 
 
 

@@ -25,6 +25,8 @@
 					<li><a href="#">구매내역</a></li>										
 				</ul>
 			</div>
+		</section>
+		<section id="mypage">
 			<div class="my_dash_board">
 				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">공개 뱃지</h3>

@@ -1,5 +1,5 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
@@ -26,149 +26,133 @@
 				</ul>
 			</div>
 		</section>
-		<div class="member_box alarm_box">
-			<h3>
-				알림<span>(2)</span>
-			</h3>
-			<div class="custom_cbox cbox_c alarm_active_type">
-				<label>
-					<input type="checkbox">
-					<span class="box"></span>
-				</label>
-				<span>읽지 않은 알림만 보기</span>
+		<section id="mypage">
+			<div class="tit_sub_wrap">
+				<h3 class="tit_head tit_sub_b">알림<span>(2)</span></h3>
+				<dl class="tit_opt check">
+    				<dt class="blind">읽지 않은 알림만 보기</dt>
+    				<dd>
+            			<div class="custom_cbox cbox_c">
+        					<label>
+            					<input type="checkbox" id="gender_02" name="gender_02" value="gender_02">
+            					<span class="box"></span>
+            					<span class="label">읽지 않은 알림만 보기</span>
+            				</label>
+        				</div>	
+    				</dd>
+    			</dl>
 			</div>
-			<div class="notice_wrapper">
-				<ul class="notice_box">
-					<li><span>NEW</span></li>
-					<li>나만의 Fit을 찾아주는 신발 슈커머스, ‘구루핏’ 가입을 환영 합니다.</li>
-					<li>2017년 7월 20일</li>
-					<li><i class="icon-arrow-down"></i></li>
+			<div class="toggle_list_a">
+				<h4 class="blind">1:1문의 리스트</h4>
+				<ul>
+					<li class="reply">
+						<a href="#none">
+							<span class="list_head_icon"><em class="icon_new">NEW</em></span>
+							<strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>
+							<span class="list_head_opt">
+								<em class="date">2017년 7월 20일</em>
+								<em class="arr"></em>
+							</span>
+						</a>
+						<div class="list_cont">
+							<p class="toggle_cont toggle_fir">
+                                                                       컬렉션과 일치하는 상품이 업데이트 되었습니다.<br>
+                                                                       김하영님의 컬렉션과 일치하는 상품 12종이 새롭게 입고 되었습니다.<br>
+                                                                       서두르세요! 업데이트 상품들은 금방 품절 될 수 있습니다.	
+							</p>
+							<div class="toggle_cont custom_prd prd_type_b">
+        						<ul class="x4">
+        							<li>
+        								<a href="#">
+        									<figure>
+        				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+        				    					<div class="rating">
+        				    						<strong class="star_rating">
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_off"></i>
+        				   							</strong>
+        				    						<span class="cnt">(29)</span>
+        				    						<span class="sale">Sale 40%</span>
+        				    					</div>
+        				    					<figcaption>
+        				    						<span class="subject">NIKE FREE 5.0</span>
+        				    						<span class="price">
+        				    							<strong class="sell_price">89,100<em>원</em></strong>
+        				    							<del class="customer_price">99,000원</del>
+        				    						</span>
+        				    					</figcaption>
+        									</figure>
+        								</a>
+        							</li>																												
+        						</ul>
+        						<a href="#" class="btn_more">신규 컬렉션 상품 보러가기</a>
+        					</div>
+						</div>
+					</li>
+					<li class="reply">
+						<a href="#none">
+							<span class="list_head_icon"><em class="icon_new">NEW</em></span>
+							<strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>
+							<span class="list_head_opt">
+								<em class="date">2017년 7월 20일</em>
+								<em class="arr"></em>
+							</span>
+						</a>
+						<div class="list_cont">
+							<p class="toggle_cont toggle_fir">
+                                                                       컬렉션과 일치하는 상품이 업데이트 되었습니다.<br>
+                                                                       김하영님의 컬렉션과 일치하는 상품 12종이 새롭게 입고 되었습니다.<br>
+                                                                       서두르세요! 업데이트 상품들은 금방 품절 될 수 있습니다.	
+							</p>
+							<div class="toggle_cont custom_prd prd_type_b">
+        						<ul class="x4">
+        							<li>
+        								<a href="#">
+        									<figure>
+        				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+        				    					<div class="rating">
+        				    						<strong class="star_rating">
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_on"></i>
+        				    							<i class="star_off"></i>
+        				   							</strong>
+        				    						<span class="cnt">(29)</span>
+        				    						<span class="sale">Sale 40%</span>
+        				    					</div>
+        				    					<figcaption>
+        				    						<span class="subject">NIKE FREE 5.0</span>
+        				    						<span class="price">
+        				    							<strong class="sell_price">89,100<em>원</em></strong>
+        				    							<del class="customer_price">99,000원</del>
+        				    						</span>
+        				    					</figcaption>
+        									</figure>
+        								</a>
+        							</li>																												
+        						</ul>
+        						<a href="#" class="btn_more">신규 컬렉션 상품 보러가기</a>
+        					</div>
+						</div>
+					</li>
 				</ul>
-				<div class="notice_box_inner">
-    				<ul>
-    					<li><span>NEW</span></li>
-    					<li>김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</li>
-    					<li>2017년 7월 20일</li>
-    					<li><i class="icon-arrow-up"></i></li>
-
-    				</ul>
-    				<p>
-                                         컬렉션과 일치하는 상품이 업데이트 되었습니다.<br/>
-                                         김하영님의 컬렉션과 일치하는 상품 12종이 새롭게 입고 되었습니다.<br/>
-                                         서두르세요!업데이트 상품들은 금방 품절 될 수 있습니다.<br/>                       
-    				</p>
-    				<div class="custom_prd prd_type_b prd_type_bgc alarm_custom_prd">
-						<ul class="x4">
-							<li>
-								<a href="#">
-									<figure>
-				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-				    					<div class="rating">
-				    						<strong class="star_rating">
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_off"></i>
-				   							</strong>
-				    						<span class="cnt">(29)</span>
-				    						<span class="sale">Sale 40%</span>
-				    					</div>
-				    					<figcaption>
-				    						<span class="subject">NIKE FREE 5.0</span>
-				    						<span class="price">
-				    							<strong class="sell_price">89,100<em>원</em></strong>
-				    							<del class="customer_price">99,000원</del>
-				    						</span>
-				    					</figcaption>
-									</figure>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<figure>
-				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-				    					<div class="rating">
-				    						<strong class="star_rating">
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_off"></i>
-				   							</strong>
-				    						<span class="cnt">(29)</span>
-				    						<span class="sale">Sale 40%</span>
-				    					</div>
-				    					<figcaption>
-				    						<span class="subject">NIKE FREE 5.0</span>
-				    						<span class="price">
-				    							<strong class="sell_price">89,100<em>원</em></strong>
-				    							<del class="customer_price">99,000원</del>
-				    						</span>
-				    					</figcaption>
-									</figure>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<figure>
-				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-				    					<div class="rating">
-				    						<strong class="star_rating">
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_off"></i>
-				   							</strong>
-				    						<span class="cnt">(29)</span>
-				    						<span class="sale">Sale 40%</span>
-				    					</div>
-				    					<figcaption>
-				    						<span class="subject">NIKE FREE 5.0</span>
-				    						<span class="price">
-				    							<strong class="sell_price">89,100<em>원</em></strong>
-				    							<del class="customer_price">99,000원</del>
-				    						</span>
-				    					</figcaption>
-									</figure>
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<figure>
-				    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-				    					<div class="rating">
-				    						<strong class="star_rating">
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_on"></i>
-				    							<i class="star_off"></i>
-				   							</strong>
-				    						<span class="cnt">(29)</span>
-				    						<span class="sale">Sale 40%</span>
-				    					</div>
-				    					<figcaption>
-				    						<span class="subject">NIKE FREE 5.0</span>
-				    						<span class="price">
-				    							<strong class="sell_price">89,100<em>원</em></strong>
-				    							<del class="customer_price">99,000원</del>
-				    						</span>
-				    					</figcaption>
-									</figure>
-								</a>
-							</li>																												
-						</ul>
-					</div>
-					<a href="#" class="alarm_link">신규 컬렉션 상품 보러가기<i class="material-icons">&#xE315;</i></a>   				
-				</div>				
+				<div class="toggle_list_more">
+					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
+				</div>
 			</div>
-		</div>
-		<div class="alarm_prd_more">
-  			<a href="#" class="btn_hover_a">더보기</a>
-  		</div>	
+		</section>
 	</article>
 </section>
+<script>
+$(function(){
+	//게시판 토글 기능 설치
+	// <li> 태그에 [reply] Class가 있어야만 토글 기능이 작동 합니다.
+	toggleListActive($(".toggle_list_a > ul"));
+});
+</script>
 <?php include "../inc/footer.php" ?>
  

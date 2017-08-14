@@ -359,6 +359,22 @@
 	vertical-align:middle;
 	text-indent:-9999px;
 }
+.icon_new {
+	display:inline-block;
+	width:40px;
+    height:19px;
+    line-height:19px;
+    border-radius: 2px;
+    background-color:#F5A623;
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight:500;
+    font-style: italic;
+    text-align: center;
+    color: #fff; 
+    vertical-align:middle;
+}
+
 
 /* USER LEVEL */
 .user_level_x6 {
@@ -1362,6 +1378,7 @@
 	background-color:#fff;
 	border: solid 1px #d8d8d8;
 	overflow:hidden;
+	vertical-align:top;
 }
 .sel_custom:after {
 	position:absolute;
@@ -1373,6 +1390,7 @@
 	font-size:18px;
 	color:#000;
 	z-index:1;
+	line-height:1em;
 }
 .sel_custom select {
 	position:relative;
@@ -1602,6 +1620,7 @@
 	color:#fff;
 	z-index:100;
  	transition: all .2s;
+ 	line-height:20px;
 }
 /* 체크박스 라벨 텍스트 */
 .custom_cbox [type="checkbox"] + .box + .label {
@@ -1847,13 +1866,6 @@
 .cbox_color [type="checkbox"].c_white + .box:after {
 	color:#4a4a4a;
 }
-
-
-
-
-
-
-
 
 /* RADIO */
 .custom_radio {
@@ -2169,9 +2181,6 @@
 	border-radius:100%;
 }
 
-
-
-
 /* 쉐어 아이콘 리스트 */
 .icon_share_list {
 	position:absolute;
@@ -2193,10 +2202,6 @@
 	vertical-align:middle;
 	margin-left:5px;
 }
-
-
-
-
 
 /* 옵션 선택 형 리스트*/
 .select_opt_list ul {}
@@ -2527,8 +2532,6 @@
 	transform: rotateX( 180deg );
 }
 
-
-
 /* GAUGE */
 .deps_gauge_wrap {
 	padding-top:10px;
@@ -2577,7 +2580,6 @@
 	background-color:#d0d0e4;
 	z-index:10;
 }
-
 
 /* 메시지 박스 */
 .msg_box_a {
@@ -2676,9 +2678,6 @@
 	background:url(../img/icon_fig_x6.png) no-repeat;
 }
 
-
-
-
 /* Null Box */
 .null_cont_box {
 	text-align:center;
@@ -2715,8 +2714,77 @@
 }
 
 
-
-
-
+/* Pager */
+.pager_type_a {
+	font-size:0;
+	text-align:center;
+	margin:30px 0;
+}
+.pager_type_a a {
+	font-size: 14px;
+    text-align: center;
+    color: #bbb;
+    display:block;
+    width:34px;
+    height:34px;
+    line-height:34px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: solid 1px #ddd;
+    box-sizing:border-box;
+    border-left:0;
+}
+.pager_type_a .pager_btn {
+	display:inline-block; 
+}
+.pager_type_a .pager_btn:after,
+.pager_type_a .pager_btn:before {
+	content:"\E93E";
+	display:inline-block;
+	vertical-align:top;
+	font-size:12px;
+	font-weight:300;
+	font-family:fontello;
+}
+.pager_type_a .pager_btn.first {
+	border-left: solid 1px #ddd;
+}
+.pager_type_a .pager_btn.first:after,
+.pager_type_a .pager_btn.first:before {
+	content:"\E93E";
+}
+.pager_type_a .pager_btn.prev {
+	border-right:0;
+}
+.pager_type_a .pager_btn.prev:before,
+.pager_type_a .pager_btn.next:before {
+	display:none;
+}
+.pager_type_a .pager_btn.next:after {
+	content:"\E93F";
+}
+.pager_type_a .pager_btn.last:after,
+.pager_type_a .pager_btn.last:before {
+	content:"\E93F";
+}
+.pager_type_a > ol {	
+	display:inline-block;
+	font-size:0;
+	border-left: solid 1px #ddd;
+}
+.pager_type_a > ol li {
+	display:inline-block;
+}
+.pager_type_a .active {
+    background-color: #7053ff;
+    border-color:#7053ff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.pager_type_a a:hover:not(.active) {
+	background-color: #ddd;
+}
 
 

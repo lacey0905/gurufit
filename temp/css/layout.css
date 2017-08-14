@@ -1,6 +1,6 @@
 /* COMMON */
 .blind {
-	display:none;
+	display:none !important;
 }
 
 /* LAYOUT */

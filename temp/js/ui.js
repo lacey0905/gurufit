@@ -37,3 +37,25 @@ var m_iAddComma = function(str) {
   str = String(str);
   return str.replace(/(\d)(?=(?:\d{3})+(?!\d))/g, '$1,');
 }
+
+//게시판 토글 기능
+var toggleListActive = function(elem){
+	elem.children("li").bind("click", function(){
+		if($(this).hasClass("reply")){
+			elem.children("li").not($(this)).removeClass("active");
+			$(this).toggleClass("active");
+		}
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+

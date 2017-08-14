@@ -26,7 +26,6 @@
 				</ul>
 			</div>
 		</section>
-		
 		<section>
 			<div class="my_list_container">
 				<h3 class="tit_sub_a ml_tit_sub_a">

@@ -1,6 +1,8 @@
 /* PRODUCT LIST TYPE */
 /* A - 메인에서 사용한 제품 리스트로 [x2, x4~] 클레스를 추가하여 리스트 컬럼을 조절 할 수 있음 */
-.custom_prd {}
+.custom_prd {
+	text-align:left;
+}
 .custom_prd .prd_more {
 	padding:65px 0;
 	text-align:center;
@@ -99,10 +101,10 @@
 	margin:5px auto 0;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,ffffff+70 */
 	background:none; /* Old browsers */
-	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, #ffffff 70%); /* FF3.6-15 */
-	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,#ffffff 70%); /* Chrome10-25,Safari5.1-6 */
-	background: radial-gradient(ellipse at center, #e9e9e9 0%,#ffffff 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: -moz-radial-gradient(center, ellipse cover, #e9e9e9 0%, transparent 70%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #e9e9e9 0%,transparent 70%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #e9e9e9 0%,transparent 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='transparent',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .prd_type_bgc figure .thum:after {
 	width:90%;
@@ -278,6 +280,7 @@
 } 
 .prd_type_b figcaption {
 	margin-top:13px;
+	text-align:left;
 }
 .prd_type_b figcaption > span {
 	display:block;

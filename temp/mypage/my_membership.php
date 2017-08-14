@@ -170,6 +170,82 @@
 		
 		<section class="my_fun_badge">
 			<h4 class="tit_sub_c">재미 뱃지</h4>
+			<div class="my_fun_inner">
+				<ul class="my_fun_list">
+					<li class="active">
+						<img src="../img/fun_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>2017. 07. 20</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+					<li class="active">
+						<img src="../img/fun_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>2017. 07. 20</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+					<li>
+						<img src="../img/off_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>미획득</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+					<li>
+						<img src="../img/off_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>미획득</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+					<li>
+						<img src="../img/off_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>미획득</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+					<li>
+						<img src="../img/off_badge_01.png" alt="">
+						<em>엄지척x10</em>
+						<span>미획득</span>
+						<div class="my_badge_tip">
+							<p>
+								<img src="../img/fun_badge_01.png" alt="">
+								<strong>다중노출</strong>
+								<em>한 개의 상품에 4장 이상 사진을 등록한 사용자만이 받을 수 있는 재미뱃지 입니다.</em>
+							</p>
+    					</div>
+					</li>
+				</ul>
+			</div>
 		</section>
 		
 		

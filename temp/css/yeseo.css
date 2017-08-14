@@ -3933,6 +3933,473 @@
 	text-align: center;	
 }
 
+/*에러페이지*/
+.error_wrapper {
+	width: 1100px;
+	height: 418px;
+	border:1px solid #DDDDDD;
+	background-color:#F9F9FC;
+}
+.error_wrapper > i {
+	margin-top:23px;
+}
+.error_wrapper > h3 {
+	color: #0178FF;		
+	font-size: 36px;	
+	font-weight: 400;	
+	line-height: 54px;	
+	text-align: center;	
+}
+.error_wrapper > h3 > em {
+	color: #0178FF;		
+	font-size: 36px;	
+	font-weight: bold;	
+	line-height: 54px;	
+	text-align: center;	
+}
+.error_wrapper > p {
+	color: #4A4A4A;	
+	font-size: 16px;	
+	line-height: 21px;	
+	text-align: center;
+	margin-bottom:7px;	
+}
+.pe_return {
+	float:right;
+	zoom:1;
+	margin-top:30px;
+}
+.pe_return:hover {
+	box-shadow: 5px 5px 0 0 #e6e1ff;	
+}
+.pe_return:after {
+	content:"";
+	display:block;
+	clear:both;
+}
 
+/*수정되었습니다 모달*/
+.revise {
+	width:350px;
+	margin-left:-175px;
+}
+.revise .f_modal_head {
+	border:0 !important;
+	height:65px;
+}
+.revise .f_modal_head .btn_close {
+	right:25px;
+}
+.revise .f_modal_cont .f_modal_service {
+	padding:0px;
+}
+.revise .f_modal_cont .f_modal_service > p {
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	padding:17px 0 72px !important;	
+}
+.revise .f_modal_foot {
+	background-color: #7053ff;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+	border:none;	 
+}
+
+/*나의 리스트에 추가 되었습니다 모달*/
+.list_add {
+}
+.list_add .f_modal_cont .f_modal_service i {
+	width:35px;
+	height:30px;
+	color: #f6a623;
+	font-size:3em;
+}
+.list_add .f_modal_cont .f_modal_service p {
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	color: #000000;
+	padding:13px 0 51px !important;	
+}
+
+/*옵션변경*/
+.m_size_sevenfive {
+	width:750px;
+}
+.opt_change .f_modal_service {
+	padding:0;
+}
+.opt_change .f_modal_service table tbody{
+}
+.opt_change .col_thum {
+	width:259px !important;
+}
+.opt_change .thum {
+	padding:42px 35px 59px 21px;
+}
+.opt_change .cont {
+	padding-top:20px;
+}
+.opt_change .cont > p {
+	font-size: 18px;
+	text-align: left;
+	color: #000000;	
+}
+.opt_change .cont > p > del {
+	font-weight: 300;
+	color: #bbbbbb;
+	font-size: 18px;
+	text-align: left;
+	margin-left:18px;		
+}
+.opt_change .prd_list_a td {
+	border:none;
+}
+.opt_change .f_modal_middle_size_color {
+	border-top: solid 1px #ebebeb;
+}
+.opt_change .f_modal_middle_size_color dl {
+	float:left;
+}
+.opt_change .f_modal_middle_size_color dl:after {
+	content:'';
+	clear:both;
+	display:block;	
+}
+.opt_change .f_modal_middle_size_color dl:first-child{
+	padding:60px 21px 70px 28px;
+	width:310px;
+}
+.opt_change .f_modal_middle_size_color .opt_tit {
+	text-align:left;
+	margin-bottom:5px;
+}
+.opt_change .f_modal_middle_size_color .opt_tit > h4 {
+	font-size: 16px;
+	text-align: left;
+	color: #000000;	
+	margin-bottom:11px;
+}
+.opt_change .f_modal_middle_size_color .opt_tit > em {
+	font-size: 13px;
+	text-align: left;
+	color: #000000;	
+}
+.opt_change .f_modal_middle_size_color .opt_tit .msg {
+	text-align:right;
+	font-size: 12px;
+	font-weight: 100;
+	color: #8f8f8f;
+	margin-left:118px;	
+}
+.opt_change .f_modal_middle_size_color .opt_tit .msg strong {
+	color: #f6a623;
+	font-size: 12px;
+	font-weight: 100;		
+}
+/*상품이 장바구니에 추가되었습니다 모달*/
+.cart_add .f_modal_service {
+	padding-top:44px;
+}
+.cart_add .name {
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;			
+}
+.cart_add .opt > dt,
+.cart_add .opt > dd
+{
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;	
+}
+.cart_add .cont > p {
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;	
+	
+	padding:8px 0 90px !important;
+}
+.cart_add .cont em {
+	font-size: 22px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #000000;
+	margin-bottom:30px;
+	display:inline-block;
+}
+.cart_add .cont em span {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	color: #000000;	
+}
+.cart_add .f_modal_foot {
+}
+.cart_add .f_modal_foot .f_modal_btn > a:first-child {
+	margin-right:7px;
+}
+.cart_add .f_modal_foot .f_modal_btn a:first-child {	
+}
+.cart_add .f_modal_foot .f_modal_btn a:first-child:hover {
+	background-color: #ffffff;
+	box-shadow: 3px 3px 0 0 #e7e1ff;
+	border: solid 1px #7053ff;	
+	color: #7053ff;	
+}
+.cart_add .f_modal_foot .f_modal_btn a:last-child {
+	background-color: #7053ff;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;		
+}
+.cart_add .f_modal_foot .f_modal_btn a:last-child:hover {
+  	box-shadow: 3px 3px 0 0 #e6e1ff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;  		
+}
+/*상품이 장바구니에 추가되었습니다. more*/
+.cart_add_more .f_modal_head {
+}
+.cart_add_more .f_modal_head > p {
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 1.38;
+	text-align: left;
+	color: #7053ff;
+	margin-top:-15px;
+	margin-bottom:17px;	
+}
+.cart_add_more .f_modal_head .btn_close {
+	margin-top: -26px;
+}
+.cart_add_more .f_modal_foot .f_modal_btn a:first-child {	
+}
+.cart_add_more .f_modal_foot .f_modal_btn a:first-child:hover {
+	background-color: #ffffff;
+	box-shadow: 3px 3px 0 0 #e7e1ff;
+	border: solid 1px #7053ff;	
+	color: #7053ff;	
+}
+.cart_add_more .f_modal_foot .f_modal_btn a:last-child {
+	background-color: #7053ff;
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;		
+}
+.cart_add_more .f_modal_foot .f_modal_btn a:last-child:hover {
+  	box-shadow: 3px 3px 0 0 #e6e1ff;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;  		
+}
+.cart_add_more .cont {
+	position:relative;
+}
+.cart_add_more .quantity {
+  	font-size: 18px;
+  	line-height: 20px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #bbbbbb;  	
+  	position:absolute;
+  	top:160px;	
+}
+.cart_add_more .quantity > i {
+	font-size:1em;
+	margin:7px 17px;
+}
+.cart_add_more .quantity > span {
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #000000;	
+}
+
+/*마이페이지 - 나의 사진 확대하기*/
+.photo_zoom {
+	width:630px;
+}
+.photo_zoom .f_modal_head {
+	position:relative;
+	padding:26px 0;
+}
+.photo_zoom .f_modal_head > h2 {
+	font-size: 16px;
+	text-align: left;
+	color: #555555;	
+	padding:0;
+	margin-left: 29px;
+}
+.photo_zoom .f_modal_head > h2 > span {
+	font-size: 16px;
+	text-align: left;
+	color: #bbbbbb;
+	margin-right:5px;
+}
+.photo_zoom .f_modal_head .photo_num {
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	position:absolute;
+	top:26px;
+	font-weight:500;
+	margin-top:3px;			
+}
+.photo_zoom .f_modal_cont {
+    max-height: 610px;
+    overflow: auto;	
+}
+.photo_zoom .f_modal_cont .f_modal_service {
+	padding:0;
+	position:relative;
+}
+.photo_zoom .f_modal_cont .icon-arrow-left {
+	position:absolute;
+	top:280px;
+	left:20px;
+	color:#fff;
+	font-size:3em;	
+}
+.photo_zoom .f_modal_cont .icon-arrow-right {
+	position:absolute;
+	top:280px;
+	right:20px;
+	color:#fff;
+	font-size:3em;
+}
+.photo_zoom .f_modal_cont .f_modal_service img {
+	width:750px;
+	height:600px;
+}
+.photo_zoom .f_modal_foot{
+	height:171px;
+}
+.photo_zoom .f_modal_foot:after {
+	content:"";
+	display:inline-block;
+	clear:both;
+}
+.photo_zoom .f_modal_foot > img {
+	float:left;
+	margin:36px 20px 0 30px;
+}
+.photo_zoom .f_modal_foot > div {
+	float:left;
+	margin-top:41px;
+}
+.photo_zoom .f_modal_foot > div > strong {
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+	margin-bottom:4px;	
+}
+.photo_zoom .f_modal_foot > div > p {
+	font-size: 13px;
+	text-align: left;
+	color: #8f8f8f;
+	margin-bottom:15px;	
+}
+.photo_zoom .f_modal_foot > div > span {
+	font-size: 14px;
+	text-align: left;
+	color: #9b9b9b;
+	margin-right:9px;	
+}
+.photo_zoom .f_modal_foot > p {
+	float:right;
+	margin-top:50px;
+	margin-right:22px;
+}
+.photo_zoom .f_modal_foot > p > span > i {
+	font-size:1.2em;
+	margin-right:6px;
+}
+.photo_zoom .f_modal_foot > p > span {
+	margin-left:14px;
+	font-size: 14px;
+	line-height: 12px;
+	text-align: left;
+	color: #4a4a4a;	
+}
+/*사진 등록*/
+
+.photo_register_md {
+	background-color:red;
+}
+.photo_register_md .f_modal_head > h2 > span {
+	font-size: 14px;
+	text-align: right;
+	color: #bbbbbb;
+	margin-left:9px;	
+}
+.photo_register_md .f_modal_cont {
+	max-height: 785px !important;	
+}
+.photo_register_md .f_modal_service {
+	padding:26px;
+}
+.photo_register_md .f_modal_service .cont > p {
+	font-size: 14px;
+	text-align: left;
+	color: #8f8f8f;
+    padding: 7px 0 13px;		
+}
+.photo_register_md .f_modal_service .cont .rating  strong > i {
+	font-size:3em;
+	width:29px;
+	height:27px;
+}
+.photo_register_md .f_modal_service .cont .pr_review_txt {
+	font-size: 18px;
+	text-align: left;
+	color: #f6a623;	
+}
+.photo_register_md .photo_register_text {
+	text-align:center;
+}
+.photo_register_md .photo_register_text > img {
+	width:90px;
+	height:90px;
+	margin-top:41px;
+	margin-bottom:31px;
+}
+.photo_register_md .photo_register_text > p {
+	font-size: 18px;
+	text-align: center;
+	color: #bbbbbb;
+	padding: 21px 0 30px;		
+}
+.photo_register_md .photo_register_text > p > span {
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	color: #9b9b9b;	
+}
+.photo_register_md .photo_register_text > a {
+	margin-bottom:15px;
+	display:inline-block;
+	
+	font-size: 18px;
+	text-align: center;
+	color: #4a4a4a;
+}
+.photo_register_md .photo_register_text > a > i {
+	margin-right:18px;
+	font-size:2em;
+}
  
  

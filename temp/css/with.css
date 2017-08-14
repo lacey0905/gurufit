@@ -76,6 +76,36 @@
 	line-height:24px;
 	border: solid 1px #979797;
 }
+.btn_xl_l1 {
+	height: 60px;	
+	width: 330px;
+	padding:16px 127px 15px 127px;
+	background-color: #7053ff;
+	color: #FFFFFF;		
+	font-size: 20px;	
+	line-height: 29px;	
+	text-align: center;			
+}
+
+.btn_xl_l2 {
+	width: 340px;
+	height: 60px;
+	border: solid 1px #bbbbbb;
+	font-size: 20px;
+	text-align: center;
+	color:#4a4a4a;
+	padding:15px 97px 16px 97px;	
+}
+.btn_xl_l4 {
+	width: 550px;
+	height: 70px;
+	border-radius: 8px;
+	background-color: #ffffff;
+	border: solid 1px #dddddd;
+	padding:22px 154px;
+	display:block;	
+}
+
 
 /* 버튼 아이콘  */
 .btn_icon_heart:before {
@@ -116,7 +146,7 @@
 330 60 btn_xl_l1
 340 60 btn_xl_l2
 400 60 btn_xl_l3
-
+550 70 btn_xl_l4
 */
 
 

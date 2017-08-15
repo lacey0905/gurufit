@@ -464,6 +464,28 @@
 .prd_list_a .cont .opt dd {
 	margin-right:15px;
 }
+.prd_list_a .cont .opt dd a {
+	margin:0 9px;
+}
+.prd_list_a .cont .opt dd strong {
+	color:#000;
+	font-weight:600;
+}
+.prd_list_a .cont .price {
+	line-height:30px;
+	margin-top:8px;
+}
+.prd_list_a .cont .price strong {
+	font-weight:400;
+	font-size:18px;
+	color:#000;
+}
+.prd_list_a .cont .price del {
+	font-weight:300;
+	font-size:18px;
+	color: rgba(155, 155, 155, 0.81);
+	margin-left:10px;
+}
 .prd_list_a .cont .btn_modify {
 	display:inline-block;
 	font-size:14px;
@@ -523,16 +545,71 @@
 	padding-left:30px;
 	padding-right:30px;
 }
-
-
-
-
-
-
-
-
-
-
+.prd_list_a.ts_a {}
+.prd_list_a.ts_a .cont .name {
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;		
+}
+.prd_list_a.ts_a .opt > dt,
+.prd_list_a.ts_a .opt > dd {
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;	
+	line-height:30px !important;
+}
+.prd_list_a.ts_a .cont .brand {
+	margin-top:40px;
+}
+.prd_list_a.ts_a .cont .price strong {
+	font-size: 20px !important;
+	font-weight: 300 !important;
+	line-height: 22px !important;
+	text-align: left;
+	color: #4a4a4a !important;	
+	padding:8px 0 90px !important;
+}
+.prd_list_a.ts_a .cont .price_b em {
+	font-size: 22px;
+	letter-spacing: -0.5px;
+	text-align: left;
+	color: #000000;
+	margin:35px 0 40px;
+	display:inline-block;
+}
+.prd_list_a.ts_a .cont .price_b em span {
+	font-size: 16px;
+	letter-spacing: -0.5px;
+	color: #000000;	
+}
+.prd_list_a.ts_a .cont .count {
+	display:block;
+	margin-top:35px;
+}
+.prd_list_a.ts_a .cont .count .default,
+.prd_list_a.ts_a .cont .count .current {
+	display:inline-block;
+	font-size:18px;
+	line-height:20px;
+	color:#BBB;
+}
+.prd_list_a.ts_a .cont .count .default:after {
+	content:"\E315";
+	display:inline-block;
+	vertical-align:middle;
+	font-size:18px;
+	font-family:'Material Icons';
+	line-height:20px;
+	color:#BBB;
+	margin:0 18px;
+}
+.prd_list_a.ts_a .cont .count .current {
+	color:#000;
+}
 
 
 

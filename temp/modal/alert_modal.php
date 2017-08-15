@@ -10,12 +10,9 @@
 			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
 		</div>
 	</div>
-	
-	
-	
 	<!-- alert 모달 팝업 -->
 	<!-- 수정 되었습니다. -->
-	<div class="f_modal_layer small open">
+	<div class="f_modal_layer small">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -35,7 +32,7 @@
 		</div>
 		<div class="f_modal_blind"></div>
 	</div>
-	<!-- 나의 리스트에 추가 되었습니다. -->
+	<!-- 나의 리스트에 추가 되었습니다. (하트 아이콘 있는 버전) -->
 	<div class="f_modal_layer small open">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
@@ -44,7 +41,8 @@
         		</div>
         		<div class="f_modal_cont">
         			<div class="f_modal_msg">
-        				<span class="msg_mid">수정되었습니다.</span>
+        				<i class="icon icon_heart"></i>
+        				<span class="msg_mid">나의 리스트에 추가 되었습니다.</span>
         			</div>
         		</div>
         		<div class="f_modal_foot">

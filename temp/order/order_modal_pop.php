@@ -12,7 +12,7 @@
 	</div>
 	
 	<!-- 서비스 준비중 입니다. -->
-	<div class="f_modal_layer open">
+	<div class="f_modal_layer ">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -68,7 +68,7 @@
 	</div>
 	
 	<!-- 주소 찾기 -->
-	<div class="f_modal_layer ">
+	<div class="f_modal_layer open">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -89,7 +89,7 @@
             				</fieldset>
         				</form>
         				<!-- 주소 찾기 검색 전 -->
-        				<div class="addr_guide">
+        				<div class="addr_guide blind">
         					<strong class="addr_guide_tit">우편번호 통합검색 Tip</strong>
         					<ul>
         						<li>도로명 + 건물번호 (예: 송파대로 570)</li>
@@ -98,7 +98,7 @@
         					</ul>
         				</div>
         				<!-- 주소찾기 검색 후 -->
-        				<div class="addr_result_wrap blind">
+        				<div class="addr_result_wrap ">
         					<ul>
         						<li>
         							<div class="addr_road_name">
@@ -132,6 +132,24 @@
         						</li>
         					</ul>
         				</div>
+        				<!-- 페이징 -->
+						<div class="pager_type_a">
+							<a href="#" class="pager_btn first"></a>
+							<a href="#" class="pager_btn prev"></a>
+							<ol>
+			            		<li><a href="#">1</a></li>
+			            		<li><a href="#" class="active">2</a></li>
+			            		<li><a href="#">3</a></li>
+			            		<li><a href="#">4</a></li>
+			            		<li><a href="#">6</a></li>
+			            		<li><a href="#">7</a></li>
+			            		<li><a href="#">8</a></li>
+			            		<li><a href="#">9</a></li>
+			            		<li><a href="#">10</a></li>
+			        		</ol>
+			      			<a href="#" class="pager_btn next"></a>     
+			      			<a href="#" class="pager_btn last"></a>     
+						</div>
         			</div>
         		</div>
     		</div>

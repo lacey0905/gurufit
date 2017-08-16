@@ -415,6 +415,9 @@
 .prd_list_a .col_thum {
 	width:220px;
 }
+.prd_list_a .col_btn {
+	width:140px;
+}
 .prd_list_a .col_price {
 	width:150px;
 }
@@ -433,6 +436,7 @@
 	margin:0 auto;
 }
 .prd_list_a .cont {
+	position:relative;
 	padding-left:20px;
 	text-align:left;
 }
@@ -610,8 +614,9 @@
 .prd_list_a.ts_a .cont .count .current {
 	color:#000;
 }
-
-
+.prd_list_a .prd_list_btn li {
+	margin:5px 0;
+}
 
 
 

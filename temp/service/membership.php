@@ -1,5 +1,5 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
@@ -14,8 +14,8 @@
 			<h2 class="s_lar">Service Introduce</h2>
 			<div class="tab_active_type">
 				<ul>
-					<li class="active"><a href="#">서비스 안내</a></li>
-					<li><a href="#">멤버십 안내</a></li>
+					<li><a href="#">서비스 안내</a></li>
+					<li class="active"><a href="#">멤버십 안내</a></li>
 					<li><a href="#">무료 교환/반품 정책</a></li>					
 				</ul>
 			</div>
@@ -55,7 +55,6 @@
 						</dl>
 					</article>
 				</section>
-				
 				<section>
 					<div class="mem_grey_box">
 						<h4>멤버십 등급조건과 혜택</h4>
@@ -189,10 +188,10 @@
 					<article>
 						<table  class="mem_list">
 							<colgroup>
-								<col width="209">
-								<col width="217">
-								<col width="263">
-								<col width="415">
+								<col width="120">
+								<col width="250">
+								<col width="240">
+								<col width="*">
 							</colgroup>
 							<thead>
 								<tr>
@@ -204,201 +203,209 @@
 							</thead>
 							<tbody>
 								<tr class="mem_list_line">
-									<td>
+									<td class="icon_tit">
 										<i class="icon-mouse"></i>
-										회원가입<br>
+										회원가입
+										<br>
 										(1회한정)
 									</td>
 									<td>
-										<ul>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
-											<li class="mem_list_check"><del>&nbsp;</del></li>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
-											<li class="mem_list_check"><i class="material-icons">&#xE876;</i><del>100xp</del></li>
+										<ul class="check_list">
+											<li><del>100xp</del></li>
+											<li><del>100xp</del></li>
+											<li><del>100xp</del></li>
+											<li><del>100xp</del></li>
+											<li class="null">&nbsp;</li>
+											<li><del>100xp</del></li>
+											<li><del>100xp</del></li>
 											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;<del>이메일수신동의</del></li>
-											<li>&middot;<del>카카오톡플러스친구추가</del></li>
-											<li>&middot;<del>사이즈서베이제출</del></li>
-											<li>&middot;<del>선호도서베이제출</del></li>
-											<li>&nbsp;</li>
-											<li>&middot;<del>결제정보저장</del></li>
-											<li>&middot;<del>앱다운로드 후 로그인</del></li>
-											<li>&middot;튜토리얼</li>
+										<ul class="dot_list">
+											<li><del>이메일수신동의</del></li>
+											<li><del>카카오톡플러스친구추가</del></li>
+											<li><del>사이즈서베이제출</del></li>
+											<li><del>선호도서베이제출</del></li>
+											<li class="null">&nbsp;</li>
+											<li><del>결제정보저장</del></li>
+											<li><del>앱다운로드 후 로그인</del></li>
+											<li>튜토리얼</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;<del>이메일 수신에 동의 하면 경험치가 올라갑니다.</del></li>
-											<li>&middot;<del>GuruFit을 카카오톡 플러스친구로 추가하면 경험치가 올라갑니다.</del></li>
-											<li>&middot;<del>발 치수 정보를 저장하면 경험치가 올라갑니다.</del></li>
-											<li>&middot;<del>신발 카테고리, 브랜드, 패션 스타일 등 선호 정보를 입력하면 경험치가 올라갑니다.</del></li>
-											<li>&nbsp;</li>
-											<li>&middot;<del>결제정보 저장후 기본 결제방법을 지정하면 경험치가 올라갑니다.</del></li>
-											<li>&middot;<del>GuruFit 앱을 설치하면 경험치가 올라갑니다.</del></li>
-											<li>&middot;가입 후 GuruFit 튜토리얼을 마치면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
+											<li><del>이메일 수신에 동의 하면 경험치가 올라갑니다.</del></li>
+											<li><del>GuruFit을 카카오톡 플러스친구로 추가하면 경험치가 올라갑니다.</del></li>
+											<li><del>발 치수 정보를 저장하면 경험치가 올라갑니다.</del></li>
+											<li><del>신발 카테고리, 브랜드, 패션 스타일 등 선호 정보를 입력하면<br>경험치가 올라갑니다.</del></li>
+											<li><del>결제정보 저장후 기본 결제방법을 지정하면 경험치가 올라갑니다.</del></li>
+											<li><del>GuruFit 앱을 설치하면 경험치가 올라갑니다.</del></li>
+											<li>가입 후 GuruFit 튜토리얼을 마치면 경험치가 올라갑니다.</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="icon-bag"></i>
-									상품구매
+									<td class="icon_tit">
+    									<i class="icon-bag"></i>
+    									상품구매
 									</td>
 									<td>
-										<ul>
-											<li>100px</li>
-											<li>100px</li>
+										<ul class="check_list">
+											<li>100xp</li>
+											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;상품구매</li>
-											<li>&middot;프리미엄 상품 구매</li>
+										<ul class="dot_list">
+											<li>상품구매</li>
+											<li>프리미엄 상품 구매</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;GuruFit에서 상품을 구매하면 경험치가 올라갑니다.</li>
-											<li>&middot;프리미엄 상품을 구매하면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
+											<li>GuruFit에서 상품을 구매하면 경험치가 올라갑니다.</li>
+											<li>프리미엄 상품을 구매하면 경험치가 올라갑니다.</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="icon-note"></i>
-									리뷰등록
+									<td class="icon_tit">
+    									<i class="icon-note"></i>
+    									리뷰등록
 									</td>
 									<td>
-										<ul>
-											<li>100px</li>
-											<li>100px</li>
+										<ul class="check_list">
+											<li>100xp</li>
+											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 상품 리뷰 등록</li>
-											<li>&middot;베스트 리뷰 선정</li>
+										<ul class="dot_list">
+											<li>구매 상품 리뷰 등록</li>
+											<li>베스트 리뷰 선정</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 상품 리뷰를 등록하면 경험치가 올라갑니다.</li>
-											<li>&middot;등록한 리뷰가 베스트 리뷰로 선정되면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
+											<li>구매 상품 리뷰를 등록하면 경험치가 올라갑니다.</li>
+											<li>등록한 리뷰가 베스트 리뷰로 선정되면 경험치가 올라갑니다.</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="material-icons">&#xE410;</i>
-									사진등록
+									<td class="icon_tit">
+    									<i class="material-icons">&#xE410;</i>
+    									사진등록
 									</td>
 									<td>
-										<ul>
+										<ul class="check_list">
 											<li>100xp</li>
 											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 상품 사진 등록</li>
-											<li>&middot;베스트 Pic. 선정</li>
+										<ul class="dot_list">
+											<li>구매 상품 사진 등록</li>
+											<li>베스트 Pic. 선정</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 상품 착용사진의 등록이 완료되면 경험치가 올라갑니다.</li>
-											<li>&middot;등록한 착용사진이 베스트 Pic.으로 선정되면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
+											<li>구매 상품 착용사진의 등록이 완료되면 경험치가 올라갑니다.</li>
+											<li>등록한 착용사진이 베스트 Pic.으로 선정되면 경험치가 올라갑니다.</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="icon-link"></i>
-									소셜공유
+									<td class="icon_tit">
+    									<i class="icon-link"></i>
+    									소셜공유
 									</td>
 									<td>
-										<ul>
+										<ul class="check_list">
 											<li>100xp</li>
 											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 내역 공유</li>
-											<li>&middot;추천인 회원 가입</li>
+										<ul class="dot_list">
+											<li>구매 내역 공유</li>
+											<li>추천인 회원 가입</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;구매 내역을 SNS에 공유하면 경험치가 올라갑니다.</li>
-											<li>&middot;추천인 링크로 가입한 회원이 첫 구매를 마치면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
+											<li>구매 내역을 SNS에 공유하면 경험치가 올라갑니다.</li>
+											<li>추천인 링크로 가입한 회원이 첫 구매를 마치면 경험치가 올라갑니다.</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="icon-diamond"></i>
-									사이트방문
+									<td class="icon_tit">
+    									<i class="icon-diamond"></i>
+    									사이트방문
 									</td>
 									<td>
-										<ul>
+										<ul class="check_list">
 											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;사이트방문10회</li>
+										<ul class="dot_list">
+											<li>사이트방문10회</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;주 1회 방문이 10회가 되면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
 											<li>
-											남은 사이트 방문:
-												<div class="mem_list_count_num">
-												 		4회
-												 	<div class="mem_progress">
-												 		<div class="mem_progress_mask">
-												 		</div>
-												 	</div>
+												주 1회 방문이 10회가 되면 경험치가 올라갑니다.
+												<div class="count_gauge_wrap">
+													<strong>
+														남은 사이트 방문 :<em>4회</em>
+													</strong>
+													<div class="progress_a prog">
+                    									<div class="prog_wrap">
+                    										<div class="prog_mask">
+                        										<div class="prog_bar" style="width:80%;"></div>
+                        									</div>
+                    									</div>
+                    								</div>
 												</div>
 											</li>
 										</ul>
 									</td>
 								</tr>
 								<tr class="mem_list_line">
-									<td>
-									<i class="icon-envelope"></i>
-									이메일
+									<td class="icon_tit">
+    									<i class="icon-envelope"></i>
+    									이메일
 									</td>
 									<td>
-										<ul>
+										<ul class="check_list">
 											<li>100xp</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;이메일 링크로 사이트 방문</li>
+										<ul class="dot_list">
+											<li>이메일 링크로 사이트 방문</li>
 										</ul>
 									</td>
 									<td>
-										<ul>
-											<li>&middot;이메일 링크를 통한 사이트 방문이 10회가 되면 경험치가 올라갑니다.</li>
+										<ul class="dot_list_b">
 											<li>
-											남은 사이트 방문:
-												<div class="mem_list_count_num">
-												 		4회
-												 	<div class="mem_progress">
-												 		<div class="mem_progress_mask">
-												 		</div>
-												 	</div>
+												이메일 링크를 통한 사이트 방문이 10회가 되면 경험치가 올라갑니다.
+												<div class="count_gauge_wrap">
+													<strong>
+														남은 사이트 방문 :<em>4회</em>
+													</strong>
+													<div class="progress_a prog">
+                    									<div class="prog_wrap">
+                    										<div class="prog_mask">
+                        										<div class="prog_bar" style="width:80%;"></div>
+                        									</div>
+                    									</div>
+                    								</div>
 												</div>
 											</li>
 										</ul>
@@ -412,18 +419,4 @@
 		</section>
 	</article>
 </section>
-<?php include "../inc/footer.php" ?>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+<?php include "../inc/footer.php" ?> 

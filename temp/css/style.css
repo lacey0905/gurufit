@@ -2,7 +2,8 @@
 @import url("layout.css");
 @import url("main.css");
 @import url("product_detail.css");
-@import url("yeseo.css");
+@import url("service.css");
+
 
 /* LOCATE */
 .sub_locate {
@@ -340,7 +341,7 @@
 }
 .select_sort dd {
 	display:inline-block;
-	vertical-align:middle;
+	vertical-align:top;
 }
 
 /* 검색 결과 카운트 */
@@ -1122,7 +1123,7 @@
 	font-weight:400;
 	color:#000;
 	text-align:left;
-	line-height:33px;
+	line-height:33px !important;
 	padding:43px 0 20px;
 }
 .tit_sub_b span {
@@ -1139,6 +1140,15 @@
 	margin:30px 0 16px;
 	color:#000;
 }
+.tit_sel_sch {
+	line-height:36px;
+}
+.tit_sel_sch .search {
+	line-height:36px;
+	vertical-align:top;
+	float:right;
+}
+
 
 /* ADDRESS TABLE */
 .addr_wrap {
@@ -2634,6 +2644,15 @@
 	padding:50px 0;
 	text-align:center;
 }
+
+/* 게시글 입력 */
+.board_write_wrap {
+	border-top:solid 1px #ddd;
+}
+
+
+
+
 
 
 

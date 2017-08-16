@@ -52,7 +52,6 @@
     			    					</div>
 									</td>
 								  </tr>
-
 							 </tbody>
 						</table>
                         <div class="photo_register_text">

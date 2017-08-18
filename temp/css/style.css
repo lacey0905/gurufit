@@ -210,6 +210,16 @@
 	line-height:33px;
 	margin:42px 0 22px;
 }
+.member_box span {
+	display:inline-block;
+	font-size:14px;
+	font-weight:300;
+	color:#4a4a4a;
+	line-height:33px;
+	letter-spacing:-0.4px;
+	margin-left:20px;
+	vertical-align:top;
+}
 .member_box p.member_head_link {
 	display:inline-block;
 	width:50%;
@@ -282,17 +292,22 @@
 	color:#000;
 }
 .inp_login {}
+.inp_login_a {
+	padding:30px 0;
+}
 .inp_login fieldset {
 	width:400px;
+	margin:0 auto;
 }
 .inp_login fieldset legend {
+	display:block;
 	position:relative;
 	font-size:18px;
 	line-height:47px;
 	color:#4a4a4a;
 	padding-bottom:16px;
-	margin-bottom:18px;
-	text-align:center;
+	margin:0 auto 18px;
+ 	text-align:center;
 }
 .inp_login fieldset legend:after {
 	content:" ";
@@ -310,6 +325,35 @@
 	display:block;
 	margin:27px 0;
 	text-align:right;
+}
+.inp_login_a .inp_count,
+.inp_login_a .inp_count span {
+	font-size:14px;
+	color:#ff8100;
+	line-height:21px;
+	letter-spacing:-0.4px;
+}
+.inp_login_a .inp_count {
+	display:inline-block;
+	margin-left:20px;
+	padding:5px 0 15px;
+}
+.inp_login_a .inp_opt_link {}
+.inp_login_a .inp_opt_link a {
+	display:block;
+	color:#4a4a4a;
+	font-size:14px;
+	line-height:21px;
+	text-align:center;
+	padding-top:24px;
+}
+.inp_login .inp_btn_a input {
+	width:270px;
+	float:left;
+}
+.inp_login .inp_btn_a a {
+	vertical-align:top;
+	float:right;
 }
 .inp_login #emailSave {
 	text-align:right;
@@ -1609,6 +1653,67 @@
 	margin-top:0px;
 }
 
+.complate_box_b {
+	border:solid 1px #e6e9f0;
+	background-color:#fcfcff;
+}
+.complate_box_b .comp_tit,
+.complate_box_b .comp_tit em {
+	font-size:36px;
+	font-weight:300;
+	color:#0178ff;
+	letter-spacing:-0.5px;
+	text-align:center;
+}
+.complate_box_b .comp_tit {
+	position:relative;
+	padding:65px 0 35px;
+	line-height:54px;
+}
+.complate_box_b .comp_tit em {
+	font-weight:400;
+}
+.complate_box_b .comp_cont,
+.complate_box_b .comp_cont em {
+	font-size:18px;
+	font-weight:300;
+	line-height:24px;
+	letter-spacing:-0.5px;
+	color:#4a4a4a;
+	text-align:center;
+}
+.complate_box_b .comp_cont em {
+	font-weight:400;
+}
+.complate_box_b .comp_btn {
+	text-align:center;
+	padding:50px 0 80px;
+}
+
+.complate_box_c {
+	border:solid 1px #e6e9f0;
+	background-color:#fcfcff;
+	text-align:center;
+}
+.complate_box_c .comp_tit,
+.complate_box_c .comp_tit em {
+	font-size:18px;
+	font-weight:300;
+	color:#000;
+	line-height:25px;
+	letter-spacing:-0.4px;
+}
+.complate_box_c .comp_tit {
+	display:block;
+	padding:90px 0 67px;
+}
+.complate_box_c .comp_tit em {
+	font-weight:400;
+	color:#7053ff;
+} 
+.complate_box_c .comp_btn {
+	padding-bottom:50px;
+}
 
 
 /* MAYPAGE */

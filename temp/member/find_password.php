@@ -22,19 +22,19 @@
 		<div class="member_box">
 			<h3>
 				비밀번호 찾기
-				<em>이메일로 새 비밀번호를 설정할 수 있는 링크를 발송합니다.</em>
+				<span>이메일로 새 비밀번호를 설정할 수 있는 링크를 발송합니다.</span>
 			</h3>
-			<div id="userSearchBox" class="box_inner">
-				<div class="inp_login">
+			<div id="userSearchBox" class="box_inner box_type_a">
+				<div class="inp_login inp_login_a">
 					<form action="" method="">
 						<fieldset>
 							<legend class="blind">비밀번호 찾기</legend>
 							<input type="text" value="" placeholder="이름" class="inp_nm_box inp_full" name="name">
 							<input type="password" value="" placeholder="이메일주소" class="inp_nm_box inp_full" name="email">
-							<input type="submit" value="비밀번호 링크 발송" class="inp_submit_a inp_full">
-							<div class="custom_linkBox">
-								<a href="#">로그인으로 돌아가기</a>
-							</div>
+							<a href="#" class="inp_submit_a inp_full btn_hover_shadow">비밀번호 링크 발송</a>
+							<div class="inp_opt_link">
+    							<a href="#">로그인으로 돌아가기</a>
+    						</div>
 						</fieldset>
 					</form>
 				</div>

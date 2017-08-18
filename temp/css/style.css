@@ -1088,7 +1088,10 @@
 
 /* SUB TITLE */
 .tit_sub_wrap {
-	margin:37px 0 25px;
+	padding:37px 0 25px;
+}
+.tit_sub_wrap.line {
+	border-bottom:solid 2px #4a4a4a;
 }
 .tit_sub_wrap .tit_head {
 	display:inline-block;	
@@ -1109,6 +1112,9 @@
 .tit_sub_wrap .tit_opt.check .label {
 	color:#555;
 }
+.tit_sub_wrap .tit_opt.select .sel {
+	margin-left:8px;
+}
 .tit_sub_a {
 	font-size:22px;
 	font-weight:400;
@@ -1126,6 +1132,24 @@
 	line-height:33px !important;
 	padding:43px 0 20px;
 }
+.tit_sub_b a,
+.tit_sub_b a em {
+	display:inline-block;
+	font-size:18px;
+	font-weight:400;
+	line-height:39px;
+	color:#8f8f8f;
+}
+.tit_sub_b a {
+	margin-left:20px;
+}
+.tit_sub_b a em {
+	font-weight:600;
+}
+.tit_sub_b a.active,
+.tit_sub_b a.active em {
+	color:#7053ff;
+}
 .tit_sub_b span {
 	font-weight:400;
     color: #f6a623;	
@@ -1139,6 +1163,17 @@
 	line-height:27px;
 	margin:30px 0 16px;
 	color:#000;
+}
+.tit_sub_d,
+.tit_sub_d span {
+	font-size:18px;
+	font-weight:400;
+	line-height:30px !important;
+	color:#8f8f8f;
+}
+.tit_sub_d span {
+	font-weight:600;
+	color:#f6a623;
 }
 .tit_sel_sch {
 	line-height:36px;
@@ -2649,6 +2684,56 @@
 .board_write_wrap {
 	border-top:solid 1px #ddd;
 }
+
+/* 구매 목록 */
+.prd_top_info {
+	border-top:solid 1px #4a4a4a;
+}
+.prd_top_list {}
+
+.prd_date_list {}
+.prd_date_list .list {}
+.prd_date_list .list .date {
+	position:relative;
+	font-size:18px;
+	font-weight:600;
+	color:#4a4a4a;
+	line-height:27px;
+	text-align:center;
+	padding:29px 0 51px;
+	border-bottom:solid 1px #ebebeb;
+}
+.prd_date_list .list .date:after {
+	content:"";
+	position:absolute;
+	bottom:20px;
+	left:50%;
+	width:1px;
+	height:21px;
+	background-color:#979797;
+}
+.prd_date_list .list .date.n_line {
+	border-bottom:0;
+	padding-bottom:35px;
+}
+.prd_date_list .list .date.n_line:after {
+	bottom:0;
+}
+
+/* 리스트 더보기 버튼 */
+.list_more_btn {
+	text-align:center;
+	padding:50px 0;
+}
+
+
+
+
+
+
+
+
+
 
 
 

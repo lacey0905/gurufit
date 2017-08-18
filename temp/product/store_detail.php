@@ -213,7 +213,7 @@
     													<div class="tit_img"><img src="../img/img_over_pronation.png" alt=""></div>
     													<em>과내전</em><br>over pronation
     												</li>
-    												<li><em>중립</em></li>
+    												<li class="active"><em>중립</em></li>
     												<li class="">
     													<div class="tit_img"><img src="../img/img_under_pronation.png" alt=""></div>
     													<em>외전/과외전</em><br>under pronation

@@ -12,32 +12,23 @@
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
 			<h2>Join</h2>
-			<div class="tab_active_type">
-				<ul>
-					<li><a href="#">01 회원정보입력</a></li>
-					<li class="active"><a href="#">02 회원가입완료</a></li>
-				</ul>
+			<div class="tab_step_arr">
+				<ol>
+					<li class="">01 회원정보입력</li>
+					<li class="active">02 회원가입완료</li>
+				</ol>
 			</div>
 		</section>
-		<div class="member_box">
-			<h3>
-				회원가입 완료
-			</h3>
-			<div id="userSearchBox" class="box_inner join_complete_box_inner">
-				<div class="inp_login">
-
-						<fieldset>
-							<legend class="blind">회원가입 완료</legend>
-							<div class="join_complate_box_result">
-								<h4>구루핏 회원이 되신걸 <strong>환영합니다.</strong></h4>
-								<p><em>김하영님</em>의 로그인 아이디는<br>
-								<em>hayoung1928763@verylongadress.com</em>입니다.</p>
-							</div>
-							<a href="#" class="inp_submit_a inp_full">로그인</a>
-						</fieldset>
-
-				</div>
-			</div>
+		<h3 class="tit_sub_b">회원가입 완료</h3>
+		<div class="complate_box_b">
+			<h4 class="comp_tit">구루핏 회원이 되신걸 <em>환영합니다.</em></h4>
+			<p class="comp_cont">
+				<em>김하영님</em>의 로그인 아이디는 <br>
+				<em>hayoung1928763@verylongadress.com </em>입니다.
+			</p>
+    		<div class="comp_btn">
+    			<a href="#" class="btn_ btn_xl_l3 btn_cp btn_hover_shadow">로그인</a>
+    		</div>
 		</div>
 	</article>
 </section>

@@ -1,5 +1,5 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">

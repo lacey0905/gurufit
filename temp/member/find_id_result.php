@@ -22,22 +22,17 @@
 		<div class="member_box">
 			<h3>
 				아이디 찾기
-				<em>회원가입 시 입력한 휴대전화번호로 로그인 아이디를 확인할 수 있습니다</em>
+				<span>회원가입 시 입력한 휴대전화번호로 로그인 아이디를 확인할 수 있습니다</span>
 			</h3>
-			<div id="userSearchBox" class="box_inner find_id_box_inner">
-				<div class="inp_login">
-					<form action="" method="">
-						<fieldset>
-							<legend class="blind">아이디 찾기</legend>
-							<div class="complate_box_result">
-								로그인 아이디(이메일 주소)는<br>
-								<em>hayo**********@verylongandredundentemailaddress.com</em>입니다
-							</div>
-							<a href="#" class="inp_submit_a inp_full">로그인으로 돌아가기</a>
-						</fieldset>
-					</form>
-				</div>
-			</div>
+			<div class="complate_box_c">
+				<strong class="comp_tit">
+					로그인 아이디(이메일 주소)는 <br>
+					<em>hayo**********@verylongandredundentemailaddress.com</em> 입니다
+				</strong>
+        		<div class="comp_btn">
+        			<a href="#" class="btn_ btn_xl_l3 btn_cp btn_hover_shadow">로그인으로 돌아가기</a>
+        		</div>
+    		</div>
 		</div>
 	</article>
 </section>

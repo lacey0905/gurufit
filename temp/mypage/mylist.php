@@ -1,5 +1,5 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
@@ -26,195 +26,139 @@
 				</ul>
 			</div>
 		</section>
-		<section>
-			<div class="my_list_container">
-				<h3 class="tit_sub_a ml_tit_sub_a">
-					나의 리스트
-					<span>상품<b>(3)</b></span>
-					<span>콘텐츠<b>(3)</b></span>
-				</h3>
-				<dl class="select_sort ml_select_sort">
-					<dt>&npsp;</dt>
-					<dd>
-						<div class="sel_custom sel_nm_box">
-							<select class="sel_mid">
-								<option>등록순서</option>
-							</select>
-						</div>
-					</dd>
-				</dl>				
-				<!--1-->
-				<div class="prd_list_type">
-					<table class="prd_list_a">
-						<caption class="blind">장바구니</caption>
-						<colgroup>
-							<col class="col_thum">
-							<col class="col_cont">
-							<col class="col_price">
-						</colgroup>						
-						<tbody>
-							<tr>
-								<td class="thum phl_thum">
-									<span class="prd_thum">
-			    						<a href="#">
-			    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-		    							</a>
-		   							</span>
-								</td>
-								<td class="cont">
-									<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-									<strong class="name">Nike Metcon DSX Flyknit</strong>
-									<dl class="opt">
-										<dt>컬러 : </dt>
-										<dd>Green</dd>
-										<dt>사이즈 : </dt>
-										<dd>230</dd>
-										<dt>수량 : </dt>
-										<dd>1개</dd>
-									</dl>
-									<p class="ml_total_price">184,000원 <del>199,000원</del></p>
-								</td>
-								<td class="ml_button_area_one">
-									<em>&nbsp;</em>
-									<a href="#" class="nav_btn btn_normal b_size_x140 cart_put">장바구니에 담기</a>
-									<a href="#" class="ml_product_cancel">상품 삭제</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<!--2-->
-				<div class="prd_list_type">
-					<table class="prd_list_a">
-						<caption class="blind">장바구니</caption>
-						<colgroup>
-							<col class="col_thum">
-							<col class="col_cont">
-							<col class="col_price">
-						</colgroup>						
-						<tbody>
-							<tr>
-								<td class="thum phl_thum">
-									<span class="prd_thum">
-			    						<a href="#">
-			    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-		    							</a>
-		   							</span>
-								</td>
-								<td class="cont">
-									<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-									<strong class="name">Nike Metcon DSX Flyknit</strong>
-									<dl class="opt">
-										<dt>컬러 : </dt>
-										<dd>Green</dd>
-										<dt>사이즈 : </dt>
-										<dd>230</dd>
-										<dt>수량 : </dt>
-										<dd>1개</dd>
-									</dl>
-									<p class="ml_total_price">184,000원 <del>199,000원</del></p>
-								</td>
-								<td class="ml_button_area_two">
-									<em>&nbsp;</em>
-									<p class="stock_none">재고 없음</p>
-									<p class="stock_alarm_text">재고 알림 받기를 선택하면 재입고시 알림 메일을 보내드립니다.</p>
-									<a href="#" class="nav_btn btn_normal b_size_x140 stock_alarm">재고알림 받기</a>
-									<a href="#" class="ml_product_cancel">상품 삭제</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<!--3-->
-				<div class="prd_list_type">
-					<table class="prd_list_a">
-						<caption class="blind">장바구니</caption>
-						<colgroup>
-							<col class="col_thum">
-							<col class="col_cont">
-							<col class="col_price">
-						</colgroup>						
-						<tbody>
-							<tr>
-								<td class="thum phl_thum">
-									<span class="prd_thum">
-			    						<a href="#">
-			    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-		    							</a>
-		   							</span>
-								</td>
-								<td class="cont">
-									<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-									<strong class="name">Nike Metcon DSX Flyknit</strong>
-									<dl class="opt">
-										<dt>컬러 : </dt>
-										<dd>Green</dd>
-										<dt>사이즈 : </dt>
-										<dd>230</dd>
-										<dt>수량 : </dt>
-										<dd>1개</dd>
-									</dl>
-									<p class="ml_total_price">184,000원 <del>199,000원</del></p>
-								</td>
-								<td class="ml_button_area_two">
-									<em>&nbsp;</em>
-									<p class="stock_alarm_request"><i class="material-icons">&#xE5CA;</i>재고 알림 신청 완료</p>
-									<p class="stock_alarm_request_date">2017년 8월 12일에 신청했습니다.</p>
-									<a href="#" class="ml_product_cancel">상품 삭제</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>				
-				<!--4-->
-				<div class="prd_list_type">
-					<table class="prd_list_a">
-						<caption class="blind">장바구니</caption>
-						<colgroup>
-							<col class="col_thum">
-							<col class="col_cont">
-							<col class="col_price">
-						</colgroup>						
-						<tbody>
-							<tr>
-								<td class="thum phl_thum">
-									<span class="prd_thum">
-			    						<a href="#">
-			    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-		    							</a>
-		   							</span>
-								</td>
-								<td class="cont">
-									<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-									<strong class="name">Nike Metcon DSX Flyknit</strong>
-									<dl class="opt">
-										<dt>컬러 : </dt>
-										<dd>Green</dd>
-										<dt>사이즈 : </dt>
-										<dd>230</dd>
-										<dt>수량 : </dt>
-										<dd>1개</dd>
-									</dl>
-									<p class="ml_total_price">184,000원 <del>199,000원</del></p>
-								</td>
-								<td class="ml_button_area_two">
-									<em>&nbsp;</em>
-									<p class="stock_none">재고 없음</p>
-									<p class="stock_alarm_text">재고 알림 받기를 선택하면 재입고시 알림 메일을 보내드립니다.</p>
-									<a href="#" class="nav_btn btn_normal b_size_x140 stock_alarm">재고알림 받기</a>
-									<a href="#" class="ml_product_cancel">상품 삭제</a>
-								</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>																												
-        		<div class="alarm_prd_more">
-          			<a href="#" class="btn_hover_a">더보기</a>
-          		</div>
+		<section id="mypage">
+			<div class="tit_sub_wrap line">
+    			<h3 class="tit_head tit_sub_b">
+    				나의 리스트
+    				<a href="#" class="active">상품 (<em>3</em>)</a>
+    				<a href="#">콘텐츠 (<em>3</em>)</a>
+    			</h3>
+    			<dl class="tit_opt select">
+    				<dt class="blind">정렬</dt>
+    				<dd>
+            			<div class="sel sel_custom sel_nm_box sel_x2">
+    						<select>
+    							<option>최신순</option>
+    						</select>
+    					</div>
+    				</dd>
+    			</dl>
 			</div>
-		</section>		
-		
-		
+			<div class="prd_date_list">
+				<div class="list">
+					<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>구입할 날짜</dt>
+    									<dd>2017년 7월 14일</dd>
+    								</dl>
+    								<p class="price">
+										<strong>184,000원</strong>
+										<del>199,000원</del>
+									</p>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">장바구니에 담기</a></li>
+    									<li class="del ab"><a href="#">상품 삭제</a></li>
+    								</ul>
+    							</td>
+						 	</tr>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>구입할 날짜</dt>
+    									<dd>2017년 7월 14일</dd>
+    								</dl>
+    								<p class="price">
+										<strong>184,000원</strong>
+										<del>199,000원</del>
+									</p>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li class="icon_msg ab2">
+    										<div class="icon_msg_inner">
+												<span class="stock">재고 없음</span>
+												<span class="msg">재고 알림 받기를 선택하면 재입고시 알림 메일을 보내드립니다</span>
+											</div>
+    									</li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">재고알림 받기</a></li>
+    									<li class="del"><a href="#">상품 삭제</a></li>
+    								</ul>
+    							</td>
+						 	</tr>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>구입할 날짜</dt>
+    									<dd>2017년 7월 14일</dd>
+    								</dl>
+    								<p class="price">
+										<strong>184,000원</strong>
+										<del>199,000원</del>
+									</p>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li class="icon_msg">
+    										<div class="icon_msg_inner">
+												<span class="stock">재고 없음</span>
+											</div>
+    									</li>
+    									<li class="check_com_msg ">
+    										<div class="check_com_inner">
+        										<strong class="check">재고 알림 신청 완료</strong>
+        										<span class="com_msg">2017년 8월 12일에 신청했습니다.</span>
+											</div>
+    									</li>
+    									<li class="del"><a href="#">상품 삭제</a></li>
+    								</ul>
+    							</td>
+						 	</tr>
+    					 </tbody>
+    				</table> 
+				</div>
+				<div class="list_more_btn">
+					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
+				</div>
+			</div>
+		</section>
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>

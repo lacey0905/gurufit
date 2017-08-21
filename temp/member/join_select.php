@@ -46,7 +46,7 @@
 					<fieldset>
 						<legend>이메일 주소로 회원가입</legend>
 						<input type="text" value="" placeholder="이메일 주소" class="inp_nm_box inp_full" name="email">
-						<a href="#" class="inp_submit_a inp_full">다음 단계로</a>
+						<a href="#" class="inp_submit_a btn_hover_shadow inp_full">다음 단계로</a>
 						<p class="submit_msg">이미 가입된 이메일 주소입니다 </p>
 					</fieldset>
 				</div>

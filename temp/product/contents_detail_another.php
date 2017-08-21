@@ -1,5 +1,5 @@
 <?php include "../inc/header.php" ?>
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
@@ -13,7 +13,7 @@
 		<article class="contents_top_tit">
 			<div class="contents_top_tit_inner">
 				<em>
-					<span>구루Zone</span> ㅣ 구루Think
+					<span><a href="#">구루Zone</a></span> ㅣ <a href="#">구루Think</a>
 					<i class="material-icons">&#xE87E;</i>
 				</em>
 				<h2>미리 엿보는 패션 트렌드No.1 (시리즈)</h2>
@@ -102,7 +102,7 @@
 					<strong>불나방스타쏘세지클럽</strong><br>
 					<em>컨텐츠 <span>69</span>개   팔로워 33명</em>
 				</p>
-				<a href="#" class="btn_ btn_x_s2">팔로우 하기</a>
+				<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">팔로우 하기</a>
 			</div>
 		</article>	
 		
@@ -114,8 +114,8 @@
 				</div>
 			</nav>
 			<div class="custom_inner">
-				<article class="prd_type_b">
-    				<ul class="x4">
+				<article class="custom_prd prd_type_b">
+    				<ul class="x5">
     					<li class="">
     						<figure>
     	    					<span class="thum">
@@ -177,7 +177,6 @@
 			</div>		
 		</div>
 	</section>
-
 </section>
 <?php include "../inc/footer.php" ?>
  

@@ -415,10 +415,14 @@
 .prd_list_a .col_thum {
 	width:220px;
 }
+.prd_list_a .col_btn {
+	width:140px;
+}
 .prd_list_a .col_price {
 	width:150px;
 }
 .prd_list_a td {
+	position:relative;
 	padding:0;
 	border-bottom:solid 1px #e1e1e1;
 	text-align:center;
@@ -433,6 +437,7 @@
 	margin:0 auto;
 }
 .prd_list_a .cont {
+	position:relative;
 	padding-left:20px;
 	text-align:left;
 }
@@ -470,6 +475,21 @@
 .prd_list_a .cont .opt dd strong {
 	color:#000;
 	font-weight:600;
+}
+.prd_list_a .cont .rating {
+	margin:12px 0 0;
+}
+.prd_list_a .cont .rating .msg {
+	display:inline-block;
+	font-size:18px;
+	font-weight:300;
+	color:#bbb;
+	vertical-align:middle;
+	margin-left:15px;
+	line-height:30px;
+}
+.prd_list_a .cont .rating.active .msg {
+	color:#f6a623;
 }
 .prd_list_a .cont .price {
 	line-height:30px;
@@ -610,16 +630,189 @@
 .prd_list_a.ts_a .cont .count .current {
 	color:#000;
 }
+.prd_list_a .prd_list_btn {
+	text-align:right;
+}
+.prd_list_a .prd_list_btn li {
+	position:relative;
+	margin:5px 0;
+}
+.prd_list_a .btn_opt_msg {
+	position:absolute;
+	bottom:0;
+	right:100%;
+	width:300px;
+	text-align:right;
+	margin-right:10px;
+}
+.prd_list_a .btn_opt_msg img {
+	display:inline-block;
+	width:32px;
+	vertical-align:middle;
+	margin-right:8px;
+}
+.prd_list_a .btn_opt_msg span {
+	display:inline-block;
+	color:#9b9b9b;
+	font-size:12px;
+	line-height:15px;
+	letter-spacing:-0.6px;
+	vertical-align:middle;
+	text-align:left;
+}
+.prd_list_a .top_msg {
+	position:absolute;
+	top:10px;
+	right:0;
+	font-size:12px;
+	font-weight:300;
+	color:#bbb;
+	line-height:20px;
+	text-align:right;
+	width:600px;
+}
+.prd_list_a .icon_msg {
+	text-align:right;
+	height:40px;
+}
+.prd_list_a .icon_msg.ab {
+	height:80px;
+}
+.prd_list_a .icon_msg.ab2 {
+	height:58px;
+}
+.prd_list_a .icon_msg .icon_msg_inner {
+	width:400px;
+}
+.prd_list_a .icon_msg.ab .icon_msg_inner {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.prd_list_a .icon_msg i {
+	display:inline-block;
+}
+.prd_list_a .icon_msg .stock {
+	display:block;
+	font-size:15px;
+	color:#f6a623;
+	line-height:24px;
+	margin-top:5px;
+}
+.prd_list_a .icon_msg .msg {
+	display:block;
+	font-size:14px;
+	font-weight:300;
+	color:#8f8f8f;
+	line-height:20px;
+}
+.prd_list_a .check_com_msg {
+	height:50px;
+	text-align:right;
+}
+.prd_list_a .check_com_msg .check_com_inner {
+	position:absolute;
+	top:0;
+	right:0;
+	width:400px;
+}
+.prd_list_a .check_com_msg .check {
+	display:block;
+	font-size:15px;
+	font-weight:400;
+	color:#000;
+	line-height:22px;	
+}
+.prd_list_a .check_com_msg .check:before {
+	content:"\E5CA";
+	display:inline-block;
+	font-family:'Material Icons';
+	font-size:18px;
+	line-height:22px;
+	vertical-align:top;
+	margin-right:5px;
+}
+.prd_list_a .check_com_msg .com_msg {
+	display:block;
+	font-size:13px;
+	color:#bbb;
+	line-height:24px;	
+}
+.prd_list_a .del {
+	text-align:right;
+	padding-top:30px;
+}
+.prd_list_a .del.ab {
+	position:absolute !important;
+	bottom:15px;
+	right:0;
+}
+.prd_list_a .del a {
+	display:inline-block;
+	font-size:14px;
+	color:#8f8f8f;
+	line-height:22px;
+	border-bottom:solid 1px #979797;
+}
 
-
-
-
-
-
-
-
-
-
+.prd_list_a thead {
+	border-top:solid 1px #4a4a4a;
+	border-bottom:solid 1px #ebebeb;
+	text-align:left;
+}
+.prd_order_info {
+	display:inline-block;
+	text-align:left;
+	padding:12px 0;
+}
+.prd_order_info dt,
+.prd_order_info dd,
+.prd_order_info dd a {
+	display:inline-block;
+	font-size:16px;
+	font-weight:400;
+	color:#bbb;
+	line-height:24px;
+}
+.prd_order_info dt {
+	margin-right:5px;
+}
+.prd_order_info dd {
+	margin-right:50px;
+	color:#333;
+}
+.prd_order_info dd a {
+	text-decoration:underline;
+	color:#333;
+}
+.prd_order_r {
+	font-size:20px;
+	font-weight:300;
+	color:#8f8f8f;
+	float:right;
+}
+.total_order_price {
+	font-size:20px;
+	font-weight:300;
+	color:#8f8f8f;
+	padding:10px 0;
+	float:right;
+}
+.total_order_price strong {
+	font-size:20px;
+	font-weight:600;
+	color:#333;
+}
+.total_order_price strong {
+	font-size:20px;
+	font-weight:600;
+	color:#4a4a4a;
+}
+.total_order_price strong span {
+	font-size:20px;
+	font-weight:300;
+	color:#333;
+}
 
 
 

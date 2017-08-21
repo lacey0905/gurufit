@@ -4908,3 +4908,13 @@
 .sc_modal_foot .{
 	border-top:none;
 }
+
+/*환불 계좌 정보 변경*/
+.rac_bank_name {
+	color: #000000;	
+	font-size: 16px;	
+	font-weight: 300;	
+	line-height: 24px;
+	margin-top:16px;
+	margin-bottom:42px;	
+}

@@ -22,8 +22,13 @@
         		</div>
         		<div class="f_modal_cont">
         			<div class="f_modal_service">
-        				<i class="icon-arrow-left"></i>
-						<img src="../img/modal_photo_zoom.jpg" alt="샘플상품">
+        				<div id="slide">
+							<div><img src="../img/modal_photo_zoom.jpg" alt="사진1"></div>
+							<div><img src="../img/modal_photo_zoom1.jpg" alt="사진2"></div>
+							<div><img src="../img/modal_photo_zoom2.jpg" alt="사진3"></div>
+							<div><img src="../img/modal_photo_zoom3.jpg" alt="사진4"></div>
+						</div>
+        				<i class="icon-arrow-left"></i>						
 						<i class="icon-arrow-right"></i>
         			</div>
         		</div>
@@ -46,6 +51,11 @@
 		</div>
 		<div class="f_modal_blind"></div>
 	</div>
-	
+	<script>
+		var sliderWidth = 300;
+		var slider = $('#slide');
+		var sliderCount = $('div', slider).length;
+		slider.width(sliderCount * sliderWidth);
+	</script>
 </section>
 <?php include "../inc/footer.php" ?>

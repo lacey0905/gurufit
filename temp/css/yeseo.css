@@ -4233,11 +4233,11 @@
 .photo_zoom {
 	width:630px;
 }
-.photo_zoom .f_modal_head {
+.photo_zoom > .f_modal_head {
 	position:relative;
 	padding:26px 0;
 }
-.photo_zoom .f_modal_head > h2 {
+.photo_zoom > .f_modal_head > h2 {
 	font-size: 16px;
 	text-align: left;
 	color: #555555;	
@@ -4250,12 +4250,12 @@
 	color: #bbbbbb;
 	margin-right:5px;
 }
-.photo_zoom .f_modal_head .photo_num {
+.photo_zoom .f_modal_head > span {
 	font-size: 18px;
 	text-align: center;
 	color: #000000;
 	position:absolute;
-	top:26px;
+	top:23px;
 	font-weight:500;
 	margin-top:3px;			
 }
@@ -4338,7 +4338,6 @@
 /*사진 등록*/
 
 .photo_register_md {
-	background-color:red;
 }
 .photo_register_md .f_modal_head > h2 > span {
 	font-size: 14px;
@@ -4347,7 +4346,7 @@
 	margin-left:9px;	
 }
 .photo_register_md .f_modal_cont {
-	max-height: 785px !important;	
+	max-height: 729px !important;	
 }
 .photo_register_md .f_modal_service {
 	padding:26px;
@@ -4370,6 +4369,7 @@
 }
 .photo_register_md .photo_register_text {
 	text-align:center;
+	margin-bottom: 42px;
 }
 .photo_register_md .photo_register_text > img {
 	width:90px;
@@ -4390,16 +4390,35 @@
 	color: #9b9b9b;	
 }
 .photo_register_md .photo_register_text > a {
+	text-align:center;
 	margin-bottom:15px;
 	display:inline-block;
 	
 	font-size: 18px;
-	text-align: center;
-	color: #4a4a4a;
+	color: #4a4a4a;	
 }
 .photo_register_md .photo_register_text > a > i {
 	margin-right:18px;
 	font-size:2em;
+}
+.fa-facebook-official {
+	color:#3b5998;
+}
+.fa-instagram {
+	color:#cd486b;
+}
+
+/*사진 등록하기 - import*/
+.pho_reg_md {
+	position:relative;
+}
+.pho_reg_md .photo_reg_txt {
+	font-size: 18px;
+	text-align: left;
+	color: #f6a623;
+	margin-left:18px;
+	position:absolute;
+	left:192px;	
 }
 
 /*사진 등록을 마쳤습니다.*/
@@ -4627,7 +4646,219 @@
 	margin:0 auto;
 }
 
+/*리뷰 등록*/
+.rev_register_list .thum {
+	padding:0;
+}
+.rev_reg_modal_cont {
+}
+.rev_reg_modal_cont .f_modal_service {
+	padding:0;	
+}
+.rev_reg_modal_cont .rating {
+	position:relative;
+}
+.rev_reg_modal_cont .rating i:after {
+	font-size:29px;
+}
+.rev_reg_modal_cont .rev_reg_txt {
+	font-size: 18px;
+	text-align: left;
+	color: #d8d8d8;
+	position:absolute;
+	left:192px;
+}
 
+/*리뷰등록하기 act*/
+.rev_reg_fit_review_wrapper {
+	margin-left:28px;
+	text-align:left;
+	padding-top:23px;
+}
+.rev_reg_fit_review_wrapper h4 {
+	font-size: 18px;
+	color: #000000;
+	display:inline-block;	
+}
+.rev_reg_fit_review_wrapper span {
+	font-size: 14px;
+	text-align: right;
+	color: #2f54bd;
+	float:right;
+	margin-right:25px;	
+}
+.rev_reg_fit_review_wrapper span:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.rev_reg_act_foot {
+	border:none;
+}
+.rev_reg_act_foot_btn {
+	border:none;
+	text-align:right !important;	
+}
+.rev_reg_act_foot_btn > span {
+	font-size: 13px;
+	text-align: left;
+	color: #9b9b9b;
+	margin-right:18px;	
+}
+.rev_reg_act_foot_btn > span > i {
+	font-size:1em;
+	margin-right:7px;
+}
+.rev_reg_fit_review_container {
+	display:table-cell;
+	width:50%;
+	box-sizing:border-box;
+	vertical-align:top;
+	padding-bottom:10px;
+}
+.review_entry_txt_wrapper {
+	margin-top:33px;
+}
+.review_entry_txt_wrapper:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.review_entry_txt_wrapper h4 {
+	font-size: 18px;
+	text-align: left;
+	color: #000000;
+	display:inline-block;
+	float:left;
+	margin-left:30px;	
+}
+.review_entry_txt_wrapper span {
+	font-size: 14px;
+	text-align: right;
+	color: #9b9b9b;
+	float:right;
+	margin-right:27px;	
+}
+.review_entry_txt_wrapper .review_entry_txt_container textarea {
+	margin-top:40px;
+}
 
- 
+/*사진등록*/
+.photo_check_foot {
+	text-align:right !important;
+	border:none !important;
+}
+.photo_check_foot > p {
+	display:inline-block;
+	margin-right:27px;
+	
+	font-size: 16px;
+	text-align: right;
+	color: #8f8f8f;	
+}
+.photo_check_foot > p > span {
+	font-weight: bold;
+	color: #f6a623;
+	font-size: 16px;
+	text-align: right;		
+}
+ .photo_check_wrapper {
+ 	padding-top:30px;
+}
+.photo_check_wrapper label {
+	position:relative;
+	display:inline-block;
+	margin-right:8px;
+	margin-bottom:10px;
+}
+.photo_check_wrapper label img {
+	display: inline;
+	vertical-align:bottom;
+	width:130px;
+	height:130px;
+}
+.photo_check_wrapper label:hover {
+	outline: 1px solid #333;
+}
+.photo_check_wrapper input[type="checkbox"]{
+	display:none;
+}
+.photo_check_wrapper input[type="checkbox"]:checked + label:after {
+}
+.photo_check_wrapper input[type="checkbox"]:checked + label:before {
+	content: "\2713";
+	font-size: 60px;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+.tag_check_wrapper {
+	margin-top:17px;
+	text-align:center;
+}
+.tag_check_wrapper label {
+	position:relative;
+	display:inline-block;
+	
+	border-radius: 10px;
+	border: solid 1px #d8d8d8;
+	
+	padding:3px 23px;
+	
+  	font-size: 16px;
+  	text-align: center;
+  	color: #9b9b9b;
+  	margin-right:16px;
+  	margin-bottom:20px;
+  	
+  	padding:0 23px;			
+}
+.tag_check_wrapper input[type="checkbox"]{
+	display:none;
+}
+.tag_check_wrapper input[type="checkbox"]:checked + label {
+	background-color:#f6a623;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff;	
+}
+.tag_line {
+	position:relative;
+	margin-bottom:10px;
+}
+.tag_line:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 1px;
+    height: 25px;
+    background-color: #d8d8d8;
+}
+.tag_check_txt {
+	margin-top:40px;
+}
+.tag_check_txt > p {
+	font-size: 18px;
+	line-height: 30px;
+	text-align: center;
+	color: #4a4a4a;	
+}
+.tag_check_txt > p > span {
+	font-size: 14px;
+	line-height: 30px;
+	color: #bbbbbb;	
+}
+.tag_active {
+	background-color: #f6a623;	
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #ffffff !important;	
+}
+
  

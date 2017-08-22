@@ -372,17 +372,17 @@
 }
 
 /*경험치 얻기*/
-.mem_list {
+/* .mem_list {
 	width:100%;
 }
 
 .mem_list th,
 .mem_list td {
 	background-color:#fff;	
-}
+} */
 
 /*테이블 헤더부분*/
-.mem_list thead tr {
+/* .mem_list thead tr {
 }
 
 .mem_list tbody tr:first-child(1){
@@ -401,10 +401,10 @@
     color: #333333;
     font-weight:400;
     padding:26px 0 10px;
-}
+} */
 
 /*mem_list헤더 정렬*/
-.mem_list thead tr th:nth-child(1) {
+/* .mem_list thead tr th:nth-child(1) {
 	padding-left:43px;
 }
 .mem_list thead tr th:nth-child(2) {
@@ -415,10 +415,10 @@
 }
 .mem_list thead tr th:nth-child(4) {
 	padding-left:160px;
-}
+} */
 
 /*1열~7열 상하패딩*/
-.mem_list tbody { text-align:center;}
+/* .mem_list tbody { text-align:center;}
 .mem_list tbody tr:nth-child(1){
 	padding-top:20px 0 20px;
 	
@@ -441,12 +441,12 @@
 .mem_list tbody tr:nth-child(7){
 	padding-top:18px 0 18px;	
 	border-bottom:solid 1px #dddddd;
-}
+} */
 
 
 
 /*1행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(1){
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(1){
 	font-size: 14px;
     line-height: 18px;
     letter-spacing: -1.1px;
@@ -462,11 +462,11 @@
     text-align: left;
     color: #000000;
     padding-left:10px;
-}
+} */
 
 
 /*2행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(2) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(2) {
     font-size: 14px;
     font-weight: bold;
     line-height: 34px;
@@ -495,11 +495,11 @@
     line-height: 34px;
     text-align: center;
     color: #cccccc;
-}
+} */
 
 
 /*3행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(3) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(3) {
   	font-size: 14px;
   	line-height: 34px;
   	letter-spacing: -1px;
@@ -517,11 +517,11 @@
 }
 
 .mem_list tbody tr:nth-child(1) td:nth-child(3) ul li{
-}
+} */
 
 
 /*4행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(4) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(4) {
 	font-size: 14px;
     line-height: 34px;
     letter-spacing: -1px;
@@ -539,10 +539,10 @@
     font-weight: bold;
     color: #f6a623;
     display: inline-block;
-}
+} */
 
 /*테이블 progress*/
-.mem_progress {
+/* .mem_progress {
   width: 200px;
   height: 8px;
   border-top-left-radius: 10px;
@@ -561,7 +561,7 @@
   mask-origin: border-box;
   overflow:hidden;
   border-radius:10px 0px 0 10px;
-}
+} */
 
 
 
@@ -5021,4 +5021,9 @@
 	line-height: 24px;	
 	text-align: center;	
 	text-decoration:underline;
+}
+
+/*xp - 멤버십 등급을 올릴 수 있는 방법*/
+.xp_list_tb .dot_list {
+	padding-left:0 !important;
 }

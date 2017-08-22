@@ -44,7 +44,7 @@
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
-        			<h2>페이지 오류</h2>
+        			<h2>Oops!</h2>
         			<a href="#" class="btn_close">Close</a>
         		</div>
         		<div class="f_modal_cont">
@@ -156,6 +156,5 @@
 		</div>
 		<div class="f_modal_blind"></div>
 	</div>
-	
 </section>
 <?php include "../inc/footer.php" ?>

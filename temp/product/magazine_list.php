@@ -32,7 +32,8 @@
     				<dd class="tag_bg_b"><a href="#">Nike</a></dd>
     				<dd class="tag_bg_b"><a href="#">스포츠</a></dd>
     			</dl>
-    			<a href="#" class="search_opt_btn btn_arr_a btn_hover_a">검색 저장</a>
+    			<!-- 검색 저장 9월 버젼에서 제외 -->
+<!--     			<a href="#" class="search_opt_btn btn_arr_a btn_hover_a">검색 저장</a> -->
 			</div>
 		</section>
 		<?php include "../inc/mag_side.php" ?>
@@ -42,10 +43,12 @@
 				<dd>
 					<div class="sel_custom sel_nm_box sel_mid">
 						<select>
-							<option>추천 제품 순</option>
-							<option>최신 제품 순</option>
-							<option>제품 이름 순</option>
-							<option>제품 브랜드 순</option>
+							<option>개인 추천 순</option>
+							<option>신상품 순</option>
+							<option>낮은 가격 순</option>
+							<option>높은 가격 순</option>
+							<option selected>고객 평점 높은 순</option>
+							<option>인기 상품 순</option>
 						</select>
 					</div>
 				</dd>

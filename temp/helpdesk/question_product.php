@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Help Desk</h2>
+			<h2>Help</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li><a href="#">FAQ</a></li>
@@ -72,7 +72,7 @@
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
-										<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">장비구니에 담기</a></li>
+										<!-- <li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">장비구니에 담기</a></li> -->
 									</ul>
     							</td>
     						  </tr>

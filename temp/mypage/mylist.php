@@ -18,7 +18,7 @@
 					<li><a href="#">멤버십</a></li>
 					<li><a href="#">알림</a></li>
 					<li><a href="#">새로운 활동</a></li>
-					<li class="active"><a href="#">나의 리스트</a></li>
+					<li class="active"><a href="#">하트 리스트</a></li>
 					<li><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>

@@ -244,7 +244,7 @@
         		</div>
         		<div class="f_modal_foot">
         			<div class="f_modal_btn btn_x2 cd_modal_foot">     			
-        				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">닫기</a>
+        				<a href="#" class="btn_ btn_xl_l2">닫기</a>
         			</div>		
         		</div>
     		</div>

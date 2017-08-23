@@ -29,7 +29,7 @@
 						<dl class="form_cont">
 							<dt>이메일 주소</dt>
 							<dd class="form_msg">
-								groovy@shoeforrabbit.com
+								<strong>groovy@shoeforrabbit.com</strong>
 								<a href="#" class="btn_modify">이메일 주소 변경</a>
 							</dd>
 						</dl>							
@@ -42,6 +42,15 @@
 								</div>
 								<div class="form_inp_area">
 									<input type="password" value="" placeholder="비밀번호 확인" class="inp_nm_box inp_full" name="join_password_confirm">
+								</div>
+								<div class="form_inp_result">
+									<span class="lv1">비밀번호 확인 메시지 비밀번호 확인 메시지</span>
+								</div>
+								<div class="form_inp_result">
+									<span class="lv2">비밀번호 확인 메시지 비밀번호 확인 메시지</span>
+								</div>
+								<div class="form_inp_result">
+									<span class="lv3">비밀번호 확인 메시지 비밀번호 확인 메시지</span>
 								</div>
 								<div class="progress_a">
 									<strong class="prog_tit">비밀번호 안전도</strong>
@@ -170,7 +179,8 @@
 				</script>
 				<div class="form_submit_wrap">
 					<div class="form_submit_r">
-						<a href="#" class="inp_submit_a btn_hover_shadow submit">회원 가입 완료</a>
+						<!-- 비 활성화 -->  <a href="#none" class="btn_ btn_disable btn_xl_m1">회원 가입 완료</a> 
+						<!-- 활성화  <a href="#" class="btn_ btn_cp btn_xl_m1 btn_hover_shadow">회원 가입 완료</a> -->
 					</div>
 				</div>
     		</fieldset>		

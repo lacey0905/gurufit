@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Serch Email / Password</h2>
+			<h2>Recover Me</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li><a href="#">아이디찾기</a></li>

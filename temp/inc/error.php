@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Page Error</h2>
+			<h2>Oops!</h2>
 			<div class="error_wrapper f_modal_service">
 				<i class="exit_icon"></i>
 				<h3><em>불편을 </em> 드려 죄송합니다.</h3>

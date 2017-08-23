@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2 class="s_lar">Service Introduce</h2>
+			<h2 class="s_lar">Our Policy</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li class="active"><a href="#">서비스 안내</a></li>
@@ -40,62 +40,41 @@
 				</section>
 				<section>
 					<article>
-						<div class="serve_intro_text_box">
+						<div class="si_text_box">
 							<h4>맞을 때 까지 바꿔드려요</h4>
 							<p>
 								온라인에서 신발을 산 사람 절반이 사이즈가 맞지 않는 신발을 그냥 신는다고 합니다.<br>
 								교환할 때 추가로 내야 하는 배송비 때문이에요.<br>
 								발에 맞는 신발을 사는데 왜 돈을 더 내야 하나요?<br>
 								신발은 신어보고 사는 게 당연한데 말이에요.<br>
+								<strong>구루핏은 잘 맞는 신발 사이즈를 찾을 떄 까지 무료로 교환해 드립니다.</strong>							
+							</p>
+						</div>
+					</article>
+					<article>
+						<div class="si_text_box_two">
+							<h4>여유롭게 스타일을 맞춰 보세요</h4>
+							<p>
+								화면에서 본 것과 느낌이 다른가요?스타일이 잘 어울리지 않나요?<br>
+								즐겨 입는 옷과 다양하게 매치해보고 나에게 맞는 스타일을 선택하세요.<br>
+								넉넉한 교환·반품 기간에 충분히 신어보고 코디네이션 해보세요.<br>
 								<strong>구루핏은 어울리는 스타일 찾기에 충분한 교환·반품 기간을 제공합니다.</strong>							
 							</p>
 						</div>
 					</article>
-				</section>
-				<section>
 					<article>
-						<div class="serve_intro_text_box">
-							<h4>여유롭게 스타일을 맞춰 보세요</h4>
-							<p>
-								화면에서 본 것과 느낌이 다른가요? 스타일이 잘 어울리지 않나요?<br>
-								즐겨 입는 옷과 다양하게 매치해보고 나에게 맞는 스타일을 선택하세요.<br>
-								넉넉한 교환·반품 기간에 충분히 신어보고 코디네이션 해보세요.<br>
-								<strong>구루핏은 어울리는 스타일 찾기에 충분한 교환·반품 기간을 제공합니다.</strong>						
-							</p>
-							
-						</div>
-					</article>					
-				</section>
-				<section>
-					<article>
-						<div class="serve_intro_text_box">
+						<div class="si_text_box_three">
 							<h4>더 편리하게 쇼핑하세요</h4>
 							<p>
-								새로운 상품을 발견할 수 있는 다양한 콘텐츠<br>
-								다양한 코디네이션 아이디어를 전달하는 착용 사진 갤러리<br>
-								구매 사용자의 착화감 평가와 유용한 리뷰<br>
-								QR코드를 이용한 쉽고 편리한 교환·반품 신청까지<br>
-								<strong>구루핏은 어울리는 스타일 찾기에 충분한 교환·반품 기간을 제공합니다.</strong>													
+								새로운 상품을 발견할 수 있는 다양한 콘텐츠, 다양한 코디네이션 아이디어를 전달하는 착용 사진 갤러리<br>
+								구매 사용자의 착화감 평가와 유용한 리뷰, QR코드를 이용한 쉽고 편리한 교환·반품 신청까지<br>
+								<strong>구루핏이 완전한 슈커머스 경험을 선보입니다.</strong>							
 							</p>
 						</div>
-					</article>				
-				</section>									
+					</article>										
+				</section>					
 			</div>
 		</section>
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 

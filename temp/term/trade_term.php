@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2 class="s_lar">Gurufit Term</h2>
+			<h2 class="s_lar">Terms & Conditions</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li><a href="/yeseo/gurufit/service/use_term.php">이용약관</a></li>

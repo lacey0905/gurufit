@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Help Desk</h2>
+			<h2>Help</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li class="active"><a href="#">FAQ</a></li>

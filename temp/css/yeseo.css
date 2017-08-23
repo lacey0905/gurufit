@@ -340,7 +340,7 @@
   	position:relative;
   	display:inline-block;
   	top:40px;
-  	top: -235px;
+  	top: -197px;
     left: -503px;  	
 }
 
@@ -372,17 +372,17 @@
 }
 
 /*경험치 얻기*/
-.mem_list {
+/* .mem_list {
 	width:100%;
 }
 
 .mem_list th,
 .mem_list td {
 	background-color:#fff;	
-}
+} */
 
 /*테이블 헤더부분*/
-.mem_list thead tr {
+/* .mem_list thead tr {
 }
 
 .mem_list tbody tr:first-child(1){
@@ -401,10 +401,10 @@
     color: #333333;
     font-weight:400;
     padding:26px 0 10px;
-}
+} */
 
 /*mem_list헤더 정렬*/
-.mem_list thead tr th:nth-child(1) {
+/* .mem_list thead tr th:nth-child(1) {
 	padding-left:43px;
 }
 .mem_list thead tr th:nth-child(2) {
@@ -415,10 +415,10 @@
 }
 .mem_list thead tr th:nth-child(4) {
 	padding-left:160px;
-}
+} */
 
 /*1열~7열 상하패딩*/
-.mem_list tbody { text-align:center;}
+/* .mem_list tbody { text-align:center;}
 .mem_list tbody tr:nth-child(1){
 	padding-top:20px 0 20px;
 	
@@ -441,12 +441,12 @@
 .mem_list tbody tr:nth-child(7){
 	padding-top:18px 0 18px;	
 	border-bottom:solid 1px #dddddd;
-}
+} */
 
 
 
 /*1행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(1){
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(1){
 	font-size: 14px;
     line-height: 18px;
     letter-spacing: -1.1px;
@@ -462,11 +462,11 @@
     text-align: left;
     color: #000000;
     padding-left:10px;
-}
+} */
 
 
 /*2행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(2) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(2) {
     font-size: 14px;
     font-weight: bold;
     line-height: 34px;
@@ -495,11 +495,11 @@
     line-height: 34px;
     text-align: center;
     color: #cccccc;
-}
+} */
 
 
 /*3행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(3) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(3) {
   	font-size: 14px;
   	line-height: 34px;
   	letter-spacing: -1px;
@@ -517,11 +517,11 @@
 }
 
 .mem_list tbody tr:nth-child(1) td:nth-child(3) ul li{
-}
+} */
 
 
 /*4행*/
-.mem_list tbody tr:nth-child(n+1) td:nth-child(4) {
+/* .mem_list tbody tr:nth-child(n+1) td:nth-child(4) {
 	font-size: 14px;
     line-height: 34px;
     letter-spacing: -1px;
@@ -539,10 +539,10 @@
     font-weight: bold;
     color: #f6a623;
     display: inline-block;
-}
+} */
 
 /*테이블 progress*/
-.mem_progress {
+/* .mem_progress {
   width: 200px;
   height: 8px;
   border-top-left-radius: 10px;
@@ -561,7 +561,7 @@
   mask-origin: border-box;
   overflow:hidden;
   border-radius:10px 0px 0 10px;
-}
+} */
 
 
 
@@ -616,39 +616,124 @@
 
 
 /*서비스안내*/
-.serve_intro_text-box {
+.si_text_box {	
+	margin-top:96px;
+	position:relative;
+	height:126px;
+}
+.si_text_box:after {
+	content:"";
+	display:block;
+	clear:both;
 }
 
 /*서비스안내 텍스트 박스*/
-.serve_intro_text_box h4 {
-  object-fit: contain;
-  font-size: 32px;
-  font-weight: 300;
-  line-height: 50px;
-  letter-spacing: -1.2px;
-  text-align: left;
-  color: #7053ff;
-  margin-top:60px;	
+.si_text_box h4 {
+	color: #000000;	
+	font-family: SpoqaHanSans;	
+	font-size: 30px;	
+	font-weight: 300;	
+	line-height: 50px;	
+}
+.si_text_box p {
+	color: #4A4A4A;		
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 20px;	
+	text-align: justify;
+	position:absolute;
+	top:0;
+	right:131px;
+}
+.si_text_box strong {
+	margin-top:20px;
+	color: #4A4A4A;		
+	font-size: 14px;		
+	line-height: 20px;	
+	text-align: justify;
+	display:inline-block;	
+}
+/*2*/
+.si_text_box_two {
+	margin-top:96px;
+	height:126px;
+}
+.si_text_box_two {	
+	margin-top:96px;
+	position:relative;
+}
+.si_text_box_two:after {
+	content:"";
+	display:block;
+	clear:both;
 }
 
-.serve_intro_text_box p {
-   object-fit: contain;
-   font-size: 18px;
-   font-weight: 300;
-   line-height: 29px;
-   text-align: justify;
-   color: #4a4a4a;
-   margin-top:20px;	
+/*서비스안내 텍스트 박스*/
+.si_text_box_two h4 {
+	color: #000000;	
+	font-family: SpoqaHanSans;	
+	font-size: 30px;	
+	font-weight: 300;	
+	line-height: 50px;	
+}
+.si_text_box_two p {
+	color: #4A4A4A;		
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 20px;	
+	text-align: justify;
+	position:absolute;
+	top:0;
+	right:198px;
+}
+.si_text_box_two strong {
+	margin-top:20px;
+	color: #4A4A4A;		
+	font-size: 14px;		
+	line-height: 20px;	
+	text-align: justify;
+	display:inline-block;	
+}
+/*3*/
+.si_text_box_three {
+	margin-top:96px;
+	height:126px;
+}
+.si_text_box_three {	
+	margin-top:96px;
+	position:relative;
+}
+.si_text_box_three:after {
+	content:"";
+	display:block;
+	clear:both;
 }
 
-.serve_intro_text_box strong {
-   object-fit: contain;
-   font-size: 18px;
-   line-height: 29px;
-   text-align: justify;
-   color: #4a4a4a;
-   margin-top:30px;
-   display:inline-block;
+/*서비스안내 텍스트 박스*/
+.si_text_box_three h4 {
+	color: #000000;	
+	font-family: SpoqaHanSans;	
+	font-size: 30px;	
+	font-weight: 300;	
+	line-height: 50px;	
+}
+.si_text_box_three p {
+	color: #4A4A4A;		
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 20px;	
+	text-align: justify;
+	position:absolute;
+	top:0;
+	right:22px;
+}
+.si_text_box_three strong {
+	margin-top:20px;
+	color: #4A4A4A;		
+	font-size: 14px;		
+	line-height: 20px;	
+	text-align: justify;
+	display:inline-block;	
 }
 
 .serve_intro_wrap section:nth-child(4) {
@@ -830,8 +915,7 @@
 
 .free_return_refund_time table {
 	margin-left:84px;
-	text-align:center;
-	
+	text-align:center;	
 }
 
 /* TABLE STYLE */
@@ -858,14 +942,20 @@
 }
 .free_return_table tr td:first-child{
 	text-align:center;
+	background-color: #F5F8FB;
+	border:none !important;	
 }
 
 .free_return_table tr td:nth-child(2){
 	padding-left:33px;
+	background-color: #F5F8FB;
+	border:none !important;	
 }
 
 .free_return_table tr td:nth-child(3){
-	padding-left:36px;	
+	padding-left:36px;
+	background-color: #F5F8FB;
+	border:none !important;			
 }
 
 .free_return_table td {
@@ -2143,6 +2233,8 @@
 	border-top: solid 2px #4a4a4a;
 	width:1100px;
 }
+.personal_setting_wrapper span {
+}
 /*개인정보 설정-로그인 정보*/
 .personal_setting_wrapper .login_info > th {
 	width: 240px;
@@ -2187,6 +2279,7 @@
     text-align: right;
     color: #4990e2;	
     text-decoration:underline;
+	margin-left:0 !important;    
 }
 .personal_setting_wrapper .login_info .email_change{
 	margin-left:9px;
@@ -2251,6 +2344,7 @@
 }
 .personal_setting_wrapper .personal_info .personal_radio {
 	margin-right:29px;
+    	
 }
 .personal_setting_wrapper .personal_info .woman_radio {
     font-size: 14px;
@@ -2262,7 +2356,7 @@
     font-size: 14px;
     font-weight: 500;
     text-align: left;
-    color: #8f8f8f;	
+    color: #8f8f8f;		
 }
 /*개인정보 설정-쇼핑정보*/
 .personal_setting_wrapper .shopping_info {
@@ -2715,14 +2809,15 @@
 	color: #8f8f8f;	
 }
 .purchase_history_area .purchase_button_area .product_review_button:hover {
-	border:1px solid #7053ff;	
+    background-color: #7053ff;
+    box-shadow: 3px 3px 0 0 #e6e1ff;	
 }
 .purchase_history_area .purchase_button_area > img {
 	width:31px;
 	height:34px;
 	position:absolute;
 	top:143px;
-	right:313px;
+	right:330px;
 }
 .purchase_history_area .purchase_button_area > span {
     font-size: 12px;
@@ -2730,7 +2825,7 @@
     letter-spacing: -0.6px;
     color: #9b9b9b;
 	text-align:left;
-	width: 154px;
+	width: 175px;
 	
 	position:absolute;
 	top:144px;
@@ -2769,8 +2864,10 @@
     text-align: left;
     color: #000000;	
 }
-
-
+.shipping_info .side_btn_list .active a:hover {
+	background-color: #7053ff !important;
+  	box-shadow: 3px 3px 0 0 #e6e1ff !important;		
+}
 /***구매내역리스트***/
 .phl_black_line {
 	border-top: solid 1px #4a4a4a;
@@ -3123,6 +3220,7 @@
 	position:absolute;
 	top:42px;
 	right:8px;
+	color:#f5ab2f;
 }
 .hp_button_area_two em {
 	 font-size: 15px;
@@ -3142,11 +3240,13 @@
 .hp_button_area_two .hp_button {
 	position:absolute;
 	top:137px;
-	right:0;	
+	right:0;
 }
 .hp_button_area_two .hp_button:hover {
-	border-color:#7053ff !important;
-	color:#7053ff !important;	
+  	background-color: #7053ff;
+  	box-shadow: 3px 3px 0 0 #e6e1ff;
+	text-align: center;
+	color: #ffffff;  		
 }
 .hp_button_area_two .hp_button:active {
 	background-color:#7053ff !important;
@@ -4008,7 +4108,28 @@
 	color: #ffffff;
 	border:none;	 
 }
-
+.revice_modal_cancel_area .f_modal_fbtn a {
+	width:175px !important;
+	height:60px !important;
+}
+.revice_modal_cancel_area .f_modal_fbtn .rm_cancel {
+	float:left;
+	color: #8F8F8F;	
+	font-size: 20px;	
+	line-height: 29px;	
+	text-align: center;
+	background-color: #F0F0F0;
+	padding-top:16px;
+	border:none !important;
+}
+.revice_modal_cancel_area .f_modal_fbtn .rm_confirm {
+	background-color: #7053FF;
+	color: #FFFFFF;		
+	font-size: 20px;	
+	line-height: 29px;	
+	text-align: center;
+	padding-top:16px;	
+}
 /*나의 리스트에 추가 되었습니다 모달*/
 .list_add {
 }
@@ -4905,6 +5026,403 @@
 	text-align: left;
 	color: #4a4a4a;	
 }
-.sc_modal_foot {
+.sc_modal_foot .{
 	border-top:none;
 }
+
+/*환불 계좌 정보 변경*/
+.rac_bank_name {
+	color: #000000;	
+	font-size: 16px;	
+	font-weight: 300;	
+	line-height: 24px;
+	margin-top:16px;
+	margin-bottom:42px;	
+}
+
+/*help desk - 비밀번호 찾기*/
+.pw_confirm_box_inner {
+	border-top:solid 2px #000;
+	padding-top:70px;
+}
+.pw_confirm_box_inner .pw_confirm_opt_link > a {
+	color: #4A90E2;	
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 24px;	
+	text-align: center;	
+	text-decoration:underline;
+}
+
+/*xp - 멤버십 등급을 올릴 수 있는 방법*/
+.xp_list_tb .dot_list {
+	padding-left:0 !important;
+}
+
+/*멤버십*/
+.my_mem_badge_area {
+}
+.my_mem_badge_area .tit_sub_c > span {
+  	font-family: NotoSansCJKkr;
+  	font-size: 12px;
+  	text-align: left;
+  	color: #1543d7;
+  	text-align:right;
+	float:right;
+	text-decoration:underline;	
+}
+
+/*footer 상세페이지일 경우*/
+#foot_detail {
+	background-color: #f9f9fc;
+}
+.footer_detail_wrapper {
+	background-color: #f9f9fc;	
+	width:1100px;
+	margin:0 auto;
+}
+.footer_detail_wrapper:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.fd_ship_info {
+	float:left;
+	position:relative;
+}
+.fd_ship_info:after {
+	content: " ";
+    position: absolute;
+    top: 26px;
+    right: 0px;
+    width: 2px;
+    height: 444px;
+    border-right: solid 1px #e9e9ef;
+}
+.fd_grade_badge {
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;	
+  	font-size: 14px;
+  	line-height: 20px;
+  	letter-spacing: -0.5px;
+  	text-align: center;
+  	color: #747474;
+  	margin-top:29px;	
+}
+.fd_grade_badge dd > em {
+	display:block;
+  	font-size: 14px;
+  	line-height: 1.43;
+  	letter-spacing: -0.5px;
+  	text-align: center;
+  	color: #8f8f8f;
+  	font-weight:300;
+  	margin-top:10px;	
+}
+
+/*로그인 안했을때*/
+.fd_grade_badge_none {
+}
+.fd_grade_badge_none > dt {
+	 width: 85px;
+ 	 height: 65px;
+	 background-color: #b0bcc5;
+	 border-radius:50%;
+	 
+     font-size: 11px;
+     font-weight: bold;
+     line-height: 15px;
+     letter-spacing: -0.9px;
+     text-align: center;
+     color: #ffffff;
+     padding-top:20px;	 
+}
+.fd_grade_badge_none > dt > dd {
+	 margin-top: 12px;
+ 	 font-size: 12px;
+  	 font-weight: 300;
+  	 line-height: 18px;
+  	 letter-spacing: -0.4px;
+  	 text-align: center;
+  	 color: #8f8f8f;
+  	 display:inline-block;	
+}
+.fd_grade_badge_none > dd > span {
+	 font-size: 12px;
+     font-weight: normal;
+     line-height: 18px;
+     letter-spacing: -0.4px;
+     text-align: center;
+     color: #0090ff;
+     text-decoration:underline;	
+}
+
+/*왼쪽*/
+.fd_ship_info_inner {
+	display:inline-block;
+	position:relative;
+	margin-left:42px;
+	margin-right:40px;
+}
+.fd_ship_info_inner h4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #4a4a4a;
+    margin-top:24px;	
+}
+.fd_ship_info_inner dd {
+	padding-left:67px;
+}
+.fd_ship_info_inner dd em {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2f2f2f;
+    display:block;
+    margin-top:24px;	
+}
+/*버튼*/
+.fd_ship_info_inner .in_order_info {
+	position:relative;
+}
+.fd_ship_info_inner .in_order_info > p {
+ 	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 23px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #2f2f2f;	
+}
+.fd_ship_info_inner .day {
+  	width: 49px;
+  	height: 39px;
+  	background-color: #ebebf1;
+  	
+ 	font-size: 18px;
+  	font-weight: 300;
+  	line-height: 24px;
+  	letter-spacing: -0.4px;
+  	text-align: center;
+  	color: #747474;
+  	border-radius:50%;
+  	display:inline-block;
+  	padding-top:10px;
+  	position:absolute; 
+  	left:0;		
+}
+.fd_ship_info_inner .in_change_info {
+	position:relative;
+}
+.fd_ship_info_inner .in_change_info > p {
+ 	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 23px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #2f2f2f;	
+}
+.fd_ship_info_inner .num {
+  	width: 49px;
+  	height: 39px;
+  	background-color: #ebebf1;
+  	
+ 	font-size: 18px;
+  	font-weight: 300;
+  	line-height: 24px;
+  	letter-spacing: -0.4px;
+  	text-align: center;
+  	color: #747474;
+  	border-radius:50%;
+  	display:inline-block;
+  	padding-top:10px;
+  	position:absolute;
+  	top:161px; 
+  	left:0;	  	 	
+}
+.fd_ship_info_inner .in_refund_info {
+	position:relative;
+}
+.fd_ship_info_inner .in_refund_info > ul {
+	margin-left:8px;
+}
+.fd_ship_info_inner .in_refund_info > ul > li {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2f2f2f;	
+}
+.fd_ship_info_inner .in_refund_info > a {
+	text-decoration:underline;
+	margin-left:7px;
+	color:#0090ff;
+}
+.fd_ship_info_inner .in_refund_info > p {
+ 	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 23px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #2f2f2f;		
+}
+.fd_ship_info_inner .tester {
+  	width: 49px;
+  	height: 39px;
+  	background-color: #ebebf1;
+  	
+ 	font-size: 18px;
+  	font-weight: 300;
+  	line-height: 24px;
+  	letter-spacing: -0.4px;
+  	text-align: center;
+  	color: #747474;
+  	border-radius:50%;
+  	display:inline-block;
+  	padding-top:10px;
+  	position:absolute;
+  	top:269px; 
+  	left:0;  		
+}
+.fd_ship_info_inner .fd_line {
+	text-decoration:underline;
+ 	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 23px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #2f2f2f;		
+}
+
+
+/*오른쪽*/
+.fd_ship_method {
+	float:left;
+	padding-left:39px;
+	position:relative;
+}
+.fd_ship_method > h4 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2f2f2f;	
+    margin-top:26px;
+}
+.fd_ship_method dd {
+	margin-left:67px;
+	font-size: 14px;
+  	font-weight: 300;
+  	line-height: 25px;
+  	letter-spacing: -0.5px;
+  	text-align: left;
+  	color: #2f2f2f;	
+}
+.fd_ship_method dd > em {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2f2f2f;
+    display:block;
+    margin-top:24px; 	
+}
+.fd_ship_method .website > a {
+	margin-left:8px;
+	text-decoration:underline;
+	color:#0090ff;
+}
+.fd_ship_method .fd_website > img {
+	position:absolute;
+	top:76px;
+}
+.fd_ship_method .fd_qr > img { 
+	position:absolute;
+	top:174px;	
+}
+.fd_ship_method .qr_code > p {
+	margin-left:8px;
+}
+.fd_ship_method .qr_code > p > a {
+	text-decoration:underline;
+	color:#0090ff;	
+}
+.fd_ship_method .fd_warning > img {
+	position:absolute;
+	top:318px;	
+}
+.fd_ship_method  .return_warn > p {
+	margin-left:8px;
+}
+.fd_ship_method > a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #0090ff;
+    text-decoration:underline;
+}
+
+/*상품 order*/
+.refund_account_info_register {
+	border-top: 0.5px solid #D8D8D8;
+	border-bottom: 0.5px solid #D8D8D8;
+	padding:17px 0 21px 0;
+}
+.refund_account_info_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register > em {
+	float:left;
+	color: #4A4A4A;		
+	font-size: 16px;	
+	line-height: 40px;	
+}
+.refund_account_info_register .bank_register {
+	float:left;
+	margin-left:64px;
+}
+.refund_account_info_register .bank_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register .bank_register tr td {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	
+	color: #8F8F8F;	
+	font-size: 16px;	
+	line-height: 40px;	
+}
+.refund_account_info_register .bank_register .sel_mid {
+	width:274px;
+}
+.refund_account_info_register .bank_register .ord_ib_o {
+	width:274px;
+}
+.refund_account_info_register .bank_register .ord_ib_t {
+	width:584px;
+}
+.refund_account_info_register > p {
+	color: #F5A623;		
+	font-size: 12px;	
+	line-height: 18px;
+	margin-left:194px;
+}
+
+
+
+
+

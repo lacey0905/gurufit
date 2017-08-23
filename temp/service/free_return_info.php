@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2 class="s_lar">Service Introduce</h2>
+			<h2 class="s_lar">Our Policy</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li><a href="#">서비스 안내</a></li>

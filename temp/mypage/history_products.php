@@ -18,7 +18,7 @@
 					<li><a href="#">멤버십</a></li>
 					<li><a href="#">알림</a></li>
 					<li><a href="#">새로운 활동</a></li>
-					<li><a href="#">나의 리스트</a></li>
+					<li><a href="#">하트 리스트</a></li>
 					<li class="active"><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>
@@ -109,10 +109,10 @@
 									<p class="ml_total_price">184,000원 <del>199,000원</del></p>
 								</td>
 								<td class="hp_button_area_two">
-									<i class="material-icons">&#xE87E;</i>
+									<i class="material-icons">&#xE87D;</i>
 									<em>재고 없음</em>
 									<p>재고 알림 받기를 선택하면 재입고시 알림 메일을 보내드립니다</p>									
-									<a href="#" class="btn_ btn_x_s2 hp_button">재고알림 받기</a>
+									<a href="#" class="btn_ btn_x_s2 hp_button btn_cp">재고알림 받기</a>
 								</td>
 							</tr>
 						</tbody>

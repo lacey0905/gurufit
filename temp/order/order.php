@@ -213,6 +213,36 @@
     						<a href="#">무이자 할부혜택</a>
     						<a href="#">제휴/할인카드</a>
     					</div>
+    					<div class="refund_account_info_register">
+    						<em>환불 계좌 정보 등록</em>
+    						<table class="bank_register">
+    							<col width="">
+    							<col width="">
+    							<tr>
+    								<td class="ord_bank">은행</td>
+    								<td>
+                    					<div class="sel_custom sel_nm_box sel_mid ord_sel_box">
+                    						<select class="sel_mid">
+                    							<option>신한은행</option>
+                    						</select>
+                    					</div>    								
+    								</td>
+    							</tr>
+    							<tr>
+    								<td>예금주</td>
+    								<td>
+    									<input type="text" class="inp_nm_box h_mid w_xf ord_ib_o">
+    								</td>
+    							</tr>
+    							<tr>
+    								<td>계좌번호</td>
+    								<td>
+										<input type="text" class="inp_nm_box h_mid w_xf ord_ib_t">    								
+    								</td>
+    							</tr>    						
+    						</table>
+    						<p>저장된 환불 계좌 정보는 마이 페이지>사용자 정보·환경 설정에서 변경할 수 있습니다.</p>
+    					</div>
     					<ul class="tip_info_list">
     						<li>*  결제내역은 LG데이콤 (http://pgweb.dacom.net/pg/wmp/Home2009/index.jsp)을 통해 조회 및 전표조회가 가능합니다. (LG데이콤 고객센터1544 - 7772)</li>
                             <li>*  가상계좌는(무통장 입금)는 결제창에서 원하시는 은행을 선택하여 입금처리 하시면 됩니다.</li>

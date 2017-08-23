@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Help Desk</h2>
+			<h2>My Page</h2>
 			<div class="tab_active_type ">
 				<ul>
 					<li><a href="#">대시보드</a></li>
@@ -22,14 +22,14 @@
 					<li><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>
-					<li class="active"><a href="#">구매내역</a></li>										
+					<li class="active"><a href="#">주문내역</a></li>										
 				</ul>
 			</div>
 		</section>
 		
 		<section class="purchase_history_area">
 			<div>
-				<h3 class="tit_sub_a ph_tit_sub_a">구매 내역</h3>
+				<h3 class="tit_sub_a ph_tit_sub_a">주문 내역</h3>
 				<div class="prd_list_type p">
 					<table class="prd_list_a">
 						<caption class="blind">장바구니</caption>
@@ -76,11 +76,11 @@
 									<em>* 배송이 진행이 되면 배송지 변경 및 상품 옵션 및 주문 취소를 하실 수 없습니다.</em>
 									<a href="#" class="nav_btn btn_normal b_size_x140 exchange_button">교환신청</a>
 									<a href="#" class="nav_btn btn_normal b_size_x140 refund_button">반품/환불 신청</a>
-									<a href="#" class="nav_btn btn_normal b_size_x140 product_review_button">상품 리뷰 작성</a>
+									<a href="#" class="nav_btn btn_normal b_size_x140 product_review_button btn_cp">상품평 작성</a>
 									<img src="../img/review-1.png" class="review1">
 									<span>
-										전문 리뷰어 배지를 모으세요!<br>
-										리뷰1개만 더 작성하시면 됩니다.
+										상품평 배지를 모으세요!<br>
+										상품평을 1개만 더 작성하시면 됩니다.
 									</span>
 								</td>
 							</tr>
@@ -106,7 +106,7 @@
 						<dl class="result_box_a">
 	        				<dt>총 상품 금액</dt>
 	        				<dd class="price">184,000원</dd>
-	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
+	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원)</dt>
 	        				<dd>-7,000원</dd>
 	        				<dt>- Gold II 멤버십 할인 :3% </dt>
 	        				<dd>-5,520원</dd>
@@ -144,7 +144,7 @@
 						<dl class="result_box_a">
 	        				<dt>총 상품 금액</dt>
 	        				<dd class="price">184,000원</dd>
-	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
+	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원)</dt>
 	        				<dd>-7,000원</dd>
 	        				<dt>- Gold II 멤버십 할인 :3% </dt>
 	        				<dd>-5,520원</dd>
@@ -228,7 +228,7 @@
 					</span>
 				</strong>
 				<ul class="side_btn_list">
-					<li class="btn_hover_a"><a href="#">구매내역보기</a></li>
+					<li class="btn_hover_a"><a href="#">주문내역보기</a></li>
 					<li class="active"><a href="#">쇼핑계속하기</a></li>
 				</ul>
 			</div>			 			

@@ -16,10 +16,10 @@
 			<div class="tab_active_type ">
     			<ul>
     				<li><a href="#">대시보드</a></li>
-    				<li><a href="#">멤버십</a></li>
+    				<li class="active"><a href="#">멤버십</a></li>
     				<li><a href="#">알림</a></li>
     				<li><a href="#">새로운 활동</a></li>
-    				<li class="active"><a href="#">하트 리스트</a></li>
+    				<li><a href="#">하트 리스트</a></li>
     				<li><a href="#">히스토리</a></li>
     				<li><a href="#">1:1문의</a></li>
     				<li><a href="#">개인정보 설정</a></li>
@@ -27,9 +27,9 @@
     			</ul>
     		</div>
 		</section>
-		<h3 class="tit_sub_a">나의 멤버쉽</h3>
-		<section class="membership_dash">
-			<h4 class="tit_sub_c">나의 멤버쉽 등급</h4>
+		<h3 class="tit_sub_a">멤버쉽</h3>
+		<section class="membership_dash my_mem_badge_area">
+			<h4 class="tit_sub_c">나의 멤버쉽 등급<span>전체 멤버십 등급 혜택 확인</span></h4>
 			<div class="membership_cont">
     			<div class="ms_level">
     				<strong class="badge_level bronze">
@@ -86,29 +86,29 @@
     						<li>
     							<img src="../img/membership_icon_01.png" alt="">
     							<span>
-    								<em>90일 이내</em>
-    								무료 교환/반품
+    								<em>상시 할인</em>
+    								3%
     							</span>
     						</li>
     						<li>
     							<img src="../img/membership_icon_01.png" alt="">
     							<span>
-    								<em>90일 이내</em>
-    								무료 교환/반품
+    								<em>업그레이드</em>
+    								기념 쿠폰
     							</span>
     						</li>
     						<li>
     							<img src="../img/membership_icon_01.png" alt="">
     							<span>
-    								<em>90일 이내</em>
-    								무료 교환/반품
+    								<em>신상품 조기 접근</em>
+    								3순위
     							</span>
     						</li>
     						<li>
     							<img src="../img/membership_icon_01.png" alt="">
     							<span>
-    								<em>90일 이내</em>
-    								무료 교환/반품
+    								<em>할인 상품 조기 접근</em>
+    								2순위
     							</span>
     						</li>
     					</ul>
@@ -123,8 +123,8 @@
 					<li><a href="#">&#183;&nbsp;90일 이내 무료 교환/반품</a></li>
 					<li><a href="#">&#183;&nbsp;당일 출고</a></li>
 					<li><a href="#">&#183;&nbsp;상시할인 1.5%</a></li>
-					<li><a href="#">&#183;&nbsp;Early Access 3순위</a></li>
-					<li><a href="#">&#183;&nbsp;업그레이드 기념 쿠폰</a></li>
+					<li><a href="#">&#183;&nbsp;선구매 기회 3순위</a></li>
+					<li><a href="#">&#183;&nbsp;등업 기념 쿠폰</a></li>
 				</ul>
 			</div>
 		</section>

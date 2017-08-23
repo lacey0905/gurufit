@@ -42,7 +42,7 @@
         		<div class="f_modal_cont">
         			<div class="f_modal_msg">
         				<i class="icon icon_heart"></i>
-        				<span class="msg_mid">나의 리스트에 추가 되었습니다.</span>
+        				<span class="msg_mid">하트 리스트에 추가 되었습니다.</span>
         			</div>
         		</div>
         		<div class="f_modal_foot">

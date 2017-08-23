@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Help Desk</h2>
+			<h2>My Page</h2>
 			<div class="tab_active_type ">
 				<ul>
 					<li><a href="#">대시보드</a></li>
@@ -22,7 +22,7 @@
 					<li><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>
-					<li class="active"><a href="#">구매내역</a></li>										
+					<li class="active"><a href="#">주문내역</a></li>										
 				</ul>
 			</div>
 		</section>

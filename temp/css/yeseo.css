@@ -2809,14 +2809,15 @@
 	color: #8f8f8f;	
 }
 .purchase_history_area .purchase_button_area .product_review_button:hover {
-	border:1px solid #7053ff;	
+    background-color: #7053ff;
+    box-shadow: 3px 3px 0 0 #e6e1ff;	
 }
 .purchase_history_area .purchase_button_area > img {
 	width:31px;
 	height:34px;
 	position:absolute;
 	top:143px;
-	right:313px;
+	right:330px;
 }
 .purchase_history_area .purchase_button_area > span {
     font-size: 12px;
@@ -2824,7 +2825,7 @@
     letter-spacing: -0.6px;
     color: #9b9b9b;
 	text-align:left;
-	width: 154px;
+	width: 175px;
 	
 	position:absolute;
 	top:144px;
@@ -2863,8 +2864,10 @@
     text-align: left;
     color: #000000;	
 }
-
-
+.shipping_info .side_btn_list .active a:hover {
+	background-color: #7053ff !important;
+  	box-shadow: 3px 3px 0 0 #e6e1ff !important;		
+}
 /***구매내역리스트***/
 .phl_black_line {
 	border-top: solid 1px #4a4a4a;
@@ -4105,7 +4108,28 @@
 	color: #ffffff;
 	border:none;	 
 }
-
+.revice_modal_cancel_area .f_modal_fbtn a {
+	width:175px !important;
+	height:60px !important;
+}
+.revice_modal_cancel_area .f_modal_fbtn .rm_cancel {
+	float:left;
+	color: #8F8F8F;	
+	font-size: 20px;	
+	line-height: 29px;	
+	text-align: center;
+	background-color: #F0F0F0;
+	padding-top:16px;
+	border:none !important;
+}
+.revice_modal_cancel_area .f_modal_fbtn .rm_confirm {
+	background-color: #7053FF;
+	color: #FFFFFF;		
+	font-size: 20px;	
+	line-height: 29px;	
+	text-align: center;
+	padding-top:16px;	
+}
 /*나의 리스트에 추가 되었습니다 모달*/
 .list_add {
 }
@@ -5033,4 +5057,17 @@
 /*xp - 멤버십 등급을 올릴 수 있는 방법*/
 .xp_list_tb .dot_list {
 	padding-left:0 !important;
+}
+
+/*멤버십*/
+.my_mem_badge_area {
+}
+.my_mem_badge_area .tit_sub_c > span {
+  	font-family: NotoSansCJKkr;
+  	font-size: 12px;
+  	text-align: left;
+  	color: #1543d7;
+  	text-align:right;
+	float:right;
+	text-decoration:underline;	
 }

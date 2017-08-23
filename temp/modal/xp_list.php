@@ -22,9 +22,9 @@
 						<table  class="mem_list xp_list_tb">
 							<colgroup>
 								<col width="100">
-								<col width="100">
+								<col width="95">
 								<col width="150">
-								<col width="413">
+								<col width="419">
 							</colgroup>
 							<thead>
 								<tr>
@@ -38,14 +38,14 @@
 								<tr class="mem_list_line">
 									<td class="icon_tit">
 										<i class="icon-mouse"></i>
-										회원가입
+										정보제공
 										<br>
 										(1회한정)
 									</td>
 									<td>
 										<ul class="check_list">
-											<li><del>200xp</del></li>
-											<li><del>200xp</del></li>
+											<li><del>100xp</del></li>
+											<li><del>100xp</del></li>
 											<li><del>200xp</del></li>
 											<li><del>200xp</del></li>
 											<li class="null">&nbsp;</li>
@@ -131,7 +131,7 @@
 									<td>
 										<ul class="dot_list">
 											<li>사진 등록</li>
-											<li>베스트 사진 선정</li>
+											<li>베스트 사진 등극</li>
 										</ul>
 									</td>
 									<td>
@@ -179,7 +179,7 @@
 									<td>
 										<ul class="dot_list">
 											<li>사이트 방문</li>
-											<li>이메일 링크로 사이트 방문</li>
+											<li>이메일링크로 사이트방문</li>
 										</ul>
 									</td>
 									<td>

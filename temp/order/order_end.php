@@ -165,7 +165,7 @@
 				</span>
 			</strong>
 			<ul class="side_btn_list">
-				<li class="btn_hover_a"><a href="#">구매내역보기</a></li>
+				<li class="btn_hover_a"><a href="#">주문내역보기</a></li>
 				<li class="active"><a href="#">쇼핑계속하기</a></li>
 			</ul>
 		</div>

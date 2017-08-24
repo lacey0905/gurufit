@@ -80,38 +80,12 @@
 			</div>
 		</div>
 		<div class="cart_result">
-			<!-- 쿠폰 체크 박스 -->
 			<div class="coupone_select_list">
-				<dl> 
-					<dt>사용할 쿠폰 선택</dt>
-					<dd>
-						<label>
-							<input type="checkbox">
-							<span>회원가입 <em>5000원</em></span>
-						</label>
-					</dd>
-					<dd>
-						<label>
-							<input type="checkbox">
-							<span>Silver III 승급 <em>5000원</em></span>
-						</label>
-					</dd>
-					<dd>
-						<label>
-							<input type="checkbox">
-							<span>Gold I 승급 <em>2000원</em></span>
-						</label>
-					</dd>
-				</dl>
 			</div>
 			<div class="order_result_box">
 				<dl class="result_box_a">
-					<dt>총 상품 금액</dt>
+					<dt>상품 금액</dt>
 					<dd class="price">184,000원</dd>
-					<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
-					<dd>-7,000원</dd>
-					<dt>- Gold II 멤버십 할인 :3% </dt>
-					<dd>-5,520원</dd>
 					<dt>배송비</dt>
 					<dd>무료</dd>
 				</dl>

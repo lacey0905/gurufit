@@ -76,20 +76,199 @@
 				<dl class="result_box_a">
 					<dt>총 상품 금액</dt>
 					<dd class="price">184,000원</dd>
-					<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
-					<dd>-7,000원</dd>
-					<dt>- Gold II 멤버십 할인 :3% </dt>
-					<dd>-5,520원</dd>
-					<dt>배송비</dt>
-					<dd>무료</dd>
 				</dl>
+				<div class="ord_discount">
+					<em>할인</em>
+					<span class="ord_mem">멤버십 등급 할인:<strong>Gold II</strong>(3%)</span>
+					<span>5,520원</span>
+				</div>
+				<div class="ord_coupon">
+					<dl>
+						<dt>쿠폰</dt>
+						<dd>15,000</dd>
+					</dl>
+					<table class="ord_coupon_tab">
+						<colgroup>
+							<col width="51">
+							<col width="202">
+							<col width="356">
+							<col width="96">
+							<col width="215">
+						</colgroup>
+						<tr>
+							<td>&nbsp;</td>
+							<td>쿠폰 종류</td>
+							<td>쿠폰 사용 정보</td>
+							<td>유효기간</td>
+							<td>할인 금액</td>
+						</tr>
+						<!-- 1열 -->
+						<tr>
+							<td>
+                        		<span class="check_sort custom_cbox cbox_b ord_present_box">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<span class="box"></span>
+                        			</label>
+                        		</span>								
+							</td>
+							<td>
+							 <div class="coupone_select_list ord_coupon_select_list">	
+        						<label>
+        							<input type="checkbox">
+        							<span><em>5,000원</em>가입 환영</span>
+        						</label>
+        					 </div>								
+							</td>
+							<td>
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td>
+								없음
+							</td>
+							<td>
+								5,000원
+							</td>
+						</tr>
+						<!-- 2열 -->
+						<tr>
+							<td>
+                        		<span class="check_sort custom_cbox cbox_b ord_present_box">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<span class="box"></span>
+                        			</label>
+                        		</span>								
+							</td>
+							<td>
+							 <div class="coupone_select_list ord_coupon_select_list">	
+        						<label>
+        							<input type="checkbox">
+        							<span><em>5,000원</em>레벨업 - Silver III</span>
+        						</label>
+        					 </div>								
+							</td>
+							<td>
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td>
+								없음
+							</td>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+						<!--3열 -->
+						<tr>
+							<td>
+                        		<span class="check_sort custom_cbox cbox_b ord_present_box">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<span class="box"></span>
+                        			</label>
+                        		</span>								
+							</td>
+							<td>
+							 <div class="coupone_select_list ord_coupon_select_list">	
+        						<label>
+        							<input type="checkbox">
+        							<span><em>2,000원</em>레벨업 - Gold I</span>
+        						</label>
+        					 </div>								
+							</td>
+							<td>
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td>
+								없음
+							</td>
+							<td>
+								&nbsp;
+							</td>
+						</tr>
+						<!--4열 -->
+						<tr>
+							<td>
+                        		<span class="check_sort custom_cbox cbox_b ord_present_box">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<span class="box"></span>
+                        			</label>
+                        		</span>								
+							</td>
+							<td>
+							 <div class="coupone_select_list ord_coupon_select_list">	
+        						<label>
+        							<input type="checkbox">
+        							<span><em>10%</em>스니커즈 할인</span>
+        						</label>
+        					 </div>								
+							</td>
+							<td>
+								스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인<br>
+								<span class="ord_overlap_text">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
+							</td>
+							<td>
+								2017년 10월 23일
+							</td>
+							<td>
+								10,000원
+							</td>
+						</tr>
+						<!--5열 -->
+						<tr>
+							<td>
+                        		<span class="check_sort custom_cbox cbox_b ord_present_box">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<span class="box"></span>
+                        			</label>
+                        		</span>								
+							</td>
+							<td>
+							 <div class="coupone_select_list ord_coupon_select_list">	
+        						<label>
+        							<input type="checkbox">
+        							<span><em>10%</em>2017년 여름 세일</span>
+        						</label>
+        					 </div>								
+							</td>
+							<td>
+								스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인<br>
+								<span class="ord_overlap_text">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
+							</td>
+							<td>
+								2017년 10월 23일
+							</td>
+							<td>
+								&nbsp;
+							</td>
+						</tr>																								
+					</table>
+				</div>
+				<dl class="result_box_a">
+					<dt>배송비</dt>
+					<dd class="price ord_free">무료</dd>
+				</dl>				
 				<div class="total_price">
 					<em class="tit">총 결제 금액</em>
 					<strong class="total">171,480원</strong>
 				</div>
 			</div>
 		</div>
-		<h3 class="tit_sub_a">배송지 정보</h3>
+		<h3 class="tit_sub_a">
+		배송지 정보
+    		<span class="check_sort custom_cbox cbox_b ord_present_box">
+    			<label>
+    				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+    				<span class="box"></span>
+    				<span class="label">선물인가요?</span>
+    			</label>
+    		</span>			
+		</h3>
 		<div class="addr_wrap">
 			<table class="addr_inp_table">
 				<caption class="blind">배송지정보</caption>
@@ -99,7 +278,8 @@
 				</colgroup>
 				<tbody>
 					<tr>
-						<th>배송지</th>
+						<th>배송지
+						</th>
 						<td class="radio">
 							<div class="table_radio custom_radio">
 								<label>
@@ -115,6 +295,7 @@
 									<span class="label">새로운 배송지</span>
 								</label>
 							</div>
+							<span class="ord_ship_list">배송지 목록 (3)</span>
 						</td>
 					</tr>
 					<tr>
@@ -146,7 +327,6 @@
 							<div class="addr_inp_add">
 								<input type="text" class="inp_nm_box h_mid w_xf">
 								<input type="text" class="inp_nm_box h_mid w_xf">
-								<input type="text" class="inp_nm_box h_mid w_xf">
 							</div>
 							<div class="addr_inp_check">
 								<div class="custom_cbox cbox_d">
@@ -163,6 +343,12 @@
 						<th>배송시 요청사항</th>
 						<td>
 							<input type="text" class="inp_nm_box h_mid w_xf">
+						</td>
+					</tr>
+					<tr>
+						<th class="ord_pt_box_tit">선물 메세지</th>
+						<td>
+							<textarea class="ord_pt_box" name="textarea"></textarea>							
 						</td>
 					</tr>
 				</tbody>

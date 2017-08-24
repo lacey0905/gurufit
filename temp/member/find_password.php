@@ -30,7 +30,9 @@
 						<fieldset>
 							<legend class="blind">비밀번호 찾기</legend>
 							<input type="text" value="" placeholder="이름" class="inp_nm_box inp_full" name="name">
+							<em class="add_msg lv1">메시지가 입력 될 장소 입니다.메시지가 입력 될 장소 입니다.메시지가 입력 될 장소 입니다.</em>
 							<input type="password" value="" placeholder="이메일주소" class="inp_nm_box inp_full" name="email">
+							<em class="add_msg lv1">메시지가 입력 될 장소 입니다.</em>
 							<a href="#" class="inp_submit_a inp_full btn_hover_shadow">비밀번호 링크 발송</a>
 							<div class="inp_opt_link">
     							<a href="#">로그인으로 돌아가기</a>

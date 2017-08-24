@@ -3008,9 +3008,6 @@
 
 
 
-
-
-
 /* PROGRESS */
 .prog_mask {
 	display:block;
@@ -3018,12 +3015,13 @@
 	border-radius:10px 10px;
 	background-color:#ebebeb;
 	overflow:hidden;
+	text-align:left;
 }
 .prog_bar {
 	display:inline-block;
 	height: 8px;
 	background-color: #f6a623;
-	mask-origin: border-box;
+	box-sizing: border-box;
 	overflow:hidden;
 	border-radius:10px 10px;
 	vertical-align:top;
@@ -3042,10 +3040,21 @@
     color:#000;	
     padding-top:10px;
 }
+.progress_a .prog_tit em {
+	display:inline-block;
+	line-height:23px;
+	vertical-align:top;
+	color:#F5A623;
+	font-size:14px;
+	font-weight:600;
+	margin-left:15px;
+}
 .progress_a .prog_wrap {
 	height:21px;
+	line-height:21px;
 	font-size:0;
 	overflow:hidden;
+	text-align:left;
 }
 .progress_a .prog_mask {
 	display:inline-block;

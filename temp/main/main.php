@@ -39,7 +39,7 @@
 			</li>
 		</ul>
 	</article>
-	<article class="custom_inner prd_type_a">
+	<article class="custom_inner custom_prd prd_type_a">
 		<h2>Recommanded Article</h2>
 		<ul class="x4">
 			<li>
@@ -56,15 +56,291 @@
 					</figure>
 				</a>
 			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<figure>
+						<img src="../img/prd_sample.png" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like"><strong class="up">52</strong><strong class="dw">4</strong></span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
 		</ul>
 	</article>
-	<article class="prd_type_b prd_type_bgc">
+	<article class="custom_prd prd_type_b prd_type_bgc">
 		<h2>
 			<a href="#" class="more btn_hover_a">자세히 보기</a>
 			<em class="user_name">Kimhayoung</em>
 			님의 구루핏 활동에 바탕한 추천상품
 		</h2>
-		<ul class="x4">
+		<ul class="x3">
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
+			<li>
+				<a href="#">
+					<figure>
+    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+    					<div class="rating">
+    						<strong class="star_rating">
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_on"></i>
+    							<i class="star_off"></i>
+   							</strong>
+    						<span class="cnt">(29)</span>
+    						<span class="sale">Sale 40%</span>
+    					</div>
+    					<figcaption>
+    						<span class="subject">NIKE FREE 5.0</span>
+    						<span class="price">
+    							<strong class="sell_price">89,100<em>원</em></strong>
+    							<del class="customer_price">99,000원</del>
+    						</span>
+    					</figcaption>
+					</figure>
+				</a>
+			</li>			
 			<li>
 				<a href="#">
 					<figure>

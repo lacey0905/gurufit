@@ -1,4 +1,101 @@
 <?php include "../inc/header.php" ?>
+
+<!-- 모달 팝업 -->
+<!-- 모달팝업 부모 앨리먼트 -->
+<!-- 
+    팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
+    따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
+-->
+<div class="f_modal_perant">
+
+	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
+	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
+	
+	<!-- 사진 등록 리스트 -->
+	<div class="f_modal_layer f_modal_shadow big">
+		<div class="f_modal_wrap">
+			<div class="f_modal_area">
+        		<div class="f_modal_head">
+        			<h2>
+        				사진 등록
+        				<span class="msg">사진을 등록할 상품을 선택해주세요.</span>
+        			</h2>
+        			<a href="#" class="btn_close">Close</a>
+        		</div>
+        		<div class="f_modal_cont big">
+        		
+        		
+        			<div class="f_modal_slider">
+        			
+        				
+        				<div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="../img/modal_slider_sample.png" alt=""></div>
+                                <div class="swiper-slide"><img src="../img/modal_slider_sample.png" alt=""></div>
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+        				
+            			<!-- Initialize Swiper -->
+                        <script>
+                        var swiper = new Swiper('.swiper-container', {
+                            nextButton: '.swiper-button-next',
+                            prevButton: '.swiper-button-prev',
+                            slidesPerView: 1,
+                            paginationClickable: true,
+                            loop: true,
+                        });
+
+                        swiper.disableTouchControl();
+                        </script>
+        			
+        			
+        				<div class="slider_prd">
+            				<table class="prd_list_a small">
+            					<caption class="blind">장바구니</caption>
+            					<colgroup>
+            						<col class="col_thum">
+            						<col class="col_cont">
+            					</colgroup>
+            					<tbody>
+        							<tr>
+            							<td class="thum">
+            								<span class="prd_thum">
+            		    						<a href="#">
+            		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+            	    							</a>
+            	   							</span>
+            							</td>
+            							<td class="cont">
+            								<strong class="name">Nike Metcon DSX Flyknit</strong>
+            								<span class="date">2017년 6월 30일에 구입</span>
+            								<ul class="hash">
+            									<li><a href="#">#NIKE</a></li>
+            									<li><a href="#">#Flyknit</a></li>
+            									<li><a href="#">#Free</a></li>
+            									<li><a href="#">#5.0</a></li>
+            								</ul>
+            								<div class="like">
+            									<a href="#"><span class="up">52</span></a>
+        										<a href="#"><span class="dw">4</span></a>
+            								</div>
+            							</td>
+            						  </tr>
+            					 </tbody>
+            				</table>
+            			</div>
+        			</div>
+        		</div>
+    		</div>
+		</div>
+	</div>
+	<!-- 모달 팝업 그림자 -->
+	<div class="f_modal_blind"></div>
+</div>
+<!-- 모달 팝업 END -->
+<!-- /////// -->
 <section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
@@ -62,44 +159,6 @@
 					</div>
 				</div>
 				<div class="dash_sec dash_x3">
-					<h3 class="dash_tit">경험치 현황</h3>
-					<div class="deps_gauge_wrap">
-						<strong class="deps_gauge_msg">
-							다음 등급 <em>Silver III</em> 까지 <em>1000xp</em> 남음
-						</strong>
-    					<div class="deps_gauge">
-    						<!-- 현재 경험치 (가장 진한 색) -->
-    						<div class="current" style="width:50%;">
-    							<div class="msg_box_a level_info">
-        							<span class="msg">1000xp</span>
-        							<div class="shadow"></div>
-        						</div>
-    						</div>		
-    						<!-- 중간 진한색 -->
-    						<div class="target" style="width:75%;"></div>
-    					</div>
-    					<strong class="deps_gauge_msg">
-							현재 등급 유지에 필요한 경험치 <em>800xp</em> 남음
-						</strong>
-					</div>
-					<dl class="level_up_guide">
-						<dt><a href="#">경험치를 얻을 수 있는 방법</a></dt>
-						<dd><a href="#">구매 상품평 등록</a></dd>
-						<dd><a href="#">구매 상품 View 등록</a></dd>
-						<dd><a href="#">구매 내역 공유</a></dd>
-						<dd><a href="#">추천인 회원 가입</a></dd>
-						<dd><a href="#">이메일 수신 동의</a></dd>
-						<dd class="more"><a href="#">더보기</a></dd>
-					</dl>
-					<div class="coupon_count_box">
-						<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
-						<div class="count_box">
-							<div class="box_sec count"><em>10</em>장</div>
-							<div class="box_sec price"><em>28,000</em>원</div>
-						</div>
-					</div>
-				</div>
-				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">
 						FUN뱃지
 						<a href="#" class="more">FUN뱃지 미션보기</a>
@@ -142,7 +201,85 @@
 								<img src="../img/fun_badge_01.png" alt="">
 								<span>굿픽쳐20</span>
 							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
+							<li>
+								<img src="../img/fun_badge_01.png" alt="">
+								<span>굿픽쳐20</span>
+							</li>
 						</ul>
+					</div>
+				</div>
+				<div class="dash_sec dash_x3">
+					<h3 class="dash_tit">경험치 현황</h3>
+					<div class="deps_gauge_wrap">
+						<strong class="deps_gauge_msg">
+							다음 등급 <em>Silver III</em> 까지 <em>1000xp</em> 남음
+						</strong>
+    					<div class="deps_gauge">
+    						<!-- 현재 경험치 (가장 진한 색) -->
+    						<div class="current" style="width:50%;">
+    							<div class="msg_box_a level_info">
+        							<span class="msg">1000xp</span>
+        							<div class="shadow"></div>
+        						</div>
+    						</div>		
+    						<!-- 중간 진한색 -->
+    						<div class="target" style="width:75%;"></div>
+    					</div>
+    					<strong class="deps_gauge_msg">
+							현재 등급 유지에 필요한 경험치 <em>800xp</em> 남음
+						</strong>
+					</div>
+					<dl class="level_up_guide">
+						<dt><a href="#">경험치를 얻을 수 있는 방법</a></dt>
+						<dd><a href="#">구매 상품평 등록</a></dd>
+						<dd><a href="#">구매 상품 View 등록</a></dd>
+						<dd><a href="#">구매 내역 공유</a></dd>
+						<dd><a href="#">추천인 회원 가입</a></dd>
+						<dd><a href="#">이메일 수신 동의</a></dd>
+						<dd class="more"><a href="#">더보기</a></dd>
+					</dl>
+					<div class="coupon_count_box">
+						<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
+						<div class="count_box">
+							<div class="box_sec count"><em>10</em>장</div>
+							<div class="box_sec price"><em>28,000</em>원</div>
+						</div>
 					</div>
 				</div>
 			</div>

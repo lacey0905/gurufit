@@ -2784,6 +2784,8 @@
 }
 .fun_badge_list ul {
 	font-size:0;
+	max-height:500px;
+	overflow-y:scroll;
 }
 .fun_badge_list li {
 	display:inline-block;

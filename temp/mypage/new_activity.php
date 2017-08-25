@@ -90,7 +90,7 @@
 		</div>
 	</div>
 	<!-- 리뷰 등록 작성-->
-	<div class="f_modal_layer f_modal_shadow big blind">
+	<div class="f_modal_layer f_modal_shadow big">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -322,7 +322,7 @@
 		</div>
 	</div>
 	<!-- 사진 등록 완료 -->
-	<div class="f_modal_layer big f_modal_shadow">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

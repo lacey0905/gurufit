@@ -59,7 +59,7 @@
 		</div>
 	</div>
 	<!-- 비밀번호 변경 -->
-	<div class="f_modal_layer f_modal_shadow" style="display:none;">
+	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -446,87 +446,91 @@
 						</dl>
 						<dl class="form_cont in_line">
 							<dt class="tit_top">사용 가능한 쿠폰</dt>
-							<dd class="form_tit_list">
-								<ul class="ava_coupon_tit">
-									<li>쿠폰 종류</li>
-									<li>쿠폰 사용 정보</li>
-									<li>유효 기간</li>
-								</ul>
-								<div class="ava_coupon_box">
-									<div class="coupon_cate">
-										<strong>5,000원</strong>
-										<span>가입 환영</span>
-									</div>
-									<div class="coupon_info">
-										<span>
-											모든 상품 구입에 사용할 수 있습니다.<br>
-											중복 사용이 가능합니다.
-										</span>
-									</div>
-									<div class="coupon_date">
-										<span>없음</span>
-									</div>
+							<dd>
+								<div class="service_list_table">
+									<table>
+										<caption class="blind">사용 가능한 쿠폰</caption>
+										<colgroup>
+											<col width="160">
+											<col width="*">
+											<col width="120">
+										</colgroup>
+										<thead>
+											<tr>
+												<th>쿠폰 종류</th>
+												<th>쿠폰 사용 정보</th>
+												<th>유효 기간</th>
+											</tr>	
+										</thead>
+										<tbody>
+											<tr>
+												<td class="box tit">
+													<strong>5,000원</strong><br>
+													<span>가입 환영</span>
+												</td>
+												<td class="box cont">
+        											모든 상품 구입에 사용할 수 있습니다.<br>
+        											중복 사용이 가능합니다.
+												</td>
+												<td class="box opt">
+													없음
+												</td>
+											</tr>
+											<tr>
+												<td class="box tit">
+													<strong>5,000원</strong><br>
+													<span>레벨업 - Silver III</span>
+												</td>
+												<td class="box cont">
+        											모든 상품 구입에 사용할 수 있습니다.<br>
+													사용이 가능합니다.
+												</td>
+												<td class="box opt">
+													없음
+												</td>
+											</tr>
+											<tr>
+												<td class="box tit">
+													<strong>2,000원</strong><br>
+													<span>레벨업 - Gold I</span>
+												</td>
+												<td class="box cont">
+        											모든 상품 구입에 사용할 수 있습니다.<br>
+													중복 사용이 가능합니다.
+												</td>
+												<td class="box opt">
+													없음
+												</td>
+											</tr>
+											<tr>
+												<td class="box tit">
+													<strong>10%</strong><br>
+													<span>스니커즈 할인</span>
+												</td>
+												<td class="box cont">
+        											스니커즈에 한해 사용할 수 있습니다.  3만원 이상, 최대 1만원 할인<br>
+													다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.
+												</td>
+												<td class="box opt">
+													2017년 10월 23일
+												</td>
+											</tr>
+											<tr>
+												<td class="box tit">
+													<strong>10%</strong><br>
+													<span>2017년 여름 세일</span>
+												</td>
+												<td class="box cont">
+        											모든 상품 구입에 사용할 수 있습니다.<br>
+													다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.
+												</td>
+												<td class="box opt">
+													2017년 10월 23일
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
-								<div class="ava_coupon_box">
-									<div class="coupon_cate">
-										<strong>5,000원</strong>
-										<span>레벨업 - Silver III</span>
-									</div>
-									<div class="coupon_info">
-										<span>
-											모든 상품 구입에 사용할 수 있습니다.<br>
-											중복 사용이 가능합니다.
-										</span>
-									</div>
-									<div class="coupon_date">
-										<span>없음</span>
-									</div>
-								</div>
-								<div class="ava_coupon_box">
-									<div class="coupon_cate">
-										<strong>2,000원</strong>
-										<span>레벨업 - Gold I</span>
-									</div>
-									<div class="coupon_info">
-										<span>
-											모든 상품 구입에 사용할 수 있습니다.<br>
-											중복 사용이 가능합니다.
-										</span>
-									</div>
-									<div class="coupon_date">
-										<span>없음</span>
-									</div>
-								</div>
-								<div class="ava_coupon_box">
-									<div class="coupon_cate">
-										<strong>10%</strong>
-										<span>스니커즈 할인</span>
-									</div>
-									<div class="coupon_info">
-										<span>
-											스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인<br>
-											<em>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</em>
-										</span>
-									</div>
-									<div class="coupon_date">
-										<span>2017년 10월 23일</span>
-									</div>
-								</div>
-								<div class="ava_coupon_box">
-									<div class="coupon_cate">
-										<strong>10%</strong>
-										<span>2017년 여름 세일</span>
-									</div>
-									<div class="coupon_info">
-										<span>
-											모든 상품 구입에 사용할 수 있습니다.<br>
-											<em>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</em>
-										</span>
-									</div>
-									<div class="coupon_date">
-										<span>2017년 10월 23일</span>
-									</div>
-								</div>																																
 							</dd>
 						</dl>
 						<dl class="form_cont in_line">
@@ -550,124 +554,6 @@
 							</dd>
 						</dl>		
 					</li>
-					
-					<style>
-                    /* 상단 라인 생성 */
-                    .form_cont.in_line {
-                        margin-top:37px;
-                    }
-                    .form_cont.in_line > dt,
-                    .form_cont.in_line > dd {
-                       border-top:solid 1px #ddd;
-                       padding-top:35px;
-                    }
-                    
-                    /* 주문 페이지에 사용 */
-                    .form_tit_list {
-                        position:relative;
-                    }
-                    .form_tit_list .list li {
-                       text-align:left;
-                    }
-                    .form_tit_list .title {
-                        display:inline-block;
-                        width:113px;
-                        color: #8F8F8F;	
-                        font-size: 16px;	
-                        line-height: 40px;	
-                    }
-                    .form_tit_list .content {
-                        display:inline-block;
-                        color: #000;		
-                        font-size: 14px;	
-                        line-height: 16px;				        
-                    }
-                    /*사용 가능한 쿠폰 영역*/
-                    .ava_coupon_tit {
-                    }
-                    .ava_coupon_tit > li {
-                        display:inline-block;
-                        color:#747474;
-                        font-size:12px;
-                        line-height: 18px;                        
-                    }
-                    .ava_coupon_tit > li:nth-child(1){
-                        margin-right:125px;
-                    }
-                    .ava_coupon_tit > li:nth-child(2){
-                        margin-right: 245px;
-                    }
-                    .ava_coupon_box {
-                        font-size:0;
-                        border: 1px solid #EBEBEB;
-                        border-radius: 5px;
-                        height:60px;
-                        margin-top:12px;
-                    }
-                    .ava_coupon_box > div {
-                        display:inline-block;
-                    }
-                    .ava_coupon_box .coupon_cate {
-                        width:163px;
-                        text-align:center;
-                        height:60px;
-                        position:relative;
-                    }
-                    .ava_coupon_box .coupon_cate:after {
-                        content:"";
-                        position:absolute;
-                        top:-11px;
-                        right: 10px;
-                        width:2px;
-                        height:51px;
-                        border-right: dashed 1px #EBEBEB;
-                    }
-                    .ava_coupon_box .coupon_cate strong {
-                        color:#4A4A4A;
-                        font-size:12px;
-                        font-wegith:bold;
-                        line-height:16px;
-                        display:block;
-                    }
-                    .ava_coupon_box .coupon_info {
-                        width:324px;
-                        padding-top:14px;
-                        position:relative;
-                    }
-                    .ava_coupon_box .coupon_info span {
-                        color: #747474;	
-                        font-size: 12px;	
-                        font-weight: 300;	
-                        line-height: 16px;                    
-                    }
-                    .ava_coupon_box .coupon_info:after {
-                        content:"";
-                        position:absolute;
-                        top:5px;
-                        right: 0;
-                        width:2px;
-                        height:51px;
-                        border-right: dashed 1px #EBEBEB;                    
-                    }
-                    .ava_coupon_box .coupon_date {
-                        width:119px;
-                        text-align:center;
-                    }
-                    .ava_coupon_box .coupon_date span {
-                    	color: #747474;	
-                    	font-size: 12px;	
-                    	font-weight: 300;	
-                    	line-height: 16px;	
-                    	text-align: center;
-                    	display:inline-block;
-                    	margin-top:-10px;
-                    	vertical-align:top;
-                    }
-                    .ava_coupon_box .coupon_date span em {
-                        text-decoration:underline;
-                    }
-                         
-					</style>
 					<li>
 						<strong class="form_tit">알림 설정</strong>
 						<dl class="form_cont">

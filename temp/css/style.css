@@ -2257,6 +2257,37 @@
     color: #000000;
     vertical-align:middle;
 }
+/* 상단 라인 생성 */
+.form_cont.in_line {
+    margin-top:37px;
+}
+.form_cont.in_line > dt,
+.form_cont.in_line > dd {
+   border-top:solid 1px #ddd;
+   padding-top:35px;
+}
+
+/* 주문 페이지에 사용 */
+.form_tit_list {
+    position:relative;
+}
+.form_tit_list .list li {
+   text-align:left;
+}
+.form_tit_list .title {
+    display:inline-block;
+    width:113px;
+    color: #8F8F8F;  
+    font-size: 16px; 
+    line-height: 40px;  
+}
+.form_tit_list .content {
+    display:inline-block;
+    color: #000;     
+    font-size: 14px; 
+    line-height: 16px;                   
+}
+
 .form_inp_a .form_cont .tit_top {
 	vertical-align:top;
 }
@@ -2399,6 +2430,8 @@
 	text-align:center;
 	margin:0 3px;
 }
+
+
 
 
 
@@ -3283,5 +3316,105 @@
 }
 
 
+/*사용 가능한 쿠폰 영역*/
+.ava_coupon_tit {
+}
+.ava_coupon_tit > li {
+    display:inline-block;
+    color:#747474;
+    font-size:12px;
+    line-height: 18px;                        
+}
+.ava_coupon_tit > li:nth-child(1){
+    margin-right:125px;
+}
+.ava_coupon_tit > li:nth-child(2){
+    margin-right: 245px;
+}
+.ava_coupon_box {
+    font-size:0;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    height:60px;
+    margin-top:12px;
+}
+.ava_coupon_box > div {
+    display:inline-block;
+}
+.ava_coupon_box .coupon_cate {
+    width:163px;
+    text-align:center;
+    height:60px;
+    position:relative;
+}
+.ava_coupon_box .coupon_cate:after {
+    content:"";
+    position:absolute;
+    top:-11px;
+    right: 10px;
+    width:2px;
+    height:51px;
+    border-right: dashed 1px #EBEBEB;
+}
+.ava_coupon_box .coupon_cate strong {
+    color:#4A4A4A;
+    font-size:12px;
+    font-wegith:bold;
+    line-height:16px;
+    display:block;
+}
+.ava_coupon_box .coupon_info {
+    width:324px;
+    padding-top:14px;
+    position:relative;
+}
+.ava_coupon_box .coupon_info span {
+    color: #747474;  
+    font-size: 12px; 
+    font-weight: 300;   
+    line-height: 16px;                    
+}
+.ava_coupon_box .coupon_info:after {
+    content:"";
+    position:absolute;
+    top:5px;
+    right: 0;
+    width:2px;
+    height:51px;
+    border-right: dashed 1px #EBEBEB;                    
+}
+.ava_coupon_box .coupon_date {
+    width:119px;
+    text-align:center;
+}
+.ava_coupon_box .coupon_date span {
+   color: #747474;   
+   font-size: 12px;  
+   font-weight: 300; 
+   line-height: 16px;   
+   text-align: center;
+   display:inline-block;
+   margin-top:-10px;
+   vertical-align:top;
+}
+.ava_coupon_box .coupon_date span em {
+    text-decoration:underline;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 

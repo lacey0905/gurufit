@@ -29,6 +29,12 @@
 	letter-spacing:0 !important;
 	border:solid 1px #D8D8D8 !important;
 }
+.btn_np3 {
+	color:#8F8F8F !important;
+	letter-spacing:0 !important;
+	border:solid 1px #F0F0F0 !important;
+	background-color:#F0F0F0 !important;
+}
 .btn_disable {
 	color:#fff !important;
 	background-color:#D8D8D8 !important;
@@ -1462,6 +1468,16 @@
 	border:0;
 	padding-top:0;
 }
+.f_modal_foot .f_modal_fbtn.x2 {
+	font-size:0;
+}
+.f_modal_foot .f_modal_fbtn.x2 a {
+	display:inline-block;
+	width:50% !important;
+	padding-left:0;
+	padding-right:0;
+}
+
 /* 모달팝업 STEP 리스트 */
 .f_modal_step {}
 .f_modal_step .tit_list {
@@ -3736,10 +3752,50 @@
 }
 
 
-
-
-
-
+/* TABLE */
+.service_list_table {
+	margin:0 5px;
+}
+.service_list_table table {
+	width:100%;
+	border-collapse: separate;
+    border-spacing:0 8px
+}
+.service_list_table thead th {
+	font-size:12px;
+	font-weight:400;
+	color:#747474;
+	line-height:18px;
+	text-align:left;
+	padding:0px 0 4px;
+}
+.service_list_table tbody td {
+	position:relative;
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EBEBEB;
+	padding:14px 8px;
+	font-size:12px;
+	font-weight:300;
+	color:#747474;
+	line-height:16px;
+	vertical-align:middle;
+}
+.service_list_table tbody td strong {
+	font-size:600;
+	color:#4A4A4A;
+}
+.service_list_table tbody td.tit {
+	text-align:center;
+	border-left: 1px solid #EBEBEB;
+	border-radius:5px 0 0 5px;
+}
+.service_list_table tbody td.opt {
+	border-right: 1px solid #EBEBEB;
+	text-align:center;
+	border-radius:0 5px 5px 0;
+}
+.service_list_table tbody td.box {
+}
 
 
 

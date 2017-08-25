@@ -5514,9 +5514,9 @@
 	display:block;
 	clear:both;
 }
-.ord_coupon_tab {
+/* .ord_coupon_tab {
 }
-/*1열*/
+1열
 .ord_coupon_tab tr:nth-child(1) td {
 	color: #747474;		
 	font-size: 12px;	
@@ -5526,7 +5526,7 @@
 .ord_coupon_tab tr:nth-child(1) td:nth-child(5){
 	text-align:right;
 }
-/*2열*/
+2열
 .ord_coupon_tab tr:nth-child(2) td{
 }
 .ord_coupon_tab .coupone_select_list{
@@ -5595,7 +5595,7 @@
 }
 .result_box_a .ord_free {
 	color: #F5A623 !important;
-}
+} */
 
 
 
@@ -11026,5 +11026,90 @@
 	font-size: 12px;	
 	line-height: 18px;
 	margin-left:194px;
+}
+
+
+/*2017년 08월 25일 color 수정*/
+/* 블랙 */
+.cbox_color [type="checkbox"].c_black + .box:before {
+	background-color:#4a4a4a;
+	border-color:#4a4a4a
+}
+/* 화이트  */
+.cbox_color [type="checkbox"].c_white + .box:before {
+	background-color:#fff;
+	border-color:#fff;
+}
+/* 회색  */
+.cbox_color [type="checkbox"].c_grey + .box:before {
+	background-color:#808080;
+	border-color:#808080;
+}
+/* 레드 */
+.cbox_color [type="checkbox"].c_red + .box:before {
+	background-color:#d0011b;
+	border-color:#d0011b
+}
+/* 블루 */
+.cbox_color [type="checkbox"].c_blue + .box:before {
+	background-color:#4990e2;
+	border-color:#4990e2
+}
+/* 옐로우 */
+.cbox_color [type="checkbox"].c_yellow + .box:before {
+	background-color:#f6a623;
+	border-color:#f6a623
+}
+/* 그린  */
+.cbox_color [type="checkbox"].c_green + .box:before {
+	background-color:#16d67e;
+	border-color:#16d67e
+}
+/* 퍼플  */
+.cbox_color [type="checkbox"].c_purple + .box:before {
+	background-color:#800080;
+	border-color:#800080;
+}
+/* 핑크  */
+.cbox_color [type="checkbox"].c_pink + .box:before {
+	background-color:#ffc0cb;
+	border-color:#ffc0cb;
+}
+/* 오렌지  */
+.cbox_color [type="checkbox"].c_orange + .box:before {
+	background-color:#ffa500;
+	border-color:#ffa500;
+}
+/* 브라운  */
+.cbox_color [type="checkbox"].c_brown + .box:before {
+	background-color:#a52a2a;
+	border-color:#a52a2a;
+}
+/* 아이보리  */
+.cbox_color [type="checkbox"].c_brown + .box:before {
+	background-color:#fffff0;
+	border-color:#fffff0;
+}
+/* 골드  */
+.cbox_color [type="checkbox"].c_gold + .box:before {
+	background-color:#ffd700;
+	border-color:#ffd700;
+}
+/* 실버  */
+.cbox_color [type="checkbox"].c_silver + .box:before {
+	background-color:#c0c0c0;
+	border-color:#c0c0c0;
+}
+/* 멀티  */
+.cbox_color [type="checkbox"].c_multi + .box:before {
+	background-color:#######;
+}
+/* 네이비  */
+.cbox_color [type="checkbox"].c_navy + .box:before {
+	background-color:#000080;
+	border-color:#000080;
+}
+.cbox_color [type="checkbox"].c_white + .box:after {
+	color:#4a4a4a;
 }
 

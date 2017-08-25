@@ -5,7 +5,11 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant">
+<!--
+   모달을 제거하려면 open을 지워야 합니다.
+   하나의 모달을 띄우고 싶을때는 blind를 지우면 된다.  
+-->
+<div class="f_modal_perant" >
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -418,6 +422,31 @@
 							</dd>
 						</dl>
 						<dl class="form_cont in_line">
+							<dt class="tit_top">사용 가능한 쿠폰</dt>
+							<dd class="form_tit_list">
+								<ul class="ava_coupon_tit">
+									<li>쿠폰 종류</li>
+									<li>쿠폰 사용 정보</li>
+									<li>유효 기간</li>
+								</ul>
+								<div class="ava_coupon_box">
+									<div class="coupon_cate">
+										<strong>5,000원</strong>
+										<span>가입 환영</span>
+									</div>
+									<div class="coupon_info">
+										<span>
+											모든 상품 구입에 사용할 수 있습니다.<br>
+											중복 사용이 가능합니다.
+										</span>
+									</div>
+									<div class="coupon_date">
+										<span>없음</span>
+									</div>
+								</div>
+							</dd>
+						</dl>
+						<dl class="form_cont in_line">
 							<dt class="tit_top">환불 계좌 정보</dt>
 							<dd class="form_tit_list">
 								<a href="#" class="top_modify">편집</a>
@@ -470,6 +499,60 @@
                         font-size: 14px;	
                         line-height: 16px;				        
                     }
+                    /*사용 가능한 쿠폰 영역*/
+                    .ava_coupon_tit {
+                    }
+                    .ava_coupon_tit > li {
+                        display:inline-block;
+                        color:#747474;
+                        font-size:12px;
+                        line-height: 18px;                        
+                    }
+                    .ava_coupon_tit > li:nth-child(1){
+                        margin-right:125px;
+                    }
+                    .ava_coupon_tit > li:nth-child(2){
+                        margin-right: 245px;
+                    }
+                    .ava_coupon_box {
+                        font-size:0;
+                        border: 1px solid #EBEBEB;
+                        border-radius: 5px;
+                        height:60px;
+                    }
+                    .ava_coupon_box > div {
+                        display:inline-block;
+                    }
+                    .ava_coupon_box .coupon_cate {
+                        width:163px;
+                        text-align:center;
+                        height:60px;
+                    }
+                    .ava_coupon_box .coupon_cate strong {
+                        color:#4A4A4A;
+                        font-size:12px;
+                        font-wegith:bold;
+                        line-height:16px;
+                        display:block;
+                    }
+                    .ava_coupon_box .coupon_info {
+                        width:324px;
+                        padding-top:14px;
+                    }
+                    .ava_coupon_box .coupon_info span {
+                        color: #747474;	
+                        font-size: 12px;	
+                        font-weight: 300;	
+                        line-height: 16px;                    
+                    }
+                    .ava_coupon_box .coupon_date {
+                        width:119px;
+                        text-align:center;
+                    }
+                    .ava_coupon_box .coupon_date span {
+                        
+                    }
+                         
 					</style>
 					<li>
 						<strong class="form_tit">알림 설정</strong>

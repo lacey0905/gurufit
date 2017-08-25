@@ -5,13 +5,13 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 이메일 변경 -->
-	<div class="f_modal_layer f_modal_shadow">
+	<div class="f_modal_layer f_modal_shadow blind" >
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -55,7 +55,7 @@
 		</div>
 	</div>
 	<!-- 비밀번호 변경 -->
-	<div class="f_modal_layer f_modal_shadow blind">
+	<div class="f_modal_layer f_modal_shadow" style="display:none;">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -100,14 +100,55 @@
         			</form>
         		</div>
         		<div class="f_modal_foot">
-        				<div class="f_modal_btn btn_x2">
-	        				<a href="#" class="btn_ btn_l_l1 btn_hover_a">취소</a>        			
-	        				<a href="#" class="btn_ btn_l_l1 btn_cp btn_hover_shadow">비밀번호 저장</a>
-	        			</div>		
+    				<div class="f_modal_btn btn_x2">
+        				<a href="#" class="btn_ btn_l_l1 btn_hover_a">취소</a>        			
+        				<a href="#" class="btn_ btn_l_l1 btn_cp btn_hover_shadow">비밀번호 저장</a>
+        			</div>		
         		</div>
     		</div>
 		</div>
 	</div>
+	<!-- 환불 계좌 정보 -->
+	<div class="f_modal_layer f_modal_shadow">
+		<div class="f_modal_wrap">
+			<div class="f_modal_area">
+        		<div class="f_modal_head">
+        			<h2>환불 계좌 정보 변경</h2>
+        			<a href="#" class="btn_close">Close</a>
+        		</div>
+        		<div class="f_modal_cont">
+        			<form action="">
+        			<dl class="form_list_a">
+        				<dt>은행</dt>
+        				<dd><span class="txt">groovy@shoeforrabbit.com</span></dd>
+        				<dt>예금주</dt>
+        				<dd>
+        					<div class="form">
+	        					<div class="form_inp_area">
+									<input type="text" value="" placeholder="이메일 주소" class="inp_nm_box inp_full" name="">
+								</div>
+							</div>
+        				</dd>
+        				<dt>계좌번호</dt>
+        				<dd>
+							<div class="form">
+	        					<div class="form_inp_area">
+									<input type="text" value="" placeholder="001-00-0000-0000" class="inp_nm_box inp_full" name="">
+								</div>
+							</div>
+        				</dd>
+        			</dl>
+        			</form>
+        		</div>
+        		<div class="f_modal_foot">
+        			<div class="f_modal_btn btn_x2">
+	        			<a href="#" class="btn_ btn_l_l1 btn_hover_a">취소</a>        			
+	        			<a href="#" class="btn_ btn_l_l1 btn_cp btn_hover_shadow">변경 정보 저장</a>
+	        		</div>		
+        		</div>
+    		</div>
+		</div>
+	</div>	
 	<!-- 개인 정보 변경 -->
 	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
@@ -261,7 +302,7 @@
 </div>
 <!-- 모달 팝업 END -->
 <!-- /////// -->
-<section id="member" class="sub_layout">
+<section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
 			<dl class="locate_list">
@@ -375,8 +416,61 @@
 									<a href="#">+ 새로운 주소 입력</a>
 								</div>
 							</dd>
-						</dl>	
+						</dl>
+						<dl class="form_cont in_line">
+							<dt class="tit_top">환불 계좌 정보</dt>
+							<dd class="form_tit_list">
+								<a href="#" class="top_modify">편집</a>
+								<ul class="list">
+									<li>
+										<strong class="title">은행</strong>
+										<span class="content">신한은행</span>
+									</li>
+									<li>
+										<strong class="title">예금주</strong>
+										<span class="content">김하영</span>
+									</li>
+									<li>
+										<strong class="title">계좌 번호</strong>
+										<span class="content">010-00-0000-0000</span>
+									</li>
+								</ul>
+							</dd>
+						</dl>		
 					</li>
+					
+					<style>
+                    /* 상단 라인 생성 */
+                    .form_cont.in_line {
+                        margin-top:37px;
+                    }
+                    .form_cont.in_line > dt,
+                    .form_cont.in_line > dd {
+                       border-top:solid 1px #ddd;
+                       padding-top:35px;
+                    }
+                    
+                    /* 주문 페이지에 사용 */
+                    .form_tit_list {
+                        position:relative;
+                    }
+                    .form_tit_list .list li {
+                       text-align:left;
+                    }
+                    .form_tit_list .title {
+                        display:inline-block;
+                        width:113px;
+                        color: #8F8F8F;	
+                        font-size: 16px;	
+                        line-height: 40px;	
+                    }
+                    .form_tit_list .content {
+                        display:inline-block;
+                        color: #000;		
+                        font-size: 14px;	
+                        line-height: 16px;				        
+                    }
+					</style>
 					<li>
 						<strong class="form_tit">알림 설정</strong>
 						<dl class="form_cont">

@@ -381,7 +381,30 @@
 							<dd class="form_msg">
 								<strong>1980년 11월 15일</strong>
 							</dd>
-						</dl>	
+						</dl>
+						<dl class="form_cont">
+							<dt>성별</dt>
+							<dd>
+								<span class="personal_radio woman_radio">
+									<span class="payment_radio custom_radio">
+				    					<label>
+				    						<input type="radio" name="payment">
+				    						<span class="box"></span>
+				    					</label>
+									</span>									
+								여성
+								</span>
+								<span class="man_radio">
+									<span class="payment_radio custom_radio">
+				    					<label>
+				    						<input type="radio" name="payment">
+				    						<span class="box"></span>
+				    					</label>
+									</span>										
+								남성
+								</span>
+							</dd>
+						</dl>									
 					</li>
 					<li>
 						<strong class="form_tit">쇼핑 정보</strong>
@@ -444,6 +467,66 @@
 										<span>없음</span>
 									</div>
 								</div>
+								<div class="ava_coupon_box">
+									<div class="coupon_cate">
+										<strong>5,000원</strong>
+										<span>레벨업 - Silver III</span>
+									</div>
+									<div class="coupon_info">
+										<span>
+											모든 상품 구입에 사용할 수 있습니다.<br>
+											중복 사용이 가능합니다.
+										</span>
+									</div>
+									<div class="coupon_date">
+										<span>없음</span>
+									</div>
+								</div>
+								<div class="ava_coupon_box">
+									<div class="coupon_cate">
+										<strong>2,000원</strong>
+										<span>레벨업 - Gold I</span>
+									</div>
+									<div class="coupon_info">
+										<span>
+											모든 상품 구입에 사용할 수 있습니다.<br>
+											중복 사용이 가능합니다.
+										</span>
+									</div>
+									<div class="coupon_date">
+										<span>없음</span>
+									</div>
+								</div>
+								<div class="ava_coupon_box">
+									<div class="coupon_cate">
+										<strong>10%</strong>
+										<span>스니커즈 할인</span>
+									</div>
+									<div class="coupon_info">
+										<span>
+											스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인<br>
+											<em>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</em>
+										</span>
+									</div>
+									<div class="coupon_date">
+										<span>2017년 10월 23일</span>
+									</div>
+								</div>
+								<div class="ava_coupon_box">
+									<div class="coupon_cate">
+										<strong>10%</strong>
+										<span>2017년 여름 세일</span>
+									</div>
+									<div class="coupon_info">
+										<span>
+											모든 상품 구입에 사용할 수 있습니다.<br>
+											<em>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</em>
+										</span>
+									</div>
+									<div class="coupon_date">
+										<span>2017년 10월 23일</span>
+									</div>
+								</div>																																
 							</dd>
 						</dl>
 						<dl class="form_cont in_line">
@@ -519,6 +602,7 @@
                         border: 1px solid #EBEBEB;
                         border-radius: 5px;
                         height:60px;
+                        margin-top:12px;
                     }
                     .ava_coupon_box > div {
                         display:inline-block;
@@ -527,6 +611,16 @@
                         width:163px;
                         text-align:center;
                         height:60px;
+                        position:relative;
+                    }
+                    .ava_coupon_box .coupon_cate:after {
+                        content:"";
+                        position:absolute;
+                        top:-11px;
+                        right: 10px;
+                        width:2px;
+                        height:51px;
+                        border-right: dashed 1px #EBEBEB;
                     }
                     .ava_coupon_box .coupon_cate strong {
                         color:#4A4A4A;
@@ -538,6 +632,7 @@
                     .ava_coupon_box .coupon_info {
                         width:324px;
                         padding-top:14px;
+                        position:relative;
                     }
                     .ava_coupon_box .coupon_info span {
                         color: #747474;	
@@ -545,12 +640,31 @@
                         font-weight: 300;	
                         line-height: 16px;                    
                     }
+                    .ava_coupon_box .coupon_info:after {
+                        content:"";
+                        position:absolute;
+                        top:5px;
+                        right: 0;
+                        width:2px;
+                        height:51px;
+                        border-right: dashed 1px #EBEBEB;                    
+                    }
                     .ava_coupon_box .coupon_date {
                         width:119px;
                         text-align:center;
                     }
                     .ava_coupon_box .coupon_date span {
-                        
+                    	color: #747474;	
+                    	font-size: 12px;	
+                    	font-weight: 300;	
+                    	line-height: 16px;	
+                    	text-align: center;
+                    	display:inline-block;
+                    	margin-top:-10px;
+                    	vertical-align:top;
+                    }
+                    .ava_coupon_box .coupon_date span em {
+                        text-decoration:underline;
                     }
                          
 					</style>

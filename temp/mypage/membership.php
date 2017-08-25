@@ -22,9 +22,9 @@
 						<table  class="mem_list xp_list_tb">
 							<colgroup>
 								<col width="100">
-								<col width="95">
+								<col width="100">
 								<col width="150">
-								<col width="419">
+								<col width="*">
 							</colgroup>
 							<thead>
 								<tr>

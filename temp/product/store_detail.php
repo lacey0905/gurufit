@@ -67,19 +67,347 @@
 								<span class="icon"><img src="../img/icon_detail_01.png" alt=""></span>
 								<div class="price_ranking_wrapper">
 									<div class="price_ranking_container">
-										<>
+										<h4>가격 순위</h4>
+										<ul class="ranking">
+											<li class="cate_one">
+												<strong>남성 <i class="icon-arrow-right"></i><span> 스포츠</span></strong>
+												<em>35개 상품 중 <span>11위</span></em>
+												<ul class="pr_gauge_area">
+													<li>
+														<em>최고가 <span>183,500</span></em>
+														<div class="gauge">
+															<div class="step_bar">
+																<span class="bar step_01">
+																</span>
+																<span class="step_line1"></span>
+																<span class="step_line2"></span>
+																<span class="step_line3"></span>
+																<span class="step_line4"></span>
+																<span class="step_line5"></span>
+																<span class="step_line6"></span>
+																<span class="step_line7"></span>
+																<span class="step_line8"></span>
+																<span class="step_line9"></span>
+																<span class="step_line10"></span>
+																<span class="gauge_middle">
+																	평균보다 조금 높음
+																	<em>89,100</em>
+																</span>
+															</div>
+														</div>
+														<em>최저가 <span>43,000</span></em>
+													</li>
+												</ul>
+											</li>
+											<li class="cate_one">
+												<strong>남성 
+												<i class="icon-arrow-right"></i>
+												스포츠
+												<i class="icon-arrow-right"></i>
+												<span>나이키</span></strong>
+												<em>17개 상품 중 <span>11위</span></em>
+												<ul class="pr_gauge_area">
+													<li>
+														<em>최고가 <span>183,500</span></em>
+														<div class="gauge">
+															<div class="step_bar">
+																<span class="bar2 step_01">
+																</span>
+																<span class="step_line1"></span>
+																<span class="step_line2"></span>
+																<span class="step_line3"></span>
+																<span class="step_line4"></span>
+																<span class="step_line5"></span>
+																<span class="step_line6"></span>
+																<span class="step_line7"></span>
+																<span class="step_line8"></span>
+																<span class="step_line9"></span>
+																<span class="step_line10"></span>
+																<span class="gauge_middle2">
+																	낮음
+																	<em>89,100</em>
+																</span>
+															</div>
+														</div>
+														<em>최저가 <span>89,100</span></em>
+													</li>
+												</ul>
+											</li>
+										</ul>
 									</div>
 								</div>
 							</li>
 						</ul>
 						<style>
 						  .detail_cont_list .price {
-						      background-color:red;
 						      position:relative;
+						      display:inline-block;
+						  }
+						  .detail_cont_list .price:hover .price_ranking_wrapper {
+						      visibility: visible;
 						  }
 						  .price_ranking_wrapper {
-						      
+						      visibility: hidden;
+						      position:absolute;
+						      z-index:1;
+						      width:350px;
+						      height:291px;
+						      border:1px solid #000000;
+						      border-radius:4px;
+						      background-color:#ffffff;
+						      box-shadow: 8px 8px 0 0 rgba(0,0,0,0.09);
+						      top:38px;
 						  }
+						  .price_ranking_container {
+						      position:relative;
+						  }
+						  .price_ranking_container:before {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            top: -26px;
+                            left: 202px;
+                            width: 10px;
+                            height: 10px;
+                            background: #FFFFFF;
+                            border-right: 1px solid #000000;
+                            border-bottom: 1px solid #000000;
+                            transform: rotate(-223deg);
+                            -moz-transform: rotate(-223deg);
+                            -webkit-transform: rotate(-136deg);					  
+						  }
+						  .price_ranking_container h4 {
+						    margin-top:20px;
+						    margin-bottom:11px;
+                            color: #000000;		
+                            font-size: 16px;	
+                            line-height: 24px;	
+                            text-align: center;						      
+						  }
+						  .price_ranking_container .ranking {
+						  }
+						  .price_ranking_container .ranking li {
+						    width:174px;
+						    float:left;
+						  }
+						  .price_ranking_container .ranking .cate_one {
+						    position:relative;
+						  }
+						  .price_ranking_container .ranking .cate_one:after {
+						    content:"";
+						    position:absolute;
+						    box-sizing:border-box;
+						    border:1px solid #f0f0f0;
+						    top:0;
+						    right:0;
+						    height:220px;
+						  }
+						  .price_ranking_container .ranking .cate_one strong {
+					    	color: #4A4A4A;	
+					    	font-size: 14px;	
+					    	line-height: 16px;
+					    	display:block;
+					    	text-align:left;
+					    	margin-left:27px;
+						  }
+						  .price_ranking_container .ranking .cate_one strong span {
+						    color:#ecba5b;
+					    	font-size: 14px;	
+					    	line-height: 16px;
+					    	font-weight: bold;							  
+						  }
+						  .price_ranking_container .ranking .cate_one em {
+						    display:block;
+						    text-align:left;
+                            color: #9B9B9B;	
+                            font-size: 12px;	
+                            line-height: 16px;
+                            margin-left:27px;						    
+						  }
+						  .price_ranking_container .ranking .cate_one em span {
+						    text-align:center;
+                            color: #ecba5b;	
+                            font-size: 12px;	
+                            line-height: 16px;						      
+						  }
+						  .pr_gauge_area {
+						    display:table;
+						    height:100%;
+						  }
+						  .pr_gauge_area li {
+						    display:table-row;
+						    height:100%;
+						  }
+						  .pr_gauge_area li > em {
+						    position:relative;
+						    top:-5px;
+						    display:table-cell;
+						    vertical-align:top;
+						    padding:20px 22px 0 0;
+						    min-width: 45px;
+						  }
+						  .pr_gauge_area .gauge {
+                            position:relative;
+                            display:table-cell;
+                            height:auto;
+						  }
+						  .pr_gauge_area .step_bar {
+						    position:relative;
+						    display:block;
+						    height: 119px;
+						    width: 6px;
+						    border-radius: 100px;
+						    background-color:#e7e8e8;
+                            margin-left:36px;
+                            background-color: #D8D8D8;						    
+						  }
+						  .pr_gauge_area .step_bar .bar .step_01 {
+						    top:0%;
+						  }
+						  .pr_gauge_area .step_bar .bar {
+						    position:absolute;
+						    top:29px;
+						    display:block;
+						    width:6px;
+						    height:40px;
+						    border-radius:4px;
+						    background-color:#7053ff;
+						  }
+						  .pr_gauge_area .step_bar .bar2 {
+						    position:absolute;
+						    top:79px;
+						    display:block;
+						    width:6px;
+						    height:40px;
+						    border-radius:4px;
+						    background-color:#7053ff;
+						  }						  
+						  .pr_gauge_area .step_line1 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:0;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;
+						  }
+						  .pr_gauge_area .step_line2 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:4px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }
+						  .pr_gauge_area .step_line3 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:14px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }
+						  .pr_gauge_area .step_line4 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:29px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }
+						  .pr_gauge_area .step_line5 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:48px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }
+						  .pr_gauge_area .step_line6 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:68px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }	
+						  .pr_gauge_area .step_line7 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:88px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;						    
+						  }
+						  .pr_gauge_area .step_line8 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:103px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;							  
+						  }	
+						  .pr_gauge_area .step_line9 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:113px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;							  
+						  }
+						  .pr_gauge_area .step_line10 {
+						    background-color: #D8D8D8;
+						    position:absolute;
+						    top:118px;
+						    left:-8px;
+						    box-sizing:border-box;
+						    height:0.99px;
+						    width: 6px;							  
+						  }						  							  					  					  							  						  						  
+						  
+						  .pr_gauge_area .gauge_middle {
+						    position:absolute;
+						    width:96px;
+						    top:33px;
+						    left:12px;
+                            color: #7053FF;	
+                            font-size: 12px;	
+                            line-height: 18px;					     
+						  }
+						  .pr_gauge_area .gauge_middle2 {
+						    position:absolute;
+						    width:96px;
+						    top:79px;
+						    left:12px;
+                            color: #7053FF;	
+                            font-size: 12px;	
+                            line-height: 18px;							      
+						  }
+						  .pr_gauge_area .gauge_middle2 > em {
+					    	color: #000000 !important;
+					    	font-size: 12px !important;	
+					    	line-height: 18px !important;
+					    	text-align: left;
+					    	display:inline-block !important;
+					    	margin-left:0 !important;						  
+						  }
+						  .pr_gauge_area .gauge_middle > em {
+					    	color: #000000 !important;
+					    	font-size: 12px !important;	
+					    	line-height: 18px !important;
+					    	text-align: left;
+					    	display:inline-block !important;
+					    	margin-left:0 !important;
+						  } 
+						  
 						</style>
 						<dl class="detail_cont_opt">
 							<dt class="opt_tit">

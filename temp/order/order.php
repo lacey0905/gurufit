@@ -622,7 +622,7 @@
 					</dl>
 					<table class="ord_coupon_tab">
 						<colgroup>
-							<col width="253">
+							<col width="252">
 							<col width="356">
 							<col width="96">
 							<col width="215">
@@ -633,68 +633,217 @@
 							<th>유효기간</th>
 							<th>할인 금액</th>
 						</tr>
-						<!--1열 -->
+						<!-- 1열 -->
 						<tr>
 							<td>
-                        		<div class="check_sort custom_cbox cbox_b ord_present_box ord_coupon_box">
+					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
                         			<label>
-                        				<input type="checkbox" id="" name="" value="">
-                        				<span class="box"></span>
-                        				<strong class="add_chk coupone_select_list ord_coupon_select_list">	
-                                        	<span><em>5,000원</em>가입 환영</span>
-                                        </strong>	
-                        			</label>
-                        		</div>								
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+                            			<strong class="add_chk coupone_select_list ">	
+                							<span><em>5,000원</em>가입 환영</span>
+                    					</strong>
+                					 </label>
+                        		</div>						
 							</td>
-							<td>
+							<td class="cu_info">
 								모든 상품 구입에 사용할 수 있습니다.<br>
-								<span class="ord_overlap_text">중복 사용이 가능합니다.</span>
+								중복 사용이 가능합니다.
 							</td>
-							<td>
+							<td class="cu_data">
 								없음
 							</td>
-							<td>
+							<td class="cu_price">
 								5,000원
 							</td>
-						</tr>																								
+						</tr>
+						
+						<!-- 2열 -->
+						<tr>
+							<td>
+					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+                            			<strong class="add_chk coupone_select_list ">	
+                							<span><em>5,000원</em>레벨업 - Silver III</span>
+                    					</strong>
+                					 </label>
+                        		</div>						
+							</td>
+							<td class="cu_info">
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td class="cu_data">
+								없음
+							</td>
+							<td class="cu_price">
+								&nbsp;
+							</td>
+						</tr>
+						
+						<!-- 3열 -->
+						<tr>
+							<td>
+					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+                            			<strong class="add_chk coupone_select_list ">	
+                							<span><em>5,000원</em>레벨업 - Gold I</span>
+                    					</strong>
+                					 </label>
+                        		</div>						
+							</td>
+							<td class="cu_info">
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td class="cu_data">
+								없음
+							</td>
+							<td class="cu_price">
+								&nbsp;
+							</td>
+						</tr>
+						
+						<!-- 4열 -->
+						<tr>
+							<td>
+					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+                            			<strong class="add_chk coupone_select_list ">	
+                							<span><em>10%</em>스니커즈 할인</span>
+                    					</strong>
+                					 </label>
+                        		</div>						
+							</td>
+							<td class="cu_info">
+								스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인<br>
+								<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
+							</td>
+							<td class="cu_data">
+								2017년 10월 23일
+							</td>
+							<td class="cu_price">
+								10,000원
+							</td>
+						</tr>
+						
+						<!-- 5열 -->
+						<tr>
+							<td>
+					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+                        			<label>
+                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+                            			<strong class="add_chk coupone_select_list ">	
+                							<span><em>10%</em>2017년 여름 세일</span>
+                    					</strong>
+                					 </label>
+                        		</div>						
+							</td>
+							<td class="cu_info">
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
+							</td>
+							<td class="cu_data">
+								2017년 10월 23일
+							</td>
+							<td class="cu_price">
+							</td>
+						</tr>																																																	
 					</table>
 				</div>
-							
-                <style>
-                    .ord_coupon_tab {
-                      
-                    }
-                    .ord_coupon_tab tr:nth-child(1) th {
-                        color: #747474;	
-                        font-size: 12px;	
-                        line-height: 18px;
-                        margin-bottom:13px;
-                        font-weight:normal;  
-                        text-align:left;                      
-                    }
-                    .ord_coupon_tab tr:nth-child(1) th:nth-child(4){
-                        text-align:right;
-                    }
-                    .ord_coupon_tab tr:nth-child(2) td:nth-child(1){
-                        
-                    }
-                    .ord_coupon_tab .ord_coupon_box input[type="checkbox"]:checked + span {
-                    	border: 1px solid #BBBBBB;	
-                    	border-radius: 3px;
-                    }
-                    .ord_coupon_tab .ord_coupon_box {
-                        padding:0;
-                    }
-                    .ord_coupon_tab .ord_coupon_box label strong {
-                        backround-color:red;
-                        padding:0 !important;
-                        border: solid 1px #d8d8d8 !important;
-                    } 
-                </style>    				
+				
+					<style>
+					     .order_result_box {
+					       border-top:2px solid #4A4A4A;
+					     }
+					     .ord_coupon_tab {
+					     }
+					     .ord_coupon_tab th {
+                            font-weight:500;
+                            color: #747474;
+                            font-size: 12px;	
+                            line-height: 18px;
+                            padding-bottom: 13px;
+                            text-align:left;					     
+					     }
+					     .ord_coupon_tab th:nth-child(1){
+					       padding-left:45px;
+					     }
+					     .ord_coupon_tab th:nth-child(4){
+					       text-align:right;
+					     }
+					     .ord_coupon_tab td {
+                            color: #747474;
+                            font-size: 12px;	
+                            line-height: 16px;
+                            padding-bottom:8px;
+					     }
+					     .ord_coupon_tab .cu_info span {
+                            color: #F5A623;	
+                            font-size: 12px;	
+                            line-height: 16px;
+                            text-decoration:underline;					     
+					     }
+					     .ord_coupon_tab .cu_price {
+                            color: #747474;
+                            font-size: 16px;	
+                            line-height: 40px;	
+                            text-align: right;					               
+					     }
+					     .ord_present_box label{
+					         display:inline-block;
+					     }
+				         .ord_present_box [type=checkbox]:checked + .box + .add_chk span {
+                            background-color:#f8e71c;
+                            border: 1px solid #BBBBBB;
+				        }
+				        .ord_coupon_tab .coupone_select_list label span {
+				            height:42px;
+				            width:180px;
+				            border-radius: 3px;
+				            line-height:16px;
+				            padding-top:10px;
+				        }
+				        .ord_coupon_tab .coupone_select_list label span em {
+				            display:block;
+				        }
+				        .coupone_select_list {
+				            display:inline-block;
+				            padding:0;
+				            border:0;
+				            vertical-align:middle;
+				         }
+				         .coupone_select_list [type="checkbox"] + .box {
+				            vertical-align:middle;
+				         }
+				         .order_result_box .ord_free_color {
+				            color:#F5A623 !important;
+				         }
+				         /*
+				         .ord_coupon_box {
+				            backround-color:red !important;
+				            float:left;
+				         }
+				         .ord_coupon_box label {
+			         	    backround-color:red;
+				         }
+				         .ord_coupon_box label .ord_coupon_select_list {
+				            background-color:red;
+				            display:inline-block;
+				            float:left;
+				         } */
+					</style>
 				
 				<dl class="result_box_a">
 					<dt>배송비</dt>
-					<dd class="price ord_free">무료</dd>
+					<dd class="price ord_free ord_free_color">무료</dd>
 				</dl>				
 				<div class="total_price">
 					<em class="tit">총 결제 금액</em>
@@ -805,7 +954,7 @@
 						</td>
 					</tr>
 				</tbody>
-			</table>
+			</table>			
     		<div class="addr_result">
             	<dl>
             		<dt>주문인</dt>
@@ -815,9 +964,100 @@
             		<dt>이메일</dt>
             		<dd>ma******@na***com</dd>
             	</dl>
-            	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">주문인 정보 수정</a>
+            	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
     		</div>
-		</div>    		
+		</div>
+		<!-- 데이터 값이 들어있을때 레이아웃 -->
+<!-- 		<div class="addr_wrap addr_wrap_v2">
+			<table class="addr_inp_table">
+				<caption class="blind">배송지정보</caption>
+				<colgroup>
+					<col class="tit">
+					<col class="cont">
+				</colgroup>
+				<tbody>
+					<tr>
+						<th>배송지
+						</th>
+						<td class="radio">
+							<div class="table_radio custom_radio">
+								<label>
+									<input type="radio" checked="checked" name="addr">
+									<span class="box"></span>
+									<span class="label">기본 배송지</span>
+								</label>
+							</div>
+							<div class="table_radio custom_radio">
+								<label>
+									<input type="radio" name="addr">
+									<span class="box"></span>
+									<span class="label">새로운 배송지</span>
+								</label>
+							</div>
+							<span class="ord_ship_list">배송지 목록 (3)</span>
+						</td>
+					</tr>
+					<tr>
+						<th>수령인</th>
+						<td>
+							김하영
+						</td>
+					</tr>
+					<tr>
+						<th>연락처</th>
+						<td>
+							010 - 8888 - 7777
+						</td>
+					</tr>
+					<tr>
+						<th class="tit_top">주소</th>
+						<td class="address">
+							서울특별시 서초구 서초2동<br>
+							732-1 하영빌딩 3층
+							<div class="addr_inp_check">
+								<div class="custom_cbox cbox_d">
+                					<label>
+                    					<input type="checkbox" id="gender_02" name="gender_02" value="gender_02">
+                    					<span class="box"></span>
+                    					<span class="label ord_ship_list">기본 배송지로 저장</span>
+                    				</label>
+                				</div>	
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<th>배송시 요청사항</th>
+						<td>
+							<input type="text" class="inp_nm_box h_mid w_xf" placeholder="빠른 배송 부탁드립니다.">
+						</td>
+					</tr>
+				</tbody>
+			</table>			
+    		<div class="addr_result">
+            	<dl>
+            		<dt>주문인</dt>
+            		<dd>김밀크</dd>
+            		<dt>연락처</dt>
+            		<dd>010-7777-7777</dd>
+            		<dt>이메일</dt>
+            		<dd>ma******@na***com</dd>
+            	</dl>
+            	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
+    		</div>
+		</div> -->
+		<style>
+		   .addr_wrap_v2 {
+		   }
+		   .addr_wrap_v2 .cont {
+		      width:479px;
+		   }
+		   .addr_wrap_v2 .address {
+		      line-height:40px;
+		   }
+		   .addr_wrap_v2 .address .addr_inp_check {
+		      float:right;
+		   }
+		</style>   		    		
 		<h3 class="tit_sub_a">결제정보</h3>
 		<div class="payment_wrap">
 			<h4 class="payment_tit">결제수단 선택</h4>

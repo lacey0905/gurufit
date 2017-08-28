@@ -27,7 +27,7 @@
 				<em>hayoung1928763@verylongadress.com </em>입니다.
 			</p>
     		<div class="comp_btn">
-    			<a href="#" class="btn_ btn_xl_l3 btn_cp btn_hover_shadow">로그인</a>
+    			<a href="#" class="btn_ btn_xl_l3 btn_cp btn_hover_shadow">메인 페이지로 이동</a>
     		</div>
 		</div>
 	</article>

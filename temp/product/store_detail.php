@@ -65,8 +65,22 @@
 								<strong>89,100원</strong>
 								<del>99,000원</del>
 								<span class="icon"><img src="../img/icon_detail_01.png" alt=""></span>
+								<div class="price_ranking_wrapper">
+									<div class="price_ranking_container">
+										<>
+									</div>
+								</div>
 							</li>
 						</ul>
+						<style>
+						  .detail_cont_list .price {
+						      background-color:red;
+						      position:relative;
+						  }
+						  .price_ranking_wrapper {
+						      
+						  }
+						</style>
 						<dl class="detail_cont_opt">
 							<dt class="opt_tit">
 								<em>컬러 : BLACK/RED</em>
@@ -132,6 +146,34 @@
 								</div>
 							</dd>
 						</dl>
+						<div class="sd_free_ship_title">
+							<em>무료배송</em><p>지금 주문 시 <span>9월 17일</span>까지 배송 예정</p>
+						</div>
+						<style>
+						  .sd_free_ship_title {
+						      margin-top:29px;
+						      margin-bottom:27px;
+						  }
+						  .sd_free_ship_title em {
+						      display:inline-block;
+					          color: #000000;		
+					          font-size: 13px;	
+					          font-weight: bold;	
+					          line-height: 19px;
+					          margin-right:14px;   
+						  }
+						  .sd_free_ship_title p {
+						      display:inline-block;
+                              color: #000000;		
+                              font-size: 13px;
+                              line-height: 19px;						       
+						  }
+						  .sd_free_ship_title p span {
+						      color:#F5A623;	
+                              font-size: 13px;
+                              line-height: 19px;						      
+						  }
+						</style>
 						<!-- Order 버튼 -->
 						<div class="detail_order_wrap">
 							<a href="#" class="btn_ btn_m_m1 btn_hover_a btn_icon_heart">나의 리스트에 담기</a>
@@ -1010,7 +1052,298 @@
 										<li>사진 10장</li>
 										<li>도움 평가 324개</li>
 									</ul>
+									<!-- 뱃지영역 - 다 있을경우 -->
+<!-- 								<div class="badge_pop_wrapper">
+										<div class="badge_pop_container">
+											<div class="recent_badge">
+												<h4>단호박정식<i class="material-icons">&#xE315;</i></h4>
+												<div class="badge_line"></div>
+												<p>최근 받은 재미뱃지</p>
+												<em>보유 뱃지(12)</em>
+												<ul>
+													<li><img src="../img/fun_badge_01.png" alt=""><span>취향저격</span></li>
+													<li><img src="../img/fun_badge_01.png" alt=""><span>패스트리뷰</span></li>
+													<li><img src="../img/fun_badge_01.png" alt=""><span>엄지척x10</span></li>
+												</ul>
+											</div>
+											<div class="recent_active">
+												<p>최근 활동</p>
+												<em>상품평 (1) / 사진 (1)</em>
+												<ul>
+													<li class="pro_review">
+                                        				<a href="#">
+                                        					<figure>
+                                            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+                                            					<div class="rating">
+                                            						<span class="star_rating">
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_off"></i>
+                                           							</span>
+                                            					</div>
+                                            					<figcaption>
+                                            						<p>2017년 9월 28일</p>
+                                            					</figcaption>
+                                        					</figure>
+                                        				</a>														
+													</li>
+													<li class="act_photo">
+														<img src="../img/badge_pop_photo.png" alt="샘플상품">
+														<span>#도심 #나이키</span>
+														<p>2017년 9월 28일</p>
+													</li>
+												</ul>		
+											</div>
+										</div>
+									</div> -->
+									<!-- 뱃지영역 2번째 -->
+<!-- 								<div class="badge_pop_wrapper">
+										<div class="badge_pop_container">
+											<div class="recent_badge">
+												<h4>단호박정식<i class="material-icons">&#xE315;</i></h4>
+												<div class="badge_line"></div>
+												<p>최근 받은 재미뱃지</p>
+												<em>보유 뱃지(12)</em>
+												<ul class="rb_2x">
+													<li><img src="../img/fun_badge_01.png" alt=""><span>취향저격</span></li>
+													<li><img src="../img/fun_badge_01.png" alt=""><span>패스트리뷰</span></li>
+												</ul>
+											</div>
+											<div class="recent_active">
+												<p>최근 활동</p>
+												<em>상품평 (1) / 사진 (1)</em>
+												<ul>
+													<li class="pro_review pro_review_1x">
+                                        				<a href="#">
+                                        					<figure>
+                                            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+                                            					<div class="rating">
+                                            						<span class="star_rating">
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_on"></i>
+                                            							<i class="star_off"></i>
+                                           							</span>
+                                            					</div>
+                                            					<figcaption>
+                                            						<p>2017년 9월 28일</p>
+                                            					</figcaption>
+                                        					</figure>
+                                        				</a>														
+													</li>
+												</ul>		
+											</div>
+										</div>
+									</div>	 -->
+									<!-- 뱃지영역 3번째 -->
+									<div class="badge_pop_wrapper">
+										<div class="badge_pop_container">
+											<div class="recent_badge">
+												<h4>단호박정식<i class="material-icons">&#xE315;</i></h4>
+												<div class="badge_line"></div>
+												<p>최근 받은 재미뱃지</p>
+												<em>보유 뱃지(0)</em>
+												<span class="none_badge">최근 받은 뱃지가 없습니다.</span>
+											</div>
+											<div class="recent_active">
+												<p>최근 활동</p>
+												<em>상품평 (1) / 사진 (1)</em>
+												<span class="none_badge">최근 활동한 내역이 없습니다.</span>		
+											</div>
+										</div>
+									</div>																	
 								</div>
+								<style>
+								    .review_list_head {
+								        position:relative;
+								        display:inline-block;
+								    }
+								    .review_list_head:hover .badge_pop_wrapper {
+								        visibility:visible;
+								    }
+								    .badge_pop_wrapper {
+								        visibility:hidden;
+								        position:absolute;
+								        top:0;
+								        left:108px;
+								        width:286px;
+								        z-index:1;
+								        border-radius: 5px;
+								        background-color: #FFFFFF;
+								        border: 1px solid #DDDDDD;
+								        box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+								    }
+								    .badge_pop_container {
+								        text-align:center;
+								        position:relative;
+								    }
+								    .badge_pop_container:after {
+                                        content: " ";
+                                        position: absolute;
+                                        top: 35px;
+                                        left: -9px;
+                                        width: 15px;
+                                        height: 15px;
+                                        border-left: solid 1px #eaeaea;
+                                        border-bottom: solid 1px #eaeaea;
+                                        background-color: #fff;
+                                        -ms-transform: rotate(45deg);
+                                        -webkit-transform: rotate(45deg);
+                                        transform: rotate(45deg);								        
+								    }
+						           .badge_pop_container h4 {
+                                        color: #000000;	
+                                        font-size: 18px;	
+                                        font-weight: bold;	
+                                        line-height: 27px;	
+                                        text-align: center;
+                                        margin-top:12px;						           
+						           }
+						           .badge_pop_container i {
+						                display:inline-block;
+						                vertical-align:top;  
+						           }
+						           .badge_pop_container .badge_line {
+                                        position:relative;
+						           } 
+						           .badge_pop_container .badge_line:after {
+                                        content:"";
+                                        position:absolute;
+                                        height:10px;
+                                        background-color: 1px solid #979797;
+                                        border:1px solid #979797;
+                                        margin:10px 0;
+                                        left:50%;
+						           }
+						           .badge_pop_container .recent_badge p {
+                                        color: #4A4A4A;	
+                                        font-size: 12px;	
+                                        font-weight: bold;	
+                                        line-height: 20px;	
+                                        text-align: center;
+                                        margin-top:40px;						           
+						           }
+						           .badge_pop_container .recent_badge em {
+						                display:block;
+					                	color: #8F8F8F;	
+					                	font-size: 12px;	
+					                	line-height: 20px;
+					                	margin-bottom: 10px;	
+						           }
+						           .badge_pop_container .recent_badge ul {
+						           }
+						           .badge_pop_container .recent_badge ul:after {
+						              content:"";
+						              display:block;
+						              clear:both;
+						           }
+						           .badge_pop_container .recent_badge ul li {
+						              float:left;
+						           }
+						           .badge_pop_container .recent_badge ul li:nth-child(1){
+						              margin-left:30px;
+						              margin-right:38px;
+						           }
+						           .badge_pop_container .recent_badge ul li:nth-child(2){
+						              margin-right:38px;
+						           }
+						           .badge_pop_container .recent_badge ul li span {
+						              display:block;
+                                      color: #747474;	
+                                      font-size: 12px;	
+                                      line-height: 24px;	
+                                      text-align: center;						              
+						           }
+						           .badge_pop_container .recent_badge ul li img {
+						              width:45px;
+						              height:45px;
+						           }
+						           .badge_pop_container .recent_active p {
+                                     color: #4A4A4A;	
+                                     font-size: 12px;	
+                                     font-weight: bold;	
+                                     line-height: 20px;	
+                                     text-align: center;						              
+						           }
+						           .badge_pop_container .recent_active em {
+                                     color: #8F8F8F;	
+                                     font-family: SpoqaHanSans;	
+                                     font-size: 12px;	
+                                     line-height: 20px;	
+                                     text-align: center;
+                                     margin-bottom: 10px;
+                                     display:inline-block;				           
+						           }
+						           .badge_pop_container .recent_active li {
+						              float:left;
+						              margin-bottom:22px;
+						           }
+						           .badge_pop_container .pro_review {
+						              margin-right:21px;
+						              margin-left:35px;
+						           }
+						           .badge_pop_container .pro_review span img {
+						              width:99px;
+						              height:99px;
+						           }
+						           .badge_pop_container .pro_review figcaption p {
+                                     color: #BBBBBB;		
+                                     font-size: 11px;	
+                                     line-height: 17px;	
+                                     text-align: center;						           
+						           }
+						           .badge_pop_container .pro_review .act_photo {
+						             background-color:red;
+						           }
+						           .badge_pop_container .act_photo img {
+						             width:99px;
+						             height:99px;    
+					               }
+					               .badge_pop_container .act_photo span {
+					                 display:block;
+				                 	 color: #8F8F8F;	
+				                 	 font-size: 11px;	
+				                 	 line-height: 17px;	
+				                 	 text-align: center;
+					               }
+					               .badge_pop_container .act_photo p {
+                                     color: #BBBBBB;	
+                                     font-size: 11px;	
+                                     line-height: 17px;	
+                                     text-align: center;					                   
+					               }
+					               /*2번째*/
+					               .rb_2x li:nth-child(1){
+				                     margin-left:65px !important;
+					               }
+					               .pro_review_1x {
+				                     width:75% !important;				               
+					               }
+					               .recent_badge span.none_badge {
+					                   display:block;  
+	                                   color: #DDDDDD;		
+	                                   font-size: 18px;	
+	                                   font-weight: bold;	
+	                                   line-height: 27px;	
+	                                   text-align: center;
+	                                   margin-top: 30px;
+	                                   margin-bottom: 51px;			                   
+					                   
+					               }
+					               .recent_active span.none_badge {
+					                   display:block;
+	                                   color: #DDDDDD;		
+	                                   font-size: 18px;	
+	                                   font-weight: bold;	
+	                                   line-height: 27px;	
+	                                   text-align: center;
+	                                   margin-top: 51px;
+	                                   margin-bottom: 91px;				                   
+					               }
+								</style>
 								<div class="review_list_box">
 									<div class="review_cont">
 										<div class="rating">

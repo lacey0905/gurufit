@@ -896,6 +896,91 @@
     		            display:inline-block;
     		            float:left;
     		         }
+/*상품 order*/
+.refund_account_info_register {
+	border-top: 0.5px solid #D8D8D8;
+	border-bottom: 0.5px solid #D8D8D8;
+	padding:17px 49px 21px 0;
+}
+.refund_account_info_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register > em {
+	float:left;
+	color: #4A4A4A;		
+	font-size: 16px;	
+	line-height: 40px;	
+}
+.refund_account_info_register .bank_register {
+	float:left;
+	margin-left:64px;
+}
+.refund_account_info_register .bank_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register .bank_register tr td {
+	margin-bottom:10px;
+	padding-bottom:10px;
+	
+	color: #8F8F8F;	
+	font-size: 16px;	
+	line-height: 40px;
+	padding-right: 26px;	
+}
+.refund_account_info_register .bank_register .sel_mid {
+	width:274px;
+}
+.refund_account_info_register .bank_register .ord_ib_o {
+	width:274px;
+}
+.refund_account_info_register .bank_register .ord_ib_t {
+	width:584px;
+}
+.refund_account_info_register > p:before {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register > p {
+	color: #F5A623;		
+	font-size: 12px;	
+	line-height: 18px;
+	margin-left:194px;
+}
+
+/*선물인가요 인풋 박스*/
+.ord_present_box {
+	display:inline-block;
+	vertical-align:middle;
+	padding-top:5px;
+	margin-left:16px;
+}
+.ord_ship_list {
+	float:right;
+	color: #8F8F8F;	
+	font-size: 13px;	
+	line-height: 19px;	
+}
+.ord_ship_list:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.ord_pt_box_tit {
+	vertical-align:top;
+}
+.ord_pt_box {
+	background-color:red;
+	width: 475px;
+	height: 90px;
+	background-color: #F6F6F6;
+	border:none;
+	resize:none;
+}    		         
 
 				         
 /* .ord_discount {
@@ -1245,8 +1330,14 @@
 		<style>
 		   .addr_wrap_v2 {
 		   }
+		   .addr_wrap_v2 .cont {
+		      width:479px;
+		   }
 		   .addr_wrap_v2 .address {
-		      background-color;red;
+		      line-height:40px;
+		   }
+		   .addr_wrap_v2 .address .addr_inp_check {
+		      float:right;
 		   }
 		</style>   		    		
 		<h3 class="tit_sub_a">결제정보</h3>

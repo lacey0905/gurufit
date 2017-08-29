@@ -648,12 +648,32 @@
 }
 
 .user_info_list dt .level {
-	width:22px;
+	display:inline-block;
+	width:20px;
+	padding-right:2px;
 	height:22px;
-	background:url(../img/silver-s-1.png) no-repeat;
-	text-indent:-9999px;
-	font-size:0;
+	line-height:22px;
+	background:url(../img/silver-s-1.svg) no-repeat;
+	font-size:12px;
+	font-family: 'Noto Sans KR';
+	font-weight:500;
+	font-style:italic;
+	color:#fff;
+	text-align:center;
 }
+.user_info_list dt .level.silver {
+	background:url(../img/silver-s-1.svg) no-repeat;
+}
+.user_info_list dt .level.gold {
+	background:url(../img/gold-s-1.svg) no-repeat;
+}
+.user_info_list dt .level.platinum {
+	background:url(../img/platinum-s-1.svg) no-repeat;
+}
+.user_info_list dt .level.vip {
+	background:url(../img/vip-s.svg) no-repeat;
+}
+
 .user_info_list dt .name {
 	font-size:16px;
 	font-family: 'Noto Sans KR';

@@ -6,7 +6,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -177,7 +177,7 @@
 						FUN뱃지
 						<a href="#" class="more">FUN뱃지 미션보기</a>
 					</h3>
-					<div class="fun_badge_list">
+					<div class="fun_badge_list mCustomScrollbar" data-mcs-theme="minimal-dark">
 						<ul>
 							<li>
 								<img src="../img/fun_badge_01.png" alt="">
@@ -621,14 +621,16 @@
 			</div>
 		</section>
 		<script>
-			// 결제 정보 탭
     		$(function(){
+    			// 결제 정보 탭
     			$(".dash_tab_wrap").sectionDisplay({
     				act : "click",
     				start:0,
     				nav : $('.dash_tab_wrap .tab_nav'),
     				auto: false
     			});
+				// FUN 뱃지 커스텀 스크롤 JS
+    			$(".fun_badge_list").mCustomScrollbar();
     		});
 		</script>
 	</article>

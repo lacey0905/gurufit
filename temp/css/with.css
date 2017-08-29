@@ -2690,7 +2690,7 @@
 
 
 /*2017년 color 수정*/
-/* 블랙 */
+[29/08/2017 5:00 PM] Superior817 yeseo: /* 블랙 */
 .cbox_color [type="checkbox"].c_black + .box:before {
 	background-color:#000000;
 	border-color:#000000;
@@ -2698,7 +2698,7 @@
 /* 화이트  */
 .cbox_color [type="checkbox"].c_white + .box:before {
 	background-color:#fff;
-	border-color:#b0b0b0;
+	border-color:#979797;
 }
 /* 회색  */
 .cbox_color [type="checkbox"].c_grey + .box:before {
@@ -2746,9 +2746,9 @@
 	border-color:#a52a2a;
 }
 /* 아이보리  */
-.cbox_color [type="checkbox"].c_ivory + .box:before {
-	background-color:#fffff0;
-	border-color:#b0b0b0;
+.cbox_color [type="checkbox"].c_Ivory + .box:before {
+	background-color:#F2EFD7;
+	border-color: #979797;
 }
 /* 골드  */
 .cbox_color [type="checkbox"].c_gold + .box:before {
@@ -2762,14 +2762,177 @@
 }
 /* 멀티  */
 .cbox_color [type="checkbox"].c_multi + .box:before {
-	/*background-color:#######;*/
-	border-color:#000;
+	background-color:#######;
+	border-color:#979797;
 }
 /* 네이비  */
 .cbox_color [type="checkbox"].c_navy + .box:before {
 	background-color:#000080;
 	border-color:#000080;
 }
+
+[29/08/2017 5:00 PM] Superior817 yeseo: /* 블랙 */
+.cbox_color [type="checkbox"].c_black + .box:before {
+	background-color:#000000;
+	border-color:#000000;
+}
+/* 화이트  */
+.cbox_color [type="checkbox"].c_white + .box:before {
+	background-color:#fff;
+	border-color:#979797;
+}
+/* 회색  */
+.cbox_color [type="checkbox"].c_grey + .box:before {
+	background-color:#808080;
+	border-color:#808080;
+}
+/* 레드 */
+.cbox_color [type="checkbox"].c_red + .box:before {
+	background-color:#ff0000;
+	border-color:#ff0000;
+}
+/* 블루 */
+.cbox_color [type="checkbox"].c_blue + .box:before {
+	background-color:#0000ff;
+	border-color:#0000ff;
+}
+/* 옐로우 */
+.cbox_color [type="checkbox"].c_yellow + .box:before {
+	background-color:#ffff00;
+	border-color:#ffff00;
+}
+/* 그린  */
+.cbox_color [type="checkbox"].c_green + .box:before {
+	background-color:#00ff00;
+	border-color:#00ff00;
+}
+/* 퍼플  */
+.cbox_color [type="checkbox"].c_purple + .box:before {
+	background-color:#800080;
+	border-color:#800080;
+}
+/* 핑크  */
+.cbox_color [type="checkbox"].c_pink + .box:before {
+	background-color:#ffc0cb;
+	border-color:#ffc0cb;
+}
+/* 오렌지  */
+.cbox_color [type="checkbox"].c_orange + .box:before {
+	background-color:#ffa500;
+	border-color:#ffa500;
+}
+/* 브라운  */
+.cbox_color [type="checkbox"].c_brown + .box:before {
+	background-color:#a52a2a;
+	border-color:#a52a2a;
+}
+/* 아이보리  */
+.cbox_color [type="checkbox"].c_Ivory + .box:before {
+	background-color:#F2EFD7;
+	border-color: #979797;
+}
+/* 골드  */
+.cbox_color [type="checkbox"].c_gold + .box:before {
+	background-color:#ffd700;
+	border-color:#ffd700;
+}
+/* 실버  */
+.cbox_color [type="checkbox"].c_silver + .box:before {
+	background-color:#c0c0c0;
+	border-color:#c0c0c0;
+}
+/* 멀티  */
+.cbox_color [type="checkbox"].c_multi + .box:before {
+	background-color:#######;
+	border-color:#979797;
+}
+/* 네이비  */
+.cbox_color [type="checkbox"].c_navy + .box:before {
+	background-color:#000080;
+	border-color:#000080;
+}
+
+[29/08/2017 5:00 PM] Superior817 yeseo: /* 블랙 */
+.cbox_color [type="checkbox"].c_black + .box:before {
+	background-color:#000000;
+	border-color:#000000;
+}
+/* 화이트  */
+.cbox_color [type="checkbox"].c_white + .box:before {
+	background-color:#fff;
+	border-color:#979797;
+}
+/* 회색  */
+.cbox_color [type="checkbox"].c_grey + .box:before {
+	background-color:#808080;
+	border-color:#808080;
+}
+/* 레드 */
+.cbox_color [type="checkbox"].c_red + .box:before {
+	background-color:#ff0000;
+	border-color:#ff0000;
+}
+/* 블루 */
+.cbox_color [type="checkbox"].c_blue + .box:before {
+	background-color:#0000ff;
+	border-color:#0000ff;
+}
+/* 옐로우 */
+.cbox_color [type="checkbox"].c_yellow + .box:before {
+	background-color:#ffff00;
+	border-color:#ffff00;
+}
+/* 그린  */
+.cbox_color [type="checkbox"].c_green + .box:before {
+	background-color:#00ff00;
+	border-color:#00ff00;
+}
+/* 퍼플  */
+.cbox_color [type="checkbox"].c_purple + .box:before {
+	background-color:#800080;
+	border-color:#800080;
+}
+/* 핑크  */
+.cbox_color [type="checkbox"].c_pink + .box:before {
+	background-color:#ffc0cb;
+	border-color:#ffc0cb;
+}
+/* 오렌지  */
+.cbox_color [type="checkbox"].c_orange + .box:before {
+	background-color:#ffa500;
+	border-color:#ffa500;
+}
+/* 브라운  */
+.cbox_color [type="checkbox"].c_brown + .box:before {
+	background-color:#a52a2a;
+	border-color:#a52a2a;
+}
+/* 아이보리  */
+.cbox_color [type="checkbox"].c_Ivory + .box:before {
+	background-color:#F2EFD7;
+	border-color: #979797;
+}
+/* 골드  */
+.cbox_color [type="checkbox"].c_gold + .box:before {
+	background-color:#ffd700;
+	border-color:#ffd700;
+}
+/* 실버  */
+.cbox_color [type="checkbox"].c_silver + .box:before {
+	background-color:#c0c0c0;
+	border-color:#c0c0c0;
+}
+/* 멀티  */
+.cbox_color [type="checkbox"].c_multi + .box:before {
+	background-color:#######;
+	border-color:#979797;
+}
+/* 네이비  */
+.cbox_color [type="checkbox"].c_navy + .box:before {
+	background-color:#000080;
+	border-color:#000080;
+}
+
 
 
 

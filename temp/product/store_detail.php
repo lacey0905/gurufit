@@ -407,7 +407,6 @@
 					    	display:inline-block !important;
 					    	margin-left:0 !important;
 						  } 
-						  
 						</style>
 						<dl class="detail_cont_opt">
 							<dt class="opt_tit">

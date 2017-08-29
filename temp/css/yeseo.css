@@ -11029,11 +11029,11 @@
 }
 
 
-/*2017년 08월 25일 color 수정*/
+/*2017년 8월 29일 color 수정*/
 /* 블랙 */
 .cbox_color [type="checkbox"].c_black + .box:before {
-	background-color:#4a4a4a;
-	border-color:#4a4a4a
+	background-color:#000000;
+	border-color:#000000;
 }
 /* 화이트  */
 .cbox_color [type="checkbox"].c_white + .box:before {
@@ -11047,23 +11047,23 @@
 }
 /* 레드 */
 .cbox_color [type="checkbox"].c_red + .box:before {
-	background-color:#d0011b;
-	border-color:#d0011b
+	background-color:#ff0000;
+	border-color:#ff0000;
 }
 /* 블루 */
 .cbox_color [type="checkbox"].c_blue + .box:before {
-	background-color:#4990e2;
-	border-color:#4990e2
+	background-color:#0000ff;
+	border-color:#0000ff;
 }
 /* 옐로우 */
 .cbox_color [type="checkbox"].c_yellow + .box:before {
-	background-color:#f6a623;
-	border-color:#f6a623
+	background-color:#ffff00;
+	border-color:#ffff00;
 }
 /* 그린  */
 .cbox_color [type="checkbox"].c_green + .box:before {
-	background-color:#16d67e;
-	border-color:#16d67e
+	background-color:#00ff00;
+	border-color:#00ff00;
 }
 /* 퍼플  */
 .cbox_color [type="checkbox"].c_purple + .box:before {
@@ -11086,7 +11086,7 @@
 	border-color:#a52a2a;
 }
 /* 아이보리  */
-.cbox_color [type="checkbox"].c_brown + .box:before {
+.cbox_color [type="checkbox"].c_Ivory + .box:before {
 	background-color:#fffff0;
 	border-color:#fffff0;
 }
@@ -11103,13 +11103,12 @@
 /* 멀티  */
 .cbox_color [type="checkbox"].c_multi + .box:before {
 	background-color:#######;
+	border-color:#000;
 }
 /* 네이비  */
 .cbox_color [type="checkbox"].c_navy + .box:before {
 	background-color:#000080;
 	border-color:#000080;
 }
-.cbox_color [type="checkbox"].c_white + .box:after {
-	color:#4a4a4a;
-}
+
 

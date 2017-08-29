@@ -16,11 +16,13 @@
 			<div class="tab_active_type">
 				<!-- 카테고리 리스트 -->
 				<ul>
-					<li class="active"><a href="#">Discovery</a></li>
-					<li><a href="#">Gurupic</a></li>
-					<li><a href="#">Guruvy</a></li>
-					<li><a href="#">Notice</a></li>
-					<li><a href="#">Rank</a></li>
+					<li class="active"><a href="#">매거진 전체</a></li>
+					<li><a href="#">뉴스</a></li>
+					<li><a href="#">포스트</a></li>
+					<li><a href="#">구루스타일</a></li>
+					<li><a href="#">룩북</a></li>
+					<li><a href="#">구루피셜</a></li>
+					<li><a href="#">구루데이터</a></li>
 				</ul>
 			</div>
 			<!-- 검색 키워드 -->

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -760,7 +759,39 @@
 					</table>
 				</div>
 				
-					<style>
+				<style>
+                .ord_discount {
+                    	background-color: #F9F9F9;
+                    	border-top:1px solid #EBEBEB;
+                    	border-bottom:1px solid #EBEBEB;
+                    	padding:10px 0 10px 0;
+                    }
+                    .ord_discount > em {
+                    	color: #8F8F8F;		
+                    	font-size: 16px;	
+                    	line-height: 40px;
+                    	margin-left: 29px;	
+                    }
+                    .ord_discount .ord_mem {
+                    	color: #8F8F8F;		
+                    	font-size: 16px;	
+                    	line-height: 40px;
+                    	margin-left: 100px;	
+                    }
+                    .ord_discount .ord_mem > strong {
+                    	font-size: 16px;	
+                    	line-height: 40px;	
+                    	color:#909090;
+                    	margin-left:5px;	
+                    }
+                    .ord_discount span:last-child {
+                    	color: #F5A623;		
+                    	font-size: 16px;	
+                    	line-height: 40px;	
+                    	text-align: right;
+                    	float:right;
+                    	margin-right: 18px;	
+                    }					
 					     .order_result_box {
 					       border-top:2px solid #4A4A4A;
 					     }
@@ -827,7 +858,7 @@
 				         .order_result_box .ord_free_color {
 				            color:#F5A623 !important;
 				         }
-				         /*
+				         
 				         .ord_coupon_box {
 				            backround-color:red !important;
 				            float:left;
@@ -839,7 +870,39 @@
 				            background-color:red;
 				            display:inline-block;
 				            float:left;
-				         } */
+				         }
+                        .ord_discount {
+                        	background-color: #F9F9F9;
+                        	border-top:1px solid #EBEBEB;
+                        	border-bottom:1px solid #EBEBEB;
+                        	padding:10px 0 10px 0;
+                        }
+                        .ord_discount > em {
+                        	color: #8F8F8F;		
+                        	font-size: 16px;	
+                        	line-height: 40px;
+                        	margin-left: 29px;	
+                        }
+                        .ord_discount .ord_mem {
+                        	color: #8F8F8F;		
+                        	font-size: 16px;	
+                        	line-height: 40px;
+                        	margin-left: 100px;	
+                        }
+                        .ord_discount .ord_mem > strong {
+                        	font-size: 16px;	
+                        	line-height: 40px;	
+                        	color:#909090;
+                        	margin-left:5px;	
+                        }
+                        .ord_discount span:last-child {
+                        	color: #F5A623;		
+                        	font-size: 16px;	
+                        	line-height: 40px;	
+                        	text-align: right;
+                        	float:right;
+                        	margin-right: 18px;	
+                        }
 					</style>
 				
 				<dl class="result_box_a">
@@ -968,8 +1031,7 @@
             	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
     		</div>
 		</div>
-		<!-- 데이터 값이 들어있을때 레이아웃 -->
-<!-- 		<div class="addr_wrap addr_wrap_v2">
+		<div class="addr_wrap addr_wrap_v2">
 			<table class="addr_inp_table">
 				<caption class="blind">배송지정보</caption>
 				<colgroup>
@@ -1045,18 +1107,12 @@
             	</dl>
             	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
     		</div>
-		</div> -->
+		</div>
 		<style>
 		   .addr_wrap_v2 {
 		   }
-		   .addr_wrap_v2 .cont {
-		      width:479px;
-		   }
 		   .addr_wrap_v2 .address {
-		      line-height:40px;
-		   }
-		   .addr_wrap_v2 .address .addr_inp_check {
-		      float:right;
+		      background-color;red;
 		   }
 		</style>   		    		
 		<h3 class="tit_sub_a">결제정보</h3>

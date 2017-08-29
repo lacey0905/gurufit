@@ -759,7 +759,7 @@
 					</table>
 				</div>
 				
-					<style>
+				<style>
                 .ord_discount {
                     	background-color: #F9F9F9;
                     	border-top:1px solid #EBEBEB;

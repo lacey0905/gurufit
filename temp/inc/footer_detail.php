@@ -1,12 +1,5 @@
-	<link rel="stylesheet" type="text/css" href="../css/import/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/import/font.css">
-	<link rel="stylesheet" type="text/css" href="../css/with.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<link rel="stylesheet" type="text/css" href="../css/yeseo.css">
-
-
 <footer id="footer">
-	<section id="foot_detail">
+	<section id="footer_product">
 		<article>
 			<div class="footer_detail_wrapper">
 				<div class="fd_ship_info">
@@ -87,8 +80,6 @@
 				</div>
 			</div>
 		</article>	
-	</section>
-	<section id="foot_detail">
 		<article>
 			<div class="footer_detail_wrapper">
 				<div class="fd_ship_info">
@@ -174,8 +165,6 @@
 				</div>
 			</div>
 		</article>	
-	</section>
-	<section id="foot_detail">
 		<article>
 			<div class="footer_detail_wrapper">
 				<div class="fd_ship_info">

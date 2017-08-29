@@ -26,7 +26,47 @@
 					</ul>
 				</li>
 			</ul>
-			<a href="#" class="close_add_opt">내 맞춤 리스트 끄기</a>
+			<!-- 내 맞춤 리스트 팝업 -->
+			<div id="myOptPop" class="prd_pop modal_popup lside_arr pop_type_b">
+        		<div class="pop_head">
+        			<h2 class="user_info">
+        				<img src="../img/review-1.png" alt="뱃지">
+        				<strong><em class="name">Kim Hayoung</em>님의<br>맞춤 결과</strong>
+        			</h2>
+        			<div class="side_btn">
+						<a href="#" class="side_right icon_setting">설정 값 삭제</a>
+					</div>
+        			<p class="msg">
+        				맞춤 프로필을 저장하여 원하는 상품을 <br>
+						빠르게 찾아 보세요
+        			</p>
+        		</div>
+        		<div class="pop_opt_sel">
+        			<h2 class="tit">사이즈</h2>
+        			<div id="opt" class="check_opt_box type_b">
+						<ul class="x8">
+							<li><label class="check_opt_inp"><input type="checkbox" name="230" value="230"><span>230</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="235" value="235" ><span>235</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="240" value="240"><span>240</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="245" value="245"><span>245</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="250" value="250"><span>250</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="255" value="255" ><span>255</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="260" value="260" ><span>260</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="265" value="265" ><span>265</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="270" value="270"><span>270</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="275" value="275"><span>275</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="280" value="280"><span>280</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="285" value="285" ><span>285</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="290" value="290" ><span>290</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="295" value="295"><span>295</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="300" value="300"><span>300</span></label></li>
+							<li><label class="check_opt_inp"><input type="checkbox" name="305" value="305" ><span>305</span></label></li>
+						</ul>
+					</div>
+					<a href="#" id="btn_save" class="btn_ btn_cp btn_hover_shadow btn_xl_l1">저장 완료</a>
+        		</div>
+        	</div>
+			<a href="#none" id="myOptBtn"class="close_add_opt btn_hover_a">내 맞춤 리스트 열기</a>
 			<a href="#" class="modify_add_opt"><i class="icon-pencil">수정</i></a>
 		</dd>
 	</dl>
@@ -74,23 +114,88 @@
 	<dl>
 		<dt class="filter_tit">브랜드</dt>
 		<dd class="check_opt_list">
-			<ul>
-				<li class="custom_cbox cbox_a">
-					<label>
-    					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
-    					<span class="box"></span>
-    					<span class="label">AMERICAN WEST (21)</span>
-    				</label>
-				</li>
-				<li class="custom_cbox cbox_a">
-					<label>
-    					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
-    					<span class="box"></span>
-    					<span class="label">AMERICAN WEST (21)</span>
-    				</label>
-				</li>
-			</ul>
-			<a href="#" class="more_text">+ 전체 브랜드 보기</a>
+			<div class="c_scroll_ c_scroll_a">
+    			<ul>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
+        					<span class="box"></span>
+        					<span class="label">AMERICAN WEST (21)AMERICAN WEST (21)AMERICAN WEST (21)</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    			</ul>
+			</div>
+			<a href="#none" class="more_text">+ 전체 브랜드 보기</a>
 		</dd>
 	</dl>
 	<dl>
@@ -137,6 +242,13 @@
     					<input type="checkbox" id="c_white" name="c_white" class="c_white"> 
     					<span class="box"></span>
     					<span class="label">흰색 (21)</span>
+    				</label>
+				</li>
+				<li class="custom_cbox cbox_color">
+					<label>
+    					<input type="checkbox" id="c_silver" name="c_silver" class="c_purple"> 
+    					<span class="box"></span>
+    					<span class="label"> (21)</span>
     				</label>
 				</li>
 			</ul>
@@ -256,5 +368,24 @@ $(function(){
 		range.find(".amount_min").text(m_iAddComma(range.find(".custom_range").slider("values",0)) + "원");
 		range.find(".amount_max").text(m_iAddComma(range.find(".custom_range").slider("values",1)) + "원");
 	}
+
+	// 브랜드 리스트 스크롤 커스텀 JS
+	$(".check_opt_list .c_scroll_").mCustomScrollbar();
+	$(".user_custom_filter .more_text").bind("click", function(){
+		$(".check_opt_list .c_scroll_").toggleClass("open");
+	});
+
+	//내 맞춤 리스트 팝업
+	$("#myOptBtn").bind("click", function(){
+		var pop = $("#myOptPop");
+		if($(this).hasClass("open")){
+			pop.fadeOut("fast");
+			$(this).removeClass("open").html("내 맞춤 리스트 열기");
+		} else {
+			pop.fadeIn("fast");
+			$(this).addClass("open").html("내 맞춤 리스트 끄기");
+		}
+	});
+	
 });
 </script>

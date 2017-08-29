@@ -12,7 +12,6 @@
 	color:#4A4A4A;
 	line-height:26px;
 }
-
 /* 버튼 포인트 컬러로 변경 */
 .btn_cp {
 	border-color:#7053FF !important;
@@ -41,7 +40,6 @@
 	border:solid 1px #D8D8D8 !important;
 	cursor:default;
 }
-
 /* 버튼 hover */
 .btn_hover_a:hover,
 .btn_hover_a:hover * {
@@ -53,7 +51,7 @@
 	-webkit-box-shadow: 3px 3px 0 0 #e6e1ff;
 	box-shadow: 3px 3px 0 0 #e6e1ff;
 }
-/* 버튼 스타일 지정 */
+/* 버튼 사이즈 및 스타일 지정 */
 .btn_x_s1 {
 	width:118px;
 	padding:6px 0;
@@ -115,14 +113,13 @@
 .btn_xl_l1 {
 	height: 60px;	
 	width: 330px !important;
-	padding:16px 127px 15px 127px;
+	padding:16px 0px 15px 0px;
 	background-color: #7053ff;
 	color: #FFFFFF;		
 	font-size: 20px;	
 	line-height: 29px;	
 	text-align: center;			
 }
-
 .btn_xl_m1 {
 	width: 340px;
 	height: 54px;
@@ -159,9 +156,7 @@
 	padding:22px 154px;
 	display:block;	
 }
-
-
-/* 버튼 아이콘  */
+/* 버튼 아이콘  추가 하기 */
 .btn_icon_heart:before {
 	content:"\f08a";
 	display:inline-block;
@@ -169,12 +164,18 @@
 	font-size:15px;
 	margin-right:8px;
 }
-
+.btn_icon_check:before {
+	content:"\E876";
+	display:inline-block;
+	font-family:'Material Icons';
+	font-size:15px;
+	margin-right:8px;
+	vertical-align:middle;
+}
 /* 버튼 라운드 */
 .btn_rnd_x1 {
 	border-radius: 2px;
 }
-
 .btn_com_msg {
 	position:relative;
 	text-align:center;
@@ -391,9 +392,6 @@
 	padding-left:0;
 	padding-right:0;
 }
-
-
-
 
 
 /* BANNER */
@@ -789,12 +787,27 @@
 	vertical-align:middle;
 }
 .rating .sale {
+	display:block;
 	font-size:11px;
 	font-family: 'texgyreadventorbold_italic';
 	font-weight:400;
 	color:#f6a623;
+}
+.rating .like {
+	display:inline-block;
+	font-size:11px;
+	font-weight:400;
+	line-height:18px;
+	color:#BBB;
+	margin-right:4px;
 	float:right;
 }
+.rating .like:before {
+	content:"\EE81";
+	font-family: fontello;
+	margin-right:4px;
+}
+
 /* 별 사이즈 */
 .star_mid {}
 .star_mid i:after {
@@ -1623,6 +1636,30 @@
 .modal_popup.rt_arr:after {
 	right:30px;
 }
+.modal_popup.lside_arr:after,
+.modal_popup.lside_arr:before {
+	left:-15px;
+	top:140px;
+	width:0px;
+	height:0px;
+	transform: rotate(0deg);
+	border-right: 15px solid #fff;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	background:none;
+	
+}
+.modal_popup.lside_arr:before {
+	content:" ";
+	position:absolute;
+	top:138px;
+	left:-17px;
+	z-index:100;
+	border-right: 17px solid #EBEBEB;
+	border-top: 12px solid transparent;
+	border-bottom: 12px solid transparent;
+}
+
 .pop_type_a {
 	width:310px;
 	padding:15px 20px 30px;
@@ -1939,6 +1976,75 @@
 	box-sizing:border-box;
 }
 
+.prd_pop {
+	border: 1px solid #EBEBEB;
+}
+.prd_pop {}
+.prd_pop .pop_head {}
+.prd_pop .pop_head h2.user_info {}
+.prd_pop .pop_head h2.user_info img {
+	width:70px;
+	margin:30px auto 0;
+}
+.prd_pop .pop_head h2.user_info strong {
+	display:block;
+	font-size:18px; 
+	font-weight:400;
+	color:#3c3c3c;
+	line-height:28px;
+	margin-top:9px;
+}
+.prd_pop .pop_head h2.user_info em {
+	font-size:18px;
+	font-weight:600;
+	color:#000;
+	margin-right:5px;
+}
+.prd_pop .pop_head p.msg {
+	font-size:14px;
+	font-weight:400;
+	color:#4A4A4A;
+	line-height:20px;
+	text-align:center;
+	margin:12px 0 28px;
+}
+.prd_pop .pop_head .side_btn {}
+.prd_pop .pop_head .side_btn a {
+	display:inline-block;
+	width:72px;
+	position:absolute;
+	font-size:12px;
+	color:#bbb;
+	letter-spacing:-0.3px;
+	line-height:24px;
+	text-align:center;
+	border: 1px solid #D8D8D8;
+	border-radius:10px
+}
+.prd_pop .pop_head .side_btn .side_right {
+	top:55px;
+	right:35px;
+}
+.pop_opt_sel {
+	background-color:#F9F9FC;
+	border-top:1px solid #EBEBEB;
+	padding:20px 20px 50px;
+}
+.pop_opt_sel .tit {
+	display:block;
+	font-size:14px;
+	color:#000;
+	line-height:20px;
+	text-align:center;
+	padding:0 0 15px;
+}
+.pop_opt_sel #opt {
+	margin:0 10px 50px;
+}
+.pop_opt_sel #btn_save {
+	font-size:16px;
+	font-weight:600;
+}
 
 /* SELECT */
 .sel_custom {
@@ -2553,47 +2659,99 @@
 	background-color:#fff;
 	border: solid 1px #979797;
 	box-sizing:border-box;
+	border-radius:100%;
 }
 .cbox_color [type="checkbox"]:not(:checked) + .box:after,
 .cbox_color [type="checkbox"]:checked + .box:after {
-	top:1px;
-	left:1px;
+	top:0px;
+	left:0px;
 	font-size:16px;
 }
 
 
+/*2017년 color 수정*/
 /* 블랙 */
 .cbox_color [type="checkbox"].c_black + .box:before {
-	background-color:#4a4a4a;
-	border-color:#4a4a4a
-}
-/* 레드 */
-.cbox_color [type="checkbox"].c_red + .box:before {
-	background-color:#d0011b;
-	border-color:#d0011b
-}
-/* 블루 */
-.cbox_color [type="checkbox"].c_blue + .box:before {
-	background-color:#4990e2;
-	border-color:#4990e2
-}
-/* 옐로우 */
-.cbox_color [type="checkbox"].c_yellow + .box:before {
-	background-color:#f6a623;
-	border-color:#f6a623
-}
-/* 그린  */
-.cbox_color [type="checkbox"].c_green + .box:before {
-	background-color:#16d67e;
-	border-color:#16d67e
+	background-color:#000000;
+	border-color:#000000;
 }
 /* 화이트  */
 .cbox_color [type="checkbox"].c_white + .box:before {
 	background-color:#fff;
+	border-color:#b0b0b0;
 }
-.cbox_color [type="checkbox"].c_white + .box:after {
-	color:#4a4a4a;
+/* 회색  */
+.cbox_color [type="checkbox"].c_grey + .box:before {
+	background-color:#808080;
+	border-color:#808080;
 }
+/* 레드 */
+.cbox_color [type="checkbox"].c_red + .box:before {
+	background-color:#ff0000;
+	border-color:#ff0000;
+}
+/* 블루 */
+.cbox_color [type="checkbox"].c_blue + .box:before {
+	background-color:#0000ff;
+	border-color:#0000ff;
+}
+/* 옐로우 */
+.cbox_color [type="checkbox"].c_yellow + .box:before {
+	background-color:#ffff00;
+	border-color:#ffff00;
+}
+/* 그린  */
+.cbox_color [type="checkbox"].c_green + .box:before {
+	background-color:#00ff00;
+	border-color:#00ff00;
+}
+/* 퍼플  */
+.cbox_color [type="checkbox"].c_purple + .box:before {
+	background-color:#800080;
+	border-color:#800080;
+}
+/* 핑크  */
+.cbox_color [type="checkbox"].c_pink + .box:before {
+	background-color:#ffc0cb;
+	border-color:#ffc0cb;
+}
+/* 오렌지  */
+.cbox_color [type="checkbox"].c_orange + .box:before {
+	background-color:#ffa500;
+	border-color:#ffa500;
+}
+/* 브라운  */
+.cbox_color [type="checkbox"].c_brown + .box:before {
+	background-color:#a52a2a;
+	border-color:#a52a2a;
+}
+/* 아이보리  */
+.cbox_color [type="checkbox"].c_ivory + .box:before {
+	background-color:#fffff0;
+	border-color:#b0b0b0;
+}
+/* 골드  */
+.cbox_color [type="checkbox"].c_gold + .box:before {
+	background-color:#ffd700;
+	border-color:#ffd700;
+}
+/* 실버  */
+.cbox_color [type="checkbox"].c_silver + .box:before {
+	background-color:#c0c0c0;
+	border-color:#c0c0c0;
+}
+/* 멀티  */
+.cbox_color [type="checkbox"].c_multi + .box:before {
+	/*background-color:#######;*/
+	border-color:#000;
+}
+/* 네이비  */
+.cbox_color [type="checkbox"].c_navy + .box:before {
+	background-color:#000080;
+	border-color:#000080;
+}
+
+
 
 /* RADIO */
 .custom_radio {
@@ -2753,6 +2911,30 @@
 	margin:5px 0 3px;
 	text-indent:3px;
 }
+
+/* 체크박스 리스트 */
+.check_opt_list {}
+.check_opt_list .c_scroll_ {
+	max-height:160px;
+}
+.check_opt_list li {
+	display:block;
+	overflow:hidden;
+}
+.check_opt_list li .box {
+	float:left;
+	clear:both;
+}
+.check_opt_list li .label {
+	width:130px;
+	margin-left:3px;
+	float:left;
+}
+.check_opt_list .open,
+.check_opt_list .open .mCustomScrollBox {
+	max-height:none !important;
+}
+
 /* 맞춤 리스트 */
 .user_info {}
 .user_info .user_name {
@@ -2797,6 +2979,10 @@
 	position:relative;
 	padding-top:7px;
 	text-align:left;
+}
+.user_info .user_select_list #myOptPop {
+	top:-15%;
+	left:120%;
 }
 .user_info .user_select_list > span,
 .user_info .user_select_list > span > strong {
@@ -2991,6 +3177,22 @@
 	background-color:#f6a623;
 	border-color:#f6a623;
 }
+.check_opt_box.type_b {
+	border-top:solid 1px #ddd;
+	border-left:solid 1px #ddd;
+}
+.check_opt_box.type_b li {}
+.check_opt_box.type_b li a, 
+.check_opt_box.type_b li .check_opt_inp span {
+	margin:0;
+	border-left:0;
+	border-top:0;
+	height:30px;
+	line-height:30px;
+	background:none;
+	border-color:#ddd !important;
+}
+
 
 /* RANGE 리스트 */
 .range_select_list {}
@@ -3799,8 +4001,21 @@
 
 
 
-
-
+/* 스크롤 디자인 */
+.c_scroll_a .mCSB_dragger .mCSB_dragger_bar {
+	
+}
+.mCSB_inside > .mCSB_container {
+	margin:0;
+}
+.c_scroll_a .mCSB_dragger .mCSB_dragger_bar {
+	width:5px;
+	background-color:#ddd !important;
+	border-radius:20px;
+}
+.c_scroll_a .mCSB_draggerRail {
+	display:none;
+}
 
 
 

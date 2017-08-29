@@ -15,7 +15,7 @@ time, mark, audio, video, select, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size:12px;
+	font-size:100%;
 	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 /* HTML5 display-role reset for older browsers */

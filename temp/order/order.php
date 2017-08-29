@@ -759,8 +759,8 @@
 					</table>
 				</div>
 				
-				<style>
-                .ord_discount {
+					<style>
+                   .ord_discount {
                     	background-color: #F9F9F9;
                     	border-top:1px solid #EBEBEB;
                     	border-bottom:1px solid #EBEBEB;
@@ -792,117 +792,251 @@
                     	float:right;
                     	margin-right: 18px;	
                     }					
-					     .order_result_box {
-					       border-top:2px solid #4A4A4A;
-					     }
-					     .ord_coupon_tab {
-					     }
-					     .ord_coupon_tab th {
-                            font-weight:500;
-                            color: #747474;
-                            font-size: 12px;	
-                            line-height: 18px;
-                            padding-bottom: 13px;
-                            text-align:left;					     
-					     }
-					     .ord_coupon_tab th:nth-child(1){
-					       padding-left:45px;
-					     }
-					     .ord_coupon_tab th:nth-child(4){
-					       text-align:right;
-					     }
-					     .ord_coupon_tab td {
-                            color: #747474;
-                            font-size: 12px;	
-                            line-height: 16px;
-                            padding-bottom:8px;
-					     }
-					     .ord_coupon_tab .cu_info span {
-                            color: #F5A623;	
-                            font-size: 12px;	
-                            line-height: 16px;
-                            text-decoration:underline;					     
-					     }
-					     .ord_coupon_tab .cu_price {
-                            color: #747474;
-                            font-size: 16px;	
-                            line-height: 40px;	
-                            text-align: right;					               
-					     }
-					     .ord_present_box label{
-					         display:inline-block;
-					     }
-				         .ord_present_box [type=checkbox]:checked + .box + .add_chk span {
-                            background-color:#f8e71c;
-                            border: 1px solid #BBBBBB;
-				        }
-				        .ord_coupon_tab .coupone_select_list label span {
-				            height:42px;
-				            width:180px;
-				            border-radius: 3px;
-				            line-height:16px;
-				            padding-top:10px;
-				        }
-				        .ord_coupon_tab .coupone_select_list label span em {
-				            display:block;
-				        }
-				        .coupone_select_list {
-				            display:inline-block;
-				            padding:0;
-				            border:0;
-				            vertical-align:middle;
-				         }
-				         .coupone_select_list [type="checkbox"] + .box {
-				            vertical-align:middle;
-				         }
-				         .order_result_box .ord_free_color {
-				            color:#F5A623 !important;
-				         }
+				     .order_result_box {
+				       border-top:2px solid #4A4A4A;
+				     }
+                    .ord_coupon {
+                    	background-color: #F9F9F9;
+                    	padding:11px 0 18px 164px;
+                    	border-bottom: 1px solid #EBEBEB;
+                    }
+                    .ord_coupon > dl > dt {
+                    	color: #8F8F8F;		
+                    	font-size: 16px;	
+                    	line-height: 40px;	
+                    	display:inline-block;
+                    }
+                    .ord_coupon > dl > dd {
+                    	display:inline-block;
+                    	float:right;
+                    	margin-right:18px;
+                    	color: #F5A623;		
+                    	font-size: 16px;	
+                    	line-height: 40px;	
+                    	text-align: right;	
+                    }
+                    .ord_coupon > dl > dd:after {
+                    	content:"";
+                    	display:block;
+                    	clear:both;
+                    } 					     
+    			     .ord_coupon_tab {
+    			     }
+    			     .ord_coupon_tab th {
+                        font-weight:500;
+                        color: #747474;
+                        font-size: 12px;	
+                        line-height: 18px;
+                        padding-bottom: 13px;
+                        text-align:left;					     
+    			     }
+    			     .ord_coupon_tab th:nth-child(1){
+    			       padding-left:45px;
+    			     }
+    			     .ord_coupon_tab th:nth-child(4){
+    			       text-align:right;
+    			     }
+    			     .ord_coupon_tab td {
+                        color: #747474;
+                        font-size: 12px;	
+                        line-height: 16px;
+                        padding-bottom:8px;
+    			     }
+    			     .ord_coupon_tab .cu_info span {
+                        color: #F5A623;	
+                        font-size: 12px;	
+                        line-height: 16px;
+                        text-decoration:underline;					     
+    			     }
+    			     .ord_coupon_tab .cu_price {
+                        color: #747474;
+                        font-size: 16px;	
+                        line-height: 40px;	
+                        text-align: right;					               
+    			     }
+    			     .ord_present_box label{
+    			         display:inline-block;
+    			     }
+    		         .ord_present_box [type=checkbox]:checked + .box + .add_chk span {
+                        background-color:#f8e71c;
+                        border: 1px solid #BBBBBB;
+    		        }
+    		        .ord_coupon_tab .coupone_select_list label span {
+    		            height:42px;
+    		            width:180px;
+    		            border-radius: 3px;
+    		            line-height:16px;
+    		            padding-top:10px;
+    		        }
+    		        .ord_coupon_tab .coupone_select_list label span em {
+    		            display:block;
+    		        }
+    		        .coupone_select_list {
+    		            display:inline-block;
+    		            padding:0;
+    		            border:0;
+    		            vertical-align:middle;
+    		         }
+    		         .coupone_select_list [type="checkbox"] + .box {
+    		            vertical-align:middle;
+    		         }
+    		         .order_result_box .ord_free_color {
+    		            color:#F5A623 !important;
+    		         }
+    		         
+    		         .ord_coupon_box {
+    		            backround-color:red !important;
+    		            float:left;
+    		         }
+    		         .ord_coupon_box label {
+    	         	    backround-color:red;
+    		         }
+    		         .ord_coupon_box label .ord_coupon_select_list {
+    		            background-color:red;
+    		            display:inline-block;
+    		            float:left;
+    		         }
+
 				         
-				         .ord_coupon_box {
-				            backround-color:red !important;
-				            float:left;
-				         }
-				         .ord_coupon_box label {
-			         	    backround-color:red;
-				         }
-				         .ord_coupon_box label .ord_coupon_select_list {
-				            background-color:red;
-				            display:inline-block;
-				            float:left;
-				         }
-                        .ord_discount {
-                        	background-color: #F9F9F9;
-                        	border-top:1px solid #EBEBEB;
-                        	border-bottom:1px solid #EBEBEB;
-                        	padding:10px 0 10px 0;
-                        }
-                        .ord_discount > em {
-                        	color: #8F8F8F;		
-                        	font-size: 16px;	
-                        	line-height: 40px;
-                        	margin-left: 29px;	
-                        }
-                        .ord_discount .ord_mem {
-                        	color: #8F8F8F;		
-                        	font-size: 16px;	
-                        	line-height: 40px;
-                        	margin-left: 100px;	
-                        }
-                        .ord_discount .ord_mem > strong {
-                        	font-size: 16px;	
-                        	line-height: 40px;	
-                        	color:#909090;
-                        	margin-left:5px;	
-                        }
-                        .ord_discount span:last-child {
-                        	color: #F5A623;		
-                        	font-size: 16px;	
-                        	line-height: 40px;	
-                        	text-align: right;
-                        	float:right;
-                        	margin-right: 18px;	
-                        }
+/* .ord_discount {
+	background-color: #F9F9F9;
+	border-top:1px solid #EBEBEB;
+	border-bottom:1px solid #EBEBEB;
+	padding:10px 0 10px 0;
+}
+.ord_discount > em {
+	color: #8F8F8F;		
+	font-size: 16px;	
+	line-height: 40px;
+	margin-left: 29px;	
+}
+.ord_discount .ord_mem {
+	color: #8F8F8F;		
+	font-size: 16px;	
+	line-height: 40px;
+	margin-left: 100px;	
+}
+.ord_discount .ord_mem > strong {
+	font-size: 16px;	
+	line-height: 40px;	
+	color:#909090;
+	margin-left:5px;	
+}
+.ord_discount span:last-child {
+	color: #F5A623;		
+	font-size: 16px;	
+	line-height: 40px;	
+	text-align: right;
+	float:right;
+	margin-right: 18px;	
+}
+.ord_coupon {
+	background-color: #F9F9F9;
+	padding:11px 0 18px 164px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.ord_coupon > dl > dt {
+	color: #8F8F8F;		
+	font-size: 16px;	
+	line-height: 40px;	
+	display:inline-block;
+}
+.ord_coupon > dl > dd {
+	display:inline-block;
+	float:right;
+	margin-right:18px;
+	color: #F5A623;		
+	font-size: 16px;	
+	line-height: 40px;	
+	text-align: right;	
+}
+.ord_coupon > dl > dd:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.ord_coupon_tab {
+}
+1열
+.ord_coupon_tab tr:nth-child(1) td {
+	color: #747474;		
+	font-size: 12px;	
+	line-height: 18px;
+	padding-bottom: 13px; 	
+}
+.ord_coupon_tab tr:nth-child(1) td:nth-child(5){
+	text-align:right;
+}
+2열
+.ord_coupon_tab tr:nth-child(2) td{
+}
+.ord_coupon_tab .coupone_select_list{
+	padding:0 0 8px 0;
+	border:none;
+}
+.ord_coupon_tab tr:nth-child(2) td:nth-child(3),
+.ord_coupon_tab tr:nth-child(3) td:nth-child(3),
+.ord_coupon_tab tr:nth-child(4) td:nth-child(3),
+.ord_coupon_tab tr:nth-child(5) td:nth-child(3),
+.ord_coupon_tab tr:nth-child(6) td:nth-child(3)
+{
+	color: #747474;
+	font-size: 12px;	
+	line-height: 16px;	
+}
+.ord_coupon_tab tr:nth-child(2) td:nth-child(4),
+.ord_coupon_tab tr:nth-child(3) td:nth-child(4),
+.ord_coupon_tab tr:nth-child(4) td:nth-child(4),
+.ord_coupon_tab tr:nth-child(5) td:nth-child(4),
+.ord_coupon_tab tr:nth-child(6) td:nth-child(4)
+{
+	color: #747474;		
+	font-size: 12px;	
+	line-height: 16px;	
+}
+.ord_coupon_tab tr:nth-child(2) td:nth-child(5){
+	text-align: right;
+	color: #747474;		
+	font-size: 16px;	
+	line-height: 40px;	
+	text-align: right;	
+}
+.ord_coupon_tab .ord_coupon_select_list input[type="checkbox"]:checked + span {
+	border: 1px solid #BBBBBB;	
+	border-radius: 3px;
+}
+.ord_coupon_tab .ord_coupon_select_list span{
+    display: block;
+    width: 180px;
+    height: 41px;
+    line-height: 16px;
+    text-align: center;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 12px;
+    background-color: #f0f0f0;
+    border: dashed 1px #4a4a4a;
+    cursor: pointer;
+    padding-top:10px;	
+}
+.ord_coupon_tab .ord_coupon_select_list span > em {
+	display:block;		
+}
+.ord_coupon_tab .ord_overlap_text {
+	text-decoration:underline;
+	color: #F5A623;	
+	font-size: 12px;	
+	line-height: 16px;	
+}
+.ord_coupon_tab tr:nth-child(5) td:nth-child(5) {
+	color: #747474;	
+	font-size: 16px;	
+	line-height: 40px;	
+	text-align: right;	
+}
+.result_box_a .ord_free {
+	color: #F5A623 !important;
+}				          */
 					</style>
 				
 				<dl class="result_box_a">

@@ -5457,7 +5457,7 @@
 	border:none;
 	resize:none;
 }
-.ord_discount {
+/* .ord_discount {
 	background-color: #F9F9F9;
 	border-top:1px solid #EBEBEB;
 	border-bottom:1px solid #EBEBEB;
@@ -5488,7 +5488,7 @@
 	text-align: right;
 	float:right;
 	margin-right: 18px;	
-}
+} */
 .ord_coupon {
 	background-color: #F9F9F9;
 	padding:11px 0 18px 164px;
@@ -5514,7 +5514,7 @@
 	display:block;
 	clear:both;
 }
-/* .ord_coupon_tab {
+.ord_coupon_tab {
 }
 1열
 .ord_coupon_tab tr:nth-child(1) td {

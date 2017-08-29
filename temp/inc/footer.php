@@ -68,11 +68,11 @@
 		<div class="custom_inner">
     		<ul id="navLink">
     			<li><a href="#">회사소개</a></li>
-    			<li><a href="#">서비스소개</a></li>
     			<li><a href="#">이용약관</a></li>
     			<li><a href="#">개인정보취급방침</a></li>
-    			<li><a href="#">청소년 보호정책</a></li>
-    			<li><a href="#">인재채용</a></li>
+    			<li><a href="#">카드영수증조회</a></li>
+    			<li><a href="#">제휴안내</a></li>
+    			<li><a href="#">사업자정보확인</a></li>
     		</ul>
     		<ul id="snsLink">
     			<li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li>
@@ -84,18 +84,18 @@
 	</nav>
 	<address id="address">
 		<div class="custom_inner">
-    		<span>상호명 : 슈포래빗  대표이사 : 안보현</span>
-    		<span>주소 : 서울시 서초구 방배동 901-10 3층</span>
-    		<span>사업자등록번호 : 220-81-62517</span>
+    		<span>서울특별시 강남구 강남대로464 비제바노빌딩 7층 주식회사 구루핏 ㅣ</span>
+    		<span> 대표이사: 안보현 ㅣ</span>
+    		<span>사업자등록번호:813-88-00651 ㅣ</span>
     		<br>
-            <span>통신판매업신고번호 : 제2006-경기성남-692호  <a href="#">사업자등록정보확인</a></span>
-            <br>
-            <span>고객센터 주소 : 서울시 서초구 방배동 901-10 3층</span>
-        	<span>전화 : 1588-3819 (전화전클릭) 1588-3816 (결제도용신고)</span>
+            <span>통신판매업등록번호: 2017-서울강남-03029 ㅣ</span>
+        	<span> 대표전화:070-4659-1540 ㅣ</span>
+        	<span>메일:contact@gurufit.com ㅣ</span>
+        	<span>개인정보관리책임자:신지섭</span>
         	<br>
-        	<span>팩스 : 033-816-5300</span>
-        	<span>이메일 : helpcustomer@gurufit.co.kr</span>
-            <p id="copy">COPYRIGHT &copy; GURUFIT ALL RIGHTS RESERVED.</p>
+        	<span>팩스 : 033-816-5300 </span>
+        	<span>이메일 : contact@gurufit.com</span>
+            <p id="copy">Copyright 2017 Shoe4rabbit.Inc. All rights reserved.</p>
         </div>
 	</address>
 </footer>

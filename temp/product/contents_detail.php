@@ -9,7 +9,15 @@
 			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
 		</div>
 	</div>
-	<section class="contents_inner">
+	
+	<style>
+		#contentView .contents_middle {
+			font-size:14px;
+			color: #747474;
+			line-height: 25px;
+		}
+	</style>
+	<section id="contentView" class="contents_inner">
 		<article class="contents_top_tit">
 			<div class="contents_top_tit_inner">
 				<em>
@@ -30,6 +38,14 @@
 			</div>
 		</article>
 		<article class="contents_middle">
+		
+			slkfasdfsdfs
+			
+			<strong>sdfsdf</strong>
+			<p>sdf</p>
+			<span>sdf</span>
+			<em>sdf</em>
+		
 			<div class="contents_big_photo_area">
 				<img src="../img/con_d1.png" alt="상세썸네일">				
 			</div>

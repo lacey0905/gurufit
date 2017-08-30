@@ -14,33 +14,6 @@
 			<div class="user_profile_photo">
 				<h4>언니네 이발소<span>님의 프로필</span></h4>
 			</div>
-			<style>
-				.user_profile_photo h4 {
-					position: relative;
-					font-weight: bold;
-					font-size: 35px;
-					text-align: center;
-					color: #000;
-					line-height: 55px;
-					padding: 30px 0px;
-					margin-bottom: 30px;
-				}
-				.user_profile_photo h4:after {
-					content: " ";
-					position: absolute;
-					left: 50%;
-					bottom: 0;
-					width: 1px;
-					height: 16px;
-					border-left: solid 1px #979797;					
-				}
-				.user_profile_photo h4 span {
-					font-weight: normal;
-					font-size: 35px;
-				}				
-				
-				
-			</style>
 			<div class="my_dash_board">
 				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">공개 뱃지</h3>
@@ -122,7 +95,7 @@
 						</ul>
 					</div>
 				</div>				
-				<div class="dash_sec dash_x3">
+				<div class="dash_sec dash_x3 ">
 					<h3 class="dash_tit">팔로우 중인 구루</h3>
 					<div class="follow_guru_wrapper">
 						<ul>
@@ -137,9 +110,84 @@
 							<li class="follow_btn"><a href="#">팔로우</a></li>
 						</ul>
 					</div>
-				</div>
+					<div class="follow_guru_wrapper">
+						<ul>
+							<li class="follow_photo"><img src="../img/guru_follow.png" alt="#"></li>
+							<li class="follow_txt">
+								<strong>Heather Welch</strong>
+								<p>
+								등록 콘텐츠 1,234개<br>
+								팔로워 234명	
+								</p>
+							</li>
+							<li class="follow_btn"><a href="#">팔로우</a></li>
+						</ul>
+					</div>
+					<div class="follow_guru_wrapper">
+						<ul>
+							<li class="follow_photo"><img src="../img/guru_follow.png" alt="#"></li>
+							<li class="follow_txt">
+								<strong>Heather Welch</strong>
+								<p>
+								등록 콘텐츠 1,234개<br>
+								팔로워 234명	
+								</p>
+							</li>
+							<li class="follow_btn"><a href="#">팔로우</a></li>
+						</ul>
+					</div>
+					<div class="follow_guru_wrapper">
+						<ul>
+							<li class="follow_photo"><img src="../img/guru_follow.png" alt="#"></li>
+							<li class="follow_txt">
+								<strong>Heather Welch</strong>
+								<p>
+								등록 콘텐츠 1,234개<br>
+								팔로워 234명	
+								</p>
+							</li>
+							<li class="follow_btn"><a href="#">팔로우</a></li>
+						</ul>
+					</div>
+					<div class="follow_guru_wrapper">
+						<ul>
+							<li class="follow_photo"><img src="../img/guru_follow.png" alt="#"></li>
+							<li class="follow_txt">
+								<strong>Heather Welch</strong>
+								<p>
+								등록 콘텐츠 1,234개<br>
+								팔로워 234명	
+								</p>
+							</li>
+							<li class="follow_btn"><a href="#">팔로우</a></li>
+						</ul>
+					</div>																					
+				</div>	
 			</div>
 			<style>
+				.user_profile_photo h4 {
+					position: relative;
+					font-weight: bold;
+					font-size: 35px;
+					text-align: center;
+					color: #000;
+					line-height: 55px;
+					padding: 30px 0px;
+					margin-bottom: 30px;
+				}
+				.user_profile_photo h4:after {
+					content: " ";
+					position: absolute;
+					left: 50%;
+					bottom: 0;
+					width: 1px;
+					height: 16px;
+					border-left: solid 1px #979797;					
+				}
+				.user_profile_photo h4 span {
+					font-weight: normal;
+					font-size: 35px;
+				}				
 				.follow_guru_wrapper {
 					margin-top:22px;
 					margin-bottom:22px;
@@ -173,8 +221,25 @@
 					line-height: 18px;					
 				}
 				.follow_guru_wrapper .follow_btn {
-					background-color:red;
-					margin-
+					margin-left:16px;
+					margin-top:20px;
+				}
+				/*버튼을 만들어야 해요...*/
+				.follow_guru_wrapper .follow_btn a {
+					width:81px;
+					height:30px;
+					border:1px solid #8F8F8F;
+					border-radius: 3px;
+					padding:5px 22px 6px 23px;
+					
+					color: #8F8F8F;	
+					font-size: 13px;	
+					font-weight: 300;	
+					line-height: 19px;	
+					text-align: center;					
+				}
+				.follow_guru_wrapper .follow_btn a:hover {
+					border: solid 1px #7053ff;
 				}
 			</style>
 			<div class="dash_tab_wrap">
@@ -374,7 +439,7 @@
 							<span class="rank_count">63%</span>
 						</li>
 						<li>
-							<strong class="cate">공감</strong>
+							<strong class="cate">도움</strong>
 							<em class="count">59</em>
 							<span class="rank_tit">사진 공감 중 상위</span>
 							<span class="rank_count">52%</span>
@@ -485,7 +550,7 @@
     				start:0,
     				nav : $('.dash_tab_wrap .tab_nav'),
     				auto: false
-    			});
+    			});  			
     		});
 		</script>
 	</article>

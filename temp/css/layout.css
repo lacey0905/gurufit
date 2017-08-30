@@ -67,6 +67,9 @@
 #header #gnbNav > ul > li a {
 	font-size:0;
 }
+#header #gnbNav > ul > li a img {
+	width:100%;
+}
 #header #gnbNav > ul > li a .rnd_box_cnt {
 	right:-12px;
 }

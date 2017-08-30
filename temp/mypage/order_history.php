@@ -922,7 +922,7 @@
 							<option>전체상태</option>
 						</select>
 					</div>
-        			<div class="sel sel_custom sel_nm_box sel_x3 btn_rnd_x1 sel_arr_a">
+        			<div class="sel sel_custom sel_nm_box sel_x1 sel_x1_long btn_rnd_x1 sel_arr_a">
 						<select>
 							<option>최근 6개월간 주문하신 상품</option>
 						</select>
@@ -1077,7 +1077,7 @@
     								</dl>
     								<div class="state_icon">
     									<strong class="state_ state_wait">입금대기중</strong>
-    									<strong class="state_add_btn rnd">결제수단 변경</strong>
+    									<a href="#" class="state_add_btn rnd btn_hover_a">결제수단 변경</a>
     								</div>
     								<div class="total_order_price">
     									총 결제 금액 : <strong>89,100<span>원</span></strong>

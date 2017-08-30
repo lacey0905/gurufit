@@ -55,10 +55,7 @@
 			<dl class="user_info_list madal_popup_area">
 				<dt id="userMyPop" class="user_nav modal_btn">
 					<a href="#none">
-    					<span class="level silver">1</span>
-    					<span class="level gold">2</span>
-    					<span class="level platinum">3</span>
-    					<span class="level vip">V</span>
+    					<span class="level"><img src="../img/silver-s-1.png" alt="레벨"></span>
     					<span class="name">Kim Hayoung</span>
     					<span class="rnd_box_cnt">2</span>
 					</a>

@@ -5,10 +5,36 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant">
+<div class="f_modal_perant open">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
+	
+	<!-- 컨펌 팝업 -->
+	<div class="f_modal_layer small f_modal_shadow">
+		<div class="f_modal_wrap">
+			<div class="f_modal_area">
+        		<div class="f_modal_head">
+        			<a href="#" class="btn_close">Close</a>
+        		</div>
+        		<div class="f_modal_cont">
+        			<div class="f_modal_msg">
+        				<span class="msg_mid">
+        					수정되었습니다.<br>
+        					메시지 내용이 길어질 경우에 여백을 일정 여백을 가지고 있습니다.
+        					메시지 내용이 길어질 경우에 여백을 일정 여백을 가지고 있습니다.
+    					</span>
+        			</div>
+        		</div>
+        		<div class="f_modal_foot">
+        			<div class="f_modal_fbtn x2">
+        				<a href="#" class="btn_ btn_xl_l1 btn_np3">취소</a>
+        				<a href="#" class="btn_ btn_xl_l1">확인</a>
+        			</div>
+        		</div>
+    		</div>
+		</div>
+	</div>
 	
 	<!-- 메시지 팝업 -->
 	<div class="f_modal_layer small f_modal_shadow" style="display:none">
@@ -61,7 +87,7 @@
 		</div>
 	</div>
 	<!-- 장바구니에 추가 -->
-	<div class="f_modal_layer big f_modal_shadow">
+	<div class="f_modal_layer big f_modal_shadow" style="display:none">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -623,7 +649,7 @@
 					<table class="ord_coupon_tab">
 						<colgroup>
 							<col width="252">
-							<col width="356">
+							<col width="370">
 							<col width="96">
 							<col width="215">
 						</colgroup>
@@ -633,16 +659,30 @@
 							<th>유효기간</th>
 							<th>할인 금액</th>
 						</tr>
-						<!-- 1열 -->
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
                         			<label>
-                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<input type="checkbox" id="" name="buyUser" value="buyUser">
                         				<em class="box"></em>
-                            			<strong class="add_chk coupone_select_list ">	
-                							<span><em>5,000원</em>가입 환영</span>
-                    					</strong>
+            							<span class="add_chk"><em>5,000원</em>가입 환영</span>
+									</label>
+                        		</div>						
+							</td>
+							<td class="cu_info">
+								모든 상품 구입에 사용할 수 있습니다.<br>
+								중복 사용이 가능합니다.
+							</td>
+							<td class="cu_data">없음</td>
+							<td class="cu_price">5,000원</td>
+						</tr>
+						<tr>
+							<td>
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
+                        			<label>
+                        				<input type="checkbox" id="" name="buyUser" value="buyUser">
+                        				<em class="box"></em>
+            							<span class="add_chk"><em>5,000원</em>레벨업 - Silver III</span>
                 					 </label>
                         		</div>						
 							</td>
@@ -650,24 +690,17 @@
 								모든 상품 구입에 사용할 수 있습니다.<br>
 								중복 사용이 가능합니다.
 							</td>
-							<td class="cu_data">
-								없음
+							<td class="cu_data">없음
 							</td>
-							<td class="cu_price">
-								5,000원
-							</td>
+							<td class="cu_price">&nbsp;</td>
 						</tr>
-						
-						<!-- 2열 -->
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
                         			<label>
-                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<input type="checkbox" id="" name="buyUser" value="buyUser">
                         				<em class="box"></em>
-                            			<strong class="add_chk coupone_select_list ">	
-                							<span><em>5,000원</em>레벨업 - Silver III</span>
-                    					</strong>
+            							<span class="add_chk"><em>5,000원</em>레벨업 - Gold I</span>
                 					 </label>
                         		</div>						
 							</td>
@@ -675,49 +708,16 @@
 								모든 상품 구입에 사용할 수 있습니다.<br>
 								중복 사용이 가능합니다.
 							</td>
-							<td class="cu_data">
-								없음
-							</td>
-							<td class="cu_price">
-								&nbsp;
-							</td>
+							<td class="cu_data">없음</td>
+							<td class="cu_price">&nbsp;</td>
 						</tr>
-						
-						<!-- 3열 -->
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
                         			<label>
-                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<input type="checkbox" id="" name="" value="">
                         				<em class="box"></em>
-                            			<strong class="add_chk coupone_select_list ">	
-                							<span><em>5,000원</em>레벨업 - Gold I</span>
-                    					</strong>
-                					 </label>
-                        		</div>						
-							</td>
-							<td class="cu_info">
-								모든 상품 구입에 사용할 수 있습니다.<br>
-								중복 사용이 가능합니다.
-							</td>
-							<td class="cu_data">
-								없음
-							</td>
-							<td class="cu_price">
-								&nbsp;
-							</td>
-						</tr>
-						
-						<!-- 4열 -->
-						<tr>
-							<td>
-					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
-                        			<label>
-                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
-                        				<em class="box"></em>
-                            			<strong class="add_chk coupone_select_list ">	
-                							<span><em>10%</em>스니커즈 할인</span>
-                    					</strong>
+            							<span class="add_chk"><em>10%</em>스니커즈 할인</span>
                 					 </label>
                         		</div>						
 							</td>
@@ -725,24 +725,16 @@
 								스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인<br>
 								<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
 							</td>
-							<td class="cu_data">
-								2017년 10월 23일
-							</td>
-							<td class="cu_price">
-								10,000원
-							</td>
+							<td class="cu_data">2017년 10월 23일</td>
+							<td class="cu_price">10,000원</td>
 						</tr>
-						
-						<!-- 5열 -->
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_b ord_present_box coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
                         			<label>
-                        				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
+                        				<input type="checkbox" id="" name="" value="">
                         				<em class="box"></em>
-                            			<strong class="add_chk coupone_select_list ">	
-                							<span><em>10%</em>2017년 여름 세일</span>
-                    					</strong>
+            							<span class="add_chk"><em>10%</em>2017년 여름 세일</span>
                 					 </label>
                         		</div>						
 							</td>
@@ -750,380 +742,11 @@
 								모든 상품 구입에 사용할 수 있습니다.<br>
 								<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>
 							</td>
-							<td class="cu_data">
-								2017년 10월 23일
-							</td>
-							<td class="cu_price">
-							</td>
+							<td class="cu_data">2017년 10월 23일</td>
+							<td class="cu_price">&nbsp;</td>
 						</tr>																																																	
 					</table>
 				</div>
-				
-					<style>
-                   .ord_discount {
-                    	background-color: #F9F9F9;
-                    	border-top:1px solid #EBEBEB;
-                    	border-bottom:1px solid #EBEBEB;
-                    	padding:10px 0 10px 0;
-                    }
-                    .ord_discount > em {
-                    	color: #8F8F8F;		
-                    	font-size: 16px;	
-                    	line-height: 40px;
-                    	margin-left: 29px;	
-                    }
-                    .ord_discount .ord_mem {
-                    	color: #8F8F8F;		
-                    	font-size: 16px;	
-                    	line-height: 40px;
-                    	margin-left: 100px;	
-                    }
-                    .ord_discount .ord_mem > strong {
-                    	font-size: 16px;	
-                    	line-height: 40px;	
-                    	color:#909090;
-                    	margin-left:5px;	
-                    }
-                    .ord_discount span:last-child {
-                    	color: #F5A623;		
-                    	font-size: 16px;	
-                    	line-height: 40px;	
-                    	text-align: right;
-                    	float:right;
-                    	margin-right: 18px;	
-                    }					
-				     .order_result_box {
-				       border-top:2px solid #4A4A4A;
-				     }
-                    .ord_coupon {
-                    	background-color: #F9F9F9;
-                    	padding:11px 0 18px 164px;
-                    	border-bottom: 1px solid #EBEBEB;
-                    }
-                    .ord_coupon > dl > dt {
-                    	color: #8F8F8F;		
-                    	font-size: 16px;	
-                    	line-height: 40px;	
-                    	display:inline-block;
-                    }
-                    .ord_coupon > dl > dd {
-                    	display:inline-block;
-                    	float:right;
-                    	margin-right:18px;
-                    	color: #F5A623;		
-                    	font-size: 16px;	
-                    	line-height: 40px;	
-                    	text-align: right;	
-                    }
-                    .ord_coupon > dl > dd:after {
-                    	content:"";
-                    	display:block;
-                    	clear:both;
-                    } 					     
-    			     .ord_coupon_tab {
-    			     }
-    			     .ord_coupon_tab th {
-                        font-weight:500;
-                        color: #747474;
-                        font-size: 12px;	
-                        line-height: 18px;
-                        padding-bottom: 13px;
-                        text-align:left;					     
-    			     }
-    			     .ord_coupon_tab th:nth-child(1){
-    			       padding-left:45px;
-    			     }
-    			     .ord_coupon_tab th:nth-child(4){
-    			       text-align:right;
-    			     }
-    			     .ord_coupon_tab td {
-                        color: #747474;
-                        font-size: 12px;	
-                        line-height: 16px;
-                        padding-bottom:8px;
-    			     }
-    			     .ord_coupon_tab .cu_info span {
-                        color: #F5A623;	
-                        font-size: 12px;	
-                        line-height: 16px;
-                        text-decoration:underline;					     
-    			     }
-    			     .ord_coupon_tab .cu_price {
-                        color: #747474;
-                        font-size: 16px;	
-                        line-height: 40px;	
-                        text-align: right;					               
-    			     }
-    			     .ord_present_box label{
-    			         display:inline-block;
-    			     }
-    		         .ord_present_box [type=checkbox]:checked + .box + .add_chk span {
-                        background-color:#f8e71c;
-                        border: 1px solid #BBBBBB;
-    		        }
-    		        .ord_coupon_tab .coupone_select_list label span {
-    		            height:42px;
-    		            width:180px;
-    		            border-radius: 3px;
-    		            line-height:16px;
-    		            padding-top:10px;
-    		        }
-    		        .ord_coupon_tab .coupone_select_list label span em {
-    		            display:block;
-    		        }
-    		        .coupone_select_list {
-    		            display:inline-block;
-    		            padding:0;
-    		            border:0;
-    		            vertical-align:middle;
-    		         }
-    		         .coupone_select_list [type="checkbox"] + .box {
-    		            vertical-align:middle;
-    		         }
-    		         .order_result_box .ord_free_color {
-    		            color:#F5A623 !important;
-    		         }
-    		         
-    		         .ord_coupon_box {
-    		            backround-color:red !important;
-    		            float:left;
-    		         }
-    		         .ord_coupon_box label {
-    	         	    backround-color:red;
-    		         }
-    		         .ord_coupon_box label .ord_coupon_select_list {
-    		            background-color:red;
-    		            display:inline-block;
-    		            float:left;
-    		         }
-/*상품 order*/
-.refund_account_info_register {
-	border-top: 0.5px solid #D8D8D8;
-	border-bottom: 0.5px solid #D8D8D8;
-	padding:17px 49px 21px 0;
-}
-.refund_account_info_register:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.refund_account_info_register > em {
-	float:left;
-	color: #4A4A4A;		
-	font-size: 16px;	
-	line-height: 40px;	
-}
-.refund_account_info_register .bank_register {
-	float:left;
-	margin-left:64px;
-}
-.refund_account_info_register .bank_register:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.refund_account_info_register .bank_register tr td {
-	margin-bottom:10px;
-	padding-bottom:10px;
-	
-	color: #8F8F8F;	
-	font-size: 16px;	
-	line-height: 40px;
-	padding-right: 26px;	
-}
-.refund_account_info_register .bank_register .sel_mid {
-	width:274px;
-}
-.refund_account_info_register .bank_register .ord_ib_o {
-	width:274px;
-}
-.refund_account_info_register .bank_register .ord_ib_t {
-	width:584px;
-}
-.refund_account_info_register > p:before {
-	content:"";
-	display:block;
-	clear:both;
-}
-.refund_account_info_register > p {
-	color: #F5A623;		
-	font-size: 12px;	
-	line-height: 18px;
-	margin-left:194px;
-}
-
-/*선물인가요 인풋 박스*/
-.ord_present_box {
-	display:inline-block;
-	vertical-align:middle;
-	padding-top:5px;
-	margin-left:16px;
-}
-.ord_ship_list {
-	float:right;
-	color: #8F8F8F;	
-	font-size: 13px;	
-	line-height: 19px;	
-}
-.ord_ship_list:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.ord_pt_box_tit {
-	vertical-align:top;
-}
-.ord_pt_box {
-	background-color:red;
-	width: 475px;
-	height: 90px;
-	background-color: #F6F6F6;
-	border:none;
-	resize:none;
-}    		         
-
-				         
-/* .ord_discount {
-	background-color: #F9F9F9;
-	border-top:1px solid #EBEBEB;
-	border-bottom:1px solid #EBEBEB;
-	padding:10px 0 10px 0;
-}
-.ord_discount > em {
-	color: #8F8F8F;		
-	font-size: 16px;	
-	line-height: 40px;
-	margin-left: 29px;	
-}
-.ord_discount .ord_mem {
-	color: #8F8F8F;		
-	font-size: 16px;	
-	line-height: 40px;
-	margin-left: 100px;	
-}
-.ord_discount .ord_mem > strong {
-	font-size: 16px;	
-	line-height: 40px;	
-	color:#909090;
-	margin-left:5px;	
-}
-.ord_discount span:last-child {
-	color: #F5A623;		
-	font-size: 16px;	
-	line-height: 40px;	
-	text-align: right;
-	float:right;
-	margin-right: 18px;	
-}
-.ord_coupon {
-	background-color: #F9F9F9;
-	padding:11px 0 18px 164px;
-	border-bottom: 1px solid #EBEBEB;
-}
-.ord_coupon > dl > dt {
-	color: #8F8F8F;		
-	font-size: 16px;	
-	line-height: 40px;	
-	display:inline-block;
-}
-.ord_coupon > dl > dd {
-	display:inline-block;
-	float:right;
-	margin-right:18px;
-	color: #F5A623;		
-	font-size: 16px;	
-	line-height: 40px;	
-	text-align: right;	
-}
-.ord_coupon > dl > dd:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.ord_coupon_tab {
-}
-1열
-.ord_coupon_tab tr:nth-child(1) td {
-	color: #747474;		
-	font-size: 12px;	
-	line-height: 18px;
-	padding-bottom: 13px; 	
-}
-.ord_coupon_tab tr:nth-child(1) td:nth-child(5){
-	text-align:right;
-}
-2열
-.ord_coupon_tab tr:nth-child(2) td{
-}
-.ord_coupon_tab .coupone_select_list{
-	padding:0 0 8px 0;
-	border:none;
-}
-.ord_coupon_tab tr:nth-child(2) td:nth-child(3),
-.ord_coupon_tab tr:nth-child(3) td:nth-child(3),
-.ord_coupon_tab tr:nth-child(4) td:nth-child(3),
-.ord_coupon_tab tr:nth-child(5) td:nth-child(3),
-.ord_coupon_tab tr:nth-child(6) td:nth-child(3)
-{
-	color: #747474;
-	font-size: 12px;	
-	line-height: 16px;	
-}
-.ord_coupon_tab tr:nth-child(2) td:nth-child(4),
-.ord_coupon_tab tr:nth-child(3) td:nth-child(4),
-.ord_coupon_tab tr:nth-child(4) td:nth-child(4),
-.ord_coupon_tab tr:nth-child(5) td:nth-child(4),
-.ord_coupon_tab tr:nth-child(6) td:nth-child(4)
-{
-	color: #747474;		
-	font-size: 12px;	
-	line-height: 16px;	
-}
-.ord_coupon_tab tr:nth-child(2) td:nth-child(5){
-	text-align: right;
-	color: #747474;		
-	font-size: 16px;	
-	line-height: 40px;	
-	text-align: right;	
-}
-.ord_coupon_tab .ord_coupon_select_list input[type="checkbox"]:checked + span {
-	border: 1px solid #BBBBBB;	
-	border-radius: 3px;
-}
-.ord_coupon_tab .ord_coupon_select_list span{
-    display: block;
-    width: 180px;
-    height: 41px;
-    line-height: 16px;
-    text-align: center;
-    color: #4a4a4a;
-    font-weight: 400;
-    font-size: 12px;
-    background-color: #f0f0f0;
-    border: dashed 1px #4a4a4a;
-    cursor: pointer;
-    padding-top:10px;	
-}
-.ord_coupon_tab .ord_coupon_select_list span > em {
-	display:block;		
-}
-.ord_coupon_tab .ord_overlap_text {
-	text-decoration:underline;
-	color: #F5A623;	
-	font-size: 12px;	
-	line-height: 16px;	
-}
-.ord_coupon_tab tr:nth-child(5) td:nth-child(5) {
-	color: #747474;	
-	font-size: 16px;	
-	line-height: 40px;	
-	text-align: right;	
-}
-.result_box_a .ord_free {
-	color: #F5A623 !important;
-}				          */
-					</style>
-				
 				<dl class="result_box_a">
 					<dt>배송비</dt>
 					<dd class="price ord_free ord_free_color">무료</dd>
@@ -1134,26 +757,17 @@
 				</div>
 			</div>
 		</div>
-		<script>
-		/*
-			$(document).ready(function(){
-				$('.ord_present_box .box').click(function(){
-						$('.coupone_select_list span').css({'background-color':'#000'});
-						alert("sdfs");
-					});
-				});
-		*/
-		</script>
 		<h3 class="tit_sub_a">
-		배송지 정보
-    		<span class="check_sort custom_cbox cbox_b ord_present_box">
+			<em>배송지 정보</em>
+    		<span class="custom_cbox cbox_c cbox_s_s add_opt">
     			<label>
     				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
     				<span class="box"></span>
     				<span class="label">선물인가요?</span>
     			</label>
-    		</span>			
+    		</span>
 		</h3>
+		<!-- 새로운 배송지 -->
 		<div class="addr_wrap">
 			<table class="addr_inp_table">
 				<caption class="blind">배송지정보</caption>
@@ -1168,14 +782,14 @@
 						<td class="radio">
 							<div class="table_radio custom_radio">
 								<label>
-									<input type="radio" checked="checked" name="addr">
+									<input type="radio" name="addr">
 									<span class="box"></span>
 									<span class="label">기본 배송지</span>
 								</label>
 							</div>
 							<div class="table_radio custom_radio">
 								<label>
-									<input type="radio" name="addr">
+									<input type="radio" checked="checked" name="addr">
 									<span class="box"></span>
 									<span class="label">새로운 배송지</span>
 								</label>
@@ -1250,6 +864,7 @@
             	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
     		</div>
 		</div>
+		<!-- 기본 배송지 -->
 		<div class="addr_wrap addr_wrap_v2">
 			<table class="addr_inp_table">
 				<caption class="blind">배송지정보</caption>
@@ -1264,14 +879,14 @@
 						<td class="radio">
 							<div class="table_radio custom_radio">
 								<label>
-									<input type="radio" checked="checked" name="addr">
+									<input type="radio" checked="checked" name="addr2">
 									<span class="box"></span>
 									<span class="label">기본 배송지</span>
 								</label>
 							</div>
 							<div class="table_radio custom_radio">
 								<label>
-									<input type="radio" name="addr">
+									<input type="radio" name="addr2">
 									<span class="box"></span>
 									<span class="label">새로운 배송지</span>
 								</label>
@@ -1327,19 +942,6 @@
             	<a href="#" class="btn_modify btn_inp_opt w_x2 btn_hover_a">개인 정보 변경</a>
     		</div>
 		</div>
-		<style>
-		   .addr_wrap_v2 {
-		   }
-		   .addr_wrap_v2 .cont {
-		      width:479px;
-		   }
-		   .addr_wrap_v2 .address {
-		      line-height:40px;
-		   }
-		   .addr_wrap_v2 .address .addr_inp_check {
-		      float:right;
-		   }
-		</style>   		    		
 		<h3 class="tit_sub_a">결제정보</h3>
 		<div class="payment_wrap">
 			<h4 class="payment_tit">결제수단 선택</h4>
@@ -1366,11 +968,26 @@
     						<span class="label">무통장 입금 (가상계좌)</span>
     					</label>
 					</strong>
+					<strong class="payment_radio custom_radio">
+    					<label>
+    						<input type="radio" name="payment">
+    						<span class="box"></span>
+    						<span class="label">모바일 소액결제</span>
+    					</label>
+					</strong>
 				</dt>
 				<dd class="payment_child">
 					<!-- 신용카드 결제 정보 -->
 					<div class="child">
-    					<div class="tip_list">
+					</div>
+					<!-- 실시간 계좌이체 결제 정보 -->
+					<div class="child"></div>
+					<!-- 무통장 입금 (가상계좌) 결제 정보 -->
+					<div class="child">
+					</div>
+					<!-- 모바일 소액 결제 -->
+					<div class="child">
+						<div class="tip_list">
     						<a href="#">무이자 할부혜택</a>
     						<a href="#">제휴/할인카드</a>
     					</div>
@@ -1413,10 +1030,6 @@
                             <li>*  가상계좌(무통장 입금)의 경우에는 현금 영수증 발행이 필요하신 경우 주문/배송조회 에서 [현금영수증신청을]누르셔야 발행처리 됩니다.</li>
     					</ul>
 					</div>
-					<!-- 실시간 계좌이체 결제 정보 -->
-					<div class="child"></div>
-					<!-- 무통장 입금 (가상계좌) 결제 정보 -->
-					<div class="child"></div>
 				</dd>
 			</dl>
 		</div>

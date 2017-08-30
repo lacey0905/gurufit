@@ -19,28 +19,20 @@
         		<h2>Membership</h2>
         		<ul class="rnd_icon_button">
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-01.png" alt="">
-        					<span>교환 &middot; 반품<br>무료배송</span>
-        				</a>
+    					<img src="../img/foo-01.png" alt="">
+    					<span>교환 &middot; 반품<br>무료배송</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-02.png" alt="">
-        					<span>상시<br>할인</span>
-        				</a>
+    					<img src="../img/foo-02.png" alt="">
+    					<span>상시<br>할인</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-03.png" alt="">
-        					<span>더 빠른<br>배송</span>
-        				</a>
+    					<img src="../img/foo-03.png" alt="">
+    					<span>더 빠른<br>배송</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-04.png" alt="">
-        					<span>프리미엄 &middot;독점 제품<br>선구매 기회</span>
-        				</a>
+    					<img src="../img/foo-04.png" alt="">
+    					<span>프리미엄 &middot;독점 제품<br>선구매 기회</span>
         			</li>
         		</ul>
         		<p>

@@ -38,6 +38,7 @@
 	width:20%;
 }
 .custom_prd .x2 > li:nth-child(2n+1),
+.custom_prd .x3 > li:nth-child(3n+1),
 .custom_prd .x4 > li:nth-child(4n+1) {
 	clear:both;
 }
@@ -165,6 +166,7 @@
 	right:2px;
 	background-color:#7052FF;
 	color:#fff;
+	font-size:12px;
 	font-weight:400;
 	width:26px;
 	text-align:center;

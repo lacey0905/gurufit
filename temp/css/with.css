@@ -740,6 +740,7 @@
 .rnd_icon_button li {
 	display:inline-block;
 	margin:0 7px;
+	font-sioze:0;
 }
 .rnd_icon_button li:first-child {
 	margin-left:0;
@@ -748,12 +749,12 @@
 	display:block;
 	font-sioze:0;
 }
-.rnd_icon_button li a img {
+.rnd_icon_button li img {
 	display:inline-block;
 	margin-right:9px;
 	vertical-align:middle;
 }
-.rnd_icon_button li a span {
+.rnd_icon_button li span {
 	display:inline-block;
 	font-size:13px;
 	font-family: 'Spoqa Han Sans', 'Sans-serif';

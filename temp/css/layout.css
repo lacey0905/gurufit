@@ -98,16 +98,21 @@
 	text-align:center;
 	padding-top:25px;
 }
-#lnb #lnbNav li {
+#lnb #lnbNav .nav {
 	display:inline-block;
 }
-#lnb #lnbNav li:after {
+#lnb #lnbNav .nav > li {
+	position:relative;
+	display:inline-block;
+}
+#lnb #lnbNav .nav > li:after {
 	content:"/";
 	font-size:18px;
 	font-family: 'Spoqa Han Sans', 'Sans-serif';
 	margin:0 25px;
 }
-#lnb #lnbNav li a {
+#lnb #lnbNav .nav > li > a {
+	position:relative;
 	font-family: 'Spoqa Han Sans', 'Sans-serif';
 	font-size:18px;
 	font-weight:bold;
@@ -115,6 +120,19 @@
 	letter-spacing:1.1px;
 	text-align:center;
 	color:#000;
+	z-index:9500;
+}
+#lnb #lnbNav .nav > li.drop > a:after {
+	content:"";
+	display:none;
+	position:absolute;
+	top:100%;
+	left:50%;
+	width:1px;
+	height:18px;
+	margin-top:15px;
+	background-color:#979797;
+	z-index:100;
 }
 #lnb #lnbNav li:last-child:after {
 	display:none;
@@ -184,6 +202,67 @@
 	vertical-align:middle;
 	margin-left:20px;
 }
+
+/* 상단 카테고리 드롭 다운 */
+.lnb_drop {
+	display:none;
+	position:absolute;
+	top:28px;
+	left:-20px;
+	z-index:9000;
+	background-color:#fff;
+	padding:40px 35px;
+	text-align:left;
+	box-shadow: 20px 20px 1px 0 rgba(0,0,0,0.09);
+	-moz-box-shadow: 20px 20px 1px 0 rgba(0,0,0,0.09);
+	-webkit-box-shadow: 20px 20px 1px 0 rgba(0,0,0,0.09);
+}
+#lnb #lnbNav .nav > li.drop:hover > a:after,
+#lnb #lnbNav .nav > li.drop:hover .lnb_drop {
+	display:block;
+}
+.lnb_drop.s_mid {
+	width:590px;
+}
+.lnb_drop .lnb_drop_list {
+	display:inline-block;
+}
+.lnb_drop .lnb_drop_list dt {
+	display:inline-block;
+	font-size:15px;
+	font-weight:600;
+	color:#000;
+	line-height:30px;
+	vertical-align:top;
+}
+.lnb_drop .lnb_drop_list dd {
+	display:inline-block;
+	margin:0 35px 0 20px;
+	vertical-align:top;
+}
+.lnb_drop .lnb_drop_list dd li {
+	width:108px;
+}
+.lnb_drop .lnb_drop_list dd li a {
+	display:block;
+	font-size:15px;
+	line-height:22px;
+	margin-bottom:8px;
+	color:#8F8F8F;
+}
+.lnb_drop .lnb_drop_list dd li a:hover {
+	color:#000;
+	font-weight:600;
+}
+.lnb_drop .drop_tit_thum {
+	display:inline-block;
+	vertical-align:top;
+}
+
+
+
+
+
 
 /* FOOTER */
 #footer {

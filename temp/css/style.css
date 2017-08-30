@@ -1265,6 +1265,14 @@
 	padding:43px 0 20px;
 	border-bottom:solid 2px #4a4a4a;
 }
+.tit_sub_a em {
+	display:inline-block;
+	vertical-align:middle;
+}
+.tit_sub_a em + .add_opt {
+	display:inline-block;
+	margin-left:15px;
+}
 .tit_sub_b {
 	font-size:22px;
 	font-weight:400;
@@ -1442,6 +1450,7 @@
 	float:left;
 }
 .payment_list {
+	width:938px;
 	float:left;
 }
 .payment_list .payment_radio {
@@ -1492,6 +1501,7 @@
 /* 쿠폰 선택 리스트 */
 .coupone_select_list {
 	padding:45px 0 17px;
+	margin-left:12px;
 	border-bottom:solid 1px #d8d8d8;
 }
 .coupone_select_list dl {
@@ -1554,7 +1564,7 @@
 /* 결제 정보 박스 */
 .order_result_box {}
 .order_result_box .result_box_a {
-	padding:16px 20px 16px 30px;
+	padding:16px 45px 16px 30px;
 	background-color:#f9f9f9;
 	overflow:hidden;
 }
@@ -1638,9 +1648,6 @@
 .order_number span {
 	color:#000;
 }
-
-
-
 
 .order_result_box .total_price {
 	border-top:solid 1px #d8d8d8;
@@ -3172,7 +3179,6 @@
 	border-top:solid 1px #4a4a4a;
 }
 .prd_top_list {}
-
 .prd_date_list {}
 .prd_date_list .list {}
 .prd_date_list .list .date {
@@ -3270,61 +3276,6 @@
 
 
 
-
-
-
-
-
-
-/*상품 order*/
-.refund_account_info_register {
-	border-top: 0.5px solid #D8D8D8;
-	border-bottom: 0.5px solid #D8D8D8;
-	padding:17px 0 21px 0;
-}
-.refund_account_info_register:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.refund_account_info_register > em {
-	float:left;
-	color: #4A4A4A;		
-	font-size: 16px;	
-	line-height: 40px;	
-}
-.refund_account_info_register .bank_register {
-	float:left;
-	margin-left:64px;
-}
-.refund_account_info_register .bank_register:after {
-	content:"";
-	display:block;
-	clear:both;
-}
-.refund_account_info_register .bank_register tr td {
-	margin-bottom:10px;
-	padding-bottom:10px;
-	
-	color: #8F8F8F;	
-	font-size: 16px;	
-	line-height: 40px;	
-}
-.refund_account_info_register .bank_register .sel_mid {
-	width:274px;
-}
-.refund_account_info_register .bank_register .ord_ib_o {
-	width:274px;
-}
-.refund_account_info_register .bank_register .ord_ib_t {
-	width:584px;
-}
-.refund_account_info_register > p {
-	color: #F5A623;		
-	font-size: 12px;	
-	line-height: 18px;
-	margin-left:194px;
-}
 
 
 /*사용 가능한 쿠폰 영역*/
@@ -3532,5 +3483,230 @@
 
 
 
+
+/* 할인 내용 안내 */
+.ord_discount {
+    background-color: #F9F9F9;
+    border-top:1px solid #EBEBEB;
+    border-bottom:1px solid #EBEBEB;
+    padding:10px 45px 10px 30px
+}
+.ord_discount > em {
+    color: #8F8F8F;		
+    font-size: 16px;	
+    line-height: 40px;
+}
+.ord_discount .ord_mem {
+    color: #8F8F8F;		
+    font-size: 16px;	
+    line-height: 40px;
+    margin-left: 100px;	
+}
+.ord_discount .ord_mem > strong {
+	font-size: 16px;	
+	line-height: 40px;	
+	color:#909090;
+	margin-left:5px;	
+}
+.ord_discount span:last-child {
+	color: #F5A623;		
+	font-size: 16px;	
+	line-height: 40px;	
+	text-align: right;
+	float:right;
+}			
+/* 주문 쿠폰 리스트 */		
+.ord_coupon {
+	background-color: #F9F9F9;
+	padding:11px 45px 18px 164px;
+	border-bottom: 1px solid #EBEBEB;
+}
+.ord_coupon > dl > dt {
+	color: #8F8F8F;		
+	font-size: 16px;	
+	line-height: 40px;	
+	display:inline-block;
+}
+.ord_coupon > dl > dd {
+	display:inline-block;
+	float:right;
+	color: #F5A623;		
+	font-size: 16px;	
+	text-align: right;	
+}
+.ord_coupon > dl > dd:after {
+	content:"";
+	display:block;
+	clear:both;
+} 					
+/* 주문 쿠폰 리스트 테이블 */     
+.ord_coupon_tab {}
+.ord_coupon_tab th {
+    font-weight:500;
+    color: #747474;
+    font-size: 12px;	
+    line-height: 18px;
+    padding-bottom: 13px;
+    text-align:left;					     
+}
+.ord_coupon_tab th:nth-child(1){
+    padding-left:45px;
+}
+.ord_coupon_tab th:nth-child(4){
+  text-align:right;
+}
+.ord_coupon_tab td {
+   color: #747474;
+   font-size: 12px;	
+   line-height: 16px;
+   padding:6px 0;
+   vertical-align:middle;
+}
+.ord_coupon_tab .cu_info span {
+   color: #F5A623;	
+   font-size: 12px;	
+   line-height: 16px;
+   text-decoration:underline;					     
+}
+.ord_coupon_tab .cu_price {
+   color: #747474;
+   font-size: 16px;	
+   line-height: 40px;	
+   text-align: right;					               
+}
+.ord_coupon_tab .coupone_select_list label span {
+	display:inline-block;
+    height:42px;
+    width:180px;
+    border-radius: 3px;
+    line-height:16px;
+    padding-top:10px;
+    margin-left:15px;
+    vertical-align:middle;
+}
+.ord_coupon_tab .coupone_select_list label span em {
+    display:block;
+}
+.ord_coupon_tab .coupone_select_list [type=checkbox]:checked + .box + .add_chk {
+	background-color:#F8E71C;
+}
+.coupone_select_list {
+    display:inline-block;
+    padding:0;
+    border:0;
+    vertical-align:middle;
+ }
+.coupone_select_list [type="checkbox"] + .box {
+	display:inline-block;
+    vertical-align:middle;
+    margin:0;
+}
+.order_result_box .ord_free_color {
+	color:#F5A623 !important;
+}
+.ord_coupon_box {
+	backround-color:red !important;
+	float:left;
+}
+.ord_coupon_box label {
+	backround-color:red;
+}
+.ord_coupon_box label .ord_coupon_select_list {
+	background-color:red;
+	display:inline-block;
+	float:left;
+}
+/*상품 order*/
+.refund_account_info_register {
+	position:relative;
+	border-top: 0.5px solid #D8D8D8;
+	border-bottom: 0.5px solid #D8D8D8;
+	padding:17px 49px 21px 0;
+}
+.refund_account_info_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register > em {
+	position:absolute;
+	top:17px;
+	left:0;
+	color: #4A4A4A;		
+	font-size: 16px;	
+	line-height: 40px;	
+}
+.refund_account_info_register .bank_register {
+	margin-left:190px;
+}
+.refund_account_info_register .bank_register:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.refund_account_info_register .bank_register tr td {
+	margin-bottom:10px;
+	color: #8F8F8F;	
+	font-size: 16px;	
+	line-height:30px;
+	width:89px;
+	padding:0 0px 5px 0;	
+}
+.refund_account_info_register .bank_register .sel_mid {
+	width:274px;
+	height:30px;
+}
+.refund_account_info_register .bank_register .sel_mid select {
+	padding:0px 15px;
+	vertical-align:top;
+}
+.refund_account_info_register .bank_register .ord_ib_o {
+	width:274px;
+}
+.refund_account_info_register .bank_register .ord_ib_t {
+	width:584px;
+}
+.refund_account_info_register > p {
+	display:block;
+	color: #F5A623;		
+	font-size: 12px;	
+	line-height: 18px;
+	margin:20px 0 0 190px;
+}
+
+/*선물인가요 인풋 박스*/
+.ord_ship_list {
+	float:right;
+	color: #8F8F8F;	
+	font-size: 13px;	
+	line-height: 19px;	
+}
+.ord_ship_list:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.ord_pt_box_tit {
+	vertical-align:top;
+}
+.ord_pt_box {
+	background-color:red;
+	width: 475px;
+	height: 90px;
+	background-color: #F6F6F6;
+	border:none;
+	resize:none;
+}    
+
+.addr_wrap_v2 {}
+.addr_wrap_v2 .cont {
+  width:479px;
+}
+.addr_wrap_v2 .address {
+  line-height:40px;
+}
+.addr_wrap_v2 .address .addr_inp_check {}
+    
+    
     
 

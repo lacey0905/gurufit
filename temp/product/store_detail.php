@@ -27,7 +27,7 @@
 .price_ranking_container {
 	position: relative;
 }
-
+ 
 .price_ranking_container:before {
 	content: '';
 	display: block;

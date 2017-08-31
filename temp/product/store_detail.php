@@ -22,8 +22,8 @@
 .price_ranking {
     visibility: hidden;
     position:absolute;
-    padding-top:12px;
-    top:24px; 
+    padding-top:36px;
+    top:-4px;  
 }
 .price_ranking_wrapper {
     z-index:1;
@@ -33,7 +33,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     box-shadow: 8px 8px 0 0 rgba(0,0,0,0.09);
-    padding-bottom:12px;            
+    padding-bottom:12px;           
 }
 .price_ranking_wrapper:before {
 	content: '';

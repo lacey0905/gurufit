@@ -505,7 +505,7 @@
 	visibility: visible;
 }
 .badge_pop_wrapper {
-	visibility: visible;
+	visibility: hidden;
 	position: absolute;
 	top: 0;
 	left: 108px;

@@ -455,6 +455,7 @@
 /* 제품 썸네일 리스트 */
 .prd_sml_list {
 	font-size:0;
+	text-align:left;
 }
 .prd_sml_list li {
 	display:inline-block;
@@ -701,6 +702,7 @@
 	position:relative;
 	display:table;
 	width:100%;
+	min-height:211px;
 	margin-bottom:20px;
 }
 .review_box_list .review_list_head {

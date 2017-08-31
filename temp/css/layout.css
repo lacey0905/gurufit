@@ -14,7 +14,9 @@
 	width:1100px;
 	margin:0 auto;
 }
-.sub_layout {}
+.sub_layout {
+	padding-bottom:125px;
+}
 .sub_layout.gray {
 	background-color:#ECECF3;
 }
@@ -155,12 +157,15 @@
 	color:#f6a623;
 	line-height:83px;
 }
-#lnb #lnbOpt a {
+#lnb #lnbOpt .lnbSearch > a {
 	display:inline-block;
 	vertical-align:middle;
 	margin-left:20px;
 }
-.lnbSearch {}
+.lnbSearch {
+	position:relative;
+	z-index:9100;
+}
 .lnbSearch input.search_inp {
 	display:inline-block;
 	font-size:13px;
@@ -174,6 +179,8 @@
 	text-indent:15px;
 	outline:none;
 	vertical-align:middle;
+	padding-right:45px;
+	margin-right:-45px;
 }
 .search_inp::-webkit-input-placeholder {
 	font-size:13px;
@@ -264,13 +271,126 @@
 }
 
 
-
+/* 상단 드롭다운 검색 */
+.search_drop {
+	display:none;
+	position:absolute;
+	top:0;
+	right:-30px;
+	width:371px;
+	padding:70px 30px 20px;
+	background-color:#fff;
+	box-shadow: 20px 20px 1px 0 rgba(0, 0, 0, 0.09);
+	-moz-box-shadow: 20px 20px 1px 0 rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 20px 20px 1px 0 rgba(0, 0, 0, 0.09);
+	z-index:9000;
+}
+.active .search_drop {
+	display:block;
+}
+.active .lnbSearch input.search_inp {
+	border-bottom:solid 1px #c6c1dd;
+}
+.search_drop .more {}
+.search_drop .more a {
+	display:block;
+	font-size:14px;
+	font-weight:600;
+	color:#4a4a4a;
+	margin-top:15px;
+}
+.search_drop .more span {
+	text-decoration:underline;
+}
+.search_list_normal {
+	margin-bottom:20px;
+}
+.search_list_normal dt {
+	display:block;
+	font-size:12px;
+	font-weight:300;
+	color:#bbb;
+	margin-bottom:5px;
+	text-align:left;
+}
+.search_list_normal dd {}
+.search_list_normal dd a {
+	display:block;
+	line-height:25px;
+}
+.search_list_normal dd a span,
+.search_list_normal dd a em {
+	display:inline-block;
+	font-size:14px;
+	font-weight:300;
+	color:#8f8f8f;
+	line-height:25px;
+	vertical-align:top;
+}
+.search_list_normal dd a span {}
+.search_list_normal dd a em {
+	font-weight:400;
+	color:#000;
+}
+.search_list_normal dd .opt {}
+.search_list_normal dd .opt li {
+	padding-left:12px;
+}
+.search_list_normal dd .opt li a {
+	display:block;
+	font-size:14px;
+	font-weight:300;
+	color:#8f8f8f;
+	line-height:22px;
+}
+/* 컨텐츠 리스트 */
+.search_list_thum {}
+.search_list_thum dt {
+	display:block;
+	font-size:12px;
+	font-weight:300;
+	color:#bbb;
+	margin-bottom:14px;
+	text-align:left;
+}
+.search_list_thum dd {}
+.search_list_thum dd a {
+	display:block;
+	position:relative;
+	padding-left:64px;
+	min-height:47px;
+	margin-bottom:10px;
+}
+.search_list_thum dd a img {
+	position:absolute;
+	top:0;
+	left:0;
+	display:inline-block;
+	width:43px;
+}
+.search_list_thum dd a strong {
+	display:block;
+	font-size:13px;
+	font-weight:400;
+	color:#4a4a4a;
+	line-height:20px;
+}
+.search_list_thum dd a strong em {
+	font-size:13px;
+	color:#000;
+	line-height:22px;
+}
+.search_list_thum dd a span {
+	display:block;
+	font-size:11px;
+	color:#9b9b9b;
+}
 
 
 
 /* FOOTER */
 #footer {
-	padding-top:125px;
+	/*padding-top:125px;*/
 	clear:both;
 }
 #footInfo {

@@ -18,6 +18,13 @@ $(function(){
 				$(".madal_popup_area").not(this_popup).find(".modal_popup").fadeOut();
 				this_popup.find(".modal_popup").fadeToggle("fast");
 			});
+			/*
+			$("body").find("*").not.bind("click", function(){
+				// 팝업은 1개만 띄어 질 수 있도 록 팝업 오픈 시에 다른 팝업을 클릭하면 기존 팝업은 Hide 됨
+				$(".madal_popup_area").not(this_popup).find(".modal_popup").fadeOut();
+				this_popup.find(".modal_popup").fadeToggle("fast");
+			})
+			;*/
 		});
 	}
 	

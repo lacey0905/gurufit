@@ -1262,7 +1262,9 @@
 			</div>
 			<div class="btn_order_submit">
 				<strong class="btn_head">
-					<em class="user_level_x6">Gold<br>III</em>
+					<em class="user_level_x6">
+						<img src="../img/user_level_bg.png" alt="레벨">
+					</em>
 					<span>
 						Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
 						구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 

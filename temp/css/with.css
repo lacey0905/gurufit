@@ -570,12 +570,18 @@
 	font-size:11px;
 	font-weight:600;
 	line-height:10px;
-	padding:11px 0 9px;
+	/*padding:11px 0 9px;*/
 	color:#4a4a4a;
+	/*
 	background:url(../img/user_level_bg.png) no-repeat;
+	*/
 	vertical-align:middle;
 }
-
+.user_level_x6 img {
+	display:block;
+	width:37px;
+	vertical-align:top;
+}
 
 
 
@@ -1038,7 +1044,7 @@
 	margin-left:-325px;
 	width:650px;
 	height:100%;
-	z-index:100;
+	z-index:1000;
 }
 /* 팝업 사이즈 */
 .f_modal_layer.small {
@@ -1635,7 +1641,7 @@
 	position:absolute;
 	background-color:#fff;
 	text-align:center;
-	z-index:2000;
+	z-index:9200;
 	-moz-box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
 	-webkit-box-shadow: 20px 10px 0px rgba(0, 0, 0, 0.08);
 	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
@@ -1780,6 +1786,7 @@
 	float:left;
 }
 .cart_prd_list dd {
+	width:195px;
 	text-align:left;
 	line-height:20px;
 	float:left;

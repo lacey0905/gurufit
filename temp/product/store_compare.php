@@ -27,7 +27,7 @@
 			<div class="prd_date_list">
 				<div class="list">
 					<h4 class="date">2017. 7. 20(금)</h4>
-					<table class="prd_list_a line">
+					<table class="prd_list_a line spacing prd_rnd_x1">
     					<caption class="blind">장바구니</caption>
     					<colgroup>
     						<col class="col_thum">
@@ -54,90 +54,26 @@
 										<strong>184,000원</strong>
 										<del>199,000원</del>
 									</p>
+									<div class="rating">
+        								<strong class="star_rating big">
+        	    							<i class="star_off"></i>
+        	    							<i class="star_off"></i>
+        	    							<i class="star_off"></i>
+        	    							<i class="star_off"></i>
+        	    							<i class="star_off"></i>
+        	   							</strong>
+        	    					</div>
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">비교하기</a></li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">마이리스트에 담기</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_cp">장바구니에 담기</a></li>
-    								</ul>
-    							</td>
-						 	</tr>
-    						<tr>
-    							<td class="thum">
-    								<span class="prd_thum">
-    		    						<a href="#">
-    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-    	    							</a>
-    	   							</span>
-    							</td>
-    							<td class="cont">
-    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-    								<strong class="name">Nike Metcon DSX Flyknit</strong>
-    								<dl class="opt">
-    									<dt>구입할 날짜</dt>
-    									<dd>2017년 7월 14일</dd>
-    								</dl>
-    								<p class="price">
-										<strong>184,000원</strong>
-										<del>199,000원</del>
-									</p>
-    							</td>
-    							<td class="btn">
-    								<ul class="prd_list_btn">
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">비교하기</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">마이리스트에 담기</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_cp">장바구니에 담기</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">장바구니에 담기</a></li>
     								</ul>
     							</td>
 						 	</tr>
     					 </tbody>
     				</table> 
-				</div>
-			<div class="prd_date_list">
-				<div class="list">
-					<h4 class="date">2017. 7. 19(목)</h4>
-					<table class="prd_list_a">
-    					<caption class="blind">장바구니</caption>
-    					<colgroup>
-    						<col class="col_thum">
-    						<col class="col_cont">
-    						<col class="col_btn_x2">
-    					</colgroup>
-    					<tbody>
-    						<tr>
-    							<td class="thum">
-    								<span class="prd_thum">
-    		    						<a href="#">
-    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-    	    							</a>
-    	   							</span>
-    							</td>
-    							<td class="cont">
-    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-    								<strong class="name">Nike Metcon DSX Flyknit</strong>
-    								<dl class="opt">
-    									<dt>구입할 날짜</dt>
-    									<dd>2017년 7월 14일</dd>
-    								</dl>
-    								<p class="price">
-										<strong>184,000원</strong>
-										<del>199,000원</del>
-									</p>
-    							</td>
-    							<td class="btn">
-    								<ul class="prd_list_btn">
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">비교하기</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">마이리스트에 담기</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_cp">장바구니에 담기</a></li>
-    								</ul>
-    							</td>
-						 	</tr>
-    					 </tbody>
-    				</table> 
-				</div>
-				<div class="list_more_btn">
-					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
 				</div>
 			</div>
 		</section>

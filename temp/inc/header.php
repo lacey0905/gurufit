@@ -255,20 +255,64 @@
 					<li><a href="#">매거진</a></li>
 				</ul>
 			</nav>
-			<div id="lnbOpt">
+			<!-- 검색어 팝업을 띄울 경우 [active] 클래스를 추가 -->
+			<div id="lnbOpt" class="">
 				<!-- 검색 -->
 				<fieldset class="lnbSearch">
 					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
 					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
 					<a href="#" class="icon_sch_x22 search_btn">Search</a>
 				</fieldset>
+				<div class="search_drop">
+					<dl class="search_list_normal">
+						<dt>추천 검색어</dt>
+						<dd>
+							<a href="#">
+								<span><em>Nike Air</em> Max</span>
+							</a>
+							<ul class="opt">
+								<li><a href="#">- 남자/스포츠</a></li>
+								<li><a href="#">- 남자/스포츠</a></li>
+								<li><a href="#">- 남자/스포츠</a></li>
+							</ul>
+						</dd>
+						<dd>
+							<a href="#">
+								<span><em>Nike Air</em> Nike Air Max 2014 Special Limited
+								</span>
+							</a>
+						</dd>
+						<dd>
+							<a href="#">
+								<span><em>Nike Air</em> Max</span>
+							</a>
+						</dd>
+					</dl>
+					<dl class="search_list_thum">
+						<dt>추가 컨텐츠</dt>
+						<dd>
+							<a href="#">
+								<img src="../img/prd_sample.png" alt="컨텐츠 이미지">
+								<strong>도심을 탐험하는 <em>Nike Air Max</em> 퓨어부스트 DPR</strong>									
+								<span>Shop for Nike Air Max Shoes at Nike.com. Enjoy free </span>
+							</a>
+						</dd>
+						<dd>
+							<a href="#">
+								<img src="../img/prd_sample.png" alt="컨텐츠 이미지">
+								<strong>도심을 탐험하는 <em>Nike Air Max</em> 퓨어부스트 DPR</strong>									
+								<span>Shop for Nike Air Max Shoes at Nike.com. Enjoy free </span>
+							</a>
+						</dd>
+					</dl>
+					<div class="more">
+						<a href="#"><em>"Nike ai"</em> <span>검색결과 더보기</span></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 </header>
-
-
-
 
 
 

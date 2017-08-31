@@ -540,6 +540,17 @@
 .prd_list_a {
 	width:100%;
 }
+.spacing {
+	border-collapse: separate !important;
+    border-spacing:0px 10px !important;
+    margin-top:-10px !important;
+}
+.prd_rnd_x1 td:first-child {
+	border-radius:5px 0 0 5px;
+}
+.prd_rnd_x1 td:last-child {
+	border-radius:0 5px 5px 0;
+}
 .prd_list_a .col_check {
 	width:60px;
 }
@@ -548,9 +559,6 @@
 }
 .prd_list_a .col_btn {
 	width:140px;
-}
-.prd_list_a .col_btn_x2 {
-	width:210px;
 }
 .prd_list_a .col_price {
 	width:150px;
@@ -567,7 +575,8 @@
 	border-left:solid 1px #e1e1e1;
 }
 .prd_list_a.line td:last-child {
-	border-left:solid 1px #e1e1e1;
+	border-right:solid 1px #e1e1e1;
+	padding-right:35px;
 }
 .prd_list_a .opt_tit_info {
 	padding:0 30px;
@@ -838,7 +847,7 @@
 	padding:35px 0;
 }
 .prd_list_a .prd_list_btn {
-	text-align:center;
+	text-align:right;
 }
 .prd_list_a .prd_list_btn li {
 	position:relative;

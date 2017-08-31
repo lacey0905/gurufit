@@ -356,8 +356,8 @@
         								<a href="#" class="cont_more">더 보기</a>
         							</div>
         							<ul class="like">
-        								<li><a href="#" class="like_btn up">52</a></li>
-        								<li><a href="#" class="like_btn dw">4</a></li>
+        								<li><span class="like_btn up">52</span></li>
+        								<li><span class="like_btn dw">4</span></li>
         								<li><a href="#" class="report">신고하기</a></li>
         							</ul>
         						</div>
@@ -403,6 +403,12 @@
         								</ul>
         							</div>
         						</div>
+        						<dl class="share icon_share_list">
+        							<dt><em>41</em> Shares</dt>
+        							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
+        							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
+        							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
+        						</dl>
         					</li>
         					<li>
         						<div class="review_list_thum">
@@ -429,8 +435,8 @@
         								<a href="#" class="cont_more">더 보기</a>
         							</div>
         							<ul class="like">
-        								<li><a href="#" class="like_btn up">52</a></li>
-        								<li><a href="#" class="like_btn dw">4</a></li>
+        								<li><span class="like_btn up">52</span></li>
+        								<li><span class="like_btn dw">4</span></li>
         								<li><a href="#" class="report">신고하기</a></li>
         							</ul>
         						</div>
@@ -476,6 +482,12 @@
         								</ul>
         							</div>
         						</div>
+        						<dl class="share icon_share_list">
+        							<dt><em>41</em> Shares</dt>
+        							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
+        							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
+        							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
+        						</dl>
         					</li>
         				</ul>
         			</div>

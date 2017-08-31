@@ -11,7 +11,7 @@
 	height:44px;
 	border-top:solid 1px #f0f0f0;
 	border-bottom:solid 1px #f0f0f0;
-	overflow:hidden;
+	/*overflow:hidden;*/
 }
 .sub_locate dl.locate_list {
 	font-size:0;
@@ -797,6 +797,14 @@
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+.review_box_list .share {
+	position:absolute;
+	top:auto;
+	bottom:20px;
+	right:30px;
+}
+
+
 .review_cont {}
 .review_cont .rating i:after {
 	font-size:25px;
@@ -866,6 +874,7 @@
 }
 .review_list_gauge .step_gauge .gauge_area li > em {
 	padding-right:10px;
+	font-size:12px;
 }
 .review_list_gauge .step_gauge .gauge_area .gauge .gauge_min, 
 .review_list_gauge .step_gauge .gauge_area .gauge .gauge_max {
@@ -3706,6 +3715,113 @@
   line-height:40px;
 }
 .addr_wrap_v2 .address .addr_inp_check {}
+    
+    
+/* 비교하기 */
+.locate_tab_nav {
+	position:relative;
+	margin-top:-46px;
+	text-align:right;
+}
+.locate_tab_nav .nav {
+	font-size:0;
+	margin:0 auto;
+}
+.locate_tab_nav .nav ul {
+	display:inline-block;
+	font-size:0;
+	vertical-align:top;
+}
+.locate_tab_nav .nav li {
+	display:inline-block;
+	height:45px;
+	padding:0 25px;
+	background-color:#6048DA;
+}
+.locate_tab_nav .nav li a {
+	display:block;
+	color:#9F8CFF;
+	font-size:16px;
+	line-height:45px;
+}
+.locate_tab_nav .nav li.icon_compare a:before {
+	content:"";
+	display:inline-block;
+	width:24px;
+	height:14px;
+	margin-right:8px;
+	background:url(../img/icon_compare_x24.png) no-repeat;
+}
+.locate_tab_nav .nav li.active {
+	background-color:#7053FF;
+}
+.locate_tab_nav .nav .nav_btn {
+	display:inline-block;
+	width:45px;
+	text-align:center;
+	background-color:#4E37C1;
+	color:#B1A1FF;
+}
+.locate_tab_nav .nav .nav_btn i {
+	display:block;
+	line-height:45px;
+	vertical-align:top;
+	opacity: 0.7;
+	font-size:24px;
+	font-weight:300;
+}
+.locate_tab_nav .cont {
+	width:100%;
+	background-color:#7053FF;
+	z-index:9000;
+}
+.locate_tab_nav .msg_box {
+	text-align:center;
+	padding:50px 0;
+}
+.locate_tab_nav .msg_box span {
+	display:inline-block;
+	font-size:22px;
+	font-weight:300;
+	line-height:33px;
+	color:#fff;
+	opacity:0.5;
+}
+.locate_tab_nav .msg_box span em {
+	font-weight:400;
+	text-decoration:underline;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

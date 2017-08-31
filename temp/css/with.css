@@ -740,6 +740,7 @@
 .rnd_icon_button li {
 	display:inline-block;
 	margin:0 7px;
+	font-sioze:0;
 }
 .rnd_icon_button li:first-child {
 	margin-left:0;
@@ -748,12 +749,12 @@
 	display:block;
 	font-sioze:0;
 }
-.rnd_icon_button li a img {
+.rnd_icon_button li img {
 	display:inline-block;
 	margin-right:9px;
 	vertical-align:middle;
 }
-.rnd_icon_button li a span {
+.rnd_icon_button li span {
 	display:inline-block;
 	font-size:13px;
 	font-family: 'Spoqa Han Sans', 'Sans-serif';
@@ -1037,7 +1038,7 @@
 	margin-left:-325px;
 	width:650px;
 	height:100%;
-	z-index:2000;
+	z-index:100;
 }
 /* 팝업 사이즈 */
 .f_modal_layer.small {
@@ -1054,22 +1055,22 @@
 }
 /* 팝업 우선순위 */
 .f_modal_layer.z1 {
-	z-index:10;
+	z-index:1000;
 }
 .f_modal_layer.z2 {
-	z-index:20;
+	z-index:2000;
 }
 .f_modal_layer.z3 {
-	z-index:30;
+	z-index:3000;
 }
 .f_modal_layer.z4 {
-	z-index:40;
+	z-index:4000;
 }
 .f_modal_layer.z5 {
-	z-index:50;
+	z-index:5000;
 }
 .f_modal_layer.z6 {
-	z-index:60;
+	z-index:6000;
 }
 /* 팝업 그림자 */
 .f_modal_shadow .f_modal_area {

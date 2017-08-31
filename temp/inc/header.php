@@ -219,8 +219,39 @@
 		<div class="custom_inner">
 			<h1 id="logo"><a href="http://lacey.dothome.co.kr/yeseo/gurufit/main/main.php"><img src="../img/gurufit.png" alt="Gurufit"></a></h1>
 			<nav id="lnbNav">
-				<ul>
-					<li><a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?">스토어</a></li>
+				<ul class="nav">
+					<li class="drop">
+						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?">스토어</a>
+						<div class="lnb_drop s_mid">
+							<dl class="lnb_drop_list">
+								<dt>여성</dt>
+								<dd>
+									<ul>
+										<li><a href="#">스포츠&스니커즈</a></li>
+										<li><a href="#">샌들&슬리퍼</a></li>
+										<li><a href="#">여성 샌들</a></li>
+										<li><a href="#">부츠&부티</a></li>
+										<li><a href="#">플랫</a></li>
+										<li><a href="#">드레스&힐</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<dl class="lnb_drop_list">
+								<dt>남성</dt>
+								<dd>
+									<ul>
+										<li><a href="#">스포츠&스니커즈</a></li>
+										<li><a href="#">샌들&슬리퍼</a></li>
+										<li><a href="#">부츠</a></li>
+										<li><a href="#">드레스&캐쥬얼</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="drop_tit_thum">
+								<a href="#"><img src="../img/lnb_drop_sample.png" alt="신상품"></a>
+							</div>
+						</div>
+					</li>
 					<li><a href="#">매거진</a></li>
 				</ul>
 			</nav>
@@ -235,3 +266,15 @@
 		</div>
 	</section>
 </header>
+
+
+
+
+
+
+
+
+
+
+
+

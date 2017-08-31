@@ -1,321 +1,6 @@
 <?php include "../inc/header.php" ?>
 
 <style>
-
-/* 무료배송 텍스트 */
-.sd_free_ship_title {
-	margin-top: 29px;
-	margin-bottom: 27px;
-}
-
-.sd_free_ship_title em {
-	display: inline-block;
-	color: #000000;
-	font-size: 13px;
-	font-weight: bold;
-	line-height: 19px;
-	margin-right: 14px;
-}
-
-.sd_free_ship_title p {
-	display: inline-block;
-	color: #000000;
-	font-size: 13px;
-	line-height: 19px;
-}
-
-.sd_free_ship_title p span {
-	color: #F5A623;
-	font-size: 13px;
-	line-height: 19px;
-}
-
-/* 상세페이지 리뷰 */
-.review_list_head {
-	position: relative;
-	display: inline-block;
-}
-
-.review_list_head:hover .badge_pop_wrapper {
-	visibility: visible;
-}
-
-.badge_pop_wrapper {
-	visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 108px;
-	width: 286px;
-	z-index: 1;
-	border-radius: 5px;
-	background-color: #FFFFFF;
-	border: 1px solid #DDDDDD;
-	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
-}
-
-.badge_pop_container {
-	text-align: center;
-	position: relative;
-}
-
-.badge_pop_container:after {
-	content: " ";
-	position: absolute;
-	top: 35px;
-	left: -9px;
-	width: 15px;
-	height: 15px;
-	border-left: solid 1px #eaeaea;
-	border-bottom: solid 1px #eaeaea;
-	background-color: #fff;
-	-ms-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
-.badge_pop_container h4 {
-	color: #000000;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 27px;
-	text-align: center;
-	margin-top: 12px;
-}
-
-.badge_pop_container i {
-	display: inline-block;
-	vertical-align: top;
-}
-
-.badge_pop_container .badge_line {
-	position: relative;
-}
-
-.badge_pop_container .badge_line:after {
-	content: "";
-	position: absolute;
-	height: 10px;
-	background-color: 1px solid #979797;
-	border: 1px solid #979797;
-	margin: 10px 0;
-	left: 50%;
-}
-
-.badge_pop_container .recent_badge p {
-	color: #4A4A4A;
-	font-size: 12px;
-	font-weight: bold;
-	line-height: 20px;
-	text-align: center;
-	margin-top: 40px;
-}
-
-.badge_pop_container .recent_badge em {
-	display: block;
-	color: #8F8F8F;
-	font-size: 12px;
-	line-height: 20px;
-	margin-bottom: 10px;
-}
-
-.badge_pop_container .recent_badge ul {
-	
-}
-
-.badge_pop_container .recent_badge ul:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
-.badge_pop_container .recent_badge ul li {
-	float: left;
-}
-
-.badge_pop_container .recent_badge ul li:nth-child(1) {
-	margin-left: 30px;
-	margin-right: 38px;
-}
-
-.badge_pop_container .recent_badge ul li:nth-child(2) {
-	margin-right: 38px;
-}
-
-.badge_pop_container .recent_badge ul li span {
-	display: block;
-	color: #747474;
-	font-size: 12px;
-	line-height: 24px;
-	text-align: center;
-}
-
-.badge_pop_container .recent_badge ul li img {
-	width: 45px;
-	height: 45px;
-}
-
-.badge_pop_container .recent_active p {
-	color: #4A4A4A;
-	font-size: 12px;
-	font-weight: bold;
-	line-height: 20px;
-	text-align: center;
-}
-
-.badge_pop_container .recent_active em {
-	color: #8F8F8F;
-	font-family: SpoqaHanSans;
-	font-size: 12px;
-	line-height: 20px;
-	text-align: center;
-	margin-bottom: 10px;
-	display: inline-block;
-}
-
-.badge_pop_container .recent_active li {
-	float: left;
-	margin-bottom: 22px;
-}
-
-.badge_pop_container .pro_review {
-	margin-right: 21px;
-	margin-left: 35px;
-}
-
-.badge_pop_container .pro_review span img {
-	width: 99px;
-	height: 99px;
-}
-
-.badge_pop_container .pro_review figcaption p {
-	color: #BBBBBB;
-	font-size: 11px;
-	line-height: 17px;
-	text-align: center;
-}
-
-.badge_pop_container .pro_review .act_photo {
-	background-color: red;
-}
-
-.badge_pop_container .act_photo img {
-	width: 99px;
-	height: 99px;
-}
-
-.badge_pop_container .act_photo span {
-	display: block;
-	color: #8F8F8F;
-	font-size: 11px;
-	line-height: 17px;
-	text-align: center;
-}
-
-.badge_pop_container .act_photo p {
-	color: #BBBBBB;
-	font-size: 11px;
-	line-height: 17px;
-	text-align: center;
-}
-/*2번째*/
-.rb_2x li:nth-child(1) {
-	margin-left: 65px !important;
-}
-
-.pro_review_1x {
-	width: 75% !important;
-}
-
-.recent_badge span.none_badge {
-	display: block;
-	color: #DDDDDD;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 27px;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 51px;
-}
-
-.recent_active span.none_badge {
-	display: block;
-	color: #DDDDDD;
-	font-size: 18px;
-	font-weight: bold;
-	line-height: 27px;
-	text-align: center;
-	margin-top: 51px;
-	margin-bottom: 91px;
-}
-</style>
-
-<section id="member" class="sub_layout">
-	<div class="sub_locate">
-		<div class="custom_inner">
-			<dl class="locate_list">
-				<dt><a href="#">홈</a></dt>
-				<dd><a href="#">로그인</a></dd>
-			</dl>
-			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
-		</div>
-	</div>
-	<article class="sub_content">
-		<!-- 상세 페이지 -->
-		<section class="detail_wrap">
-			<!-- 상세 페이지 상단 -->
-			<div class="detail_head">
-				<div class="custom_inner">
-					<div class="detail_thum">
-						<div class="vertical_swiper">
-						    <div class="swiper-container">
-						        <div class="swiper-wrapper">
-						        	<!-- 상세페이지 슬라이드 큰 이미지 -->
-						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
-						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
-						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
-						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
-						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
-						        </div>
-						    </div>
-						    <!-- 좌측 썸네일 네비에이터 이미지가 들어갈 장소 확보 -->
-					        <div class="swiper-pagination"></div>
-					        <!-- 확보 된 네비게이터 엘리먼트에서 자동으로 생성 되는 Span 태그에 아래의 img 태그를 순서대로 Append 함 -->
-					        <div class="vertical_swiper_nav">
-								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
-								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
-								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
-								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
-								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
-					        </div>
-						</div>
-					</div>
-					<div class="detail_cont">
-						<h2>
-							<span class="brand"><a href="#"><img src="../img/brand_sample_x44.png" alt="Nike"></a></span>
-							<strong class="name">NIKE Metcon DSX Flyknit</strong>
-						</h2>
-						<dl class="icon_share_list">
-							<dt><em>41</em> Shares</dt>
-							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
-							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
-							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
-						</dl>
-						<ul class="detail_cont_list">
-							<li class="rating">
-								<strong class="star_rating">
-		   							<i class="star_on"></i>
-		   							<i class="star_on"></i>
-		   							<i class="star_on"></i>
-		   							<i class="star_on"></i>
-		   							<i class="star_off"></i>
-								</strong>
-								<span class="cnt">(1,234)</span>
-							</li>
-							<li class="price">
-								<strong>89,100원</strong>
-								<del>99,000원</del>
-									<span class="icon icon_orange"></span>
-								<style>
 /* 가격 순위 팝업 */
 .icon_orange {
     background-image: url("../img/detail_orange.png");
@@ -335,6 +20,7 @@
 }
 /*가상의 박스*/
 .price_ranking {
+    visibility: hidden;
     position:absolute;
     padding-top:12px;
     top:24px; 
@@ -451,7 +137,7 @@
 	font-size: 10px !important;	
 	line-height: 15px !important;	
 }
-.pr_gauge_area li>em>span {
+.pr_gauge_area li > em > span {
 	color: #9B9B9B !important;
 	font-size: 10px !important;	
 	font-weight: 300 !important;	
@@ -478,10 +164,6 @@
     margin-bottom: 61px;
     position:relative;
 }
-
-.pr_gauge_area .step_bar .bar .step_01 {
-}
-
 .gauge_middle_wrapper {
     display:inline-block; 
     vertical-align:middle;
@@ -491,7 +173,6 @@
     font-size: 12px;	
     line-height: 18px;  
 }
-
 .pr_gauge_area .step_bar .bar {
 	position: absolute;
 /* 	top: 29px; */
@@ -501,7 +182,6 @@
 	border-radius: 4px;
 	background-color: #7053ff;
 }
-
 .pr_gauge_area .step_bar .bar2 {
 	position: absolute;
 /* 	top: 79px; */
@@ -511,7 +191,6 @@
 	border-radius: 4px;
 	background-color: #7053ff;
 }
-
 .pr_gauge_area .step_line1 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -521,7 +200,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line2 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -531,7 +209,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line3 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -541,7 +218,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line4 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -551,7 +227,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line5 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -561,7 +236,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line6 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -571,7 +245,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line7 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -581,7 +254,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line8 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -591,7 +263,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line9 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -601,7 +272,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .step_line10 {
 	background-color: #D8D8D8;
 	position: absolute;
@@ -611,7 +281,6 @@
 	height: 0.99px;
 	width: 6px;
 }
-
 .pr_gauge_area .gauge_middle {
 	position: absolute;
 	width: 96px;
@@ -621,7 +290,6 @@
 	font-size: 12px;
 	line-height: 18px;
 }
-
 .pr_gauge_area .gauge_middle2 {
 	position: absolute;
 	width: 96px;
@@ -631,7 +299,6 @@
 	font-size: 12px;
 	line-height: 18px;
 }
-
 .pr_gauge_area .gauge_middle2>em {
 	color: #000000 !important;
 	font-size: 12px !important;
@@ -640,7 +307,6 @@
 	display: inline-block !important;
 	margin-left: 0 !important;
 }
-
 .pr_gauge_area .gauge_middle>em {
 	color: #000000 !important;
 	font-size: 12px !important;
@@ -649,10 +315,439 @@
 	display: inline-block !important;
 	margin-left: 0 !important;
 }
+/*상품상세페이지*/
+/*상품스펙*/
+.spec_view_st_product_info_top > h3 {
+	color: #333333;	
+	font-size: 24px;	
+	line-height: 36px;
+	margin:28px 0 23px 0;	
+}
+.spec_view_st_product_info_top > p {
+	color: #646464;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;
+	margin-bottom:34px;	
+}
+.spec_view_st_product_info_top > ul {
+	list-style-type:disc;
+	padding-left: 20px;	
+}
+.spec_view_st_product_info_top > ul > li {
+	color: #646464;	
+	font-family: SpoqaHanSans;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;	
+}
+.spec_view_product_spec_area {
+	margin:60px 0 51px 0;
+	position:relative;
+}
+.spec_view_product_spec_area h4 {
+	display:inline-block;
+	color: #000000;	
+	font-size: 14px;	
+	line-height: 24px;
+	margin-right:92px;	
+}
+.spec_view_product_spec_area ul{
+	display:inline-block;
+	vertical-align:top;
+}
+.spec_view_product_spec_area ul > li {
+    position:relative;
+    list-style-type: none;
+    cursor:pointer;
+}
+.spec_view_product_spec_area .spec_view_type {
+	display:inline-block;
+	width:88px;
+	color: #4A4A4A;	
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 36px;	
+}
+.spec_view_product_spec_area .spec_view_explain {
+	width: 101px;	
+	color: #4A4A4A;	
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 36px;	
+	text-align: justify;
+	margin-left:16px;	
+}
+.spec_view_product_spec_area .spec_view_brand_category {
+	margin-left:138px;
+}
+.spec_view_product_spec_area .spec_view_brand_category li span {
+    display:inline-block;	
+    color: #4A4A4A;
+    font-size: 14px;	
+	font-weight: 300;	
+	line-height: 36px;	
+	text-align: justify;
+}
+.spec_view_product_spec_area .spec_view_brand_category li span:nth-child(1) {
+	width: 57px;	
+}
+.spec_view_product_spec_area .spec_view_brand_category li span:nth-child(2){
+	width: 140px;	
+	color: #4A4A4A;	
+	margin-left:23px;	
+}
+.spec_view_product_spec_area ul .spec_view_brand img {
+	width:25px;
+	height:15px;
+}
+.spec_view_product_spec_area ul > li:hover .spec_view_tip_buble {
+    display:block;
+}
+.spec_view_tip_buble {
+	display:none;
+	width: 611px;	
+	border: 1px solid #7053FF;	
+	border-radius: 4px;	
+	background-color: #FFFFFF;	
+}
+.spec_view_tip_buble:before {
+	content:'';
+	display:block;
+	position:absolute;
+    top: 32px;
+    left:-6px;
+    width: 10px;
+    height: 10px; 
+    background: #FFFFFF;
+    border-right:1px solid #7053FF;
+    border-bottom:1px solid #7053FF;
+    transform:rotate(-223deg);
+    -moz-transform:rotate(-223deg);
+    -webkit-transform:rotate(-223deg);    	
+}
+.spec_view_product_spec_area ul > li:hover .spec_view_tip_buble {
+    position:absolute;
+	top:0px;
+	left:280px;
+	color: #4A4A4A;
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 24px;
+	padding:5px 0 5px 20px;
+}
+.spec_view_product_spec_area ul > li:hover .spec_view_tip_buble:before {
+    top:50%;
+    margin-top:-7px;
+}
+.spec_view_st_product_info_bottom:after {
+	content:"";
+	clear:both;
+	display:block;
+}
+.spec_view_st_product_info_bottom > h3 {
+	color: #000000;	
+	font-size: 16px;	
+	line-height: 21px;
+	margin-bottom:7px;	
+}
+.spec_view_st_product_info_bottom > p {
+	width:490px;
+	height:144px;
+	color: #000000;		
+	font-size: 14px;	
+	font-weight: 300;	
+	line-height: 24px;	
+	text-align: justify;
+	float:left;	
+}
+.spec_view_st_product_info_bottom > p > span {
+	color: #000000;	
+	font-size: 14px;	
+	line-height: 24px;	
+	text-align: justify;
+	font-weight:500;
+	margin-left:5px;	
+}
+.spec_view_st_product_info_bottom .spec_view_st_des1 {
+	margin-right:20px;
+}
+/* 무료배송 텍스트 */
+.sd_free_ship_title {
+	margin-top: 29px;
+	margin-bottom: 27px;
+}
+.sd_free_ship_title em {
+	display: inline-block;
+	color: #000000;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 19px;
+	margin-right: 14px;
+}
+.sd_free_ship_title p {
+	display: inline-block;
+	color: #000000;
+	font-size: 13px;
+	line-height: 19px;
+}
+.sd_free_ship_title p span {
+	color: #F5A623;
+	font-size: 13px;
+	line-height: 19px;
+}
+/* 상세페이지 리뷰 */
+.review_list_head {
+	position: relative;
+	display: inline-block;
+}
+.review_list_head:hover .badge_pop_wrapper {
+	visibility: visible;
+}
+.badge_pop_wrapper {
+	visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 108px;
+	width: 286px;
+	z-index: 1;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+}
+.badge_pop_container {
+	text-align: center;
+	position: relative;
+}
+.badge_pop_container:after {
+	content: " ";
+	position: absolute;
+	top: 35px;
+	left: -9px;
+	width: 15px;
+	height: 15px;
+	border-left: solid 1px #eaeaea;
+	border-bottom: solid 1px #eaeaea;
+	background-color: #fff;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+.badge_pop_container h4 {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	text-align: center;
+	margin-top: 12px;
+}
+.badge_pop_container i {
+	display: inline-block;
+	vertical-align: top;
+}
+.badge_pop_container .badge_line {
+	position: relative;
+}
+.badge_pop_container .badge_line:after {
+	content: "";
+	position: absolute;
+	height: 10px;
+	background-color: 1px solid #979797;
+	border: 1px solid #979797;
+	margin: 10px 0;
+	left: 50%;
+}
+.badge_pop_container .recent_badge p {
+	color: #4A4A4A;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
+.badge_pop_container .recent_badge em {
+	display: block;
+	color: #8F8F8F;
+	font-size: 12px;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+.badge_pop_container .recent_badge ul:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.badge_pop_container .recent_badge ul li {
+	float: left;
+}
+.badge_pop_container .recent_badge ul li:nth-child(1) {
+	margin-left: 30px;
+	margin-right: 38px;
+}
+.badge_pop_container .recent_badge ul li:nth-child(2) {
+	margin-right: 38px;
+}
+.badge_pop_container .recent_badge ul li span {
+	display: block;
+	color: #747474;
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center;
+}
+.badge_pop_container .recent_badge ul li img {
+	width: 45px;
+	height: 45px;
+}
+.badge_pop_container .recent_active p {
+	color: #4A4A4A;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+}
+.badge_pop_container .recent_active em {
+	color: #8F8F8F;
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+.badge_pop_container .recent_active li {
+	float: left;
+	margin-bottom: 22px;
+}
+.badge_pop_container .pro_review {
+	margin-right: 21px;
+	margin-left: 35px;
+}
+.badge_pop_container .pro_review span img {
+	width: 99px;
+	height: 99px;
+}
+.badge_pop_container .pro_review figcaption p {
+	color: #BBBBBB;
+	font-size: 11px;
+	line-height: 17px;
+	text-align: center;
+}
+.badge_pop_container .pro_review .act_photo {
+	background-color: red;
+}
+.badge_pop_container .act_photo img {
+	width: 99px;
+	height: 99px;
+}
+.badge_pop_container .act_photo span {
+	display: block;
+	color: #8F8F8F;
+	font-size: 11px;
+	line-height: 17px;
+	text-align: center;
+}
+.badge_pop_container .act_photo p {
+	color: #BBBBBB;
+	font-size: 11px;
+	line-height: 17px;
+	text-align: center;
+}
+/*2번째*/
+.rb_2x li:nth-child(1) {
+	margin-left: 65px !important;
+}
+.pro_review_1x {
+	width: 75% !important;
+}
+.recent_badge span.none_badge {
+	display: block;
+	color: #DDDDDD;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 51px;
+}
+.recent_active span.none_badge {
+	display: block;
+	color: #DDDDDD;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 27px;
+	text-align: center;
+	margin-top: 51px;
+	margin-bottom: 91px;
+}
+</style>
 
-
-								
-								</style>
+<section id="member" class="sub_layout">
+	<div class="sub_locate">
+		<div class="custom_inner">
+			<dl class="locate_list">
+				<dt><a href="#">홈</a></dt>
+				<dd><a href="#">로그인</a></dd>
+			</dl>
+			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
+		</div>
+	</div>
+	<article class="sub_content">
+		<!-- 상세 페이지 -->
+		<section class="detail_wrap">
+			<!-- 상세 페이지 상단 -->
+			<div class="detail_head">
+				<div class="custom_inner">
+					<div class="detail_thum">
+						<div class="vertical_swiper">
+						    <div class="swiper-container">
+						        <div class="swiper-wrapper">
+						        	<!-- 상세페이지 슬라이드 큰 이미지 -->
+						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
+						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
+						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
+						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
+						            <div class="swiper-slide"><div class="slide_img"><img src="../img/detail_sample_big.png" alt="상세이미지"></div></div>
+						        </div>
+						    </div>
+						    <!-- 좌측 썸네일 네비에이터 이미지가 들어갈 장소 확보 -->
+					        <div class="swiper-pagination"></div>
+					        <!-- 확보 된 네비게이터 엘리먼트에서 자동으로 생성 되는 Span 태그에 아래의 img 태그를 순서대로 Append 함 -->
+					        <div class="vertical_swiper_nav">
+								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
+								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
+								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
+								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
+								<img src="../img/detail_sample_nav.png" alt="상세썸네일">
+					        </div>
+						</div>
+					</div>
+					<div class="detail_cont">
+						<h2>
+							<span class="brand"><a href="#"><img src="../img/brand_sample_x44.png" alt="Nike"></a></span>
+							<strong class="name">NIKE Metcon DSX Flyknit</strong>
+						</h2>
+						<dl class="icon_share_list">
+							<dt><em>41</em> Shares</dt>
+							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
+							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
+							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
+						</dl>
+						<ul class="detail_cont_list">
+							<li class="rating">
+								<strong class="star_rating">
+		   							<i class="star_on"></i>
+		   							<i class="star_on"></i>
+		   							<i class="star_on"></i>
+		   							<i class="star_on"></i>
+		   							<i class="star_off"></i>
+								</strong>
+								<span class="cnt">(1,234)</span>
+							</li>
+							<li class="price">
+								<strong>89,100원</strong>
+								<del>99,000원</del>
+									<span class="icon icon_orange"></span>
 								<div class="price_ranking">
     								<div class="price_ranking_wrapper">
     									<div class="price_ranking_container">
@@ -667,7 +762,7 @@
     														<div class="gauge">
     															<div class="step_bar">
     															  <div class="step_bar_vs">	
-    																<span class="bar step_01" style="top:100%;">
+    																<span class="bar step_01" style="top:42%;">
         																<span class="gauge_middle">
         																	평균보다 조금 높음
         																	<em>89,100</em>
@@ -735,7 +830,6 @@
 								<!-- 현재 작업 -->	
 							</li>
 						</ul>
-
 						<dl class="detail_cont_opt">
 							<dt class="opt_tit">
 								<em>컬러 : BLACK/RED</em>
@@ -1286,166 +1380,6 @@
     						다.
     					</p>
     				</div>
-				    <!-- 상세 페이지 내용 CSS -->
-                    <style>
-                    /*상품상세페이지*/
-                    /*상품스펙*/
-                    .spec_view_st_product_info_top > h3 {
-                    	color: #333333;	
-                    	font-size: 24px;	
-                    	line-height: 36px;
-                    	margin:28px 0 23px 0;	
-                    }
-                    .spec_view_st_product_info_top > p {
-                    	color: #646464;	
-                    	font-size: 14px;	
-                    	line-height: 24px;	
-                    	text-align: justify;
-                    	margin-bottom:34px;	
-                    }
-                    .spec_view_st_product_info_top > ul {
-                    	list-style-type:disc;
-                    	padding-left: 20px;	
-                    }
-                    .spec_view_st_product_info_top > ul > li {
-                    	color: #646464;	
-                    	font-family: SpoqaHanSans;	
-                    	font-size: 14px;	
-                    	line-height: 24px;	
-                    	text-align: justify;	
-                    }
-                    .spec_view_product_spec_area {
-                    	margin:60px 0 51px 0;
-                    	position:relative;
-                    }
-                    .spec_view_product_spec_area h4 {
-                    	display:inline-block;
-                    	color: #000000;	
-                    	font-size: 14px;	
-                    	line-height: 24px;
-                    	margin-right:92px;	
-                    }
-                    .spec_view_product_spec_area ul{
-                    	display:inline-block;
-                    	vertical-align:top;
-                    }
-                    .spec_view_product_spec_area ul > li {
-                        position:relative;
-                        list-style-type: none;
-                        cursor:pointer;
-                    }
-                    .spec_view_product_spec_area .spec_view_type {
-                    	display:inline-block;
-                    	width:88px;
-                    	color: #4A4A4A;	
-                    	font-size: 14px;	
-                    	font-weight: 300;	
-                    	line-height: 36px;	
-                    }
-                    .spec_view_product_spec_area .spec_view_explain {
-                    	width: 101px;	
-                    	color: #4A4A4A;	
-                    	font-size: 14px;	
-                    	font-weight: 300;	
-                    	line-height: 36px;	
-                    	text-align: justify;
-                    	margin-left:16px;	
-                    }
-                    .spec_view_product_spec_area .spec_view_brand_category {
-                    	margin-left:138px;
-                    }
-                    .spec_view_product_spec_area .spec_view_brand_category li span {
-                        display:inline-block;	
-                        color: #4A4A4A;
-                        font-size: 14px;	
-                    	font-weight: 300;	
-                    	line-height: 36px;	
-                    	text-align: justify;
-                    }
-                    .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(1) {
-                    	width: 57px;	
-                    }
-                    .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(2){
-                    	width: 140px;	
-                    	color: #4A4A4A;	
-                    	margin-left:23px;	
-                    }
-                    .spec_view_product_spec_area ul .spec_view_brand img {
-                    	width:25px;
-                    	height:15px;
-                    }
-                    .spec_view_product_spec_area ul > li:hover .spec_view_tip_buble {
-                        display:block;
-                    }
-                    .spec_view_tip_buble {
-                    	display:none;
-                    	width: 611px;	
-                    	border: 1px solid #7053FF;	
-                    	border-radius: 4px;	
-                    	background-color: #FFFFFF;	
-                    }
-                    .spec_view_tip_buble:before {
-                    	content:'';
-                    	display:block;
-                    	position:absolute;
-                        top: 32px;
-                        left:-6px;
-                        width: 10px;
-                        height: 10px; 
-                        background: #FFFFFF;
-                        border-right:1px solid #7053FF;
-                        border-bottom:1px solid #7053FF;
-                        transform:rotate(-223deg);
-                        -moz-transform:rotate(-223deg);
-                        -webkit-transform:rotate(-223deg);    	
-                    }
-                    .spec_view_product_spec_area ul > li:hover .spec_view_tip_buble {
-                        position:absolute;
-                    	top:0px;
-                    	left:280px;
-                    	color: #4A4A4A;
-                    	font-size: 14px;	
-                    	font-weight: 300;	
-                    	line-height: 24px;
-                    	padding:5px 0 5px 20px;
-                    }
-                    .spec_view_product_spec_area ul > li:hover .spec_view_tip_buble:before {
-                        top:50%;
-                        margin-top:-7px;
-                    }
-                    .spec_view_st_product_info_bottom:after {
-                    	content:"";
-                    	clear:both;
-                    	display:block;
-                    }
-                    .spec_view_st_product_info_bottom > h3 {
-                    	color: #000000;	
-                    	font-size: 16px;	
-                    	line-height: 21px;
-                    	margin-bottom:7px;	
-                    }
-                    .spec_view_st_product_info_bottom > p {
-                    	width:490px;
-                    	height:144px;
-                    	color: #000000;		
-                    	font-size: 14px;	
-                    	font-weight: 300;	
-                    	line-height: 24px;	
-                    	text-align: justify;
-                    	float:left;	
-                    }
-                    .spec_view_st_product_info_bottom > p > span {
-                    	color: #000000;	
-                    	font-size: 14px;	
-                    	line-height: 24px;	
-                    	text-align: justify;
-                    	font-weight:500;
-                    	margin-left:5px;	
-                    }
-                    .spec_view_st_product_info_bottom .spec_view_st_des1 {
-                    	margin-right:20px;
-                    }
-                    </style>
 				</div>
 			</div>
 			<div id="productReview">

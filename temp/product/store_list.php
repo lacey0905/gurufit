@@ -1,3 +1,85 @@
+			<style>
+			    .sl_sort_attribute .select_sort dt {
+			     position:relative;
+			     display:inline-block;
+			    }
+			    .sl_sort_attribute .select_sort dt:hover .mz_sort_pop_container {
+			     visibility: visible;
+			    }
+			    .sl_sort_attribute .select_sort dt img {
+			     vertical-align:middle;
+			     padding-bottom:2px;
+			    } 
+                .sl_sort_attribute .mz_sort_pop_wrapper {
+                 position:absolute;
+                 padding-top:30px;
+                 top:9px;
+                 right:-79px;
+                }
+                .sl_sort_attribute .mz_sort_pop_container {
+                 visibility: hidden;
+                 width:280px;
+                 background-color:#ffffff;
+                 border:1px solid #dddddd;
+                 box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+                 border-radius: 5px; 
+                 z-index:1;               
+                }
+                .sl_sort_attribute .mz_sort_pop_container:before {
+                 content:'';
+                 display:block;
+                 position: absolute;
+                 top: 25px;
+                 left: 134px;
+                 width: 10px;
+                 height: 10px;
+                 background:#FFFFFF;
+                 border-right:1px solid #DDDDDD;
+                 border-bottom:1px solid #DDDDDD;
+                 tranasform: rotate(223deg);
+                 -moz-transform:rotate(223deg);
+                 -ms-transform: rotate(223deg);                 
+                 -webkit-transform:rotate(-136deg);                  
+                }
+                .sl_sort_attribute .mz_sort_pop h4 {
+                 color: #000000;		
+                 font-size: 18px;	
+                 font-weight: bold;	
+                 line-height: 27px;	
+                 text-align: center;
+                 margin-top: 23px;
+                 position:relative;        	       
+                }
+                .sl_sort_attribute .mz_sort_pop h4:after {
+                 content: "";
+                 position: absolute;
+                 left: 50%;
+                 bottom: -17px;
+                 width:1px;
+                 height: 10px;
+                 border-left: solid 1px #979797;
+                }
+                .sl_sort_attribute .mz_sort_pop dl {
+                 text-align:left;
+                 margin-top:30px;
+                }
+                .sl_sort_attribute .mz_sort_pop dl dt {
+                 margin-left:22px;
+                 color: #4A4A4A;	
+                 font-size: 13px;	
+                 font-weight: bold;	
+                 line-height: 27px;        	       
+                }
+                .sl_sort_attribute .mz_sort_pop dl dd {
+                 margin-left:22px;
+                 color: #747474;		
+                 font-size: 12px;	
+                 line-height: 20px;
+                 margin-bottom:18px;
+                 display:block !important;        	       
+                }                                                                                		 
+			</style>
+
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -37,19 +119,50 @@
 		</section>
 		<?php include "../inc/prd_side.php" ?>
 		<section class="content_area">
-			<dl class="select_sort">
-				<dt>정렬 기준</dt>
-				<dd>
-					<div class="sel_custom sel_nm_box sel_mid">
-						<select>
-							<option>추천 제품 순</option>
-							<option>최신 제품 순</option>
-							<option>제품 이름 순</option>
-							<option>제품 브랜드 순</option>
-						</select>
-					</div>
-				</dd>
-			</dl>
+			<div class="sl_sort_attribute">
+    			<dl class="select_sort">
+    				<dt>
+    					<img src="../img/sort_pop_ico.png">
+    					정렬 기준
+            			<div class="mz_sort_pop_wrapper">    					
+                			<div class="mz_sort_pop_container">    
+                				<div class="mz_sort_pop">
+                					<h4>정렬 속성</h4>
+                					<dl>
+                						<dt>개인 추천 순</dt>
+                						<dd>
+                						고객 정보(성별,연령,구매내역 등); 사이트 이용 정<br>
+                						보(검색,조회,구매,평가,공유 등); 구루핏이 보유하<br>
+                						고 있는 '컨텐츠 정보'를 기반으로 고객의 관심사를<br>
+                						분석하여 관련성이 높은 콘텐츠 순으로 정렬됩니다.	
+                						</dd>
+                						<dt>신상품 순</dt>
+                						<dd>상품 출시 순으로 정렬 됩니다.</dd>
+                						<dt>낮은 가격 순</dt>
+                						<dd>가격이 낮은 순으로 정렬 됩니다.</dd>
+                						<dt>높은 가격 순</dt>
+                						<dd>가격이 높은 순으로 정렬 됩니다.</dd>
+                						<dt>고객 평점 높은 순</dt>
+                						<dd>평점이 높은 순으로 정렬 됩니다.</dd>
+                						<dt>인기 상품 순</dt>
+                						<dd>하트 리스트에 많이 담긴 상품 순으로 정렬 됩니다.</dd>
+                					</dl>
+                				</div>
+                			</div>	
+            			</div>    					
+    				</dt>
+    				<dd>
+    					<div class="sel_custom sel_nm_box sel_mid">
+    						<select>
+    							<option>추천 제품 순</option>
+    							<option>최신 제품 순</option>
+    							<option>제품 이름 순</option>
+    							<option>제품 브랜드 순</option>
+    						</select>
+    					</div>
+    				</dd>
+    			</dl>
+			</div>
 			<!-- 진열 영역 -->
 			<article class="custom_prd prd_type_b">
 				<ul class="x4 opt_pop">

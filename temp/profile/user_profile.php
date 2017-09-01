@@ -1,3 +1,81 @@
+<style>
+	.user_profile_photo h4 {
+		position: relative;
+		font-weight: bold;
+		font-size: 35px;
+		text-align: center;
+		color: #000;
+		line-height: 55px;
+		padding: 30px 0px;
+		margin-bottom: 30px;
+	}
+	.user_profile_photo h4:after {
+		content: " ";
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		width: 1px;
+		height: 16px;
+		border-left: solid 1px #979797;					
+	}
+	.user_profile_photo h4 span {
+		font-weight: normal;
+		font-size: 35px;
+	}				
+	.follow_guru_wrapper {
+		margin-top:22px;
+		margin-bottom:22px;
+	}
+	.follow_guru_wrapper:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.follow_guru_wrapper ul li {
+		float:left;
+	}
+	.follow_guru_wrapper .follow_photo img{
+		height: 68px;	
+		width: 68px;	
+		transform: scaleX(-1);	
+		border-radius: 4px;
+	}
+	.follow_guru_wrapper .follow_txt {
+		margin-left:10px;					
+	}
+	.follow_guru_wrapper .follow_txt strong {
+		color: #000000;		
+		font-size: 15px;	
+		line-height: 24px;
+		margin-bottom: 3px;				
+	}
+	.follow_guru_wrapper .follow_txt p {
+		color: #9B9B9B;	
+		font-size: 13px;	
+		line-height: 18px;					
+	}
+	.follow_guru_wrapper .follow_btn {
+		margin-left:16px;
+		margin-top:20px;
+	}
+	/*버튼을 만들어야 해요...*/
+	.follow_guru_wrapper .follow_btn a {
+		width:81px;
+		height:30px;
+		border:1px solid #8F8F8F;
+		border-radius: 3px;
+		padding:5px 22px 6px 23px;
+		
+		color: #8F8F8F;	
+		font-size: 13px;	
+		font-weight: 300;	
+		line-height: 19px;	
+		text-align: center;					
+	}
+	.follow_guru_wrapper .follow_btn a:hover {
+		border: solid 1px #7053ff;
+	}
+</style>
 <?php include "../inc/header.php" ?>
 <section id="member" class="sub_layout">
 	<div class="sub_locate">
@@ -164,84 +242,6 @@
 					</div>																					
 				</div>	
 			</div>
-			<style>
-				.user_profile_photo h4 {
-					position: relative;
-					font-weight: bold;
-					font-size: 35px;
-					text-align: center;
-					color: #000;
-					line-height: 55px;
-					padding: 30px 0px;
-					margin-bottom: 30px;
-				}
-				.user_profile_photo h4:after {
-					content: " ";
-					position: absolute;
-					left: 50%;
-					bottom: 0;
-					width: 1px;
-					height: 16px;
-					border-left: solid 1px #979797;					
-				}
-				.user_profile_photo h4 span {
-					font-weight: normal;
-					font-size: 35px;
-				}				
-				.follow_guru_wrapper {
-					margin-top:22px;
-					margin-bottom:22px;
-				}
-				.follow_guru_wrapper:after {
-					content:"";
-					display:block;
-					clear:both;
-				}
-				.follow_guru_wrapper ul li {
-					float:left;
-				}
-				.follow_guru_wrapper .follow_photo img{
-					height: 68px;	
-					width: 68px;	
-					transform: scaleX(-1);	
-					border-radius: 4px;
-				}
-				.follow_guru_wrapper .follow_txt {
-					margin-left:10px;					
-				}
-				.follow_guru_wrapper .follow_txt strong {
-					color: #000000;		
-					font-size: 15px;	
-					line-height: 24px;
-					margin-bottom: 3px;				
-				}
-				.follow_guru_wrapper .follow_txt p {
-					color: #9B9B9B;	
-					font-size: 13px;	
-					line-height: 18px;					
-				}
-				.follow_guru_wrapper .follow_btn {
-					margin-left:16px;
-					margin-top:20px;
-				}
-				/*버튼을 만들어야 해요...*/
-				.follow_guru_wrapper .follow_btn a {
-					width:81px;
-					height:30px;
-					border:1px solid #8F8F8F;
-					border-radius: 3px;
-					padding:5px 22px 6px 23px;
-					
-					color: #8F8F8F;	
-					font-size: 13px;	
-					font-weight: 300;	
-					line-height: 19px;	
-					text-align: center;					
-				}
-				.follow_guru_wrapper .follow_btn a:hover {
-					border: solid 1px #7053ff;
-				}
-			</style>
 			<div class="dash_tab_wrap">
 				<ul class="tab_nav">
 					<li class="active"><a href="#none">리뷰</a></li>

@@ -147,9 +147,7 @@
 					font-size: 15px;	
 					line-height: 22px;	
 					text-align: center;					
-				}
-
-				
+				}				
 			</style>
 			<div class="tab_cont guru_f_cont">
 				<ul class="tab_info_count">
@@ -197,13 +195,19 @@
 					color:#000;
 					line-height:103px;
 				}	
-			</style>		
-			<div class="dash_tab_wrap">
-				<ul class="tab_nav">
-					<li class="active"><a href="#none">최신 콘텐츠</a></li>
-					<li class=""><a href="#none">인기 콘텐츠</a></li>
-				</ul>		
-			</div>
+			</style>
+			<div class="dash_tab_wrap">			
+				<nav class="detail_nav">
+					<div class="custom_inner">
+						<ul>
+							<li><a href="#none">최신 콘텐츠</a></li>
+							<li class="active"><a href="#none">인기 콘텐츠</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>	
+			<style>
+			</style>
 			<div class="prd_list_type">
                 <article class="custom_prd prd_type_a">
             		<ul class="x4">
@@ -293,7 +297,7 @@
    			$(".dash_tab_wrap").sectionDisplay({
    				act : "click",
    				start:0,
-   				nav : $('.dash_tab_wrap .tab_nav'),
+   				nav : $('.dash_tab_wrap .detail_nav'),
    				auto: false
    			});
    		});

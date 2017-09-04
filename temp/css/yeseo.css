@@ -11029,7 +11029,7 @@
 }
 
 
-/*2017년 8월 29일 color 수정*/
+/*2017년 color 수정*/
 /* 블랙 */
 .cbox_color [type="checkbox"].c_black + .box:before {
 	background-color:#000000;
@@ -11038,7 +11038,7 @@
 /* 화이트  */
 .cbox_color [type="checkbox"].c_white + .box:before {
 	background-color:#fff;
-	border-color:#fff;
+	border-color:#979797;
 }
 /* 회색  */
 .cbox_color [type="checkbox"].c_grey + .box:before {
@@ -11087,8 +11087,8 @@
 }
 /* 아이보리  */
 .cbox_color [type="checkbox"].c_Ivory + .box:before {
-	background-color:#fffff0;
-	border-color:#fffff0;
+	background-color:#F2EFD7;
+	border-color:#F2EFD7;
 }
 /* 골드  */
 .cbox_color [type="checkbox"].c_gold + .box:before {
@@ -11102,13 +11102,14 @@
 }
 /* 멀티  */
 .cbox_color [type="checkbox"].c_multi + .box:before {
-	background-color:#######;
-	border-color:#000;
+/* 	background-color:#######; */
+	border-color:#979797;
 }
 /* 네이비  */
 .cbox_color [type="checkbox"].c_navy + .box:before {
 	background-color:#000080;
 	border-color:#000080;
 }
+
 
 

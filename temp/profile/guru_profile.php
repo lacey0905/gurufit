@@ -1,3 +1,137 @@
+<style>
+	.guru_profile_info {
+	}
+	.guru_profile_info h4 {
+		position: relative;
+		font-weight: bold;
+		font-size: 35px;
+		text-align: center;
+		color: #000;
+		line-height: 55px;
+		padding: 30px 0px;
+		margin-bottom: 30px;
+	}
+	.guru_profile_info h4:after {
+		content: " ";
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		width: 1px;
+		height: 16px;
+		border-left: solid 1px #979797;
+	}
+	.guru_p_inner {
+		margin-bottom:40px;	
+	}
+	.guru_p_inner:after {
+		content:"";
+		display:block;
+		clear:both;
+	}
+	.guru_p_inner ul li {
+		float:left;
+	}
+	.guru_p_tag {
+		width:360px;
+	}
+	.guru_p_tag > p {
+		color: #9B9B9B;	
+		font-size: 13px;	
+		line-height: 18px;
+		margin-top: 67px;					
+	}
+	.guru_p_tag > em {
+		color: #BBBBBB;	
+		font-size: 13px;	
+		line-height: 15px;
+		margin-top:12px;
+		margin-bottom:18px;
+		display:inline-block;					
+	}
+	.guru_p_tag .hash li {
+		display:inline-block;
+		margin: 0 6px 6px 0;
+	}
+	.guru_p_tag .hash li a {
+		display: block;
+		min-width: 52px;
+		font-size: 14px;
+		line-height: 28px;
+		color: #9B9B9B;
+		text-align: center;
+		background-color: #F0F0F0;
+		padding:0 15px;
+		border-radius:5px;
+	}
+	.guru_p_pho {
+		margin-left:48px;
+	}
+	.guru_p_pho img {
+		width:300px;
+		height:300px;
+	}
+	.guru_p_button {
+		margin-top:130px;
+		margin-left:34px;	
+	}
+	.guru_p_button span {
+		display:inline-block;
+		color: #BBBBBB;	
+		font-size: 12px;	
+		line-height: 15px;	
+		text-align: right;
+		margin-right:13px;					
+	}
+	.guru_p_button .btn {
+		display:inline-block;
+		width:140px;
+		border-radius:3px;
+		background-color:#7053FF;
+		text-align:center;					
+	}
+	.guru_p_button .btn:hover {
+		box-shadow: 3px 3px 0 0 #e6e1ff;					
+	}
+	.guru_p_button .btn a {
+		display:block;
+		padding-top:9px;
+		padding-bottom:9px;
+		text-align:center;
+		color: #FFFFFF;		
+		font-size: 15px;	
+		line-height: 22px;	
+		text-align: center;					
+	}
+	.guru_f_cont .tab_info_count {
+		display:table;
+		width:100%;
+		padding: 45px 0 37px;
+		border:solid 1px #ebebeb;
+	}
+	.guru_f_cont .tab_info_count li {
+		display:table-cell;
+		width:33%;
+		text-align:center;
+		padding-bottom:10px;
+		border-left: solid 1px #ebebeb;
+	}
+	.guru_f_cont .tab_info_count li:first-child {
+		border-left:0;
+	}
+	.guru_f_cont .tab_info_count .cate {
+		display:block;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		color:#4a4a4a;
+	}
+	.guru_f_cont .tab_info_count .count {
+		display:block;
+		font-size:70px;
+		color:#000;
+		line-height:103px;
+	}					
+</style>
 <?php include "../inc/header.php" ?>
 <section id="member" class="sub_layout">
 	<div class="sub_locate">
@@ -44,113 +178,6 @@
 					</ul>
 				</div>
 			</div>
-			<style>
-				.guru_profile_info {
-				}
-				.guru_profile_info h4 {
-					position: relative;
-					font-weight: bold;
-					font-size: 35px;
-					text-align: center;
-					color: #000;
-					line-height: 55px;
-					padding: 30px 0px;
-					margin-bottom: 30px;
-				}
-				.guru_profile_info h4:after {
-					content: " ";
-					position: absolute;
-					left: 50%;
-					bottom: 0;
-					width: 1px;
-					height: 16px;
-					border-left: solid 1px #979797;
-				}
-				.guru_p_inner {
-					margin-bottom:40px;	
-				}
-				.guru_p_inner:after {
-					content:"";
-					display:block;
-					clear:both;
-				}
-				.guru_p_inner ul li {
-					float:left;
-				}
-				.guru_p_tag {
-					width:360px;
-				}
-				.guru_p_tag > p {
-					color: #9B9B9B;	
-					font-size: 13px;	
-					line-height: 18px;
-					margin-top: 67px;					
-				}
-				.guru_p_tag > em {
-					color: #BBBBBB;	
-					font-size: 13px;	
-					line-height: 15px;
-					margin-top:12px;
-					margin-bottom:18px;
-					display:inline-block;					
-				}
-				.guru_p_tag .hash li {
-					display:inline-block;
-					margin: 0 6px 6px 0;
-				}
-				.guru_p_tag .hash li a {
-					display: block;
-					min-width: 52px;
-					font-size: 14px;
-					line-height: 28px;
-					color: #9B9B9B;
-					text-align: center;
-					background-color: #F0F0F0;
-					padding:0 15px;
-					border-radius:5px;
-				}
-				.guru_p_pho {
-					margin-left:48px;
-				}
-				.guru_p_pho img {
-					width:300px;
-					height:300px;
-				}
-				.guru_p_button {
-					margin-top:130px;
-					margin-left:34px;	
-				}
-				.guru_p_button span {
-					display:inline-block;
-					color: #BBBBBB;	
-					font-size: 12px;	
-					line-height: 15px;	
-					text-align: right;
-					margin-right:13px;					
-				}
-				.guru_p_button .btn {
-					display:inline-block;
-					width:140px;
-					border-radius:3px;
-					background-color:#7053FF;
-					text-align:center;					
-				}
-				.guru_p_button .btn:hover {
-					box-shadow: 3px 3px 0 0 #e6e1ff;					
-				}
-				.guru_p_button .btn a {
-					display:block;
-					padding-top:9px;
-					padding-bottom:9px;
-					text-align:center;
-					color: #FFFFFF;		
-					font-size: 15px;	
-					line-height: 22px;	
-					text-align: center;					
-				}
-
-				
-			</style>
 			<div class="tab_cont guru_f_cont">
 				<ul class="tab_info_count">
 					<li>
@@ -167,43 +194,16 @@
 					</li>
 				</ul>			
 			</div>
-			<style>
-				.guru_f_cont .tab_info_count {
-					display:table;
-					width:100%;
-					padding: 45px 0 37px;
-					border:solid 1px #ebebeb;
-				}
-				.guru_f_cont .tab_info_count li {
-					display:table-cell;
-					width:33%;
-					text-align:center;
-					padding-bottom:10px;
-					border-left: solid 1px #ebebeb;
-				}
-				.guru_f_cont .tab_info_count li:first-child {
-					border-left:0;
-				}
-				.guru_f_cont .tab_info_count .cate {
-					display:block;
-					font-size: 16px;
-					font-weight: 400;
-					line-height: 24px;
-					color:#4a4a4a;
-				}
-				.guru_f_cont .tab_info_count .count {
-					display:block;
-					font-size:70px;
-					color:#000;
-					line-height:103px;
-				}	
-			</style>		
-			<div class="dash_tab_wrap">
-				<ul class="tab_nav">
-					<li class="active"><a href="#none">최신 콘텐츠</a></li>
-					<li class=""><a href="#none">인기 콘텐츠</a></li>
-				</ul>		
-			</div>
+			<div class="dash_tab_wrap">			
+				<nav class="detail_nav">
+					<div class="custom_inner">
+						<ul>
+							<li><a href="#none">최신 콘텐츠</a></li>
+							<li class="active"><a href="#none">인기 콘텐츠</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>	
 			<div class="prd_list_type">
                 <article class="custom_prd prd_type_a">
             		<ul class="x4">
@@ -293,11 +293,10 @@
    			$(".dash_tab_wrap").sectionDisplay({
    				act : "click",
    				start:0,
-   				nav : $('.dash_tab_wrap .tab_nav'),
+   				nav : $('.dash_tab_wrap .detail_nav'),
    				auto: false
    			});
    		});
 	</script>	
 </section>
 <?php include "../inc/footer.php" ?>
- 

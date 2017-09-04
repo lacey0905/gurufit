@@ -5,7 +5,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -759,13 +759,14 @@
 		</div>
 		<h3 class="tit_sub_a">
 			<em>배송지 정보</em>
-    		<span class="custom_cbox cbox_c cbox_s_s add_opt">
+			<!--오픈베타에서는 사용하지 않기 당분간 보류 -->
+<!--     		<span class="custom_cbox cbox_c cbox_s_s add_opt">
     			<label>
     				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
     				<span class="box"></span>
     				<span class="label">선물인가요?</span>
     			</label>
-    		</span>
+    		</span> -->
 		</h3>
 		<!-- 새로운 배송지 -->
 		<div class="addr_wrap">
@@ -844,12 +845,13 @@
 							<input type="text" class="inp_nm_box h_mid w_xf">
 						</td>
 					</tr>
-					<tr>
+					<!-- 오픈베타에서는 사용 안함 보류 상태 -->
+<!-- 					<tr>
 						<th class="ord_pt_box_tit">선물 메세지</th>
 						<td>
 							<textarea class="ord_pt_box" name="textarea"></textarea>							
 						</td>
-					</tr>
+					</tr> -->
 				</tbody>
 			</table>			
     		<div class="addr_result">

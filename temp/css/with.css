@@ -2744,85 +2744,103 @@
 
 
 /* 블랙 */
+.detial_color_list li.c_black,
 .cbox_color [type="checkbox"].c_black + .box:before {
 	background-color:#000000;
 	border-color:#000000;
 }
 /* 화이트  */
+.detial_color_list li.c_white,
 .cbox_color [type="checkbox"].c_white + .box:before {
 	background-color:#fff;
 	border-color:#979797;
 }
 /* 회색  */
+.detial_color_list li.c_grey,
 .cbox_color [type="checkbox"].c_grey + .box:before {
 	background-color:#808080;
 	border-color:#808080;
 }
 /* 레드 */
+.detial_color_list li.c_red,
 .cbox_color [type="checkbox"].c_red + .box:before {
 	background-color:#ff0000;
 	border-color:#ff0000;
 }
 /* 블루 */
+.detial_color_list li.c_blue,
 .cbox_color [type="checkbox"].c_blue + .box:before {
 	background-color:#0000ff;
 	border-color:#0000ff;
 }
 /* 옐로우 */
+.detial_color_list li.c_yellow,
 .cbox_color [type="checkbox"].c_yellow + .box:before {
 	background-color:#ffff00;
 	border-color:#ffff00;
 }
 /* 그린  */
+.detial_color_list li.c_green,
 .cbox_color [type="checkbox"].c_green + .box:before {
 	background-color:#00ff00;
 	border-color:#00ff00;
 }
 /* 퍼플  */
+.detial_color_list li.c_purple,
 .cbox_color [type="checkbox"].c_purple + .box:before {
 	background-color:#800080;
 	border-color:#800080;
 }
 /* 핑크  */
+.detial_color_list li.c_pink,
 .cbox_color [type="checkbox"].c_pink + .box:before {
 	background-color:#ffc0cb;
 	border-color:#ffc0cb;
 }
 /* 오렌지  */
+.detial_color_list li.c_orange,
 .cbox_color [type="checkbox"].c_orange + .box:before {
 	background-color:#ffa500;
 	border-color:#ffa500;
 }
 /* 브라운  */
+.detial_color_list li.c_brown,
 .cbox_color [type="checkbox"].c_brown + .box:before {
 	background-color:#a52a2a;
 	border-color:#a52a2a;
 }
 /* 아이보리  */
-.cbox_color [type="checkbox"].c_Ivory + .box:before {
+.detial_color_list li.c_ivory,
+.cbox_color [type="checkbox"].c_ivory + .box:before {
 	background-color:#F2EFD7;
-	border-color: #979797;
+	border-color: #F2EFD7;
 }
 /* 골드  */
+.detial_color_list li.c_gold,
 .cbox_color [type="checkbox"].c_gold + .box:before {
 	background-color:#ffd700;
 	border-color:#ffd700;
 }
 /* 실버  */
+.detial_color_list li.c_silver,
 .cbox_color [type="checkbox"].c_silver + .box:before {
 	background-color:#c0c0c0;
 	border-color:#c0c0c0;
 }
 /* 멀티  */
 .cbox_color [type="checkbox"].c_multi + .box:before {
-	/*background-color:#######;*/
-	border-color:#979797;
+	background:url(../img/aside_mix_color.png) no-repeat !important;
+	border:0;
+	box-sizing:border-box;
 }
 /* 네이비  */
+.detial_color_list li.c_navy,
 .cbox_color [type="checkbox"].c_navy + .box:before {
 	background-color:#000080;
 	border-color:#000080;
 }
+
+
 
 /* RADIO */
 .custom_radio {
@@ -3836,6 +3854,13 @@
 .form_list_a .form {}
 .form_list_a .form > div {
 	margin-top:8px;
+}
+.form_list_a .form .form_inp_area .msg {
+	display:block;
+	
+	font-size:14px;
+	color:red;
+	margin:8px 0 0;
 }
 .form_list_a .prog {
 	margin-top:10px;

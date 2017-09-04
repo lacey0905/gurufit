@@ -245,6 +245,9 @@
 .prd_type_a figure {
 	margin-left:30px;
 } 
+.prd_type_a .x3 {
+	margin-left:-20px;
+}
 .prd_type_a .x3 figure {
 	margin-left:20px;
 }
@@ -493,25 +496,10 @@
 	height:20px;
 	box-sizing:border-box;
 	text-indent:-9999px;
+	border:solid 1px #fff;
 	margin:4px 8px 4px 0;
 	border-radius:100%;
 	float:left;
-}
-.detial_color_list li.c_black {
-	background-color:#4a4a4a;
-}
-.detial_color_list li.c_blue {
-	background-color:#4990e2;
-}
-.detial_color_list li.c_red {
-	background-color:#d0011b;
-}
-.detial_color_list li.c_yellow {
-	background-color:#f6a623;
-}
-.detial_color_list li.c_white {
-	background-color:#fff;
-	border:solid 1px #979797;
 }
 .detial_opt_list {
 	overflow:hidden;

@@ -1,3 +1,8 @@
+<script>
+    $(function(){
+    	asdieToggle($(".user_custom_filter"));
+    });
+</script>
 <aside class="user_custom_filter">
 	<dl class="user_info">
 		<!-- 
@@ -239,16 +244,16 @@
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_white" name="c_white" class="c_white"> 
+    					<input type="checkbox" id="c_ivory" name="c_ivory" class="c_ivory"> 
     					<span class="box"></span>
     					<span class="label">흰색 (21)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_silver" name="c_silver" class="c_purple"> 
+    					<input type="checkbox" id="c_multi" name="c_multi" class="c_multi"> 
     					<span class="box"></span>
-    					<span class="label"> (21)</span>
+    					<span class="label">MIX (21)</span>
     				</label>
 				</li>
 			</ul>

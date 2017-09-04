@@ -93,7 +93,7 @@
     									<li class="c_blue">Blue</li>
     									<li class="c_red">Red</li>
     									<li class="c_yellow">Yellow</li>
-    									<li class="c_white">White</li>
+    									<li class="c_ivory">White</li>
     									<li class="c_white">White</li>
     									<li class="c_white">White</li>
     									<li class="c_white">White</li>

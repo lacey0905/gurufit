@@ -363,7 +363,8 @@
 }
 
 /* Share Your Gurufit */
-.share_your_gurufit {}
+.share_your_gurufit {
+}
 .share_your_gurufit h2 {
 	display:inline-block;
 	font-size:24px;
@@ -417,7 +418,8 @@
 }
 .share_your_gurufit .photo_list li img {
 	display:block;
-	width:275px;
+	width:100%;
+	max-width:275px;
 }
 
 

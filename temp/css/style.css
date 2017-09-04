@@ -47,7 +47,9 @@
 }
 
 /* SUB CONTENT */
-.sub_content {}
+.sub_content {
+	overflow:hidden;
+}
 .sub_head > h2 {
 	position:relative;
 	font-family:texgyreadventorbold_italic;
@@ -819,12 +821,35 @@
 	color:#999;
 }
 .review_cont .cont {
+	display:block;
 	width:570px;
 	font-size:14px;
 	color:#6a6a6a;
 	line-height:21px;
 	letter-spacing:-0.3px;
 	text-align:left;
+	overflow:hidden;
+	word-break: break-all;
+}
+.review_cont .cont .cut_dot {
+	display:none;
+}
+.review_cont .cont.cut {
+	position:relative;
+	max-height:63px;
+}
+.review_cont .cont.cut .cut_dot {
+	display:block;
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:14px;
+	font-size:14px;
+	text-align:center;
+	color:#6a6a6a;
+	line-height:21px;
+	letter-spacing:-0.3px;
+	background-color:#fff;
 }
 .review_cont .cont_more {
 	display:block;
@@ -3722,7 +3747,8 @@
 /* 비교하기 */
 .locate_tab_nav {
 	position:relative;
-	margin-top:-46px;
+	width:100%;
+	margin:-46px 0 15px;
 	text-align:right;
 }
 .locate_tab_nav .nav {
@@ -3795,25 +3821,140 @@
 }
 
 
+/* 비교하기 리스트 */
+
+.compare {
+	clear:both;
+}
+.compare_list {
+	width:820px;
+	padding:20px 0;
+	overflow:hidden;
+}
+.compare_list li {
+	position:relative;
+	float:left;
+}
+.compare_list li .box {}
+.compare_list li .check {
+	position:absolute;
+	top:-9999px;
+	visibility:hidden;
+}
+.compare_list li .thum {
+	position:relative;
+	display:block;
+	width:120px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	box-sizing:border-box;
+}
+.compare_list li .thum:after {
+	content:" ";
+	position:absolute;
+	left:5%;
+	bottom:10px;
+	display:block;
+	width:90%;
+	height:8px;
+	margin:5px auto 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e9e9e9+0,ffffff+70 */
+	background:none; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #664ce9 0%, transparent 70%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover, #664ce9 0%,transparent 70%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center, #664ce9 0%,transparent 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#664ce9', endColorstr='transparent',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.compare_list li .check:checked + .thum {
+	border: 1px solid #927CFF;
+	border-radius: 10px;
+	background-color: #8269FF;
+	line-height:98px;
+}
+.compare_list li .check:checked + .thum:before {
+	content:"\E5CA";
+	position:absolute;
+	top:6px;
+	left:10px;
+	font-family:'Material Icons';
+	font-size:14px;
+	line-height:14px;
+	color:#fff;
+	opacity:0.6;
+}
+.compare_list li .del:after {
+	content:"\E5CD";
+	display:block;
+	position:absolute;
+	top:6px;
+	right:10px;
+	font-family:'Material Icons';
+	font-size:12px;
+	line-height:14px;
+	color:#fff;
+	opacity:0.6;
+}
+.compare_list li img {
+	display:inline-block;
+	width:100px;
+	margin-bottom:5px;
+	vertical-align:middle;
+}
+
+.compare_btn {
+	position:absolute;
+	top:15px;
+	right:20px;
+	width:165px;
+}
+.compare_btn li {
+	text-align:center;
+	color:#FFF;
+	font-size:15px;
+	line-height:22px;
+	border: 1px solid #927CFF;
+	border-radius: 5px;
+	margin-bottom:10px;
+}
+.compare_btn a {
+	display:block;
+	color:#FFF;
+	font-size:15px;
+	line-height:22px;
+	padding:14px 0;
+	opacity: 0.5;
+}
+.compare_btn li:hover,
+.compare_btn li.active {
+	opacity:1.0;
+	background-color:#8269FF;
+}
+.compare_btn li:hover a,
+.compare_btn li.active a {
+	opacity:0.8;
+}
+.compare_list li.more {}
+.compare_list li.more .more_btn {
+	display:block;
+	border:dashed 2px #A18EFF;
+	border-radius: 10px;
+	width:120px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	box-sizing:border-box;
+}
+.compare_list li.more .more_btn:after {
+	content:"\E145";
+	font-family:'Material Icons';
+	font-size:40px;
+	color:#fff;
+	opacity:0.3;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
     
     
     

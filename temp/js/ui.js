@@ -29,15 +29,27 @@ $(function(){
 	}
 	
 	// 측면 메뉴 닫기 버튼 활성화
+	/*
 	if($(".user_custom_filter").length > 0){
 		var aside = $(".user_custom_filter");
 		aside.find(".filter_tit").bind("click", function(){
 			$(this).toggleClass("close");
 		});
 	}
+	*/
 	
 });
 })(jQuery);
+
+// 측면 메뉴 토글
+// ex) asdieToggle($(".user_custom_filter"));
+var asdieToggle = function(elem){
+	var aside = elem;
+	aside.find(".filter_tit").bind("click", function(){
+		$(this).toggleClass("close");
+	});
+}
+
 
 //천 단위 콤마찍기
 var m_iAddComma = function(str) {

@@ -993,6 +993,7 @@
 										</div>
 									</div>
 								</div>
+								 
 								<div class="review_list_box">
 									<div class="review_cont">
 										<div class="rating">
@@ -1005,9 +1006,9 @@
 				   							</strong>
 				    					</div>
 										<span class="date">1주일 전 구매</span>
-										<p class="cont">
+										<p class="cont cut">
 											구루핏 첫 구매인데 좋네요. 추천한 275사이즈 구매자입니다.
-											다른 신발은 270사이즈를 매번 신었는데 슈포래빗의 사이즈로 구매하니 제 발에 딱 맞고 핏감이 좋네요. 다른 신발은 270사이즈를 매번 신었는데 슈포래빗의 사이즈로 구매하니 제 발에 딱 맞고 핏감이 좋네요. 다른 신발은 270사이즈를 매번 신었는데 슈포래빗의 사이즈로 구매하니 제 발에 딱 맞고…
+											<span class="cut_dot">...</span>
 										</p>
 										<a href="#" class="cont_more">더 보기</a>
 									</div>
@@ -1402,6 +1403,14 @@ $(function(){
         paginationClickable: true,
         spaceBetween:0,
         freeMode: true,
+        breakpoints: {
+        1920: {
+          slidesPerView: 7,
+        },
+        1400: {
+          slidesPerView: 5,
+        }
+      }
     });
 	
 });

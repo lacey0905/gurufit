@@ -11,7 +11,7 @@
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 메시지 팝업 -->
-	<div class="f_modal_layer small f_modal_shadow" style="display:none">
+	<div class="f_modal_layer small f_modal_shadow">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

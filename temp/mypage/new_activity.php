@@ -5,13 +5,13 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant">
+<div class="f_modal_perant open">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 사진 등록 리스트 -->
-	<div class="f_modal_layer f_modal_shadow big z3">
+	<div class="f_modal_layer f_modal_shadow big z3 blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -89,161 +89,211 @@
     		</div>
 		</div>
 	</div>
-	<!-- 리뷰 등록 작성-->
-	<div class="f_modal_layer f_modal_shadow big z1">
+	<!-- 상품평 등록 작성-->
+	<div id="reviewWrite" class="f_modal_layer f_modal_shadow big z1 no_fix">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
         			<h2>
-        				리뷰등록
-        				<span class="msg">리뷰할 상품에 별점을 남겨주세요.</span>
+        				상품평 등록
+        				<span class="msg">평가할 상품에 별점을 남겨주세요.</span>
         			</h2>
         			<a href="#" class="btn_close">Close</a>
         		</div>
-        		<div class="f_modal_cont big">
-        			<table class="prd_list_a mid">
-    					<caption class="blind">장바구니</caption>
-    					<colgroup>
-    						<col class="col_thum">
-    						<col class="col_cont">
-    					</colgroup>
-    					<tbody>
-    						<tr>
-    							<td class="thum">
-    								<span class="prd_thum">
-    		    						<a href="#">
-    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-    	    							</a>
-    	   							</span>
-    							</td>
-    							<td class="cont">
-    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-    								<strong class="name">Nike Metcon DSX Flyknit</strong>
-    								<dl class="opt">
-    									<dt>구입할 날짜</dt>
-    									<dd>2017년 7월 14일</dd>
-    								</dl>
-    								<div class="rating raring_input">
-    									<input type="hidden" class="rating_count">
-        								<strong class="star_rating big">
-        	    							<i class="star_off"></i>
-        	    							<i class="star_off"></i>
-        	    							<i class="star_off"></i>
-        	    							<i class="star_off"></i>
-        	    							<i class="star_off"></i>
-        	   							</strong>
-        	   							<span class="msg">리뷰를 남겨주세요.</span>
-        	    					</div>
-        	    					<script>
-        	    					// 별점 기능 활성화
-									$(function(){
-										// 측면 변환 텍스트 목록
-										var starMsgArr = ["별로에요", "그저 그래요", "보통이에요", "좋아요", "마음에 들어요!"]
-										starRating($(".raring_input"), starMsgArr);
-									});
-        	    					</script>
-    							</td>
-							</tr>
-    					 </tbody>
-    				</table>
-    				<div class="f_modal_contList">
-    					<h3 class="tit">
-    						<strong>착화감 평가</strong>
-    						<span class="check">착화감 평가를 저장 했습니다.</span>
-    					</h3>
-    					<div class="contList_box step">
-    						<div class="step_gauge">
-								<ul class="gauge_area">
-									<li class="inp">
-										<em>길이</em>
-										<div class="gauge">
-											<div class="step_bar">
-												<div class="slider-range-max"></div>
-												<span class="step_dot fir"></span>
-												<span class="step_dot sec"></span>
-												<input type="hidden" class="step_inp" value="1" readonly>
-											</div>
-											<span class="gauge_min">작은편</span>
-											<span class="gauge_max">큰편</span>
-										</div>
-										<span class="msg">작아요</span>
-									</li>
-									<li class="inp">
-										<em>폭</em>
-										<div class="gauge">
-											<div class="step_bar">
-												<div class="slider-range-max"></div>
-												<span class="step_dot fir"></span>
-												<span class="step_dot sec"></span>
-												<input type="hidden" class="step_inp" value="1" readonly>
-											</div>
-											<span class="gauge_min">좁은 편이에요</span>
-											<span class="gauge_max">넉넉해요</span>
-										</div>
-										<span class="msg">작아요</span>
-									</li>
-									<li class="inp">
-										<em>길이</em>
-										<div class="gauge">
-											<div class="step_bar">
-												<div class="slider-range-max"></div>
-												<span class="step_dot fir"></span>
-												<span class="step_dot sec"></span>
-												<input type="hidden" class="step_inp" value="1" readonly>
-											</div>
-											<span class="gauge_min">오래 신으면 불편해요</span>
-											<span class="gauge_max">하루 종일 신어도 편해요</span>
-										</div>
-										<span class="msg">작아요</span>
-									</li>
-								</ul>
-								<script>
-								// 착화감 평가 기능
-                                $(function() {
-                                    $( ".slider-range-max").slider({
-                                        min: 1,
-                                        max: 5,
-                                        value: 1,
-                                        slide: function( event, ui, handle, handleIndex) {
-                                            // 측면 변환 텍스트 목록
-											var gaugeMsgArr = ["작은 편이에요", "조금 작은 편이에요", "보통이에요", "조금 큰 편이에요", "큰 편이에요" ]; 
-											var msgElem = $(this).parent().parent().parent().find(".msg");
-											var inpElem = $(this).parent().find(".step_inp");
-											msgElem.text(gaugeMsgArr[ui.value-1]);
-											if(ui.value > 3){
-												msgElem.addClass("active");
-											} else {
-												msgElem.removeClass("active");
-											}
-											// 현제 스탭 번호 저장
-											inpElem.val(ui.value);
-                                    	}
-                                	});
-                                });
-                                </script>
-							</div>
-    					</div>
-    					<h3 class="tit check">
-    						<strong>리뷰 입력</strong>
-    						<span>리뷰를 20자 이상 남겨주세요</span>
-    					</h3>
-    					<textarea class="contList_text_box txtarea_b" placeholder="구입한 신발에 대한 리뷰를 남기기 시작했습니다…"></textarea>
-    				</div>
+        		<div class="modal_step">
+            		<div class="f_modal_cont big">
+            			<table class="prd_list_a mid modal_step_list step_on">
+        					<caption class="blind">장바구니</caption>
+        					<colgroup>
+        						<col class="col_thum">
+        						<col class="col_cont">
+        					</colgroup>
+        					<tbody>
+        						<tr>
+        							<td class="thum">
+        								<span class="prd_thum">
+        		    						<a href="#">
+        		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+        	    							</a>
+        	   							</span>
+        							</td>
+        							<td class="cont">
+        								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+        								<strong class="name">Nike Metcon DSX Flyknit</strong>
+        								<dl class="opt">
+        									<dt>구입할 날짜</dt>
+        									<dd>2017년 7월 14일</dd>
+        								</dl>
+        								<div class="rating raring_input">
+        									<input type="hidden" class="rating_count">
+            								<strong class="star_rating big">
+            	    							<i class="star_off"></i>
+            	    							<i class="star_off"></i>
+            	    							<i class="star_off"></i>
+            	    							<i class="star_off"></i>
+            	    							<i class="star_off"></i>
+            	   							</strong>
+            	   							<span class="msg">리뷰를 남겨주세요.</span>
+            	    					</div>
+        							</td>
+    							</tr>
+        					 </tbody>
+        				</table>
+        				<div class="f_modal_contList modal_step_list step_on">
+        					<h3 class="tit">
+        						<strong>착화감 평가</strong>
+        						<span class="check">착화감 평가를 저장 했습니다.</span>
+        					</h3>
+        					<div class="contList_box step">
+        						<div class="step_gauge">
+    								<ul class="gauge_area">
+    									<li class="inp">
+    										<em>길이</em>
+    										<div class="gauge">
+    											<div class="step_bar">
+    												<div class="slider-range-max"></div>
+    												<span class="step_dot fir"></span>
+    												<span class="step_dot sec"></span>
+    												<input type="hidden" class="step_inp" value="1" readonly>
+    											</div>
+    											<span class="gauge_min">작은편</span>
+    											<span class="gauge_max">큰편</span>
+    										</div>
+    										<span class="msg">작아요</span>
+    									</li>
+    									<li class="inp">
+    										<em>폭</em>
+    										<div class="gauge">
+    											<div class="step_bar">
+    												<div class="slider-range-max"></div>
+    												<span class="step_dot fir"></span>
+    												<span class="step_dot sec"></span>
+    												<input type="hidden" class="step_inp" value="1" readonly>
+    											</div>
+    											<span class="gauge_min">좁은 편이에요</span>
+    											<span class="gauge_max">넉넉해요</span>
+    										</div>
+    										<span class="msg">작아요</span>
+    									</li>
+    									<li class="inp">
+    										<em>길이</em>
+    										<div class="gauge">
+    											<div class="step_bar">
+    												<div class="slider-range-max"></div>
+    												<span class="step_dot fir"></span>
+    												<span class="step_dot sec"></span>
+    												<input type="hidden" class="step_inp" value="1" readonly>
+    											</div>
+    											<span class="gauge_min">오래 신으면 불편해요</span>
+    											<span class="gauge_max">하루 종일 신어도 편해요</span>
+    										</div>
+    										<span class="msg">작아요</span>
+    									</li>
+    								</ul>
+    							</div>
+        					</div>
+        					<div class="modal_step_list">
+            					<h3 class="tit check">
+            						<strong>리뷰 입력</strong>
+            						<span>리뷰를 20자 이상 남겨주세요</span>
+            					</h3>
+            					<textarea class="contList_text_box txtarea_b" placeholder="구입한 신발에 대한 리뷰를 남기기 시작했습니다…"></textarea>
+        					</div>
+        				</div>
+            		</div>
+            		<div class="f_modal_foot no_line modal_step_list step_on">
+            			<div class="f_modal_btn">
+            				<span class="msg small">
+            					<i class="icon_write"></i>
+            					<a href="#">좋은 리뷰를 작성하는 방법</a>
+        					</span>
+            				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">등록 완료</a>
+            			</div>		
+            		</div>
         		</div>
-        		<div class="f_modal_foot no_line">
-        			<div class="f_modal_btn">
-        				<span class="msg small">
-        					<i class="icon_write"></i>
-        					<a href="#">좋은 리뷰를 작성하는 방법</a>
-    					</span>
-        				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">등록 완료</a>
-        			</div>		
-        		</div>
+        		<script>
+    				var fix_modal = new Array(); // 모달 팝업 저장 배열
+    				$(function(){
+    					fix_modal[0] = $("#reviewWrite"); // 설치 할 Fix모달 팝업
+    
+    					// 최초 Fix 모달 팝업 설치 이벤트
+    					setModalPos(fix_modal[0]);
+    					////////
+    					//delModalPos();
+    				});
+    
+    				// 모달 팝업 반응형 리사이즈 구현
+    				$(window).resize(function(){
+    					if(fix_modal.length > 0){
+    						for(var i=0; i<fix_modal.length; i++){
+    							setModalPos(fix_modal[i]);
+    						}
+    					}
+    				});
+    
+    				var delModalPos = function(){
+    					$("body").height("100%").css("overflow", "hidden");
+    					$("#wrap").css("overflow", "auto");
+    					fix_modal = []; // 배열 초기화
+    				}
+    				
+    				var setModalPos = function(_modal){
+    					if(_modal.length > 0){
+    			    		var winHei = $(window).height(); //윈도우 Height
+    			    		var modalHei = _modal.find(".f_modal_area").height(); // 모달 팝업 컨텐츠 영역 Height
+    			    		var iModalMargin = 40;
+    						var bodyHei = winHei > modalHei ? winHei : modalHei + iModalMargin; // 윈도우 모달 팝업 컨텐츠 중 Heihgt가 큰 쪽을 저장
+							$("body").height(bodyHei).css("overflow", "hidden"); // Body에 반환 된 세로를 입력함
+							if(winHei < modalHei){
+								$("body").css("overflow", "auto");
+								$("#wrap").css("overflow", "hidden");
+							}
+    						_modal.css("top", $(window).scrollTop());
+    					}
+    				}
+    				
+    				// 별점 기능 활성화
+    				$(function(){
+    					// 측면 변환 텍스트 목록
+    					var starMsgArr = ["별로에요", "그저 그래요", "보통이에요", "좋아요", "마음에 들어요!"]
+    					starRating($(".raring_input"), starMsgArr);
+    				});
+    				// 착화감 평가 기능
+                    $(function() {
+						var slider_start = 1;
+                    	var slider_min = 1;
+                    	var slider_max = 5;
+                        
+                        $( ".slider-range-max").slider({
+                            min: slider_min,
+                            max: slider_max,
+                            value: slider_start,
+                            slide: function( event, ui, handle, handleIndex) {
+                                // 측면 변환 텍스트 목록
+    							var gaugeMsgArr = ["작은 편이에요", "조금 작은 편이에요", "보통이에요", "조금 큰 편이에요", "큰 편이에요" ]; 
+    							var msgElem = $(this).parent().parent().parent().find(".msg");
+    							var inpElem = $(this).parent().find(".step_inp");
+    							msgElem.text(gaugeMsgArr[ui.value-1]);
+    							if(ui.value > 3){
+    								msgElem.addClass("active");
+    							} else {
+    								msgElem.removeClass("active");
+    							}
+    							// 현제 스탭 번호 저장
+    							inpElem.val(ui.value);
+    							if(ui.value == 1) {
+    							}	
+
+    							console.log(ui);
+                        	}
+                    	});
+                    });
+                </script>
     		</div>
 		</div>
 	</div>
 	<!-- 리뷰 등록 리스트 -->
-	<div class="f_modal_layer f_modal_shadow big">
+	<div class="f_modal_layer f_modal_shadow big blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

@@ -48,7 +48,9 @@
 
 /* SUB CONTENT */
 .sub_content {
-	overflow:hidden;
+	/*overflow:hidden;
+		제품 Hover 시 잘림 현상
+	*/
 }
 .sub_head > h2 {
 	position:relative;
@@ -382,8 +384,6 @@
     color: #bbbbbb;
 }
 
-
-
 .inp_login .add_msg {
 	display:block;
 	margin:10px 0 15px;
@@ -394,6 +394,7 @@
     letter-spacing: -0.5px;
     text-align:center;
     color: #bbbbbb;	
+    clear:both;
 }
 .inp_login .add_msg.lv1 {
 	color:red;
@@ -458,11 +459,11 @@
 .prd_sml_list {
 	font-size:0;
 	text-align:left;
+	margin-left:-8px;
 }
 .prd_sml_list li {
 	display:inline-block;
-	box-sizing:border-box;
-	margin-left:8px;
+	margin:4px 0 4px 8px;
 	width:60px;
 }
 .prd_sml_list.x5 {
@@ -475,26 +476,22 @@
 .prd_sml_list.x5 li label {
 	margin-left:8px;
 }
-
 .prd_sml_list li a,
 .prd_sml_list li .thum {
 	display:block;
 	vertical-align:top;
-	width:100%;
+	width:calc(100% - 2px);
 }
 .prd_sml_list li .thum {
 	border:solid 1px #fff;
 	cursor:pointer;
+	padding:14px 0;
 }
 .prd_sml_list li.active .thum,
 .prd_sml_list li:hover .thum {
-	border:solid 1px #d8d8d8;
+	border-color:#d8d8d8;
 	margin:0;
 }
-.prd_sml_list li:first-child {
-	margin-left:0;
-}
-
 .prd_sml_list li .prd_sml_radio {
 	display:block;
 }
@@ -503,7 +500,7 @@
 	left:-9999px;
 }
 .prd_sml_list li .prd_sml_radio [type="radio"]:checked + .thum {
-	border:solid 1px #d8d8d8;
+	border-color:#d8d8d8;
 }
 
 /* Vertical Swiper */
@@ -1176,14 +1173,14 @@
 }
 .step_gauge .inp .step_bar {
 	width:auto;
-	padding:0 21px;
+	/*padding:0 20px 0 24px;*/
 	height:11px;
 }
 .step_gauge .inp .ui-widget.ui-widget-content {
 	position:relative;
 	background:none;
 	border:0;
-	margin-left:-12px;
+	/*margin-left:-12px;*/
 }
 .step_gauge .inp .ui-slider .ui-slider-handle {
 	display:block;

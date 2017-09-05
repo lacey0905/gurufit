@@ -45,9 +45,9 @@
 	</section>
 	<section id="csInfo">
 		<div class="custom_inner">
-    		<h2>대표전화</h2>
-    		<h3>1544.7777</h3>
-    		<p>1번 : 배송 / 교환 / 환불관련 / 2번 : 결제 / 회원관련 오전9시~오후6시(토,일 공휴일 휴무)</p>
+    		<h2>고객센터</h2>
+    		<h3>070.4659.0495</h3>
+    		<p>오전 9시 - 오후 6시 (점심시간 12 : 00 - 13:00  토,일, 공휴일 휴무)</p>
     		<ul>
     			<li><a href="#">고객센터</a></li>
     			<li><a href="#">FAQ</a></li>
@@ -60,35 +60,36 @@
 		<div class="custom_inner">
     		<ul id="navLink">
     			<li><a href="#">회사소개</a></li>
+    			<li><a href="#">서비스 소개</a></li>
     			<li><a href="#">이용약관</a></li>
     			<li><a href="#">개인정보취급방침</a></li>
-    			<li><a href="#">카드영수증조회</a></li>
-    			<li><a href="#">제휴안내</a></li>
-    			<li><a href="#">사업자정보확인</a></li>
+    			<li><a href="#">전자상거래 이용약관</a></li>
+    			<li><a href="#">인재채용</a></li>
     		</ul>
     		<ul id="snsLink">
-    			<li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li>
+    			<!-- <li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li> -->
     			<li class="facebook"><a href="#"><img src="../img/facebook-ico.png" alt="FaceBook"></a></li>
-    			<li class="twitter"><a href="#"><img src="../img/twitter-ico.png" alt="Twitter"></a></li>
+    			<!-- <li class="twitter"><a href="#"><img src="../img/twitter-ico.png" alt="Twitter"></a></li> -->
     			<li class="instagram"><a href="#"><img src="../img/instagram-ico.png" alt="Instagram"></a></li>
     		</ul>
 		</div>
 	</nav>
 	<address id="address">
-		<div class="custom_inner">
-    		<span>서울특별시 강남구 강남대로464 비제바노빌딩 7층 주식회사 구루핏 ㅣ</span>
-    		<span> 대표이사: 안보현 ㅣ</span>
-    		<span>사업자등록번호:813-88-00651 ㅣ</span>
-    		<br>
-            <span>통신판매업등록번호: 2017-서울강남-03029 ㅣ</span>
-        	<span> 대표전화:070-4659-1540 ㅣ</span>
-        	<span>메일:contact@gurufit.com ㅣ</span>
-        	<span>개인정보관리책임자:신지섭</span>
-        	<br>
-        	<span>팩스 : 033-816-5300 </span>
-        	<span>이메일 : contact@gurufit.com</span>
-            <p id="copy">Copyright 2017 Shoe4rabbit.Inc. All rights reserved.</p>
-        </div>
+		<p class="custom_inner">
+			<span><em>상호명 : </em>주식회사 구루핏</span>
+			<span><em>대표이사 : </em>안보현</span>
+			<span><em>주소 : </em>서울시 강남구 강남대로 464 7층</span>
+			<span><em>사업자등록번호 : </em>813-88-00651</span>
+			<br>
+			<span><em>통신판매업신고번호 : </em>제2006-경기성남-692호 <a href="#">사업자등록정보확인</a></span>
+			<br>
+			<span><em>고객센터 주소 : </em>서울시 강남구 강남대로 464 7</span>
+			<span><em>전화 : </em>070-4659-0495</span>
+			<span><em>이메일 : </em>help@gurufit.co.kr</span>
+		</p>
+		<p id="copy" class="custom_inner">
+			COPYRIGHT &copy; GURUFIT ALL RIGHTS RESERVED.
+		</p>
 	</address>
 </footer>
 </div>

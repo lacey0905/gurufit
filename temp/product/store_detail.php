@@ -156,31 +156,37 @@
 									<li>
 										<label class="prd_sml_radio">
 											<input type="radio" id="" name="prd_sml" value="" checked="checked" >
-											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
 										</label>
 									</li>
 									<li>
 										<label class="prd_sml_radio">
 											<input type="radio" id="" name="prd_sml" value="">
-											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
 										</label>
 									</li>
 									<li>
 										<label class="prd_sml_radio">
 											<input type="radio" id="" name="prd_sml" value="">
-											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
 										</label>
 									</li>
 									<li>
 										<label class="prd_sml_radio">
 											<input type="radio" id="" name="prd_sml" value="">
-											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
 										</label>
 									</li>
 									<li>
 										<label class="prd_sml_radio">
 											<input type="radio" id="" name="prd_sml" value="">
-											<img src="../img/prd_sml_sample.png" alt="나이키" class="thum">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
+										</label>
+									</li>
+									<li>
+										<label class="prd_sml_radio">
+											<input type="radio" id="" name="prd_sml" value="">
+											<img src="../img/detail_color_sample.png" alt="나이키" class="thum">
 										</label>
 									</li>
 								</ul>

@@ -244,7 +244,7 @@
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_ivory" name="c_ivory" class="c_ivory"> 
+    					<input type="checkbox" id="c_white" name="c_white" class="c_white"> 
     					<span class="box"></span>
     					<span class="label">흰색 (21)</span>
     				</label>

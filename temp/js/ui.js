@@ -9,37 +9,26 @@ $(function(){
 		});
 	}
 	
-	// 페이지에서 모달 팝업이 1개 이상 있을 경우에 Toggle Event를 설치 함
-	if($(".madal_popup_area").length > 0) {
-		$(".madal_popup_area").each(function(){
-			var this_popup = $(this);
-			this_popup.find(".modal_btn").bind("click", function(){
-				// 팝업은 1개만 띄어 질 수 있도 록 팝업 오픈 시에 다른 팝업을 클릭하면 기존 팝업은 Hide 됨
-				$(".madal_popup_area").not(this_popup).find(".modal_popup").fadeOut();
-				this_popup.find(".modal_popup").fadeToggle("fast");
-			});
-			/*
-			$("body").find("*").not.bind("click", function(){
-				// 팝업은 1개만 띄어 질 수 있도 록 팝업 오픈 시에 다른 팝업을 클릭하면 기존 팝업은 Hide 됨
-				$(".madal_popup_area").not(this_popup).find(".modal_popup").fadeOut();
-				this_popup.find(".modal_popup").fadeToggle("fast");
-			})
-			;*/
-		});
-	}
-	
-	// 측면 메뉴 닫기 버튼 활성화
+	// 상단 모달 팝업 설치
 	/*
-	if($(".user_custom_filter").length > 0){
-		var aside = $(".user_custom_filter");
-		aside.find(".filter_tit").bind("click", function(){
-			$(this).toggleClass("close");
-		});
-	}
+	headModalOpen($(".user_info_list.madal_popup_area"), "mouseenter mouseleave");
+	headModalOpen($("#gnbNav .madal_popup_area"), "mouseenter mouseleave");
 	*/
 	
 });
 })(jQuery);
+
+// 상단 모달 팝업
+/*
+var headModalOpen = function(_popup, event){
+	var this_popup = _popup;
+	this_popup.bind(event, function(){
+		// 팝업은 1개만 띄어 질 수 있도 록 팝업 오픈 시에 다른 팝업을 클릭하면 기존 팝업은 Hide 됨
+		$(".madal_popup_area").not(this_popup).find(".modal_popup").stop().fadeOut("fast");
+		this_popup.find(".modal_popup").stop().fadeToggle("fast");
+	});
+}
+*/
 
 // 측면 메뉴 토글
 // ex) asdieToggle($(".user_custom_filter"));
@@ -49,7 +38,6 @@ var asdieToggle = function(elem){
 		$(this).toggleClass("close");
 	});
 }
-
 
 //천 단위 콤마찍기
 var m_iAddComma = function(str) {
@@ -89,30 +77,5 @@ var starRating = function(elem, msgArr){
 		});
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -4,7 +4,7 @@
 		<ul>
 			<li>
 				<h2>
-					Featured Article
+					Featured Contents
 					<span class="tit_arr_line l_left"></span>
 					<span class="tit_arr_line l_right"></span>
 				</h2>
@@ -40,7 +40,7 @@
 		</ul>
 	</article>
 	<article class="custom_inner custom_prd prd_type_a">
-		<h2>Recommanded Article</h2>
+		<h2>Recommanded Contents</h2>
 		<ul class="x4">
 			<li>
 				<a href="#">

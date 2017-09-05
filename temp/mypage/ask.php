@@ -124,6 +124,11 @@
         		</ol>
       			<a href="#" class="pager_btn next"></a>     
       			<a href="#" class="pager_btn last"></a>     
+      			<div class="pager_side">
+      				<div class="btn_r">
+						<a href="#" class="btn_ btn_x_s1 btn_np btn_hover_a">문의</a>      				
+      				</div>
+      			</div>
 			</div>
         </section>
 	</article>

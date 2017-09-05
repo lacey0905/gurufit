@@ -759,13 +759,14 @@
 		</div>
 		<h3 class="tit_sub_a">
 			<em>배송지 정보</em>
-    		<span class="custom_cbox cbox_c cbox_s_s add_opt">
+			<!--오픈베타에서는 사용하지 않기 당분간 보류 -->
+<!--     		<span class="custom_cbox cbox_c cbox_s_s add_opt">
     			<label>
     				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
     				<span class="box"></span>
     				<span class="label">선물인가요?</span>
     			</label>
-    		</span>
+    		</span> -->
 		</h3>
 		<!-- 새로운 배송지 -->
 		<div class="addr_wrap">
@@ -844,12 +845,13 @@
 							<input type="text" class="inp_nm_box h_mid w_xf">
 						</td>
 					</tr>
-					<tr>
+					<!-- 오픈베타에서는 사용 안함 보류 상태 -->
+<!-- 					<tr>
 						<th class="ord_pt_box_tit">선물 메세지</th>
 						<td>
 							<textarea class="ord_pt_box" name="textarea"></textarea>							
 						</td>
-					</tr>
+					</tr> -->
 				</tbody>
 			</table>			
     		<div class="addr_result">

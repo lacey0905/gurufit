@@ -357,7 +357,7 @@
 			<span><b>통신판매업신고번호 : </b>제2006-경기성남-692호&nbsp;&nbsp;<a href="#" style="text-decoration:underline;">사업자등록정보확인</a></span>
 			<br>
 			<span><b>고객센터 주소 : </b>서울시 강남구 강남대로 464 7층</span>
-			<span><b>전화 : </b>070-4659-0495</span>
+			<span><b>전화 : </b>070-4659-1540</span>
 			<span><b>이메일 : </b>help@gurufit.co.kr</span>
 		</p>
 		<p id="copy" class="custom_inner">

@@ -225,8 +225,7 @@
 	color:#4a4a4a;
 	line-height:33px;
 	letter-spacing:-0.4px;
-	margin-left:20px;
-	vertical-align:top;
+	vertical-align:middle;
 }
 .member_box p.member_head_link {
 	display:inline-block;
@@ -1181,6 +1180,7 @@
 	background:none;
 	border:0;
 	/*margin-left:-12px;*/
+	z-index:1000;
 }
 .step_gauge .inp .ui-slider .ui-slider-handle {
 	display:block;
@@ -1196,7 +1196,12 @@
 	cursor:pointer;
 	outline:none;
 }
-
+.step_gauge .step_first {
+	margin-left:0px !important;
+}
+.step_gauge .step_last {
+	margin-left:-30px !important;
+}
 .step_gauge .inp .step_bar:after, 
 .step_gauge .inp .step_dot:after, 
 .step_gauge .inp .step_dot:before {
@@ -2346,7 +2351,7 @@
 .form_inp_a.mid .form_cont dt {
 	width:200px;
 }
-.form_inp_a .form_cont dd,
+.form_inp_a.mid .form_cont dd,
 .form_inp_a.mid .form_box {
 	width:610px !important;
 	padding-right:0 !important;

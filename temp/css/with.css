@@ -1241,6 +1241,8 @@
 
 .f_modal_contList {
 	padding:0 28px;
+}
+.f_modal_contList.t_line {
 	border-top:solid 1px #ddd;
 }
 .f_modal_contList .tit {

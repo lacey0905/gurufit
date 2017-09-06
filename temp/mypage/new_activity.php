@@ -139,7 +139,7 @@
     							</tr>
         					 </tbody>
         				</table>
-        				<div class="f_modal_contList modal_step_list step_on">
+        				<div class="f_modal_contList modal_step_list t_line step_on">
         					<h3 class="tit">
         						<strong>착화감 평가</strong>
         						<span class="check">착화감 평가를 저장 했습니다.</span>
@@ -192,13 +192,13 @@
     								</ul>
     							</div>
         					</div>
-        					<div class="modal_step_list">
-            					<h3 class="tit check">
-            						<strong>리뷰 입력</strong>
-            						<span>리뷰를 20자 이상 남겨주세요</span>
-            					</h3>
-            					<textarea class="contList_text_box txtarea_b" placeholder="구입한 신발에 대한 리뷰를 남기기 시작했습니다…"></textarea>
-        					</div>
+        				</div>
+        				<div class="f_modal_contList modal_step_list step_on">
+            				<h3 class="tit check">
+            					<strong>리뷰 입력</strong>
+            					<span>리뷰를 20자 이상 남겨주세요</span>
+            				</h3>
+            				<textarea class="contList_text_box txtarea_b" placeholder="구입한 신발에 대한 리뷰를 남기기 시작했습니다…"></textarea>
         				</div>
             		</div>
             		<div class="f_modal_foot no_line modal_step_list step_on">
@@ -281,12 +281,17 @@
     							}
     							// 현제 스탭 번호 저장
     							inpElem.val(ui.value);
-    							if(ui.value == 1) {
-    							}	
-
-    							console.log(ui);
+    							if(ui.value == slider_min) {
+									$(this).find(".ui-slider-handle").addClass("step_first");
+    							} else if(ui.value == slider_max){
+    								$(this).find(".ui-slider-handle").addClass("step_last");
+        						} else {
+        							$(this).find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
+            					}
                         	}
                     	});
+                    	// 최초 시작 시에 Step_First 설치
+                        $( ".slider-range-max").find(".ui-slider-handle").addClass("step_first");
                     });
                 </script>
     		</div>

@@ -1,3 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GURUFIT</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/entypo-fontello/0.1/entypo.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/import/swiper.min.css">
+    <!-- Custom Scroll CSS -->
+    <link rel="stylesheet" href="../css/import/jquery.mCustomScrollbar.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/import/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/import/font.css">
+	<link rel="stylesheet" type="text/css" href="../css/with.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- 
+	<link rel="stylesheet" type="text/css" href="../css/yeseo.css">
+	 -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Swiper JS Plugin -->
+    <script src="../js/sectionDisplay.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/jquery.bxslider.js"></script>
+    <script src="../js/jquery.mCustomScrollbar.js"></script>
+    <script src="../js/ui.js"></script>
+
+</head>
+
 <footer id="footer">
 	<section id="footInfo">
     	<div class="custom_inner">
@@ -20,7 +60,7 @@
         		<ul class="rnd_icon_button">
         			<li>
     					<img src="../img/foo-01.png" alt="">
-    					<span>교환 &middot; 반품<br>무료배송</span>
+    					<span>무료배송<br>교환 &middot; 반품</span>
         			</li>
         			<li>
     					<img src="../img/foo-02.png" alt="">
@@ -28,7 +68,7 @@
         			</li>
         			<li>
     					<img src="../img/foo-03.png" alt="">
-    					<span>더 빠른<br>배송</span>
+    					<span>전용<br>콜센터</span>
         			</li>
         			<li>
     					<img src="../img/foo-04.png" alt="">
@@ -76,16 +116,16 @@
 	</nav>
 	<address id="address">
 		<p class="custom_inner">
-			<span><em>상호명 : </em>주식회사 구루핏</span>
-			<span><em>대표이사 : </em>안보현</span>
-			<span><em>주소 : </em>서울시 강남구 강남대로 464 7층</span>
-			<span><em>사업자등록번호 : </em>813-88-00651</span>
+			<span><b>상호명 : </b>주식회사 구루핏</span>
+			<span><b>대표이사 : </b>안보현</span>
+			<span><b>주소 : </b>서울시 강남구 강남대로 464 7층</span>
+			<span><b>사업자등록번호 : </b>813-88-00651</span>
 			<br>
-			<span><em>통신판매업신고번호 : </em>제2006-경기성남-692호 <a href="#">사업자등록정보확인</a></span>
+			<span><b>통신판매업신고번호 : </b>제2006-경기성남-692호&nbsp;&nbsp;<a href="#" style="text-decoration:underline;">사업자등록정보확인</a></span>
 			<br>
-			<span><em>고객센터 주소 : </em>서울시 강남구 강남대로 464 7</span>
-			<span><em>전화 : </em>070-4659-0495</span>
-			<span><em>이메일 : </em>help@gurufit.co.kr</span>
+			<span><b>고객센터 주소 : </b>서울시 강남구 강남대로 464 7층</span>
+			<span><b>전화 : </b>070-4659-0495</span>
+			<span><b>이메일 : </b>help@gurufit.co.kr</span>
 		</p>
 		<p id="copy" class="custom_inner">
 			COPYRIGHT &copy; GURUFIT ALL RIGHTS RESERVED.

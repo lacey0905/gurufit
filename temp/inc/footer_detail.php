@@ -1,3 +1,27 @@
+<style>
+.fd_ship_info:after {
+	right:38px !important;
+}
+.fd_ship_info_inner .in_refund_info p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #2f2f2f;	
+}
+.fd_ship_info_inner .in_refund_info a {
+	text-decoration: underline;
+    margin-left: 7px;
+    color: #0090ff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    text-align: left;    
+}	
+</style>
+
 <footer id="footer">
 	<section id="footer_product">
 		<article>
@@ -38,10 +62,10 @@
 								・반품 시 차감되는 금액 없이 전액 환불해 드립니다<br>
 								・환불 시점<br>
 									<ul>	
-									    <li> — 취소 : 취소 완료 즉시 환불 처리됩니다</li>
-									     <li>— 반품 : 상품 검수 후 환불 처리됩니다</li>
+								    	<li>&#45;취소 : 취소 완료 즉시 환불 처리됩니다</li>
+									    <li>&#45;반품 : 상품 검수 후 환불 처리됩니다</li>
 								     </ul> 
-								・결제 수단 별로 환불 시점이 다릅니다 <br>
+									<p>・결제 수단 별로 환불 시점이 다릅니다</p> <br>
 								    <a href="#"> 결제 수단 별 환불 시점 자세히 보기</a> 								
 								</p>
 							</dd>							
@@ -126,7 +150,7 @@
 									    <li> — 취소 : 취소 완료 즉시 환불 처리됩니다</li>
 									     <li>— 반품 : 상품 검수 후 환불 처리됩니다</li>
 								     </ul> 
-								・결제 수단 별로 환불 시점이 다릅니다 <br>
+									<p>・결제 수단 별로 환불 시점이 다릅니다</p> <br>
 								    <a href="#"> 결제 수단 별 환불 시점 자세히 보기</a> 								
 								</p>
 							</dd>							
@@ -206,7 +230,7 @@
 									    <li> — 취소 : 취소 완료 즉시 환불 처리됩니다</li>
 									     <li>— 반품 : 상품 검수 후 환불 처리됩니다</li>
 								     </ul> 
-								・결제 수단 별로 환불 시점이 다릅니다 <br>
+									<p>・결제 수단 별로 환불 시점이 다릅니다</p> <br>
 								    <a href="#"> 결제 수단 별 환불 시점 자세히 보기</a> 								
 								</p>
 							</dd>							
@@ -266,28 +290,20 @@
         		<h2>Membership</h2>
         		<ul class="rnd_icon_button">
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-01.png" alt="">
-        					<span>교환 &middot; 반품<br>무료배송</span>
-        				</a>
+    					<img src="../img/foo-01.png" alt="">
+    					<span>무료배송<br>교환 &middot; 반품</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-02.png" alt="">
-        					<span>상시<br>할인</span>
-        				</a>
+    					<img src="../img/foo-02.png" alt="">
+    					<span>상시<br>할인</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-03.png" alt="">
-        					<span>더 빠른<br>배송</span>
-        				</a>
+    					<img src="../img/foo-03.png" alt="">
+    					<span>전용<br>콜센터</span>
         			</li>
         			<li>
-        				<a href="#">
-        					<img src="../img/foo-04.png" alt="">
-        					<span>프리미엄 &middot;독점 제품<br>선구매 기회</span>
-        				</a>
+    					<img src="../img/foo-04.png" alt="">
+    					<span>프리미엄 &middot;독점 제품<br>선구매 기회</span>
         			</li>
         		</ul>
         		<p>
@@ -300,9 +316,9 @@
 	</section>
 	<section id="csInfo">
 		<div class="custom_inner">
-    		<h2>대표전화</h2>
-    		<h3>1544.7777</h3>
-    		<p>1번 : 배송 / 교환 / 환불관련 / 2번 : 결제 / 회원관련 오전9시~오후6시(토,일 공휴일 휴무)</p>
+    		<h2>고객센터</h2>
+    		<h3>070.4659.1540</h3>
+    		<p>오전 9시 - 오후 6시 (점심시간 12 : 00 - 13:00  토,일, 공휴일 휴무)</p>
     		<ul>
     			<li><a href="#">고객센터</a></li>
     			<li><a href="#">FAQ</a></li>
@@ -315,35 +331,36 @@
 		<div class="custom_inner">
     		<ul id="navLink">
     			<li><a href="#">회사소개</a></li>
-    			<li><a href="#">서비스소개</a></li>
+    			<li><a href="#">서비스 소개</a></li>
     			<li><a href="#">이용약관</a></li>
     			<li><a href="#">개인정보취급방침</a></li>
-    			<li><a href="#">청소년 보호정책</a></li>
+    			<li><a href="#">전자상거래 이용약관</a></li>
     			<li><a href="#">인재채용</a></li>
     		</ul>
     		<ul id="snsLink">
-    			<li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li>
+    			<!-- <li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li> -->
     			<li class="facebook"><a href="#"><img src="../img/facebook-ico.png" alt="FaceBook"></a></li>
-    			<li class="twitter"><a href="#"><img src="../img/twitter-ico.png" alt="Twitter"></a></li>
+    			<!-- <li class="twitter"><a href="#"><img src="../img/twitter-ico.png" alt="Twitter"></a></li> -->
     			<li class="instagram"><a href="#"><img src="../img/instagram-ico.png" alt="Instagram"></a></li>
     		</ul>
 		</div>
 	</nav>
 	<address id="address">
-		<div class="custom_inner">
-    		<span>상호명 : 슈포래빗  대표이사 : 안보현</span>
-    		<span>주소 : 서울시 서초구 방배동 901-10 3층</span>
-    		<span>사업자등록번호 : 220-81-62517</span>
-    		<br>
-            <span>통신판매업신고번호 : 제2006-경기성남-692호  <a href="#">사업자등록정보확인</a></span>
-            <br>
-            <span>고객센터 주소 : 서울시 서초구 방배동 901-10 3층</span>
-        	<span>전화 : 1588-3819 (전화전클릭) 1588-3816 (결제도용신고)</span>
-        	<br>
-        	<span>팩스 : 033-816-5300</span>
-        	<span>이메일 : helpcustomer@gurufit.co.kr</span>
-            <p id="copy">COPYRIGHT &copy; GURUFIT ALL RIGHTS RESERVED.</p>
-        </div>
+		<p class="custom_inner">
+			<span><b>상호명 : </b>주식회사 구루핏</span>
+			<span><b>대표이사 : </b>안보현</span>
+			<span><b>주소 : </b>서울시 강남구 강남대로 464 7층</span>
+			<span><b>사업자등록번호 : </b>813-88-00651</span>
+			<br>
+			<span><b>통신판매업신고번호 : </b>제2006-경기성남-692호&nbsp;&nbsp;<a href="#" style="text-decoration:underline;">사업자등록정보확인</a></span>
+			<br>
+			<span><b>고객센터 주소 : </b>서울시 강남구 강남대로 464 7층</span>
+			<span><b>전화 : </b>070-4659-0495</span>
+			<span><b>이메일 : </b>help@gurufit.co.kr</span>
+		</p>
+		<p id="copy" class="custom_inner">
+			COPYRIGHT &copy; GURUFIT ALL RIGHTS RESERVED.
+		</p>
 	</address>
 </footer>
 </div>

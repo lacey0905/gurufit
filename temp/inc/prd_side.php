@@ -203,6 +203,7 @@
 			<a href="#none" class="more_text">+ 전체 브랜드 보기</a>
 		</dd>
 	</dl>
+
 	<dl>
 		<dt class="filter_tit">색상</dt>
 		<dd class="check_color_list">
@@ -211,7 +212,7 @@
 					<label>
     					<input type="checkbox" id="c_block" name="c_block" class="c_black">
     					<span class="box"></span>
-    					<span class="label">검정 (21)</span>
+    					<span class="label na">검정 (21)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
@@ -260,6 +261,40 @@
 			<a href="#" class="more_text">+ 색상 전체 보기</a>
 		</dd>
 	</dl>
+	<style>
+		/*컬러값이 비활성화 되었을때*/
+		/*비활성화 하고자 하는 부분에 na붙이세요 non-activate*/
+		.cbox_color .na {
+			opacity:0.5;
+			cursor:text;			
+		}
+	
+		/*가격에서 활성화 되었을 때*/
+		.range_select_list ul .act {
+			font-weight:bold;
+			color:#f6a623;		
+		}
+		.range_select_list ul .act a:hover,
+		.range_select_list ul .act a:visited
+		 {
+			font-weight:bold;
+			color:#f6a623;
+		}
+		/*가격에서 비활성화 되었을때*/
+		.range_select_list ul .na a{
+			opacity:0.5;
+			cursor:text;
+		}
+		.range_select_list ul .na a:hover {
+			opacity:0.5;
+			cursor:text;			
+		}
+		/*별점을 클릭했을떄*/
+		.star_rating > .star_on:visited,
+		.star_rating > .star_on:focus {
+			color:#fff;
+		}
+	</style>
 	<dl>
 		<dt class="filter_tit">가격</dt>
 		<dd class="range_select_list">
@@ -269,8 +304,8 @@
 			<ul>
 				<li class="active"><a href="#">3만원 이하 (24)</a></li>
 				<li><a href="#">3만원 ~ 5만원 (32)</a></li>
-				<li><a href="#">5만원 ~ 7만원 (123)</a></li>
-				<li><a href="#">7만원 ~ 10만원 (87)</a></li>
+				<li class="na"><a href="#">5만원 ~ 7만원 (123)</a></li>
+				<li class="act"><a href="#">7만원 ~ 10만원 (87)</a></li>
 				<li><a href="#">10만원 ~ 12만원 (45)</a></li>
 				<li><a href="#">12만원 이상 (64)</a></li>
 			</ul>

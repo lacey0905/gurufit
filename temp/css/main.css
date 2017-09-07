@@ -25,6 +25,8 @@
 	color:#fff;
 	line-height:46px;
 	z-index:1000;
+	text-shadow: 1px 1px #bbb;
+	opacity:10;	
 }
 .bnr_box_type li h2 .tit_arr_line {
 	position:absolute;

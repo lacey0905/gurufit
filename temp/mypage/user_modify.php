@@ -124,7 +124,21 @@
         			<form action="">
         			<dl class="form_list_a">
         				<dt>은행</dt>
-        				<dd><span class="txt">groovy@shoeforrabbit.com</span></dd>
+        				<dd>
+        					<div class="sel_custom sel_nm_box sel_mid um_sel_mid">
+        						<select class="sel_mid">
+        							<option>신한은행</option>
+        						</select>
+        					</div>        				
+        				</dd>
+        				<style>
+        				    .form_list_a > dd {
+        				        margin-top:12px;
+        				    }
+        				    .um_sel_mid {
+        				        width: 274px !important;
+        				    }
+        				</style>
         				<dt>예금주</dt>
         				<dd>
         					<div class="form">

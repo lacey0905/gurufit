@@ -176,15 +176,16 @@
 /*yeseo 헤더 영역의 검색 바 수정*/
 .lnbSearch input.search_inp {
 	display:inline-block;
-	font-size:13px;
-	font-weight:300;
+	font-size:18px;
+	font-weight:bold;
 	letter-spacing:-0.4px;
-	color: #F5A623;
+	color: #000000;
 	line-height:19px;
 	height:43px;
 	border:0;
 	width:300px;
-	text-indent:15px;
+	text-align:left;
+	text-indent: 7px;
 	outline:none;
 	vertical-align:middle;
 	padding-right:45px;
@@ -192,30 +193,32 @@
 	/*yeseo*/
 	border-bottom:1px solid #C6C1DD;
 }
+/*yeseo*/
 .search_inp::-webkit-input-placeholder {
 	font-size:13px;
-	font-weight:400;
+	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
 .search_inp::-moz-placeholder {
 	font-size:13px;
- 	font-weight:400;
+ 	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
 .search_inp:-ms-input-placeholder {
 	font-size:13px;
-	font-weight:400;
+	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
 .search_inp:-moz-placeholder {
 	font-size:13px;
-	font-weight:400;
+	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
+/*yeseo*/
 .lnbSearch input.search_btn {
 	border:0;
 	cursor:pointer;

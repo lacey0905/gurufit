@@ -173,13 +173,14 @@
 	position:relative;
 	z-index:5000;
 }
+/*yeseo 헤더 영역의 검색 바 수정*/
 .lnbSearch input.search_inp {
 	display:inline-block;
 	font-size:13px;
-	font-weight:400;
+	font-weight:300;
 	letter-spacing:-0.4px;
-	color:#f6a623;
-	line-height:43px;
+	color: #F5A623;
+	line-height:19px;
 	height:43px;
 	border:0;
 	width:300px;

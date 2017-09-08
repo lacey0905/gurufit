@@ -27,7 +27,7 @@
 							<h3>무료 교환/반품 정책</h3>
 							<ul>
 								<li><img src="../img/free_return_info1.png" alt="#"><span>1개만 주문해도 무료 배송</span></li>
-								<li><img src="../img/free_return_info2.png" alt="#"><span>조건 없는 교환·반품</span></li>
+								<li><img src="../img/free_return_info2.png" alt="#"><span>쉽고 빠른 교환·반품</span></li>
 								<li><img src="../img/free_return_info3.png" alt="#"><span>교환·반품 기간 최소 30일</span></li>
 							</ul>
 							<dl>

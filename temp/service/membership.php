@@ -166,7 +166,7 @@
 									<td class="table_grey_font">—</td>
 								</tr>
 								<tr>
-									<td>브론즈</td>
+									<td>브론즈Ⅰ</td>
 									<td class="merge">200</td>
 									<td class="table_grey_font">—</td>
 								</tr>

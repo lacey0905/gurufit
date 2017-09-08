@@ -27,14 +27,21 @@
 			<h4 class="comp_tit">주문이 정상적으로 <em>완료 되었습니다.</em></h4>
 			<div class="comp_cont btn_order_submit">
     			<strong class="btn_head">
-    				<em class="user_level_x6">Gold<br>III</em>
-    				<span>
-    					Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
-    					구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 
+    				<span class="ord_end_ship_day">
+    					배송 예정일은 <em>2017년 10월 28일</em> 입니다.<br>
+    					구매 후 리뷰를 작성하면 <em>100xp</em>경험치를 얻을 수 있습니다. 
     				</span>
     			</strong>
     		</div>
 		</div>
+		<style>
+        .btn_order_submit .btn_head .ord_end_ship_day{
+            text-align:center !important;
+        }
+        .btn_order_submit .btn_head .ord_end_ship_day em {
+            color:#484848;
+        }		  
+		</style>
 		<h3 class="tit_sub_a">결제 내역</h3>
 		<div class="order_result_box">
 			<div class="result_box_mix">

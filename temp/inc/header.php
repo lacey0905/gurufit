@@ -56,7 +56,7 @@
 				<dt id="userMyPop" class="user_nav modal_btn">
 					<a href="#none">
     					<span class="level"><img src="../img/silver-s-1.png" alt="레벨"></span>
-    					<span class="name">Kim Hayoung</span>
+    					<span class="name">손예서</span>
     					<span class="rnd_box_cnt">2</span>
 					</a>
 				</dt>
@@ -119,6 +119,8 @@
     				<li><a href="http://lacey.dothome.co.kr/yeseo/gurufit/member/login.php" class="icon_orderList_x19">Order</a></li>
     				<li class="madal_popup_area">
     					<a href="#" class="modal_btn icon_cart_x21"><span class="rnd_box_cnt">2</span>Cart</a>
+    					
+    					
                         <div class="cart_pop modal_popup rt_arr pop_type_a">
                         	<h2>
                         		<strong>장바구니</strong>
@@ -184,6 +186,209 @@
                         					</dd>
                         				</dl>
                         			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>
+                        			<li>
+                        				<dl>
+                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                        					<dd>
+                        						<ul>
+                        							<li class="rating">
+                        								<strong class="star_rating">
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_on"></i>
+							    							<i class="star_off"></i>
+							   							</strong>
+                        								<span class="cnt">(29)</span>
+                    								</li>
+                        							<li class="name">NIKE FREE 5.0</li>
+                        							<li class="price">
+                        								<em>89,100</em>원
+                        								<del>99,000원</del>
+                        							</li>
+                        							<li class="opt">
+                										<span class="color">컬러 : <em>Green</em></span>
+                										<span class="size">사이즈 : <em>230</em></span>
+                										<span class="quantity">수량 : <em>1개</em></span>
+                        							</li>
+                        						</ul>
+                        					</dd>
+                        				</dl>
+                        			</li>                        			                        			                        			                        			                        			                        			                        			
                         		</ul>
                         		<p class="guide">
                         			Gold Ⅲ 등업이 얼마 남지 않았어요!<br>
@@ -221,7 +426,7 @@
 			<nav id="lnbNav">
 				<ul class="nav">
 					<li class="drop">
-						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?">스토어</a>
+						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?" class="main_s">스토어</a>
 						<div class="lnb_drop s_mid">
 							<dl class="lnb_drop_list">
 								<dt>여성</dt>
@@ -251,8 +456,38 @@
 								<a href="#"><img src="../img/lnb_drop_sample.png" alt="신상품"></a>
 							</div>
 						</div>
+						<style>
+							#lnb #lnbNav .nav li .main_s {
+								position:relative;
+							}
+							#lnb #lnbNav .nav li .main_s:hover:after {
+							    content: " ";
+							    position: absolute;
+								top: -20px;
+								left: 55px;
+							    display: inline-block;
+							    width: 10px;
+							    height: 11px;
+							    background-color: #7053ff;
+							    border-radius: 100%;								
+							}
+							#lnb #lnbNav .nav li .main_m {
+								position:relative;							
+							}
+							#lnb #lnbNav .nav li .main_m:hover:after {
+							    content: " ";
+							    position: absolute;
+								top: -6px;
+								left: 51px;
+							    display: inline-block;
+							    width: 10px;
+							    height: 11px;
+							    background-color: #7053ff;
+							    border-radius: 100%;														
+							}
+						</style>
 					</li>
-					<li><a href="#">매거진</a></li>
+					<li><a href="#" class="main_m">매거진</a></li>
 				</ul>
 			</nav>
 			<!-- 검색어 팝업을 띄울 경우 [active] 클래스를 추가 -->

@@ -402,7 +402,44 @@
 						<li><a href="#">#수트 패션</a></li>
 						<li><a href="#">#비즈니스 패션</a></li>
 					</ul>
-					<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a>
+					<!--<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a btn_dim">사진등록하기</a>-->
+					
+					<!-- 사진 등록하기 버튼 대신에 sort기능으로  -->
+ 					<div class="sd_select_sort">
+    					<div class="sel_custom sel_nm_box sel_mid">
+    						<select class="sel_mid">
+    							<option>베스트 순</option>
+    							<option>도움 순</option>
+    							<option>최신 등록 순</option>
+    						</select>
+    					</div>
+					</div> 
+					<style>
+					   /*사진 등록 대신에 sort 박스*/
+					   .sd_select_sort {
+					      padding:0;
+					      float:right;
+					   }
+					   .sd_select_sort:after {
+					       content:"";
+					       display:block;
+					       clear:both;
+					   }
+					   /*만약에 로그인 하지 않은 회원이라면... 버튼, 비활성화 처리*/
+					   .btn_dim {
+                            opacity:0.30;
+                            cursor:not-allowed;
+                            background-color:grey;
+					   }
+					   .btn_dim:hover {
+					        border:unset !important;
+					        color:unset !important;
+					        height:40px !important;
+					   }
+					   
+					   
+					</style>
+										
 				</div>
 				<!-- 등록 된 이미지가 없을 때 메시지 박스
 				<div class="null_cont_box gray">
@@ -413,10 +450,10 @@
 					</span>
 				</div>
 				-->
-				<ul class="photo_list swiper-wrapper">
+				<ul class="photo_list swiper-wrapper photo_list_center">
 					<li class="swiper-slide"><a href="#"><img src="../img/true-1.png" alt=""></a></li>
 					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-3.png" alt=""></a></li>
+					<li class="swiper-slide"><a href="#"><img src="../img/true-3.png" alt=""></a></li> 
 					<li class="swiper-slide"><a href="#"><img src="../img/true-1.png" alt=""></a></li>
 					<li class="swiper-slide"><a href="#"><img src="../img/true-4.png" alt=""></a></li>
 					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
@@ -424,15 +461,15 @@
 					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
 					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
 				</ul>
-			</div>
+			</div>	
 			<div id="productInfo">
 				<nav class="detail_nav">
 					<div class="custom_inner">
 						<ul>
-							<li class="active"><a href="#productInfo">상품 정보</a></li>
-							<li><a href="#productReview">구매자 리뷰(11)</a></li>
-							<li><a href="#relatedProduct">연관 상품</a></li>
-							<li><a href="#relatedContent">연관 컨텐츠</a></li>
+							<li class="active" ><a href="#productInfo" class="scroll">상품 정보</a></li>
+							<li><a href="#productReview" class="scroll">구매자 리뷰(11)</a></li>
+							<li><a href="#relatedProduct" class="scroll">연관 상품</a></li>
+							<li><a href="#relatedContent" class="scroll">연관 컨텐츠</a></li>
 						</ul>
 						<a href="#" class="nav_btn btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">상품문의 하기</a>
 					</div>
@@ -709,7 +746,7 @@
 				<nav class="detail_nav">
 					<div class="custom_inner">
 						<ul>
-							<li><a href="#productInfo">상품 정보</a></li>
+							<li><a href="#productInfo" class="scroll">상품 정보</a></li>
 							<li class="active"><a href="#productReview">구매자 리뷰(11)</a></li>
 							<li><a href="#relatedProduct">연관 상품</a></li>
 							<li><a href="#relatedContent">연관 컨텐츠</a></li>

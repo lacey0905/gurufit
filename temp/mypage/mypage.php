@@ -148,7 +148,7 @@
 					<div class="dash_badge_list">
 						<strong class="badge_tit">
 							경험치 뱃지
-							<a href="#" class="badge_more">공개뱃지 미션보기</a>
+							<a href="#" class="badge_more">경험치 뱃지 미션 보기</a>
 						</strong>
 						<ul class="badge_list">
 							<li>

@@ -3999,6 +3999,10 @@
 .state_icon .trade {
 	background-color:#57c985;
 }
+/*yeseo - 입금대기중*/
+.state_icon .deposit_wait {
+	background-color: #BBBBBB;
+}
 .state_icon .state_msg {
 	display:inline-block;
 	font-size:14px;

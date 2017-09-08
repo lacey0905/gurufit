@@ -562,6 +562,7 @@
 
 
 /* USER LEVEL */
+/*yeseo*/
 .user_level_x6 {
 	position:relative;
 	display:inline-block;
@@ -570,11 +571,9 @@
 	font-size:11px;
 	font-weight:600;
 	line-height:10px;
-	/*padding:11px 0 9px;*/
+	/* padding:11px 0 9px; */
 	color:#4a4a4a;
-	/*
-	background:url(../img/user_level_bg.png) no-repeat;
-	*/
+	/* background:url(../img/order_tip.png) no-repeat; */
 	vertical-align:middle;
 }
 .user_level_x6 img {
@@ -745,7 +744,7 @@
 /* 라운드 공간 숫자 카운트 */
 .rnd_icon_button {}
 .rnd_icon_button li {
-	display:inline-block;
+	display:inline;
 	margin:0 7px;
 	font-sioze:0;
 }

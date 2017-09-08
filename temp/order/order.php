@@ -1037,10 +1037,10 @@
 		</div>
 		<div class="btn_order_submit">
 			<strong class="btn_head">
-				<em class="user_level_x6">Gold<br>III</em>
+				<em class="user_level_x6"></em>
 				<span>
-					Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
-					구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 
+					배송 예정일은 <em>2017년 10월 28일</em> 입니다.<br>
+					구매 후 리뷰를 작성하면 <em>100xp</em>경험치를 얻을 수 있습니다. 
 				</span>
 			</strong>
 			<ul class="side_btn_list">
@@ -1048,6 +1048,11 @@
 				<li class="active"><a href="#">결제하기</a></li>
 			</ul>
 		</div>
+		<style>
+		.btn_order_submit .btn_head span em {
+		  color:#484848;
+		}
+		</style>
 		<script>
 			// 결제 정보 탭
     		$(function(){

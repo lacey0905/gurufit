@@ -34,6 +34,10 @@
     <script src="../js/swiper.min.js"></script>
     <script src="../js/jquery.bxslider.js"></script>
     <script src="../js/jquery.mCustomScrollbar.js"></script>
+    
+    <script src="../js/jquery.kinetic.js"></script>
+    
+    
     <script src="../js/ui.js"></script>
 
 </head>

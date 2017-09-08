@@ -1,4 +1,151 @@
 <?php include "../inc/header.php" ?>
+
+<!-- 모달 팝업 -->
+<!-- 모달팝업 부모 앨리먼트 -->
+<!-- 
+    팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
+    따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
+-->
+<div class="f_modal_perant">
+
+	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
+	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
+	
+	<!-- 사진 등록 리스트 -->
+	<div class="f_modal_layer f_modal_shadow big">
+		<div class="f_modal_wrap">
+			<div class="f_modal_area">
+        		<div class="f_modal_head">
+        			<span class="date">
+        				<em>등록일</em>
+    					2017년 7월 16일	
+        			</span>
+        			<a href="#" class="btn_close">Close</a>
+        		</div>
+        		<div class="f_modal_cont big">
+        			<!-- 팝업 슬라이드 반복 -->
+        			<div class="f_modal_slider">
+						<div id="modalSlide" class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                	<div class="slide_area">
+                                    	<div class="slide_thum">
+                                    		<!-- 확대 이미지  -->
+                                    		<img src="../img/modal_slider_sample.png" />
+                                    	</div>
+                                    	<div class="slider_prd">
+                            				<table class="prd_list_a small">
+                            					<caption class="blind">장바구니</caption>
+                            					<colgroup>
+                            						<col class="col_thum">
+                            						<col class="col_cont">
+                            					</colgroup>
+                            					<tbody>
+                        							<tr>
+                            							<td class="thum">
+                            								<span class="prd_thum">
+                            		    						<a href="#">
+                            		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+                            	    							</a>
+                            	   							</span>
+                            							</td>
+                            							<td class="cont">
+                            								<strong class="name">Nike Metcon DSX Flyknit</strong>
+                            								<span class="date">2017년 6월 30일에 구입</span>
+                            								<ul class="hash">
+                            									<li><a href="#">#NIKE</a></li>
+                            									<li><a href="#">#Flyknit</a></li>
+                            									<li><a href="#">#Free</a></li>
+                            									<li><a href="#">#5.0</a></li>
+                            								</ul>
+                            								<div class="like">
+                            									<a href="#"><span class="up">52</span></a>
+                        										<a href="#"><span class="dw">4</span></a>
+                            								</div>
+                            							</td>
+                            						  </tr>
+                            					 </tbody>
+                            				</table>
+                            			</div>
+                        			</div>
+                                </div>
+                                <!-- 사진 하단 제품 정보 -->
+                                <div class="swiper-slide">
+                                	<div class="slide_area">
+                                    	<div class="slide_thum">
+                                    		<img src="../img/modal_slider_sample.png" />
+                                    	</div>
+                                    	<div class="slider_prd">
+                            				<table class="prd_list_a small">
+                            					<caption class="blind">장바구니</caption>
+                            					<colgroup>
+                            						<col class="col_thum">
+                            						<col class="col_cont">
+                            					</colgroup>
+                            					<tbody>
+                        							<tr>
+                            							<td class="thum">
+                            								<span class="prd_thum">
+                            		    						<a href="#">
+                            		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+                            	    							</a>
+                            	   							</span>
+                            							</td>
+                            							<td class="cont">
+                            								<strong class="name">Nike Metcon DSX Flyknit</strong>
+                            								<span class="date">2017년 6월 30일에 구입</span>
+                            								<ul class="hash">
+                            									<li><a href="#">#NIKE</a></li>
+                            									<li><a href="#">#Flyknit</a></li>
+                            									<li><a href="#">#Free</a></li>
+                            									<li><a href="#">#5.0</a></li>
+                            								</ul>
+                            								<div class="like">
+                            									<a href="#"><span class="up">52</span></a>
+                        										<a href="#"><span class="dw">4</span></a>
+                            								</div>
+                            							</td>
+                            						  </tr>
+                            					 </tbody>
+                            				</table>
+                            			</div>
+                        			</div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+       						<div class="swiper-pagination"></div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next swiper-button-white"></div>
+                            <div class="swiper-button-prev swiper-button-white"></div>
+                        </div>
+                        <script>
+                    	$(function(){
+                    		var modal_swiper = new Swiper('#modalSlide', {
+                    	        pagination: '#modalSlide .swiper-pagination',
+                    	        paginationClickable: true,
+                    	        nextButton: '#modalSlide .swiper-button-next',
+                    	        prevButton: '#modalSlide .swiper-button-prev',
+                    	        paginationType: 'fraction'
+                    	    });
+							// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
+							$(".share_your_gurufit .photo_list li").each(function(){
+								$(this).bind("click", function(){
+									swiper.slideTo($(this).index(), 0);
+								});
+							});
+                    	});
+                        </script>
+        			</div>
+        		</div>
+    		</div>
+		</div>
+	</div>
+	<!-- 모달 팝업 그림자 -->
+	<div class="f_modal_blind"></div>
+</div>
+<!-- 모달 팝업 END -->
+<!-- /////// -->
+
 <section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
@@ -394,7 +541,37 @@
 					</div>
 				</div>
 			</div>
-			<div class="share_your_gurufit swiper-container">
+			
+			
+			<script>
+
+			
+        		$(function(){
+        			var $scroller = $('.photo_list').kinetic();
+					
+        		});
+        	</script>
+			
+			<style>
+			 .share_cont {
+			     width:100%;
+			     max-width:1620px;
+			     margin:0 auto;
+			 }
+			  
+			 .photo_list {
+			     overflow:hidden;
+			     white-space:nowrap;
+			 }
+			 .share_your_gurufit .photo_list li {
+			     width:270px !important;
+			 }
+			 
+			</style>
+			
+			<div class="share_your_gurufit">
+			
+			
 				<div class="custom_inner share_head">
 					<h2>Share Your gurufit</h2>
 					<ul class="hash_list">
@@ -413,17 +590,16 @@
 					</span>
 				</div>
 				-->
-				<ul class="photo_list swiper-wrapper">
-					<li class="swiper-slide"><a href="#"><img src="../img/true-1.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-3.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-1.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-4.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-					<li class="swiper-slide"><a href="#"><img src="../img/true-2.png" alt=""></a></li>
-				</ul>
+				<div class="share_cont">
+    				<ul class="photo_list">
+    					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
+    					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
+    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
+    				</ul>
+				</div>
 			</div>
 			<div id="productInfo">
 				<nav class="detail_nav">
@@ -1404,21 +1580,21 @@ $(function(){
     });
 
 	// Share Your Gurufit Slider
-	var ShareSlide = new Swiper('.share_your_gurufit', {
-		slidesPerView:7, // 7개 기준으로 리사이즈 되게 함
+	/*
+	var ShareSlide = new Swiper('.share_your_gurufit .share_cont', {
+		slidesPerView:6,
         paginationClickable: true,
         spaceBetween:0,
         freeMode: true,
-        breakpoints: {
-        1920: {
-          slidesPerView: 7,
-        },
-        1400: {
-          slidesPerView: 5,
+        1260: {
+			//$(".share_your_gurufit .share_cont").css({})
+			//alert();
         }
-      }
     });
+
+	*/
 	
+    
 });
 </script>
 

@@ -1118,6 +1118,7 @@
 .f_modal_head {
 	position:relative;
 	min-height:76px;
+	z-index:1100;
 }
 .f_modal_head h2 {
 	font-size:24px;
@@ -1142,6 +1143,20 @@
 	text-align:left;
 	color:#7053FF;
 	padding:6px 0 0;
+}
+
+.f_modal_head .date {
+	display:block;
+	text-align:left;
+	line-height:76px;
+	padding:0 30px;
+	font-size:16px;
+	color:#333;
+}
+.f_modal_head .date em {
+	font-size:16px;
+	color:#bbb;
+	margin-right:5px;
 }
 .f_modal_head .btn_close {
 	position:absolute;
@@ -1169,8 +1184,9 @@
 	color:#000;
 }
 .f_modal_cont {
+	position:relative;
 	max-height:600px;
-	overflow:auto;
+	z-index:1000;
 }
 .f_modal_cont.big {
 	max-height:900px;
@@ -1589,6 +1605,63 @@
 	line-height:22px;
 	margin-top:10px;
 }
+
+
+/* 모달 슬라이드 */
+.f_modal_slider {
+	width:750px;
+}
+.f_modal_slider .swiper-container {
+	padding-top:50px;
+	margin-top:-50px;
+}
+.f_modal_slider .slide_thum {}
+.f_modal_slider .slide_thum img {
+	display:block;
+}
+.f_modal_slider .slider_prd {
+	display:block;
+	padding:0px 30px;
+	margin:15px 0;
+}
+.f_modal_slider .slider_prd .like {
+	top:25px;
+}
+.f_modal_slider .slider_prd .like span {
+	border: 1px solid #E9E9E9;
+	border-radius:4px;
+	padding:0 10px;
+	line-height:22px;
+	color:#8f8f8f;
+	font-weight:300;
+	margin-left:5px;
+}
+.f_modal_slider .swiper-button-next, 
+.f_modal_slider .swiper-button-prev {
+	margin-top:-85px !important;
+	z-index:9000;
+}
+.f_modal_slider .swiper-button-next {
+	right:30px;
+}
+.f_modal_slider .swiper-button-prev {
+	left:30px;
+}
+.f_modal_slider .swiper-pagination {
+	position:absolute;
+	top:0px;
+	bottom:auto;
+	z-index:9000;
+}
+.f_modal_slider .swiper-pagination,
+.f_modal_slider .swiper-pagination span {
+	font-size:18px;
+	font-weight:400;
+	color:#000;
+	line-height:27px;
+}
+
+
 
 .choice_list_wrap {}
 .choice_list {}

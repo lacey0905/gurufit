@@ -364,6 +364,13 @@
 
 /* Share Your Gurufit */
 .share_your_gurufit {
+	overflow:hidden;
+}
+.share_your_gurufit .share_cont {
+	/*
+	width:1220px !important;
+	margin:0 auto;
+	*/
 }
 .share_your_gurufit h2 {
 	display:inline-block;

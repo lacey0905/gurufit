@@ -950,7 +950,7 @@
 					<li><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>
-					<li class="active"><a href="#">구매내역</a></li>										
+					<li class="active"><a href="#">주문내역</a></li>										
 				</ul>
 			</div>
 		</section>

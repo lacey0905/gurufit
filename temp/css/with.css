@@ -2810,7 +2810,14 @@
 	width:18px !important;
 	height:18px !important;
 	line-height:18px !important;
+
 }
+/*yeseo*/
+.ord_h_round [type="checkbox"]:not(:checked) + .box:before, .ord_h_round [type="checkbox"]:checked + .box:before {
+    border-radius: 24px !important;
+    padding:2px !important;
+}
+
 .cbox_s_s [type="checkbox"]:not(:checked) + .box:after,
 .cbox_s_s [type="checkbox"]:checked + .box:after {
 	font-size:12px;
@@ -4071,6 +4078,10 @@
 }
 .state_icon .trade {
 	background-color:#57c985;
+}
+/*yeseo - 입금대기중*/
+.state_icon .deposit_wait {
+	background-color: #BBBBBB;
 }
 .state_icon .state_msg {
 	display:inline-block;

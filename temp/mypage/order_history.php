@@ -1,3 +1,46 @@
+ <style>
+   /*배송 예정일은 ...*/    					 
+   .ord_h_ship_date {
+       display:inline-block;
+       text-align:right !important;
+       color: #8F8F8F;
+       font-size: 12px;	
+       line-height: 18px;	
+       text-align: right;
+       margin-bottom:5px;
+   }
+   .ord_h_ship_date em {
+       color:#6a6a6a;
+   }
+   .prd_list_btn li .ord_h_ship_ing {
+       color:#fff !important;
+       background-color:#71BEF3;
+       font-weight:bold;
+   }
+   .prd_list_btn li .ord_h_ship_ing:hover {
+       border:unset !important;
+       color:#fff !important;
+       font-weight:bold;
+   }
+   .btn_opt_msg .ord_h_acquire {
+    display:inline-block;
+    color:#F5A623 !important;
+    font-size:14px;
+    font-weight:bold;
+    line-height:15px;
+    margin-bottom:10px;   
+   } 
+   .prd_list_btn .ord_h_com {
+    background-color: #57C985 !important;
+    color:#fff !important;
+   }
+   .prd_list_btn .ord_h_com:hover {
+    color:#fff !important;
+    border:0 !important;
+   }    
+ </style>
+
+
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -907,7 +950,7 @@
 					<li><a href="#">히스토리</a></li>
 					<li><a href="#">1:1문의</a></li>
 					<li><a href="#">개인정보 설정</a></li>
-					<li class="active"><a href="#">구매내역</a></li>										
+					<li class="active"><a href="#">주문내역</a></li>										
 				</ul>
 			</div>
 		</section>
@@ -925,6 +968,11 @@
         			<div class="sel sel_custom sel_nm_box sel_x1 sel_x1_long btn_rnd_x1 sel_arr_a">
 						<select>
 							<option>최근 6개월간 주문하신 상품</option>
+							<option>최근 1개월</option>
+							<option>최근 3개월</option>
+							<option>최근 6개월</option>
+							<option>최근 3개월</option>
+							<option>최근 1개월</option>
 						</select>
 					</div>
 				</dd>
@@ -933,6 +981,7 @@
 		<section id="mypage">
 			<div class="prd_top_info">
 				<!-- 구매내역 리스트  -->
+				<!-- 1 -->
 				<div class="prd_top_list">
     				<table class="prd_list_a">
     					<caption class="blind">장바구니</caption>
@@ -951,132 +1000,7 @@
     									<dd><a href="#">2017021687496831</a></dd>
     								</dl>
     								<div class="state_icon">
-    									<strong class="state_ state_delivery_com">배송완료</strong>
-    									<span class="state_msg">XP 100 획득!</span>
-    								</div>
-    								<div class="total_order_price">
-    									총 결제 금액 : <strong>89,100<span>원</span></strong>
-    								</div>
-    							</th>
-    						</tr>
-    					</thead>
-    					<tbody>
-    						<tr>
-    							<td class="thum">
-    								<span class="prd_thum">
-    		    						<a href="#">
-    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-    	    							</a>
-    	   							</span>
-    							</td>
-    							<td class="cont">
-    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-    								<strong class="name">Nike Metcon DSX Flyknit</strong>
-    								<dl class="opt">
-    									<dt>컬러 : </dt>
-    									<dd>Green</dd>
-    									<dt>사이즈 : </dt>
-    									<dd>230</dd>
-    									<dt>수량 : </dt>
-    									<dd>1개</dd>
-    								</dl>
-    							</td>
-    							<td class="btn">
-    								<ul class="prd_list_btn">
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환신청</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
-    									<li>
-    										<div class="btn_opt_msg">
-            									<img src="../img/review-1.png" alt="">
-            									<span>
-            										전문 리뷰어 배지를 모으세요!<br>
-            										리뷰 1개만 더 작성하시면 됩니다.
-            									</span>
-            								</div>
-    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">상품 리뷰 작성</a>
-    									</li>
-    								</ul>
-    							</td>
-    						  </tr>
-    					 </tbody>
-    				</table> 
-				</div>
-				<div class="prd_top_list">
-    				<table class="prd_list_a">
-    					<caption class="blind">장바구니</caption>
-    					<colgroup>
-    						<col class="col_thum">
-    						<col class="col_cont">
-    						<col class="col_btn">
-    					</colgroup>
-    					<thead>
-    						<tr>
-    							<th colspan="3">
-    								<dl class="prd_order_info">
-    									<dt>주문날짜</dt>
-    									<dd>2016.05.25</dd>
-    									<dt>주문번호</dt>
-    									<dd><a href="#">2017021687496831</a></dd>
-    								</dl>
-    								<div class="state_icon">
-    									<strong class="state_ state_delivery">배송중</strong>
-    									<span class="state_msg">XP 100 획득!</span>
-    								</div>
-    								<div class="total_order_price">
-    									총 결제 금액 : <strong>89,100<span>원</span></strong>
-    								</div>
-    							</th>
-    						</tr>
-    					</thead>
-    					<tbody>
-    						<tr>
-    							<td class="thum">
-    								<span class="prd_thum">
-    		    						<a href="#">
-    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
-    	    							</a>
-    	   							</span>
-    							</td>
-    							<td class="cont">
-    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-    								<strong class="name">Nike Metcon DSX Flyknit</strong>
-    								<dl class="opt">
-    									<dt>컬러 : </dt>
-    									<dd>Green</dd>
-    									<dt>사이즈 : </dt>
-    									<dd>230</dd>
-    									<dt>수량 : </dt>
-    									<dd>1개</dd>
-    								</dl>
-    							</td>
-    							<td class="btn">
-    								<ul class="prd_list_btn">
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">배송조회</a></li>
-    								</ul>
-    							</td>
-    						  </tr>
-    					 </tbody>
-    				</table> 
-				</div>
-				<div class="prd_top_list">
-    				<table class="prd_list_a">
-    					<caption class="blind">장바구니</caption>
-    					<colgroup>
-    						<col class="col_thum">
-    						<col class="col_cont">
-    						<col class="col_btn">
-    					</colgroup>
-    					<thead>
-    						<tr>
-    							<th colspan="3">
-    								<dl class="prd_order_info">
-    									<dt>주문날짜</dt>
-    									<dd>2016.05.25</dd>
-    									<dt>주문번호</dt>
-    									<dd><a href="#">2017021687496831</a></dd>
-    								</dl>
-    								<div class="state_icon">
-    									<strong class="state_ state_wait">입금대기중</strong>
+    									<strong class="state_ deposit_wait">입금대기</strong>
     									<a href="#" class="state_add_btn rnd btn_hover_a">결제수단 변경</a>
     								</div>
     								<div class="total_order_price">
@@ -1109,8 +1033,289 @@
     							<td class="btn">
     								<ul class="prd_list_btn">
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">배송지 변경</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">상품옵션수정</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">주문취소</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">사이즈 변경</a></li>
+<!--     									<li>
+    										<div class="btn_opt_msg">
+            									<img src="../img/review-1.png" alt="">
+            									<span>
+            										전문 리뷰어 배지를 모으세요!<br>
+            										리뷰 1개만 더 작성하시면 됩니다.
+            									</span>
+            								</div>
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">상품 리뷰 작성</a>
+    									</li> -->
+    								</ul>
+    							</td>
+    						  </tr>
+    					 </tbody>
+    				</table> 
+				</div>
+				<!-- 2 -->				
+				<div class="prd_top_list">
+    				<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<thead>
+    						<tr>
+    							<th colspan="3">
+    								<dl class="prd_order_info">
+    									<dt>주문날짜</dt>
+    									<dd>2016.05.25</dd>
+    									<dt>주문번호</dt>
+    									<dd><a href="#">2017021687496831</a></dd>
+    								</dl>
+    								<div class="state_icon">
+    									<strong class="state_ state_delivery">결제완료</strong>
+    								</div>
+    								<div class="total_order_price">
+    									총 결제 금액 : <strong>89,100<span>원</span></strong>
+    								</div>
+    							</th>
+    						</tr>
+    					</thead>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>컬러 : </dt>
+    									<dd>Green</dd>
+    									<dt>사이즈 : </dt>
+    									<dd>230</dd>
+    									<dt>수량 : </dt>
+    									<dd>1개</dd>
+    								</dl>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환신청</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
+<!--     									<li>
+    										<div class="btn_opt_msg">
+            									<img src="../img/review-1.png" alt="">
+            									<span>
+            										전문 리뷰어 배지를 모으세요!<br>
+            										리뷰 1개만 더 작성하시면 됩니다.
+            									</span>
+            								</div>
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">상품 리뷰 작성</a>
+    									</li> -->
+    								</ul>
+    							</td>
+    						  </tr>
+    					 </tbody>
+    				</table> 
+				</div>
+				<!-- 3 -->
+				<div class="prd_top_list">
+    				<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<thead>
+    						<tr>
+    							<th colspan="3">
+    								<dl class="prd_order_info">
+    									<dt>주문날짜</dt>
+    									<dd>2016.05.25</dd>
+    									<dt>주문번호</dt>
+    									<dd><a href="#">2017021687496831</a></dd>
+    								</dl>
+    								<div class="state_icon">
+    									<strong class="state_ state_delivery">배송중</strong>
+    								</div>
+    								<div class="total_order_price">
+    									총 결제 금액 : <strong>89,100<span>원</span></strong>
+    								</div>
+    							</th>
+    						</tr>
+    					</thead>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>컬러 : </dt>
+    									<dd>Green</dd>
+    									<dt>사이즈 : </dt>
+    									<dd>230</dd>
+    									<dt>수량 : </dt>
+    									<dd>1개</dd>
+    								</dl>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li>
+     										<div class="btn_opt_msg">
+            									<span class="ord_h_ship_date">
+            										배송 예정일은<br>
+            										<em>2017년 10월 28일</em> 입니다.
+            									</span>
+            								</div>   									
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_ship_ing">배송중</a>
+    									</li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환 신청</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
+    								</ul>
+    							</td>
+    						  </tr>
+    					 </tbody>
+
+    				</table> 
+				</div>
+				<!-- 4 -->
+				<div class="prd_top_list">
+    				<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<thead>
+    						<tr>
+    							<th colspan="3">
+    								<dl class="prd_order_info">
+    									<dt>주문날짜</dt>
+    									<dd>2016.05.25</dd>
+    									<dt>주문번호</dt>
+    									<dd><a href="#">2017021687496831</a></dd>
+    								</dl>
+    								<div class="state_icon">
+    									<strong class="state_ trade">배송완료</strong>
+    								</div>
+    								<div class="total_order_price">
+    									총 결제 금액 : <strong>89,100<span>원</span></strong>
+    								</div>
+    							</th>
+    						</tr>
+    					</thead>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>컬러 : </dt>
+    									<dd>Green</dd>
+    									<dt>사이즈 : </dt>
+    									<dd>230</dd>
+    									<dt>수량 : </dt>
+    									<dd>1개</dd>
+    								</dl>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li>
+     										<div class="btn_opt_msg">
+            									<span class="ord_h_acquire">
+            										XP 100획득
+            									</span>
+            								</div>   									
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_com">배송완료</a>
+    									</li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환 신청</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
+  										<li>
+    										<div class="btn_opt_msg">
+            									<img src="../img/review-1.png" alt="">
+            									<span>
+            										전문 리뷰어 배지를 모으세요!<br>
+            										리뷰 1개만 더 작성하시면 됩니다.
+            									</span>
+            								</div>
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_shadow btn_cp">상품 리뷰 작성</a>
+    									</li>   									
+    								</ul>
+    							</td>
+    						  </tr>
+    					 </tbody>
+    				</table> 
+				</div>				
+				<!-- 5 -->
+				<div class="prd_top_list">
+    				<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<thead>
+    						<tr>
+    							<th colspan="3">
+    								<dl class="prd_order_info">
+    									<dt>주문날짜</dt>
+    									<dd>2016.05.25</dd>
+    									<dt>주문번호</dt>
+    									<dd><a href="#">2017021687496831</a></dd>
+    								</dl>
+    								<div class="state_icon">
+    									<strong class="state_ state_wait">입금대기중</strong>
+    									<a href="#" class="state_add_btn rnd btn_hover_a">주문 전체 취소</a>
+    									<a href="#" class="state_add_btn rnd btn_hover_a">배송지 변경</a>
+    								</div>
+    								<div class="total_order_price">
+    									총 결제 금액 : <strong>89,100<span>원</span></strong>
+    								</div>
+    							</th>
+    						</tr>
+    					</thead>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>컬러 : </dt>
+    									<dd>Green</dd>
+    									<dt>사이즈 : </dt>
+    									<dd>230</dd>
+    									<dt>수량 : </dt>
+    									<dd>1개</dd>
+    								</dl>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">사이즈 변경</a></li>
     								</ul>
     							</td>
     						  </tr>
@@ -1136,15 +1341,14 @@
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">배송지 변경</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">상품옵션수정</a></li>
-    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">주문취소</a></li>
+    									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">사이즈 변경</a></li>
     								</ul>
     							</td>
     						  </tr>
     					 </tbody>
     				</table> 
 				</div>
+				<!-- 5-2 -->
 				<div class="prd_top_list">
     				<table class="prd_list_a">
     					<caption class="blind">장바구니</caption>
@@ -1202,6 +1406,7 @@
     					 </tbody>
     				</table> 
 				</div>
+				<!-- 6 -->
 				<div class="prd_top_list">
     				<table class="prd_list_a">
     					<caption class="blind">장바구니</caption>
@@ -1259,6 +1464,71 @@
     					 </tbody>
     				</table> 
 				</div>
+				<!-- 마지막  -->
+				<div class="prd_top_list prd_top_list_last">
+    				<table class="prd_list_a">
+    					<caption class="blind">장바구니</caption>
+    					<colgroup>
+    						<col class="col_thum">
+    						<col class="col_cont">
+    						<col class="col_btn">
+    					</colgroup>
+    					<thead>
+    						<tr>
+    							<th colspan="3">
+    								<dl class="prd_order_info">
+    									<dt>주문날짜</dt>
+    									<dd>2016.05.25</dd>
+    									<dt>주문번호</dt>
+    									<dd><a href="#">2017021687496831</a></dd>
+    								</dl>
+    								<div class="state_icon">
+    									<strong class="state_ state_delivery">배송중</strong>
+    								</div>
+    								<div class="total_order_price">
+    									총 결제 금액 : <strong>89,100<span>원</span></strong>
+    								</div>
+    							</th>
+    						</tr>
+    					</thead>
+    					<tbody>
+    						<tr>
+    							<td class="thum">
+    								<span class="prd_thum">
+    		    						<a href="#">
+    		    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    	    							</a>
+    	   							</span>
+    							</td>
+    							<td class="cont">
+    								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+    								<strong class="name">Nike Metcon DSX Flyknit</strong>
+    								<dl class="opt">
+    									<dt>컬러 : </dt>
+    									<dd>Green</dd>
+    									<dt>사이즈 : </dt>
+    									<dd>230</dd>
+    									<dt>수량 : </dt>
+    									<dd>1개</dd>
+    								</dl>
+    							</td>
+    							<td class="btn">
+    								<ul class="prd_list_btn">
+    									<li>
+     										<div class="btn_opt_msg">
+            									<span class="ord_h_ship_date">
+            										배송 예정일은<br>
+            										<em>2017년 10월 28일</em> 입니다.
+            									</span>
+            								</div>   									
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_ship_ing">배송중</a>
+    									</li>
+    								</ul>
+    							</td>
+    						  </tr>
+    					 </tbody>
+    				</table> 
+				</div>				
 			</div>
 			<div class="btn_order_submit">
 				<strong class="btn_head">

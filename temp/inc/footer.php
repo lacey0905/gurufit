@@ -1,3 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>GURUFIT</title>
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/entypo-fontello/0.1/entypo.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/import/swiper.min.css">
+    <!-- Custom Scroll CSS -->
+    <link rel="stylesheet" href="../css/import/jquery.mCustomScrollbar.css">
+	
+	<link rel="stylesheet" type="text/css" href="../css/import/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/import/font.css">
+	<link rel="stylesheet" type="text/css" href="../css/with.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!-- 
+	<link rel="stylesheet" type="text/css" href="../css/yeseo.css">
+	 -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!-- Swiper JS Plugin -->
+    <script src="../js/sectionDisplay.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/jquery.bxslider.js"></script>
+    <script src="../js/jquery.mCustomScrollbar.js"></script>
+    <script src="../js/ui.js"></script>
+
+</head>
 <footer id="footer">
 	<section id="footInfo">
     	<div class="custom_inner">

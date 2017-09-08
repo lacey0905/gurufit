@@ -597,7 +597,6 @@
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
-    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     				</ul>
 				</div>
 			</div>

@@ -713,7 +713,7 @@
 						</tr>
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list ord_h_round">
                         			<label>
                         				<input type="checkbox" id="" name="" value="">
                         				<em class="box"></em>
@@ -730,7 +730,7 @@
 						</tr>
 						<tr>
 							<td>
-					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list">
+					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list ord_h_round">
                         			<label>
                         				<input type="checkbox" id="" name="" value="">
                         				<em class="box"></em>
@@ -760,13 +760,13 @@
 		<h3 class="tit_sub_a">
 			<em>배송지 정보</em>
 			<!--오픈베타에서는 사용하지 않기 당분간 보류 -->
-<!--     		<span class="custom_cbox cbox_c cbox_s_s add_opt">
+     		<span class="custom_cbox cbox_c cbox_s_s add_opt">
     			<label>
     				<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
     				<span class="box"></span>
     				<span class="label">선물인가요?</span>
     			</label>
-    		</span> -->
+    		</span>
 		</h3>
 		<!-- 새로운 배송지 -->
 		<div class="addr_wrap">

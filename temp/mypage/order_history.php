@@ -1465,7 +1465,7 @@
     				</table> 
 				</div>
 				<!-- 마지막  -->
-				<div class="prd_top_list">
+				<div class="prd_top_list prd_top_list_last">
     				<table class="prd_list_a">
     					<caption class="blind">장바구니</caption>
     					<colgroup>
@@ -1524,9 +1524,6 @@
     										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_ship_ing">배송중</a>
     									</li>
     								</ul>
-    								<style>
-    								    
-    								</style>
     							</td>
     						  </tr>
     					 </tbody>

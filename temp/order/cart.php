@@ -80,6 +80,7 @@
 			</div>
 		</div>
 		<div class="cart_result">
+			<span class="before_coupon_txt"><strong>할인 · 쿠폰 적용 전 가격</strong>  멤버십 할인 및 쿠폰은 주문하기 페이지에서 적용할 수 있습니다.</span>
 			<div class="coupone_select_list">
 			</div>
 			<div class="order_result_box">
@@ -108,6 +109,25 @@
 				</ul>
 			</div>
 		</div>
+		<style>
+		 .cart_result {
+		  margin-top:43px;
+		 }
+		 .cart_result .before_coupon_txt {
+	  	  color: #8F8F8F;	
+	  	  font-family: SpoqaHanSans;	
+	  	  font-size: 14px;	
+	  	  font-weight: normal;	
+	  	  line-height: 40px;
+		 }
+		 .cart_result .before_coupon_txt strong {
+	  	  color: #8F8F8F;	
+	  	  font-family: SpoqaHanSans;	
+	  	  font-size: 14px;	
+	  	  font-weight: bold;	
+	  	  line-height: 40px;		 
+		 } 
+		</style>
 		<!-- 위시리스트 리스트 -->
 		<div class="prd_list_type">
 			<h3 class="tit_sub_a">나중에 구매 할 상품</h3>

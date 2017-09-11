@@ -12,7 +12,7 @@
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
 			<h2>Help Desk</h2>
-			<div class="tab_active_type ">
+			<div class="tab_active_type">
 				<ul>
 					<li><a href="#">대시보드</a></li>
 					<li><a href="#">멤버십</a></li>
@@ -26,24 +26,20 @@
 				</ul>
 			</div>
 		</section>
-		<div class="member_box">
-			<h3>
-				비밀번호 찾기
-			</h3>
-			<div id="userSearchBox" class="box_inner pw_confirm_box_inner">
-				<div class="inp_login inp_login_a">
-					<form action="" method="">
-						<fieldset>
-							<legend class="blind">비밀번호 찾기</legend>
-							<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="email">
-							<a href="#" class="inp_submit_a inp_full btn_hover_shadow">비밀번호 확인</a>
-							<div class="inp_opt_link pw_confirm_opt_link">
-    							<a href="#">홍길동님이 아니신가요? 다시 로그인 해주세요.</a>
-    						</div>
-						</fieldset>
-					</form>
-				</div>
-			</div>
+		<h3 class="tit_sub_a">
+			비밀번호 확인
+		</h3>
+		<div class="inp_login inp_login_b">
+			<form action="" method="">
+				<fieldset>
+					<legend class="blind">비밀번호 찾기</legend>
+					<input type="password" value="" placeholder="비밀번호" class="inp_nm_box inp_full" name="email">
+					<a href="#" class="inp_submit_a inp_full btn_hover_shadow">비밀번호 확인</a>
+					<div class="inp_opt_link">
+						<a href="#">홍길동님이 아니신가요? 다시 로그인 해주세요.</a>
+					</div>
+				</fieldset>
+			</form>
 		</div>
 	</article>
 </section>

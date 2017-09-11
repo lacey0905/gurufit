@@ -159,7 +159,7 @@
     											<span class="gauge_min">작은편</span>
     											<span class="gauge_max">큰편</span>
     										</div>
-    										<span class="msg">작아요</span>
+    										<span class="msg">작게 나왔어요</span>
     									</li>
     									<li class="inp">
     										<em>폭</em>
@@ -173,7 +173,7 @@
     											<span class="gauge_min">좁은 편이에요</span>
     											<span class="gauge_max">넉넉해요</span>
     										</div>
-    										<span class="msg">작아요</span>
+    										<span class="msg">좁게 나왔어요</span>
     									</li>
     									<li class="inp">
     										<em>길이</em>
@@ -187,7 +187,7 @@
     											<span class="gauge_min">오래 신으면 불편해요</span>
     											<span class="gauge_max">하루 종일 신어도 편해요</span>
     										</div>
-    										<span class="msg">작아요</span>
+    										<span class="msg">잠시 신어도 불편해요</span>
     									</li>
     								</ul>
     							</div>
@@ -263,33 +263,53 @@
 						var slider_start = 1;
                     	var slider_min = 1;
                     	var slider_max = 5;
+
+                    	// 측면 변환 텍스트 목록
+						var gaugeMsgArr1 = ["작게 나왔어요", "작게 나온 편이에요", "평소 신는 사이즈가 딱 맞아요", "크게 나온 편이에요", "크게 나왔어요" ]; 
+						var gaugeMsgArr2 = ["좁게 나왔어요", "좁게 나온 편이에요", "잘 맞아요", "넓게 나온 편이에요", "넓게 나왔어요" ]; 
+						var gaugeMsgArr3 = ["잠시 신어도 불편해요", "불편해요", "보통이에요", "편해요", "하루종일 신어도 편해요" ]; 
                         
-                        $( ".slider-range-max").slider({
-                            min: slider_min,
-                            max: slider_max,
-                            value: slider_start,
-                            slide: function( event, ui, handle, handleIndex) {
-                                // 측면 변환 텍스트 목록
-    							var gaugeMsgArr = ["작은 편이에요", "조금 작은 편이에요", "보통이에요", "조금 큰 편이에요", "큰 편이에요" ]; 
-    							var msgElem = $(this).parent().parent().parent().find(".msg");
-    							var inpElem = $(this).parent().find(".step_inp");
-    							msgElem.text(gaugeMsgArr[ui.value-1]);
-    							if(ui.value > 3){
-    								msgElem.addClass("active");
-    							} else {
-    								msgElem.removeClass("active");
-    							}
-    							// 현제 스탭 번호 저장
-    							inpElem.val(ui.value);
-    							if(ui.value == slider_min) {
-									$(this).find(".ui-slider-handle").addClass("step_first");
-    							} else if(ui.value == slider_max){
-    								$(this).find(".ui-slider-handle").addClass("step_last");
-        						} else {
-        							$(this).find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
-            					}
-                        	}
-                    	});
+                        $( ".gauge_area .slider-range-max").each(function(){
+                            $(this).slider({
+                                min: slider_min,
+                                max: slider_max,
+                                value: slider_start,
+                                slide: function( event, ui, handle, handleIndex) {
+        							var msgElem = $(this).parent().parent().parent().find(".msg");
+        							var inpElem = $(this).parent().find(".step_inp");
+									var idx = $(this).index();
+									console.log(idx);
+									switch(idx){
+										case 0 : 
+											msgElem.text(gaugeMsgArr1[ui.value-1]);
+											break;
+										case 1 :
+											 msgElem.text(gaugeMsgArr2[ui.value-1]);
+											 break;
+										case 2 : 
+											msgElem.text(gaugeMsgArr3[ui.value-1]);
+											break;
+										default : 
+											break;
+									}
+        							
+        							if(ui.value > 3){
+        								msgElem.addClass("active");
+        							} else {
+        								msgElem.removeClass("active");
+        							}
+        							// 현제 스탭 번호 저장
+        							inpElem.val(ui.value);
+        							if(ui.value == slider_min) {
+    									$(this).find(".ui-slider-handle").addClass("step_first");
+        							} else if(ui.value == slider_max){
+        								$(this).find(".ui-slider-handle").addClass("step_last");
+            						} else {
+            							$(this).find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
+                					}
+                            	}
+                        	});
+                        });
                     	// 최초 시작 시에 Step_First 설치
                         $( ".slider-range-max").find(".ui-slider-handle").addClass("step_first");
                     });

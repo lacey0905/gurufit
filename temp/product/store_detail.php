@@ -118,23 +118,6 @@
                             <div class="swiper-button-next swiper-button-white"></div>
                             <div class="swiper-button-prev swiper-button-white"></div>
                         </div>
-                        <script>
-                    	$(function(){
-                    		var modal_swiper = new Swiper('#modalSlide', {
-                    	        pagination: '#modalSlide .swiper-pagination',
-                    	        paginationClickable: true,
-                    	        nextButton: '#modalSlide .swiper-button-next',
-                    	        prevButton: '#modalSlide .swiper-button-prev',
-                    	        paginationType: 'fraction'
-                    	    });
-							// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
-							$(".share_your_gurufit .photo_list li").each(function(){
-								$(this).bind("click", function(){
-									swiper.slideTo($(this).index(), 0);
-								});
-							});
-                    	});
-                        </script>
         			</div>
         		</div>
     		</div>
@@ -541,34 +524,6 @@
 					</div>
 				</div>
 			</div>
-			
-			
-			<script>
-
-			
-        		$(function(){
-        			var $scroller = $('.photo_list').kinetic();
-					
-        		});
-        	</script>
-			
-			<style>
-			 .share_cont {
-			     width:100%;
-			     max-width:1620px;
-			     margin:0 auto;
-			 }
-			  
-			 .photo_list {
-			     overflow:hidden;
-			     white-space:nowrap;
-			 }
-			 .share_your_gurufit .photo_list li {
-			     width:270px !important;
-			 }
-			 
-			</style>
-			
 			<div class="share_your_gurufit">
 			
 			
@@ -584,9 +539,9 @@
 				<!-- 등록 된 이미지가 없을 때 메시지 박스
 				<div class="null_cont_box gray">
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
-					<span class="null_cont_tit">등록된 이미지가 없습니다.</span>
+					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
-						이미지를 등록해주시면 경험치 <em>100xp</em>를 드립니다.
+                                                착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
 					</span>
 				</div>
 				-->
@@ -594,6 +549,7 @@
     				<ul class="photo_list">
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
+    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
@@ -1579,21 +1535,17 @@ $(function(){
     });
 
 	// Share Your Gurufit Slider
-	/*
-	var ShareSlide = new Swiper('.share_your_gurufit .share_cont', {
-		slidesPerView:6,
-        paginationClickable: true,
-        spaceBetween:0,
-        freeMode: true,
-        1260: {
-			//$(".share_your_gurufit .share_cont").css({})
-			//alert();
-        }
-    });
+    var shareYourGrufit = $('.photo_list').kinetic();
 
-	*/
-	
-    
+	var modal_swiper = new Swiper('#modalSlide', {
+        pagination: '#modalSlide .swiper-pagination',
+        paginationClickable: true,
+        nextButton: '#modalSlide .swiper-button-next',
+        prevButton: '#modalSlide .swiper-button-prev',
+        paginationType: 'fraction'
+    });
+	// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
+	//modal_swiper.slideTo($(this).index(), 0);
+	//$(this) <- 클릭한 사진 인덱스를 넘겨야 합니다.
 });
 </script>
-

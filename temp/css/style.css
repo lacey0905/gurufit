@@ -4,7 +4,6 @@
 @import url("product_detail.css");
 @import url("service.css");
 
-
 /* LOCATE */
 .sub_locate {
 	width:100%;
@@ -302,6 +301,9 @@
 .inp_login_a {
 	padding:40px 0 30px;
 }
+.inp_login_b {
+	padding:100px 0 30px;
+}
 .inp_login fieldset {
 	width:400px;
 	margin:0 auto;
@@ -353,6 +355,17 @@
 	line-height:21px;
 	text-align:center;
 	padding-top:24px;
+}
+.inp_login_b .inp_opt_link {}
+.inp_login_b .inp_opt_link a {
+	display:block;
+	color:#4A90E2;
+	font-size:14px;
+	font-weight:300;
+	line-height:21px;
+	text-align:center;
+	padding-top:24px;
+	text-decoration:underline;
 }
 .inp_login .inp_btn_a input {
 	width:270px;
@@ -3943,17 +3956,87 @@
 	color:#fff;
 	opacity:0.3;
 }
-
-
-
     
-    
-    
-    
-    
-    
-    
-    
+/* 스토어 리스트 정렬 기준 팝업 */
+.sl_sort_attribute .select_sort dt {
+ position:relative;
+ display:inline-block;
+}
+.sl_sort_attribute .select_sort dt:hover .mz_sort_pop_container {
+ visibility: visible;
+}
+.sl_sort_attribute .select_sort dt img {
+ vertical-align:middle;
+ padding-bottom:2px;
+} 
+         .sl_sort_attribute .mz_sort_pop_wrapper {
+          position:absolute;
+          padding-top:30px;
+          top:9px;
+          right:-79px;
+         }
+         .sl_sort_attribute .mz_sort_pop_container {
+          visibility: hidden;
+          width:280px;
+          background-color:#ffffff;
+          border:1px solid #dddddd;
+          box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+          border-radius: 5px; 
+          z-index:1;               
+         }
+         .sl_sort_attribute .mz_sort_pop_container:before {
+          content:'';
+          display:block;
+          position: absolute;
+          top: 25px;
+          left: 134px;
+          width: 10px;
+          height: 10px;
+          background:#FFFFFF;
+          border-right:1px solid #DDDDDD;
+          border-bottom:1px solid #DDDDDD;
+          tranasform: rotate(223deg);
+          -moz-transform:rotate(223deg);
+          -ms-transform: rotate(223deg);                 
+          -webkit-transform:rotate(-136deg);                  
+         }
+         .sl_sort_attribute .mz_sort_pop h4 {
+          color: #000000;		
+          font-size: 18px;	
+          font-weight: bold;	
+          line-height: 27px;	
+          text-align: center;
+          margin-top: 23px;
+          position:relative;        	       
+         }
+         .sl_sort_attribute .mz_sort_pop h4:after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -17px;
+          width:1px;
+          height: 10px;
+          border-left: solid 1px #979797;
+         }
+         .sl_sort_attribute .mz_sort_pop dl {
+          text-align:left;
+          margin-top:30px;
+         }
+         .sl_sort_attribute .mz_sort_pop dl dt {
+          margin-left:22px;
+          color: #4A4A4A;	
+          font-size: 13px;	
+          font-weight: bold;	
+          line-height: 27px;        	       
+         }
+         .sl_sort_attribute .mz_sort_pop dl dd {
+          margin-left:22px;
+          color: #747474;		
+          font-size: 12px;	
+          line-height: 20px;
+          margin-bottom:18px;
+          display:block !important;        	       
+         }     
     
     
     

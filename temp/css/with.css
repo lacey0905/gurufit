@@ -744,9 +744,9 @@
 /* 라운드 공간 숫자 카운트 */
 .rnd_icon_button {}
 .rnd_icon_button li {
-	display:inline;
+	display:inline-block;
 	margin:0 7px;
-	font-sioze:0;
+	font-size:0;
 }
 .rnd_icon_button li:first-child {
 	margin-left:0;
@@ -1732,6 +1732,10 @@
 
 
 /* MODAL POPUP */
+.madal_popup_area:hover > a {
+	position:relative;
+	z-index:9300 !important;
+}
 .madal_popup_area:hover .modal_popup {
 	display:block;
 }
@@ -2869,6 +2873,10 @@
 	left:0px;
 	font-size:16px;
 }
+.cbox_color.disable .label {
+	opacity:0.5;
+	cursor:text !important;	
+}
 
 
 /* 블랙 */
@@ -3078,7 +3086,9 @@
 	top:-3px !important;
 	width:10px !important;
 	height:10px !important;
-	outline:none;
+}
+.ui_range_a .custom_range .ui-slider-handle {
+	outline:none !important;
 }
 .ui_range_a > span {
 	display:inline-block;
@@ -3169,6 +3179,14 @@
 	width:130px;
 	margin-left:3px;
 	float:left;
+}
+.check_opt_list li.disable {
+	cursor:text;
+}
+.check_opt_list li.disable .box,
+.check_opt_list li.disable .label {
+	opacity:0.5;
+	cursor:text !important;
 }
 .check_opt_list .open,
 .check_opt_list .open .mCustomScrollBox {
@@ -3367,11 +3385,15 @@
 	color: #9b9b9b;
 	line-height:20px;
 }
-.select_opt_list li:hover a,
+.select_opt_list li:not(.disable):hover a,
 .select_opt_list li.active a {
-	font-weight:bold;
+	font-weight:600;
 	color:#f6a623;
 }
+.select_opt_list li.disable a {
+	opacity:0.5;
+	cursor:text;
+} 
 
 /* 옵션 선택 박스 */
 .check_opt_box ul {
@@ -3406,6 +3428,9 @@
 .check_opt_box li .check_opt_inp input:disabled + span,
 .check_opt_box li.dis a {
 	opacity:0.5;
+	cursor:text;
+}
+.check_opt_box li.fix a {
 	cursor:text;
 }
 .check_opt_box li .check_opt_inp input:checked + span,
@@ -3449,7 +3474,7 @@
 }
 .range_select_list ul li.active a ,
 .range_select_list ul li:hover a {
-	color:#bbb;
+	color:#000;
 }
 
 /* RATING 리스트 */
@@ -3462,7 +3487,6 @@
 	text-align: left;
 	color: #8f8f8f;	
 	vertical-align:middle;
-	margin-left:4px;
 }
 
 

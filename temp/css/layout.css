@@ -194,25 +194,25 @@
 	border-bottom:1px solid #C6C1DD;
 }
 /*yeseo*/
-.search_inp::-webkit-input-placeholder {
+.lnbSearch .search_inp::-webkit-input-placeholder {
 	font-size:13px;
 	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
-.search_inp::-moz-placeholder {
-	font-size:13px;
- 	font-weight:300;
-	letter-spacing:-0.4px;
-	color:#f6a623;
-}
-.search_inp:-ms-input-placeholder {
+.lnbSearch .search_inp::-moz-placeholder {
 	font-size:13px;
 	font-weight:300;
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
-.search_inp:-moz-placeholder {
+.lnbSearch .search_inp:-ms-input-placeholder {
+	font-size:13px;
+	font-weight:300;
+	letter-spacing:-0.4px;
+	color:#f6a623;
+}
+.lnbSearch .search_inp:-moz-placeholder {
 	font-size:13px;
 	font-weight:300;
 	letter-spacing:-0.4px;

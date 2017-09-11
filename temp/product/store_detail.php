@@ -551,7 +551,11 @@
 					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
+=======
+						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
+>>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
 =======
 						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
 >>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git

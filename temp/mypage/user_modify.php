@@ -113,7 +113,7 @@
 		</div>
 	</div>
 	<!-- 환불 계좌 정보 -->
-	<div class="f_modal_layer f_modal_shadow">
+	<div class="f_modal_layer f_modal_shadow z6">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -170,7 +170,7 @@
 		</div>
 	</div>	
 	<!-- 개인 정보 변경 -->
-	<div class="f_modal_layer f_modal_shadow blind">
+	<div class="f_modal_layer f_modal_shadow z5">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -251,7 +251,7 @@
 		</div>
 	</div>
 	<!-- 배송지 정보 입력 -->
-	<div class="f_modal_layer f_modal_shadow blind">
+	<div class="f_modal_layer f_modal_shadow">
 		<div class="f_modal_wrap">
     		<div class="f_modal_area">
         		<div class="f_modal_head">

@@ -1,12 +1,11 @@
 <?php include "../inc/header.php" ?>
-
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
 <!-- 
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant">
+<div class="f_modal_perant open">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -321,7 +320,6 @@
 						<dd><a href="#">이메일 수신 동의</a></dd>
 						<dd class="more"><a href="#">더보기</a></dd>
 					</dl>
-					<!-- 보유 쿠폰 보기 -->
 					<div class="coupon_count_box">
 						<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
 						<div class="count_box">
@@ -329,29 +327,17 @@
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
 					</div>
-					<!--  -->
-					<div class="obtain_coupon_w">
-						<div class="">
-						</div>
-					</div>
-					
-					<style>
-					.coupon_count_box {
-					   background-color:red;
-					   position:relative;
-					}
-					</style>
 				</div>
 			</div>
 			<div class="dash_tab_wrap">
 				<ul class="tab_nav">
 					<li class="active"><a href="#none">나의 상품평</a></li>
 					<li class=""><a href="#none">나의 사진</a></li>
-					<li class=""><a href="#none">나의 소셜 활동</a></li>
 				</ul>
 				<div class="tab_cont">
 					<ul class="tab_info_count">
-<!-- 						<li>
+                        <!-- 						
+                        <li>
 							<strong class="cate">사진</strong>
 							<em class="count">172</em>
 							<span class="rank_tit">사진 중 상위</span>
@@ -384,24 +370,13 @@
 							<span class="non_rank_tit">다른 사용자가 상품평을<br>좋아요(썸업)하면 합계가 표시됩니다.</span>					
 						</li>												
 					</ul>
-					<style>
-					   .dash_tab_wrap .tab_info_count .non_rank_tit{
-					       display:inline-block;
-					       color: #9B9B9B;
-					       font-size: 20px;	
-					       font-weight: 300;	
-					       line-height: 25px;	
-					       text-align: center;
-					       margin-top:45px;
-					   }
-					</style>
-					
 					<div class="tab_cont_head">
     					<div class="btn_right">
     						<a href="#" class="btn_ btn_x_s3 btn_cp btn_hover_shadow">새로운 상품평 등록</a>
     					</div>
     				</div>
-<!-- 					<div class="review_box_list">
+                    <!-- 					
+                    <div class="review_box_list">
         				<ul>
         					<li>
         						<div class="review_list_thum">
@@ -576,25 +551,6 @@
     					</span>
     				</div>
 				</div>
-				<style>
-                .ncb_line {
-                    border: 1px solid #ECECF3;
-                }
-                
-                .tbox_rnd_xng {
-                    display: inline-block;
-                    width: 75px;
-                    font-size: 18px;
-                    line-height: 25px;
-                    padding: 28px 0;
-                    font-weight: 600;
-                    color: #4A4A4A;
-                    text-align: center;
-                    background-color: #ddd;
-                    border-radius: 20px;
-                    background: url(../img/grey_100.png) no-repeat;                
-                }
-				</style>
 				<div class="tab_cont">
 					<ul class="tab_info_count">
 						<li>
@@ -661,68 +617,6 @@
     									</div>
     								</div>
 								</div>
-							</li>
-						</ul>
-					</div>
-					<div class="tab_cont_foot">
-    					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
-    				</div>
-				</div>
-				<div class="tab_cont">
-					<ul class="tab_info_count">
-						<li>
-							<strong class="cate">구매 상품 공유</strong>
-							<em class="count">172</em>
-							<span class="rank_tit">리뷰어 중 상위</span>
-							<span class="rank_count">12%</span>
-						</li>
-						<li>
-							<strong class="cate">추천 링크 가입</strong>
-							<em class="count">36</em>
-							<span class="rank_tit">베스트 리뷰어 중 상위</span>
-							<span class="rank_count">63%</span>
-						</li>
-						<li>
-							<strong class="cate">공유 링크 방문</strong>
-							<em class="count">84</em>
-							<span class="rank_tit">리뷰 공감 중 상위</span>
-							<span class="rank_count">52%</span>
-						</li>
-					</ul>
-					<div class="tab_cont_head">
-    					<div class="btn_right">
-    						<a href="#" class="btn_ btn_x_s3 btn_cp btn_hover_shadow">새로운 소셜 공유</a>
-    					</div>
-    				</div>
-					<div class="thum_board_list">
-						<ul>
-							<li>
-								<figure>
-									<a href="#" class="thum"><img src="../img/review_thum_x100.png" alt=""></a>
-									<figcaption>
-										<div class="cont_head">
-											<span class="date">2017년 8월 3일에 구입</span>
-											<span class="share">2017년 8월 4일 공유</span>
-										</div>
-										<strong class="subject">
-											<em>NIKE Flyknit Free 5.0</em> 상품 정보를 <a href="#" class="sns_link">페이스북</a>에 공유 하였습니다.
-										</strong>
-									</figcaption>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<a href="#" class="thum"><img src="../img/review_thum_x100.png" alt=""></a>
-									<figcaption>
-										<div class="cont_head">
-											<span class="review">2017년 8월 3일에 구입</span>
-											<span class="share">2017년 8월 4일 공유</span>
-										</div>
-										<strong class="subject">
-											<em>NIKE Flyknit Free 5.0</em> 상품 정보를 <a href="#" class="sns_link">페이스북</a>에 공유 하였습니다.
-										</strong>
-									</figcaption>
-								</figure>
 							</li>
 						</ul>
 					</div>

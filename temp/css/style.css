@@ -1141,11 +1141,12 @@
 	vertical-align:top;
 	min-width:45px;
 	font-size:15px;
+	font-weight:300;
 	color:#bbb;
 }
 .step_gauge .gauge_area li > .msg.active {
 	color:#f6a623;
-	font-weight:600;
+	font-weight:400;
 }
 .step_gauge .gauge_area .gauge {
 	position:relative;
@@ -2876,7 +2877,7 @@
 /* FUN 뱃지 */
 .fun_badge_list {
 	margin-top:20px;
-	max-height:500px;
+	height:500px;
 }
 /* 스크롤 */
 .fun_badge_list .mCSB_draggerContainer {
@@ -3068,8 +3069,16 @@
 .dash_tab_wrap .tab_info_count .rank_count {
 	color:#f6a623;
 }
-
-
+.dash_tab_wrap .tab_info_count .non_rank_tit{
+    display:inline-block;
+    color: #9B9B9B;
+    font-size: 20px;	
+    font-weight: 300;	
+    line-height: 25px;	
+    text-align: center;
+    margin-top:45px;
+}
+ㄴ
 
 
 /* Toggle List */

@@ -289,7 +289,7 @@
 		<dt class="filter_tit">사용자 평가</dt>
 		<dd class="rating_select_list">
 			<ul>
-				<li>
+				<li class="disable">
 					<a href="#">
 						<strong class="star_rating">
    							<i class="star_on"></i>
@@ -301,7 +301,7 @@
 						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
-				<li>
+				<li class="active">
 					<a href="#">
 						<strong class="star_rating">
    							<i class="star_on"></i>

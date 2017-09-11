@@ -1,3 +1,12 @@
+<style>
+    .detail_cont h2 .brand img {
+      width:125px;
+      height:70px;
+    }
+</style>
+
+<!-- Share your gurufit 부분에 텍스트 수정되었어요  -->
+
 <?php include "../inc/header.php" ?>
 
 <!-- 모달 팝업 -->
@@ -175,10 +184,10 @@
 							<strong class="name">NIKE Metcon DSX Flyknit</strong>
 						</h2>
 						<dl class="icon_share_list">
-							<dt><em>41</em> Shares</dt>
+<!-- 							<dt><em>41</em> Shares</dt>
 							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
 							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
-							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
+							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd> -->
 						</dl>
 						<ul class="detail_cont_list">
 							<li class="rating">
@@ -541,7 +550,11 @@
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
 					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
+<<<<<<< HEAD
                                                 착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
+=======
+						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
+>>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
 					</span>
 				</div>
 				-->

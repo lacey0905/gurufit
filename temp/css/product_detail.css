@@ -37,8 +37,8 @@
 .detail_cont h2 .brand img {
 	display:block;
 	vertical-align:top;
-	width:45px;
-	height:25px;
+	width:125px;
+	height:70px;
 }
 .detail_cont h2 .name {
 	display:block;
@@ -1245,7 +1245,6 @@
 .fd_ship_method {
 	width:50%;
 	float:left;
-	padding-left:39px;
 	box-sizing:border-box;
 	position:relative;
 }

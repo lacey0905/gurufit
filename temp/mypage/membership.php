@@ -367,7 +367,7 @@
     					<span class="my_badge_msg">
     						처음으로 '가장 도움 되는 상품평'에<br>선정 되었습니다.
     					</span>
-    					<em class="my_badge_select">대표 뱃지로 설정중</em>
+    					<em class="my_badge_select">공개 뱃지로 설정중</em>
     					<div class="my_badge_tip">
     						<p>다른 회원이 이 뱃지를 보게 됩니다.</p>
     					</div>

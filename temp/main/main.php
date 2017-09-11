@@ -285,7 +285,7 @@
 		<a href="#" class="vote btn_type_more btn_hover_a">투표하기</a>
 	</article>
 	<article class="custom_inner prd_type_a btn_x_m1">
-		<h2>Recent Article</h2>
+		<h2>Recent Contents</h2>
 		<ul class="x4">
 			<li>
 				<a href="#">

@@ -207,8 +207,8 @@
 				</div>
 				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">
-						FUN뱃지
-						<a href="#" class="more">FUN뱃지 미션보기</a>
+						재미뱃지
+						<a href="#" class="more">재미뱃지 미션보기</a>
 					</h3>
 					<div class="fun_badge_list mCustomScrollbar" data-mcs-theme="minimal-dark">
 						<ul>
@@ -332,13 +332,13 @@
 			</div>
 			<div class="dash_tab_wrap">
 				<ul class="tab_nav">
-					<li class="active"><a href="#none">나의 리뷰</a></li>
+					<li class="active"><a href="#none">나의 상품평</a></li>
 					<li class=""><a href="#none">나의 사진</a></li>
-					<li class=""><a href="#none">소셜 활동</a></li>
+					<li class=""><a href="#none">나의 소셜 활동</a></li>
 				</ul>
 				<div class="tab_cont">
 					<ul class="tab_info_count">
-						<li>
+<!-- 						<li>
 							<strong class="cate">사진</strong>
 							<em class="count">172</em>
 							<span class="rank_tit">사진 중 상위</span>
@@ -355,14 +355,40 @@
 							<em class="count">84</em>
 							<span class="rank_tit">사진 중 상위</span>
 							<span class="rank_count">52%</span>
+						</li> -->
+						
+						<!-- 나의 상품평이 없을 경우 -->
+						<li>
+							<strong class="cate">상품평</strong>
+							<span class="non_rank_tit">등록한 상품평이<br>없습니다.</span>					
 						</li>
+						<li>
+							<strong class="cate">베스트 상품평</strong>
+							<span class="non_rank_tit">베스트에 등극한<br>상품평이 없습니다.</span>					
+						</li>
+						<li>
+							<strong class="cate">도움</strong>
+							<span class="non_rank_tit">다른 사용자가 상품평을<br>좋아요(썸업)하면 합계가 표시됩니다.</span>					
+						</li>												
 					</ul>
+					<style>
+					   .dash_tab_wrap .tab_info_count .non_rank_tit{
+					       display:inline-block;
+					       color: #9B9B9B;
+					       font-size: 20px;	
+					       font-weight: 300;	
+					       line-height: 25px;	
+					       text-align: center;
+					       margin-top:45px;
+					   }
+					</style>
+					
 					<div class="tab_cont_head">
     					<div class="btn_right">
-    						<a href="#" class="btn_ btn_x_s3 btn_cp btn_hover_shadow">새로운 리뷰 등록</a>
+    						<a href="#" class="btn_ btn_x_s3 btn_cp btn_hover_shadow">새로운 상품평 등록</a>
     					</div>
     				</div>
-					<div class="review_box_list">
+<!-- 					<div class="review_box_list">
         				<ul>
         					<li>
         						<div class="review_list_thum">
@@ -526,8 +552,36 @@
         			</div>
 					<div class="tab_cont_foot">
     					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
+    				</div> -->
+    				<!-- 상품평이 없을떄 -->
+    				<div class="null_cont_box ncb_line">
+    					<strong class="null_cont_icon tbox_rnd_xng">100xp</strong>
+    					<span class="null_cont_tit">상품평을 작성하고,구루핏 사용자 모두와 정보를 공유하세요.</span>
+    					<span class="null_cont_msg">
+    						구매 후 상품평을 작성하면 경험치 <em>100xp</em>를 받을 수 있습니다.<br>
+    						구매 경험치에 따라 경험치 뱃지를 받을 수 있습니다.
+    					</span>
     				</div>
 				</div>
+				<style>
+                .ncb_line {
+                    border: 1px solid #ECECF3;
+                }
+                
+                .tbox_rnd_xng {
+                    display: inline-block;
+                    width: 75px;
+                    font-size: 18px;
+                    line-height: 25px;
+                    padding: 28px 0;
+                    font-weight: 600;
+                    color: #4A4A4A;
+                    text-align: center;
+                    background-color: #ddd;
+                    border-radius: 20px;
+                    background: url(../img/grey_100.png) no-repeat;                
+                }
+				</style>
 				<div class="tab_cont">
 					<ul class="tab_info_count">
 						<li>

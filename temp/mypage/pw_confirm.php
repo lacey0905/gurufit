@@ -27,7 +27,7 @@
 			</div>
 		</section>
 		<h3 class="tit_sub_a">
-			비밀번호 확인
+			비밀번호 찾기
 		</h3>
 		<div class="inp_login inp_login_b">
 			<form action="" method="">

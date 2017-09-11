@@ -959,6 +959,7 @@
 	color:#232122;
 	letter-spacing:-0.6px;
 	padding:8px 15px;
+	width:100%;
 }
 .select_search_bar .check_sort {
 	display:inline-block;

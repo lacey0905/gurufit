@@ -34,12 +34,8 @@
     <script src="../js/swiper.min.js"></script>
     <script src="../js/jquery.bxslider.js"></script>
     <script src="../js/jquery.mCustomScrollbar.js"></script>
-    
     <script src="../js/jquery.kinetic.js"></script>
-    
-    
     <script src="../js/ui.js"></script>
-
 </head>
 <body>
 <div id="wrap">
@@ -430,7 +426,7 @@
 			<nav id="lnbNav">
 				<ul class="nav">
 					<li class="drop">
-						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?" class="main_s">스토어</a>
+						<a href="http://lacey.dothome.co.kr/yeseo/gurufit/product/store_list.php?">스토어</a>
 						<div class="lnb_drop s_mid">
 							<dl class="lnb_drop_list">
 								<dt>여성</dt>
@@ -461,38 +457,8 @@
 								<a href="#"><img src="../img/lnb_drop_sample.png" alt="신상품"></a>
 							</div>
 						</div>
-						<style>
-							#lnb #lnbNav .nav li .main_s {
-								position:relative;
-							}
-							#lnb #lnbNav .nav li .main_s:hover:after {
-							    content: " ";
-							    position: absolute;
-								top: -20px;
-								left: 55px;
-							    display: inline-block;
-							    width: 10px;
-							    height: 11px;
-							    background-color: #7053ff;
-							    border-radius: 100%;								
-							}
-							#lnb #lnbNav .nav li .main_m {
-								position:relative;							
-							}
-							#lnb #lnbNav .nav li .main_m:hover:after {
-							    content: " ";
-							    position: absolute;
-								top: -6px;
-								left: 51px;
-							    display: inline-block;
-							    width: 10px;
-							    height: 11px;
-							    background-color: #7053ff;
-							    border-radius: 100%;														
-							}
-						</style>
 					</li>
-					<li><a href="#" class="main_m">매거진</a></li>
+					<li><a href="#">매거진</a></li>
 				</ul>
 			</nav>
 			<!-- 검색어 팝업을 띄울 경우 [active] 클래스를 추가 -->
@@ -553,12 +519,3 @@
 		</div>
 	</section>
 </header>
-
-
-
-
-
-
-
-
-

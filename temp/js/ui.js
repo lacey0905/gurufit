@@ -9,26 +9,8 @@ $(function(){
 		});
 	}
 	
-	// 상단 모달 팝업 설치
-	/*
-	headModalOpen($(".user_info_list.madal_popup_area"), "mouseenter mouseleave");
-	headModalOpen($("#gnbNav .madal_popup_area"), "mouseenter mouseleave");
-	*/
-	
 });
 })(jQuery);
-
-// 상단 모달 팝업
-/*
-var headModalOpen = function(_popup, event){
-	var this_popup = _popup;
-	this_popup.bind(event, function(){
-		// 팝업은 1개만 띄어 질 수 있도 록 팝업 오픈 시에 다른 팝업을 클릭하면 기존 팝업은 Hide 됨
-		$(".madal_popup_area").not(this_popup).find(".modal_popup").stop().fadeOut("fast");
-		this_popup.find(".modal_popup").stop().fadeToggle("fast");
-	});
-}
-*/
 
 // 측면 메뉴 토글
 // ex) asdieToggle($(".user_custom_filter"));
@@ -77,5 +59,3 @@ var starRating = function(elem, msgArr){
 		});
 	}
 }
-
-

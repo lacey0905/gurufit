@@ -367,10 +367,12 @@
 	overflow:hidden;
 }
 .share_your_gurufit .share_cont {
-	/*
-	width:1220px !important;
+	width:100%;
 	margin:0 auto;
-	*/
+}
+.share_cont {
+     width:100%;
+     margin:0 auto;
 }
 .share_your_gurufit h2 {
 	display:inline-block;
@@ -416,9 +418,13 @@
 }
 .share_your_gurufit .photo_list {
 	font-size:0;
+	text-align:center;
+	overflow:hidden;
+	white-space:nowrap;
 }
 .share_your_gurufit .photo_list li {
 	display:inline-block;
+	width:270px !important;
 }
 .share_your_gurufit .photo_list li a {
 	display:block;
@@ -428,7 +434,6 @@
 	width:100%;
 	max-width:275px;
 }
-
 
 /* 상세페이지 네비게이터 */
 .detail_nav {

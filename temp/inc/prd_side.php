@@ -1,43 +1,3 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>GURUFIT</title>
-	
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/entypo-fontello/0.1/entypo.css">
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-
-	<!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="../css/import/swiper.min.css">
-    <!-- Custom Scroll CSS -->
-    <link rel="stylesheet" href="../css/import/jquery.mCustomScrollbar.css">
-	
-	<link rel="stylesheet" type="text/css" href="../css/import/reset.css">
-	<link rel="stylesheet" type="text/css" href="../css/import/font.css">
-	<link rel="stylesheet" type="text/css" href="../css/with.css">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
-	<!-- 
-	<link rel="stylesheet" type="text/css" href="../css/yeseo.css">
-	 -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Swiper JS Plugin -->
-    <script src="../js/sectionDisplay.js"></script>
-    <script src="../js/swiper.min.js"></script>
-    <script src="../js/jquery.bxslider.js"></script>
-    <script src="../js/jquery.mCustomScrollbar.js"></script>
-    <script src="../js/ui.js"></script>
-
-</head>
-
 <script>
     $(function(){
     	asdieToggle($(".user_custom_filter"));
@@ -120,10 +80,11 @@
 		<dd class="select_opt_list">
 			<!-- 
 			 [active] = 선택 된 항목
+			 [disable] = 비 활성화
 			-->
 			<ul>
 				<li class="active"><a href="#">남성 (272)</a></li>
-				<li><a href="#">여성 (372)</a></li>
+				<li class="disable"><a href="#">여성 (372)</a></li>
 				<li><a href="#">유아동 (172)</a></li>
 			</ul>
 		</dd>
@@ -140,7 +101,7 @@
 				<li class="active"><a href="#">230</a></li>
 				<li class="dis"><a href="#">235</a></li>
 				<li><a href="#">240</a></li>
-				<li  class="dis"><a href="#">245</a></li>
+				<li class="active fix"><a href="#">245</a></li> <!-- 고정 된 사이즈 -->
 				<li><a href="#">250</a></li>
 				<li  class="dis"><a href="#">255</a></li>
 				<li><a href="#">260</a></li>
@@ -175,9 +136,9 @@
         					<span class="label">AME</span>
         				</label>
     				</li>
-    				<li class="custom_cbox cbox_b">
+    				<li class="custom_cbox cbox_b disable">
     					<label>
-        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled>
         					<span class="box"></span>
         					<span class="label">AME</span>
         				</label>
@@ -248,11 +209,11 @@
 		<dt class="filter_tit">색상</dt>
 		<dd class="check_color_list">
 			<ul>
-				<li class="custom_cbox cbox_color">
+				<li class="custom_cbox cbox_color disable">
 					<label>
-    					<input type="checkbox" id="c_block" name="c_block" class="c_black">
+    					<input type="checkbox" id="c_block" name="c_block" class="c_black" disabled>
     					<span class="box"></span>
-    					<span class="label na">검정 (21)</span>
+    					<span class="label">검정 (21)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
@@ -301,40 +262,6 @@
 			<a href="#" class="more_text">+ 색상 전체 보기</a>
 		</dd>
 	</dl>
-	<style>
-		/*컬러값이 비활성화 되었을때*/
-		/*비활성화 하고자 하는 부분에 na붙이세요 non-activate*/
-		.cbox_color .na {
-			opacity:0.5;
-			cursor:text;			
-		}
-	
-		/*가격에서 활성화 되었을 때*/
-		.range_select_list ul .act {
-			font-weight:bold;
-			color:#f6a623;		
-		}
-		.range_select_list ul .act a:hover,
-		.range_select_list ul .act a:visited
-		 {
-			font-weight:bold;
-			color:#f6a623;
-		}
-		/*가격에서 비활성화 되었을때*/
-		.range_select_list ul .na a{
-			opacity:0.5;
-			cursor:text;
-		}
-		.range_select_list ul .na a:hover {
-			opacity:0.5;
-			cursor:text;			
-		}
-		/*별점을 클릭했을떄*/
-		.star_rating > .star_on:visited,
-		.star_rating > .star_on:focus {
-			color:#fff;
-		}
-	</style>
 	<dl>
 		<dt class="filter_tit">가격</dt>
 		<dd class="range_select_list">
@@ -371,7 +298,7 @@
    							<i class="star_on"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">(1,234)</span>
+						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
 				<li>
@@ -383,7 +310,7 @@
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">(1,234)</span>
+						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
 				<li>
@@ -395,7 +322,7 @@
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">(1,234)</span>
+						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
 				<li>
@@ -407,7 +334,7 @@
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">(1,234)</span>
+						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
 				<li>
@@ -419,7 +346,7 @@
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">(1,234)</span>
+						<span class="cnt">이상 (232)</span>
 					</a>
 				</li>
 			</ul>
@@ -450,10 +377,12 @@ $(function(){
 	}
 
 	// 브랜드 리스트 스크롤 커스텀 JS
+	/*
 	$(".check_opt_list .c_scroll_").mCustomScrollbar();
 	$(".user_custom_filter .more_text").bind("click", function(){
 		$(".check_opt_list .c_scroll_").toggleClass("open");
 	});
+	*/
 
 	//내 맞춤 리스트 팝업
 	$("#myOptBtn").bind("click", function(){

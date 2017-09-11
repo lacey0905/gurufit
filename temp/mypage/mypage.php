@@ -128,12 +128,9 @@
                     	        paginationType: 'fraction'
                     	    });
 
-							// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
-							$(".hover_thum_list .thum_list > li").each(function(){
-								$(this).bind("click", function(){
-									swiper.slideTo($(this).index(), 0);
-								});
-							});
+                    		// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
+                    		//modal_swiper.slideTo($(this).index(), 0);
+                    		//$(this) <- 클릭한 사진 인덱스를 넘겨야 합니다.
                     	});
                         </script>
         			</div>

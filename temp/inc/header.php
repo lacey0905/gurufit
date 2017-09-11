@@ -436,12 +436,12 @@
 								<dt>여성</dt>
 								<dd>
 									<ul>
-										<li><a href="#">스포츠&스니커즈</a></li>
-										<li><a href="#">샌들&슬리퍼</a></li>
-										<li><a href="#">여성 샌들</a></li>
-										<li><a href="#">부츠&부티</a></li>
+										<li><a href="#">스니커즈</a></li>
+										<li><a href="#">스포츠</a></li>
 										<li><a href="#">플랫</a></li>
-										<li><a href="#">드레스&힐</a></li>
+										<li><a href="#">드레스&#183;힐</a></li>
+										<li><a href="#">부츠&#183;부티</a></li>
+										<li><a href="#">샌들&#183;슬리퍼</a></li>
 									</ul>
 								</dd>
 							</dl>
@@ -449,10 +449,11 @@
 								<dt>남성</dt>
 								<dd>
 									<ul>
-										<li><a href="#">스포츠&스니커즈</a></li>
-										<li><a href="#">샌들&슬리퍼</a></li>
+										<li><a href="#">스니커즈</a></li>
+										<li><a href="#">스포츠</a></li>
+										<li><a href="#">드레스&#183;캐쥬얼</a></li>
 										<li><a href="#">부츠</a></li>
-										<li><a href="#">드레스&캐쥬얼</a></li>
+										<li><a href="#">샌들&#183;슬리퍼</a></li>
 									</ul>
 								</dd>
 							</dl>

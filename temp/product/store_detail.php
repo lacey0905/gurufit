@@ -192,10 +192,10 @@
 							<strong class="name">NIKE Metcon DSX Flyknit</strong>
 						</h2>
 						<dl class="icon_share_list">
-							<dt><em>41</em> Shares</dt>
+<!-- 							<dt><em>41</em> Shares</dt>
 							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
 							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
-							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd>
+							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd> -->
 						</dl>
 						<ul class="detail_cont_list">
 							<li class="rating">

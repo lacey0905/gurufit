@@ -43,6 +43,19 @@
 						</fieldset>
 					</form>
 				</div>
+				<style>
+/* 					.pw_confirm_box_inner {
+						border-top:solid 2px #000;
+						padding-top:60px;
+					}
+					.pw_confirm_box_inner .pw_confirm_opt_link {
+						color: #4A90E2;
+						font-size: 14px;	
+						font-weight: 300;	
+						line-height: 24px;	
+						text-align: center;
+					} */
+				</style>
 			</div>
 		</div>
 	</article>

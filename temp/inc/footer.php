@@ -109,7 +109,7 @@
     			<!-- <li class="kakao"><a href="#"><img src="../img/kakao-ico.png" alt="KaKao"></a></li> -->
     			<li class="facebook"><a href="#"><img src="../img/facebook-ico.png" alt="FaceBook"></a></li>
     			<!-- <li class="twitter"><a href="#"><img src="../img/twitter-ico.png" alt="Twitter"></a></li> -->
-    			<li class="instagram"><a href="#"><img src="../img/instagram-ico.png" alt="Instagram"></a></li>
+    			<!-- <li class="instagram"><a href="#"><img src="../img/instagram-ico.png" alt="Instagram"></a></li>  -->
     		</ul>
 		</div>
 	</nav>

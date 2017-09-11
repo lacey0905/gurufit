@@ -324,6 +324,7 @@
 						<dd><a href="#">이메일 수신 동의</a></dd>
 						<dd class="more"><a href="#">더보기</a></dd>
 					</dl>
+					<!-- 보유 쿠폰 보기 -->
 					<div class="coupon_count_box">
 						<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
 						<div class="count_box">
@@ -331,6 +332,18 @@
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
 					</div>
+					
+					<div class="obtain_coupon_w">
+						<div class="">
+						</div>
+					</div>
+					
+					<style>
+					.coupon_count_box {
+					   background-color:red;
+					   position:relative;
+					}
+					</style>
 				</div>
 			</div>
 			<div class="dash_tab_wrap">

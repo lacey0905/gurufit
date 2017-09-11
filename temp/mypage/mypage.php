@@ -332,7 +332,7 @@
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
 					</div>
-					
+					<!--  -->
 					<div class="obtain_coupon_w">
 						<div class="">
 						</div>

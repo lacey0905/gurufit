@@ -1,3 +1,12 @@
+<style>
+    .detail_cont h2 .brand img {
+      width:125px;
+      height:70px;
+    }
+</style>
+
+<!-- Share your gurufit 부분에 텍스트 수정되었어요  -->
+
 <?php include "../inc/header.php" ?>
 
 <!-- 모달 팝업 -->
@@ -584,9 +593,9 @@
 				<!-- 등록 된 이미지가 없을 때 메시지 박스
 				<div class="null_cont_box gray">
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
-					<span class="null_cont_tit">등록된 이미지가 없습니다.</span>
+					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
-						이미지를 등록해주시면 경험치 <em>100xp</em>를 드립니다.
+						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
 					</span>
 				</div>
 				-->

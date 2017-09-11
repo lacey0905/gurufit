@@ -210,7 +210,7 @@
 						재미뱃지
 						<a href="#" class="more">재미뱃지 미션보기</a>
 					</h3>
-					<div class="fun_badge_list mCustomScrollbar" data-mcs-theme="minimal-dark">
+					<div class="fun_badge_list" data-mcs-theme="minimal-dark">
 						<ul>
 							<li>
 								<img src="../img/fun_badge_01.png" alt="">

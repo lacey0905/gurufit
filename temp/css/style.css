@@ -1957,6 +1957,9 @@
 	width:33.3334%;
 	text-align:center;
 }
+.badge_list li:hover > a {
+	background: url(../img/icon_bullet_x10.png) no-repeat top right;				    
+}
 .badge_list li a {
 	display:block;
 }
@@ -2279,7 +2282,8 @@
 .form_inp_a > li:first-child .form_tit {
 	line-height:74px;
 }
-.form_inp_a .top_modify {
+.form_inp_a .top_modify,
+.form_inp_a .top_modify_add {
 	position:absolute;
 	top:25px;
 	right:30px;
@@ -2288,6 +2292,12 @@
 	line-height:16px;
 	text-decoration:underline;
 	z-index:1000;
+}
+.form_inp_a .top_modify_add {
+	color:#9B9B9B;
+}
+.form_inp_a .top_modify_add + .top_modify {
+	right:68px;
 }
 .form_inp_a .form_tit {
 	position:absolute;
@@ -3121,13 +3131,15 @@
 .toggle_list_a > ul > li.reply > a .state {
 	color:#F5A623;	
 }
-.toggle_list_a .list_head_icon {
+.toggle_list_a .list_cate {
 	position:absolute;
 	top:0;
 	left:0;
 	width:70px;
 	height:65px;
 	line-height:65px;
+	color: #9B9B9B;		
+	font-size: 16px;	
 }
 .toggle_list_a .list_head_opt {
 	position:absolute;

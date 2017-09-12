@@ -204,12 +204,6 @@
 						</ul>
 					</div>
 				</div>
-				<style>
-				/*경험치 뱃지 후버효과*/
-		        .badge_list li:hover > a {
-                    background: url(../img/icon_bullet_x10.png) no-repeat top right;				    
-				}
-				</style>
 				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">
 						재미뱃지

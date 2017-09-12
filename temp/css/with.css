@@ -2212,6 +2212,7 @@
 
 /* SELECT */
 .sel_custom {
+	position:relative;
 	display:inline-block;	
 	vertical-align:top;
 }
@@ -2258,7 +2259,6 @@
 .selectBox-dropdown-menu {
 	border: 1px solid #D8D8D8;
 	border-top:0;
-	margin-top:1px;
 }
 .selectBox-options li a {
 	text-align:center;

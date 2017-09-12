@@ -37,7 +37,7 @@
     <script src="../js/jquery.bxslider.js"></script>
     <script src="../js/jquery.kinetic.js"></script>
     <script src="../js/jquery.mCustomScrollbar.js"></script>
-    <script src="../js/jquery.selectBox.min.js"></script>
+    <script src="../js/jquery.selectBox.js"></script>
     <script src="../js/ui.js"></script>
 </head>
 <body>
@@ -471,13 +471,14 @@
 					<div id="test" class="sel_custom sel_nm_box lnbSearch_sel">
 						<select>
 							<option>전체검색</option>
+							<option>전체검색</option>
 						</select>
 					</div>
 					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
 					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
 					<a href="#" class="icon_sch_x22 search_btn">Search</a>
 				</fieldset>
-				<div class="search_drop" style="display:block;">
+				<div class="search_drop">
 					<dl class="search_list_normal">
 						<dt>추천 검색어</dt>
 						<dd>

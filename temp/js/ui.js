@@ -12,10 +12,7 @@ $(function(){
 	// 셀렉트박스 디자인
 	if($(".sel_custom").length > 0){
 		$('.sel_custom').each(function(){
-			var selectBox = new SelectBox($(this).find("select"), settings = {
-				mobile: true
-			});
-			selectBox.showMenu();
+			var select = $(this).find("select").selectBox();
 		});
 	}
 	

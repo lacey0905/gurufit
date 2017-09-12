@@ -39,18 +39,11 @@
 			</div>
 			<div class="toggle_list_a">
 				<h4 class="blind">1:1문의 리스트</h4>
-				<style>
-				.list_head_txt {
-					color: #9B9B9B;		
-					font-size: 16px;	
-					line-height: 24px;
-				}	
-				</style>
 				<ul>
 					<li class="reply">
 						<a href="#none">
-							<span class="list_head_icon list_head_txt">시스템</span>
-							<strong class="subject">나만의 Fit을 찾아주는 신발 슈커머스, '구루핏' 가입을 환영 합니다.</strong>
+							<span class="list_cate">시스템</span>
+							<strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>
 							<span class="list_head_opt">
 								<em class="icon_new">NEW</em>
 								<em class="date">2017년 7월 20일</em>
@@ -80,7 +73,7 @@
 					</li>
 					<li class="reply">
 						<a href="#none">
-							<span class="list_head_icon list_head_txt">이벤트</span>
+							<span class="list_cate">이벤트</span>
 							<strong class="subject">너와 나의 연결고리 이건 우리 안의 소리</strong>
 							<span class="list_head_opt">
 								<em class="icon_new">NEW</em>
@@ -111,7 +104,7 @@
 					</li>
 					<li class="reply">
 						<a href="#none">
-							<span class="list_head_icon list_head_txt">일반</span>
+							<span class="list_cate">일반</span>
 							<strong class="subject">나만의 Fit을 찾아주는 신발 슈커머스,'구루핏' 가입을 환영 합니다.</strong>
 							<span class="list_head_opt">
 								<em class="icon_new">NEW</em>

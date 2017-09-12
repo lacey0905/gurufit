@@ -90,7 +90,7 @@
 		</div>
 	</div>
 	<!-- 상품평 등록 작성-->
-	<div id="reviewWrite" class="f_modal_layer f_modal_shadow big z1 no_fix">
+	<div id="reviewWrite" class="f_modal_layer f_modal_shadow big z1">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -147,7 +147,7 @@
         					<div class="contList_box step">
         						<div class="step_gauge">
     								<ul class="gauge_area">
-    									<li class="inp">
+    									<li class="inp opt_01">
     										<em>길이</em>
     										<div class="gauge">
     											<div class="step_bar">
@@ -159,9 +159,9 @@
     											<span class="gauge_min">작은편</span>
     											<span class="gauge_max">큰편</span>
     										</div>
-    										<span class="msg">작게 나왔어요</span>
+    										<span class="msg">선택 해주세요</span>
     									</li>
-    									<li class="inp">
+    									<li class="inp opt_02">
     										<em>폭</em>
     										<div class="gauge">
     											<div class="step_bar">
@@ -173,10 +173,10 @@
     											<span class="gauge_min">좁은 편이에요</span>
     											<span class="gauge_max">넉넉해요</span>
     										</div>
-    										<span class="msg">좁게 나왔어요</span>
+    										<span class="msg">선택 해주세요</span>
     									</li>
-    									<li class="inp">
-    										<em>길이</em>
+    									<li class="inp opt_03">
+    										<em>편안함</em>
     										<div class="gauge">
     											<div class="step_bar">
     												<div class="slider-range-max"></div>
@@ -187,7 +187,7 @@
     											<span class="gauge_min">오래 신으면 불편해요</span>
     											<span class="gauge_max">하루 종일 신어도 편해요</span>
     										</div>
-    										<span class="msg">잠시 신어도 불편해요</span>
+    										<span class="msg">선택 해주세요</span>
     									</li>
     								</ul>
     							</div>
@@ -212,106 +212,90 @@
             		</div>
         		</div>
         		<script>
-    				var fix_modal = new Array(); // 모달 팝업 저장 배열
-    				$(function(){
-    					fix_modal[0] = $("#reviewWrite"); // 설치 할 Fix모달 팝업
-    
-    					// 최초 Fix 모달 팝업 설치 이벤트
-    					setModalPos(fix_modal[0]);
-    					////////
-    					//delModalPos();
-    				});
-    
-    				// 모달 팝업 반응형 리사이즈 구현
-    				$(window).resize(function(){
-    					if(fix_modal.length > 0){
-    						for(var i=0; i<fix_modal.length; i++){
-    							setModalPos(fix_modal[i]);
-    						}
-    					}
-    				});
-    
-    				var delModalPos = function(){
-    					$("body").height("100%").css("overflow", "hidden");
-    					$("#wrap").css("overflow", "auto");
-    					fix_modal = []; // 배열 초기화
-    				}
-    				
-    				var setModalPos = function(_modal){
-    					if(_modal.length > 0){
-    			    		var winHei = $(window).height(); //윈도우 Height
-    			    		var modalHei = _modal.find(".f_modal_area").height(); // 모달 팝업 컨텐츠 영역 Height
-    			    		var iModalMargin = 40;
-    						var bodyHei = winHei > modalHei ? winHei : modalHei + iModalMargin; // 윈도우 모달 팝업 컨텐츠 중 Heihgt가 큰 쪽을 저장
-							$("body").height(bodyHei).css("overflow", "hidden"); // Body에 반환 된 세로를 입력함
-							if(winHei < modalHei){
-								$("body").css("overflow", "auto");
-								$("#wrap").css("overflow", "hidden");
-							}
-    						_modal.css("top", $(window).scrollTop());
-    					}
-    				}
-    				
+
     				// 별점 기능 활성화
     				$(function(){
     					// 측면 변환 텍스트 목록
     					var starMsgArr = ["별로에요", "그저 그래요", "보통이에요", "좋아요", "마음에 들어요!"]
     					starRating($(".raring_input"), starMsgArr);
     				});
-    				// 착화감 평가 기능
-                    $(function() {
-						var slider_start = 1;
-                    	var slider_min = 1;
-                    	var slider_max = 5;
-
-                    	// 측면 변환 텍스트 목록
-						var gaugeMsgArr1 = ["작게 나왔어요", "작게 나온 편이에요", "평소 신는 사이즈가 딱 맞아요", "크게 나온 편이에요", "크게 나왔어요" ]; 
-						var gaugeMsgArr2 = ["좁게 나왔어요", "좁게 나온 편이에요", "잘 맞아요", "넓게 나온 편이에요", "넓게 나왔어요" ]; 
-						var gaugeMsgArr3 = ["잠시 신어도 불편해요", "불편해요", "보통이에요", "편해요", "하루종일 신어도 편해요" ]; 
-                        
-                        $( ".gauge_area .slider-range-max").each(function(){
-                            $(this).slider({
-                                min: slider_min,
-                                max: slider_max,
-                                value: slider_start,
+    				
+    				// 착화감 기능
+					var setReviewGauge = function(elem, msgArr, _start, _min, _max){
+						if(elem.length > 0){
+    						elem.slider({
+                                min: _min,
+                                max: _max,
+                                value: _start,
                                 slide: function( event, ui, handle, handleIndex) {
         							var msgElem = $(this).parent().parent().parent().find(".msg");
         							var inpElem = $(this).parent().find(".step_inp");
-									var idx = $(this).index();
-									console.log(idx);
-									switch(idx){
-										case 0 : 
-											msgElem.text(gaugeMsgArr1[ui.value-1]);
-											break;
-										case 1 :
-											 msgElem.text(gaugeMsgArr2[ui.value-1]);
-											 break;
-										case 2 : 
-											msgElem.text(gaugeMsgArr3[ui.value-1]);
-											break;
-										default : 
-											break;
-									}
-        							
-        							if(ui.value > 3){
-        								msgElem.addClass("active");
-        							} else {
-        								msgElem.removeClass("active");
-        							}
         							// 현제 스탭 번호 저장
         							inpElem.val(ui.value);
-        							if(ui.value == slider_min) {
-    									$(this).find(".ui-slider-handle").addClass("step_first");
-        							} else if(ui.value == slider_max){
-        								$(this).find(".ui-slider-handle").addClass("step_last");
-            						} else {
-            							$(this).find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
-                					}
+        							setGaugeHandle($(this), ui.value, _min, _max);
+        							setGaugeMsg(msgElem, ui.value, msgArr);
                             	}
                         	});
-                        });
-                    	// 최초 시작 시에 Step_First 설치
-                        $( ".slider-range-max").find(".ui-slider-handle").addClass("step_first");
+    						setGaugeHandle(elem, _start, _min, _max)
+    						setGaugeMsg(elem.parent().parent().parent().find(".msg"), _start, msgArr);
+						}
+					}
+
+					// 게이지 메시지 셋팅
+					var setGaugeMsg = function(_msgElem, _value, _msgArr){
+						if(_value > 3){
+							_msgElem.addClass("active");
+						} else {
+							_msgElem.removeClass("active");
+						}
+						_msgElem.text(_msgArr[_value-1]);
+					}
+
+					// 게이지 핸들러 셋팅
+					var setGaugeHandle = function(_elem, _value, _min, _max){
+						if(_value == _min) {
+							_elem.find(".ui-slider-handle").addClass("step_first");
+						} else if(_value == _max){
+							_elem.find(".ui-slider-handle").addClass("step_last");
+						} else {
+							_elem.find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
+    					}
+					}
+
+					var setGaugeStart = function(_elem, _msgArr){
+						_elem.find(".gauge").bind("click", function(event){
+							var ofs = $(this).find(".step_bar").offset();
+							var result = ((event.pageX - ofs.left) / $(this).find(".step_bar").width() * 100) / 25;
+							var result = Math.round(result) + 1;
+							setReviewGauge($(this).find(".slider-range-max"), _msgArr, result, 1, 5);
+							$(this).unbind();
+						});
+					}
+
+    				var setFixModal = function(_modal){
+						$("body").addClass("fix");
+						_modal.addClass("modal_fix");
+    				}
+
+					var delFixModal = function(){
+						$("body").removeClass("fix");
+					}
+    				
+    				// 착화감 기능 설치
+                    $(function() {
+
+						// 모달 팝업 Fix 활성화
+                        setFixModal($("#reviewWrite"));
+                        
+                    	// 측면 변환 텍스트 목록
+    					var gaugeMsgArr1 = ["작게 나왔어요", "작게 나온 편이에요", "평소 신는 사이즈가 딱 맞아요", "크게 나온 편이에요", "크게 나왔어요" ]; 
+    					var gaugeMsgArr2 = ["좁게 나왔어요", "좁게 나온 편이에요", "잘 맞아요", "넓게 나온 편이에요", "넓게 나왔어요" ]; 
+    					var gaugeMsgArr3 = ["잠시 신어도 불편해요", "불편해요", "보통이에요", "편해요", "하루종일 신어도 편해요" ]; 
+
+    					setGaugeStart($(".step_gauge .opt_01"), gaugeMsgArr1);
+    					setGaugeStart($(".step_gauge .opt_02"), gaugeMsgArr2);
+    					setGaugeStart($(".step_gauge .opt_03"), gaugeMsgArr3);
+						
                     });
                 </script>
     		</div>

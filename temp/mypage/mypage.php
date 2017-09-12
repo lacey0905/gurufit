@@ -328,18 +328,201 @@
 							<div class="box_sec count"><em>10</em>장</div>
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
+    					<div class="obtain_coupon_w">
+    						<div class="obtain_coupon">
+    							<h4>보유 쿠폰<span class="cic">5</span></h4>
+        						<div class="obt_coupon_top">
+        							<div class="obt_coupon_tit">
+        								<ul>
+        									<li>쿠폰 종류</li>
+        									<li>쿠폰 사용 정보</li>
+        									<li>유효 기간</li>
+        								</ul>
+    								</div>
+    								<div class="obt_coupon_area">
+    									<ul>
+    										<li class="cou_cate">
+    											<strong>5,000원</strong>
+    											<span>가입 환영</span>
+    										</li>
+    										<li class="cou_use_info">
+    											<p>
+    											모든 상품 구입에 사용할 수 있습니다.<br>
+    											중복 사용이 가능합니다.	
+    											</p>
+    										</li>
+    										<li class="exp_date">
+    											<span>없음</span>
+    										</li>
+    									</ul>
+    								</div>
+        						</div>    							
+    						</div>
+    					</div>
 					</div>
-					<!--  -->
-					<div class="obtain_coupon_w">
-						<div class="">
-						</div>
-					</div>
+					<!-- 보유 쿠폰 팝업  -->
+
 					
 					<style>
 					.coupon_count_box {
-					   background-color:red;
 					   position:relative;
 					}
+					.obtain_coupon_w {
+					   width:660px;					
+					   position:absolute;
+					   top:57px;
+					   right:-30px;					
+					   z-index:10; 
+                       background-color:#fff;
+                       padding-top:40px;
+					}
+					.obtain_coupon {
+					   border: 1px solid #DDDDDD;
+					   box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+					   text-align:center;	
+					   background-color:#fff;
+					   z-index:10;
+					   width:660px;
+					   height:300px;
+					   position:relative;				   
+					}
+					.obtain_coupon:after {
+                        content: " ";
+                        position: absolute;
+                        top: -9px;
+                        right: 12%;
+                        display: inline-block;
+                        width: 15px;
+                        height: 15px;
+                        background-color: #fff;
+                        border: solid 1px #dddddd;
+                        border-bottom: 0;
+                        border-right: 0;
+                        -ms-transform: rotate(45deg);
+                        -webkit-transform: rotate(45deg);
+                        transform: rotate(45deg);					   
+					}
+					.obtain_coupon h4 {
+                       color: #000000;		
+                       font-size: 18px;	
+                       line-height: 27px;
+                       margin-top:27px;
+					}
+					.obtain_coupon .cic {
+					   margin-left:10px;
+					   margin-bottom:10px;
+					   display:inline-block;
+                       background:url(../img/ob_cu.png) no-repeat;
+                       background-size: 22px 22px;   
+	                   color: #FFFFFF;	
+	                   font-family: "Noto Sans";	
+	                   font-size: 13px;	
+	                   font-style: italic;	
+	                   font-weight: bold;	
+	                   line-height: 18px;
+	                   padding-left: 7px;
+                       padding-right: 7px;
+                       padding-bottom: 10px;
+                       position:relative;		   
+					}
+					.obtain_coupon .cic:after {
+                       content: " ";
+                       position: absolute;
+                       right: 65px;
+                       top:30px;
+                       width: 1px;
+                       height: 20px;
+                       border-left: solid 1px #979797;					
+					}
+					.obt_coupon_top {
+					  
+					   margin-top:40px;
+					   padding:0 24px;
+					}
+					.obt_coupon_area {
+	                   width: 610px;
+	                   height: 49px;	
+	                   border: 1px solid #EBEBEB;	
+	                   border-radius: 5px;
+	                   margin-bottom:8px;					  
+					}
+					.obt_coupon_area:after {
+					   content:"";
+					   display:block;
+					   clear:both;
+					}
+					.obt_coupon_area li {
+					   float:left;
+					}
+					.obt_coupon_area .cou_cate {
+					   width:163px;
+					   height:37px; 
+					   border-right:1px dashed #ebebeb;
+					   padding-top:10px;  
+					}
+					.obt_coupon_area .cou_cate strong {
+					   display:block;
+                       color: #4A4A4A;	
+                       font-size: 12px;	
+                       font-weight: bold;	
+                       line-height: 16px;	
+                       text-align: center;					    
+					}
+					.obt_coupon_area .cou_cate span {
+					   display:block;
+                       color: #4A4A4A;	
+                       font-size: 12px;	
+                       font-weight: normal;	
+                       line-height: 16px;	
+                       text-align: center;					    
+					}					
+					.obt_coupon_area .cou_use_info {
+					   width:324px;
+					   height:37px;
+					   border-right:1px dashed #ebebeb;
+					   padding-top:10px;
+					}
+					.obt_coupon_area .cou_use_info p {
+                       color: #747474;		
+                       font-size: 12px;	
+                       font-weight: 300;	
+                       line-height: 16px;					   
+					}
+					.obt_coupon_area .exp_date {
+					   width:119px;
+					   padding-top:13px;
+					}
+					.obt_coupon_area .exp_date span {
+	                   color: #747474;		
+	                   font-size: 12px;	
+	                   font-weight: 300;	
+	                   line-height: 16px;	
+	                   text-align: center;					   
+					}
+					.obt_coupon_tit {
+					   margin-bottom:12px;
+					   
+					}
+					.obt_coupon_tit:after {
+					   content:"";
+					   display:block;
+					   clear:both;
+					}
+					.obt_coupon_tit ul li {
+					   float:left;
+					   text-align:left;
+                       color: #747474;		
+                       font-size: 12px;	
+                       line-height: 18px;					   
+					}
+					.obt_coupon_tit ul li:nth-child(1){
+					   margin-right:117px;
+					}
+					.obt_coupon_tit ul li:nth-child(2){
+					   margin-right:252px;
+					}
+				
+
 					</style>
 				</div>
 			</div>

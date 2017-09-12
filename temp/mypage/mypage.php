@@ -185,19 +185,19 @@
 						<ul class="badge_list">
 							<li>
 								<a href="#">
-									<span class="rv_icon"></span>
+									<img src="../img/review-1.png" alt="">
 									<span>리뷰</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="rv_icon"></span>
+									<img src="../img/review-1.png" alt="">
 									<span>사진</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<span class="rv_icon"></span>
+									<img src="../img/review-1.png" alt="">
 									<span>소셜</span>
 								</a>
 							</li>
@@ -206,19 +206,6 @@
 				</div>
 				<style>
 				/*경험치 뱃지 후버효과*/
-				.badge_list li:hover {
-				}
-				.badge_list li a .rv_icon {
-				    display:inline-block;
-                    background-image: url(../img/review-11.png);
-                    width: 66px;
-                    height: 72px;
-                    background-size: 66px 72px;                    
-				 }
-				 .badge_list li a .rv_icon:hover {
-				    background: url(../img/review-1.png) no-repeat;
-				    background-size: 66px 72px;  
-				 }
 		        .badge_list li:hover > a {
                     background: url(../img/icon_bullet_x10.png) no-repeat top right;				    
 				}

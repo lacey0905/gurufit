@@ -1,45 +1,3 @@
- <style>
-   /*배송 예정일은 ...*/    					 
-   .ord_h_ship_date {
-       display:inline-block;
-       text-align:right !important;
-       color: #8F8F8F;
-       font-size: 12px;	
-       line-height: 18px;	
-       text-align: right;
-       margin-bottom:5px;
-   }
-   .ord_h_ship_date em {
-       color:#6a6a6a;
-   }
-   .prd_list_btn li .ord_h_ship_ing {
-       color:#fff !important;
-       background-color:#71BEF3;
-       font-weight:bold;
-   }
-   .prd_list_btn li .ord_h_ship_ing:hover {
-       border:unset !important;
-       color:#fff !important;
-       font-weight:bold;
-   }
-   .btn_opt_msg .ord_h_acquire {
-    display:inline-block;
-    color:#F5A623 !important;
-    font-size:14px;
-    font-weight:bold;
-    line-height:15px;
-    margin-bottom:10px;   
-   } 
-   .prd_list_btn .ord_h_com {
-    background-color: #57C985 !important;
-    color:#fff !important;
-   }
-   .prd_list_btn .ord_h_com:hover {
-    color:#fff !important;
-    border:0 !important;
-   }    
- </style>
-
 
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
@@ -273,7 +231,7 @@
 		</div>
 	</div>
 	<!-- 교환상세정보 -->
-	<div class="f_modal_layer big f_modal_shadow" style="display:none;">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -363,7 +321,7 @@
 		</div>
 	</div>
 	<!-- 반품신청 -->
-	<div class="f_modal_layer big f_modal_shadow" style="display:none;">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -960,12 +918,12 @@
 			<dl class="tit_opt select">
 				<dt class="blind">정렬</dt>
 				<dd>
-        			<div class="sel sel_custom sel_nm_box sel_x1 btn_rnd_x1 sel_arr_a">
+        			<div class="sel sel_custom sel_small_box sel_x1 sel_arr_rnd sel_arr_a">
 						<select>
 							<option>전체상태</option>
 						</select>
 					</div>
-        			<div class="sel sel_custom sel_nm_box sel_x1 sel_x1_long btn_rnd_x1 sel_arr_a">
+        			<div class="sel sel_custom sel_small_box sel_x1 sel_x1_long sel_arr_rnd sel_arr_a">
 						<select>
 							<option>최근 6개월간 주문하신 상품</option>
 							<option>최근 1개월</option>
@@ -1103,7 +1061,8 @@
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환신청</a></li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
-<!--     									<li>
+                                        <!--     									
+                                        <li>
     										<div class="btn_opt_msg">
             									<img src="../img/review-1.png" alt="">
             									<span>
@@ -1176,7 +1135,7 @@
             										<em>2017년 10월 28일</em> 입니다.
             									</span>
             								</div>   									
-    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_ship_ing">배송중</a>
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np2 ord_h_ship_ing">배송중</a>
     									</li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환 신청</a></li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>
@@ -1243,7 +1202,7 @@
             										XP 100획득
             									</span>
             								</div>   									
-    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2 ord_h_com">배송완료</a>
+    										<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 ord_h_com">배송완료</a>
     									</li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">교환 신청</a></li>
     									<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">반품/환불 신청</a></li>

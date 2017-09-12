@@ -854,6 +854,43 @@
 	text-align:right;
 	margin-right:10px;
 }
+
+ /*배송 예정일은 ...*/    					 
+.ord_h_ship_date {
+    display:inline-block;
+    text-align:right !important;
+    color: #8F8F8F;
+    font-size: 12px;	
+    line-height: 18px;	
+    text-align: right;
+    margin-bottom:5px;
+}
+.ord_h_ship_date em {
+    color:#6a6a6a;
+}
+.prd_list_btn li .ord_h_ship_ing {
+    color:#fff !important;
+    background-color:#71BEF3;
+    font-weight:400;
+	border-color:#71BEF3 !important;	
+}
+.btn_opt_msg .ord_h_acquire {
+	display:inline-block;
+	color:#F5A623 !important;
+	font-size:14px;
+	font-weight:bold;
+	line-height:15px;
+	margin-bottom:10px;   
+} 
+.prd_list_btn .ord_h_com {
+	border-color:#57C985;
+	background-color: #57C985 !important;
+	color:#fff !important;
+}
+
+
+
+
 .prd_list_a .btn_opt_msg img {
 	display:inline-block;
 	width:32px;

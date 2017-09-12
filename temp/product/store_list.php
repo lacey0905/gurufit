@@ -230,6 +230,146 @@
     						</div>
 						</figure>
 					</li>
+					<li class="">
+						<figure>
+	    					<span class="thum">
+	    						<strong class="icon_best">추천</strong>
+	    						<a href="#" class="btn_compare">
+	    							<span class="box"><em class="msg">비교하기</em></span>
+	    						</a>
+	    						<a href="#">
+	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    							</a>
+   							</span>
+   							<!-- 별점 리스트  [star_on] 노란색 별, [star_off] 회색별 -->
+	    					<div class="rating">
+	    						<span class="sale">Sale 40%</span>
+	    						<strong class="star_rating">
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_off"></i>
+	   							</strong>
+	    						<span class="cnt">(29)</span>
+	    						<span class="like">74</span>
+	    					</div>
+	    					<figcaption>
+	    						<span class="subject">NIKE FREE 5.0</span>
+	    						<span class="price">
+	    							<strong class="sell_price">89,100<em>원</em></strong>
+	    							<del class="customer_price">99,000원</del>
+	    						</span>
+	    					</figcaption>
+	    					<div class="open_detail">
+    							<div class="detial_color_list">
+    								<!-- 컬러 리스트  -->
+    								<ul>
+    									<li class="c_black">Black</li>
+    									<li class="c_blue">Blue</li>
+    									<li class="c_red">Red</li>
+    									<li class="c_yellow">Yellow</li>
+    									<li class="c_white">White</li>
+    								</ul>
+    							</div>
+    							<div class="detial_opt_list">
+    								<!-- 
+    								    사이즈 리스트 
+    								  [active] = 선택 된 사이즈
+    								  [dis] = 재고가 없는 사이즈        
+    								-->
+									<ul class="check_opt_box">
+										<li class=""><a href="#">230</a></li>
+										<li><a href="#">235</a></li>
+										<li class="dis"><a href="#">240</a></li>
+										<li class="dis"><a href="#">245</a></li>
+										<li><a href="#">250</a></li>
+										<li><a href="#">255</a></li>
+										<li><a href="#">260</a></li>
+										<li class=""><a href="#">265</a></li>
+										<li><a href="#">270</a></li>
+										<li><a href="#">275</a></li>
+										<li><a href="#">280</a></li>
+										<li><a href="#">285</a></li>
+										<li class=""><a href="#">290</a></li>
+										<li><a href="#">295</a></li>
+										<li><a href="#">300</a></li>
+										<li><a href="#">305</a></li>
+									</ul>
+    							</div>
+    						</div>
+						</figure>
+					</li>
+					<li class="">
+						<figure>
+	    					<span class="thum">
+	    						<strong class="icon_best">추천</strong>
+	    						<a href="#" class="btn_compare">
+	    							<span class="box"><em class="msg">비교하기</em></span>
+	    						</a>
+	    						<a href="#">
+	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    							</a>
+   							</span>
+   							<!-- 별점 리스트  [star_on] 노란색 별, [star_off] 회색별 -->
+	    					<div class="rating">
+	    						<span class="sale">Sale 40%</span>
+	    						<strong class="star_rating">
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_on"></i>
+	    							<i class="star_off"></i>
+	   							</strong>
+	    						<span class="cnt">(29)</span>
+	    						<span class="like">74</span>
+	    					</div>
+	    					<figcaption>
+	    						<span class="subject">NIKE FREE 5.0</span>
+	    						<span class="price">
+	    							<strong class="sell_price">89,100<em>원</em></strong>
+	    							<del class="customer_price">99,000원</del>
+	    						</span>
+	    					</figcaption>
+	    					<div class="open_detail">
+    							<div class="detial_color_list">
+    								<!-- 컬러 리스트  -->
+    								<ul>
+    									<li class="c_black">Black</li>
+    									<li class="c_blue">Blue</li>
+    									<li class="c_red">Red</li>
+    									<li class="c_yellow">Yellow</li>
+    									<li class="c_white">White</li>
+    								</ul>
+    							</div>
+    							<div class="detial_opt_list">
+    								<!-- 
+    								    사이즈 리스트 
+    								  [active] = 선택 된 사이즈
+    								  [dis] = 재고가 없는 사이즈        
+    								-->
+									<ul class="check_opt_box">
+										<li class=""><a href="#">230</a></li>
+										<li><a href="#">235</a></li>
+										<li class="dis"><a href="#">240</a></li>
+										<li class="dis"><a href="#">245</a></li>
+										<li><a href="#">250</a></li>
+										<li><a href="#">255</a></li>
+										<li><a href="#">260</a></li>
+										<li class=""><a href="#">265</a></li>
+										<li><a href="#">270</a></li>
+										<li><a href="#">275</a></li>
+										<li><a href="#">280</a></li>
+										<li><a href="#">285</a></li>
+										<li class=""><a href="#">290</a></li>
+										<li><a href="#">295</a></li>
+										<li><a href="#">300</a></li>
+										<li><a href="#">305</a></li>
+									</ul>
+    							</div>
+    						</div>
+						</figure>
+					</li>
 				</ul>
 				<div class="prd_more">
     				<a href="#" class="btn_hover_a">더보기</a>

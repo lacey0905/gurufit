@@ -27,12 +27,11 @@
     			<div class="tit_sub_wrap">
     				<h3 class="tit_head tit_sub_b">1:1 문의</h3>
     				<dl class="tit_opt select_sort">
-        				<dt class="blind">카테고리</dt>
+        				<dt class="">문의하실 유형을 선택해주세요.</dt>
         				<dd>
-        					<span>문의하실 유형을 선택해주세요.</span>
         					<div class="sel_custom sel_nm_box sel_small">
         						<select>
-        							<option>문의 유형 선택</option>
+        							<option>등록 순서</option>
         						</select>
         					</div>
         				</dd>
@@ -50,47 +49,6 @@
 					</div>
 				</div>
 			</fieldset>
-			<style>
-				.select_sort dd span {
-					color: #BBBBBB;	
-					font-size: 14px;	
-					line-height: 23px;	
-					text-align: right;
-					display:inline-block;
-					vertical-align:middle;
-					margin-right:9px;
-					padding-bottom:7px;
-				}
-				.q_txt_title .q_txt_title_ip {
-					height: 50px;
-					width:1100px;
-					border-top:1px solid #DDDDDD;
-					border-left:1px solid #DDDDDD;
-					border-right:1px solid #DDDDDD;
-					background-color:#f9f9fc;
-					text-indent:25px;
-				}
-				.q_txt_title input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-					color: #BBBBBB;	
-					font-size: 14px;	
-					line-height: 23px;		  
-				}
-				.q_txt_title input::-moz-placeholder { /* Firefox 19+ */
-					color: #BBBBBB;	
-					font-size: 14px;	
-					line-height: 23px;					
-				}
-				.q_txt_title input:-ms-input-placeholder { /* IE 10+ */
-					color: #BBBBBB;	
-					font-size: 14px;	
-					line-height: 23px;					
-				}
-				.q_txt_title input:-moz-placeholder { /* Firefox 18- */
-					color: #BBBBBB;	
-					font-size: 14px;	
-					line-height: 23px;					
-				}
-			</style>
 			</form>
 		</section>
 	</article>

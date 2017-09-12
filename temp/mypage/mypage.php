@@ -5,7 +5,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -185,25 +185,44 @@
 						<ul class="badge_list">
 							<li>
 								<a href="#">
-									<img src="../img/review-1.png" alt="">
+									<span class="rv_icon"></span>
 									<span>리뷰</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="../img/review-1.png" alt="">
+									<span class="rv_icon"></span>
 									<span>사진</span>
 								</a>
 							</li>
 							<li>
 								<a href="#">
-									<img src="../img/review-1.png" alt="">
+									<span class="rv_icon"></span>
 									<span>소셜</span>
 								</a>
 							</li>
 						</ul>
 					</div>
 				</div>
+				<style>
+				/*경험치 뱃지 후버효과*/
+				.badge_list li:hover {
+				}
+				.badge_list li a .rv_icon {
+				    display:inline-block;
+                    background-image: url(../img/review-11.png);
+                    width: 66px;
+                    height: 72px;
+                    background-size: 66px 72px;                    
+				 }
+				 .badge_list li a .rv_icon:hover {
+				    background: url(../img/review-1.png) no-repeat;
+				    background-size: 66px 72px;  
+				 }
+		        .badge_list li:hover > a {
+                    background: url(../img/icon_bullet_x10.png) no-repeat top right;				    
+				}
+				</style>
 				<div class="dash_sec dash_x3">
 					<h3 class="dash_tit">
 						재미뱃지
@@ -326,7 +345,7 @@
 							<div class="box_sec count"><em>10</em>장</div>
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
-    					<div class="obtain_coupon_w">
+<!--     					<div class="obtain_coupon_w">
     						<div class="obtain_coupon">
     							<h4>보유 쿠폰<span class="cic">5</span></h4>
         						<div class="obt_coupon_top">
@@ -356,9 +375,8 @@
     								</div>
         						</div>    							
     						</div>
-    					</div>
+    					</div> -->
 					</div>
-<<<<<<< HEAD
 					<!-- 보유 쿠폰 팝업  -->
 
 					
@@ -523,8 +541,7 @@
 				
 
 					</style>
-=======
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
+
 				</div>
 			</div>
 			<div class="dash_tab_wrap">

@@ -47,7 +47,7 @@
 								<em class="arr"></em>
 							</span>
 						</a>
-					</li>
+					</li>				
 					<!-- 답변이 있는 경우에만 [reply] Class 삽입합니다. -->
 					<li class="reply">
 						<a href="#none">
@@ -117,7 +117,7 @@
             		<li><a href="#">10</a></li>
         		</ol>
       			<a href="#" class="pager_btn next"></a>     
-      			<a href="#" class="pager_btn last"></a>     
+      			<a href="#" class="pager_btn last"></a>   			     
 			</div>
 		</section>
 	</article>

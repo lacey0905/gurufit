@@ -326,7 +326,8 @@
 							<div class="box_sec count"><em>10</em>장</div>
 							<div class="box_sec price"><em>28,000</em>원</div>
 						</div>
-<!--     					<div class="obtain_coupon_w">
+						
+     					<div class="obtain_coupon_w">
     						<div class="obtain_coupon">
     							<h4>보유 쿠폰<span class="cic">5</span></h4>
         						<div class="obt_coupon_top">
@@ -356,7 +357,7 @@
     								</div>
         						</div>    							
     						</div>
-    					</div> -->
+    					</div>
 					</div>
 					<!-- 보유 쿠폰 팝업  -->
 
@@ -368,10 +369,9 @@
 					.obtain_coupon_w {
 					   width:660px;					
 					   position:absolute;
-					   top:57px;
-					   right:-30px;					
+					   top:17px;
+					   right:-34px;					
 					   z-index:10; 
-                       background-color:#fff;
                        padding-top:40px;
 					}
 					.obtain_coupon {

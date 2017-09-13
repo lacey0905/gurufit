@@ -1053,8 +1053,12 @@
     								<div class="sel_custom sel_nm_box sort_select">
         								<select>
         									<option>모든 별점 보기</option>
-        									<option></option>
+        									<option>
+												★★★★★
+        									</option>
+        									<option><i class="material-icons">&#xE87D;</i></option>
         								</select>
+        								
     								</div>
     								<div class="check_sort custom_cbox cbox_b gray">
                     					<label>

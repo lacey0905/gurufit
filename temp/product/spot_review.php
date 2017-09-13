@@ -124,7 +124,11 @@
 										<div class="sel_custom sel_nm_box sort_select">
 											<select>
 												<option>모든 별점 보기</option>
-												<option></option>
+												<option>★★★★★</option>
+												<option>★★★★</option>
+												<option>★★★</option>
+												<option>★★</option>
+												<option>★</option>
 											</select>
 										</div>
 										<div class="check_sort custom_cbox cbox_b gray">
@@ -135,9 +139,24 @@
 										</div>
 									</dd>
 									<dd class="inp_search_a search_sort">
-										<input type="text" class="search_inp"> <input
-											type="submit" class="search_btn" value="&#xE8B6">
+										<input type="text" class="search_inp"> 
+										<input type="submit" class="review_search" value="&#xE8B6">
 									</dd>
+									<style>
+									.inp_search_a .review_search {
+									    position: absolute;
+									    top: 0;
+									    right: 0;
+									    width: 35px;
+									    height: 100%;
+									    background: none;
+									    border: 0;
+									    text-align: center;
+									    font-family: 'Material Icons';
+									    font-size: 20px;
+									    color: #d8d8d8;										
+									}	
+									</style>
 								</dl>
 							</fieldset>
 						</form>

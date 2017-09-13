@@ -1193,6 +1193,7 @@
 	position:relative;
 	max-height:600px;
 	z-index:1000;
+	overflow-y:auto;
 }
 .f_modal_cont.big {
 	max-height:900px;

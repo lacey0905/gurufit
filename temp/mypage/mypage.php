@@ -394,7 +394,10 @@
         										<li class="cou_use_info">
         											<p>
         											스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인<br>
-        											다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	
+        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
+        												스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인
+        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
+        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
         											</p>
         										</li>
         										<li class="exp_date">
@@ -411,7 +414,7 @@
         										<li class="cou_use_info">
         											<p>
         											모든 상품 구입에 사용할 수 있습니다.<br>
-        											다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	
+        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
         											</p>
         										</li>
         										<li class="exp_date">
@@ -445,7 +448,7 @@
                        padding-top:40px;
 					}
 					.obtain_coupon {
-					   visibility:hidden;
+					   visibility:visible;
 					   border: 1px solid #DDDDDD;
 					   box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
 					   text-align:center;	
@@ -453,7 +456,7 @@
 					   z-index:10;
 					   width:660px;
 					   position:relative;
-					   padding-bottom:23px;				   
+					   padding-bottom:23px;			   
 					}
 					.obtain_coupon:after {
                         content: " ";
@@ -506,10 +509,12 @@
 					}
 					.obt_coupon_area {
 	                   width: 610px;
-	                   height: 49px;	
+	                   height: 100%;
+	                   /* height: 49px; */	
 	                   border: 1px solid #EBEBEB;	
 	                   border-radius: 5px;
-	                   margin-bottom:8px;					  
+	                   margin-bottom:8px;
+	                   padding-bottom:10px;					  
 					}
 					.obt_coupon_area:after {
 					   content:"";
@@ -521,9 +526,12 @@
 					}
 					.obt_coupon_area .cou_cate {
 					   width:155px;
-					   height:37px; 
+					   /* height:37px;  */
 					   border-right:1px dashed #ebebeb;
 					   padding-top:10px;  
+					}
+					.obt_coupon_area .cou_cate:after {
+					   content:"안녕"
 					}
 					.obt_coupon_area .cou_cate strong {
 					   display:block;
@@ -543,7 +551,7 @@
 					}					
 					.obt_coupon_area .cou_use_info {
 					   width:334px;
-					   height:37px;
+					   /* height:37px; */
 					   border-right:1px dashed #ebebeb;
 					   padding-top:10px;
 					}
@@ -554,6 +562,9 @@
                        line-height: 16px;
                        text-align:left;
                        padding-left:8px;					   
+					}
+					.obt_coupon_area .cou_use_info p span {
+					   text-decoration:underline;
 					}
 					.obt_coupon_area .exp_date {
 					   width:119px;

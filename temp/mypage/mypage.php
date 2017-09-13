@@ -531,7 +531,8 @@
 					   padding-top:10px;  
 					}
 					.obt_coupon_area .cou_cate:after {
-					   content:"안녕"
+					   content:"안녕";
+					   
 					}
 					.obt_coupon_area .cou_cate strong {
 					   display:block;

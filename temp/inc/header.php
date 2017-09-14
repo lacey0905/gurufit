@@ -478,6 +478,14 @@
 					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
 					<a href="#" class="icon_sch_x22 search_btn">Search</a>
 				</fieldset>
+				<style>
+				.search_drop {
+				top:45px;
+				}
+				.lnbSearch {
+				z-index:1100;
+				}
+				</style>
 				<div class="search_drop">
 					<dl class="search_list_normal">
 						<dt>추천 검색어</dt>

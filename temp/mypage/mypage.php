@@ -334,94 +334,134 @@
             									<li>유효 기간</li>
             								</ul>
         								</div>
-        								<div class="obt_coupon_area">
-        									<ul>
-        										<li class="cou_cate">
-        											<strong>5,000원</strong>
-        											<span>가입 환영</span>
-        										</li>
-        										<li class="cou_use_info">
-        											<p>
-        											모든 상품 구입에 사용할 수 있습니다.<br>
-        											중복 사용이 가능합니다.	
-        											</p>
-        										</li>
-        										<li class="exp_date">
-        											<span>없음</span>
-        										</li>
-        									</ul>
+        								<div>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">5,000원</strong>
+                        							<span class="cp_title">가입 환영</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">5,000원</strong>
+                        							<span class="cp_title">레벨업 - Silver III</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">2,000원</strong>
+                        							<span class="cp_title">레벨업 - Gold I</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">10%</strong>
+                        							<span class="cp_title">스니커즈 할인</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인</span>		
+                        							<span class="cp_use_info line">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">2017년 10월 23일</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">10%</strong>
+                        							<span class="cp_title">2017년 여름 세일</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info line">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">2017년 10월 23일</span>					
+                        						</li>												
+                        					</ul>                        					                         					                         					                        					        								
         								</div>
-        								<div class="obt_coupon_area">
-        									<ul>
-        										<li class="cou_cate">
-        											<strong>5,000원</strong>
-        											<span>레벨업 - Silver III</span>
-        										</li>
-        										<li class="cou_use_info">
-        											<p>
-        											모든 상품 구입에 사용할 수 있습니다.<br>
-        											중복 사용이 가능합니다.	
-        											</p>
-        										</li>
-        										<li class="exp_date">
-        											<span>없음</span>
-        										</li>
-        									</ul>
-        								</div>
-        								<div class="obt_coupon_area">
-        									<ul>
-        										<li class="cou_cate">
-        											<strong>2,000원</strong>
-        											<span>레벨업 - Gold I</span>
-        										</li>
-        										<li class="cou_use_info">
-        											<p>
-        											모든 상품 구입에 사용할 수 있습니다.<br>
-        											중복 사용이 가능합니다.	
-        											</p>
-        										</li>
-        										<li class="exp_date">
-        											<span>없음</span>
-        										</li>
-        									</ul>
-        								</div>
-        								<div class="obt_coupon_area">
-        									<ul>
-        										<li class="cou_cate">
-        											<strong>10%</strong>
-        											<span>스니커즈 할인</span>
-        										</li>
-        										<li class="cou_use_info">
-        											<p>
-        											스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인<br>
-        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
-        												스니커즈에 한해 사용할 수 있습니다. 3만원 이상, 최대 1만원 할인
-        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
-        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
-        											</p>
-        										</li>
-        										<li class="exp_date">
-        											<span>2017년 10월 23일</span>
-        										</li>
-        									</ul>
-        								</div>
-        								<div class="obt_coupon_area">
-        									<ul>
-        										<li class="cou_cate">
-        											<strong>10%</strong>
-        											<span>2017년 여름 세일</span>
-        										</li>
-        										<li class="cou_use_info">
-        											<p>
-        											모든 상품 구입에 사용할 수 있습니다.<br>
-        												<span>다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.	</span>
-        											</p>
-        										</li>
-        										<li class="exp_date">
-        											<span>2017년 10월 23일</span>
-        										</li>
-        									</ul>
-        								</div>     								    								     								    								
+  								    	<style>
+  								    	 .coupon_tab_info_count {
+  								    	     display: table;
+  								    	     width:100%;
+  								    	     border:solid 1px #ebebeb;
+  								    	     border-radius: 5px;
+  								    	     margin-bottom: 8px;
+  								    	 }
+  								    	 .coupon_tab_info_count li:first-child {
+  								    	     width:160px;
+  								    	     border-left:0;
+  								    	 }
+  								    	 .coupon_tab_info_count li:last-child {
+  								    	     width:125px;
+  								    	 }
+  								    	 .coupon_tab_info_count li {
+  								    	     display: table-cell;
+  								    	     widht: 33%;
+  								    	     border-left: dashed 1px #ebebeb;
+  								    	 }
+  								    	 .coupon_tab_info_count li .cp_price {
+  								    	     display:block;
+  								    	     color:#4a4a4a;
+                                             color: #4A4A4A;
+                                             font-size: 12px;	
+                                             font-weight: bold;	
+                                             line-height: 16px;	
+                                             text-align: center;
+                                             margin-top:12px;  								    	     
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_title {
+  								    	     display:block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 500;	
+                                             line-height: 16px;	
+                                             text-align: center;
+                                             margin-bottom:14px;
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_use_info {
+  								    	     display:block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 300;	
+                                             line-height: 16px;
+                                             text-align:left;
+                                             margin-left:8px;  								    	     
+  								    	 }
+  								    	 .coupon_tab_info_count .line {
+  								    	     text-decoration:underline;
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_use_date {
+  								    	     display:inline-block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 300;	
+                                             line-height: 16px;	
+                                             text-align: center; 
+                                             margin-top:5px; 								    	     
+  								    	 }
+  								    	</style>							     								    								
             						</div>    							
         						</div>
         					</div>							

@@ -140,8 +140,23 @@
 						</div>
 					</li>
 				</ul>
-				<div class="toggle_list_more">
-					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
+				<!-- 페이징 -->
+				<div class="pager_type_a">
+					<a href="#" class="pager_btn first"></a>
+					<a href="#" class="pager_btn prev"></a>
+					<ol>
+	            		<li><a href="#">1</a></li>
+	            		<li><a href="#" class="active">2</a></li>
+	            		<li><a href="#">3</a></li>
+	            		<li><a href="#">4</a></li>
+	            		<li><a href="#">6</a></li>
+	            		<li><a href="#">7</a></li>
+	            		<li><a href="#">8</a></li>
+	            		<li><a href="#">9</a></li>
+	            		<li><a href="#">10</a></li>
+	        		</ol>
+	      			<a href="#" class="pager_btn next"></a>     
+	      			<a href="#" class="pager_btn last"></a>     
 				</div>
 			</div>
 		</section>

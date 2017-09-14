@@ -3142,6 +3142,14 @@
     color: #9B9B9B;        
     font-size: 16px;    
 }
+.toggle_list_a .list_head_icon {
+    position:absolute;
+    top:0;
+    left:0;
+    width:70px;
+    height:65px;
+    line-height:65px;	
+}
 .toggle_list_a .list_head_opt {
 	position:absolute;
 	top:0;
@@ -4085,67 +4093,6 @@
 	float: left;
 }
 
-.obt_coupon_area .cou_cate {
-	width: 155px;
-	/* height:37px;  */
-	border-right: 1px dashed #ebebeb;
-	padding-top: 10px;
-}
-
-.obt_coupon_area .cou_cate:after {
-	content: "안녕";
-}
-
-.obt_coupon_area .cou_cate strong {
-	display: block;
-	color: #4A4A4A;
-	font-size: 12px;
-	font-weight: bold;
-	line-height: 16px;
-	text-align: center;
-}
-
-.obt_coupon_area .cou_cate span {
-	display: block;
-	color: #4A4A4A;
-	font-size: 12px;
-	font-weight: normal;
-	line-height: 16px;
-	text-align: center;
-}
-
-.obt_coupon_area .cou_use_info {
-	width: 334px;
-	/* height:37px; */
-	border-right: 1px dashed #ebebeb;
-	padding-top: 10px;
-}
-
-.obt_coupon_area .cou_use_info p {
-	color: #747474;
-	font-size: 12px;
-	font-weight: 300;
-	line-height: 16px;
-	text-align: left;
-	padding-left: 8px;
-}
-
-.obt_coupon_area .cou_use_info p span {
-	text-decoration: underline;
-}
-
-.obt_coupon_area .exp_date {
-	width: 119px;
-	padding-top: 13px;
-}
-
-.obt_coupon_area .exp_date span {
-	color: #747474;
-	font-size: 12px;
-	font-weight: 300;
-	line-height: 16px;
-	text-align: center;
-}
 
 .obt_coupon_tit {
 	margin-bottom: 12px;

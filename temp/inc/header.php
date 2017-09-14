@@ -475,7 +475,7 @@
 						</select>
 					</div>
 					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
-					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
+					<a href="#" class="profile"><span class="in_d"></span></a>
 					<a href="#" class="icon_sch_x22 search_btn">Search</a>
 				</fieldset>
 				<style>
@@ -484,6 +484,17 @@
 				}
 				.lnbSearch {
 				z-index:1100;
+				}
+				.in_d {
+					display:inline-block;
+					background-image:url(../img/individual.png);
+					width:17px;
+					height:17px;
+					background-size: 17px 17px;
+				}
+				.in_d:hover,
+				.in_d:active {
+					background-image:url(../img/contacts.png);
 				}
 				</style>
 				<div class="search_drop">

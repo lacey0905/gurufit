@@ -33,7 +33,7 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_b_line">
 						<td class="check">
 							<div class="custom_cbox cbox_c">
     							<label>
@@ -61,6 +61,7 @@
 								<dd>1개</dd>
 							</dl>
 							<a href="#" class="btn_modify">편집</a>
+							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 							<div class="btn_del">
 								<a href="#">상품 삭제</a>
 							</div>
@@ -72,6 +73,20 @@
 					</tr>
 				</tbody>
 			</table>
+			<style>
+			/*장바구니 영역 밑에 라인 추가*/
+			.cart_b_line {
+                border-bottom: 1px solid #E1E1E1;
+			}
+			/*배송 예정일 텍스트 추가*/
+			.due_dt {
+    			display:block;
+    			color: #BBBBBB;
+    			font-size: 12px;	
+    			line-height: 20px;
+    			margin-top:7px;
+			}
+			</style>
 			<div class="prd_list_control">
 				<ul class="btn_left">
 					<li class="btn_hover_a"><a href="#">선택상품 삭제</a></li>
@@ -140,7 +155,7 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_b_line">
 						<td class="check">
 							<div class="custom_cbox cbox_c">
     							<label>

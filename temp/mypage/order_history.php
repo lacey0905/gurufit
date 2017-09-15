@@ -12,11 +12,11 @@
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 배송지 선택 -->
-	<div class="f_modal_layer big blind">
+	<div class="f_modal_layer big">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
-        			<h2>취소상세정보</h2>
+        			<h2>배송지 선택</h2>
         			<a href="#" class="btn_close">Close</a>
         		</div>
         		<div class="f_modal_cont">
@@ -231,7 +231,7 @@
 		</div>
 	</div>
 	<!-- 교환상세정보 -->
-	<div class="f_modal_layer big f_modal_shadow">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

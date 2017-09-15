@@ -493,7 +493,7 @@
 				.lnbSearch {
 				z-index:1100;
 				}
-				.in_d {
+/* 				.in_d {
 					cursor: pointer;
 					border:none;
 					display:inline-block;
@@ -508,7 +508,19 @@
 					width:17px;
 					height:17px;
 					background-size: 17px 17px;					
-				} 
+				}  */
+				.lnbSearch .profile span {
+				    display:inline-block;
+				    background:url(../img/individual.png);
+				    width:17px;
+				    height:17px;
+				    background-size: 17px 17px;
+				}
+				.lnbSearch .profile span:hover, 
+				.lnbSearch .profile span:active, 
+				.lnbSearch .profile span.active {
+				    background-image:url(../img/contacts.png);
+				}				
 				</style>
 
 				<div class="search_drop">

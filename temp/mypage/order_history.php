@@ -231,7 +231,7 @@
 		</div>
 	</div>
 	<!-- 교환상세정보 -->
-	<div class="f_modal_layer big f_modal_shadow blind">
+	<div class="f_modal_layer big f_modal_shadow">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -294,19 +294,22 @@
 						</dl>
 						<ul class="step_list">
 							<li>
-								<img src="../img/modal_icon_sample_1.png" alt="">
+								<img src="../img/cg_info1.png" alt="">
 								<span>1. 반품 신청</span>
+								<em><img src="../img/arrow_r.png" alt=""></em>
 							</li>
 							<li>
-								<img src="../img/modal_icon_sample_2.png" alt="">
+								<img src="../img/cg_info2.png" alt="">
 								<span>2. 고객님 상품 발송</span>
+								<em><img src="../img/arrow_r.png" alt=""></em>
 							</li>
 							<li>
-								<img src="../img/modal_icon_sample_2.png" alt="">
+								<img src="../img/cg_info3.png" alt="">
 								<span>3. 상품 확인</span>
+								<em><img src="../img/arrow_r.png" alt=""></em>
 							</li>
 							<li>
-								<img src="../img/modal_icon_sample_2.png" alt="">
+								<img src="../img/cg_info4.png" alt="">
 								<span>4. 제품 환불</span>
 							</li>
 						</ul>
@@ -314,6 +317,11 @@
 					<style>
                     .f_modal_step .step_list li {
                         position:relative;
+                    }
+                    .f_modal_step .step_list li em {
+                        position:absolute;
+                        top:15px;
+                        right:-12px;
                     }
 					</style>
         		</div>
@@ -326,7 +334,7 @@
 		</div>
 	</div>
 	<!-- 반품신청 -->
-	<div class="f_modal_layer big f_modal_shadow">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

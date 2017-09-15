@@ -3,6 +3,26 @@
     	asdieToggle($(".user_custom_filter"));
     });
 </script>
+<style>
+/*만약에 두가지 혼합되어 있을 경우*/
+/* 두가지 색  */
+.detial_color_list li.c_mix,
+.cbox_color [type="checkbox"].c_mix + .box:before {
+    border-radius: 50px;
+    border-right-color: red;
+    border-top-color: blue;
+    border-bottom-color: red;
+    border-left-color: blue;
+    border-width: 50px;
+    border-style: solid;
+    height: 0px;
+    width: 0px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(135deg);
+}
+</style>
+
 <aside class="user_custom_filter">
 	<dl class="user_info">
 		<!-- 

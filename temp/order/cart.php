@@ -141,7 +141,11 @@
 	  	  font-size: 14px;	
 	  	  font-weight: bold;	
 	  	  line-height: 40px;		 
-		 } 
+		 }
+          .user_level_x6 {
+        	padding:11px 0 9px;
+        	background:url(../img/user_level_bg.png) no-repeat;
+        } 
 		</style>
 		<!-- 위시리스트 리스트 -->
 		<div class="prd_list_type">

@@ -142,6 +142,7 @@
 	  	  font-weight: bold;	
 	  	  line-height: 40px;		 
 		 }
+		 /*멤버십 백그라운드 이미지*/
           .user_level_x6 {
         	padding:11px 0 9px;
         	background:url(../img/user_level_bg.png) no-repeat;

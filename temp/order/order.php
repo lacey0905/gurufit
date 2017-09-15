@@ -620,6 +620,7 @@
 								<dd>1개</dd>
 							</dl>
 							<a href="#" class="btn_modify">편집</a>
+							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 							<div class="btn_del">
 								<a href="#">상품 삭제</a>
 							</div>
@@ -631,6 +632,20 @@
 					</tr>
 				</tbody>
 			</table>
+			<style>
+			/*장바구니 영역 밑에 라인 추가*/
+			.cart_b_line {
+                border-bottom: 1px solid #E1E1E1;
+			}
+			/*배송 예정일 텍스트 추가*/
+			.due_dt {
+    			display:block;
+    			color: #BBBBBB;
+    			font-size: 12px;	
+    			line-height: 20px;
+    			margin-top:7px;
+			}			
+			</style>
 			<div class="order_result_box">
 				<dl class="result_box_a">
 					<dt>총 상품 금액</dt>
@@ -1037,10 +1052,10 @@
 		</div>
 		<div class="btn_order_submit">
 			<strong class="btn_head">
-				<em class="user_level_x6"></em>
+				<em class="user_level_x6">Gold<br>III</em>
 				<span>
-					배송 예정일은 <em>2017년 10월 28일</em> 입니다.<br>
-					구매 후 리뷰를 작성하면 <em>100xp</em>경험치를 얻을 수 있습니다. 
+					Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
+					구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 
 				</span>
 			</strong>
 			<ul class="side_btn_list">
@@ -1052,6 +1067,11 @@
 		.btn_order_submit .btn_head span em {
 		  color:#484848;
 		}
+	    /*멤버십 백그라운드 이미지*/
+          .user_level_x6 {
+        	padding:11px 0 9px;
+        	background:url(../img/user_level_bg.png) no-repeat;
+        } 
 		</style>
 		<script>
 			// 결제 정보 탭

@@ -78,10 +78,6 @@
 			</div>
 		</div>
 		<h3 class="tit_sub_a">주문 상품 <span>선물메세지</span></h3>
-		<style>
-		  .tit_sub_a {
-		  }
-		</style>
 		<div class="prd_list_type">
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
@@ -91,7 +87,7 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_b_line">
 						<td class="thum">
 							<span class="prd_thum">
 	    						<a href="#">
@@ -110,6 +106,7 @@
 								<dt>수량 : </dt>
 								<dd>1개</dd>
 							</dl>
+							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 						</td>
 						<td class="price">
 							<del class="customer">99,000 원</del>
@@ -118,6 +115,25 @@
 					</tr>
 				</tbody>
 			</table>
+			<style>
+			/*장바구니 영역 밑에 라인 추가*/
+			.cart_b_line {
+                border-bottom: 1px solid #E1E1E1;
+			}
+			/*배송 예정일 텍스트 추가*/
+			.due_dt {
+    			display:block;
+    			color: #BBBBBB;
+    			font-size: 12px;	
+    			line-height: 20px;
+    			margin-top:7px;
+			}
+    		 /*멤버십 백그라운드 이미지*/
+              .user_level_x6 {
+            	padding:11px 0 9px;
+            	background:url(../img/user_level_bg.png) no-repeat;
+            } 			
+			</style>			
 		</div>
 		<h3 class="tit_sub_a">배송지 정보</h3>
 		<div class="addr_wrap">

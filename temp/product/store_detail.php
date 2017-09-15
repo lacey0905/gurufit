@@ -543,7 +543,13 @@
 						<li><a href="#">#수트 패션</a></li>
 						<li><a href="#">#비즈니스 패션</a></li>
 					</ul>
-					<a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a>
+					<!-- <a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a> -->
+					<div class="sel_custom sel_nm_box sel_small sel_small_right">
+						<select>
+							<option>베스트 순</option>
+							<option>최신 순</option>
+						</select>
+					</div>
 				</div>
 				<!-- 등록 된 이미지가 없을 때 메시지 박스
 				<div class="null_cont_box gray">
@@ -1047,8 +1053,12 @@
     								<div class="sel_custom sel_nm_box sort_select">
         								<select>
         									<option>모든 별점 보기</option>
-        									<option></option>
+        									<option>
+												★★★★★
+        									</option>
+        									<option><i class="material-icons">&#xE87D;</i></option>
         								</select>
+        								
     								</div>
     								<div class="check_sort custom_cbox cbox_b gray">
                     					<label>

@@ -77,7 +77,11 @@
 				<strong class="total">171,480원</strong>
 			</div>
 		</div>
-		<h3 class="tit_sub_a">주문 상품</h3>
+		<h3 class="tit_sub_a">주문 상품 <span>선물메세지</span></h3>
+		<style>
+		  .tit_sub_a {
+		  }
+		</style>
 		<div class="prd_list_type">
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>

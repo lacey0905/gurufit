@@ -39,6 +39,14 @@
     <script src="../js/jquery.mCustomScrollbar.js"></script>
     <script src="../js/jquery.selectBox.js"></script>
     <script src="../js/ui.js"></script>
+    
+    <script type="text/javascript">
+    	$(function(){
+    		  $("#lnbOpt").click (function{
+    				 $("#lnbOpt").hide();	 
+    			  });    		
+    	});
+    </script>
 </head>
 <body>
 <div id="wrap">
@@ -475,9 +483,34 @@
 						</select>
 					</div>
 					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
-					<a href="#" class="profile"><img src="../img/icon_profile_x17.png" alt="프로필"></a>
+					<a href="#" class="profile"><input type="button" class="in_d"></a>
 					<a href="#" class="icon_sch_x22 search_btn">Search</a>
 				</fieldset>
+				<style>
+				.search_drop {
+				top:45px;
+				}
+				.lnbSearch {
+				z-index:1100;
+				}
+				.in_d {
+					cursor: pointer;
+					border:none;
+					display:inline-block;
+					background:url(../img/contactsg.png) no-repeat;
+					width:17px;
+					height:17px;
+					padding:0;
+					overflow:hidden;
+				}
+				.in_d:active {
+					background-image:url(../img/contacts.png);
+					width:17px;
+					height:17px;
+					background-size: 17px 17px;					
+				} 
+				</style>
+
 				<div class="search_drop">
 					<dl class="search_list_normal">
 						<dt>추천 검색어</dt>

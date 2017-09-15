@@ -1193,6 +1193,7 @@
 	position:relative;
 	max-height:600px;
 	z-index:1000;
+	overflow-y:auto;
 }
 .f_modal_cont.big {
 	max-height:900px;
@@ -2348,6 +2349,14 @@
 	font-size:14px;
 	font-weight:600;
 	line-height:34px;
+}
+.sel_small_right {
+	float:right;
+}
+.sel_small_right:after {
+	content:"";
+	display:block;
+	clear:both;
 }
 .sel_small select {
 	padding:7px 15px;

@@ -11,7 +11,7 @@
 	</div>
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
-			<h2>Help</h2>
+            <h2>Help Desk</h2>
 			<div class="tab_active_type">
 				<ul>
 					<li><a href="#">FAQ</a></li>
@@ -24,14 +24,11 @@
 			<div class="tit_sub_wrap">
 				<h3 class="tit_head tit_sub_b">공지사항</h3>
 				<dl class="tit_opt select_sort">
-    				<dt>분류 기준</dt>
+                    <dt>정렬 기준</dt>
     				<dd>
     					<div class="sel_custom sel_nm_box sel_mid">
     						<select class="sel_mid">
-    							<option>전체분류</option>
-    							<option>일반</option>
-    							<option>시스템</option>
-    							<option>이벤트</option>
+                                <option>등록순서</option>
     						</select>
     					</div>
     				</dd>
@@ -42,10 +39,9 @@
 				<ul>
 					<li class="reply">
 						<a href="#none">
-							<span class="list_cate">시스템</span>
+                            <span class="list_head_icon"><em class="icon_new">NEW</em></span>
 							<strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>
 							<span class="list_head_opt">
-								<em class="icon_new">NEW</em>
 								<em class="date">2017년 7월 20일</em>
 								<em class="arr"></em>
 							</span>
@@ -73,10 +69,9 @@
 					</li>
 					<li class="reply">
 						<a href="#none">
-							<span class="list_cate">이벤트</span>
-							<strong class="subject">너와 나의 연결고리 이건 우리 안의 소리</strong>
+                            <span class="list_head_icon"></span>
+                            <strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>						
 							<span class="list_head_opt">
-								<em class="icon_new">NEW</em>
 								<em class="date">2017년 7월 20일</em>
 								<em class="arr"></em>
 							</span>
@@ -101,38 +96,7 @@
         						1장 4조 (멤버십 서비스 개요) 1항 4호<br/>  
 							</p>
 						</div>
-					</li>
-					<li class="reply">
-						<a href="#none">
-							<span class="list_cate">일반</span>
-							<strong class="subject">나만의 Fit을 찾아주는 신발 슈커머스,'구루핏' 가입을 환영 합니다.</strong>
-							<span class="list_head_opt">
-								<em class="icon_new">NEW</em>
-								<em class="date">2017년 7월 20일</em>
-								<em class="arr"></em>
-							</span>
-						</a>
-						<div class="list_cont">
-							<p class="toggle_cont toggle_fir">
-                                                                           안녕하세요. 구루핏 입니다.<br/>
-            					<br/>
-                                2016년 9월 5일 적용 예정이었던 멤버십 약관 효력 및 개정, 기타 서비스 변경, 개인정보 수집/제공/활용 등<br/>
-                    		        이용 약관 내용이 회사 내부 사정에 의해 연기됨에 따라 다시 재 안내드립니다.<br/>
-             					<br/>
-            					<br/>
-                                1.변경항목 (멤버십 약관)<br/>
-                              	변경 전	변경 후<br/>
-             					<br/>
-                                1장 4조 (멤버십 서비스 개요) 1항 1호<br/>
-        						① 적립 서비스<br/>
-        						회원은 당사와 제휴사에서 상품 또는 서비스 구입 시 나 이벤트 등에 의해 포인트를 적립 받을 수 있습니다. 단, 당사 및 제휴사의 사정에 따라 지정 된 일부 상품은 제외 될 수 있습니다.<br/>
-         						<br/>
-         						<br/>
-         						<br/>
-        						1장 4조 (멤버십 서비스 개요) 1항 4호<br/>  
-							</p>
-						</div>
-					</li>										
+					</li>									
 				</ul>
 			</div>
 			<!-- 페이징 -->

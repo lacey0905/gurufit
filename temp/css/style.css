@@ -4,6 +4,7 @@
 @import url("product_detail.css");
 @import url("service.css");
 
+
 /* LOCATE */
 .sub_locate {
 	width:100%;
@@ -213,7 +214,7 @@
 	font-size:22px;
 	font-weight:400;
 	color:#000;
-	text-align:left; 
+	text-align:left;
 	line-height:33px;
 	margin:42px 0 22px;
 }
@@ -304,6 +305,7 @@
 .inp_login_b {
 	padding:100px 0 30px;
 }
+
 .inp_login fieldset {
 	width:400px;
 	margin:0 auto;
@@ -316,7 +318,7 @@
 	color:#4a4a4a;
 	padding-bottom:16px;
 	margin:0 auto 18px;
- 	text-align:center;
+	text-align:center;
 }
 .inp_login fieldset legend:after {
 	content:" ";
@@ -367,6 +369,7 @@
 	padding-top:24px;
 	text-decoration:underline;
 }
+
 .inp_login .inp_btn_a input {
 	width:270px;
 	float:left;
@@ -380,20 +383,20 @@
 	position:relative;
 	text-align:left !important;
 	margin:0 0 7px !important;
-    font-size: 16px;
-    line-height: 21px;
-    letter-spacing: -0.4px;
-    text-align: left;
-    color: #000000;		
+	font-size: 16px;
+	line-height: 21px;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: #000000;
 }
 .inp_login .inp_msg_a .tit em {
 	position:absolute;
 	top:0;
 	right:0;
-    font-size: 13px;
-    line-height: 21px;
-    letter-spacing: -0.5px;
-    color: #bbbbbb;
+	font-size: 13px;
+	line-height: 21px;
+	letter-spacing: -0.5px;
+	color: #bbbbbb;
 }
 
 .inp_login .add_msg {
@@ -401,12 +404,12 @@
 	margin:10px 0 15px;
 	text-align:left;
 	vertical-align:top;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: -0.5px;
-    text-align:center;
-    color: #bbbbbb;	
-    clear:both;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	text-align:center;
+	color: #bbbbbb;
+	clear:both;
 }
 .inp_login .add_msg.lv1 {
 	color:red;
@@ -462,7 +465,7 @@
 }
 .search_count em {
 	font-size:18px;
-	/font-weight:600;
+/font-weight:600;
 	color:#000;
 }
 
@@ -582,27 +585,27 @@
 
 /* SWIPER */
 .swiper-container {
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
+	text-align: center;
+	font-size: 18px;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
 }
 
 
@@ -667,7 +670,7 @@
 .review_box_a dl dd .date {
 	font-size:12px;
 	color:#999;
-	line-height:18px;	
+	line-height:18px;
 }
 .review_box_a dl dd .cont,
 .review_box_a dl dd .cont .cont_more {
@@ -807,8 +810,8 @@
 	border-bottom:solid 1px #eaeaea;
 	background-color:#fff;
 	-ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 .review_box_list .share {
 	position:absolute;
@@ -887,7 +890,7 @@
 	height: 27px;
 	line-height:27px;
 	border-radius: 4px;
-	border: solid 1px #e9e9e9;	
+	border: solid 1px #e9e9e9;
 	font-size:12px;
 	color:#999;
 	text-indent:30px;
@@ -912,7 +915,7 @@
 	padding-right:10px;
 	font-size:12px;
 }
-.review_list_gauge .step_gauge .gauge_area .gauge .gauge_min, 
+.review_list_gauge .step_gauge .gauge_area .gauge .gauge_min,
 .review_list_gauge .step_gauge .gauge_area .gauge .gauge_max {
 	font-size:10px;
 	letter-spacing:-0.8px;
@@ -1012,7 +1015,7 @@
 .count_area .count em {
 	font-size:40px;
 	font-weight:400;
-	color:#232122;	
+	color:#232122;
 	line-height:59px;
 }
 .count_area .count {
@@ -1141,7 +1144,6 @@
 	vertical-align:top;
 	min-width:45px;
 	font-size:15px;
-	font-weight:300;
 	color:#bbb;
 }
 .step_gauge .gauge_area li > .msg.active {
@@ -1217,8 +1219,8 @@
 .step_gauge .step_last {
 	margin-left:-30px !important;
 }
-.step_gauge .inp .step_bar:after, 
-.step_gauge .inp .step_dot:after, 
+.step_gauge .inp .step_bar:after,
+.step_gauge .inp .step_dot:after,
 .step_gauge .inp .step_dot:before {
 	width:5px !important;
 	height:5px !important;
@@ -1288,7 +1290,7 @@
 	border-bottom:solid 2px #4a4a4a;
 }
 .tit_sub_wrap .tit_head {
-	display:inline-block;	
+	display:inline-block;
 	padding:0;
 	margin:0;
 	line-height:42px;
@@ -1354,7 +1356,7 @@
 }
 .tit_sub_b span {
 	font-weight:400;
-    color: #f6a623;	
+	color: #f6a623;
 	text-align: left;
 	font-size: 22px;
 	margin:0 5px;
@@ -1645,7 +1647,7 @@
 }
 .result_box_mix .order_cont {
 	display:table;
-	width:100%;	
+	width:100%;
 	border-top:solid 1px #d8d8d8;
 	padding:15px 0;
 }
@@ -1868,7 +1870,7 @@
 .complate_box_c .comp_tit em {
 	font-weight:400;
 	color:#7053ff;
-} 
+}
 .complate_box_c .comp_btn {
 	padding-bottom:50px;
 }
@@ -1952,13 +1954,13 @@
 	font-size:0;
 	margin-top:25px;
 }
+.badge_list li:hover > a {
+    background: url(../img/icon_bullet_x10.png) no-repeat top right;                    
+}
 .badge_list li {
 	display:inline-block;
 	width:33.3334%;
 	text-align:center;
-}
-.badge_list li:hover > a {
-	background: url(../img/icon_bullet_x10.png) no-repeat top right;				    
 }
 .badge_list li a {
 	display:block;
@@ -2176,7 +2178,7 @@
 }
 
 .my_badge_box .my_badge_list .my_badge_icon {
-	display:inline-block;	
+	display:inline-block;
 	width:140px;
 }
 .my_badge_box .my_badge_list .my_badge_name {
@@ -2267,7 +2269,6 @@
 .form_inp_a {
 	border-top: 2px solid #4A4A4A;
 }
-
 .form_inp_a {}
 .form_inp_a.mid {}
 .form_inp_a > li {
@@ -2294,25 +2295,25 @@
 	z-index:1000;
 }
 .form_inp_a .top_modify_add {
-	color:#9B9B9B;
+    color:#9B9B9B;
 }
 .form_inp_a .top_modify_add + .top_modify {
-	right:68px;
+    right:68px;
 }
 .form_inp_a .form_tit {
 	position:absolute;
 	top:0;
 	left:0;
-	width:237px;	
+	width:237px;
 	height:100%;
 	vertical-align:top;
-    font-size: 16px;
-    font-weight:400;
-    line-height:128px;
-    letter-spacing: -0.7px;
-    text-align: center;
-    color: #000000;
-    background-color: #F6F6FA;
+	font-size: 16px;
+	font-weight:400;
+	line-height:128px;
+	letter-spacing: -0.7px;
+	text-align: center;
+	color: #000000;
+	background-color: #F6F6FA;
 }
 .form_inp_a .form_cont {
 	display:table;
@@ -2322,43 +2323,43 @@
 	display:table-cell;
 	width:143px;
 	padding-left:37px;
-    font-size: 16px;
-    /*
+	font-size: 16px;
+	/*
     line-height:54px;
     */
-    letter-spacing: -0.7px;
-    color: #000000;
-    vertical-align:middle;
+	letter-spacing: -0.7px;
+	color: #000000;
+	vertical-align:middle;
 }
 /* 상단 라인 생성 */
 .form_cont.in_line {
-    margin-top:37px;
+	margin-top:37px;
 }
 .form_cont.in_line > dt,
 .form_cont.in_line > dd {
-   border-top:solid 1px #ddd;
-   padding-top:35px;
+	border-top:solid 1px #ddd;
+	padding-top:35px;
 }
 
 /* 주문 페이지에 사용 */
 .form_tit_list {
-    position:relative;
+	position:relative;
 }
 .form_tit_list .list li {
-   text-align:left;
+	text-align:left;
 }
 .form_tit_list .title {
-    display:inline-block;
-    width:113px;
-    color: #8F8F8F;  
-    font-size: 16px; 
-    line-height: 40px;  
+	display:inline-block;
+	width:113px;
+	color: #8F8F8F;
+	font-size: 16px;
+	line-height: 40px;
 }
 .form_tit_list .content {
-    display:inline-block;
-    color: #000;     
-    font-size: 14px; 
-    line-height: 16px;                   
+	display:inline-block;
+	color: #000;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .form_inp_a .form_cont .tit_top {
@@ -2369,7 +2370,7 @@
 }
 .form_inp_a .form_cont dd {
 	display:table-cell;
-	width:400px;  
+	width:400px;
 	padding-right:280px;
 	vertical-align:middle;
 }
@@ -2397,7 +2398,7 @@
 	font-size: 16px;
 	font-weight:400;
 	text-align: left;
-	color: #4a4a4a;	
+	color: #4a4a4a;
 	line-height:54px;
 	margin-right:8px;
 	vertical-align:middle;
@@ -2447,17 +2448,17 @@
 .form_inp_a .form_inp_area .form_inp_msg {
 	position:absolute;
 	top:0;
-	left:100%;	
+	left:100%;
 	display:block;
 	width:280px;
 	margin:5px 0 0 20px;
 	text-align:left;
 	vertical-align:top;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: -0.5px;
-    text-align: justify;
-    color: #bbbbbb;	
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	text-align: justify;
+	color: #bbbbbb;
 }
 .form_inp_a .form_inp_area {
 	padding:5px 0;
@@ -2469,11 +2470,11 @@
 	margin:10px 0 15px;
 	text-align:left;
 	vertical-align:top;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: -0.5px;
-    text-align:left;
-    color: #bbbbbb;	
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	text-align:left;
+	color: #bbbbbb;
 }
 .form_inp_a .form_inp_result span.lv1 {
 	color:red;
@@ -2518,7 +2519,7 @@
 }
 .info_list_box.active {
 	border:solid 1px #f6a623;
-	 box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
 	-moz-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
 	-webkit-box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
 }
@@ -2712,15 +2713,15 @@
 	border-top:solid 2px #4a4a4a;
 	border-bottom:solid 1px #ebebeb;
 	width: 1100px;
-	margin:0 auto 25px;	
+	margin:0 auto 25px;
 }
 
 .join_member_info_container ul {}
 
 
 .join_member_info_container ul li {
-	overflow:hidden; 
-	
+	overflow:hidden;
+
 }
 .join_member_info_container strong {
 }
@@ -2730,17 +2731,17 @@
 }
 .join_member_info_container dd {
 	display:table-cell;
-} 
+}
 .join_member_info_container p {
 	width:276px;
 	text-align:left;
 	vertical-align:top;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: -0.5px;
-    text-align: justify;
-    color: #bbbbbb;		
-    float:left;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: -0.5px;
+	text-align: justify;
+	color: #bbbbbb;
+	float:left;
 }
 /*login_info*/
 .join_member_info .login_info {
@@ -2749,7 +2750,7 @@
 .join_member_info .login_info strong {
 	background-color:red;
 	height:302px;
-    background-color: #f6f6fa;	
+	background-color: #f6f6fa;
 }
 .join_member_info .login_info dl {
 	padding-top: 14px;
@@ -2761,7 +2762,7 @@
 .join_member_info .login_info dl dd span {
 	font-size: 16px;
 	text-align: left;
-	color: #4a4a4a;	
+	color: #4a4a4a;
 }
 .join_member_info .login_info dl dd a {
 	font-size: 14px;
@@ -2887,6 +2888,7 @@
 /* FUN 뱃지 */
 .fun_badge_list {
 	margin-top:20px;
+	max-height:500px;
 	height:500px;
 }
 /* 스크롤 */
@@ -3036,7 +3038,7 @@
 .dash_tab_wrap .tab_cont_foot {
 	text-align:center;
 	margin:50px 0 0;
-} 
+}
 .dash_tab_wrap .tab_info_count {
 	border:solid 1px #ebebeb;
 	border-top:0;
@@ -3082,13 +3084,12 @@
 .dash_tab_wrap .tab_info_count .non_rank_tit{
     display:inline-block;
     color: #9B9B9B;
-    font-size: 20px;	
-    font-weight: 300;	
-    line-height: 25px;	
+    font-size: 20px;    
+    font-weight: 300;    
+    line-height: 25px;    
     text-align: center;
     margin-top:45px;
 }
-ㄴ
 
 
 /* Toggle List */
@@ -3099,7 +3100,7 @@
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
-	color: #000;	
+	color: #000;
 }
 .toggle_list_a > ul {
 	width:100%;
@@ -3109,12 +3110,12 @@
 .toggle_list_a > ul > li {
 	position:relative;
 	background-color: #fff;
-    border-top: solid 1px #ddd;
-    box-sizing:border-box;
-    padding:20px 0;
-    cursor:pointer;
-    vertical-align:middle;
-    text-align:center;
+	border-top: solid 1px #ddd;
+	box-sizing:border-box;
+	padding:20px 0;
+	cursor:pointer;
+	vertical-align:middle;
+	text-align:center;
 }
 .toggle_list_a > ul > li > a {
 	display:block;
@@ -3129,7 +3130,7 @@
 	font-weight:bold;
 }
 .toggle_list_a > ul > li.reply > a .state {
-	color:#F5A623;	
+	color:#F5A623;
 }
 .toggle_list_a .list_cate {
 	position:absolute;
@@ -3138,8 +3139,16 @@
 	width:70px;
 	height:65px;
 	line-height:65px;
-	color: #9B9B9B;		
-	font-size: 16px;	
+    color: #9B9B9B;        
+    font-size: 16px;    
+}
+.toggle_list_a .list_head_icon {
+    position:absolute;
+    top:0;
+    left:0;
+    width:70px;
+    height:65px;
+    line-height:65px;	
 }
 .toggle_list_a .list_head_opt {
 	position:absolute;
@@ -3151,13 +3160,13 @@
 .toggle_list_a .list_head_opt .date {
 	display:inline-block;
 	font-size: 14px;
-	color: #bbb;	
+	color: #bbb;
 	width:160px;
 }
 .toggle_list_a .list_head_opt .state {
 	display:inline-block;
 	font-size: 16px;
-	color: #8f8f8f;	
+	color: #8f8f8f;
 	width:70px;
 }
 .toggle_list_a .list_head_opt .arr:before {
@@ -3165,14 +3174,14 @@
 	display:inline-block;
 	width:70px;
 	font-family: simple-line-icons;
-    font-size: 14px;
-    color: #4a4a4a;	
-    vertical-align:middle;
+	font-size: 14px;
+	color: #4a4a4a;
+	vertical-align:middle;
 }
 .toggle_list_a li.active .list_head_opt .arr:before {
 	-ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 .toggle_list_a > ul > li > a .subject {
 	display:block;
@@ -3187,33 +3196,33 @@
 }
 .toggle_list_a .list_cont .toggle_cont {
 	background-color:#f9f9fc;
-	padding: 23px 93px 45px 45px;	
-    font-size: 14px;
-    line-height: 23px;
-    text-align: left;
-    color: #747474;	
-    margin:0 25px;
-    width:auto;
+	padding: 23px 93px 45px 45px;
+	font-size: 14px;
+	line-height: 23px;
+	text-align: left;
+	color: #747474;
+	margin:0 25px;
+	width:auto;
 }
 .toggle_list_a .list_cont .toggle_cont .btn_more {
 	display:inline-block;
-    font-size: 14px;
-    text-align: left;
-    color: #2f54bd;	
-    vertical-align:middle;
-    line-height:25px;
-    margin-top:25px;
+	font-size: 14px;
+	text-align: left;
+	color: #2f54bd;
+	vertical-align:middle;
+	line-height:25px;
+	margin-top:25px;
 }
 .toggle_list_a .list_cont .toggle_cont .btn_more:after {
-	content:"\E93F";	
+	content:"\E93F";
 	display:inline-block;
 	font-size: 12px;
 	font-family: fontello;
-    text-align: left;
-    color: #2f54bd;	
-    margin:0 10px;
-    vertical-align:top;
-    line-height:25px;
+	text-align: left;
+	color: #2f54bd;
+	margin:0 10px;
+	vertical-align:top;
+	line-height:25px;
 }
 .toggle_list_a .list_cont .toggle_fir {}
 .toggle_list_a .list_cont .toggle_sec {
@@ -3235,7 +3244,7 @@
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
-	color: #000;	
+	color: #000;
 }
 .toggle_list_more {
 	padding:50px 0;
@@ -3331,7 +3340,7 @@
 	color:#4a4a4a;
 }
 .icon_link_list .link li i {
-	display:inline-block;	
+	display:inline-block;
 	font-size:32px;
 	height:32px;
 	vertical-align:top;
@@ -3344,85 +3353,85 @@
 .ava_coupon_tit {
 }
 .ava_coupon_tit > li {
-    display:inline-block;
-    color:#747474;
-    font-size:12px;
-    line-height: 18px;                        
+	display:inline-block;
+	color:#747474;
+	font-size:12px;
+	line-height: 18px;
 }
 .ava_coupon_tit > li:nth-child(1){
-    margin-right:125px;
+	margin-right:125px;
 }
 .ava_coupon_tit > li:nth-child(2){
-    margin-right: 245px;
+	margin-right: 245px;
 }
 .ava_coupon_box {
-    font-size:0;
-    border: 1px solid #EBEBEB;
-    border-radius: 5px;
-    height:60px;
-    margin-top:12px;
+	font-size:0;
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
+	height:60px;
+	margin-top:12px;
 }
 .ava_coupon_box > div {
-    display:inline-block;
+	display:inline-block;
 }
 .ava_coupon_box .coupon_cate {
-    width:163px;
-    text-align:center;
-    height:60px;
-    position:relative;
+	width:163px;
+	text-align:center;
+	height:60px;
+	position:relative;
 }
 .ava_coupon_box .coupon_cate:after {
-    content:"";
-    position:absolute;
-    top:-11px;
-    right: 10px;
-    width:2px;
-    height:51px;
-    border-right: dashed 1px #EBEBEB;
+	content:"";
+	position:absolute;
+	top:-11px;
+	right: 10px;
+	width:2px;
+	height:51px;
+	border-right: dashed 1px #EBEBEB;
 }
 .ava_coupon_box .coupon_cate strong {
-    color:#4A4A4A;
-    font-size:12px;
-    font-wegith:bold;
-    line-height:16px;
-    display:block;
+	color:#4A4A4A;
+	font-size:12px;
+	font-wegith:bold;
+	line-height:16px;
+	display:block;
 }
 .ava_coupon_box .coupon_info {
-    width:324px;
-    padding-top:14px;
-    position:relative;
+	width:324px;
+	padding-top:14px;
+	position:relative;
 }
 .ava_coupon_box .coupon_info span {
-    color: #747474;  
-    font-size: 12px; 
-    font-weight: 300;   
-    line-height: 16px;                    
+	color: #747474;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
 }
 .ava_coupon_box .coupon_info:after {
-    content:"";
-    position:absolute;
-    top:5px;
-    right: 0;
-    width:2px;
-    height:51px;
-    border-right: dashed 1px #EBEBEB;                    
+	content:"";
+	position:absolute;
+	top:5px;
+	right: 0;
+	width:2px;
+	height:51px;
+	border-right: dashed 1px #EBEBEB;
 }
 .ava_coupon_box .coupon_date {
-    width:119px;
-    text-align:center;
+	width:119px;
+	text-align:center;
 }
 .ava_coupon_box .coupon_date span {
-   color: #747474;   
-   font-size: 12px;  
-   font-weight: 300; 
-   line-height: 16px;   
-   text-align: center;
-   display:inline-block;
-   margin-top:-10px;
-   vertical-align:top;
+	color: #747474;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	text-align: center;
+	display:inline-block;
+	margin-top:-10px;
+	vertical-align:top;
 }
 .ava_coupon_box .coupon_date span em {
-    text-decoration:underline;
+	text-decoration:underline;
 }
 
 
@@ -3461,7 +3470,7 @@
 	width:500px;
 	font-size:13px;
 	line-height:20px;
-	color:#8F8F8F;	
+	color:#8F8F8F;
 	margin-top:25px;
 }
 .thum_type_list .cont_foot {
@@ -3548,120 +3557,120 @@
 
 /* 할인 내용 안내 */
 .ord_discount {
-    background-color: #F9F9F9;
-    border-top:1px solid #EBEBEB;
-    border-bottom:1px solid #EBEBEB;
-    padding:10px 45px 10px 30px
+	background-color: #F9F9F9;
+	border-top:1px solid #EBEBEB;
+	border-bottom:1px solid #EBEBEB;
+	padding:10px 45px 10px 30px
 }
 .ord_discount > em {
-    color: #8F8F8F;		
-    font-size: 16px;	
-    line-height: 40px;
+	color: #8F8F8F;
+	font-size: 16px;
+	line-height: 40px;
 }
 .ord_discount .ord_mem {
-    color: #8F8F8F;		
-    font-size: 16px;	
-    line-height: 40px;
-    margin-left: 100px;	
+	color: #8F8F8F;
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 100px;
 }
 .ord_discount .ord_mem > strong {
-	font-size: 16px;	
-	line-height: 40px;	
+	font-size: 16px;
+	line-height: 40px;
 	color:#909090;
-	margin-left:5px;	
+	margin-left:5px;
 }
 .ord_discount span:last-child {
-	color: #F5A623;		
-	font-size: 16px;	
-	line-height: 40px;	
+	color: #F5A623;
+	font-size: 16px;
+	line-height: 40px;
 	text-align: right;
 	float:right;
-}			
-/* 주문 쿠폰 리스트 */		
+}
+/* 주문 쿠폰 리스트 */
 .ord_coupon {
 	background-color: #F9F9F9;
 	padding:11px 45px 18px 164px;
 	border-bottom: 1px solid #EBEBEB;
 }
 .ord_coupon > dl > dt {
-	color: #8F8F8F;		
-	font-size: 16px;	
-	line-height: 40px;	
+	color: #8F8F8F;
+	font-size: 16px;
+	line-height: 40px;
 	display:inline-block;
 }
 .ord_coupon > dl > dd {
 	display:inline-block;
 	float:right;
-	color: #F5A623;		
-	font-size: 16px;	
-	text-align: right;	
+	color: #F5A623;
+	font-size: 16px;
+	text-align: right;
 }
 .ord_coupon > dl > dd:after {
 	content:"";
 	display:block;
 	clear:both;
-} 					
-/* 주문 쿠폰 리스트 테이블 */     
+}
+/* 주문 쿠폰 리스트 테이블 */
 .ord_coupon_tab {}
 .ord_coupon_tab th {
-    font-weight:500;
-    color: #747474;
-    font-size: 12px;	
-    line-height: 18px;
-    padding-bottom: 13px;
-    text-align:left;					     
+	font-weight:500;
+	color: #747474;
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 13px;
+	text-align:left;
 }
 .ord_coupon_tab th:nth-child(1){
-    padding-left:45px;
+	padding-left:45px;
 }
 .ord_coupon_tab th:nth-child(4){
-  text-align:right;
+	text-align:right;
 }
 .ord_coupon_tab td {
-   color: #747474;
-   font-size: 12px;	
-   line-height: 16px;
-   padding:6px 0;
-   vertical-align:middle;
+	color: #747474;
+	font-size: 12px;
+	line-height: 16px;
+	padding:6px 0;
+	vertical-align:middle;
 }
 .ord_coupon_tab .cu_info span {
-   color: #F5A623;	
-   font-size: 12px;	
-   line-height: 16px;
-   text-decoration:underline;					     
+	color: #F5A623;
+	font-size: 12px;
+	line-height: 16px;
+	text-decoration:underline;
 }
 .ord_coupon_tab .cu_price {
-   color: #747474;
-   font-size: 16px;	
-   line-height: 40px;	
-   text-align: right;					               
+	color: #747474;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: right;
 }
 .ord_coupon_tab .coupone_select_list label span {
 	display:inline-block;
-    height:42px;
-    width:180px;
-    border-radius: 3px;
-    line-height:16px;
-    padding-top:10px;
-    margin-left:15px;
-    vertical-align:middle;
+	height:42px;
+	width:180px;
+	border-radius: 3px;
+	line-height:16px;
+	padding-top:10px;
+	margin-left:15px;
+	vertical-align:middle;
 }
 .ord_coupon_tab .coupone_select_list label span em {
-    display:block;
+	display:block;
 }
 .ord_coupon_tab .coupone_select_list [type=checkbox]:checked + .box + .add_chk {
 	background-color:#F8E71C;
 }
 .coupone_select_list {
-    display:inline-block;
-    padding:0;
-    border:0;
-    vertical-align:middle;
- }
+	display:inline-block;
+	padding:0;
+	border:0;
+	vertical-align:middle;
+}
 .coupone_select_list [type="checkbox"] + .box {
 	display:inline-block;
-    vertical-align:middle;
-    margin:0;
+	vertical-align:middle;
+	margin:0;
 }
 .order_result_box .ord_free_color {
 	color:#F5A623 !important;
@@ -3694,9 +3703,9 @@
 	position:absolute;
 	top:17px;
 	left:0;
-	color: #4A4A4A;		
-	font-size: 16px;	
-	line-height: 40px;	
+	color: #4A4A4A;
+	font-size: 16px;
+	line-height: 40px;
 }
 .refund_account_info_register .bank_register {
 	margin-left:190px;
@@ -3708,24 +3717,24 @@
 }
 .refund_account_info_register .bank_register tr td {
 	margin-bottom:10px;
-	color: #8F8F8F;	
-	font-size: 16px;	
+	color: #8F8F8F;
+	font-size: 16px;
 	line-height:30px;
 	width:89px;
-	padding:0 0px 5px 0;	
+	padding:0 0px 5px 0;
 }
 .refund_account_info_register .bank_register .sel_mid {
 	width:274px;
 	height:30px;
-	padding:0;
+    padding:0;
 }
 .refund_account_info_register .bank_register .sel_mid .selectBox-label {
-	text-align:left;
+    text-align:left;
 }
 .refund_account_info_register .bank_register .sel_mid .selectBox {
 	padding:0px 15px;
 	vertical-align:top;
-	line-height:30px;
+    line-height:30px;	
 }
 .refund_account_info_register .bank_register .ord_ib_o {
 	width:274px;
@@ -3735,8 +3744,8 @@
 }
 .refund_account_info_register > p {
 	display:block;
-	color: #F5A623;		
-	font-size: 12px;	
+	color: #F5A623;
+	font-size: 12px;
 	line-height: 18px;
 	margin:20px 0 0 190px;
 }
@@ -3744,9 +3753,9 @@
 /*선물인가요 인풋 박스*/
 .ord_ship_list {
 	float:right;
-	color: #8F8F8F;	
-	font-size: 13px;	
-	line-height: 19px;	
+	color: #8F8F8F;
+	font-size: 13px;
+	line-height: 19px;
 }
 .ord_ship_list:after {
 	content:"";
@@ -3763,18 +3772,18 @@
 	background-color: #F6F6F6;
 	border:none;
 	resize:none;
-}    
+}
 
 .addr_wrap_v2 {}
 .addr_wrap_v2 .cont {
-  width:479px;
+	width:479px;
 }
 .addr_wrap_v2 .address {
-  line-height:40px;
+	line-height:40px;
 }
 .addr_wrap_v2 .address .addr_inp_check {}
-    
-    
+
+
 /* 비교하기 */
 .locate_tab_nav {
 	position:relative;
@@ -3848,7 +3857,7 @@
 }
 .locate_tab_nav .msg_box span em {
 	font-weight:400;
-	text-decoration:underline;	
+	text-decoration:underline;
 }
 
 
@@ -3983,91 +3992,212 @@
 	color:#fff;
 	opacity:0.3;
 }
-    
-/* 스토어 리스트 정렬 기준 팝업 */
+
+/* 쿠폰 리스트 모달 팝업 */
+.tooltip_coupon_count_box {
+   position:relative;					
+}
+.obtain_coupon_w {
+	display:none;
+	width: 660px;
+	position: absolute;
+	top: 17px;
+	right: -34px;
+	padding-top: 40px;
+}
+.tooltip_coupon_count_box:hover .obtain_coupon_w {
+	display:block;
+}
+.obtain_coupon {
+	visibility: visible;
+	border: 1px solid #DDDDDD;
+	box-shadow: 8px 8px 1px 0 rgba(0, 0, 0, 0.09);
+	text-align: center;
+	background-color: #fff;
+	z-index: 10;
+	width: 660px;
+	position: relative;
+	padding-bottom: 23px;
+}
+.obtain_coupon:after {
+	content: " ";
+	position: absolute;
+	top: -9px;
+	right: 12%;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-color: #fff;
+	border: solid 1px #dddddd;
+	border-bottom: 0;
+	border-right: 0;
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 10;
+}
+
+.obtain_coupon h4 {
+	color: #000000;
+	font-size: 18px;
+	line-height: 27px;
+	margin-top: 27px;
+}
+
+.obtain_coupon .cic {
+	margin-left: 10px;
+	display: inline-block;
+	background: url(../img/ob_cu.png) no-repeat;
+	color: #FFFFFF;
+	font-family: "Noto Sans";
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 18px;
+	padding: 2px 9px 9px 5px;
+	position: relative;
+}
+
+.obtain_coupon .cic:after {
+	content: " ";
+	position: absolute;
+	right: 65px;
+	top: 30px;
+	width: 1px;
+	height: 20px;
+	border-left: solid 1px #979797;
+}
+
+.obt_coupon_top {
+	margin-top: 40px;
+	padding: 0 24px;
+}
+
+.obt_coupon_area {
+	width: 610px;
+	height: 100%;
+	/* height: 49px; */
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+}
+
+.obt_coupon_area:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.obt_coupon_area li {
+	float: left;
+}
+
+
+.obt_coupon_tit {
+	margin-bottom: 12px;
+}
+
+.obt_coupon_tit:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.obt_coupon_tit ul li {
+	float: left;
+	text-align: left;
+	color: #747474;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.obt_coupon_tit ul li:nth-child(1) {
+	margin-right: 117px;
+}
+
+.obt_coupon_tit ul li:nth-child(2) {
+	margin-right: 252px;
+}
+
+/*스토어 리스트 정렬 기준 팝업*/
 .sl_sort_attribute .select_sort dt {
-	position:relative;
-	display:inline-block;
+    position:relative;
+    display:inline-block;
 }
 .sl_sort_attribute .select_sort dt:hover .mz_sort_pop_wrapper {
-	display:block;
+    display:block;
 }
 .sl_sort_attribute .select_sort dt img {
-	vertical-align:middle;
-	padding-bottom:2px;
+    vertical-align:middle;
+    padding-bottom:2px;
 } 
 .sl_sort_attribute .mz_sort_pop_wrapper {
-	display:none;
-	position:absolute;
-	padding-top:30px;
-	top:9px;
-	right:-79px;
-	z-index:3000;
+    display:none;
+    position:absolute;
+    padding-top:30px;
+    top:9px;
+    right:-79px;
+    z-index:3000;
 }
 .sl_sort_attribute .mz_sort_pop_container {
-	width:280px;
-	background-color:#ffffff;
-	border:1px solid #dddddd;
-	box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
-	border-radius: 5px; 
-	z-index:1;               
+    width:280px;
+    background-color:#ffffff;
+    border:1px solid #dddddd;
+    box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
+    border-radius: 5px; 
+    z-index:1;               
 }
 .sl_sort_attribute .mz_sort_pop_container:before {
-	content:'';
-	display:block;
-	position: absolute;
-	top: 25px;
-	left: 134px;
-	width: 10px;
-	height: 10px;
-	background:#FFFFFF;
-	border-right:1px solid #DDDDDD;
-	border-bottom:1px solid #DDDDDD;
-	tranasform: rotate(223deg);
-	-moz-transform:rotate(223deg);
-	-ms-transform: rotate(223deg);                 
-	-webkit-transform:rotate(-136deg);                  
+    content:'';
+    display:block;
+    position: absolute;
+    top: 25px;
+    left: 134px;
+    width: 10px;
+    height: 10px;
+    background:#FFFFFF;
+    border-right:1px solid #DDDDDD;
+    border-bottom:1px solid #DDDDDD;
+    tranasform: rotate(223deg);
+    -moz-transform:rotate(223deg);
+    -ms-transform: rotate(223deg);                 
+    -webkit-transform:rotate(-136deg);                  
 }
 .sl_sort_attribute .mz_sort_pop h4 {
- color: #000000;		
- font-size: 18px;	
- font-weight: bold;	
- line-height: 27px;	
- text-align: center;
- margin-top: 23px;
- position:relative;        	       
+	 color: #000000;        
+	 font-size: 18px;    
+	 font-weight: bold;    
+	 line-height: 27px;    
+	 text-align: center;
+	 margin-top: 23px;
+	 position:relative;                   
 }
 .sl_sort_attribute .mz_sort_pop h4:after {
- content: "";
- position: absolute;
- left: 50%;
- bottom: -17px;
- width:1px;
- height: 10px;
- border-left: solid 1px #979797;
+	 content: "";
+	 position: absolute;
+	 left: 50%;
+	 bottom: -17px;
+	 width:1px;
+	 height: 10px;
+	 border-left: solid 1px #979797;
 }
 .sl_sort_attribute .mz_sort_pop dl {
- text-align:left;
- margin-top:30px;
+	 text-align:left;
+	 margin-top:30px;
 }
 .sl_sort_attribute .mz_sort_pop dl dt {
- margin-left:22px;
- color: #4A4A4A;	
- font-size: 13px;	
- font-weight: bold;	
- line-height: 27px;        	       
+	 margin-left:22px;
+	 color: #4A4A4A;    
+	 font-size: 13px;    
+	 font-weight: bold;    
+	 line-height: 27px;                   
 }
 .sl_sort_attribute .mz_sort_pop dl dd {
- margin-left:22px;
- color: #747474;		
- font-size: 12px;	
- line-height: 20px;
- margin-bottom:18px;
- display:block !important;        	       
-}     
-
-    
-    
-    
-    
-
+	 margin-left:22px;
+	 color: #747474;        
+	 font-size: 12px;    
+	 line-height: 20px;
+	 margin-bottom:18px;
+	 display:block !important;                   
+}     	

@@ -321,208 +321,157 @@
 						<dd class="more"><a href="#">더보기</a></dd>
 					</dl>
 					<div class="coupon_count_box">
-						<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
+						<div class="tooltip_coupon_count_box">
+							<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
+         					<div class="obtain_coupon_w">
+        						<div class="obtain_coupon">
+        							<h4>보유 쿠폰 <span class="cic">5</span></h4>
+            						<div class="obt_coupon_top">
+            							<div class="obt_coupon_tit">
+            								<ul>
+            									<li>쿠폰 종류</li>
+            									<li>쿠폰 사용 정보</li>
+            									<li>유효 기간</li>
+            								</ul>
+        								</div>
+        								<div>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">5,000원</strong>
+                        							<span class="cp_title">가입 환영</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">5,000원</strong>
+                        							<span class="cp_title">레벨업 - Silver III</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">2,000원</strong>
+                        							<span class="cp_title">레벨업 - Gold I</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info">중복 사용이 가능합니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">없음</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">10%</strong>
+                        							<span class="cp_title">스니커즈 할인</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">스니커즈에 한해 사용할 수 있습니다.3만원 이상,최대 1만원 할인</span>		
+                        							<span class="cp_use_info line">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">2017년 10월 23일</span>					
+                        						</li>												
+                        					</ul>
+                        					<ul class="coupon_tab_info_count">
+                        						<li>
+                        							<strong class="cp_price">10%</strong>
+                        							<span class="cp_title">2017년 여름 세일</span>					
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
+                        							<span class="cp_use_info line">다른 이벤트 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        						</li>
+                        						<li>
+                        							<span class="cp_use_date">2017년 10월 23일</span>					
+                        						</li>												
+                        					</ul>                        					                         					                         					                        					        								
+        								</div>
+  								    	<style>
+  								    	 .coupon_tab_info_count {
+  								    	     display: table;
+  								    	     width:100%;
+  								    	     border:solid 1px #ebebeb;
+  								    	     border-radius: 5px;
+  								    	     margin-bottom: 8px;
+  								    	 }
+  								    	 .coupon_tab_info_count li:first-child {
+  								    	     width:160px;
+  								    	     border-left:0;
+  								    	 }
+  								    	 .coupon_tab_info_count li:last-child {
+  								    	     width:125px;
+  								    	 }
+  								    	 .coupon_tab_info_count li {
+  								    	     display: table-cell;
+  								    	     widht: 33%;
+  								    	     border-left: dashed 1px #ebebeb;
+  								    	 }
+  								    	 .coupon_tab_info_count li .cp_price {
+  								    	     display:block;
+  								    	     color:#4a4a4a;
+                                             color: #4A4A4A;
+                                             font-size: 12px;	
+                                             font-weight: bold;	
+                                             line-height: 16px;	
+                                             text-align: center;
+                                             margin-top:12px;  								    	     
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_title {
+  								    	     display:block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 500;	
+                                             line-height: 16px;	
+                                             text-align: center;
+                                             margin-bottom:14px;
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_use_info {
+  								    	     display:block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 300;	
+                                             line-height: 16px;
+                                             text-align:left;
+                                             margin-left:8px;  								    	     
+  								    	 }
+  								    	 .coupon_tab_info_count .line {
+  								    	     text-decoration:underline;
+  								    	 }
+  								    	 .coupon_tab_info_count .cp_use_date {
+  								    	     display:inline-block;
+                                             color: #747474;	
+                                             font-size: 12px;	
+                                             font-weight: 300;	
+                                             line-height: 16px;	
+                                             text-align: center; 
+                                             margin-top:5px; 								    	     
+  								    	 }
+  								    	</style>							     								    								
+            						</div>    							
+        						</div>
+        					</div>							
+						</div>
 						<div class="count_box">
 							<div class="box_sec count"><em>10</em>장</div>
 							<div class="box_sec price"><em>28,000</em>원</div>
-						</div>
-<!--     					<div class="obtain_coupon_w">
-    						<div class="obtain_coupon">
-    							<h4>보유 쿠폰<span class="cic">5</span></h4>
-        						<div class="obt_coupon_top">
-        							<div class="obt_coupon_tit">
-        								<ul>
-        									<li>쿠폰 종류</li>
-        									<li>쿠폰 사용 정보</li>
-        									<li>유효 기간</li>
-        								</ul>
-    								</div>
-    								<div class="obt_coupon_area">
-    									<ul>
-    										<li class="cou_cate">
-    											<strong>5,000원</strong>
-    											<span>가입 환영</span>
-    										</li>
-    										<li class="cou_use_info">
-    											<p>
-    											모든 상품 구입에 사용할 수 있습니다.<br>
-    											중복 사용이 가능합니다.	
-    											</p>
-    										</li>
-    										<li class="exp_date">
-    											<span>없음</span>
-    										</li>
-    									</ul>
-    								</div>
-        						</div>    							
-    						</div>
-    					</div> -->
+						</div>			
+
 					</div>
-					<!-- 보유 쿠폰 팝업  -->
-
-					
-					<style>
-					.coupon_count_box {
-					   position:relative;
-					}
-					.obtain_coupon_w {
-					   width:660px;					
-					   position:absolute;
-					   top:57px;
-					   right:-30px;					
-					   z-index:10; 
-                       background-color:#fff;
-                       padding-top:40px;
-					}
-					.obtain_coupon {
-					   border: 1px solid #DDDDDD;
-					   box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.09);
-					   text-align:center;	
-					   background-color:#fff;
-					   z-index:10;
-					   width:660px;
-					   height:300px;
-					   position:relative;				   
-					}
-					.obtain_coupon:after {
-                        content: " ";
-                        position: absolute;
-                        top: -9px;
-                        right: 12%;
-                        display: inline-block;
-                        width: 15px;
-                        height: 15px;
-                        background-color: #fff;
-                        border: solid 1px #dddddd;
-                        border-bottom: 0;
-                        border-right: 0;
-                        -ms-transform: rotate(45deg);
-                        -webkit-transform: rotate(45deg);
-                        transform: rotate(45deg);					   
-					}
-					.obtain_coupon h4 {
-                       color: #000000;		
-                       font-size: 18px;	
-                       line-height: 27px;
-                       margin-top:27px;
-					}
-					.obtain_coupon .cic {
-					   margin-left:10px;
-					   margin-bottom:10px;
-					   display:inline-block;
-                       background:url(../img/ob_cu.png) no-repeat;
-                       background-size: 22px 22px;   
-	                   color: #FFFFFF;	
-	                   font-family: "Noto Sans";	
-	                   font-size: 13px;	
-	                   font-style: italic;	
-	                   font-weight: bold;	
-	                   line-height: 18px;
-	                   padding-left: 7px;
-                       padding-right: 7px;
-                       padding-bottom: 10px;
-                       position:relative;		   
-					}
-					.obtain_coupon .cic:after {
-                       content: " ";
-                       position: absolute;
-                       right: 65px;
-                       top:30px;
-                       width: 1px;
-                       height: 20px;
-                       border-left: solid 1px #979797;					
-					}
-					.obt_coupon_top {
-					  
-					   margin-top:40px;
-					   padding:0 24px;
-					}
-					.obt_coupon_area {
-	                   width: 610px;
-	                   height: 49px;	
-	                   border: 1px solid #EBEBEB;	
-	                   border-radius: 5px;
-	                   margin-bottom:8px;					  
-					}
-					.obt_coupon_area:after {
-					   content:"";
-					   display:block;
-					   clear:both;
-					}
-					.obt_coupon_area li {
-					   float:left;
-					}
-					.obt_coupon_area .cou_cate {
-					   width:163px;
-					   height:37px; 
-					   border-right:1px dashed #ebebeb;
-					   padding-top:10px;  
-					}
-					.obt_coupon_area .cou_cate strong {
-					   display:block;
-                       color: #4A4A4A;	
-                       font-size: 12px;	
-                       font-weight: bold;	
-                       line-height: 16px;	
-                       text-align: center;					    
-					}
-					.obt_coupon_area .cou_cate span {
-					   display:block;
-                       color: #4A4A4A;	
-                       font-size: 12px;	
-                       font-weight: normal;	
-                       line-height: 16px;	
-                       text-align: center;					    
-					}					
-					.obt_coupon_area .cou_use_info {
-					   width:324px;
-					   height:37px;
-					   border-right:1px dashed #ebebeb;
-					   padding-top:10px;
-					}
-					.obt_coupon_area .cou_use_info p {
-                       color: #747474;		
-                       font-size: 12px;	
-                       font-weight: 300;	
-                       line-height: 16px;					   
-					}
-					.obt_coupon_area .exp_date {
-					   width:119px;
-					   padding-top:13px;
-					}
-					.obt_coupon_area .exp_date span {
-	                   color: #747474;		
-	                   font-size: 12px;	
-	                   font-weight: 300;	
-	                   line-height: 16px;	
-	                   text-align: center;					   
-					}
-					.obt_coupon_tit {
-					   margin-bottom:12px;
-					   
-					}
-					.obt_coupon_tit:after {
-					   content:"";
-					   display:block;
-					   clear:both;
-					}
-					.obt_coupon_tit ul li {
-					   float:left;
-					   text-align:left;
-                       color: #747474;		
-                       font-size: 12px;	
-                       line-height: 18px;					   
-					}
-					.obt_coupon_tit ul li:nth-child(1){
-					   margin-right:117px;
-					}
-					.obt_coupon_tit ul li:nth-child(2){
-					   margin-right:252px;
-					}
-				
-
-					</style>
-
 				</div>
 			</div>
 			<div class="dash_tab_wrap">

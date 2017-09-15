@@ -1,4 +1,34 @@
-
+<style>
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}
+ /*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+} 			
+</style>
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -6,7 +36,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -1003,6 +1033,7 @@
     									<dd>230</dd>
     									<dt>수량 : </dt>
     									<dd>1개</dd>
+    									<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     								</dl>
     							</td>
     							<td class="btn">
@@ -1071,6 +1102,7 @@
     									<dd>230</dd>
     									<dt>수량 : </dt>
     									<dd>1개</dd>
+    									<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     								</dl>
     							</td>
     							<td class="btn">
@@ -1141,6 +1173,7 @@
     									<dd>230</dd>
     									<dt>수량 : </dt>
     									<dd>1개</dd>
+    									<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     								</dl>
     							</td>
     							<td class="btn">
@@ -1209,6 +1242,7 @@
     									<dd>230</dd>
     									<dt>수량 : </dt>
     									<dd>1개</dd>
+    									<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     								</dl>
     							</td>
     							<td class="btn">
@@ -1287,6 +1321,7 @@
     									<dd>230</dd>
     									<dt>수량 : </dt>
     									<dd>1개</dd>
+    									<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     								</dl>
     							</td>
     							<td class="btn">
@@ -1314,6 +1349,7 @@
     									<dt>수량 : </dt>
     									<dd>1개</dd>
     								</dl>
+    								<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
@@ -1430,6 +1466,7 @@
     									<dt>수량 : </dt>
     									<dd>1개</dd>
     								</dl>
+    								<em class="due_dt">교환 예정일 : 2017년 9월 25일</em>
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
@@ -1468,7 +1505,7 @@
     						</tr>
     					</thead>
     					<tbody>
-    						<tr>
+    						<tr class="cart_b_line">
     							<td class="thum">
     								<span class="prd_thum">
     		    						<a href="#">
@@ -1487,6 +1524,7 @@
     									<dt>수량 : </dt>
     									<dd>1개</dd>
     								</dl>
+    								<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
     							</td>
     							<td class="btn">
     								<ul class="prd_list_btn">
@@ -1508,9 +1546,7 @@
 			</div>
 			<div class="btn_order_submit">
 				<strong class="btn_head">
-					<em class="user_level_x6">
-						<img src="../img/user_level_bg.png" alt="레벨">
-					</em>
+					<em class="user_level_x6">Gold<br>III</em>
 					<span>
 						Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
 						구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 

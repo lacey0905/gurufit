@@ -1,3 +1,28 @@
+<style>
+.btn_order_submit .btn_head .ord_end_ship_day{
+    text-align:center !important;
+}
+.btn_order_submit .btn_head .ord_end_ship_day em {
+    color:#484848;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}
+ /*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+} 		  
+</style>
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -34,14 +59,7 @@
     			</strong>
     		</div>
 		</div>
-		<style>
-        .btn_order_submit .btn_head .ord_end_ship_day{
-            text-align:center !important;
-        }
-        .btn_order_submit .btn_head .ord_end_ship_day em {
-            color:#484848;
-        }		  
-		</style>
+
 		<h3 class="tit_sub_a">결제 내역</h3>
 		<div class="order_result_box">
 			<div class="result_box_mix">
@@ -114,26 +132,7 @@
 						</td>
 					</tr>
 				</tbody>
-			</table>
-			<style>
-			/*장바구니 영역 밑에 라인 추가*/
-			.cart_b_line {
-                border-bottom: 1px solid #E1E1E1;
-			}
-			/*배송 예정일 텍스트 추가*/
-			.due_dt {
-    			display:block;
-    			color: #BBBBBB;
-    			font-size: 12px;	
-    			line-height: 20px;
-    			margin-top:7px;
-			}
-    		 /*멤버십 백그라운드 이미지*/
-              .user_level_x6 {
-            	padding:11px 0 9px;
-            	background:url(../img/user_level_bg.png) no-repeat;
-            } 			
-			</style>			
+			</table>			
 		</div>
 		<h3 class="tit_sub_a">배송지 정보</h3>
 		<div class="addr_wrap">

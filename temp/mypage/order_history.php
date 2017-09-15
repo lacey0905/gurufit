@@ -311,6 +311,11 @@
 							</li>
 						</ul>
 					</div>
+					<style>
+                    .f_modal_step .step_list li {
+                        position:relative;
+                    }
+					</style>
         		</div>
         		<div class="f_modal_foot">
         			<div class="f_modal_btn">
@@ -381,7 +386,11 @@
 							<dd>
 								<div class="sel_custom sel_nm_box gray sel_lar">
 									<select>
-										<option>등록순서</option>
+										<option>사이즈가 맞지 않음</option>
+										<option>상품에 결함이 있음</option>
+										<option>잘못된 상품이 배송됨</option>
+										<option>상품일부 또는 부속품이 누락됨</option>
+										<option>파손된 상품이 배송됨</option>
 									</select>
 								</div>
 							</dd>

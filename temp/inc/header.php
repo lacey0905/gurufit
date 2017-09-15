@@ -476,7 +476,7 @@
 			<div id="lnbOpt" class="">
 				<!-- 검색 -->
 				<fieldset class="lnbSearch">
-					<div id="test" class="sel_custom sel_nm_box lnbSearch_sel">
+					<div class="sel_custom sel_nm_box lnbSearch_sel">
 						<select>
 							<option>전체검색</option>
 							<option>전체검색</option>

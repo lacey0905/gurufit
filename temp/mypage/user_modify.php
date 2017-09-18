@@ -588,7 +588,7 @@
                         						<li>
                         							<span class="cp_use_info">스니커즈에 한해 사용할 수 있습니다.</span>
                         							<span class="cp_use_info">3만원 이상,최대 1만원 할인</span>		
-                        							<span class="cp_use_info">다른 할인 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        							<span class="cp_use_info line">다른 할인 쿠폰과 중복해서 사용할 수 없습니다.</span>			
                         						</li>
                         						<li>
                         							<span class="cp_use_date">2017년 12월 23일</span>					
@@ -601,7 +601,7 @@
                         						</li>
                         						<li>
                         							<span class="cp_use_info">모든 상품 구입에 사용할 수 있습니다.</span>		
-                        							<span class="cp_use_info">다른 할인 쿠폰과 중복해서 사용할 수 없습니다.</span>			
+                        							<span class="cp_use_info line">다른 할인 쿠폰과 중복해서 사용할 수 없습니다.</span>			
                         						</li>
                         						<li>
                         							<span class="cp_use_date">2017년 12월 23일</span>					

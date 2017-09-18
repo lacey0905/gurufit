@@ -3,6 +3,14 @@
       width:125px;
       height:70px;
     }
+
+   /*사진이 없을시에 작은 사진*/  
+   .null_cont_box_sm {
+    background-color:red;
+    width:1620px !important;
+    margin:0 auto !important;
+   }
+  
 </style>
 
 <!-- Share your gurufit 부분에 텍스트 수정되었어요  -->
@@ -551,24 +559,25 @@
 						</select>
 					</div>
 				</div>
-				<!-- 등록 된 이미지가 없을 때 메시지 박스
+				<!-- 없을시 큰화면 
 				<div class="null_cont_box gray">
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
 					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
-=======
-						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
-=======
-						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
+                                              착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
 					</span>
-				</div>
-				-->
-				<div class="share_cont">
+				</div> -->
+				<!-- 없을시 작은화면 -->
+				<div class="null_cont_box gray null_cont_box_sm">
+					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
+					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
+					<span class="null_cont_msg">
+                                              착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
+					</span>
+				</div>	
+			
+
+<!-- 				<div class="share_cont">
     				<ul class="photo_list">
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
@@ -577,7 +586,7 @@
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
     				</ul>
-				</div>
+				</div> -->
 			</div>
 			<div id="productInfo">
 				<nav class="detail_nav">

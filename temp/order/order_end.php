@@ -34,14 +34,6 @@
     			</strong>
     		</div>
 		</div>
-		<style>
-        .btn_order_submit .btn_head .ord_end_ship_day{
-            text-align:center !important;
-        }
-        .btn_order_submit .btn_head .ord_end_ship_day em {
-            color:#484848;
-        }		  
-		</style>
 		<h3 class="tit_sub_a">결제 내역</h3>
 		<div class="order_result_box">
 			<div class="result_box_mix">

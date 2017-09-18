@@ -401,67 +401,6 @@
                         						</li>												
                         					</ul>                        					                         					                         					                        					        								
         								</div>
-  								    	<style>
-  								    	 .coupon_tab_info_count {
-  								    	     display: table;
-  								    	     width:100%;
-  								    	     border:solid 1px #ebebeb;
-  								    	     border-radius: 5px;
-  								    	     margin-bottom: 8px;
-  								    	 }
-  								    	 .coupon_tab_info_count li:first-child {
-  								    	     width:160px;
-  								    	     border-left:0;
-  								    	 }
-  								    	 .coupon_tab_info_count li:last-child {
-  								    	     width:125px;
-  								    	 }
-  								    	 .coupon_tab_info_count li {
-  								    	     display: table-cell;
-  								    	     widht: 33%;
-  								    	     border-left: dashed 1px #ebebeb;
-  								    	 }
-  								    	 .coupon_tab_info_count li .cp_price {
-  								    	     display:block;
-  								    	     color:#4a4a4a;
-                                             color: #4A4A4A;
-                                             font-size: 12px;	
-                                             font-weight: bold;	
-                                             line-height: 16px;	
-                                             text-align: center;
-                                             margin-top:12px;  								    	     
-  								    	 }
-  								    	 .coupon_tab_info_count .cp_title {
-  								    	     display:block;
-                                             color: #747474;	
-                                             font-size: 12px;	
-                                             font-weight: 500;	
-                                             line-height: 16px;	
-                                             text-align: center;
-                                             margin-bottom:14px;
-  								    	 }
-  								    	 .coupon_tab_info_count .cp_use_info {
-  								    	     display:block;
-                                             color: #747474;	
-                                             font-size: 12px;	
-                                             font-weight: 300;	
-                                             line-height: 16px;
-                                             text-align:left;
-                                             margin-left:8px;  								    	     
-  								    	 }
-  								    	 .coupon_tab_info_count .line {
-  								    	     text-decoration:underline;
-  								    	 }
-  								    	 .coupon_tab_info_count .cp_use_date {
-  								    	     display:inline-block;
-                                             color: #747474;	
-                                             font-size: 12px;	
-                                             font-weight: 300;	
-                                             line-height: 16px;	
-                                             text-align: center; 
-                                             margin-top:5px; 								    	     
-  								    	 }
-  								    	</style>							     								    								
             						</div>    							
         						</div>
         					</div>							

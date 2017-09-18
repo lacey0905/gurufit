@@ -1,12 +1,3 @@
-<style>
-    .detail_cont h2 .brand img {
-      width:125px;
-      height:70px;
-    }
-</style>
-
-<!-- Share your gurufit 부분에 텍스트 수정되었어요  -->
-
 <?php include "../inc/header.php" ?>
 
 <!-- 모달 팝업 -->
@@ -21,7 +12,7 @@
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 사진 등록 리스트 -->
-	<div class="f_modal_layer f_modal_shadow big">
+	<div id="photoModal" class="f_modal_layer f_modal_shadow big">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -40,7 +31,7 @@
                                 	<div class="slide_area">
                                     	<div class="slide_thum">
                                     		<!-- 확대 이미지  -->
-                                    		<img src="../img/modal_slider_sample.png" />
+                                    		<img src="../img/modal_slider_sample.png"/>
                                     	</div>
                                     	<div class="slider_prd">
                             				<table class="prd_list_a small">
@@ -82,7 +73,7 @@
                                 <div class="swiper-slide">
                                 	<div class="slide_area">
                                     	<div class="slide_thum">
-                                    		<img src="../img/modal_slider_sample.png" />
+                                    		<img src="../img/../img/true-2.png" />
                                     	</div>
                                     	<div class="slider_prd">
                             				<table class="prd_list_a small">
@@ -138,6 +129,7 @@
 <!-- 모달 팝업 END -->
 <!-- /////// -->
 
+
 <section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
@@ -184,7 +176,8 @@
 							<strong class="name">NIKE Metcon DSX Flyknit</strong>
 						</h2>
 						<dl class="icon_share_list">
-<!-- 							<dt><em>41</em> Shares</dt>
+<!-- 							
+<dt><em>41</em> Shares</dt>
 							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
 							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
 							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd> -->
@@ -534,8 +527,6 @@
 				</div>
 			</div>
 			<div class="share_your_gurufit">
-			
-			
 				<div class="custom_inner share_head">
 					<h2>Share Your gurufit</h2>
 					<ul class="hash_list">
@@ -556,15 +547,7 @@
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
 					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
-<<<<<<< HEAD
-<<<<<<< HEAD
-                                                착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다 
-=======
 						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
-=======
-						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
 					</span>
 				</div>
 				-->
@@ -1554,6 +1537,7 @@ $(function(){
         spaceBetween: 30,
         mousewheelControl: true,
         loop:true,
+        width:700,
         //freeMode: true,
         paginationBulletRender: function (swiper, index, className) {
 	        // Pager가 생성 될 때 배열의 이미지를 포함아여 생성 함
@@ -1569,10 +1553,24 @@ $(function(){
         paginationClickable: true,
         nextButton: '#modalSlide .swiper-button-next',
         prevButton: '#modalSlide .swiper-button-prev',
-        paginationType: 'fraction'
+        paginationType: 'fraction',
+        autoHeight:true
     });
 	// 사진 인덱스에 해당하는 슬라이드로 즉시 이동
 	//modal_swiper.slideTo($(this).index(), 0);
 	//$(this) <- 클릭한 사진 인덱스를 넘겨야 합니다.
+
+	var setFixModal = function(_modal){
+		$("body").addClass("fix");
+		_modal.addClass("modal_fix");
+	}
+
+	var delFixModal = function(){
+		$("body").removeClass("fix");
+	}
+
+	// 모달 팝업 Fix 활성화
+    //setFixModal($("#photoModal"));
+	
 });
 </script>

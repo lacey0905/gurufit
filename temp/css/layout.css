@@ -173,6 +173,29 @@
 	vertical-align:middle;
 	margin-left:20px;
 }
+.profile_icon_toggle {
+	display:inline-block;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.profile_icon_toggle .profile_label {
+    display:block;
+    font-size:0;
+    cursor:pointer;
+}
+.profile_icon_toggle .profile_label .chk {
+    position:absolute;
+    top:-9999px;
+}
+.profile_icon_toggle .profile_label .icon {
+    display:inline-block;
+	background:url(../img/contactsg.png) no-repeat;
+	width:17px;
+	height:17px;
+}
+.profile_icon_toggle .profile_label .chk:checked + .icon {
+    background:url(../img/contacts.png) no-repeat;
+}
 .lnbSearch {
 	position:relative;
 	z-index:5000;
@@ -263,7 +286,8 @@
 .lnb_drop .lnb_drop_list {
 	display:inline-block;
 }
-.lnb_drop .lnb_drop_list dt {
+.lnb_drop .lnb_drop_list dt,
+.lnb_drop .lnb_drop_list dt a {
 	display:inline-block;
 	font-size:15px;
 	font-weight:600;

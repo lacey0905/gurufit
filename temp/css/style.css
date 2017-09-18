@@ -184,6 +184,13 @@
 .result_tag dd.del {
 	text-decoration:line-through;
 }
+.result_tag dd.disable {
+	background-color:#ddd;
+	opacity:0.7;
+}
+.result_tag dd.disable a:after {
+	color:#ddd;
+}
 
 
 /* LOGIN */
@@ -1874,10 +1881,31 @@
 .complate_box_c .comp_btn {
 	padding-bottom:50px;
 }
-
+.lev_comp_tit {
+	padding: 118px 0 124px !important;
+	color: #000000 !important;
+	font-size: 30px !important;
+	line-height: 45px !important;
+	text-align: center !important;
+	font-weight: 500!impiortant;
+}
+.lev_comp_tit>span {
+	display: block;
+	color: #000000;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: center;
+	font-weight: 500;
+}
+.lev_comp_tit>p {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 29px;
+	text-align: center;
+}
 
 /* MAYPAGE */
-
 
 /* DASH BOARD */
 .my_dash_board {
@@ -3551,9 +3579,35 @@
 	text-align:right;
 }
 
+/* 장바구니 메시지 */
+.cart_result {
+	margin-top: 43px;
+}
+.cart_result .before_coupon_txt {
+	color: #8F8F8F;
+	font-family: SpoqaHanSans;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 40px;
+}
+.cart_result .before_coupon_txt strong {
+	color: #8F8F8F;
+	font-family: SpoqaHanSans;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 40px;
+}
 
-
-
+/* 주문 페이지 */
+.btn_order_submit .btn_head span em {
+	color:#484848;
+}
+.btn_order_submit .btn_head .ord_end_ship_day{
+    text-align:center !important;
+}
+.btn_order_submit .btn_head .ord_end_ship_day em {
+    color:#484848;
+}		  
 
 /* 할인 내용 안내 */
 .ord_discount {
@@ -4201,3 +4255,374 @@
 	 margin-bottom:18px;
 	 display:block !important;                   
 }     	
+
+
+/* 배송 정보 툴팁 팝업 */
+.tooltip_wrapper {
+	position:relative;
+	height:1000px;
+}
+.ship_check_w {
+	top:30px;
+	left:100px;
+	width:370px;
+	position:absolute;	
+}
+.ship_check_c {
+	background-color:#fff;
+	width:370px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+}
+.ship_check_c:after {
+	content: " ";
+    position: absolute;
+    top: -7px;
+    right: 57px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border: solid 1px #DDDDDD;
+    border-bottom: 0;
+    border-right: 0;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);	
+}
+.ship_check_i {
+	text-align:center;
+}
+.ship_check_i h4 {
+	color: #000000;	
+	font-size: 18px;	
+	line-height: 27px;
+	margin-top:28px;
+	position:relative;
+}
+.ship_check_i h4:after {
+    content: " ";
+    position: absolute;
+    top:36px;
+    left:50%;
+    width:1px;
+    height:20px;
+    border-left: solid 1px #979797;	
+}
+.ship_check_i strong {
+	display:inline-block;
+	margin-top:50px;
+	margin-bottom:22px;
+	color: #232122;		
+	font-size: 22px;	
+	line-height: 20px;	
+	text-align: center;
+}
+.ship_check_i strong em {
+	color: #71ca9c;		
+	font-size: 22px;	
+	line-height: 20px;	
+	text-align: center;	
+}
+.ship_check_d {
+	padding:0 32px;
+}
+/*송장번호*/
+.ship_check_d .invoice_num{
+	text-align:left;
+}
+.ship_check_d .invoice_num dt {
+	display:inline-block;
+	color: #000000;
+	font-size: 13px;	
+	line-height: 25px;	
+}
+.ship_check_d .invoice_num dd {
+	display:inline-block;
+	color: #b9b9b9;
+	font-size: 13px;	
+	line-height: 25px;	
+}
+/*택배사*/
+.ship_check_d .dil_com{
+}
+.ship_check_d .dil_com li {
+	color: #000000;
+	font-size: 13px;	
+	line-height: 25px;	
+}
+.ship_check_d .dil_com li span {
+	color: #b9b9b9;
+	font-size: 13px;	
+	line-height: 25px;		
+}
+.ship_check_d .dil_com li:nth-child(1){
+	float:left;
+}
+.ship_check_d .dil_com li:nth-child(2){
+	float:right;
+	margin-right:12px;
+}
+.ship_check_d .dil_com li:nth-child(2) span {
+	color:#696969;
+	text-decoration:underline;
+}
+/*테이블*/
+.ship_check_tb {
+	margin-top:50px;
+}
+.ship_check_tb_i {
+	border-collapse: collapse;
+	cellpadding:0; 
+	cellspacing:0;
+}
+.ship_check_tb_i tr {
+	border-bottom:1px solid #ececee;
+}
+.ship_check_tb_i tr th {
+	border-top:1px solild #ececee;
+	border-bottom:1px solild #ececee;
+	background-color:#f3f2f7;
+	padding:11px 0;
+	color: #232122;
+	font-size: 14px;	
+	line-height: 20px;
+}
+.ship_check_tb_i tr td {
+	color: #747474;
+	font-size: 14px;	
+	line-height: 20px;	
+	text-align: center;
+	padding:12px 0;	
+}
+.ship_check_i p {
+	padding:17px 41px;
+	color: #9B9B9B;
+	font-size: 12px;	
+	line-height: 18px;
+	text-align:left;	
+}
+
+/* 선물용 팝업 */
+.ps_text_w {
+	position:absolute;
+	top:600px;
+	left:10%;		
+}
+.ps_text_w .ps_text_c {
+	width: 962px;	
+	border: 1px solid #ECECF3;	
+	border-radius: 5px;	
+	background-color: #F9F9FC;
+}
+.ps_text_w .ps_text_c:after {
+	content: " ";
+    position: absolute;
+    top: -7px;
+    left: 33px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #F9F9FC;
+    border: solid 1px #ECECF3;
+    border-bottom: 0;
+    border-right: 0;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);	
+}
+.ps_text_w .ps_text_c p {
+	padding:12px 0 12px 12px;
+	color: #4A4A4A;		
+	font-size: 14px;	
+	line-height: 25px;		
+}
+
+/* 좋은 리뷰 작성 시 작성하는 방법 팝업 */
+.good_review_w {
+	position:absolute;
+	top:40px; 
+	right:100px;
+}
+.good_review_c {
+	width: 320px;	
+	border: 1px solid #DDDDDD;	
+	border-radius: 5px;	
+	background-color: #FFFFFF;	
+	box-shadow: 8px -8px 1px 0 rgba(0,0,0,0.09);
+	padding:21px 14px 13px 19px;		
+}
+.good_review_c:after {
+	 content: " ";
+	 position: absolute;
+	 top: 222px;
+	 left: 159px;
+	 display: inline-block;
+	 width: 15px;
+	 height: 15px;
+	 background-color: #fff;
+	 border: solid 1px #DDD;
+	 border-bottom: 0;
+	 border-right: 0;
+	 -ms-transform: rotate(135deg);
+	 -webkit-transform: rotate(135deg);
+	 transform: rotate(-135deg);			
+}
+.good_review_i dt {
+	color: #000000;	
+	font-family: "Noto Sans CJK KR";	
+	font-size: 14px;	
+	line-height: 20px;
+	margin-bottom:8px;			
+}
+.good_review_i dt img {
+	display:inline-block;
+	width:18px;
+	height:16px;
+	vertical-align:middle;
+	margin-right:11px;
+}
+.good_review_i dd {
+	color: #9B9B9B;		
+	font-size: 13px;	
+	line-height: 20px;		
+}
+.good_review_i .gr_line {
+	margin-bottom:18px;
+}
+
+
+/* 리뷰 상세 페이지 */
+.sr_list {
+	border-top: 1px solid #EBEBEB;
+	border-bottom: 1px solid #EBEBEB;
+}
+.sr_prd_list_a {
+	background-color:red;
+}
+.sp_review_shoe_list {
+	position:relative;
+}
+.sp_review_shoe_list .like {
+	display:inline-block;
+	float:left !important;
+	font-size: 12px !important;
+	position:absolute;
+	top:22px;
+	left:118px;
+}
+.sp_review_shoe_list .subject {
+	color: #000000 !important;
+	font-size: 14px !important;	
+	font-weight: bold !important;	
+	line-height: 20px !important;
+}
+.sp_review_shoe_list .price .sell_price {
+	color: #000000 !important;	
+	font-size: 14px !important;	
+	font-weight: bold !important;	
+	line-height: 20px !important;
+	position:relative;										
+}
+.sp_review_shoe_list .customer_price {
+	color: #d4d4d4 !important;	
+	font-size: 15px !important;	
+	font-weight: normal !important;	
+	line-height: 20px !important;
+	position: absolute;
+	left: 59px;
+	top: 72px;										
+}
+.sr_review_box_list {
+	margin-top: 40px;
+}
+
+/* 마이페이지 쿠폰 팝업 */
+.coupon_tab_info_count {
+	display: table;
+	width: 100%;
+	border: solid 1px #ebebeb;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+.coupon_tab_info_count li:first-child {
+	width: 160px;
+	border-left: 0;
+}
+.coupon_tab_info_count li:last-child {
+	width: 125px;
+}
+.coupon_tab_info_count li {
+	display: table-cell;
+	widht: 33%;
+	border-left: dashed 1px #ebebeb;
+}
+.coupon_tab_info_count li .cp_price {
+	display: block;
+	color: #4a4a4a;
+	color: #4A4A4A;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 12px;
+}
+.coupon_tab_info_count .cp_title {
+	display: block;
+	color: #747474;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 16px;
+	text-align: center;
+	margin-bottom: 14px;
+}
+.coupon_tab_info_count .cp_use_info {
+	display: block;
+	color: #747474;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	text-align: left;
+	margin-left: 8px;
+}
+.coupon_tab_info_count .line {
+	text-decoration: underline;
+}
+.coupon_tab_info_count .cp_use_date {
+	display: inline-block;
+	color: #747474;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+
+
+/* 추천 포인트 */
+.point_modal_pop {}
+.point_modal_pop .msg {
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	color:#4A4A4A;
+	line-height:24px;
+	text-align:center;
+}
+.point_modal_pop .msg em {
+	font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+

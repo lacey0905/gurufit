@@ -29,31 +29,6 @@
 				</strong>
     		</div>
 		</div>
-		<style>
-		.lev_comp_tit {
-			padding:118px 0 124px !important;		
-			color: #000000 !important;	
-			font-size: 30px !important;	
-			line-height: 45px !important;	
-			text-align: center !important;
-			font-weight: 500 !impiortant; 
-		}
-		.lev_comp_tit > span {
-			display:block;
-			color: #000000;	
-			font-size: 30px;	
-			line-height: 45px;	
-			text-align: center;
-			font-weight: 500; 		
-		}
-		.lev_comp_tit > p {
-			color: #000000;	
-			font-size: 20px;	
-			font-weight: 300;	
-			line-height: 29px;	
-			text-align: center;			
-		}	
-		</style>
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>

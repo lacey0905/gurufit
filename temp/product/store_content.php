@@ -64,10 +64,6 @@
 							            return '<span class="' + className + '"><img src="' + m_thumArr[index] + '" alt=""></span>';
 							        }
 							    });
-
-								
-							    
-							    
 						    });
 						    </script>
 						</div>

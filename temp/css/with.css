@@ -1099,6 +1099,12 @@
 	-webkit-box-shadow: 20px 10px 0px rgba(0, 0, 0, 0.08);
 	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
 }
+.f_modal_shadow.s_small .f_modal_area {
+	-moz-box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.09);
+	-webkit-box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.09);
+	box-shadow: 8px 8px 1px rgba(0, 0, 0, 0.09);
+	border: 1px solid #DDDDDD;	
+}
 .f_modal_wrap {
 	position:relative;
 	display:table-cell;
@@ -1124,7 +1130,7 @@
 .f_modal_head {
 	position:relative;
 	min-height:76px;
-	z-index:1100;
+	z-index:1300;
 }
 .f_modal_head h2 {
 	font-size:24px;
@@ -1192,8 +1198,7 @@
 .f_modal_cont {
 	position:relative;
 	max-height:600px;
-	z-index:1000;
-	overflow-y:auto;
+	z-index:1200;
 }
 .f_modal_cont.big {
 	max-height:900px;
@@ -1626,9 +1631,14 @@
 	padding-top:50px;
 	margin-top:-50px;
 }
+.f_modal_slider .slide_area {
+	width:100%;
+}
 .f_modal_slider .slide_thum {}
 .f_modal_slider .slide_thum img {
 	display:block;
+	max-width:100%;
+	margin:0 auto;
 }
 .f_modal_slider .slider_prd {
 	display:block;
@@ -1815,6 +1825,13 @@
 	border-top: 12px solid transparent;
 	border-bottom: 12px solid transparent;
 }
+
+/* 추천 포인트 모달 팝업*/
+
+
+
+
+
 
 .pop_type_a {
 	width:310px;

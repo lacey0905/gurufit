@@ -9,7 +9,7 @@
    모달을 제거하려면 open을 지워야 합니다.
    하나의 모달을 띄우고 싶을때는 blind를 지우면 된다.  
 -->
-<div class="f_modal_perant">
+<div class="f_modal_perant open">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -125,20 +125,16 @@
         			<dl class="form_list_a">
         				<dt>은행</dt>
         				<dd>
-        					<div class="sel_custom sel_nm_box sel_mid um_sel_mid">
-        						<select class="sel_mid">
-        							<option>신한은행</option>
-        						</select>
-        					</div>        				
+        					<div class="form">
+	        					<div class="form_inp_area">
+                					<div class="sel_custom sel_nm_box sel_lar">
+                						<select class="sel_mid">
+                							<option>신한은행</option>
+                						</select>
+                					</div>       
+            					</div>
+        					</div> 				
         				</dd>
-        				<style>
-        				    .form_list_a > dd {
-        				        margin-top:12px;
-        				    }
-        				    .um_sel_mid {
-        				        width: 274px !important;
-        				    }
-        				</style>
         				<dt>예금주</dt>
         				<dd>
         					<div class="form">
@@ -170,7 +166,7 @@
 		</div>
 	</div>	
 	<!-- 개인 정보 변경 -->
-	<div class="f_modal_layer f_modal_shadow z5">
+	<div class="f_modal_layer f_modal_shadow z5 blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -251,7 +247,7 @@
 		</div>
 	</div>
 	<!-- 배송지 정보 입력 -->
-	<div class="f_modal_layer f_modal_shadow">
+	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
     		<div class="f_modal_area">
         		<div class="f_modal_head">

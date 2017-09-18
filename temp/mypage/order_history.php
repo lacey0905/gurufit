@@ -231,7 +231,7 @@
 		</div>
 	</div>
 	<!-- 교환상세정보 -->
-	<div class="f_modal_layer big f_modal_shadow blind">
+	<div class="f_modal_layer big f_modal_shadow">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -311,11 +311,6 @@
 							</li>
 						</ul>
 					</div>
-					<style>
-                    .f_modal_step .step_list li {
-                        position:relative;
-                    }
-					</style>
         		</div>
         		<div class="f_modal_foot">
         			<div class="f_modal_btn">
@@ -326,7 +321,7 @@
 		</div>
 	</div>
 	<!-- 반품신청 -->
-	<div class="f_modal_layer big f_modal_shadow">
+	<div class="f_modal_layer big f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">

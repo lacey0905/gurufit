@@ -1048,11 +1048,6 @@
 				<li class="active"><a href="#">결제하기</a></li>
 			</ul>
 		</div>
-		<style>
-		.btn_order_submit .btn_head span em {
-		  color:#484848;
-		}
-		</style>
 		<script>
 			// 결제 정보 탭
     		$(function(){

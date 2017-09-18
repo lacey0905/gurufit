@@ -1,14 +1,3 @@
-<style>
-.revision_date {
-	float:right;
-	color: #9B9B9B;	
-	font-family: SpoqaHanSans;	
-	font-size: 14px;	
-	font-weight: 300;	
-	line-height: 26px;	
-	text-align: right;
-}
-</style>
 <?php include "../inc/header.php" ?>
 <section id="member" class="sub_layout">
 	<div class="sub_locate">
@@ -262,17 +251,4 @@
 	</article>
 </section>
 <?php include "../inc/footer.php" ?>
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  

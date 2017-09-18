@@ -1675,7 +1675,6 @@
 .spec_view_product_spec_area ul > li {
     position:relative;
     list-style-type: none;
-    cursor:pointer;
 }
 .spec_view_product_spec_area .spec_view_type {
 	display:inline-block;
@@ -1707,15 +1706,16 @@
 }
 .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(1) {
 	width: 57px;	
+	vertical-align:middle;
 }
 .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(2){
 	width: 140px;	
 	color: #4A4A4A;	
 	margin-left:23px;	
+	vertical-align:middle;
 }
 .spec_view_product_spec_area ul .spec_view_brand img {
-	width:25px;
-	height:15px;
+	width:75px;
 }
 .spec_view_product_spec_area ul > li:hover .spec_view_tip_buble {
     display:block;

@@ -1,6 +1,4 @@
 <?php include "../inc/header.php" ?>
-
-
 <section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
@@ -62,49 +60,6 @@
 											</figcaption>
 										 </figure>	
 									</td>
-									
-									<style>
-									.sr_list {
-										border-top: 1px solid #EBEBEB;
-										border-bottom: 1px solid #EBEBEB;
-									}
-									.sr_prd_list_a {
-										background-color:red;
-									}
-									.sp_review_shoe_list {
-										position:relative;
-									}
-									.sp_review_shoe_list .like {
-										display:inline-block;
-										float:left !important;
-										font-size: 12px !important;
-										position:absolute;
-										top:22px;
-										left:118px;
-									}
-									.sp_review_shoe_list .subject {
-										color: #000000 !important;
-										font-size: 14px !important;	
-										font-weight: bold !important;	
-										line-height: 20px !important;
-									}
-									.sp_review_shoe_list .price .sell_price {
-										color: #000000 !important;	
-										font-size: 14px !important;	
-										font-weight: bold !important;	
-										line-height: 20px !important;
-										position:relative;										
-									}
-									.sp_review_shoe_list .customer_price {
-										color: #d4d4d4 !important;	
-										font-size: 15px !important;	
-										font-weight: normal !important;	
-										line-height: 20px !important;
-										position: absolute;
-										left: 59px;
-										top: 72px;										
-									}
-									</style>	
 									<td class="btn">
 										<ul class="prd_list_btn">
 											<li><a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_hover_a btn_np2">하트 리스트에 담기</a></li>
@@ -173,11 +128,6 @@
 							</dd>
 						</dl>
 					</div>
-					<style>
-					.sr_review_box_list {
-						margin-top: 40px;
-					}
-					</style>
 					<div class="review_box_list sr_review_box_list">
 						<ul>
 							<li>
@@ -215,15 +165,18 @@
 								<div class="review_list_gauge">
 									<div class="step_gauge">
 										<ul class="gauge_area">
-											<li><em>길이</em>
+											<li>
+												<em>길이</em>
 												<div class="gauge">
 													<div class="step_bar">
 														<span class="bar step_04"></span> <span
 															class="step_dot fir"></span> <span class="step_dot sec"></span>
 													</div>
 													<span class="gauge_min">작은편</span> <span class="gauge_max">큰편</span>
-												</div></li>
-											<li><em>발 폭</em>
+												</div>
+											</li>
+											<li>
+												<em>발 폭</em>
 												<div class="gauge">
 													<div class="step_bar">
 														<span class="bar step_05"></span> <span
@@ -231,8 +184,10 @@
 													</div>
 													<span class="gauge_min">좁은 편이에요</span> <span
 														class="gauge_max">넉넉해요</span>
-												</div></li>
-											<li><em>편안함</em>
+												</div>
+											</li>
+											<li>
+												<em>편안함</em>
 												<div class="gauge">
 													<div class="step_bar">
 														<span class="bar step_01"></span> <span
@@ -240,7 +195,8 @@
 													</div>
 													<span class="gauge_min">오래 신으면 불편해요</span> <span
 														class="gauge_max">하루 종일 신어도 편해요</span>
-												</div></li>
+												</div>
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -261,8 +217,8 @@
 								<li><a href="#">9</a></li>
 								<li><a href="#">10</a></li>
 							</ol>
-							<a href="#" class="pager_btn next"></a> <a href="#"
-								class="pager_btn last"></a>
+							<a href="#" class="pager_btn next"></a>
+							<a href="#" class="pager_btn last"></a>
 						</div>
 					</div>
 				</div>

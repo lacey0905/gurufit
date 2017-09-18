@@ -109,25 +109,6 @@
 				</ul>
 			</div>
 		</div>
-		<style>
-		 .cart_result {
-		  margin-top:43px;
-		 }
-		 .cart_result .before_coupon_txt {
-	  	  color: #8F8F8F;	
-	  	  font-family: SpoqaHanSans;	
-	  	  font-size: 14px;	
-	  	  font-weight: normal;	
-	  	  line-height: 40px;
-		 }
-		 .cart_result .before_coupon_txt strong {
-	  	  color: #8F8F8F;	
-	  	  font-family: SpoqaHanSans;	
-	  	  font-size: 14px;	
-	  	  font-weight: bold;	
-	  	  line-height: 40px;		 
-		 } 
-		</style>
 		<!-- 위시리스트 리스트 -->
 		<div class="prd_list_type">
 			<h3 class="tit_sub_a">나중에 구매 할 상품</h3>

@@ -1,4 +1,166 @@
 <?php include "../inc/header.php" ?>
+
+<script src="../js/chart.js"></script>
+<style>
+    .radar_chart_a {
+        position:relative;
+        width:500px;
+    }
+    .radar_chart_a .chart_label li {
+        position:absolute;
+        top:0;
+        left:50%;
+        text-align:center;
+        color:#747474;
+        font-size:14px;
+        font-weight:400;
+        line-height:20px;
+        width:250px;
+        height:250px;
+        margin-left:-125px;
+    }
+    .radar_chart_a .chart_label li span {
+        display:block;
+        margin-top:-45px;
+    }
+    .radar_chart_a .chart_label li em {
+        display:block;
+        font-size:14px;
+        font-weight:600;
+        line-heigh:20px;
+        color:#7053FF;
+    }
+    .radar_chart_a .chart_total {
+        position:absolute;
+        top:50%;
+        left:50%;
+        width:58px;
+        height:54px;
+        margin:-27px 0 0 -29px;
+        line-height:54px;
+        font-size:36px;
+        font-weight:600;
+        text-align:center;
+        color:#fff;
+        letter-spacing:-0.1px;
+    }
+    .radar_chart_a .chart_total span {
+        font-size:18px;
+        font-weight:400;
+    }
+    
+</style>
+
+
+<!-- 모달 팝업 -->
+<!-- 모달팝업 부모 앨리먼트 -->
+<!-- 
+    팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
+    따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
+-->
+<div class="f_modal_perant open">
+
+	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
+	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
+	
+	<!-- 사진 등록 리스트 -->
+	<div  class="f_modal_layer f_modal_shadow s_small big">
+		<div class="f_modal_wrap">
+    		<div class="f_modal_area">
+        		<div class="f_modal_head">
+        			<h2>추천 포인트</h2>
+        			<a href="#" class="btn_close">Close</a>
+        		</div>
+        		<div class="f_modal_cont">
+        			<div class="point_modal_pop">
+        				<strong class="msg">
+        					구루핏 추천 포인트는, <em>김하영</em>님의 활동을 바탕으로 한 관심 키워드와<br>
+							상품이 얼마나 잘 맞는지를 수치로 나타낸 것입니다.
+        				</strong>
+        				<div style="margin:100px;" class="radar_chart_a">
+                        	<canvas id="myChart"></canvas>
+                        	<strong class="chart_total">78<span>%</span></strong>
+                        	<ul class="chart_label"></ul>
+                        </div>
+        			
+        			</div>
+        		</div>
+    		</div>
+		</div>
+	</div>
+</div>
+<!-- 모달 팝업 END -->
+<!-- /////// -->
+
+
+<script>
+
+// 차트 데이터 삽입
+function addData(chart, label, data) {
+    chart.data.labels.push(label);
+    chart.data.datasets.forEach((dataset) => {
+        dataset.data.push(data);
+    });
+    chart.update();
+}
+
+//차트 Canvas 선택
+var chartElem = $("#myChart");
+var ctx = document.getElementById("myChart").getContext('2d');
+
+//차트 옵션
+var options = {
+	scale: {
+		angleLines: {display:false},
+        gridLines: {color:'rgb(236, 236, 243)'},
+        ticks: {
+            max: 100,
+            min: 0,
+            stepSize:12.5,
+            display:false,
+        },
+        pointLabels: {fontSize: 0},
+	},
+	legend: {display: false},
+	animation : false
+};
+// 차트 생성
+
+var myChart = new Chart(ctx, {
+    type: 'radar',
+    data: {
+        labels: [],
+        datasets: [{
+            backgroundColor: ['rgba(112, 83, 255, 0.8)'],
+            borderColor: ['rgba(255,99,132,0)'],
+            pointRadius:0,
+            borderWidth: 1,
+        }]
+    },
+    options: options
+});
+
+//차트 데이터
+var chatLabel = ["#아디다스", "#데일리", "#부스트", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심"];
+var chartData = [100, 100, 90, 90, 90, 90, 90, 90, 90, 90];
+var chartTotal = "78%";
+
+
+// 데이터 삽입
+for(var i=0; i < chartData.length; i++){
+	addData(myChart, chatLabel[i], chartData[i]);
+
+	var length = chartData.length;
+	var angle = i * (360 / chartData.length);
+	
+	var html = "<li style='transform: rotate(" + angle + "deg);'><span style='transform: rotate(" + -angle + "deg);'>" + "<em>" + chartData[i] + "%</em>" + chatLabel[i] + "</span></li>";
+	chartElem.parent().find(".chart_label").append(html);
+}
+</script>
+
+
+
+
 <section class="sub_layout">
 	<div class="sub_locate">
 		<div class="custom_inner">
@@ -29,7 +191,7 @@
     			<dl class="search_result result_tag">
     				<dt>총 <strong class="search_count">3,517</strong>개의 검색 결과가 있습니다.</dt>
     				<dd class="tag_bg_a del"><a href="#">KimHayoung</a></dd>
-    				<dd class="tag_bg_b del"><a href="#">주황</a></dd>
+    				<dd class="tag_bg_b disable"><a href="#">주황</a></dd>
     				<dd class="tag_bg_b del"><a href="#">Nike</a></dd>
     				<dd class="tag_bg_b del"><a href="#">스포츠</a></dd>
     			</dl>

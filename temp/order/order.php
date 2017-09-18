@@ -1,3 +1,50 @@
+<style>
+.ord_select {
+ float:right;
+ margin-right: 35px;
+}
+.ord_select > dl {
+ margin:25px 0 0 !important;
+}
+.ord_select span {
+ display:inline-block;
+}
+.ord_select select {
+ display:inline-block;
+}
+.ord_select select option .non_cp {
+}
+.ord_select ul {
+ width:300px !important;
+}
+.prd_list_a .price .cp_ap {
+ color: #8F8F8F;	
+ font-size: 14px;	
+ line-height: 40px;	
+ text-align: right;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}
+.btn_order_submit .btn_head span em {
+  color:#484848;
+}
+/*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+} 				
+</style>
+
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -35,7 +82,6 @@
     		</div>
 		</div>
 	</div>
-	
 	<!-- 메시지 팝업 -->
 	<div class="f_modal_layer small f_modal_shadow" style="display:none">
 		<div class="f_modal_wrap">
@@ -569,6 +615,7 @@
 			<p class="locate_msg">나이키 플라이니트 최대~50% OFF</p>
 		</div>
 	</div>
+
 	<article class="sub_content custom_inner">
 		<section class="sub_head">
 			<h2>Check out</h2>
@@ -582,7 +629,28 @@
 		</section>
 		<!-- 장바구니 리스트 -->
 		<h3 class="tit_sub_a">02 주문/결제</h3>
-		<div class="prd_list_type">
+		<div class="prd_list_type add_sel_type">
+			<div class="sel_custom ord_select">
+<!-- 				<select class="sel_mid">
+                    <option>쿠폰 적용하지 않음</option>
+                    <option>50% 구루~구루~구루핏 추석선물</option>
+                    <option><del>10% 스니커즈 할인</del><span>이 쿠폰을 적용할 수 없습니다.</span></option>
+                    <option>8% 2017 시즌 마감 세일</option>
+				</select> -->
+				<dl class="tit_opt select_sort">
+                    <dt>할인 쿠폰</dt>
+    				<dd>
+    					<div class="sel_custom sel_nm_box sel_mid">
+    						<select class="sel_mid">
+                                <option>쿠폰 적용하지 않음</option>
+                                <option>50% 구루~구루~구루핏 추석선물</option>
+                                <option>10% 스니커즈 할인 <span class="non_cp">이 쿠폰을 적용할 수 없습니다</span></option>
+                                <option class="">8% 2017 시즌 마감 세일</option>
+    						</select>
+    					</div>
+    				</dd>
+    			</dl>				
+			</div>	
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
 				<colgroup>
@@ -620,7 +688,6 @@
 								<dd>1개</dd>
 							</dl>
 							<a href="#" class="btn_modify">편집</a>
-							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 							<div class="btn_del">
 								<a href="#">상품 삭제</a>
 							</div>
@@ -628,24 +695,11 @@
 						<td class="price">
 							<del class="customer">99,000 원</del>
 							<strong class="sell_price">89,100 원</strong>
+							<span class="cp_ap">쿠폰 적용가</span>
 						</td>
 					</tr>
 				</tbody>
 			</table>
-			<style>
-			/*장바구니 영역 밑에 라인 추가*/
-			.cart_b_line {
-                border-bottom: 1px solid #E1E1E1;
-			}
-			/*배송 예정일 텍스트 추가*/
-			.due_dt {
-    			display:block;
-    			color: #BBBBBB;
-    			font-size: 12px;	
-    			line-height: 20px;
-    			margin-top:7px;
-			}			
-			</style>
 			<div class="order_result_box">
 				<dl class="result_box_a">
 					<dt>총 상품 금액</dt>
@@ -1063,16 +1117,6 @@
 				<li class="active"><a href="#">결제하기</a></li>
 			</ul>
 		</div>
-		<style>
-		.btn_order_submit .btn_head span em {
-		  color:#484848;
-		}
-	    /*멤버십 백그라운드 이미지*/
-          .user_level_x6 {
-        	padding:11px 0 9px;
-        	background:url(../img/user_level_bg.png) no-repeat;
-        } 
-		</style>
 		<script>
 			// 결제 정보 탭
     		$(function(){

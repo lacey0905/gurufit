@@ -1,3 +1,40 @@
+<style>
+ .cart_result {
+  margin-top:43px;
+ }
+ .cart_result .before_coupon_txt {
+  color: #8F8F8F;	
+  font-family: SpoqaHanSans;	
+  font-size: 14px;	
+  font-weight: normal;	
+  line-height: 40px;
+ }
+ .cart_result .before_coupon_txt strong {
+  color: #8F8F8F;	
+  font-family: SpoqaHanSans;	
+  font-size: 14px;	
+  font-weight: bold;	
+  line-height: 40px;		 
+ }
+ /*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}         
+</style>
+	
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -33,7 +70,7 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_b_line">
 						<td class="check">
 							<div class="custom_cbox cbox_c">
     							<label>
@@ -61,6 +98,7 @@
 								<dd>1개</dd>
 							</dl>
 							<a href="#" class="btn_modify">편집</a>
+							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 							<div class="btn_del">
 								<a href="#">상품 삭제</a>
 							</div>
@@ -121,7 +159,7 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_b_line">
 						<td class="check">
 							<div class="custom_cbox cbox_c">
     							<label>

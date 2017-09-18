@@ -1,3 +1,28 @@
+<style>
+.btn_order_submit .btn_head .ord_end_ship_day{
+    text-align:center !important;
+}
+.btn_order_submit .btn_head .ord_end_ship_day em {
+    color:#484848;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}
+ /*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+} 		  
+</style>
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -34,6 +59,10 @@
     			</strong>
     		</div>
 		</div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
 		<h3 class="tit_sub_a">결제 내역</h3>
 		<div class="order_result_box">
 			<div class="result_box_mix">
@@ -69,11 +98,7 @@
 				<strong class="total">171,480원</strong>
 			</div>
 		</div>
-		<h3 class="tit_sub_a">주문 상품 <span>선물메세지</span></h3>
-		<style>
-		  .tit_sub_a {
-		  }
-		</style>
+		<h3 class="tit_sub_a">주문 상품</h3>
 		<div class="prd_list_type">
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
@@ -83,7 +108,49 @@
 					<col class="col_price">
 				</colgroup>
 				<tbody>
-					<tr>
+					<tr class="cart_c_line">
+						<td class="thum">
+							<span class="prd_thum">
+	    						<a href="#">
+	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+    							</a>
+   							</span>
+						</td>
+						<td class="cont">
+							<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+							<strong class="name">나이키 맷콘 DSX 플라이니트</strong>
+							<dl class="opt">
+								<dt>컬러 : </dt>
+								<dd>하늘색/흰색</dd>
+								<dt>사이즈 : </dt>
+								<dd>230</dd>
+							</dl>		
+						</td>
+						<td class="price price_cp">
+							<del class="customer">99,000 원</del>
+							<strong class="sell_price">89,100 원</strong>
+							<em>50% 구루~ 구루~ 구루핏 추석 할인 쿠폰 적용가</em>
+						</td>
+					</tr>
+					<style>
+					.cart_c_line {
+					}
+ 					.cart_c_line > .price_cp {
+		               width:316px;
+					   text-align:right;
+					   padding-right:32px;
+					}
+					.cart_c_line > .price_cp em {
+				       font-size: 14px;
+                       color: #8f8f8f;
+                       letter-spacing: -0.3px;
+                       line-height: 20px;
+					}
+					.prd_list_a tr:last-child {
+					   border-bottom: 0.5px solid #D8D8D8;
+					}
+					</style>				
+					<tr class="cart_c_line">
 						<td class="thum">
 							<span class="prd_thum">
 	    						<a href="#">
@@ -102,14 +169,15 @@
 								<dt>수량 : </dt>
 								<dd>1개</dd>
 							</dl>
+							<em class="due_dt">배송 예정일 : 2017년 9월 25일</em>
 						</td>
-						<td class="price">
+						<td class="price price_cp">
 							<del class="customer">99,000 원</del>
 							<strong class="sell_price">89,100 원</strong>
 						</td>
-					</tr>
+					</tr>					
 				</tbody>
-			</table>
+			</table>			
 		</div>
 		<h3 class="tit_sub_a">배송지 정보</h3>
 		<div class="addr_wrap">

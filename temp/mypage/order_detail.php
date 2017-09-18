@@ -1,3 +1,48 @@
+<style>
+   .apply_txt_gap {
+     width: 388px !important;
+   }
+   .apply_txt {
+        display:inline !important;
+        color: #9B9B9B !important;	
+        font-size: 13px !important;	
+        line-height: 20px !important;
+        width:300px !important;
+   }
+    .use_coupon_rt {
+        text-align:right;
+        margin-top:13px;
+        position:relative;
+    }
+    .use_coupon_rt dt {
+        display:inline-block;
+        color: #9B9B9B;	
+        font-size: 13px;	
+        font-weight: bold;	
+        line-height: 20px;
+        width:151px;
+        text-align:left;
+        border-right:2px solid #bbbbbe;
+        position:absolute;
+        right:347px;
+        top:0;
+        padding-right: 25px;
+    }
+    .use_coupon_rt dd {
+        display:inline-block;
+        color: #9B9B9B;
+        font-size: 13px;	
+        line-height: 20px;
+        width:372px;
+        text-align:left;
+        position:absolute;
+        top:0;
+        right: -45px;
+    }      
+</style>
+				<style>
+
+				</style>
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -106,24 +151,24 @@
     				</table> 
 				</div>
 			</div>
-			<h3 class="tit_sub_a ph_tit_sub_a">결제내역정보</h3>
+			<h3 class="tit_sub_a ph_tit_sub_a">결제내역</h3>
 			<div class="order_result_box">
 				<div class="result_box_mix">
 					<div class="order_number">
 						<em>주문번호</em>
 						<span>2017021687496831</span>
-						<span class="invoice_box">
-							<em>송장번호</em>
-							<span>2017021687496831</span>
-						</span>
 					</div>
 					<div class="order_cont">
 						<dl class="result_box_a">
 	        				<dt>총 상품 금액</dt>
 	        				<dd class="price">184,000원</dd>
-	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
-	        				<dd>-7,000원</dd>
-	        				<dt>- Gold II 멤버십 할인 :3% </dt>
+	        				<dt>-결제 쿠폰:</dt>
+	        				<dd></dd>
+	        				<dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신규 가입 쿠폰 (5000원)</dt>
+	        				<dd>7,000원</dd>
+	        				<dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gold I 승급 쿠폰 (2000원)</dt>
+	        				<dd>2,000원</dd>
+	        				<dt>- Gold II 멤버십 할인 :3%:(133,650원의 3%) </dt>
 	        				<dd>-5,520원</dd>
 	        				<dt>배송비</dt>
 	        				<dd>무료</dd>
@@ -156,9 +201,13 @@
 						<dl class="result_box_a">
 	        				<dt>총 상품 금액</dt>
 	        				<dd class="price">184,000원</dd>
-	        				<dt>- 쿠폰 : 신규 가입 쿠폰 (5000원),  Gold I 승급 쿠폰 (2000원)</dt>
-	        				<dd>-7,000원</dd>
-	        				<dt>- Gold II 멤버십 할인 :3% </dt>
+	        				<dt>-결제 쿠폰:</dt>
+	        				<dd></dd>
+	        				<dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;신규 가입 쿠폰 (5000원)</dt>
+	        				<dd>7,000원</dd>
+	        				<dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gold I 승급 쿠폰 (2000원)</dt>
+	        				<dd>2,000원</dd>
+	        				<dt>- Gold II 멤버십 할인 :3%:(133,650원의 3%) </dt>
 	        				<dd>-5,520원</dd>
 	        				<dt>배송비</dt>
 	        				<dd>무료</dd>
@@ -176,10 +225,55 @@
 					</div>
 				</div>
 				<div class="total_price">
-					<em class="tit">총 결제 금액</em>
+					<em class="tit">총 환불 금액</em>
 					<strong class="total">171,480원</strong>
 				</div>
-			</div>	
+			</div>
+			<h3 class="tit_sub_a ph_tit_sub_a">환불내역정보</h3>
+			<div class="order_result_box">
+				<div class="result_box_mix">
+					<div class="order_number">
+						<em>주문번호</em>
+						<span>2017021687496831</span>
+					</div>
+					<div class="order_cont">
+						<dl class="result_box_a">
+	        				<dt>상품 금액</dt>
+	        				<dd class="price">44,500원</dd>
+	        				<dt class="apply_txt_gap">&nbsp;</dt>
+	        				<dd class="apply_txt">50% 구루~구루~구루핏 추석 쿠폰 적용가</dd>
+	        				<dt>- Gold II 멤버십 할인 :3%:(133,650원의 3%) </dt>
+	        				<dd>-1,335원</dd>
+	        				<dt>배송비</dt>
+	        				<dd>무료</dd>
+	        			</dl>
+
+	        			<dl class="result_opt">
+	        				<dt class="result_opt_tit">결제수단</dt>
+	        				<dd class="result_opt_cont">
+	        					<em>카드결제</em>
+								<span>
+									삼성 (5310-70**-****-****)<br>
+									5개월무이자  (2017.05.14 22:49)
+								</span>
+	        				</dd>
+	        			</dl>
+					</div>
+				</div>
+				<div class="total_price">
+					<em class="tit">총 환불 금액</em>
+					<strong class="total">171,480원</strong>
+				</div>
+				<div class="use_coupon_rt">
+					<dl>
+						<dt>사용한 쿠폰을<br>환불 시 돌려받을 수 있나요?</dt>
+						<dd>
+						일부 반품 시 주문에 사용한 쿠폰 금액에 손실이 발생하는 경우<br>
+						차액에 해당하는 금액을 결제 쿠폰으로 발행하여 드립니다.
+						</dd>
+					</dl>
+				</div>
+			</div>					
 			<h3 class="tit_sub_a  ph_tit_sub_a">배송지 정보</h3>
 			<div class="addr_wrap">
 				<table class="addr_inp_table">

@@ -1,3 +1,17 @@
+<style>
+    .detail_cont h2 .brand img {
+      width:125px;
+      height:70px;
+    }
+
+   /*사진이 없을시에 작은 사진*/  
+   .null_cont_box_sm {
+    background-color:red;
+    width:1620px !important;
+    margin:0 auto !important;
+   }
+  
+</style>
 <?php include "../inc/header.php" ?>
 
 <!-- 모달 팝업 -->
@@ -176,8 +190,7 @@
 							<strong class="name">NIKE Metcon DSX Flyknit</strong>
 						</h2>
 						<dl class="icon_share_list">
-<!-- 							
-<dt><em>41</em> Shares</dt>
+<!-- 							<dt><em>41</em> Shares</dt>
 							<dd><a href="#" class="icon_kakao_x25">KAKAO</a></dd>
 							<dd><a href="#" class="icon_facebook_x23">FACEBOOK</a></dd>
 							<dd><a href="#" class="icon_insta_x22">INSTAGRAM</a></dd> -->

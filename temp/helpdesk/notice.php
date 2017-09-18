@@ -1,3 +1,11 @@
+<style>
+/*공지사항 - 헤더 부분 타이틀 (시스템, 이벤트, 일반)*/
+.notice_list_head {
+	color: #9B9B9B;
+	font-size: 16px;	
+	line-height: 24px;
+}
+</style>
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -24,11 +32,14 @@
 			<div class="tit_sub_wrap">
 				<h3 class="tit_head tit_sub_b">공지사항</h3>
 				<dl class="tit_opt select_sort">
-                    <dt>정렬 기준</dt>
+                    <dt>분류 기준</dt>
     				<dd>
     					<div class="sel_custom sel_nm_box sel_mid">
     						<select class="sel_mid">
-                                <option>등록순서</option>
+                                <option>전체분류</option>
+                                <option>일반</option>
+                                <option>시스템</option>
+                                <option>이벤트</option>
     						</select>
     					</div>
     				</dd>
@@ -39,13 +50,15 @@
 				<ul>
 					<li class="reply">
 						<a href="#none">
-                            <span class="list_head_icon"><em class="icon_new">NEW</em></span>
-							<strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>
+                            <span class="list_head_icon notice_list_head">시스템</span>
+							<strong class="subject">나만의 Fit을 찾아주는 신발 슈커머스, '구루핏'가입을 환영 합니다.</strong>
 							<span class="list_head_opt">
+								<em class="icon_new">NEW</em>
 								<em class="date">2017년 7월 20일</em>
 								<em class="arr"></em>
 							</span>
 						</a>
+
 						<div class="list_cont">
 							<p class="toggle_cont toggle_fir">
                                                                            안녕하세요. 구루핏 입니다.<br/>
@@ -69,9 +82,10 @@
 					</li>
 					<li class="reply">
 						<a href="#none">
-                            <span class="list_head_icon"></span>
-                            <strong class="subject">김하영님의 컬렉션과 일치하는 상품이 업데이트 되었습니다.</strong>						
+                            <span class="list_head_icon notice_list_head">이벤트</span>
+                            <strong class="subject">너와 나의 연결고리 이건 우리 안의 소리</strong>						
 							<span class="list_head_opt">
+								<em class="icon_new">NEW</em>
 								<em class="date">2017년 7월 20일</em>
 								<em class="arr"></em>
 							</span>
@@ -115,7 +129,7 @@
             		<li><a href="#">10</a></li>
         		</ol>
       			<a href="#" class="pager_btn next"></a>     
-      			<a href="#" class="pager_btn last"></a>     
+      			<a href="#" class="pager_btn last"></a>   			     
 			</div>
 		</section>
 	</article>

@@ -608,7 +608,7 @@
     							</a>
    							</span>
 						</td>
-						<td class="cont">
+						<td class="cont">							
 							<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
 							<strong class="name">Nike Metcon DSX Flyknit</strong>
 							<dl class="opt">
@@ -653,7 +653,7 @@
 				</dl>
 				<div class="ord_discount">
 					<em>할인</em>
-					<span class="ord_mem">멤버십 등급 할인:<strong>Gold II</strong>(3%)</span>
+					<span class="ord_mem">Gold II 멤버십 추가 할인&#43;(3%):(133,650원의 3%)</span>
 					<span>5,520원</span>
 				</div>
 				<div class="ord_coupon">
@@ -726,7 +726,7 @@
 							<td class="cu_data">없음</td>
 							<td class="cu_price">&nbsp;</td>
 						</tr>
-						<tr>
+<!-- 						<tr>
 							<td>
 					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list ord_h_round">
                         			<label>
@@ -742,8 +742,8 @@
 							</td>
 							<td class="cu_data">2017년 10월 23일</td>
 							<td class="cu_price">10,000원</td>
-						</tr>
-						<tr>
+						</tr> -->
+<!-- 						<tr>
 							<td>
 					 			<div class="check_sort custom_cbox cbox_d cbox_s_m cbox_rnd coupone_select_list ord_h_round">
                         			<label>
@@ -759,7 +759,7 @@
 							</td>
 							<td class="cu_data">2017년 10월 23일</td>
 							<td class="cu_price">&nbsp;</td>
-						</tr>																																																	
+						</tr> -->																																																	
 					</table>
 				</div>
 				<dl class="result_box_a">

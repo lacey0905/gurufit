@@ -409,8 +409,7 @@
 	padding:2px 20px;
 	box-sizing:border-box;
 }
-.share_your_gurufit .hash_list li.active a,
-.share_your_gurufit .hash_list li:hover a {
+.share_your_gurufit .hash_list li.active a {
 	background-color:#F5A623;
 	border-color:#F5A623;
 	color:#fff;
@@ -1967,4 +1966,16 @@
 	line-height: 27px;
 	text-align: center;
 	margin:30px 0 50px;
+}
+
+.detail_cont h2 .brand img {
+   width:125px;
+   height:70px;
+ }
+
+/*사진이 없을시에 작은 사진*/  
+.null_cont_box_sm {
+ background-color:red;
+ width:1620px !important;
+ margin:0 auto !important;
 }

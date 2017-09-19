@@ -369,7 +369,7 @@
         </div>
 	</article>
 
-    <!-- Initialize Swiper -->
+    <!-- 메인 상품 진열 슬라이드 -->
     <script>
     var swiper = new Swiper('#relatedProduct', {
         paginationClickable: true,

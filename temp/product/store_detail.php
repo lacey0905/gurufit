@@ -1,17 +1,3 @@
-<style>
-    .detail_cont h2 .brand img {
-      width:125px;
-      height:70px;
-    }
-
-   /*사진이 없을시에 작은 사진*/  
-   .null_cont_box_sm {
-    background-color:red;
-    width:1620px !important;
-    margin:0 auto !important;
-   }
-  
-</style>
 <?php include "../inc/header.php" ?>
 
 <!-- 모달 팝업 -->
@@ -20,7 +6,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -547,13 +533,23 @@
 						<li><a href="#">#수트 패션</a></li>
 						<li><a href="#">#비즈니스 패션</a></li>
 					</ul>
-					<!-- <a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a> -->
+					
+					<div id="" class="set_select select_design_a select_design_mid sel_small_right">
+						<strong class="box">전체검색</strong>
+						<ul class="select_list">
+							<li><a href="#none" data-value="1">리스트1</a></li>
+							<li><a href="#none" data-value="2">리스트2</a></li>
+						</ul>
+					</div>
+					
+					<!-- <a href="#" class="btn_ btn_x_s2 btn_rnd_x1 btn_np btn_hover_a">사전등록하기</a> 
 					<div class="sel_custom sel_nm_box sel_small sel_small_right">
 						<select>
 							<option>베스트 순</option>
 							<option>최신 순</option>
 						</select>
 					</div>
+					-->
 				</div>
 				<!-- 등록 된 이미지가 없을 때 메시지 박스
 				<div class="null_cont_box gray">
@@ -1046,16 +1042,56 @@
     						<dl class="select">
     							<dt class="tit">리뷰 보기 정렬</dt>
     							<dd class="sort_area">
-    								<div class="sel_custom sel_nm_box sort_select">
-        								<select>
-        									<option>모든 별점 보기</option>
-        									<option>
-												★★★★★
-        									</option>
-        									<option><i class="material-icons">&#xE87D;</i></option>
-        								</select>
-        								
-    								</div>
+    								<div id="" class="set_select select_design_a select_design_mid sort_select">
+                						<strong class="box">전체검색</strong>
+                						<ul class="select_list">
+                							<li>
+                								<a href="#none" data-value="1">
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                								</a>
+                							</li>
+                							<li>
+                								<a href="#none" data-value="1">
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                								</a>
+                							</li>
+                							<li>
+                								<a href="#none" data-value="1">
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                								</a>
+                							</li>
+                							<li>
+                								<a href="#none" data-value="1">
+                									<i class="on">&#xE885;</i>
+                									<i class="on">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                								</a>
+                							</li>
+                							<li>
+                								<a href="#none" data-value="1">
+                									<i class="on">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                									<i class="">&#xE885;</i>
+                								</a>
+                							</li>
+                						</ul>
+                					</div>
     								<div class="check_sort custom_cbox cbox_b gray">
                     					<label>
                         					<input type="checkbox" id="buyUser" name="buyUser" value="buyUser">
@@ -1573,17 +1609,8 @@ $(function(){
 	//modal_swiper.slideTo($(this).index(), 0);
 	//$(this) <- 클릭한 사진 인덱스를 넘겨야 합니다.
 
-	var setFixModal = function(_modal){
-		$("body").addClass("fix");
-		_modal.addClass("modal_fix");
-	}
-
-	var delFixModal = function(){
-		$("body").removeClass("fix");
-	}
-
 	// 모달 팝업 Fix 활성화
-    setFixModal($("#photoModal"));
+   	//setFixModal($("#photoModal"));
 	
 });
 </script>

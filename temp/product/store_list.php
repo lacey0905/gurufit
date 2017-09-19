@@ -142,7 +142,7 @@ var myChart = new Chart(ctx, {
 
 //차트 데이터
 var chatLabel = ["#아디다스", "#데일리", "#부스트", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심"];
-var chartData = [100, 100, 90, 90, 90, 90, 90, 90, 90, 90];
+var chartData = [100, 100, 90, 90, 90, 90];
 var chartTotal = "78%";
 
 
@@ -150,7 +150,7 @@ var chartTotal = "78%";
 for(var i=0; i < chartData.length; i++){
 	addData(myChart, chatLabel[i], chartData[i]);
 
-	var length = chartData.length;
+	var length = chartData.length; // 도형의 각 갯수
 	var angle = i * (360 / chartData.length);
 	
 	var html = "<li style='transform: rotate(" + angle + "deg);'><span style='transform: rotate(" + -angle + "deg);'>" + "<em>" + chartData[i] + "%</em>" + chatLabel[i] + "</span></li>";

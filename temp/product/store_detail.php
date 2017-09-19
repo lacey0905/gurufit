@@ -20,7 +20,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant">
+<div class="f_modal_perant open">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -814,7 +814,7 @@
     							<span>730SPW0020-DB4</span>
     						</li>
     						<li>
-    							<span>제조사</span>
+    							<span>제조사/수입원</span>
     							<span>FILA코리아</span>
     						</li>
     						<li>
@@ -1583,7 +1583,7 @@ $(function(){
 	}
 
 	// 모달 팝업 Fix 활성화
-    //setFixModal($("#photoModal"));
+    setFixModal($("#photoModal"));
 	
 });
 </script>

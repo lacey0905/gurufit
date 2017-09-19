@@ -5,7 +5,6 @@
 	width:100%;
 }
 
-
 /* 상세 상단 */
 .detail_head {
 	padding-bottom:20px;
@@ -1705,7 +1704,7 @@
 	text-align: justify;
 }
 .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(1) {
-	width: 57px;	
+	width: 80px;	
 	vertical-align:middle;
 }
 .spec_view_product_spec_area .spec_view_brand_category li span:nth-child(2){

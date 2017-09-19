@@ -16,8 +16,32 @@ $(function(){
 		});
 	}
 	
+	
 });
 })(jQuery);
+
+// 셀렉트박스 설치
+var setSelect = function(elem){
+	elem.find(".box").bind("click", function(){
+		if(elem.hasClass("active")){
+			elem.removeClass("active");
+		} else {
+			elem.addClass("active");
+		}
+	});
+	
+	elem.find(".select_list li").bind("click", function(){
+		elem.find(".box").html($(this).find("a").html());
+		elem.removeClass("active");
+	});
+	
+	$(document).mouseup(function(e){
+		var container = elem;
+		if( container.has(e.target).length === 0){
+			elem.removeClass("active");
+		}
+	});
+}
 
 // 측면 메뉴 토글
 // ex) asdieToggle($(".user_custom_filter"));

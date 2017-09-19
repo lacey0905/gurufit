@@ -469,13 +469,28 @@
 			<div id="lnbOpt" class="">
 				<!-- 검색 -->
 				<fieldset class="lnbSearch">
+					<div class="set_select select_design_a">
+						<a href="#" class="box">전체검색</a>
+						<ul class="select_list">
+							<li><a href="#">리스트1</a></li>
+							<li><a href="#">리스트2</a></li>
+						</ul>
+					</div>
+					<script>
+    					$(function(){
+        					// 셀렉트 박스 설치
+    						setSelect($(".set_select"));
+    					});
+					</script>
+					<!-- 
 					<div class="sel_custom sel_nm_box lnbSearch_sel">
 						<select>
 							<option>전체검색</option>
 							<option>전체검색</option>
 						</select>
 					</div>
-					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
+					 -->
+					<input type="text" value="" class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
 					<div class="profile_icon_toggle">
 						<label class="profile_label">
 							<input type="checkbox" class="chk">

@@ -65,6 +65,11 @@
  .service_list_table {
     margin: 0 !important;
  }
+</style>
+<style>
+.service_list_table tbody td.box {
+  border-left: 1px dashed #EBEBEB;
+}
 </style>	
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
@@ -609,11 +614,7 @@
 								</div>
 							</dd>
 						</dl>
-						<style>
-						.service_list_table tbody td.box {
-						  border-left: 1px dashed #EBEBEB;
-						}
-						</style>
+
 						<dl class="form_cont in_line">
 							<dt class="tit_top">환불 계좌 정보</dt>
 							<dd class="form_tit_list">

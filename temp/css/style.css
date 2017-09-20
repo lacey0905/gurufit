@@ -22,6 +22,9 @@
 .sub_locate dl.locate_list dd {
 	display:inline-block;
 }
+.sub_locate dl.locate_list dd a:hover {
+	background-color:red;
+}
 .sub_locate dl.locate_list a {
 	font-size:14px;
 	/*
@@ -324,7 +327,7 @@
 	line-height:47px;
 	color:#4a4a4a;
 	padding-bottom:16px;
-	margin:0 auto 18px;
+	margin:0 0 18px 90px;
 	text-align:center;
 }
 .inp_login fieldset legend:after {
@@ -4614,6 +4617,52 @@
 .point_modal_pop .msg em {
 	font-weight:400;
 }
+
+/*장바구니 */
+.ord_select {
+ float:right;
+ margin-right: 35px;
+}
+.ord_select > dl {
+ margin:25px 0 0 !important;
+}
+.ord_select span {
+ display:inline-block;
+}
+.ord_select select {
+ display:inline-block;
+}
+.ord_select select option .non_cp {
+}
+.ord_select ul {
+ width:300px !important;
+}
+.prd_list_a .price .cp_ap {
+ color: #8F8F8F;	
+ font-size: 14px;	
+ line-height: 40px;	
+ text-align: right;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 12px;	
+	line-height: 20px;
+	margin-top:7px;
+}
+.btn_order_submit .btn_head span em {
+  color:#484848;
+}
+/*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+} 				
 
 
 

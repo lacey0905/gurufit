@@ -23,6 +23,24 @@
 	background:url(../img/user_level_bg.png) no-repeat;
 } 		  
 </style>
+<style>
+.cart_c_line {
+}
+.cart_c_line > .price_cp {
+   width:316px;
+   text-align:right;
+   padding-right:32px;
+}
+.cart_c_line > .price_cp em {
+   font-size: 14px;
+   color: #8f8f8f;
+   letter-spacing: -0.3px;
+   line-height: 20px;
+}
+.prd_list_a tr:last-child {
+   border-bottom: 0.5px solid #D8D8D8;
+}
+</style>
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -59,10 +77,6 @@
     			</strong>
     		</div>
 		</div>
-<<<<<<< HEAD
-=======
-
->>>>>>> branch 'master' of https://github.com/lacey0905/gurufit.git
 		<h3 class="tit_sub_a">결제 내역</h3>
 		<div class="order_result_box">
 			<div class="result_box_mix">
@@ -132,24 +146,7 @@
 							<em>50% 구루~ 구루~ 구루핏 추석 할인 쿠폰 적용가</em>
 						</td>
 					</tr>
-					<style>
-					.cart_c_line {
-					}
- 					.cart_c_line > .price_cp {
-		               width:316px;
-					   text-align:right;
-					   padding-right:32px;
-					}
-					.cart_c_line > .price_cp em {
-				       font-size: 14px;
-                       color: #8f8f8f;
-                       letter-spacing: -0.3px;
-                       line-height: 20px;
-					}
-					.prd_list_a tr:last-child {
-					   border-bottom: 0.5px solid #D8D8D8;
-					}
-					</style>				
+				
 					<tr class="cart_c_line">
 						<td class="thum">
 							<span class="prd_thum">

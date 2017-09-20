@@ -1,13 +1,13 @@
 <style>
 /*1:1문의하기*/
-.oto_point_btn { 
+/* .oto_point_btn { 
    display:inline-block;
    background-color:red;
 }
-.oto_pager_type_a .btn_m_m2{
+.oto_pager_type_a + .btn_m_m2{
    float:right;
    font-weight:500;
-}
+} */
 .one_subject {
 }
 .one_subject em {

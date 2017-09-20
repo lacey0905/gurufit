@@ -1,50 +1,3 @@
-<style>
-.ord_select {
- float:right;
- margin-right: 35px;
-}
-.ord_select > dl {
- margin:25px 0 0 !important;
-}
-.ord_select span {
- display:inline-block;
-}
-.ord_select select {
- display:inline-block;
-}
-.ord_select select option .non_cp {
-}
-.ord_select ul {
- width:300px !important;
-}
-.prd_list_a .price .cp_ap {
- color: #8F8F8F;	
- font-size: 14px;	
- line-height: 40px;	
- text-align: right;
-}
-/*장바구니 영역 밑에 라인 추가*/
-.cart_b_line {
-    border-bottom: 1px solid #E1E1E1;
-}
-/*배송 예정일 텍스트 추가*/
-.due_dt {
-	display:block;
-	color: #BBBBBB;
-	font-size: 12px;	
-	line-height: 20px;
-	margin-top:7px;
-}
-.btn_order_submit .btn_head span em {
-  color:#484848;
-}
-/*멤버십 백그라운드 이미지*/
-  .user_level_x6 {
-	padding:11px 0 9px;
-	background:url(../img/user_level_bg.png) no-repeat;
-} 				
-</style>
-
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -629,15 +582,25 @@
 		</section>
 		<!-- 장바구니 리스트 -->
 		<h3 class="tit_sub_a">02 주문/결제</h3>
+		
 		<div class="prd_list_type add_sel_type">
-			<div class="sel_custom ord_select">
-<!-- 				<select class="sel_mid">
+		  		<div id="" class="set_select select_design_a select_design_mid sel_small_right">
+                	<strong class="box">전체검색</strong>
+                	<ul class="select_list">
+                		<li><a href="#none" data-value="1">리스트1</a></li>
+                		<li><a href="#none" data-value="2">리스트2</a></li>
+                	</ul>
+                </div>
+		
+  	<!-- 	<div class="sel_custom ord_select">
+
+				<select class="sel_mid">
                     <option>쿠폰 적용하지 않음</option>
                     <option>50% 구루~구루~구루핏 추석선물</option>
                     <option><del>10% 스니커즈 할인</del><span>이 쿠폰을 적용할 수 없습니다.</span></option>
                     <option>8% 2017 시즌 마감 세일</option>
 				</select> -->
-				<dl class="tit_opt select_sort">
+			<!-- 	<dl class="tit_opt select_sort">
                     <dt>할인 쿠폰</dt>
     				<dd>
     					<div class="sel_custom sel_nm_box sel_mid">
@@ -650,7 +613,7 @@
     					</div>
     				</dd>
     			</dl>				
-			</div>	
+			</div>	-->
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
 				<colgroup>

@@ -116,143 +116,268 @@
 	</article>
 	<article class="custom_prd prd_type_b prd_type_bgc">
 		<h2>
-			<a href="#" class="more btn_hover_a">자세히 보기</a>
+			<!-- <a href="#" class="more btn_hover_a">자세히 보기</a>  -->
 			<em class="user_name">Kimhayoung</em>
 			님의 구루핏 활동에 바탕한 추천상품
 		</h2>
-		<ul class="x4">
-			<li>
-				<a href="#">
-					<figure>
-    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-    					<div class="rating">
-    						<span class="sale">Sale 40%</span>
-    						<strong class="star_rating">
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_off"></i>
-   							</strong>
-    						<span class="cnt">(29)</span>
-    						<span class="like">74</span>
-    					</div>
-    					<figcaption>
-    						<span class="subject">NIKE FREE 5.0</span>
-    						<span class="price">
-    							<strong class="sell_price">89,100<em>원</em></strong>
-    							<del class="customer_price">99,000원</del>
-    						</span>
-    					</figcaption>
-					</figure>
-				</a>
-			</li>			
-			<li>
-				<a href="#">
-					<figure>
-    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-    					<div class="rating">
-    						<span class="sale">Sale 40%</span>
-    						<strong class="star_rating">
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_off"></i>
-   							</strong>
-    						<span class="cnt">(29)</span>
-    						<span class="like">74</span>
-    					</div>
-    					<figcaption>
-    						<span class="subject">NIKE FREE 5.0</span>
-    						<span class="price">
-    							<strong class="sell_price">89,100<em>원</em></strong>
-    							<del class="customer_price">99,000원</del>
-    						</span>
-    					</figcaption>
-					</figure>
-				</a>
-			</li>			
-			<li>
-				<a href="#">
-					<figure>
-    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-    					<div class="rating">
-    						<span class="sale">Sale 40%</span>
-    						<strong class="star_rating">
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_off"></i>
-   							</strong>
-    						<span class="cnt">(29)</span>
-    						<span class="like">74</span>
-    					</div>
-    					<figcaption>
-    						<span class="subject">NIKE FREE 5.0</span>
-    						<span class="price">
-    							<strong class="sell_price">89,100<em>원</em></strong>
-    							<del class="customer_price">99,000원</del>
-    						</span>
-    					</figcaption>
-					</figure>
-				</a>
-			</li>			
-			<li>
-				<a href="#">
-					<figure>
-    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-    					<div class="rating">
-    						<span class="sale">Sale 40%</span>
-    						<strong class="star_rating">
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_off"></i>
-   							</strong>
-    						<span class="cnt">(29)</span>
-    						<span class="like">74</span>
-    					</div>
-    					<figcaption>
-    						<span class="subject">NIKE FREE 5.0</span>
-    						<span class="price">
-    							<strong class="sell_price">89,100<em>원</em></strong>
-    							<del class="customer_price">99,000원</del>
-    						</span>
-    					</figcaption>
-					</figure>
-				</a>
-			</li>			
-			<li>
-				<a href="#">
-					<figure>
-    					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
-    					<div class="rating">
-    						<span class="sale">Sale 40%</span>
-    						<strong class="star_rating">
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_on"></i>
-    							<i class="star_off"></i>
-   							</strong>
-    						<span class="cnt">(29)</span>
-    						<span class="like">74</span>
-    					</div>
-    					<figcaption>
-    						<span class="subject">NIKE FREE 5.0</span>
-    						<span class="price">
-    							<strong class="sell_price">89,100<em>원</em></strong>
-    							<del class="customer_price">99,000원</del>
-    						</span>
-    					</figcaption>
-					</figure>
-				</a>
-			</li>			
-		</ul>		
+		<div id="relatedProduct" class="slide_prd swiper-container">
+    		<div class="swiper-wrapper">
+        		<ul class="x4 swiper-slide">
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        		</ul>		
+        		<ul class="x4 swiper-slide">
+        			<li>
+        				<a href="#">
+        					<figure>
+            					<span class="thum"><img src="../img/store_sample_255x177.png" alt="샘플상품"></span>
+            					<div class="rating">
+            						<span class="sale">Sale 40%</span>
+            						<strong class="star_rating">
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_on"></i>
+            							<i class="star_off"></i>
+           							</strong>
+            						<span class="cnt">(29)</span>
+            						<span class="like">74</span>
+            					</div>
+            					<figcaption>
+            						<span class="subject">NIKE FREE 5.0</span>
+            						<span class="price">
+            							<strong class="sell_price">89,100<em>원</em></strong>
+            							<del class="customer_price">99,000원</del>
+            						</span>
+            					</figcaption>
+        					</figure>
+        				</a>
+        			</li>				
+        		</ul>	
+    		</div>
+            <!-- Add Arrows -->
+            <div class="control">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
 	</article>
+
+    <!-- 메인 상품 진열 슬라이드 -->
+    <script>
+    var swiper = new Swiper('#relatedProduct', {
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+    </script>
+	
 	<article class="lookbook_type">
 		<dl>
 			<dt>

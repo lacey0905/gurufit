@@ -1,5 +1,4 @@
 <?php include "../inc/header.php" ?>
-
 <script src="../js/chart.js"></script>
 <style>
     .radar_chart_a {
@@ -58,7 +57,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -142,7 +141,7 @@ var myChart = new Chart(ctx, {
 
 //차트 데이터
 var chatLabel = ["#아디다스", "#데일리", "#부스트", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심"];
-var chartData = [100, 100, 90, 90, 90, 90, 90, 90, 90, 90];
+var chartData = [100, 100, 90, 90, 90, 90];
 var chartTotal = "78%";
 
 
@@ -150,7 +149,7 @@ var chartTotal = "78%";
 for(var i=0; i < chartData.length; i++){
 	addData(myChart, chatLabel[i], chartData[i]);
 
-	var length = chartData.length;
+	var length = chartData.length; // 도형의 각 갯수
 	var angle = i * (360 / chartData.length);
 	
 	var html = "<li style='transform: rotate(" + angle + "deg);'><span style='transform: rotate(" + -angle + "deg);'>" + "<em>" + chartData[i] + "%</em>" + chatLabel[i] + "</span></li>";

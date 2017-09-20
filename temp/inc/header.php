@@ -117,283 +117,119 @@
 					</div>
 				</dd>
 			</dl>
+            <script>
+                $(function(){
+                	var cartSlide = new Swiper('#cartSlide', {
+                        pagination: '#cartSlide .swiper-pagination',
+                        paginationClickable: true,
+                        slidesPerColumn: 2,
+                    });
+                });
+            </script>
 			<nav id="gnbNav">
     			<ul>
     				<li><a href="#" class="icon_heart_x20">MY</a></li>
     				<li><a href="http://lacey.dothome.co.kr/yeseo/gurufit/member/login.php" class="icon_orderList_x19">Order</a></li>
     				<li class="madal_popup_area">
     					<a href="#" class="modal_btn icon_cart_x21"><span class="rnd_box_cnt">2</span>Cart</a>
-    					
-    					
                         <div class="cart_pop modal_popup rt_arr pop_type_a">
                         	<h2>
                         		<strong>장바구니</strong>
                         		<span class="rnd_box_cnt">2</span>
                         	</h2>
                         	<div class="cart_prd_list">
-                        		<ul>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>
-                        			<li>
-                        				<dl>
-                        					<dt><a href="#none"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
-                        					<dd>
-                        						<ul>
-                        							<li class="rating">
-                        								<strong class="star_rating">
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_on"></i>
-							    							<i class="star_off"></i>
-							   							</strong>
-                        								<span class="cnt">(29)</span>
-                    								</li>
-                        							<li class="name">NIKE FREE 5.0</li>
-                        							<li class="price">
-                        								<em>89,100</em>원
-                        								<del>99,000원</del>
-                        							</li>
-                        							<li class="opt">
-                										<span class="color">컬러 : <em>Green</em></span>
-                										<span class="size">사이즈 : <em>230</em></span>
-                										<span class="quantity">수량 : <em>1개</em></span>
-                        							</li>
-                        						</ul>
-                        					</dd>
-                        				</dl>
-                        			</li>                        			                        			                        			                        			                        			                        			                        			
-                        		</ul>
+                        		<div  id="cartSlide" class="swiper-container cart_slide">
+                            		<ul class="swiper-wrapper">
+                            			<li class="swiper-slide">
+                            				<dl>
+                            					<dt><a href="#"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                            					<dd>
+                            						<ul>
+                            							<li class="rating">
+                            								<strong class="star_rating">
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_off"></i>
+    							   							</strong>
+                            								<span class="cnt">(29)</span>
+                        								</li>
+                            							<li class="name">NIKE FREE 5.0</li>
+                            							<li class="price">
+                            								<em>89,100</em>원
+                            								<del>99,000원</del>
+                            							</li>
+                            							<li class="opt">
+                    										<span class="color">컬러 : <em>Green</em></span>
+                    										<span class="size">사이즈 : <em>230</em></span>
+                    										<span class="quantity">수량 : <em>1개</em></span>
+                            							</li>
+                            						</ul>
+                            					</dd>
+                            				</dl>
+                            			</li>
+                            			<li class="swiper-slide">
+                            				<dl>
+                            					<dt><a href="#"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                            					<dd>
+                            						<ul>
+                            							<li class="rating">
+                            								<strong class="star_rating">
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_off"></i>
+    							   							</strong>
+                            								<span class="cnt">(29)</span>
+                        								</li>
+                            							<li class="name">NIKE FREE 5.0</li>
+                            							<li class="price">
+                            								<em>89,100</em>원
+                            								<del>99,000원</del>
+                            							</li>
+                            							<li class="opt">
+                    										<span class="color">컬러 : <em>Green</em></span>
+                    										<span class="size">사이즈 : <em>230</em></span>
+                    										<span class="quantity">수량 : <em>1개</em></span>
+                            							</li>
+                            						</ul>
+                            					</dd>
+                            				</dl>
+                            			</li>
+                            			<li class="swiper-slide">
+                            				<dl>
+                            					<dt><a href="#"><img src="../img/pop_prd_sample.png" alt="장바구니 샘플" /></a>
+                            					<dd>
+                            						<ul>
+                            							<li class="rating">
+                            								<strong class="star_rating">
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_on"></i>
+    							    							<i class="star_off"></i>
+    							   							</strong>
+                            								<span class="cnt">(29)</span>
+                        								</li>
+                            							<li class="name">NIKE FREE 5.0</li>
+                            							<li class="price">
+                            								<em>89,100</em>원
+                            								<del>99,000원</del>
+                            							</li>
+                            							<li class="opt">
+                    										<span class="color">컬러 : <em>Green</em></span>
+                    										<span class="size">사이즈 : <em>230</em></span>
+                    										<span class="quantity">수량 : <em>1개</em></span>
+                            							</li>
+                            						</ul>
+                            					</dd>
+                            				</dl>
+                            			</li>
+                            		</ul>
+                            		<div class="swiper-pagination"></div>
+                        		</div>
                         		<p class="guide">
                         			Gold Ⅲ 등업이 얼마 남지 않았어요!<br>
 									구매 확정시 레벨업과 함께 5000원 할인쿠폰을 드려요.
@@ -469,13 +305,31 @@
 			<div id="lnbOpt" class="">
 				<!-- 검색 -->
 				<fieldset class="lnbSearch">
+				<!--  
+					<div class="set_select select_design_a">
+						<a href="#" class="box">전체검색</a>
+						<ul class="select_list">
+							<li><a href="#">리스트1</a></li>
+							<li><a href="#">리스트2</a></li>
+						</ul>
+					</div>
+					-->
+					<div id="" class="set_select">
+						<strong class="box" data-value="0">전체검색</strong>
+						<ul class="select_list">
+							<li><a href="#" data-value="test">리스트1</a></li>
+							<li><a href="#" data-value="vluae">리스트2</a></li>
+						</ul>
+					</div>
+					<!-- 
 					<div class="sel_custom sel_nm_box lnbSearch_sel">
 						<select>
 							<option>전체검색</option>
 							<option>전체검색</option>
 						</select>
 					</div>
-					<input type="text" value=""  class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
+					 -->
+					<input type="text" value="" class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
 					<div class="profile_icon_toggle">
 						<label class="profile_label">
 							<input type="checkbox" class="chk">
@@ -534,3 +388,10 @@
 		</div>
 	</section>
 </header>
+ <script>
+    var cartSlide = new Swiper('#relatedProduct', {
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+</script>

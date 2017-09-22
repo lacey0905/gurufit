@@ -619,7 +619,7 @@
 /* 상단 유저 이름 에셋 */
 .user_info_list {
 	display:inline-block;
-	vertical-align:middle;
+	vertical-align:top;
 }
 .user_info_list dt {}
 .user_info_list dt.user_nav a {
@@ -906,6 +906,78 @@
 .tab_active_type ul li.active a {
 	color:#fff;
 }
+
+/* 카테고리 부분 선택 영역 추가 */
+.select_drop {
+	position:relative;
+	z-index:300;
+} 
+.select_drop .tit {
+	display:block;
+	color:#4a4a4a;
+	font-size:16px;
+	font-weight:400;
+	line-height:20px;
+	letter-spacing:-0.2px;
+	vertical-align:middle;
+	padding:15px 0;
+} 
+.select_drop .tit:after {
+	position:absolute;
+	top:50%;
+	right:10px;
+	margin-top:-2px;
+	content:"\E313";
+	font-family:'Material Icons';
+	font-size:18px;
+	color:#ddd;
+	z-index:1;
+	line-height:1em;
+}
+.select_drop .tit:before {
+	position:absolute;
+	top:50%;
+	right:10px;
+	margin-top:-13px;
+	content:"\E316";
+	font-family:'Material Icons';
+	font-size:18px;
+	color:#ddd;
+	z-index:1;
+	line-height:1em;
+}
+.select_drop .list {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:-1px;
+	width:100%;
+	border:solid 1px #7053ff;
+	z-index:200;
+}
+.select_drop .list a {
+	display:block;
+	padding:10px;
+	background-color:#fff;
+	color:#7053ff;
+}
+.select_drop .list a:hover {
+	background-color:#7053ff;
+	color:#fff !important;
+}
+.tab_active_type ul li.active .select_drop .tit {
+	color:#fff;
+}
+.select_drop:hover .list {
+	display:block;
+}
+.select_drop:hover .tit:before,
+.select_drop:hover .tit:after,
+.select_drop:hover .tit {
+	color:#7053ff !important;
+}
+
+
 /* 화살표 형 텝 디자인 */
 .tab_step_arr {
 	position:relative;
@@ -1791,7 +1863,7 @@
 .modal_popup:before {
 	content:" ";
 	position:absolute;
-	top:-30px;
+	top:-10px;
 	right:0;
 	width:80px;
 	height:30px;
@@ -2356,6 +2428,9 @@
 	font-size:14px;
 	line-height:20px;
 	cursor:pointer;
+}
+.set_select.active {
+	border:0;
 }
 .set_select.active .box {
 	border: 1px solid #D8D8D8;

@@ -1109,7 +1109,7 @@
     							</dd>
     							<dd class="inp_search_a search_sort">
     								<input type="text" class="search_inp">
-    								<input type="submit" class="search_btn" value="&#xE8B6">
+    								<input type="submit" class="review_search_btn" value="&#xE8B6">
     							</dd>
     						</dl>
 						</fieldset>
@@ -1584,7 +1584,7 @@ $(function(){
         slidesPerView: 1,
         paginationClickable: true,
         spaceBetween: 30,
-        mousewheelControl: true,
+        //mousewheelControl: true,
         loop:true,
         width:700,
         //freeMode: true,

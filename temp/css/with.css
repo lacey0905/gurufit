@@ -2380,11 +2380,19 @@
 .set_select {
 	position:relative;
 	display:inline-block;
-	width:110px;	
+	min-width:130px;	
 	vertical-align:top;
 	box-sizing:border-box;
-	border: 1px solid transparent;
 }
+.set_select.disable .box {
+	background-color:#eee;
+	color:#a8a8a8;
+	cursor:default;
+}
+.set_select.disable .box:after {
+	color:#a8a8a8;
+}
+
 .set_select .box {
 	position:relative;
 	display:block;
@@ -2395,18 +2403,19 @@
 	vertical-align:top;
 	box-sizing:border-box;
 	border-radius:0;
-	padding:11px 30px 11px 15px;
+	padding:11px 35px 11px 15px;
 	font-size:14px;
 	font-weight:400;
 	line-height:24px;
 	color:#4a4a4a;
-	text-align:center;
+	text-align:right;
 	cursor:pointer;
+	border: 1px solid transparent;
 }
 .set_select .box:after {
 	position:absolute;
 	top:50%;
-	right:10px;
+	right:8px;
 	margin-top:-9px;
 	content:"\E313";
 	font-family:'Material Icons';
@@ -2429,9 +2438,7 @@
 	line-height:20px;
 	cursor:pointer;
 }
-.set_select.active {
-	border:0;
-}
+.set_select.active {}
 .set_select.active .box {
 	border: 1px solid #D8D8D8;
 	border-bottom:solid 1px transparent;
@@ -2455,6 +2462,16 @@
 .select_design_a .box {
 	border: solid 1px #d8d8d8;
 	padding:7px 0;
+	text-align:center;
+}
+
+.select_design_x2 {
+	width:196px;
+	color:#000;
+	font-size:14px;
+}
+.select_design_x2 .box {
+	padding:5px;
 }
 
 .select_design_mid {
@@ -2774,6 +2791,7 @@
 	color:#999;
 	padding-right:40px;
 }
+.inp_search_a .review_search_btn,
 .inp_search_a .search_btn {
 	position:absolute;
 	top:0;
@@ -2787,6 +2805,7 @@
 	font-size:20px;
 	color:#d8d8d8;
 }
+.inp_search_a .review_search_btn:after,
 .inp_search_a .search_btn:after {
 	content:"\E8B6";
 	display:inline-block;

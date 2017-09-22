@@ -1,13 +1,24 @@
 <?php include "../inc/header.php" ?>
+
+<script>
+    $(function(){
+    	var mainBanner = new Swiper('#main .bnr_box_type', {
+            //pagination: '#cartSlide .swiper-pagination',
+            paginationClickable: true,
+            slidesPerView: 2,
+        });
+    });
+</script>
+
 <section id="main">
-	<article class="bnr_box_type">
-		<ul>
-			<li>
-				<h2>
-					Featured Contents
-					<span class="tit_arr_line l_left"></span>
-					<span class="tit_arr_line l_right"></span>
-				</h2>
+	<article class="bnr_box_type swiper-container">
+		<h2>
+			Featured Contents
+			<span class="tit_arr_line l_left"></span>
+			<span class="tit_arr_line l_right"></span>
+		</h2>
+		<ul class="swiper-wrapper">
+			<li class="swiper-slide">
 				<figure class="bnr_left">
 					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
 					<figcaption>
@@ -22,6 +33,40 @@
 						</a>
 					</figcaption>
 				</figure>
+			</li>
+			<li class="swiper-slide">
+				<figure class="bnr_right">
+					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+    						<h3>룩북</h3>
+    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="swiper-slide">
+				<figure class="bnr_left">
+					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+							<h3>룩북</h3>
+							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="swiper-slide">
 				<figure class="bnr_right">
 					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
 					<figcaption>

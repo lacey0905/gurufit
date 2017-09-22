@@ -23,8 +23,15 @@ $(function(){
 		});
 	}
 	
+	//$("#main .bnr_box_type")
+	
 });
 })(jQuery);
+
+
+var boxBannerSlide = function(){
+	
+}
 
 /*
 	셀렉트 박스 사용 예시
@@ -37,28 +44,29 @@ $(function(){
 
 // 셀렉트박스 설치
 var setSelect = function(elem){
-	
-	elem.find(".box").bind("click", function(){
-		if(elem.hasClass("active")){
-			elem.removeClass("active");
-		} else {
-			elem.addClass("active");
-		}
-	});
-	
-	elem.find(".select_list li").bind("click", function(){
-		elem.find(".box").html($(this).find("a").html());
-		//elem.find(".box").attr("data-value", $(this).find("a").data("value"));
-		elem.removeClass("active");
+	if(elem.hasClass("disable") == false){
+		elem.find(".box").bind("click", function(){
+			if(elem.hasClass("active")){
+				elem.removeClass("active");
+			} else {
+				elem.addClass("active");
+			}
+		});
 		
-	});
-	
-	$(document).mouseup(function(e){
-		var container = elem;
-		if( container.has(e.target).length === 0){
+		elem.find(".select_list li").bind("click", function(){
+			elem.find(".box").html($(this).find("a").html());
+			elem.find(".box").attr("data-value", $(this).find("a").data("value"));
 			elem.removeClass("active");
-		}
-	});
+			
+		});
+		
+		$(document).mouseup(function(e){
+			var container = elem;
+			if( container.has(e.target).length === 0){
+				elem.removeClass("active");
+			}
+		});
+	}
 }
 
 // 모달 팝업 화면 고정

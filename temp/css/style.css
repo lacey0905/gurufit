@@ -228,6 +228,16 @@
 	line-height:33px;
 	margin:42px 0 22px;
 }
+.member_box h3 em {
+	display:inline-block;
+	font-size:14px;
+	font-weight:300;
+	color:#8F8F8F;
+	line-height:33px;
+	letter-spacing:-0.4px;
+	vertical-align:middle;
+	margin-left:10px;
+}
 .member_box span {
 	display:inline-block;
 	font-size:14px;
@@ -3792,8 +3802,11 @@
 }
 .refund_account_info_register .bank_register .sel_mid {
 	width:274px;
-	height:30px;
+	height:32px;
     padding:0;
+}
+.refund_account_info_register .bank_register select {
+	border:solid 1px #f4f4f4;
 }
 .refund_account_info_register .bank_register .sel_mid .selectBox-label {
     text-align:left;

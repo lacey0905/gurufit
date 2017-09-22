@@ -361,6 +361,7 @@
 	line-height:23px;
 	margin-top:7px;
 	color:#000;
+	word-break:keep-all;
 }    
 .prd_type_a figcaption .name_date {
 	font-size:12px;

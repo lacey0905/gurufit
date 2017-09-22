@@ -20,7 +20,10 @@
 			</div>
 		</section>
 		<div class="member_box">
-			<h3>로그인</h3>
+			<h3>
+				로그인
+				<em>구매를 진행하기 위해서는 로그인이 필요합니다.</em>
+			</h3>
 			<p class="member_head_link"><a href="#">아이디 혹은 비밀번호가 기억나지 않으세요?</a></p>
 			<div id="loginBox" class="box_type_a">
 				<div class="social_login_btn">

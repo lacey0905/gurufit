@@ -2007,7 +2007,7 @@
 	font-size:18px; 
 	color:#bbb;
 	line-height:34px;
-	margin-top:9px;
+	margin:9px 120px;
 }
 .my_pop .pop_head h2.user_info em {
 	font-size:18px;
@@ -2284,6 +2284,7 @@
 .selectBox-dropdown-menu {
 	border: 1px solid #D8D8D8;
 	border-top:0;
+	min-height:240px !important;
 }
 .selectBox-options li a {
 	text-align:center;

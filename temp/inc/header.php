@@ -315,10 +315,12 @@
 					</div>
 					-->
 					<div id="" class="set_select">
-						<strong class="box" data-value="0">전체검색</strong>
+						<strong class="box" data-value="0">통합 검색</strong>
 						<ul class="select_list">
-							<li><a href="#" data-value="test">리스트1</a></li>
-							<li><a href="#" data-value="vluae">리스트2</a></li>
+							<li><a href="#" data-value="1">통합 검색</a></li>
+							<li><a href="#" data-value="2">여성 스토어 검색</a></li>
+							<li><a href="#" data-value="3">남성 스토어 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
 						</ul>
 					</div>
 					<!-- 
@@ -388,7 +390,7 @@
 		</div>
 	</section>
 </header>
- <script>
+<script>
     var cartSlide = new Swiper('#relatedProduct', {
         paginationClickable: true,
         nextButton: '.swiper-button-next',

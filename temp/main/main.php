@@ -1,13 +1,24 @@
 <?php include "../inc/header.php" ?>
+
+<script>
+    $(function(){
+    	var mainBanner = new Swiper('#main .bnr_box_type', {
+            //pagination: '#cartSlide .swiper-pagination',
+            paginationClickable: true,
+            slidesPerView: 2,
+        });
+    });
+</script>
+
 <section id="main">
-	<article class="bnr_box_type">
-		<ul>
-			<li>
-				<h2>
-					Featured Contents
-					<span class="tit_arr_line l_left"></span>
-					<span class="tit_arr_line l_right"></span>
-				</h2>
+	<article class="bnr_box_type swiper-container">
+		<h2>
+			Featured Contents
+			<span class="tit_arr_line l_left"></span>
+			<span class="tit_arr_line l_right"></span>
+		</h2>
+		<ul class="swiper-wrapper">
+			<li class="swiper-slide">
 				<figure class="bnr_left">
 					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
 					<figcaption>
@@ -22,6 +33,40 @@
 						</a>
 					</figcaption>
 				</figure>
+			</li>
+			<li class="swiper-slide">
+				<figure class="bnr_right">
+					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+    						<h3>룩북</h3>
+    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="swiper-slide">
+				<figure class="bnr_left">
+					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+							<h3>룩북</h3>
+							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+			</li>
+			<li class="swiper-slide">
 				<figure class="bnr_right">
 					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
 					<figcaption>
@@ -42,10 +87,24 @@
 	<article class="custom_inner custom_prd prd_type_a">
 		<h2>Recommanded Contents</h2>
 		<ul class="x4">
-			<li>
+			<li class="type_a">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like">74</span>
+							<span class="subject">나이키랩줌플라이SP 국내발매예정일공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li class="type_b">
+				<a href="#">
+					<figure>
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>
@@ -56,24 +115,10 @@
 					</figure>
 				</a>
 			</li>
-			<li>
+			<li class="type_c">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
-						<figcaption>
-							<span class="kind">인터뷰</span>
-							<span class="like">74</span>
-							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
-							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
-							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
-						</figcaption>
-					</figure>
-				</a>
-			</li>
-			<li>
-				<a href="#">
-					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>

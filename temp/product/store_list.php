@@ -1,55 +1,5 @@
 <?php include "../inc/header.php" ?>
 <script src="../js/chart.js"></script>
-<style>
-    .radar_chart_a {
-        position:relative;
-        width:500px;
-    }
-    .radar_chart_a .chart_label li {
-        position:absolute;
-        top:0;
-        left:50%;
-        text-align:center;
-        color:#747474;
-        font-size:14px;
-        font-weight:400;
-        line-height:20px;
-        width:250px;
-        height:250px;
-        margin-left:-125px;
-    }
-    .radar_chart_a .chart_label li span {
-        display:block;
-        margin-top:-45px;
-    }
-    .radar_chart_a .chart_label li em {
-        display:block;
-        font-size:14px;
-        font-weight:600;
-        line-heigh:20px;
-        color:#7053FF;
-    }
-    .radar_chart_a .chart_total {
-        position:absolute;
-        top:50%;
-        left:50%;
-        width:58px;
-        height:54px;
-        margin:-27px 0 0 -29px;
-        line-height:54px;
-        font-size:36px;
-        font-weight:600;
-        text-align:center;
-        color:#fff;
-        letter-spacing:-0.1px;
-    }
-    .radar_chart_a .chart_total span {
-        font-size:18px;
-        font-weight:400;
-    }
-    
-</style>
-
 
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -176,13 +126,21 @@ for(var i=0; i < chartData.length; i++){
 			<div class="tab_active_type">
 				<!-- 카테고리 리스트 -->
 				<ul>
+					<li class="">
+						<div class="select_drop">
+							<strong class="tit">남성 전체</strong>
+							<div class="list">
+    							<a href="#">남성 전체</a>
+    							<a href="#">여성 전체</a>
+							</div>
+						</div>
+					</li>
 					<li class="active"><a href="#">스포츠 (179)</a></li>
 					<li><a href="#">스니커즈 (179)</a></li>
 					<li><a href="#">옥스포드 (179)</a></li>
 					<li><a href="#">로퍼 (179)</a></li>
 					<li><a href="#">부츠 (179)</a></li>
 					<li><a href="#">슬립온 (179)</a></li>
-					<li><a href="#">샌들 (179)</a></li>
 				</ul>
 			</div>
 			<!-- 검색 키워드 -->
@@ -231,13 +189,19 @@ for(var i=0; i < chartData.length; i++){
             			</div>    					
     				</dt>
     				<dd>
-    					<div class="sel_custom sel_nm_box sel_mid">
-    						<select>
-    							<option>추천 제품 순</option>
-    							<option>최신 제품 순</option>
-    							<option>제품 이름 순</option>
-    							<option>제품 브랜드 순</option>
-    						</select>
+    					<div id="" class="set_select select_design_a select_design_x2">
+    						<strong class="box" data-value="0">전체검색</strong>
+    						<ul class="select_list">
+    							<li><a href="#none" data-value="test">리스트1</a></li>
+    							<li><a href="#none" data-value="vluae">리스트2</a></li>
+    						</ul>
+    					</div>
+    					<div id="" class="set_select select_design_a select_design_x2 disable">
+    						<strong class="box" data-value="0">전체검색</strong>
+    						<ul class="select_list">
+    							<li><a href="#none" data-value="test">리스트1</a></li>
+    							<li><a href="#none" data-value="vluae">리스트2</a></li>
+    						</ul>
     					</div>
     				</dd>
     			</dl>

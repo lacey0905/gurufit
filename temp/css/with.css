@@ -45,12 +45,14 @@
 .btn_hover_a:hover * {
 	border-color:#7053ff !important;
 	color:#7053ff !important;
+	
 }
 .btn_hover_shadow:hover {
 	-moz-box-shadow: 3px 3px 0 0 #e6e1ff;
 	-webkit-box-shadow: 3px 3px 0 0 #e6e1ff;
 	box-shadow: 3px 3px 0 0 #e6e1ff;
 }
+
 /* 버튼 사이즈 및 스타일 지정 */
 .btn_x_s1 {
 	width:118px;
@@ -221,8 +223,6 @@
 	line-height:21px;
 	border-bottom:solid 1px #2f54bd;
 }
-
-
 /*
 사이즈  네이밍 
 140 30 btn_x_s0
@@ -232,24 +232,15 @@
 150 50 btn_x_m1
 120 54 btn_x_m2
 130 54 btn_x_m3
-
-
-
 165 50 btn_m_m1
 180 50 btn_m_m1
-
 290 60 btn_l_l1
-
-
 400 54 btn_xl_m1
-
 330 60 btn_xl_l1
 340 60 btn_xl_l2
 400 60 btn_xl_l3
 550 70 btn_xl_l4
 */
-
-
 
 /************************/
 /* 구버전 버튼 */
@@ -558,11 +549,7 @@
 	color:#9b9b9b;
 }
 
-
-
-
 /* USER LEVEL */
-/*yeseo*/
 .user_level_x6 {
 	position:relative;
 	display:inline-block;
@@ -581,8 +568,6 @@
 	width:37px;
 	vertical-align:top;
 }
-
-
 
 /* 레벨 뱃지 */
 .badge_level {
@@ -609,17 +594,10 @@
 	color:#bronze;
 }
 
-
-
-
-
-
-
-/* Asset */
-/* 상단 유저 이름 에셋 */
+/* 상단 유저 이름  */
 .user_info_list {
 	display:inline-block;
-	vertical-align:middle;
+	vertical-align:top;
 }
 .user_info_list dt {}
 .user_info_list dt.user_nav a {
@@ -651,7 +629,6 @@
 	vertical-align:middle;
 	margin-left:4px;
 }
-
 .user_info_list dt .level {
 	display:inline-block;
 	width:20px;
@@ -678,7 +655,6 @@
 .user_info_list dt .level.vip {
 	background:url(../img/vip-s.svg) no-repeat;
 }
-
 .user_info_list dt .name {
 	font-size:16px;
 	font-family: 'Noto Sans KR';
@@ -834,14 +810,11 @@
 	font-family: fontello;
 	margin-right:4px;
 }
-
 /* 별 사이즈 */
 .star_mid {}
 .star_mid i:after {
 	font-size:18px;
 }
-
-
 /* SIMPLE ICON TEXT */
 .icon-pencil {
 	display:inline-block;
@@ -855,8 +828,6 @@
 	display:inline-block;
 	margin-right:5px;
 }
-
-
 /* Tab 디자인  */
 .tab_active_type {
 	display:table;
@@ -906,6 +877,77 @@
 .tab_active_type ul li.active a {
 	color:#fff;
 }
+/* 카테고리 부분 선택 영역 추가 */
+.select_drop {
+	position:relative;
+	z-index:300;
+} 
+.select_drop .tit {
+	display:block;
+	color:#4a4a4a;
+	font-size:16px;
+	font-weight:400;
+	line-height:20px;
+	letter-spacing:-0.2px;
+	vertical-align:middle;
+	padding:15px 0;
+} 
+.select_drop .tit:after {
+	position:absolute;
+	top:50%;
+	right:10px;
+	margin-top:-2px;
+	content:"\E313";
+	font-family:'Material Icons';
+	font-size:18px;
+	color:#ddd;
+	z-index:1;
+	line-height:1em;
+}
+.select_drop .tit:before {
+	position:absolute;
+	top:50%;
+	right:10px;
+	margin-top:-13px;
+	content:"\E316";
+	font-family:'Material Icons';
+	font-size:18px;
+	color:#ddd;
+	z-index:1;
+	line-height:1em;
+}
+.select_drop .list {
+	display:none;
+	position:absolute;
+	top:100%;
+	left:-1px;
+	width:100%;
+	border:solid 1px #7053ff;
+	z-index:200;
+}
+.select_drop .list a {
+	display:block;
+	padding:10px;
+	background-color:#fff;
+	color:#7053ff;
+}
+.select_drop .list a:hover {
+	background-color:#7053ff;
+	color:#fff !important;
+}
+.tab_active_type ul li.active .select_drop .tit {
+	color:#fff;
+}
+.select_drop:hover .list {
+	display:block;
+}
+.select_drop:hover .tit:before,
+.select_drop:hover .tit:after,
+.select_drop:hover .tit {
+	color:#7053ff !important;
+}
+
+
 /* 화살표 형 텝 디자인 */
 .tab_step_arr {
 	position:relative;
@@ -1028,11 +1070,11 @@
 
 
 /* MODAL LAYER */
-.fix {
+body.fix {
 	height:100%;
 	overflow:hidden;
 }
-.fix .sub_layout {
+body.fix .sub_layout {
 	overflow-y:scroll !important;
 }
 .f_modal_perant {
@@ -1056,7 +1098,9 @@
 .f_modal_layer.modal_fix .f_modal_cont {
 	max-height:100%;
 }
-.f_modal_layer.modal_fix .f_modal_wrap {
+.f_modal_layer.modal_
+
+  .f_modal_wrap {
 	padding:50px 0;
 }
 .f_modal_layer {
@@ -1791,7 +1835,7 @@
 .modal_popup:before {
 	content:" ";
 	position:absolute;
-	top:-30px;
+	top:-10px;
 	right:0;
 	width:80px;
 	height:30px;
@@ -1842,7 +1886,7 @@
 
 
 .pop_type_a {
-	width:310px;
+	width:320px;
 	padding:15px 20px 30px;
 }
 .pop_type_b {
@@ -1940,7 +1984,7 @@
 	float:left;
 }
 .cart_prd_list dd {
-	width:195px;
+	width:200px;
 	text-align:left;
 	line-height:20px;
 	float:left;
@@ -2007,7 +2051,7 @@
 	font-size:18px; 
 	color:#bbb;
 	line-height:34px;
-	margin-top:9px;
+	margin:9px 120px;
 }
 .my_pop .pop_head h2.user_info em {
 	font-size:18px;
@@ -2284,6 +2328,7 @@
 .selectBox-dropdown-menu {
 	border: 1px solid #D8D8D8;
 	border-top:0;
+	min-height:240px !important;
 }
 .selectBox-options li a {
 	text-align:center;
@@ -2307,11 +2352,19 @@
 .set_select {
 	position:relative;
 	display:inline-block;
-	width:110px;	
+	min-width:130px;	
 	vertical-align:top;
 	box-sizing:border-box;
-	border: 1px solid transparent;
 }
+.set_select.disable .box {
+	background-color:#eee;
+	color:#a8a8a8;
+	cursor:default;
+}
+.set_select.disable .box:after {
+	color:#a8a8a8;
+}
+
 .set_select .box {
 	position:relative;
 	display:block;
@@ -2322,18 +2375,19 @@
 	vertical-align:top;
 	box-sizing:border-box;
 	border-radius:0;
-	padding:11px 30px 11px 15px;
+	padding:11px 35px 11px 15px;
 	font-size:14px;
 	font-weight:400;
 	line-height:24px;
 	color:#4a4a4a;
-	text-align:center;
+	text-align:right;
 	cursor:pointer;
+	border: 1px solid transparent;
 }
 .set_select .box:after {
 	position:absolute;
 	top:50%;
-	right:10px;
+	right:8px;
 	margin-top:-9px;
 	content:"\E313";
 	font-family:'Material Icons';
@@ -2356,6 +2410,7 @@
 	line-height:20px;
 	cursor:pointer;
 }
+.set_select.active {}
 .set_select.active .box {
 	border: 1px solid #D8D8D8;
 	border-bottom:solid 1px transparent;
@@ -2379,6 +2434,16 @@
 .select_design_a .box {
 	border: solid 1px #d8d8d8;
 	padding:7px 0;
+	text-align:center;
+}
+
+.select_design_x2 {
+	width:196px;
+	color:#000;
+	font-size:14px;
+}
+.select_design_x2 .box {
+	padding:5px;
 }
 
 .select_design_mid {
@@ -2698,6 +2763,7 @@
 	color:#999;
 	padding-right:40px;
 }
+.inp_search_a .review_search_btn,
 .inp_search_a .search_btn {
 	position:absolute;
 	top:0;
@@ -2711,6 +2777,7 @@
 	font-size:20px;
 	color:#d8d8d8;
 }
+.inp_search_a .review_search_btn:after,
 .inp_search_a .search_btn:after {
 	content:"\E8B6";
 	display:inline-block;
@@ -3092,7 +3159,6 @@
 	cursor:text !important;	
 }
 
-
 /* 블랙 */
 .detial_color_list li.c_black,
 .cbox_color [type="checkbox"].c_black + .box:before {
@@ -3326,6 +3392,7 @@
 .user_custom_filter {
 	width:163px;
 	padding-right:36px;
+	margin-bottom:50px;
 }
 .user_custom_filter > dl {
 	padding:13px 0;
@@ -3362,6 +3429,9 @@
 	font-size:14px;
 	line-height:22px;
 	color:#000;
+}
+.user_custom_filter .filter_tit.close:after {
+	content:"\E145";
 }
 .user_custom_filter .filter_tit a {
 }
@@ -3440,8 +3510,8 @@
 .user_info .user_join em {
 	font-size:13px;
 	line-height:20px;
-	color:#4a4a4a;
-	font-weight:bold;
+	color:#f6a623;
+	font-weight:400
 }
 .user_info .user_join .btn_join {
 	display:block;
@@ -3628,8 +3698,8 @@
 .check_opt_box li a,
 .check_opt_box li .check_opt_inp span {
 	display:block;
-	height:15px;
-	line-height:13px;
+	height:18px;
+	line-height:15px;
 	margin:0 5px 5px 0;
 	border: solid 1px #bbb;
 	box-sizing:border-box;
@@ -3649,7 +3719,22 @@
 	cursor:text;
 }
 .check_opt_box li.fix a {
-	cursor:text;
+	position:relative;
+	background-color:#BBBBBB !important;
+	border-color:#8F8F8F !important;
+	overflow:hidden;
+}
+.check_opt_box li.fix a:after {
+	content:"";
+	position:absolute;
+	top:7px;
+	left:-2px;
+	width:120%;
+	height:1px;
+	background-color:#8F8F8F !important;
+	-ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
 }
 .check_opt_box li .check_opt_inp input:checked + span,
 .check_opt_box li:hover .check_opt_inp input:not(:disabled) + span,
@@ -3791,8 +3876,6 @@
 .progress_a .high .prog_bar {
 	background-color:#6FD400;
 }
-
-
 .progress {
   width: 200px;
   height: 8px;
@@ -3812,11 +3895,6 @@
   overflow:hidden;
   border-radius:10px 0px 0 10px;	
 }
-
-
-
-
-
 
 .thum_board_list {}
 .thum_board_list ul {

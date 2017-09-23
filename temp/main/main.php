@@ -87,10 +87,10 @@
 	<article class="custom_inner custom_prd prd_type_a">
 		<h2>Recommanded Contents</h2>
 		<ul class="x4">
-			<li>
+			<li class="type_a">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>
@@ -101,10 +101,10 @@
 					</figure>
 				</a>
 			</li>
-			<li>
+			<li class="type_b">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>
@@ -115,10 +115,10 @@
 					</figure>
 				</a>
 			</li>
-			<li>
+			<li class="type_c">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>

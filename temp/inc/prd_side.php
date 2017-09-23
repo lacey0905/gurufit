@@ -119,11 +119,11 @@
 			-->
 			<ul>
 				<li class="active"><a href="#">230</a></li>
-				<li class="dis"><a href="#">235</a></li>
-				<li><a href="#">240</a></li>
-				<li class="active fix"><a href="#">245</a></li> <!-- 고정 된 사이즈 -->
+				<li class="active fix "><a href="#">235</a></li>
+				<li class=""><a href="#">240</a></li>
+				<li class="dis"><a href="#">245</a></li> <!-- 고정 된 사이즈 -->
 				<li><a href="#">250</a></li>
-				<li  class="dis"><a href="#">255</a></li>
+				<li><a href="#">255</a></li>
 				<li><a href="#">260</a></li>
 				<li><a href="#">265</a></li>
 				<li><a href="#">270</a></li>
@@ -144,14 +144,14 @@
     			<ul>
     				<li class="custom_cbox cbox_b">
     					<label>
-        					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
+        					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01" checked="checked">
         					<span class="box"></span>
         					<span class="label">AMERICAN WEST (21)AMERICAN WEST (21)AMERICAN WEST (21)</span>
         				</label>
     				</li>
     				<li class="custom_cbox cbox_b">
     					<label>
-        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" class="fix" checked="checked">
         					<span class="box"></span>
         					<span class="label">AME</span>
         				</label>

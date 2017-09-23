@@ -189,13 +189,19 @@ for(var i=0; i < chartData.length; i++){
             			</div>    					
     				</dt>
     				<dd>
-    					<div class="sel_custom sel_nm_box sel_mid">
-    						<select>
-    							<option>추천 제품 순</option>
-    							<option>최신 제품 순</option>
-    							<option>제품 이름 순</option>
-    							<option>제품 브랜드 순</option>
-    						</select>
+    					<div id="" class="set_select select_design_a select_design_x2">
+    						<strong class="box" data-value="0">전체검색</strong>
+    						<ul class="select_list">
+    							<li><a href="#none" data-value="test">리스트1</a></li>
+    							<li><a href="#none" data-value="vluae">리스트2</a></li>
+    						</ul>
+    					</div>
+    					<div id="" class="set_select select_design_a select_design_x2 disable">
+    						<strong class="box" data-value="0">전체검색</strong>
+    						<ul class="select_list">
+    							<li><a href="#none" data-value="test">리스트1</a></li>
+    							<li><a href="#none" data-value="vluae">리스트2</a></li>
+    						</ul>
     					</div>
     				</dd>
     			</dl>

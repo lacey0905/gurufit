@@ -17,29 +17,22 @@ $(function(){
 	}
 	
 	// 셀렉트 박스 설치
+	// 페이지에 해당 셀렉트 박스 디자인이 있을 경우 일괄 설치
 	if($(".set_select").length > 0){
 		$('.set_select').each(function(){
 			setSelect($(this));
 		});
 	}
 	
-	//$("#main .bnr_box_type")
-	
 });
 })(jQuery);
 
-
-var boxBannerSlide = function(){
-	
-}
-
-/*
-	셀렉트 박스 사용 예시
-	$("#test").find("a").each(function(){
-		$(this).bind("click", function(){
-			console.log($(this).data("value"));
-		});
+/* 셀렉트 박스 사용 예시
+$("#test").find("a").each(function(){
+	$(this).bind("click", function(){
+		console.log($(this).data("value"));
 	});
+});
 */
 
 // 셀렉트박스 설치
@@ -69,18 +62,45 @@ var setSelect = function(elem){
 	}
 }
 
+// 셀렉트 상자 값 선택하기
+function setGuruSelectValue(select, value) {
+    if (value) {
+        var selected;
+        select.find(".select_list a").each(function() {
+            if ($(this).data("value") == value) {
+                selected = $(this).html();
+                return false;
+            }
+        });
+        
+        if (selected) {
+            var photo_sort_box = select.find(".box");
+            photo_sort_box.attr("data-value", value);
+            photo_sort_box.html(selected);
+        }
+    }
+}
+// 셀렉트 상자 값 가져오기
+function getGuruSelectValue(select) {
+    var photo_sort_box = select.find(".box");
+    return photo_sort_box.attr("data-value");
+}
+
 // 모달 팝업 화면 고정
+// f_modal_perant div에 open이 입력 될 때  같이 호출 되야 함.
 var setFixModal = function(_modal){
 	$("body").addClass("fix");
 	_modal.addClass("modal_fix");
 }
 
 // 모달 팝업 화면 고정 해제
+// 팝업의 클로즈 액션 때에 호출 되어야 함
+// 호출 되지 않으 면 페이지에 스크롤이 사라짐
 var delFixModal = function(){
 	$("body").removeClass("fix");
 }
 
-//모달 팝업 Fix 활성화
+//모달 팝업 Fix 활성화 예시
 //setFixModal($("#photoModal"));
 
 // 측면 메뉴 토글

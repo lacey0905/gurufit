@@ -256,7 +256,7 @@
 	font-size:14px;
 	line-height:33px;
 	letter-spacing:-0.4px;
-	color:#2f54bd;
+	color:#0178ff;
 	text-decoration:underline;
 }
 .social_login_btn {
@@ -721,7 +721,7 @@
 }
 .review_box_a dl dd .more {
 	display:block;
-	color:#2f54bd;
+	color:#0178ff;
 	font-size:13px;
 	text-decoration:underline;
 	line-height:19px;
@@ -729,6 +729,10 @@
 }
 
 .review_box_list {}
+.review_box_list .head {}
+.review_box_list .head .tit {
+	
+}
 .review_box_list > ul {
 	clear:both;
 }
@@ -925,6 +929,11 @@
 	background:url(../img/icon_like_dw.png) no-repeat center left;
 	background-position:10px 50%;
 }
+.review_box_list .like .like_btn.active {
+	color:#7053ff;
+	border:solid 1px #7053ff
+}
+
 .review_list_gauge {
 	position:absolute;
 	top:30px;
@@ -1963,14 +1972,15 @@
 	display:inline-block;
 	font-size:12px;
 	font-weight:400;
-	color:#2f54bd;
+	color:#0178ff;
 	line-height:15px;
-	border-bottom:solid 1px #2f54bd;
+	border-bottom:solid 1px #0178ff;
 	margin-top:6px;
 	float:right;
 }
 .dash_profile {
 	margin-top:35px;
+	height:230px;
 }
 .dash_profile img {
 	display:block;
@@ -1997,7 +2007,7 @@
 .dash_badge_list .badge_tit .badge_more {
 	font-size:12px;
 	font-weight:400;
-	color:#2f54bd;
+	color:#0178ff;
 	text-decoration:underline;
 	line-height:24px;
 	float:right;
@@ -2341,7 +2351,7 @@
 	top:25px;
 	right:30px;
 	font-size:14px;
-	color:#4990e2;
+	color:#0178ff;
 	line-height:16px;
 	text-decoration:underline;
 	z-index:1000;
@@ -2752,7 +2762,7 @@
 	padding:10px 0;
 }
 .agree_chk_wrap .agree_list > li .agree_more {
-	color:#2F54BD;
+	color:#0178ff;
 	font-size:14px;
 	line-height:20px;
 	text-decoration:underline;
@@ -2819,7 +2829,7 @@
 .join_member_info .login_info dl dd a {
 	font-size: 14px;
 	letter-spacing: -0.6px;
-	color: #4990e2;
+	color: #0178ff;
 	text-decoration:underline;
 	float:right;
 }
@@ -2868,9 +2878,9 @@
 	font-size:12px;
 	font-weight:400;
 	line-height:22px;
-	color:#1543d7;
+	color:#0178ff;
 	padding:0 1px;
-	border-bottom:solid 1px #1543d7;
+	border-bottom:solid 1px #0178ff;
 }
 .level_up_guide dd.more:before {
 	visibility:hidden;
@@ -3261,7 +3271,7 @@
 	display:inline-block;
 	font-size: 14px;
 	text-align: left;
-	color: #2f54bd;
+	color: #0178ff;
 	vertical-align:middle;
 	line-height:25px;
 	margin-top:25px;
@@ -3272,7 +3282,7 @@
 	font-size: 12px;
 	font-family: fontello;
 	text-align: left;
-	color: #2f54bd;
+	color: #0178ff;
 	margin:0 10px;
 	vertical-align:top;
 	line-height:25px;
@@ -4771,7 +4781,8 @@
 	visibility:hidden;
 	position:absolute;
 	top:-254px;
-	right:266px;
+	right:50%;
+	margin-right:-177px;
 	z-index:1500;
 	text-align:left;
 }
@@ -4787,8 +4798,9 @@
 .good_review_w .good_review_c:after {
 	content: " ";
 	position: absolute;
-	top: 242px;
+	top:100%;
 	left: 159px;
+	margin-top:-8px;
 	display: inline-block;
 	width: 15px;
 	height: 15px;

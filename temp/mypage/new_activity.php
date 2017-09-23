@@ -205,7 +205,23 @@
             			<div class="f_modal_btn">
             				<span class="msg small">
             					<i class="icon_write"></i>
-            					<a href="#">좋은 리뷰를 작성하는 방법</a>
+            					<a href="#">좋은 상품평을 작성하는 방법</a>
+								<div class="good_review_w">
+									<div class="good_review_c">
+										<div class="good_review_i">
+											<dl>
+												<dt><img src="../img/g_review.png" alt="이미지">좋은 리뷰를 작성하는 방법</dt>
+												<dd>-리뷰를 작성하기 전,제품을 충분히 사용해 주세요.</dd>
+												<dd class="gr_line">-제품의 기능에 초점을 맞추고 구체적으로 작성해주세요.</dd>
+												<dt><img src="../img/g_review.png" alt="이미지">적절하지 않은 내용</dt>
+												<dd>-가격,프로모션 정보와 같이 자주 변경되는 정보</dd>
+												<dd>-부적절한 용어 사용</dd>
+												<dd>-다른 회사 및 웹사이트 광고</dd>
+												<dd>-개인정보</dd>
+											</dl>
+										</div>
+									</div>
+        						</div>
         					</span>
             				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">등록 완료</a>
             			</div>		

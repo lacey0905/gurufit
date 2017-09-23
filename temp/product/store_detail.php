@@ -564,10 +564,10 @@
     				<ul class="photo_list">
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
-    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
-    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
-    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
-    					<li class=""><a href="#none"><img src="../img/sample_detail.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/pic_holder-01.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/pic_holder-02.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/pic_holder-03.png" alt="더미 이미지"></a></li>
+    					<li class=""><a href="#none"><img src="../img/pic_holder-04.png" alt="더미 이미지"></a></li>
     				</ul>
 				</div>
 			</div>
@@ -1115,8 +1115,24 @@
 						</fieldset>
 						</form>
 					</div>
-					<h3>공감 리뷰</h3>
 					<div class="review_box_list">
+						<div class="head">
+							<dl class="tit_opt select_sort">
+    							<dt>정렬 기준</dt>
+    							<dd>
+    								<div id="" class="set_select select_design_a select_design_mid sort_select">
+                						<strong class="box">도움이 된 상품평 순</strong>
+                						<ul class="select_list">
+                							<li>
+                								<a href="#none" data-value="1">
+                									도움이 된 상품평 순
+                								</a>
+                							</li>
+                						</ul>
+                					</div>
+    							</dd>
+    						</dl>
+						</div>
 						<ul>
 							<li>
 								<div class="review_list_head">
@@ -1209,7 +1225,7 @@
 										<a href="#" class="cont_more">더 보기</a>
 									</div>
 									<ul class="like">
-										<li><a href="#" class="like_btn up">52</a></li>
+										<li><a href="#" class="like_btn up active">52</a></li>
 										<li><a href="#" class="like_btn dw">4</a></li>
 										<li><a href="#" class="report">신고하기</a></li>
 									</ul>

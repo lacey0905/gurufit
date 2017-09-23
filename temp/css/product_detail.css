@@ -195,7 +195,7 @@
 	width:15px;
 	height:15px;
 	background-color:#fff;
-	border:solid 1px #7053ff;
+	border:solid 1px #ddd;
 	border-bottom:0;
 	border-right:0;
 	-ms-transform: rotate(45deg); /* IE 9 */
@@ -204,14 +204,14 @@
 }
 .info_detail_box .box_inner {
 	width:344px;
-	border: 1px solid #7053FF;
+	border: 1px solid #ddd;
 	border-radius:4px;
 	padding:25px;	
 	text-align:left;
 	background-color:#fff;
-	-moz-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.1);
+	-webkit-box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.1);
+	box-shadow: 8px 8px 1px 0 rgba(0,0,0,0.1);
 }
 .info_detail_box .tit {
 	display:block;

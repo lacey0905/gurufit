@@ -325,7 +325,8 @@
 							<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
          					<div class="obtain_coupon_w">
         						<div class="obtain_coupon">
-        							<h4>보유 쿠폰 <span class="cic">5</span></h4>
+        							<h4>보유 쿠폰</h4>
+                                    <span class="cic">133</span>
             						<div class="obt_coupon_top">
             							<div class="obt_coupon_tit">
             								<ul>

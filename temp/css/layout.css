@@ -39,7 +39,7 @@
 	line-height:50px;
 	background-color:#000;
 	text-align:right;
-	z-index:6000;
+	z-index:8000;
 }
 #header #gnb span.gnb_opt_msg,
 #header #gnb span.gnb_opt_msg em {
@@ -128,7 +128,7 @@
 	text-align:left;
 	padding-top:17px;
 }
-#lnb #lnbNav .nav {
+#lnb #lnbNav .nav {+/
 	display:inline-block;
 	margin-left:270px;
 }
@@ -154,7 +154,7 @@
 	letter-spacing:1.1px;
 	text-align:center;
 	color:#000;
-	z-index:9500;
+	z-index:8100;
 	margin:0 20px 0 25px;
 	padding:8px 5px 8px 0;
 }
@@ -245,6 +245,7 @@
 	padding-right:45px;
 	margin-right:-45px;
 	border-bottom:1px solid #ebebeb;
+	background:none;
 	
 }
 .lnbSearch input.search_inp:focus {
@@ -300,7 +301,7 @@
 	position:absolute;
 	top:28px;
 	left:5px;
-	z-index:9000;
+	z-index:8000;
 	background-color:#fff;
 	padding:55px 35px 40px;
 	text-align:left;

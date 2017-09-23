@@ -554,6 +554,7 @@
         		</div>
         		<div class="f_modal_foot no_line">
         			<div class="f_modal_btn">
+        				<span class="msg loading"><i class="fa fa-spinner fa-pulse fa-fw"></i>로딩 중 입니다.</span>
         				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">다음 단계</a>
         			</div>		
         		</div>

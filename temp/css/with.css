@@ -1086,14 +1086,14 @@ body.fix .sub_layout {
 	height:100%;
 	overflow:auto;
 	overflow-y:scroll !important;
-	z-index:9999;
+	z-index:9000;
 }
 .f_modal_perant.open {
 	display:block;
 }
 .f_modal_layer.modal_fix {
 	position:static;
-	margin:0px auto !important;
+	margin:0 auto !important;
 }
 .f_modal_layer.modal_fix .f_modal_cont {
 	max-height:100%;
@@ -1111,7 +1111,7 @@ body.fix .sub_layout {
 	margin-left:-325px;
 	width:650px;
 	height:100%;
-	z-index:1000;
+	z-index:9100;
 }
 /* 팝업 사이즈 */
 .f_modal_layer.small {
@@ -1128,22 +1128,22 @@ body.fix .sub_layout {
 }
 /* 팝업 우선순위 */
 .f_modal_layer.z1 {
-	z-index:1000;
+	z-index:9100;
 }
 .f_modal_layer.z2 {
-	z-index:2000;
+	z-index:9200;
 }
 .f_modal_layer.z3 {
-	z-index:3000;
+	z-index:9300;
 }
 .f_modal_layer.z4 {
-	z-index:4000;
+	z-index:9400;
 }
 .f_modal_layer.z5 {
-	z-index:5000;
+	z-index:9500;
 }
 .f_modal_layer.z6 {
-	z-index:6000;
+	z-index:9600;
 }
 /* 팝업 그림자 */
 .f_modal_shadow .f_modal_area {
@@ -1161,7 +1161,7 @@ body.fix .sub_layout {
 	position:relative;
 	display:table-cell;
 	vertical-align:middle;
-	z-index:3000;
+	z-index:9000;
 }
 .f_modal_area {
 	background-color:#fff;
@@ -1208,6 +1208,23 @@ body.fix .sub_layout {
 	color:#7053FF;
 	padding:6px 0 0;
 }
+.f_modal_head h2 strong {
+	font-size:24px;
+	font-weight:400;
+	line-height:36px;
+	text-align:left;
+	color:#000;
+	vertical-align:middle;
+}
+.f_modal_head h2 ._msg {
+	display:inline-block;
+	font-size:12px;
+	line-height:18px;
+	color:#9B9B9B;
+	vertical-align:middle;
+	margin-left:20px;
+}
+.f_modal_head h2 ._msg.line_x2 {}
 
 .f_modal_head .date {
 	display:block;
@@ -1251,6 +1268,11 @@ body.fix .sub_layout {
 	position:relative;
 	max-height:600px;
 	z-index:1200;
+	overflow:auto;
+}
+body.fix .f_modal_cont {
+	max-height:100%;
+	overflow:hidden;
 }
 .f_modal_cont.big {
 	max-height:900px;
@@ -1390,6 +1412,9 @@ body.fix .sub_layout {
 }
 .modal_step .f_modal_btn {
 	padding-bottom:0 !important;
+}
+.modal_step .f_modal_btn .loading {
+	font-size:18px;
 }
 .modal_step .modal_step_list {
 	position:absolute;
@@ -1591,11 +1616,15 @@ body.fix .sub_layout {
 .f_modal_foot .f_modal_btn .msg i {
 	margin-right:5px;
 	line-height:20px;
+	color:#4a4a4a;
 }
 .f_modal_foot .f_modal_btn .msg em {
 	font-size:16px;
 	font-weight:600;
 	color:#f6a623;
+}
+.f_modal_foot .f_modal_btn .msg.loading {
+	color:#4a4a4a;
 }
 .f_modal_foot .f_modal_btn.btn_x2 {
 	text-align:left;
@@ -1807,7 +1836,7 @@ body.fix .sub_layout {
 /* MODAL POPUP */
 .madal_popup_area:hover > a {
 	position:relative;
-	z-index:9300 !important;
+	z-index:8300 !important;
 }
 .madal_popup_area:hover .modal_popup {
 	display:block;
@@ -1817,7 +1846,7 @@ body.fix .sub_layout {
 	position:absolute;
 	background-color:#fff;
 	text-align:center;
-	z-index:9200;
+	z-index:8000;
 	-moz-box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
 	-webkit-box-shadow: 20px 10px 0px rgba(0, 0, 0, 0.08);
 	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
@@ -4249,7 +4278,7 @@ body.fix .sub_layout {
 	position:relative;
 	font-size:0;
 	text-align:center;
-	margin:30px 0;
+	padding:30px 0;
 }
 .pager_type_a .pager_btn,
 .pager_type_a ol a {

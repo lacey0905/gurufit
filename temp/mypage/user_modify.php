@@ -1,72 +1,4 @@
 <style>
- .obt_cp_t {
-     margin-top: 0 !important;
- }
- .coupon_tab_info_count {
-     display: table;
-     width:100%;
-     border:solid 1px #ebebeb;
-     border-radius: 5px;
-     margin-bottom: 8px;
- }
- .coupon_tab_info_count li:first-child {
-     width:160px;
-     border-left:0;
- }
- .coupon_tab_info_count li:last-child {
-     width:125px;
- }
- .coupon_tab_info_count li {
-     display: table-cell;
-     widht: 33%;
-     border-left: dashed 1px #ebebeb;
- }
- .coupon_tab_info_count li .cp_price {
-     display:block;
-     color:#4a4a4a;
-     color: #4A4A4A;
-     font-size: 12px;	
-     font-weight: bold;	
-     line-height: 16px;	
-     text-align: center;
-     margin-top:12px;  								    	     
- }
- .coupon_tab_info_count .cp_title {
-     display:block;
-     color: #747474;	
-     font-size: 12px;	
-     font-weight: 500;	
-     line-height: 16px;	
-     text-align: center;
-     margin-bottom:14px;
- }
- .coupon_tab_info_count .cp_use_info {
-     display:block;
-     color: #747474;	
-     font-size: 12px;	
-     font-weight: 300;	
-     line-height: 16px;
-     text-align:left;
-     margin-left:8px;  								    	     
- }
- .coupon_tab_info_count .line {
-     text-decoration:underline;
- }
- .obt_cp_t .coupon_tab_info_count .cp_use_date {
-     display:inline-block;
-     color: #747474;	
-     font-size: 12px;	
-     font-weight: 300;	
-     line-height: 16px;	
-     text-align: center !important; 
-     margin-top:5px;
-     margin-left:10px; 								    	     
- }
- .service_list_table {
-    margin: 0 !important;
- }
-</style>
-<style>
 .service_list_table tbody td.box {
   border-left: 1px dashed #EBEBEB;
 }
@@ -186,7 +118,7 @@
 		</div>
 	</div>
 	<!-- 환불 계좌 정보 -->
-	<div class="f_modal_layer f_modal_shadow z6">
+	<div class="f_modal_layer f_modal_shadow z6 blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -320,7 +252,7 @@
 		</div>
 	</div>
 	<!-- 배송지 정보 입력 -->
-	<div class="f_modal_layer f_modal_shadow blind">
+	<div class="f_modal_layer f_modal_shadow">
 		<div class="f_modal_wrap">
     		<div class="f_modal_area">
         		<div class="f_modal_head">

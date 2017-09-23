@@ -325,7 +325,7 @@
 							<strong class="box_tit">쿠폰<a href="#" class="more">보유 쿠폰 보기</a></strong>
          					<div class="obtain_coupon_w">
         						<div class="obtain_coupon">
-        							<h4>보유 쿠폰 <span class="cic">5</span></h4>
+        							<h4>보유 쿠폰 <span class="cic">0</span></h4>
             						<div class="obt_coupon_top">
             							<div class="obt_coupon_tit">
             								<ul>
@@ -459,10 +459,9 @@
     						<a href="#" class="btn_ btn_x_s3 btn_cp btn_hover_shadow">새로운 상품평 등록</a>
     					</div>
     				</div>
-                    <!-- 					
                     <div class="review_box_list">
         				<ul>
-        					<li>
+        					<li class="my_review">
         						<div class="review_list_thum">
         							<a href="#"><img src="../img/review_thum_x100.png" alt="" class="thum"></a>
         							<span class="tit">구입한 날짜</span>
@@ -624,7 +623,7 @@
         			</div>
 					<div class="tab_cont_foot">
     					<a href="#" class="btn_ btn_x_m1 btn_hover_a">더보기</a>
-    				</div> -->
+    				</div>
     				<!-- 상품평이 없을떄 -->
     				<div class="null_cont_box ncb_line">
     					<strong class="null_cont_icon tbox_rnd_xng">100xp</strong>

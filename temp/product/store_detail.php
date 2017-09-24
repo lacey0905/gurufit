@@ -172,8 +172,8 @@
 					</div>
 					<div class="detail_cont">
 						<h2>
-							<span class="brand"><a href="#"><img src="../img/brand_sample_x44.png" alt="Nike"></a></span>
-							<strong class="name">NIKE Metcon DSX Flyknit</strong>
+							<span class="brand"><a href="#"><img src="../img/pony.png" alt="Nike"></a></span>
+							<strong class="name">나이키 메트콘 플ㄹ</strong>
 						</h2>
 						<dl class="icon_share_list">
 <!-- 							<dt><em>41</em> Shares</dt>
@@ -361,7 +361,7 @@
 						<div class="info_icon_area">
 							<ul>
 								<li>
-									<img src="../img/detail_icon_01.png" alt="">
+									<img src="../img/sample.svg" alt="">
 									<span>과내전 - 중립 내전</span>
 									<div class="info_detail_box">
 										<div class="box_inner">
@@ -1602,7 +1602,7 @@ $(function(){
         spaceBetween: 30,
         //mousewheelControl: true,
         loop:true,
-        width:700,
+        width:770,
         //freeMode: true,
         paginationBulletRender: function (swiper, index, className) {
 	        // Pager가 생성 될 때 배열의 이미지를 포함아여 생성 함

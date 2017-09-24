@@ -1,11 +1,304 @@
 /* MAIN */
+/* 메인 배너 슬라이드 타입 */
+
+
+.gauge_slide_banner {
+	position:relative;
+	max-width:2000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.gauge_slide_banner .tit  {
+	position:absolute;
+	top:24px;
+	left:50%;
+	width:450px;
+	padding-bottom:25px;
+	margin-left:-225px;
+	text-align:center;
+	font-size:30px;
+	font-family: 'texgyreadventorbold_italic';
+	font-weight:bold;
+	font-style:italic;
+	color:#fff;
+	line-height:46px;
+	z-index:1000;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	opacity:10;
+	letter-spacing:1px;	
+}
+/* 배너 타이틀 및 슬라이더 게이지 */
+.gauge_slide_banner .swiper-pagination {
+	position:absolute;
+	top:94px;
+	left:50%;
+	margin-left:-225px;
+	height:1px;
+	width:450px;
+	background-color:#fff !important;
+}
+.gauge_slide_banner .swiper-pagination:after {
+	content:"";
+	position:absolute;
+	top:-1px;
+	left:4px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #7053ff;
+	transform: rotate(-45deg);
+	z-index:100;
+}
+.gauge_slide_banner .swiper-pagination:before {
+	content:"";
+	position:absolute;
+	top:-7px;
+	right:4px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #fff;
+	transform: rotate(-230deg);
+	z-index:100;
+}
+.gauge_slide_banner .swiper-pagination.last:before {
+	border-color:#7053ff;
+}
+.gauge_slide_banner .swiper-pagination .swiper-pagination-progressbar {
+	background-color:#7053ff !important;
+}
+
+.gauge_slide_banner .swiper-slide {
+	overflow:hidden;
+}
+
+
+.gauge_slide_banner .tit .tit_arr_line {
+	position:absolute;
+	bottom:0;
+	display:block;
+	height:1px;
+}
+.gauge_slide_banner .tit .l_left {
+	left:0;
+	width:65%;
+	border-bottom:solid 1px #7053ff;
+}
+.gauge_slide_banner .tit .l_right {
+	right:0;
+	width:100%;
+	border-bottom:solid 1px #fff;
+}
+.gauge_slide_banner .tit .l_left:after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:3px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #7053ff;
+	transform: rotate(-45deg);
+	z-index:100;
+}
+.gauge_slide_banner .tit .l_right:after {
+	content:"";
+	position:absolute;
+	top:-7px;
+	right:3px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #fff;
+	transform: rotate(-230deg);
+	z-index:100;
+}
+/* 배너 텍스트 박스 */
+.gauge_slide_banner figure {
+	position:relative;
+	width:100%;
+	/*
+	float:left;
+	*/
+}
+.gauge_slide_banner figure img {
+	display:block;
+	width:100%;
+	vertical-align:top;
+}
+.gauge_slide_banner figcaption {
+	width:293px;
+	background-color:#fff;
+	padding:25px 30px;
+	/*
+	-moz-box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 20px 10px 0px rgba(0, 0, 0, 0.08);
+	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
+	*/
+	z-index:1000;
+}
+.gauge_slide_banner .bnr_left figcaption {
+	position:absolute;
+	bottom:50px;
+	right:40px;
+	opacity:0.8;
+}
+.gauge_slide_banner .bnr_right figcaption {
+	position:absolute;
+	top:160px;
+	left:40px;
+	opacity:0.8;
+}
+.gauge_slide_banner figcaption h3 {
+	font-size:14px;
+	font-weight:400;
+	color:#000;
+}
+.gauge_slide_banner figcaption h4 {
+	margin-top:15px;
+}
+.gauge_slide_banner figcaption h4,
+.gauge_slide_banner figcaption h4 a {
+	font-size:20px;
+	font-weight:400;
+	color:#000;
+	line-height:27px;
+}
+.gauge_slide_banner figcaption p,
+.gauge_slide_banner figcaption p em,
+.gauge_slide_banner figcaption p {
+	font-size:12px;
+	color:#9b9b9b;
+}
+.gauge_slide_banner figcaption p {
+	margin-top:15px;
+	color:#9b9b9b;
+	line-height:18px;
+}
+.gauge_slide_banner figcaption p em {
+	color:#4a4a4a;
+}
+.gauge_slide_banner figcaption p strong {
+	display:block;
+	font-size:14px;
+	font-weight:400;
+	color:#4a4a4a;
+	line-height:20px;
+	margin-top:10px;
+}
+.gauge_slide_banner figcaption .hash {
+	display:block;
+	font-size:14px;
+	color:#bbb;
+	margin-top:20px;
+}
+.gauge_slide_banner figcaption a:hover {
+	text-decoration:underline;
+}
+
+
+
+
 /* 메인 배너 */
 .bnr_box_type {
 	max-width:2000px;
 	margin:0 auto;
 }
+.bnr_box_type ul {
+	overflow:hidden;
+}
+.bnr_box_type li {
+	position:relative;
+}
+.bnr_box_type li h2 {
+	position:absolute;
+	top:24px;
+	left:50%;
+	width:450px;
+	padding-bottom:25px;
+	margin-left:-225px;
+	text-align:center;
+	font-size:30px;
+	font-family: 'texgyreadventorbold_italic';
+	font-weight:bold;
+	font-style:italic;
+	color:#fff;
+	line-height:46px;
+	z-index:1000;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	opacity:10;
+	letter-spacing:1px;	
+}
+.bnr_box_type li h2 .tit_arr_line {
+	position:absolute;
+	bottom:0;
+	display:block;
+	height:1px;
+}
+.bnr_box_type li h2 .l_left {
+	left:0;
+	width:65%;
+	border-bottom:solid 1px #7053ff;
+}
+.bnr_box_type li h2 .l_right {
+	right:0;
+	width:100%;
+	border-bottom:solid 1px #fff;
+}
+.bnr_box_type li h2 .l_left:after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:4px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #7053ff;
+	transform: rotate(-45deg);
+}
+.bnr_box_type li h2 .l_right:after {
+	content:"";
+	position:absolute;
+	top:-7px;
+	right:4px;
+	width:1px;
+	height:10px;
+	border-left:solid 1px #fff;
+	transform: rotate(-230deg);
+}
+.bnr_box_type li figure {
+	position:relative;
+	width:50%;
+	float:left;
+}
+.bnr_box_type figure img {
+	display:block;
+	width:100%;
+	vertical-align:top;
+}
+.bnr_box_type figcaption {
+	width:293px;
+	background-color:#fff;
+	padding:25px 30px;
+	-moz-box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
+	-webkit-box-shadow: 20px 10px 0px rgba(0, 0, 0, 0.08);
+	box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.08);
+}
+.bnr_box_type .bnr_left figcaption {
+	position:absolute;
+	bottom:50px;
+	right:40px;
+}
+.bnr_box_type .bnr_right figcaption {
+	position:absolute;
+	top:160px;
+	left:40px;
+}
+
+/* MAIN */
+/* 메인 배너 */
+/**
 .bnr_box_type {
-	/*overflow:hidden;*/
+	max-width:2000px;
+	margin:0 auto;
+}
+.bnr_box_type {
+	/*overflow:hidden;*
 }
 .bnr_box_type {
 	position:relative;
@@ -78,7 +371,7 @@
 	position:relative;
 	/*
 	width:50%;
-	*/
+	*
 	width:100%;
 	float:left;
 }
@@ -87,6 +380,7 @@
 	width:100%;
 	vertical-align:top;
 }
+*/
 .bnr_box_type figcaption {
 	width:293px;
 	background-color:#fff;
@@ -111,11 +405,14 @@
 	color:#000;
 }
 .bnr_box_type figcaption h4 {
+	margin-top:15px;
+}
+.bnr_box_type figcaption h4,
+.bnr_box_type figcaption h4 a {
 	font-size:20px;
 	font-weight:400;
 	color:#000;
 	line-height:27px;
-	margin-top:15px;
 }
 .bnr_box_type figcaption p,
 .bnr_box_type figcaption p em,

@@ -8,11 +8,11 @@
 
 <script>
 $(function(){
-	setFixModal($("#addrSch"));
+	//setFixModal($("#addrSch"));
 });
 </script>
 
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -636,36 +636,18 @@ $(function(){
 		<h3 class="tit_sub_a">02 주문/결제</h3>
 		
 		<div class="prd_list_type add_sel_type">
-		  		<div id="" class="set_select select_design_a select_design_mid sel_small_right">
-                	<strong class="box">전체검색</strong>
-                	<ul class="select_list">
-                		<li><a href="#none" data-value="1">리스트1</a></li>
-                		<li><a href="#none" data-value="2">리스트2</a></li>
-                	</ul>
-                </div>
-		
-  	<!-- 	<div class="sel_custom ord_select">
-
-				<select class="sel_mid">
-                    <option>쿠폰 적용하지 않음</option>
-                    <option>50% 구루~구루~구루핏 추석선물</option>
-                    <option><del>10% 스니커즈 할인</del><span>이 쿠폰을 적용할 수 없습니다.</span></option>
-                    <option>8% 2017 시즌 마감 세일</option>
-				</select> -->
-			<!-- 	<dl class="tit_opt select_sort">
-                    <dt>할인 쿠폰</dt>
-    				<dd>
-    					<div class="sel_custom sel_nm_box sel_mid">
-    						<select class="sel_mid">
-                                <option>쿠폰 적용하지 않음</option>
-                                <option>50% 구루~구루~구루핏 추석선물</option>
-                                <option>10% 스니커즈 할인 <span class="non_cp">이 쿠폰을 적용할 수 없습니다</span></option>
-                                <option class="">8% 2017 시즌 마감 세일</option>
-    						</select>
-    					</div>
-    				</dd>
-    			</dl>				
-			</div>	-->
+	  		<div class="discount_cp_wrapper">
+				<span class="discount_cp_tit">할인 쿠폰</span>
+				<div id="discount_cp" class="set_select select_design_b">
+					<strong class="box">할인 쿠폰</strong>
+					<ul class="select_list">
+						<li><a href="#none" data-value="1">쿠폰 적용하지 않음</a></li>
+						<li><a href="#none" data-value="2">50% 구루~ 구루~ 구루핏 추석선물</a></li>
+						<li><a href="#none" data-value="3"><del>10% 스니커즈 할인</del><span>이 쿠폰을 적용할 수 없습니다</span></a></li>
+						<li><a href="#none" data-value="4">8% 2017 시즌 마감 세일</a></li>
+					</ul>
+				</div>
+			</div>
 			<table class="prd_list_a">
 				<caption class="blind">장바구니</caption>
 				<colgroup>

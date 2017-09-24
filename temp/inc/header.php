@@ -123,6 +123,9 @@
                         pagination: '#cartSlide .swiper-pagination',
                         paginationClickable: true,
                         slidesPerColumn: 2,
+                        nextButton: '.swiper-button-next',
+                        prevButton: '.swiper-button-prev',
+                        simulateTouch:false,
                     });
                 });
             </script>
@@ -229,6 +232,8 @@
                             			</li>
                             		</ul>
                             		<div class="swiper-pagination"></div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
                         		</div>
                         		<p class="guide">
                         			Gold Ⅲ 등업이 얼마 남지 않았어요!<br>
@@ -390,10 +395,3 @@
 		</div>
 	</section>
 </header>
-<script>
-    var cartSlide = new Swiper('#relatedProduct', {
-        paginationClickable: true,
-        nextButton: '.swiper-button-next',
-        prevButton: '.swiper-button-prev',
-    });
-</script>

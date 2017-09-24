@@ -1,40 +1,3 @@
-<style>
- .cart_result {
-  margin-top:43px;
- }
- .cart_result .before_coupon_txt {
-  color: #8F8F8F;	
-  font-family: SpoqaHanSans;	
-  font-size: 14px;	
-  font-weight: normal;	
-  line-height: 40px;
- }
- .cart_result .before_coupon_txt strong {
-  color: #8F8F8F;	
-  font-family: SpoqaHanSans;	
-  font-size: 14px;	
-  font-weight: bold;	
-  line-height: 40px;		 
- }
- /*멤버십 백그라운드 이미지*/
-  .user_level_x6 {
-	padding:11px 0 9px;
-	background:url(../img/user_level_bg.png) no-repeat;
-}
-/*장바구니 영역 밑에 라인 추가*/
-.cart_b_line {
-    border-bottom: 1px solid #E1E1E1;
-}
-/*배송 예정일 텍스트 추가*/
-.due_dt {
-	display:block;
-	color: #BBBBBB;
-	font-size: 12px;	
-	line-height: 20px;
-	margin-top:7px;
-}         
-</style>
-	
 <?php include "../inc/header.php" ?>
 <section class="sub_layout">
 	<div class="sub_locate">
@@ -87,11 +50,11 @@
    							</span>
 						</td>
 						<td class="cont">
-							<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
-							<strong class="name">Nike Metcon DSX Flyknit</strong>
+							<span class="brand"><img src="../img/pony_m.png" alt="나이키" ></span>
+							<strong class="name">나이키 메트콘 플라이니트</strong>
 							<dl class="opt">
 								<dt>컬러 : </dt>
-								<dd>Green</dd>
+								<dd>초록색</dd>
 								<dt>사이즈 : </dt>
 								<dd>230</dd>
 								<dt>수량 : </dt>
@@ -104,8 +67,8 @@
 							</div>
 						</td>
 						<td class="price">
-							<del class="customer">99,000 원</del>
-							<strong class="sell_price">89,100 원</strong>
+							<del class="customer">99,000원</del>
+							<strong class="sell_price">89,100원</strong>
 						</td>
 					</tr>
 				</tbody>
@@ -118,7 +81,7 @@
 			</div>
 		</div>
 		<div class="cart_result">
-			<span class="before_coupon_txt"><strong>할인 · 쿠폰 적용 전 가격</strong>  멤버십 할인 및 쿠폰은 주문하기 페이지에서 적용할 수 있습니다.</span>
+			<span class="before_coupon_txt"><strong>할인 및 쿠폰 적용 전 가격</strong>  멤버십 할인 및 쿠폰은 주문하기 페이지에서 적용할 수 있습니다.</span>
 			<div class="coupone_select_list">
 			</div>
 			<div class="order_result_box">
@@ -176,7 +139,7 @@
    							</span>
 						</td>
 						<td class="cont">
-							<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
+							<span class="brand"><img src="../img/superga_m.png" alt="나이키" ></span>
 							<strong class="name">Nike Metcon DSX Flyknit</strong>
 							<dl class="opt">
 								<dt>컬러 : </dt>

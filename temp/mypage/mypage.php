@@ -718,7 +718,8 @@
     				nav : $('.dash_tab_wrap .tab_nav'),
     				auto: false
     			});
-				// FUN 뱃지 커스텀 스크롤 JS
+				// FUN 뱃지 커스텀 스크롤 JS0
+				
     			$(".fun_badge_list").mCustomScrollbar();
     		});
 		</script>

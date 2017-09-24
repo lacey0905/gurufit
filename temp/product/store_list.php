@@ -7,7 +7,7 @@
     팝업의 그림자가 모든 팝업에 1개만 적용 되어야 하기 때문에  [f_modal_perant] 앨리먼트를 별도로 껏다켰다를 반복 해야 합니다.
     따라서 팝업이 1개 이상 보여져야 할 경우에는   [f_modal_perant] 앨리먼트에 [open] 클래스를 추가 합니다.
 -->
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -26,31 +26,77 @@
         			</h2>
         			<a href="#" class="btn_close">Close</a>
         		</div>
-        		<div class="f_modal_cont">
-        			<div class="point_modal_pop">
-        				<strong class="msg">
-        					구루핏 추천 포인트는, <em>김하영</em>님의 활동을 바탕으로 한 관심 키워드와<br>
-							상품이 얼마나 잘 맞는지를 수치로 나타낸 것입니다.
-        				</strong>
-        				<div style="margin:100px;" class="radar_chart_a">
-                        	<canvas id="myChart"></canvas>
-                        	<strong class="chart_total">78<span>%</span></strong>
-                        	<ul class="chart_label"></ul>
-                        </div>
-        			
-        			</div>
-        		</div>
+        		<div class="radar_chart_area">
+            		<div class="radar_chart_set">
+            			<div class="radar_prd">
+            				<div class="tit">
+            					<strong class="name">김하영</strong>
+            					<span>님의 추천 상품</span>
+            				</div>
+            				<article class="custom_prd prd_type_b">
+        						<figure>
+        	    					<span class="thum">
+        	    						<a href="#">
+        	    							<img src="../img/store_sample_230x160.png" alt="샘플상품">
+            							</a>
+           							</span>
+           							<!-- 별점 리스트  [star_on] 노란색 별, [star_off] 회색별 -->
+        	    					<div class="rating">
+        	    						<strong class="star_rating">
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_on"></i>
+        	    							<i class="star_off"></i>
+        	   							</strong>
+        	    						<span class="cnt">(29)</span>
+        	    						<span class="like">74</span>
+        	    					</div>
+        	    					<figcaption>
+        	    						<span class="subject">NIKE FREE 5.0</span>
+        	    						<span class="price">
+        	    							<strong class="sell_price">89,100<em>원</em></strong>
+        	    							<del class="customer_price">99,000원</del>
+        	    						</span>
+        	    					</figcaption>
+        						</figure>
+    						</article>
+    						<ul class="opt_tag">
+    							<li><a href="#">#나이키</a></li>
+    							<li><a href="#">#아디다스</a></li>
+    							<li><a href="#">#도심</a></li>
+    							<li><a href="#">#편안함</a></li>
+    							<li><a href="#">#데일리</a></li>
+    							<li><a href="#">#부스트</a></li>
+    						</ul>
+            			</div>
+            		</div>
+            		<div class="radar_chart_a">
+                    	<canvas id="myChart"></canvas>
+                    	<strong class="chart_total">78<span>%</span></strong>
+                    	<ul class="chart_label"></ul>
+                    </div>
+                    <div class="pager">
+                    	<a href="#" class="prev"></a>
+                		<ul>
+                			<li class="current">5</li>
+                			<li>/</li>
+                			<li>10</li>
+                		</ul>
+                    	<a href="#" class="next"></a>
+                    </div>
+                </div>
     		</div>
 		</div>
 	</div>
+	<!-- 모달 팝업 그림자 -->
+	<div class="f_modal_blind"></div>
 </div>
 <!-- 모달 팝업 END -->
 <!-- /////// -->
 
-
 <script>
-
-// 차트 데이터 삽입
+// 차트 데이터 삽입 함수
 function addData(chart, label, data) {
     chart.data.labels.push(label);
     chart.data.datasets.forEach((dataset) => {
@@ -95,13 +141,12 @@ var myChart = new Chart(ctx, {
     options: options
 });
 
-//차트 데이터
-var chatLabel = ["#아디다스", "#데일리", "#부스트", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심"];
-var chartData = [100, 100, 90, 90, 90, 90];
-var chartTotal = "78%";
+//차트 입력 데이터 -> 12시 부터 시계방향으로 입력 됨
+var chatLabel = ["#아디다스", "#데일리", "#부스트", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심", "#옹심"]; // 태그
+var chartData = [97, 74, 83, 78, 65, 82]; // 태그별 퍼센트
+var chartTotal = "78%"; // 가운데 퍼센트
 
-
-// 데이터 삽입
+// 데이터 삽입 실행
 for(var i=0; i < chartData.length; i++){
 	addData(myChart, chatLabel[i], chartData[i]);
 
@@ -112,9 +157,6 @@ for(var i=0; i < chartData.length; i++){
 	chartElem.parent().find(".chart_label").append(html);
 }
 </script>
-
-
-
 
 <section class="sub_layout">
 	<div class="sub_locate">

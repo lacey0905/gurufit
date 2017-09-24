@@ -672,7 +672,9 @@
 	margin-right:45px;
 }
 .prd_list_a .thum {
+	/*
 	padding:23px 0;
+	*/
 }
 .prd_list_a.mid .thum {
 	padding:5px 0;
@@ -699,8 +701,9 @@
 }
 .prd_list_a .cont .brand img {
 	display:block;
-	width:45px;
-	height:25px;
+	width:60px;
+	height:27px;
+	margin-left:-2px;
 }
 .prd_list_a .cont .brand.v2 {
 	margin-top:40px;
@@ -712,7 +715,7 @@
 	text-align:left;	
 	color:#000;
 	line-height:29px;
-	margin-top:10px;
+	margin-top:5px;
 }
 .prd_list_a .cont .date {
 	display:block;
@@ -741,7 +744,7 @@
 .prd_list_a .cont .opt {
 	display:inline-block;
 	max-width:80%;
-	margin-top:5px;
+	margin-top:3px;
 }
 .prd_list_a .cont .opt dt,
 .prd_list_a .cont .opt dd {
@@ -752,7 +755,8 @@
 	line-height:20px;
 }
 .prd_list_a .cont .opt dd {
-	margin-right:15px;
+	margin-right:10px;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_a .cont .opt dd a {
 	margin:0 9px;
@@ -802,11 +806,12 @@
 	margin-top:5px;
 }
 .prd_list_a .cont .btn_del {
-	margin:30px 0 0px;
+	margin:30px 0 15px;
 }
 .prd_list_a .cont .btn_del a {
 	display:block;
 	font-size:14px;
+	font-weight:100;
 	color:#aaa;
 	text-align:left;
 	line-height:20px;
@@ -819,14 +824,17 @@
 .prd_list_a .price .sell_price {
 	display:block;
 	font-size:20px;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_a .price .customer {
 	font-weight:300;
 	color:#9b9b9b;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_a .price .sell_price {
 	font-weight:600;
 	color:#000;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_control {
 	margin-top:36px;

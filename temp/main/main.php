@@ -1,16 +1,343 @@
 <?php include "../inc/header.php" ?>
 
 <script>
+$(function(){
+
+	var hei = $(".gauge_slide_banner figure img").height();
+
+	$("#dualTopSlide").height(hei);
+	
+	var slideElem = $('#dualTopSlide #front');
+	var mainBanner = new Swiper(slideElem, {
+		 pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+      //  mousewheelControl: true,
+        parallax: true,
+        initialSlide:0,
+        speed:1000,
+        autoHeight:true,
+        loop:true,
+        simulateTouch:false,
+        autoHeight:true,
+    });
+
+	var slideElem2 = $('#dualTopSlide #back');
+	
+	var mainBanner2 = new Swiper(slideElem2, {
+		 pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+      //  mousewheelControl: true,
+        parallax: true,
+        initialSlide:2,
+        speed:1000,
+        autoHeight:true,
+        loop:true,
+        simulateTouch:false,
+        autoHeight:true,
+    });	
+    /*
+	setInterval(function(){
+		mainBanner.slideNext();
+		mainBanner2.slidePrev();
+	}, 5000);
+	*/
+
+	$("#dualTopSlide").height("auto");
+
+	mainBanner.onResize ();
+	
+	var bnrHei = 0;
+	$(window).resize(function(){
+		
+		
+	});
+
+});
+
+</script>
+
+<style>
+    #dualTopSlide {
+    }
+    #dualTopSlide > .swiper-container {
+        width:50%;
+        float:left;
+    }
+    #dualTopSlide .swiper-slide {
+     position:relative;
+        overflow:hidden;
+    }
+    #dualTopSlide figcaption {
+    }
+</style>
+
+<!-- 
+<script>
     $(function(){
-    	var mainBanner = new Swiper('#main .bnr_box_type', {
+
+    	// 설치 할 슬라이드 엘리먼트
+		var slideElem = $('#mainTopSlide .swiper-container');
+    	var currentIndex = 0; // 현재 슬라이드 인덱스
+    	var slideLength = slideElem.find(".swiper-slide").length - 1; // 슬라이드 전체 갯수
+    	// 슬라이드가 마지막 인지 검사
+		var slideLast = function(cur, length){
+			if(currentIndex >= slideLength){
+				$("#mainTopSlide .swiper-pagination").addClass("last");
+            }
+		}
+		// 슬라이드가 마지막이 아닐 경우 검사
+		var slideNotLast = function(cur, length){
+			if(currentIndex < slideLength){
+            	$("#mainTopSlide .swiper-pagination").removeClass("last");
+            }
+		}
+		// 슬라이드 인덱스 갱신
+		var setCurrentIdx = function(cur){
+			currentIndex = cur + 1;
+		} 
+    	var mainBanner = new Swiper(slideElem, {
             //pagination: '#cartSlide .swiper-pagination',
             paginationClickable: true,
             slidesPerView: 2,
+            pagination: '#mainTopSlide .swiper-pagination',
+            paginationType: 'progress',
+            resistanceRatio:0,
+            //loop:true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            parallax: true,
+            speed:1000,
+            onInit(swiper){
+            	// 인덱스 갱신
+            	setCurrentIdx(swiper.realIndex);
+				// 마지막이 아닌지 체크
+				slideNotLast(currentIndex, slideLength);
+            },
+            onTransitionStart(swiper){
+            	// 인덱스 갱신
+            	setCurrentIdx(swiper.realIndex);
+            	// 마지막이 아닌지 체크
+            	slideNotLast(currentIndex, slideLength);
+
+            	console.log("current : " + currentIndex + " / " + "length : " + slideLength);
+            },
+            onTransitionEnd(swiper){
+                // 마지막 슬라이드 인지 체크
+            	slideLast(currentIndex, slideLength);
+            },
         });
     });
 </script>
-
+ -->
 <section id="main">
+
+	<div id="dualTopSlide" class="gauge_slide_banner">
+		<div class="tit">
+			Featured Contents
+			<span class="tit_arr_line l_left"></span>
+			<span class="tit_arr_line l_right"></span>
+		</div>
+		<div id="front" class="swiper-container">
+    		<ul class="swiper-wrapper">
+    			<li class="swiper-slide">
+    				<figure class="bnr_left">
+    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="-600" data-swiper-parallax-duration="600">
+    						<h3>룩북</h3>
+    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_left">
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="-600" data-swiper-parallax-duration="600">
+    						<h3>룩북</h3>
+    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    		</ul>
+		</div>
+		<div id="back" class="swiper-container">
+    		<ul class="swiper-wrapper">
+    			<li class="swiper-slide">
+    				<figure class="bnr_right">
+    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="-1000" data-swiper-parallax-duration="600">
+    						<h3>룩북</h3>
+    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_right">
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="-1000"  data-swiper-parallax-duration="600">
+    						<h3>룩북</h3>
+    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_right">
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="-1000"  data-swiper-parallax-duration="600">
+    						<h3>룩북</h3>
+    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    		</ul>
+		</div>
+	</div>
+
+<!-- 
+	<div id="mainTopSlide" class="gauge_slide_banner">
+		<div class="swiper-container">
+			<div class="tit">
+    			Featured Contents
+    			<!-- 
+    			<span class="tit_arr_line l_left"></span>
+    			<span class="tit_arr_line l_right"></span>
+    			 --
+    		</div>
+    		<div class="swiper-pagination"></div>
+    		<!-- Add Arrows --
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    		<ul class="swiper-wrapper">
+    			<li class="swiper-slide">
+    				<figure class="bnr_left">
+    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption  data-swiper-parallax-duration="600">
+							<h3>룩북</h3>
+							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_right">
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
+							<h3>룩북</h3>
+							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_left">
+    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" data-swiper-parallax="0" />
+    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
+							<h3>룩북</h3>
+							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    			<li class="swiper-slide">
+    				<figure class="bnr_right">
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" data-swiper-parallax="0"/>
+    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
+							<h3>룩북</h3>
+							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    					</figcaption>
+    				</figure>
+    			</li>
+    		</ul>
+		</div>
+	</div>
+-->
+
+
+	<article class="bnr_box_type blind">
+		<ul>
+			<li>
+				<h2>
+					Featured Contents
+					<span class="tit_arr_line l_left"></span>
+					<span class="tit_arr_line l_right"></span>
+				</h2>
+				<figure class="bnr_left">
+					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+							<h3>룩북</h3>
+							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
+							<p>
+								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+								<strong>바타를 발라버려.</strong>
+							</p>
+							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+				<figure class="bnr_right">
+					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+					<figcaption>
+						<a href="#">
+    						<h3>룩북</h3>
+    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
+    						<p>
+    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
+    							<strong>바타를 발라버려.</strong>
+    						</p>
+    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+						</a>
+					</figcaption>
+				</figure>
+			</li>
+		</ul>
+	</article>
+	<!-- 
 	<article class="bnr_box_type swiper-container">
 		<h2>
 			Featured Contents
@@ -84,6 +411,7 @@
 			</li>
 		</ul>
 	</article>
+	 -->
 	<article class="custom_inner custom_prd prd_type_a">
 		<h2>Recommanded Contents</h2>
 		<ul class="x4">

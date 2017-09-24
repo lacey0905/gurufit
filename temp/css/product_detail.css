@@ -16,7 +16,7 @@
 	bottom:0;
 	left:0;
 	display:inline-block;
-	width:700px;
+	width:770px;
 	height:100%;
 	vertical-align:middle;
 }
@@ -24,7 +24,7 @@
 	position:relative;
 	display:inline-block;
 	width:335px;
-	padding-left:700px;
+	padding-left:770px;
 	vertical-align:middle;
 	margin-top:40px;
 }
@@ -38,6 +38,7 @@
 	vertical-align:top;
 	width:125px;
 	height:70px;
+	margin-left:-5px;
 }
 .detail_cont h2 .name {
 	display:block;
@@ -1751,6 +1752,8 @@
 	font-weight: 300;	
 	line-height: 24px;
 	padding:5px 0 5px 20px;
+	background-color:#fff;
+	z-index:100;
 }
 .spec_view_product_spec_area ul > li:hover .spec_view_tip_buble:before {
     top:50%;

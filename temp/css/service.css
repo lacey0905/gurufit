@@ -786,3 +786,42 @@
 	text-align: right;
 }
 
+.service_info_wrapper {
+    margin-top:48px;
+}
+.service_info_area {
+    display:inline-block;
+    margin-bottom:89px;
+}
+.service_info_area:after {
+    content:"";
+    display:inline-block;
+    clear:both;
+}
+.service_info_area > dt {
+    display:inline-block;
+    width:472px;
+    float:left;
+    color: #000000 ;    
+    font-size: 30px;    
+    font-weight: 300;    
+    line-height: 50px;                        
+}
+.service_info_area > dd {
+    display:inline-block;
+    float:left;
+    color: #4A4A4A ;        
+    font-size: 14px;    
+    font-weight: 300;    
+    line-height: 20px;    
+    text-align: justify;                        
+}
+.service_info_area > dd > span {
+    display:inline-block;
+    margin-top:20px;
+    font-weight:bold;
+    color: #4A4A4A ;        
+    font-size: 16px;        
+    line-height: 20px;    
+    text-align: justify;                        
+}

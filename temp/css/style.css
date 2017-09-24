@@ -22,9 +22,6 @@
 .sub_locate dl.locate_list dd {
 	display:inline-block;
 }
-.sub_locate dl.locate_list dd a:hover {
-	background-color:red;
-}
 .sub_locate dl.locate_list a {
 	font-size:14px;
 	/*
@@ -551,7 +548,7 @@
 }
 .vertical_swiper .swiper-slide img {
 	display:block;
-	width:600px;
+	width:670px;
 	margin:0 30px 0 70px;
 }
 .vertical_swiper .swiper-slide[data-swiper-slide-index="0"] .slide_img:after {
@@ -1662,7 +1659,7 @@
 /* 결제 정보 박스 */
 .order_result_box {}
 .order_result_box .result_box_a {
-	padding:16px 45px 16px 30px;
+	padding:16px 30px 16px 30px;
 	background-color:#f9f9f9;
 	overflow:hidden;
 }
@@ -1677,12 +1674,14 @@
 	width:100px;
 	line-height:40px;
 	text-align:right;
-	font-size:16px;
+	font-size:14px;
 	color:#f6a623;
 	float:left;
 }
 .order_result_box .result_box_a dd.price {
 	color:#4a4a4a;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+	font-size:20px;
 }
 
 .result_box_mix {
@@ -1763,12 +1762,14 @@
 }
 .order_result_box .total_price .total {
 	display:block;
-	width:50%;
+	width:30%;
 	font-size:30px;
 	font-weight:400;
 	color:#000;
 	text-align:right;
 	float:right;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+	padding-right:8px;
 }
 
 
@@ -3623,17 +3624,16 @@
 }
 .cart_result .before_coupon_txt {
 	color: #8F8F8F;
-	font-family: SpoqaHanSans;
 	font-size: 14px;
-	font-weight: normal;
+	font-weight: 100;
 	line-height: 40px;
 }
 .cart_result .before_coupon_txt strong {
 	color: #8F8F8F;
-	font-family: SpoqaHanSans;
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 40px;
+	margin-right:5px;
 }
 
 /* 주문 페이지 */
@@ -4692,8 +4692,10 @@
 	display:block;
 	color: #BBBBBB;
 	font-size: 12px;	
+	font-weight:100;
 	line-height: 20px;
 	margin-top:7px;
+	
 }
 .btn_order_submit .btn_head span em {
   color:#484848;
@@ -4882,7 +4884,118 @@
     font-weight:400;
 }
 
+.radar_chart_area {
+	position:relative;
+}
+/* 레이터 팝업 페이저 */
+.radar_chart_area .pager {
+	position:absolute;
+	top:20px;
+	right:30px;
+}
+.radar_chart_area .pager > a,
+.radar_chart_area .pager > ul,
+.radar_chart_area .pager > ul li {
+	display:inline-block;
+	vertical-align:top;
+	line-height:24px;
+}
+.radar_chart_area .pager > ul li {
+	vertical-align:top;
+	font-size:16px;
+	font-weight:300;
+	line-height:24px;
+	color:#ddd;	
+}
+.radar_chart_area .pager > ul .current {
+	color:#4A4A4A;
+	font-weight:400;
+}
+.radar_chart_area .pager .prev:after,
+.radar_chart_area .pager .next:after {
+	content:"";
+	display:block;
+	font-family:'Material Icons';
+	font-size:24px;
+	font-weight:100;
+	color:#ddd;
+	margin:0 3px;
+}
+.radar_chart_area .pager .prev:after {
+	content:"\E408";
+}
+.radar_chart_area .pager .next:after {
+	content:"\E409";
+}
 
+.radar_chart_area .radar_chart_a {
+	position:absolute;
+	top:50%;
+	right:-25px;
+	bottom:auto;
+	margin-top:-110px;
+}
+
+.radar_chart_set {
+	position:relative;
+	width:260px;
+	padding:20px 30px 35px;
+	text-align:left;
+}
+.radar_chart_set .radar_prd {}
+.radar_chart_set .radar_prd .tit {
+	font-size:18px;
+	font-weight:300;
+	color:#9B9B9B;
+	line-height:27px;
+}
+.radar_chart_set .radar_prd .tit .name {
+	color:#000;
+	font-weight:400;
+}
+.radar_chart_set .custom_prd {
+	padding:20px 5px;
+}
+.radar_chart_set figure {
+	margin:0;
+}
+.radar_chart_set figure .thum img {
+	margin:0;
+}
+.radar_chart_set .rating strong,
+.radar_chart_set .rating .cnt {
+	vertical-align:top;
+	line-height:24px;
+}
+.radar_chart_set figcaption {
+	margin:0;
+}
+.radar_chart_set figcaption .subject {
+	font-size:17px;
+	font-weight:500;
+}
+.radar_chart_set .prd_type_b figcaption .price del {
+	margin-left:15px;
+}
+.radar_chart_set .opt_tag {
+	font-size:0;
+	text-align:center;
+}
+.radar_chart_set .opt_tag li {
+	display:inline-block;
+	margin:3px;
+}
+.radar_chart_set .opt_tag li a {
+	display:block;
+	background-color:#ECECF3;
+	border-radius:4px;
+	width:80px;
+	height:27px;
+	line-height:27px;
+	text-align:center;
+	color:#747474;
+	font-size:14px;
+}
 
 
 /* 회원정보 수정에서 추가 */
@@ -4953,3 +5066,38 @@
     margin: 0 !important;
  }
 
+
+
+/* 장바구니에서 추가 */
+.cart_result {
+ margin-top:43px;
+}
+.cart_result .before_coupon_txt {
+ color: #8F8F8F;	
+ font-size: 14px;	
+ font-weight: 100;	
+ line-height: 40px;
+}
+.cart_result .before_coupon_txt strong {
+ color: #8F8F8F;	
+ font-size: 14px;	
+ font-weight: bold;	
+ line-height: 40px;		 
+}
+/*멤버십 백그라운드 이미지*/
+  .user_level_x6 {
+	padding:11px 0 9px;
+	background:url(../img/user_level_bg.png) no-repeat;
+}
+/*장바구니 영역 밑에 라인 추가*/
+.cart_b_line {
+    border-bottom: 1px solid #E1E1E1;
+}
+/*배송 예정일 텍스트 추가*/
+.due_dt {
+	display:block;
+	color: #BBBBBB;
+	font-size: 14px;	
+	line-height: 20px;
+	margin-top:9px;
+} 

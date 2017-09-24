@@ -26,6 +26,7 @@
 }
 
 
+
 /* HEADER */
 #header {}
 #header img {
@@ -100,12 +101,41 @@
 	right:-31px;
 }
 
+.cart_pop .swiper-pagination {
+	position:static;
+}
 .cart_pop .swiper-pagination-bullet {
 	background-color:#D8D8D8 !important;
 }
 .cart_pop .swiper-pagination-bullet.swiper-pagination-bullet-active {
 	background-color:#7053FF !important;
 }
+.cart_pop .swiper-button-next,
+.cart_pop .swiper-button-prev {
+	background:none;
+	position:absolute;
+	bottom:30px;
+	top:auto;
+	z-index:100;
+}
+.cart_pop .swiper-button-next:after,
+.cart_pop .swiper-button-prev:after {
+	content:"";
+	font-family:'Material Icons';
+	font-size:26px;
+	color:#000;
+}
+.cart_pop .swiper-button-next {
+}
+.cart_pop .swiper-button-prev {
+}
+.cart_pop .swiper-button-next:after {
+	content:"\E409";
+}
+.cart_pop .swiper-button-prev:after {
+	content:"\E408";
+}
+
 
 /* LNB */
 #header #lnb {
@@ -174,6 +204,7 @@
 	position:absolute;
 	top:20px;
 	right:0;
+	z-index:7000;
 }
 #lnb #lnbOpt h2 {
 	display:inline-block;
@@ -190,9 +221,11 @@
 	margin-left:20px;
 }
 .profile_icon_toggle {
+	position:relative;
 	display:inline-block;
 	vertical-align:middle;
 	margin-left:20px;
+	z-index:300;
 }
 .profile_icon_toggle .profile_label {
     display:block;
@@ -229,6 +262,7 @@
 	box-sizing:content-box;
 }
 .lnbSearch input.search_inp {
+	position:relative;
 	display:inline-block;
 	font-size:16px;
 	font-weight:400;
@@ -246,7 +280,7 @@
 	margin-right:-45px;
 	border-bottom:1px solid #ebebeb;
 	background:none;
-	
+	z-index:90;
 }
 .lnbSearch input.search_inp:focus {
 	border-bottom:1px solid #7053ff;
@@ -328,6 +362,9 @@
 	color:#000;
 	line-height:22px;
 	vertical-align:top;
+}
+.lnb_drop .lnb_drop_list dt a:hover {
+	color:#f6a623;
 }
 .lnb_drop .lnb_drop_list dd {
 	display:inline-block;

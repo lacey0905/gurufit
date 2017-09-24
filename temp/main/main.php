@@ -9,10 +9,10 @@ $(function(){
 	
 	var slideElem = $('#dualTopSlide #front');
 	var mainBanner = new Swiper(slideElem, {
-		 pagination: '.swiper-pagination',
+		pagination: '.swiper-pagination',
         direction: 'vertical',
         slidesPerView: 1,
-        paginationClickable: true,
+		paginationClickable: true,
       //  mousewheelControl: true,
         parallax: true,
         initialSlide:0,
@@ -21,6 +21,9 @@ $(function(){
         loop:true,
         simulateTouch:false,
         autoHeight:true,
+        onTransitionEnd(swiper){
+        	//$(".gauge_slide_banner .tit .l_right").addClass("full");
+        },
     });
 
 	var slideElem2 = $('#dualTopSlide #back');
@@ -39,21 +42,44 @@ $(function(){
         simulateTouch:false,
         autoHeight:true,
     });	
-    /*
+
+	//$(".gauge_slide_banner .tit .l_right").addClass("full");
+
+
+	var temp = 0;
+	setInterval(function(){
+		if (temp < 450) {
+			temp += 1;
+		} else {
+			mainBanner.slideNext();
+			mainBanner2.slidePrev();
+			temp = 0;
+		}
+		$(".gauge_slide_banner .tit .l_right").width(temp + "px");
+
+		
+	},10);
+
+/*    
 	setInterval(function(){
 		mainBanner.slideNext();
 		mainBanner2.slidePrev();
+
+		//$(".gauge_slide_banner .tit .l_right").removeClass("full");
+		
 	}, 5000);
 	*/
 
-	$("#dualTopSlide").height("auto");
+	//$("#dualTopSlide").height("auto");
 
-	mainBanner.onResize ();
 	
 	var bnrHei = 0;
 	$(window).resize(function(){
-		
-		
+		var hei = $(".gauge_slide_banner figure img").height();
+
+		$("#dualTopSlide").height(hei);
+		mainBanner.onResize();
+		mainBanner2.onResize();
 	});
 
 });
@@ -177,7 +203,7 @@ $(function(){
     		<ul class="swiper-wrapper">
     			<li class="swiper-slide">
     				<figure class="bnr_right">
-    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
     					<figcaption data-swiper-parallax="-1000" data-swiper-parallax-duration="600">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
@@ -191,21 +217,7 @@ $(function(){
     			</li>
     			<li class="swiper-slide">
     				<figure class="bnr_right">
-    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="-1000"  data-swiper-parallax-duration="600">
-    						<h3>룩북</h3>
-    						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
-    						<p>
-    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-    							<strong>바타를 발라버려.</strong>
-    						</p>
-    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-    					</figcaption>
-    				</figure>
-    			</li>
-    			<li class="swiper-slide">
-    				<figure class="bnr_right">
-    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
     					<figcaption data-swiper-parallax="-1000"  data-swiper-parallax-duration="600">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>

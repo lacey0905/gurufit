@@ -79,13 +79,17 @@
 }
 .gauge_slide_banner .tit .l_left {
 	left:0;
-	width:65%;
+	width:100%;
 	border-bottom:solid 1px #7053ff;
 }
 .gauge_slide_banner .tit .l_right {
 	right:0;
 	width:100%;
 	border-bottom:solid 1px #fff;
+}
+.gauge_slide_banner .tit .full {
+	width:0%;
+    transition: width 4s;
 }
 .gauge_slide_banner .tit .l_left:after {
 	content:"";

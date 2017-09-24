@@ -3017,6 +3017,10 @@ body.fix .f_modal_cont {
 	background-color:#fff;
 	border:solid 1px #bbb;
 }
+.cbox_b [type="checkbox"]:disabled + .box + .label {
+	cursor:text !important;
+	opacity:0.5;
+}
 .cbox_b.fix [type="checkbox"] + .box + .label {
 	cursor:text !important;
 	color:#8f8f8f !important;
@@ -3028,6 +3032,12 @@ body.fix .f_modal_cont {
 .cbox_b [type="checkbox"]:checked + .box:after {
 	font-size:13px;
 	line-height:15px;
+}
+.cbox_b [type="checkbox"]:disabled + .box {
+	cursor:text !important;
+}
+.cbox_b [type="checkbox"]:checked:disabled + .box + .label {
+	opacity:1;
 }
 .cbox_b.gray [type="checkbox"]:not(:checked) + .box:before {
 	background-color:#fff;
@@ -3197,9 +3207,14 @@ body.fix .f_modal_cont {
 	left:0px;
 	font-size:16px;
 }
-.cbox_color.disable .label {
+.cbox_color.disable [type="checkbox"]:checked + .box,
+.cbox_color.disable [type="checkbox"]:checked + .box + .label {
 	opacity:0.5;
-	cursor:text !important;	
+}
+.cbox_color [type="checkbox"]:not(:checked):disabled + .box,
+.cbox_color [type="checkbox"]:not(:checked):disabled + .box + .label {
+	opacity:0.5;
+	cursor:text;
 }
 
 /* 블랙 */
@@ -3538,12 +3553,12 @@ body.fix .f_modal_cont {
 	max-height:none !important;
 	height:auto;
 }
-.check_opt_list li.disable.check .box,
-.check_opt_list li.disable.check .label {
+.check_opt_list li.disable .box,
+.check_opt_list li.disable .label {
 	cursor:pointer !important;
 	opacity:1;
 }
-.check_opt_list li.disable.check .box:before {
+.check_opt_list li.disable .box:before {
 	position:relative;
 	background-color:#BBBBBB !important;
 	border:solid 1px #8F8F8F !important;
@@ -3876,16 +3891,22 @@ body.fix .f_modal_cont {
 }
 .rating_check_list li:not(.disable):hover .cnt,
 .rating_check_list [type="checkbox"]:checked + .star_rating + .cnt {
-	color:#000;
+	color:#000 !important;
 }
-.rating_check_list li.disable .cnt {
-	opacity:0.5;
-	cursor:text !important;
-}
-.rating_check_list li.disable .star_on {
+.rating_check_list li.disable [type="checkbox"]:checked + .star_rating .star_on {
 	color:#8F8F8F !important;
 }
-
+.rating_check_list li [type="checkbox"]:disabled + .star_rating + .cnt {
+	opacity:0.5 !important;
+	cursor:text !important;
+	color:#8f8f8f !important;
+}
+.rating_check_list li [type="checkbox"]:disabled + .star_rating .star_on {
+	color:#8F8F8F !important;
+}
+.rating_check_list li [type="checkbox"]:disabled + .star_rating i {
+	cursor:text !important;
+}
 
 /* PROGRESS */
 .prog_mask {
@@ -4829,35 +4850,25 @@ body.fix .f_modal_cont {
 	background-color:#fff;
 	cursor:pointer;
 }
-.size_check_box li:not(.disable).active label [type="checkbox"]:checked + .label {
+/* disabled 아니고 체크를 한 경우 */
+.size_check_box li:not(.disable) label [type="checkbox"]:checked + .label {
 	font-weight:400;
 	font-size:13px;
 	color:#fff;
 	background-color:#f6a623;
 	border-color:#f6a623;
 }
-.size_check_box li:not(.disable).active.check.fix label .label {
-	cursor:text;
-	font-weight:400;
-	font-size:13px;
-	color:#fff;
-	background-color:#f6a623;
-	border-color:#f6a623;
-}
-.size_check_box li:not(.active).disable label .label {
-	opacity:0.5;
-	cursor:text;
-}
-.size_check_box li:not(.active).disable.check label .label {
+/* disabled 아니고, 체크는 했지만 수량이 없을 경우 */
+.size_check_box li.disable label [type="checkbox"]:checked + .label {
 	position:relative;
-	background-color:#BBBBBB !important;
+	background-color:#BBB !important;
 	border-color:#8F8F8F !important;
 	overflow:hidden;
 	opacity:1;
 	cursor:pointer;
 	color:#fff;
 }
-.size_check_box li:not(.active).disable.check label .label:after {
+.size_check_box li.disable label [type="checkbox"]:checked + .label:after {
 	content:"";
 	position:absolute;
 	top:7px;
@@ -4869,10 +4880,18 @@ body.fix .f_modal_cont {
     -webkit-transform: rotate(20deg); 
     transform: rotate(20deg);
 }
-.size_check_box li:not(.check):not(.disable) label .label:hover {
-	border-color:#f6a623 !important;
-	color:#f6a623 !important;
+/* 체크고 안하고 수량도 없는 경우 */
+.size_check_box li label [type="checkbox"]:not(:checked):disabled + .label {
+	opacity:0.5;
+	cursor:text;
 }
-
-
+/* 개인화에서 체크 되었지만 컨트롤은 불가 해야 함 */
+.size_check_box li:not(.disable) label [type="checkbox"]:checked:disabled + .label {
+	cursor:text !important;
+	font-weight:400;
+	font-size:13px;
+	color:#fff;
+	background-color:#f6a623;
+	border-color:#f6a623;
+}
 

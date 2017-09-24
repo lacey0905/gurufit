@@ -133,98 +133,97 @@
 				<li class="active"><a href="#">300</a></li>
 				<li class="active"><a href="#">305</a></li>
 				-->
-				<li class="active">
+				<li>
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">230</span>
     				</label>
 				</li>
-				<li class="active check">
+				<li>
 					<label>
     					<input type="checkbox" id="" name="" value="" checked="checked">
     					<span class="label">235</span>
     				</label>
 				</li>
-				<li class="active check fix">
+				<li class="disable">
 					<label>
-    					<input type="checkbox" id="" name="" value="" disabled>
+    					<input type="checkbox" id="" name="" value="" checked="checked">
     					<span class="label">240</span>
     				</label>
 				</li>
-				<li class="disable check">
+				<li>
 					<label>
-    					<input type="checkbox" id="" name="" value="">
+    					<input type="checkbox" id="" name="" value="" disabled>
     					<span class="label">245</span>
     				</label>
 				</li>
-				<li class="disable">
+				<li>
 					<label>
-    					<input type="checkbox" id="" name="" value="">
+    					<input type="checkbox" id="" name="" value="" checked="checked" disabled>
     					<span class="label">250</span>
     				</label>
 				</li>
-				
-				<li class="active">
+				<li>
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">255</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">260</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">265</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">270</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">275</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">280</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">285</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">290</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">295</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">300</span>
     				</label>
 				</li>
-				<li class="active">
+				<li class="">
 					<label>
     					<input type="checkbox" id="" name="" value="">
     					<span class="label">305</span>
@@ -238,14 +237,14 @@
 		<dd class="check_opt_list">
 			<div class="c_scroll_ c_scroll_a">
     			<ul>
-    				<li class="custom_cbox cbox_b active fix">
+    				<li class="custom_cbox cbox_b">
     					<label>
         					<input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
         					<span class="box"></span>
         					<span class="label">AMERICAN WEST (21)AMERICAN WEST (21)AMERICAN WEST (21)</span>
         				</label>
     				</li>
-    				<li class="custom_cbox cbox_b disable check">
+    				<li class="custom_cbox cbox_b">
     					<label>
         					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked">
         					<span class="box"></span>
@@ -254,21 +253,21 @@
     				</li>
     				<li class="custom_cbox cbox_b disable">
     					<label>
-        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled>
-        					<span class="box"></span>
-        					<span class="label">AME</span>
-        				</label>
-    				</li>
-    				<li class="custom_cbox cbox_b active fix">
-    					<label>
-        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled checked="checked">
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked">
         					<span class="box"></span>
         					<span class="label">AME</span>
         				</label>
     				</li>
     				<li class="custom_cbox cbox_b">
     					<label>
-        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled>
+        					<span class="box"></span>
+        					<span class="label">AME</span>
+        				</label>
+    				</li>
+    				<li class="custom_cbox cbox_b">
+    					<label>
+        					<input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked" disabled>
         					<span class="box"></span>
         					<span class="label">AME</span>
         				</label>
@@ -320,42 +319,41 @@
 			<a href="#none" class="more_text">+ 전체 브랜드 보기</a>
 		</dd>
 	</dl>
-
 	<dl>
 		<dt class="filter_tit">색상</dt>
 		<dd class="check_color_list">
 			<ul>
-				<li class="custom_cbox cbox_color disable">
+				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_block" name="c_block" class="c_black" disabled>
+    					<input type="checkbox" id="c_block" name="c_block" class="c_black">
     					<span class="box"></span>
     					<span class="label">검정 (21)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_red" name="c_red" class="c_red"> 
+    					<input type="checkbox" id="c_red" name="c_red" class="c_red" checked="checked">
     					<span class="box"></span>
     					<span class="label">빨강 (21)</span>
     				</label>
 				</li>
-				<li class="custom_cbox cbox_color">
+				<li class="custom_cbox cbox_color disable">
 					<label>
-    					<input type="checkbox" id="c_blue" name="c_blue" class="c_blue"> 
+    					<input type="checkbox" id="c_blue" name="c_blue" class="c_blue" checked="checked"> 
     					<span class="box"></span>
-    					<span class="label">파랑 (21)</span>
+    					<span class="label">파랑 (0)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_yellow" name="c_yellow" class="c_yellow"> 
+    					<input type="checkbox" id="c_yellow" name="c_yellow" class="c_yellow" disabled> 
     					<span class="box"></span>
     					<span class="label">노랑 (21)</span>
     				</label>
 				</li>
 				<li class="custom_cbox cbox_color">
 					<label>
-    					<input type="checkbox" id="c_green" name="c_green" class="c_green"> 
+    					<input type="checkbox" id="c_green" name="c_green" class="c_green">
     					<span class="box"></span>
     					<span class="label">녹색 (21)</span>
     				</label>
@@ -385,14 +383,14 @@
 			 [active] = 선택 된 가격
 			-->
 			<ul class="check_opt_list">
-                <li class="custom_cbox cbox_b active">
+                <li class="custom_cbox cbox_b">
                     <label>
-                        <input type="checkbox" id="brand_01" name="brand_01" value="brand_01" checked="checked">
+                        <input type="checkbox" id="brand_01" name="brand_01" value="brand_01">
                         <span class="box"></span>
                         <span class="label">3만원 이하 (24)</span>
                     </label>
                 </li>
-                <li class="custom_cbox cbox_b disable check">
+                <li class="custom_cbox cbox_b">
                     <label>
                         <input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked">
                         <span class="box"></span>
@@ -401,30 +399,23 @@
                 </li>
                 <li class="custom_cbox cbox_b disable">
                     <label>
+                        <input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked">
+                        <span class="box"></span>
+                        <span class="label">5만원 ~ 7만원 (0)</span>
+                    </label>
+                </li>
+                <li class="custom_cbox cbox_b">
+                    <label>
                         <input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled>
                         <span class="box"></span>
-                        <span class="label">5만원 ~ 7만원 (123)</span>
-                    </label>
-                </li>
-                <li class="custom_cbox cbox_b active fix">
-                    <label>
-                        <input type="checkbox" id="brand_02" name="brand_02" value="brand_02" disabled checked="checked">
-                        <span class="box"></span>
-                        <span class="label">7만원 ~ 10만원 (87)</span>
+                        <span class="label">7만원 ~ 10만원 (0)</span>
                     </label>
                 </li>
                 <li class="custom_cbox cbox_b">
                     <label>
-                        <input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
+                        <input type="checkbox" id="brand_02" name="brand_02" value="brand_02" checked="checked" disabled>
                         <span class="box"></span>
-                        <span class="label">10만원 ~ 12만원 (45)</span>
-                    </label>
-                </li>
-                <li class="custom_cbox cbox_b">
-                    <label>
-                        <input type="checkbox" id="brand_02" name="brand_02" value="brand_02">
-                        <span class="box"></span>
-                        <span class="label">12만원 이상 (64)</span>
+                        <span class="label">10만원 ~ 12만원 (10)</span>
                     </label>
                 </li>
             </ul>
@@ -456,24 +447,11 @@
                 </li>
                 <li class="custom_cbox cbox_b">
                     <label>
-                        <input type="checkbox" id="" name="" value="">
+                        <input type="checkbox" id="" name="" value="" checked="checked">
                         <strong class="star_rating">
    							<i class="star_on"></i>
    							<i class="star_on"></i>
    							<i class="star_on"></i>
-   							<i class="star_off"></i>
-   							<i class="star_off"></i>
-						</strong>
-						<span class="cnt">개 이상 (232)</span>
-                    </label>
-                </li>
-                <li class="custom_cbox cbox_b">
-                    <label>
-                        <input type="checkbox" id="" name="" value="">
-                        <strong class="star_rating">
-   							<i class="star_on"></i>
-   							<i class="star_on"></i>
-   							<i class="star_off"></i>
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
@@ -481,6 +459,19 @@
                     </label>
                 </li>
                 <li class="custom_cbox cbox_b disable">
+                    <label>
+                        <input type="checkbox" id="" name="" value="" checked="checked">
+                        <strong class="star_rating">
+   							<i class="star_on"></i>
+   							<i class="star_on"></i>
+   							<i class="star_off"></i>
+   							<i class="star_off"></i>
+   							<i class="star_off"></i>
+						</strong>
+						<span class="cnt">개 이상 (0)</span>
+                    </label>
+                </li>
+                <li class="custom_cbox cbox_b">
                     <label>
                         <input type="checkbox" id="" name="" value="" disabled>
                         <strong class="star_rating">
@@ -490,7 +481,7 @@
    							<i class="star_off"></i>
    							<i class="star_off"></i>
 						</strong>
-						<span class="cnt">개 이상 (232)</span>
+						<span class="cnt">개 이상 (0)</span>
                     </label>
                 </li>
             </ul>

@@ -1272,7 +1272,7 @@ body.fix .sub_layout {
 }
 body.fix .f_modal_cont {
 	max-height:100%;
-	overflow:hidden;
+	overflow:visible;
 }
 .f_modal_cont.big {
 	max-height:900px;
@@ -2429,6 +2429,8 @@ body.fix .f_modal_cont {
 	display:none;
 	background-color:#fff;
 	text-align:center;
+	overflow-y:scroll;
+	max-height:300px;
 }
 .set_select .select_list li a {
 	display:block;
@@ -2453,7 +2455,7 @@ body.fix .f_modal_cont {
 	border: 1px solid #D8D8D8;
 	border-top:0;
 	box-sizing:border-box;
-	z-index:1000;
+	z-index:7000;
 }
 .set_select.active li:hover a {
 	background-color:#F5A623 !important;
@@ -3558,7 +3560,7 @@ body.fix .f_modal_cont {
 	cursor:pointer !important;
 	opacity:1;
 }
-.check_opt_list li.disable .box:before {
+.check_opt_list_temp li.disable .box:before {
 	position:relative;
 	background-color:#BBBBBB !important;
 	border:solid 1px #8F8F8F !important;
@@ -4836,6 +4838,7 @@ body.fix .f_modal_cont {
 .size_check_box li label > input {
 	position:absolute;
 	top:-9999px;
+	display:none;
 }
 .size_check_box li label .label {
 	display:block;

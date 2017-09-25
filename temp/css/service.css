@@ -593,7 +593,9 @@
 .mem_list tbody td {
 	padding:20px 0;
 	border-bottom:1px solid #DDD;
+	/*
 	vertical-align:top;
+	*/
 }
 
 /* ICON TITLE */
@@ -688,6 +690,9 @@
 	top:0;
 	left:0;
 	color: #ccc;
+}
+.dot_list_grade li {
+	line-height:38px;
 }
 
 .count_gauge_wrap {}
@@ -824,4 +829,10 @@
     font-size: 16px;        
     line-height: 20px;    
     text-align: justify;                        
+}
+
+
+/* 개인정보 설정 페이지에서 추가 */
+.service_list_table tbody td.box {
+  border-left: 1px dashed #EBEBEB;
 }

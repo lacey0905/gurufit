@@ -1,19 +1,19 @@
 <?php include "../inc/header.php" ?>
-
 <script>
 $(function(){
-
-	var hei = $(".gauge_slide_banner figure img").height();
-
-	$("#dualTopSlide").height(hei);
+	// 스와이퍼 설치 전 이미지 세로 값 저장 
+	var slideHei = $("#dualTopSlide figure img").height();
 	
-	var slideElem = $('#dualTopSlide #front');
-	var mainBanner = new Swiper(slideElem, {
+	// 스와이퍼의 세로를 이미지 세로로 지정
+	$("#dualTopSlide").height(slideHei);
+
+	// 첫 번째 슬라이드
+	var slideFront = $('#dualTopSlide #front');
+	slideFront = new Swiper(slideFront, {
 		pagination: '.swiper-pagination',
         direction: 'vertical',
         slidesPerView: 1,
 		paginationClickable: true,
-      //  mousewheelControl: true,
         parallax: true,
         initialSlide:0,
         speed:1000,
@@ -21,19 +21,15 @@ $(function(){
         loop:true,
         simulateTouch:false,
         autoHeight:true,
-        onTransitionEnd(swiper){
-        	//$(".gauge_slide_banner .tit .l_right").addClass("full");
-        },
     });
-
-	var slideElem2 = $('#dualTopSlide #back');
-	
-	var mainBanner2 = new Swiper(slideElem2, {
-		 pagination: '.swiper-pagination',
+    
+	// 두 번째 슬라이드
+	var slideBack = $('#dualTopSlide #back');
+	slideBack = new Swiper(slideBack, {
+		pagination: '.swiper-pagination',
         direction: 'vertical',
         slidesPerView: 1,
         paginationClickable: true,
-      //  mousewheelControl: true,
         parallax: true,
         initialSlide:2,
         speed:1000,
@@ -43,125 +39,77 @@ $(function(){
         autoHeight:true,
     });	
 
-	//$(".gauge_slide_banner .tit .l_right").addClass("full");
-
-
-	var temp = 0;
-	setInterval(function(){
-		if (temp < 450) {
-			temp += 1;
-		} else {
-			mainBanner.slideNext();
-			mainBanner2.slidePrev();
-			temp = 0;
-		}
-		$(".gauge_slide_banner .tit .l_right").width(temp + "px");
-
-		
-	},10);
-
-/*    
-	setInterval(function(){
-		mainBanner.slideNext();
-		mainBanner2.slidePrev();
-
-		//$(".gauge_slide_banner .tit .l_right").removeClass("full");
-		
-	}, 5000);
-	*/
-
-	//$("#dualTopSlide").height("auto");
-
+	// 게이지 앨리먼트
+	var dualBnrGauge = $("#dualTopSlide .tit .l_left");
+	// 배너 시작
+	function dualBnrStart(){
+		$(".gauge_slide_banner .tit").removeClass("empty");
+		dualBnrGauge.stop().animate({
+	    	width:100 + "%",
+	    }, 5000, function() {
+		    // 100% 되면 Full 클래스 추가
+	    	dualBnrFull();
+			// 기다렸다가 0%로 리셋
+	    	dualBnrWait("reset");
+	    });
+	}
+	// 배너 리셋
+	function dualBnrReset(){
+		$(".gauge_slide_banner .tit").removeClass("full");
+		dualBnrGauge.stop().animate({
+	    	width:0 + "%",
+	    }, 800, function() {
+		    // 0%가 되면 Empty 클래스 추가
+	    	dualBnrEmpty();
+	    	// 기다렸다가 배너 재시작
+	    	dualBnrWait("start");
+	    });
+	}
+	// 배너 액션
+	function dualBnrWait(type){
+		setTimeout(function(){
+			if(type == "reset"){
+				dualBnrReset();
+				slideFront.slideNext();
+		    	slideBack.slidePrev();
+			} else {
+				dualBnrStart();
+			}
+		}, 200);
+	}
 	
-	var bnrHei = 0;
-	$(window).resize(function(){
-		var hei = $(".gauge_slide_banner figure img").height();
+	function dualBnrFull(){
+		$(".gauge_slide_banner .tit").addClass("full");
+	}
 
-		$("#dualTopSlide").height(hei);
-		mainBanner.onResize();
-		mainBanner2.onResize();
+	function dualBnrEmpty(){
+		$(".gauge_slide_banner .tit").addClass("empty");
+	}
+
+	$(".gauge_slide_banner .control_prev").bind("click", function(){
+		dualBnrWait("reset");
 	});
-
+	$(".gauge_slide_banner .control_next").bind("click", function(){
+		dualBnrWait("reset");
+	});
+	$(window).resize(function(){
+		// 화면이 리사이즈 되면 슬라이드 이미지의 새로를 다시 받아 옴
+		slideHei = $("#dualTopSlide figure img").height();
+		// 슬라이드의 세로를 재정의
+		$("#dualTopSlide").height(slideHei);
+		// 스와이퍼 업데이트
+		slideBack.onResize();
+		slideFront.onResize();
+	});
+	dualBnrStart();
 });
-
 </script>
-
-<style>
-    #dualTopSlide {
-    }
-    #dualTopSlide > .swiper-container {
-        width:50%;
-        float:left;
-    }
-    #dualTopSlide .swiper-slide {
-     position:relative;
-        overflow:hidden;
-    }
-    #dualTopSlide figcaption {
-    }
-</style>
-
-<!-- 
-<script>
-    $(function(){
-
-    	// 설치 할 슬라이드 엘리먼트
-		var slideElem = $('#mainTopSlide .swiper-container');
-    	var currentIndex = 0; // 현재 슬라이드 인덱스
-    	var slideLength = slideElem.find(".swiper-slide").length - 1; // 슬라이드 전체 갯수
-    	// 슬라이드가 마지막 인지 검사
-		var slideLast = function(cur, length){
-			if(currentIndex >= slideLength){
-				$("#mainTopSlide .swiper-pagination").addClass("last");
-            }
-		}
-		// 슬라이드가 마지막이 아닐 경우 검사
-		var slideNotLast = function(cur, length){
-			if(currentIndex < slideLength){
-            	$("#mainTopSlide .swiper-pagination").removeClass("last");
-            }
-		}
-		// 슬라이드 인덱스 갱신
-		var setCurrentIdx = function(cur){
-			currentIndex = cur + 1;
-		} 
-    	var mainBanner = new Swiper(slideElem, {
-            //pagination: '#cartSlide .swiper-pagination',
-            paginationClickable: true,
-            slidesPerView: 2,
-            pagination: '#mainTopSlide .swiper-pagination',
-            paginationType: 'progress',
-            resistanceRatio:0,
-            //loop:true,
-            nextButton: '.swiper-button-next',
-            prevButton: '.swiper-button-prev',
-            parallax: true,
-            speed:1000,
-            onInit(swiper){
-            	// 인덱스 갱신
-            	setCurrentIdx(swiper.realIndex);
-				// 마지막이 아닌지 체크
-				slideNotLast(currentIndex, slideLength);
-            },
-            onTransitionStart(swiper){
-            	// 인덱스 갱신
-            	setCurrentIdx(swiper.realIndex);
-            	// 마지막이 아닌지 체크
-            	slideNotLast(currentIndex, slideLength);
-
-            	console.log("current : " + currentIndex + " / " + "length : " + slideLength);
-            },
-            onTransitionEnd(swiper){
-                // 마지막 슬라이드 인지 체크
-            	slideLast(currentIndex, slideLength);
-            },
-        });
-    });
-</script>
- -->
 <section id="main">
-
 	<div id="dualTopSlide" class="gauge_slide_banner">
+		<div class="controls">
+			<a href="#none" class="control_btn control_prev">Prev</a>
+			<a href="#none" class="control_btn control_next">Next</a>
+		</div>
 		<div class="tit">
 			Featured Contents
 			<span class="tit_arr_line l_left"></span>
@@ -172,7 +120,7 @@ $(function(){
     			<li class="swiper-slide">
     				<figure class="bnr_left">
     					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="-600" data-swiper-parallax-duration="600">
+    					<figcaption data-swiper-parallax="-300" data-swiper-parallax-duration="1500">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
     						<p>
@@ -186,7 +134,7 @@ $(function(){
     			<li class="swiper-slide">
     				<figure class="bnr_left">
     					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="-600" data-swiper-parallax-duration="600">
+    					<figcaption data-swiper-parallax="-300" data-swiper-parallax-duration="1500">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
     						<p>
@@ -204,7 +152,7 @@ $(function(){
     			<li class="swiper-slide">
     				<figure class="bnr_right">
     					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="-1000" data-swiper-parallax-duration="600">
+    					<figcaption data-swiper-parallax="-300" data-swiper-parallax-duration="1500">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
     						<p>
@@ -218,7 +166,7 @@ $(function(){
     			<li class="swiper-slide">
     				<figure class="bnr_right">
     					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="-1000"  data-swiper-parallax-duration="600">
+    					<figcaption data-swiper-parallax="-300"  data-swiper-parallax-duration="1500">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
     						<p>
@@ -232,201 +180,9 @@ $(function(){
     		</ul>
 		</div>
 	</div>
-
-<!-- 
-	<div id="mainTopSlide" class="gauge_slide_banner">
-		<div class="swiper-container">
-			<div class="tit">
-    			Featured Contents
-    			<!-- 
-    			<span class="tit_arr_line l_left"></span>
-    			<span class="tit_arr_line l_right"></span>
-    			 --
-    		</div>
-    		<div class="swiper-pagination"></div>
-    		<!-- Add Arrows --
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    		<ul class="swiper-wrapper">
-    			<li class="swiper-slide">
-    				<figure class="bnr_left">
-    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption  data-swiper-parallax-duration="600">
-							<h3>룩북</h3>
-							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-    					</figcaption>
-    				</figure>
-    			</li>
-    			<li class="swiper-slide">
-    				<figure class="bnr_right">
-    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
-							<h3>룩북</h3>
-							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-    					</figcaption>
-    				</figure>
-    			</li>
-    			<li class="swiper-slide">
-    				<figure class="bnr_left">
-    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" data-swiper-parallax="0" />
-    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
-							<h3>룩북</h3>
-							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-    					</figcaption>
-    				</figure>
-    			</li>
-    			<li class="swiper-slide">
-    				<figure class="bnr_right">
-    					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" data-swiper-parallax="0"/>
-    					<figcaption data-swiper-parallax="0"  data-swiper-parallax-duration="600">
-							<h3>룩북</h3>
-							<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-    					</figcaption>
-    				</figure>
-    			</li>
-    		</ul>
-		</div>
-	</div>
--->
-
-
-	<article class="bnr_box_type blind">
-		<ul>
-			<li>
-				<h2>
-					Featured Contents
-					<span class="tit_arr_line l_left"></span>
-					<span class="tit_arr_line l_right"></span>
-				</h2>
-				<figure class="bnr_left">
-					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-							<h3>룩북</h3>
-							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-				<figure class="bnr_right">
-					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-    						<h3>룩북</h3>
-    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
-    						<p>
-    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-    							<strong>바타를 발라버려.</strong>
-    						</p>
-    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</article>
-	<!-- 
-	<article class="bnr_box_type swiper-container">
-		<h2>
-			Featured Contents
-			<span class="tit_arr_line l_left"></span>
-			<span class="tit_arr_line l_right"></span>
-		</h2>
-		<ul class="swiper-wrapper">
-			<li class="swiper-slide">
-				<figure class="bnr_left">
-					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-							<h3>룩북</h3>
-							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-			</li>
-			<li class="swiper-slide">
-				<figure class="bnr_right">
-					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-    						<h3>룩북</h3>
-    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
-    						<p>
-    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-    							<strong>바타를 발라버려.</strong>
-    						</p>
-    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-			</li>
-			<li class="swiper-slide">
-				<figure class="bnr_left">
-					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-							<h3>룩북</h3>
-							<h4>바타의 2017년 여름시즌<br>룩북촬영</h4>
-							<p>
-								By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-								<strong>바타를 발라버려.</strong>
-							</p>
-							<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-			</li>
-			<li class="swiper-slide">
-				<figure class="bnr_right">
-					<img src="../img/m2.png" alt="바타의 2017년 여름시즌 룩북촬영" />
-					<figcaption>
-						<a href="#">
-    						<h3>룩북</h3>
-    						<h4>바타의 2017년 여름시즌 룩북촬영</h4>
-    						<p>
-    							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
-    							<strong>바타를 발라버려.</strong>
-    						</p>
-    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
-						</a>
-					</figcaption>
-				</figure>
-			</li>
-		</ul>
-	</article>
-	 -->
 	<article class="custom_inner custom_prd prd_type_a">
 		<h2>Recommanded Contents</h2>
-		<ul class="x4">
+		<ul class="x3">
 			<li class="type_a">
 				<a href="#">
 					<figure>
@@ -435,20 +191,6 @@ $(function(){
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>
 							<span class="subject">나이키랩줌플라이SP 국내발매예정일공개</span>
-							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
-							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
-						</figcaption>
-					</figure>
-				</a>
-			</li>
-			<li class="type_b">
-				<a href="#">
-					<figure>
-						<img src="../img/sample_content2.jpg" alt="샘플상품">
-						<figcaption>
-							<span class="kind">인터뷰</span>
-							<span class="like">74</span>
-							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
 							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
 							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
 						</figcaption>
@@ -469,10 +211,24 @@ $(function(){
 					</figure>
 				</a>
 			</li>
-			<li>
+			<li class="type_d">
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
+						<figcaption>
+							<span class="kind">인터뷰</span>
+							<span class="like">74</span>
+							<span class="subject">나이키랩 줌 플라이 SP 국내 발매 예정일 공개</span>
+							<span class="name_date">By&nbsp;<em>Jin Hong Park</em><i>&nbsp;&middot;&nbsp;</i>May 10.2017</span>
+							<span class="hash">#부스트 #DPR #퓨어부스트 #도심</span>
+						</figcaption>
+					</figure>
+				</a>
+			</li>
+			<li class="type_b">
+				<a href="#">
+					<figure>
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>
@@ -486,7 +242,7 @@ $(function(){
 			<li>
 				<a href="#">
 					<figure>
-						<img src="../img/prd_sample.png" alt="샘플상품">
+						<img src="../img/sample_content2.jpg" alt="샘플상품">
 						<figcaption>
 							<span class="kind">인터뷰</span>
 							<span class="like">74</span>

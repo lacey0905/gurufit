@@ -100,7 +100,9 @@ var setFixModal = function(_modal){
 // 팝업의 클로즈 액션 때에 호출 되어야 함
 // 호출 되지 않으 면 페이지에 스크롤이 사라짐
 var delFixModal = function(){
-	$("body").removeClass("fix");
+	if($(".f_modal_layer").length <= 1){
+		$("body").removeClass("fix");
+	}
 }
 
 //모달 팝업 Fix 활성화 예시

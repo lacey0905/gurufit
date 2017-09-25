@@ -27,6 +27,16 @@
 	opacity:10;
 	letter-spacing:1px;	
 }
+/* 듀얼 슬라이드 */
+#dualTopSlide {}
+#dualTopSlide > .swiper-container {
+    width:50%;
+    float:left;
+}
+#dualTopSlide .swiper-slide {
+    position:relative;
+    overflow:hidden;
+}
 /* 배너 타이틀 및 슬라이더 게이지 */
 .gauge_slide_banner .swiper-pagination {
 	position:absolute;
@@ -69,8 +79,6 @@
 .gauge_slide_banner .swiper-slide {
 	overflow:hidden;
 }
-
-
 .gauge_slide_banner .tit .tit_arr_line {
 	position:absolute;
 	bottom:0;
@@ -79,22 +87,29 @@
 }
 .gauge_slide_banner .tit .l_left {
 	left:0;
-	width:100%;
+	width:0%;
 	border-bottom:solid 1px #7053ff;
+	z-index:100;
 }
 .gauge_slide_banner .tit .l_right {
 	right:0;
 	width:100%;
 	border-bottom:solid 1px #fff;
 }
-.gauge_slide_banner .tit .full {
-	width:0%;
-    transition: width 4s;
+.gauge_slide_banner .tit.full:after,
+.gauge_slide_banner .tit.full:before {
+	border-left:solid 1px #7053ff;
+	transition: all 0.2s;
 }
-.gauge_slide_banner .tit .l_left:after {
+.gauge_slide_banner .tit.empty:after,
+.gauge_slide_banner .tit.empty:before {
+	border-left:solid 1px #fff;
+	transition: all 0.2s;
+}
+.gauge_slide_banner .tit:after {
 	content:"";
 	position:absolute;
-	top:0;
+	bottom:-8px;
 	left:3px;
 	width:1px;
 	height:10px;
@@ -102,10 +117,10 @@
 	transform: rotate(-45deg);
 	z-index:100;
 }
-.gauge_slide_banner .tit .l_right:after {
+.gauge_slide_banner .tit:before {
 	content:"";
 	position:absolute;
-	top:-7px;
+	bottom:-2px;
 	right:3px;
 	width:1px;
 	height:10px;
@@ -113,6 +128,34 @@
 	transform: rotate(-230deg);
 	z-index:100;
 }
+
+/* 듀얼 배너 */
+.gauge_slide_banner {
+    position:relative;
+}
+.gauge_slide_banner .controls {
+    position:absolute;
+    top:80px;
+    left:50%;
+    width:450px;
+    margin-left:-225px;
+    z-index:1100;
+    text-align:center;
+    font-size:0;
+}
+.gauge_slide_banner .controls .control_btn {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:none;
+}
+.gauge_slide_banner .controls .control_prev {
+    float:left;
+}
+.gauge_slide_banner .controls .control_next {
+    float:right;
+}
+
 /* 배너 텍스트 박스 */
 .gauge_slide_banner figure {
 	position:relative;

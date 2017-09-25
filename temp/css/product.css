@@ -305,11 +305,20 @@
 	content:"";
 	position:absolute;
 	top:0;
-	left:0;
+	left:0%;
+	max-width:280px;
 	width:100%;
 	height:100%;
 	background-repeat:no-repeat;
 	background-size:contain;
+	background-position:center top;
+}
+.prd_type_a .x3 figure:after {
+	max-width:280px;
+	height:280px;
+	top:0;
+	left:50%;
+	margin-left:-140px;
 }
 .prd_type_a li.type_a figure:after {
 	background-image:url(../img/mask1.png);
@@ -320,17 +329,30 @@
 .prd_type_a li.type_c figure:after {
 	background-image:url(../img/mask4.png);
 }
+.prd_type_a li.type_d figure:after {
+	background-image:url(../img/mask3.png);
+}
 .prd_type_a .x3 {
 	margin-left:-20px;
 }
 .prd_type_a .x3 figure {
 	margin-left:20px;
 }
+.prd_type_a .x4 figure:after {
+	max-width:250px;
+	height:250px;
+	top:0;
+	left:50%;
+	margin-left:-125px;
+}
 .prd_type_a figure img {
 	display:block;
 	width:100%;
 	max-width:280px;
 	margin:0 auto;
+}
+.prd_type_a .x4 figure img {
+	max-width:250px;
 }
 .prd_type_a figcaption {
 	margin-top:13px;

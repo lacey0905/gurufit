@@ -55,12 +55,20 @@
 						</dl>
 					</article>
 				</section>
+				
+				<style>
+				.mem_table {
+					padding:50px 62px 70px 0 ;
+				}
+				</style>
+				
 				<section>
 					<div class="mem_grey_box">
 						<h4>멤버십 등급조건과 혜택</h4>
 					</div>
 					<article class="mem_table">
-						<table>
+						<img src="../img/mem_grade.png" alt="#" style="padding-left:0 !important; display:inline-block;">
+<!-- 						<table>
 							<colgroup>
 								<col width="80">
 								<col width="70">
@@ -170,15 +178,15 @@
 									<td class="merge">200</td>
 									<td class="table_grey_font">—</td>
 								</tr>
-<!-- 								<tr>
+								<tr>
 									<td>브론즈Ⅰ</td>
 									<td class="merge">100</td>
 									<td class="table_grey_font">—</td>
-								</tr> -->		
+								</tr>		
 							</tbody>																																																																				
-						</table>
-						<p>* VIP 멤버십 : 플래티넘 멤버 중 선발을 통해  VIP 멤버십 초대장을 발송합니다.</p>
-						<span class="mem_cureent_grade"><em>현재등급</em><i class="material-icons">&#xE14A;</i></span>
+						</table> -->
+						<!-- <p>* VIP 멤버십 : 플래티넘 멤버 중 선발을 통해  VIP 멤버십 초대장을 발송합니다.</p> -->
+						<!-- <span class="mem_cureent_grade"><em>현재등급</em><i class="material-icons">&#xE14A;</i></span> -->
 					</article>					
 				</section>
 				

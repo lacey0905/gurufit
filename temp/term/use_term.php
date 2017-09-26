@@ -21,7 +21,7 @@
 			</div>
 			<div class="term_box">
 				<section>
-					<h3 class="term_title">구루핏 이용 약관<span class="revision_date">개정일자:2017년 9월 8일</span></h3><br>
+					<h3 class="term_title">구루핏 이용 약관<span class="revision_date">개정일자:2017년 9월 25일</span></h3><br>
 					<article>
 						<p>
 						제1조 목적<br>

@@ -22,7 +22,7 @@
 			<div class="term_box">
 				<section>
 					<article>
-						<h3 class="term_title">개인정보취급방침<span class="revision_date">개정일자:2017년 9월 8일</span></h3><br>
+						<h3 class="term_title">개인정보취급방침<span class="revision_date">개정일자:2017년 9월 25일</span></h3><br>
 						<article>
 							<p>
 							1. 개인정보의 수집 및 이용 목적<br>

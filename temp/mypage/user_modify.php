@@ -9,15 +9,7 @@
    모달을 제거하려면 open을 지워야 합니다.
    하나의 모달을 띄우고 싶을때는 blind를 지우면 된다.  
 -->
-
-<script>
-$(function(){
-	setFixModal($("#test"));
-	delFixModal();
-});
-</script>
-
-<div class="f_modal_perant open">
+<div class="f_modal_perant">
 
 	<!-- 모달 팝업 우선순위 [z1 ~ z6]까지 클래스로 만들어 놓았습니다. [z6]이 가장 우선순위가 높습니다. -->
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
@@ -410,12 +402,17 @@ $(function(){
 								<em class="check">인증됨</em>
 							</dd>
 						</dl>	
-						<dl class="form_cont">
+						<dl class="form_cont form_cont_birth">
 							<dt class="">생년월일</dt>
 							<dd class="form_msg">
 								<strong>1980년 11월 15일</strong>
 							</dd>
 						</dl>
+						<style>
+						.form_inp_a .form_cont_birth {
+                            margin-bottom:20px;
+						}
+						</style>
 						<dl class="form_cont">
 							<dt>성별</dt>
 							<dd>

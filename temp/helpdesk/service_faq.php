@@ -101,6 +101,24 @@
 					</li>
 				</ul>
 			</div>
+			<style>
+			/*Faq에서 질문에 관련된 A빼기*/
+			.toggle_list_a .list_cont .toggle_sec:after {
+				content: "" !important;
+				position: absolute;
+				top: 25px;
+				left: 0;
+				width: 70px;
+				height: 65px;
+				line-height: 65px;
+				display: block;
+				font-family: 'Noto Sans KR';
+				font-size: 20px;
+				font-weight: bold;
+				font-style: italic;
+				color: #000;
+			}
+			</style>
 			<!-- 페이징 -->
 			<div class="pager_type_a">
 				<a href="#" class="pager_btn first"></a>

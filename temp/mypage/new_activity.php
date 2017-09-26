@@ -96,7 +96,7 @@
         		<div class="f_modal_head">
         			<h2>
         				상품평 등록
-        				<span class="msg">평가할 상품에 별점을 남겨주세요.</span>
+        				<span class="msg">이 상품을 이용해 보셨나요? 상품을 평가하고 정보를 공유해주세요.</span>
         			</h2>
         			<a href="#" class="btn_close">Close</a>
         		</div>
@@ -121,11 +121,11 @@
         								<span class="brand"><img src="../img/nike_x34.png" alt="나이키" ></span>
         								<strong class="name">Nike Metcon DSX Flyknit</strong>
         								<dl class="opt">
-        									<dt>구입할 날짜</dt>
+        									<dt>구입한 날짜</dt>
         									<dd>2017년 7월 14일</dd>
         								</dl>
         								<div class="rating raring_input">
-        									<input type="hidden" class="rating_count">
+        									<input type="hidden" class="rating_count" value="0">
             								<strong class="star_rating big">
             	    							<i class="star_off"></i>
             	    							<i class="star_off"></i>
@@ -133,7 +133,7 @@
             	    							<i class="star_off"></i>
             	    							<i class="star_off"></i>
             	   							</strong>
-            	   							<span class="msg">리뷰를 남겨주세요.</span>
+            	   							<span class="msg">별점 평가를 입력하세요.</span>
             	    					</div>
         							</td>
     							</tr>
@@ -195,44 +195,46 @@
         				</div>
         				<div class="f_modal_contList modal_step_list step_on">
             				<h3 class="tit check">
-            					<strong>리뷰 입력</strong>
+            					<strong>상품평 입력</strong>
             					<span>리뷰를 20자 이상 남겨주세요</span>
             				</h3>
-            				<textarea class="contList_text_box txtarea_b" placeholder="구입한 신발에 대한 리뷰를 남기기 시작했습니다…"></textarea>
+            				<textarea class="contList_text_box txtarea_b" placeholder="제품을 충분히 착용한 후 장단점, 착화 환경, 기능에 초점을 맞추어 구체적으로 작성해 주세요."></textarea>
+            				<em class="textarea_hide_msg">베스트 상품평으로 선정되면 경험치 100xp를 추가로 받을 수 있습니다.</em>
+        					<div class="tool_tip">
+        						<div class="good_review_w">
+        							<div class="good_review_c">
+        								<div class="good_review_i">
+        									<dl>
+        										<dd>・가격, 프로모션 정보와 같이 자주 변경되는 정보</dd>
+        										<dd>・제품 외적인 정보 (배송, 포장 등)</dd>
+        										<dd>・욕설 등 부적절한 단어</dd>
+        										<dd>・광고 등 상업적인 내용</dd>
+        										<dd>・개인 정보</dd>
+        									</dl>
+        								</div>
+        							</div>
+        						</div>
+        						<i class="material-icons">&#xE88E;</i>
+        						<span class="msg_line">적합하지 않은 상품평</span>
+        					</div>
         				</div>
             		</div>
             		<div class="f_modal_foot no_line modal_step_list step_on">
-            			<div class="f_modal_btn">
-            				<span class="msg small">
-            					<i class="icon_write"></i>
-            					<a href="#">좋은 상품평을 작성하는 방법</a>
-								<div class="good_review_w">
-									<div class="good_review_c">
-										<div class="good_review_i">
-											<dl>
-												<dt><img src="../img/g_review.png" alt="이미지">좋은 리뷰를 작성하는 방법</dt>
-												<dd>-리뷰를 작성하기 전,제품을 충분히 사용해 주세요.</dd>
-												<dd class="gr_line">-제품의 기능에 초점을 맞추고 구체적으로 작성해주세요.</dd>
-												<dt><img src="../img/g_review.png" alt="이미지">적절하지 않은 내용</dt>
-												<dd>-가격,프로모션 정보와 같이 자주 변경되는 정보</dd>
-												<dd>-부적절한 용어 사용</dd>
-												<dd>-다른 회사 및 웹사이트 광고</dd>
-												<dd>-개인정보</dd>
-											</dl>
-										</div>
-									</div>
-        						</div>
-        					</span>
-            				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">등록 완료</a>
-            			</div>		
+            			<div class="f_modal_btn btn_x2">
+            				<a href="#" class="btn_ btn_xl_l2 btn_np btn_hover_a">취소</a>
+            				<a href="#" class="btn_ btn_xl_l2 btn_cp btn_hover_shadow">저장</a>
+            				<!-- 비활성화 버튼
+            				<a href="#" class="btn_ btn_xl_l2 btn_disable">저장</a>
+                            -->
+            			</div>
             		</div>
         		</div>
         		<script>
-
+        		
     				// 별점 기능 활성화
     				$(function(){
     					// 측면 변환 텍스트 목록
-    					var starMsgArr = ["별로에요", "그저 그래요", "보통이에요", "좋아요", "마음에 들어요!"]
+    					var starMsgArr = ["별점 평가를 입력하세요.","별로에요", "그저 그래요", "보통이에요", "좋아요", "마음에 들어요!"]
     					starRating($(".raring_input"), starMsgArr);
     				});
     				
@@ -264,7 +266,7 @@
 						} else {
 							_msgElem.removeClass("active");
 						}
-						_msgElem.text(_msgArr[_value-1]);
+						_msgElem.text(_msgArr[_value]);
 					}
 
 					// 게이지 핸들러 셋팅
@@ -277,36 +279,66 @@
 							_elem.find(".ui-slider-handle").removeClass("step_first").removeClass("step_last");
     					}
 					}
-
+					
 					var setGaugeStart = function(_elem, _msgArr){
-						_elem.find(".gauge").bind("click", function(event){
-							var ofs = $(this).find(".step_bar").offset();
-							var result = ((event.pageX - ofs.left) / $(this).find(".step_bar").width() * 100) / 25;
-							var result = Math.round(result) + 1;
-							setReviewGauge($(this).find(".slider-range-max"), _msgArr, result, 1, 5);
-							$(this).unbind();
+
+						var gaugeClickCheck = false;
+						var saveCount = 0;
+
+						setReviewGauge(_elem.find(".slider-range-max"), _msgArr, 0, 1, 5);
+						_elem.find(".ui-slider-handle").hide();
+						
+						_elem.find(".step_bar").bind({
+							mousemove : function(e){
+								_elem.find(".ui-slider-handle").show();
+    							if(gaugeClickCheck == false){
+    								var ofs = $(this).offset();
+    								var result = ((event.pageX - ofs.left) / $(this).width() * 100) / 25;
+    								var result = Math.round(result) + 1;
+    								if(saveCount != result){
+    									saveCount = result;
+    									console.log(result);
+    								}
+    								setReviewGauge($(this).find(".slider-range-max"), _msgArr, result, 1, 5);
+    							}
+							},
+							mouseleave : function(e){
+								if(gaugeClickCheck == false){
+    								$(this).find(".slider-range-max .ui-slider-handle").hide();
+        							setGaugeMsg(_elem.find(".msg"), 0, _msgArr);
+								}
+							},
 						});
-					}
 
-    				var setFixModal = function(_modal){
-						$("body").addClass("fix");
-						_modal.addClass("modal_fix");
-    				}
+						_elem.find(".ui-slider-handle").bind({
+							click : function(event){
+								var ofs = $(this).offset();
+								var result = ((event.pageX - ofs.left) / $(this).width() * 100) / 25;
+								var result = Math.round(result) + 1;
+								setReviewGauge($(this).find(".slider-range-max"), _msgArr, result, 1, 5);
+								$(this).unbind();
+								gaugeClickCheck = true;
 
-					var delFixModal = function(){
-						$("body").removeClass("fix");
+								console.log("click");
+							},
+						});
 					}
     				
     				// 착화감 기능 설치
                     $(function() {
 
+						// 상품평 입력 Focus 컨트롤
+						$(".contList_text_box").focus(function(){
+							$(this).parent().find(".textarea_hide_msg").show();
+						});
+						
 						// 모달 팝업 Fix 활성화
                         setFixModal($("#reviewWrite"));
                         
                     	// 측면 변환 텍스트 목록
-    					var gaugeMsgArr1 = ["작게 나왔어요", "작게 나온 편이에요", "평소 신는 사이즈가 딱 맞아요", "크게 나온 편이에요", "크게 나왔어요" ]; 
-    					var gaugeMsgArr2 = ["좁게 나왔어요", "좁게 나온 편이에요", "잘 맞아요", "넓게 나온 편이에요", "넓게 나왔어요" ]; 
-    					var gaugeMsgArr3 = ["잠시 신어도 불편해요", "불편해요", "보통이에요", "편해요", "하루종일 신어도 편해요" ]; 
+    					var gaugeMsgArr1 = ["선택 해주세요","작게 나왔어요", "작게 나온 편이에요", "평소 신는 사이즈가 딱 맞아요", "크게 나온 편이에요", "크게 나왔어요" ]; 
+    					var gaugeMsgArr2 = ["선택 해주세요","좁게 나왔어요", "좁게 나온 편이에요", "잘 맞아요", "넓게 나온 편이에요", "넓게 나왔어요" ]; 
+    					var gaugeMsgArr3 = ["선택 해주세요","잠시 신어도 불편해요", "불편해요", "보통이에요", "편해요", "하루종일 신어도 편해요" ]; 
 
     					setGaugeStart($(".step_gauge .opt_01"), gaugeMsgArr1);
     					setGaugeStart($(".step_gauge .opt_02"), gaugeMsgArr2);

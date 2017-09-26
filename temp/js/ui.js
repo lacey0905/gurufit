@@ -135,23 +135,48 @@ var toggleListActive = function(elem){
 
 //별 점 기능 
 var starRating = function(elem, msgArr){
-	var countElem = $(this).find(".rating_count");
+	var countElem = elem.find(".rating_count");
+	// 클릭 여부 체크
+	var starChecked = false;
 	if(elem.length > 0){
+		// 별점을 하나씩 검사 함
 		elem.find(".star_rating > i").each(function(){
 			$(this).bind("click", function(){
-				
 				var idx = $(this).index() + 1; // 클릭한 별 점 인덱스 저장
 				countElem.val(idx); // 별점 Input 저장
-				
-				for(var i=0; i < $(this).parent().find("i").length; i++){
-					if(i<idx){
-						$(this).parent().find("i").eq(i).addClass("star_on");
-					} else {
-						$(this).parent().find("i").eq(i).removeClass("star_on");
-					}
+				starRatingCheck($(this), idx, elem, msgArr);
+				starChecked = true;
+			});
+			$(this).hover(function(){
+				if(starChecked == false){
+					var idx = $(this).index() + 1; // 클릭한 별 점 인덱스 저장
+					 starRatingCheck($(this), idx, elem, msgArr);
 				}
-				elem.addClass("active").find(".msg").html(msgArr[idx-1]);
+			}, function(){
+				if(starChecked == false){
+					starRatingCheck($(this), 0, elem, msgArr);
+				} else {
+					starRatingCheck($(this), idx, elem, msgArr);
+				}
 			});
 		});
 	}
 }
+function starRatingCheck(_star, idx, elem, msgArr){
+	for(var i=0; i < _star.parent().find("i").length; i++){
+		if(i<idx){
+			_star.parent().find("i").eq(i).addClass("star_on");
+		} else {
+			_star.parent().find("i").eq(i).removeClass("star_on");
+		}
+	}
+	elem.find(".msg").html(msgArr[idx]);
+	if(idx > 2){
+		elem.addClass("active");
+	} else {
+		elem.removeClass("active");
+	}
+}
+
+
+

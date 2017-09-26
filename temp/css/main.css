@@ -23,12 +23,14 @@
 	color:#fff;
 	line-height:46px;
 	z-index:1000;
-	text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 	opacity:10;
 	letter-spacing:1px;	
 }
 /* 듀얼 슬라이드 */
-#dualTopSlide {}
+#dualTopSlide {
+	overflow:hidden;
+}
 #dualTopSlide > .swiper-container {
     width:50%;
     float:left;
@@ -160,6 +162,7 @@
 .gauge_slide_banner figure {
 	position:relative;
 	width:100%;
+	overflow:hidden;
 	/*
 	float:left;
 	*/
@@ -184,13 +187,13 @@
 	position:absolute;
 	bottom:50px;
 	right:40px;
-	opacity:0.8;
+	opacity:0.9;
 }
 .gauge_slide_banner .bnr_right figcaption {
 	position:absolute;
 	top:160px;
 	left:40px;
-	opacity:0.8;
+	opacity:0.9;
 }
 .gauge_slide_banner figcaption h3 {
 	font-size:14px;
@@ -202,21 +205,25 @@
 }
 .gauge_slide_banner figcaption h4,
 .gauge_slide_banner figcaption h4 a {
+	display:block;
 	font-size:20px;
 	font-weight:400;
 	color:#000;
 	line-height:27px;
+	word-break:keep-all;
 }
 .gauge_slide_banner figcaption p,
 .gauge_slide_banner figcaption p em,
 .gauge_slide_banner figcaption p {
 	font-size:12px;
 	color:#9b9b9b;
+	word-break:keep-all;
 }
 .gauge_slide_banner figcaption p {
 	margin-top:15px;
 	color:#9b9b9b;
 	line-height:18px;
+	word-break:keep-all;
 }
 .gauge_slide_banner figcaption p em {
 	color:#4a4a4a;
@@ -234,12 +241,16 @@
 	font-size:14px;
 	color:#bbb;
 	margin-top:20px;
+	word-break:keep-all;
+	word-wrap:break-word;
+}
+.gauge_slide_banner figcaption .hash > span {
+	display:inline-block;
+	margin:0 1px;
 }
 .gauge_slide_banner figcaption a:hover {
 	text-decoration:underline;
 }
-
-
 
 
 /* 메인 배너 */

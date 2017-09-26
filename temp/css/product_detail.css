@@ -61,11 +61,13 @@
 	font-size:22px;
 	letter-spacing:-0.5px;
 	vertical-align:top;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .detail_cont_list .price strong {
 	color:#000;
 	font-weight:400;
 	line-height:33px;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .detail_cont_list .price del {
 	color:rgba(155, 155, 155, 0.81);
@@ -349,8 +351,8 @@
 	line-height:18px;
 	color:#4A4A4A;
 	text-align:left;
-	word-break:word-break;
 	margin:20px 0 10px;
+	word-break:keep-all;
 }
 .info_msg_long strong {
 	display:block;
@@ -488,7 +490,7 @@
 	line-height:29px;
 	color:#333;
 	clear:both;
-	padding:40px 0 30px;
+	padding:40px 0 15px;
 }
 #productReview .null_cont_box {
 	padding:120px 0 100px;
@@ -1759,18 +1761,22 @@
     top:50%;
     margin-top:-7px;
 }
-.spec_view_st_product_info_bottom:after {
+.st_product_info_bottom {
+	width:1100px;
+	margin:0 auto;
+}
+.st_product_info_bottom:after {
 	content:"";
 	clear:both;
 	display:block;
 }
-.spec_view_st_product_info_bottom > h3 {
+.st_product_info_bottom > h3 {
 	color: #000000;	
 	font-size: 16px;	
 	line-height: 21px;
 	margin-bottom:7px;	
 }
-.spec_view_st_product_info_bottom > p {
+.st_product_info_bottom > p {
 	width:490px;
 	height:144px;
 	color: #000000;		
@@ -1780,7 +1786,7 @@
 	text-align: justify;
 	float:left;	
 }
-.spec_view_st_product_info_bottom > p > span {
+.st_product_info_bottom > p > span {
 	color: #000000;	
 	font-size: 14px;	
 	line-height: 24px;	
@@ -1788,7 +1794,7 @@
 	font-weight:500;
 	margin-left:5px;	
 }
-.spec_view_st_product_info_bottom .spec_view_st_des1 {
+.st_product_info_bottom .spec_view_st_des1 {
 	margin-right:20px;
 }
 /* 무료배송 텍스트 */
@@ -1813,6 +1819,7 @@
 .sd_free_ship_title p span {
 	color: #F5A623;
 	font-size: 13px;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 	line-height: 19px;
 }
 /* 상세페이지 리뷰 */

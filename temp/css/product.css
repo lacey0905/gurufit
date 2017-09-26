@@ -772,13 +772,14 @@
 .prd_list_a .cont .opt dd {
 	display:inline-block;
 	font-size:14px;
+	font-weight:100;
 	color:#8f8f8f;
 	letter-spacing:-0.3px;
 	line-height:20px;
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_a .cont .opt dd {
 	margin-right:10px;
-	font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
 .prd_list_a .cont .opt dd a {
 	margin:0 9px;
@@ -792,11 +793,11 @@
 }
 .prd_list_a .cont .rating .msg {
 	display:inline-block;
-	font-size:18px;
+	font-size:16px;
 	font-weight:300;
 	color:#bbb;
 	vertical-align:middle;
-	margin-left:15px;
+	margin-left:10px;
 	line-height:30px;
 }
 .prd_list_a .cont .rating.active .msg {

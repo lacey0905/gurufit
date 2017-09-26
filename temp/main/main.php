@@ -1,12 +1,13 @@
 <?php include "../inc/header.php" ?>
 <script>
 $(function(){
-	// 스와이퍼 설치 전 이미지 세로 값 저장 
-	var slideHei = $("#dualTopSlide figure img").height();
+	var slideHei = 0;
 	
+	// 스와이퍼 설치 전 이미지 세로 값 저장 
+	slideHei = $("#dualTopSlide figure img").height();
 	// 스와이퍼의 세로를 이미지 세로로 지정
 	$("#dualTopSlide").height(slideHei);
-
+		
 	// 첫 번째 슬라이드
 	var slideFront = $('#dualTopSlide #front');
 	slideFront = new Swiper(slideFront, {
@@ -16,12 +17,25 @@ $(function(){
 		paginationClickable: true,
         parallax: true,
         initialSlide:0,
-        speed:1000,
+        speed:1500,
         autoHeight:true,
         loop:true,
         simulateTouch:false,
         autoHeight:true,
+        onTransitionEnd(swiper){
+        },
     });
+
+    function color_check(){
+    	getImageLightness("../img/m2.png",function(brightness){
+    	    console.log("color : " + brightness);
+			if(brightness > 100){
+				$(".gauge_slide_banner .tit").css("color","white");
+			} else {
+				$(".gauge_slide_banner .tit").css("color","black");
+			}
+    	});
+    }
     
 	// 두 번째 슬라이드
 	var slideBack = $('#dualTopSlide #back');
@@ -32,7 +46,7 @@ $(function(){
         paginationClickable: true,
         parallax: true,
         initialSlide:2,
-        speed:1000,
+        speed:1500,
         autoHeight:true,
         loop:true,
         simulateTouch:false,
@@ -46,7 +60,7 @@ $(function(){
 		$(".gauge_slide_banner .tit").removeClass("empty");
 		dualBnrGauge.stop().animate({
 	    	width:100 + "%",
-	    }, 5000, function() {
+	    }, 7000, function() {
 		    // 100% 되면 Full 클래스 추가
 	    	dualBnrFull();
 			// 기다렸다가 0%로 리셋
@@ -101,9 +115,54 @@ $(function(){
 		slideBack.onResize();
 		slideFront.onResize();
 	});
+
 	dualBnrStart();
+
+
+	
 });
+
+
+function getImageLightness(imageSrc,callback) {
+    var img = document.createElement("img");
+    img.src = imageSrc;
+    img.style.display = "none";
+    document.body.appendChild(img);
+
+    var colorSum = 0;
+
+    img.onload = function() {
+        // create canvas
+        var canvas = document.createElement("canvas");
+        canvas.width = this.width;
+        canvas.height = this.height;
+
+        var ctx = canvas.getContext("2d");
+        ctx.drawImage(this,0,0);
+
+        var imageData = ctx.getImageData(0,0,canvas.width,canvas.height);
+        var data = imageData.data;
+        var r,g,b,avg;
+
+        for(var x = 0, len = data.length; x < len; x+=4) {
+            r = data[x];
+            g = data[x+1];
+            b = data[x+2];
+
+            avg = Math.floor((r+g+b)/3);
+            colorSum += avg;
+        }
+
+        var brightness = Math.floor(colorSum / (this.width*this.height));
+        callback(brightness);
+    }
+}
+
+
 </script>
+
+
+
 <section id="main">
 	<div id="dualTopSlide" class="gauge_slide_banner">
 		<div class="controls">
@@ -119,7 +178,7 @@ $(function(){
     		<ul class="swiper-wrapper">
     			<li class="swiper-slide">
     				<figure class="bnr_left">
-    					<img src="../img/m1.png" alt="바타의 2017년 여름시즌 룩북촬영" />
+    					<img src="../img/temp_01.png" alt="바타의 2017년 여름시즌 룩북촬영" />
     					<figcaption data-swiper-parallax="-300" data-swiper-parallax-duration="1500">
     						<h3>룩북</h3>
     						<h4><a href="#">바타의 2017년 여름시즌<br>룩북촬영</a></h4>
@@ -127,7 +186,12 @@ $(function(){
     							By <em>Jin Hong Park</em>&nbsp;&middot;&nbsp;2017.05.10<br>
     							<strong>바타를 발라버려.</strong>
     						</p>
-    						<span class="hash"># Bata  #바타  #발라  #여름시즌  #2017</span>
+    						<span class="hash">
+    							<span>#Bata</span>
+    							<span>#바타</span>
+    							<span>#발라</span>
+    							<span>#여름시즌</span>
+    							<span>#2017</span>
     					</figcaption>
     				</figure>
     			</li>

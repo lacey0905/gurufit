@@ -171,19 +171,19 @@ for(var i=0; i < chartData.length; i++){
 	<article class="sub_content custom_inner on_side">
 		<section class="sub_head">
 			<h2 class="s_lar">Store</h2>
-			<div class="tab_active_type">
+			<div class="tab_active_type select_drop_change">
+				<div class="select_drop_btn">
+					<div class="select_drop">
+						<strong class="tit">남성 전체</strong>
+						<div class="list">
+							<a href="#">남성 전체</a>
+							<a href="#">여성 전체</a>
+						</div>
+					</div>
+				</div>
 				<!-- 카테고리 리스트 -->
 				<ul>
-					<li class="">
-						<div class="select_drop">
-							<strong class="tit">남성 전체</strong>
-							<div class="list">
-    							<a href="#">남성 전체</a>
-    							<a href="#">여성 전체</a>
-							</div>
-						</div>
-					</li>
-					<li class="active"><a href="#">스포츠 (179)</a></li>
+					<li class=""><a href="#">스포츠 (179)</a></li>
 					<li><a href="#">스니커즈 (179)</a></li>
 					<li><a href="#">옥스포드 (179)</a></li>
 					<li><a href="#">로퍼 (179)</a></li>

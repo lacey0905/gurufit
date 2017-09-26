@@ -1543,13 +1543,11 @@
 				</div>				
 			</div>
 			<div class="btn_order_submit">
-				<strong class="btn_head">
-					<em class="user_level_x6">Gold<br>III</em>
-					<span>
-						Gold Ⅲ 멤버십까지 1,200xp가 남았습니다.<br>
-						구매 후 리뷰를 작성하면 200xp경험치를 얻을 수 있습니다. 
-					</span>
-				</strong>
+				<strong class="btn_head all_msg">
+    				<span>
+    					구매 후 상품평을 작성하면 경험치 100xp를 얻을 수 있습니다. 
+    				</span>
+    			</strong>
 				<ul class="side_btn_list">
 					<li class="btn_hover_a"><a href="#">구매내역보기</a></li>
 					<li class="active"><a href="#">쇼핑계속하기</a></li>

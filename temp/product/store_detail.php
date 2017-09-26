@@ -1,5 +1,6 @@
 <?php include "../inc/header.php" ?>
 
+
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
 <!-- 
@@ -354,8 +355,8 @@
 						</div>
 						<!-- Order 버튼 -->
 						<div class="detail_order_wrap">
-							<a href="#" class="btn_ btn_m_m1 btn_hover_a btn_icon_heart">나의 리스트에 담기</a>
-							<a href="#" class="btn_ btn_m_m2 btn_cp btn_hover_shadow">장바구니</a>
+							<a href="#" class="btn_ btn_m_m1 btn_rnd_x1 btn_hover_a btn_icon_heart">나의 리스트에 담기</a>
+							<a href="#" class="btn_ btn_m_m2 btn_rnd_x1 btn_cp btn_hover_shadow">장바구니</a>
 						</div>
 						<!-- 인포그래픽 -->
 						<div class="info_icon_area">
@@ -551,15 +552,14 @@
 					</div>
 					-->
 				</div>
-				<!-- 등록 된 이미지가 없을 때 메시지 박스
+				<!-- 등록 된 이미지가 없을 때 메시지 박스-->
 				<div class="null_cont_box gray">
-					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
+					<strong class="null_cont_icon tbox_rnd_x100">100xp</strong>
 					<span class="null_cont_tit">구루핏 사용자가 직접 만드는 라이브러리.</span>
 					<span class="null_cont_msg">
-						착용 사진을 촬영하고 업로드 하세요. 사진이 업로드 되면 <em>100xp</em>를 드립니다.
+						착용 사진을 등록 하세요. 사진이 게시되면 <em>100xp</em>를 받을 수 있습니다.
 					</span>
 				</div>
-				-->
 				<div class="share_cont">
     				<ul class="photo_list">
     					<li class=""><a href="#none"><img src="../img/true-2.png" alt=""></a></li>
@@ -831,25 +831,25 @@
     						</li>
     					</ul>																																																																																																																										
     				</div>
-    				<div class="spec_view_st_product_info_bottom">
-    					<h3>취급 주의 사항</h3>
-    					<p class="spec_view_st_des1">
-    						<span>천연가죽</span>  젖었을 때는 직사일광 또는 불로 말리지 말고 그늘진 곳에서 건조시키세요. 오염
-    						시 부드러운 솔로 닦고, 슈크리너를 사용하세요. 적정한 온도와 습도에서 보관하는 것이 좋습니다.<br>
-    						<span>섬유· 합성가죽</span> 젖었을 때는 그늘진 곳에서 건조시키세요. 기름기가 있는 장소에서 사용을 
-    						피하세요. 불옆에 놓으면 수축 또는 변형이 발생할 수 있습니다. 표면이 오염되면 비눗물을
-    						적신 천을 사용해 닦아내세요. 구두약과 같은 가죽용품을 사용할 필요가 없습니다.
-    					</p>
-    					<p class="spec_view_st_des2">
-    						신발 뒤꿈치를 꺾어 신지 마세요. 제품의 수명 연장을 위해 사용 용도를 주의해 주십시오.
-    						제품 이상으로 인한 피해보상 또는 수선을 원하실 때는 1:1문의 후 구루핏으로 보내주세요.
-    						수선비가 발생할 수 있습니다.<br>
-    						세탁 등 소비자 부주의로 인한 제품 훼손 및 변형, 품질 보증기간(6개월) 경과한 제품의 품질 
-    						이상에 대해서는 보상의 책임을 지지않습니다. 수선이 가능한 경우 실비로 수선하여 드립니
-    						다.
-    					</p>
-    				</div>
 				</div>
+			</div>
+			<div class="st_product_info_bottom">
+				<h3>취급 주의 사항</h3>
+				<p class="spec_view_st_des1">
+					<span>천연가죽</span>  젖었을 때는 직사일광 또는 불로 말리지 말고 그늘진 곳에서 건조시키세요. 오염
+					시 부드러운 솔로 닦고, 슈크리너를 사용하세요. 적정한 온도와 습도에서 보관하는 것이 좋습니다.<br>
+					<span>섬유· 합성가죽</span> 젖었을 때는 그늘진 곳에서 건조시키세요. 기름기가 있는 장소에서 사용을 
+					피하세요. 불옆에 놓으면 수축 또는 변형이 발생할 수 있습니다. 표면이 오염되면 비눗물을
+					적신 천을 사용해 닦아내세요. 구두약과 같은 가죽용품을 사용할 필요가 없습니다.
+				</p>
+				<p class="spec_view_st_des2">
+					신발 뒤꿈치를 꺾어 신지 마세요. 제품의 수명 연장을 위해 사용 용도를 주의해 주십시오.
+					제품 이상으로 인한 피해보상 또는 수선을 원하실 때는 1:1문의 후 구루핏으로 보내주세요.
+					수선비가 발생할 수 있습니다.<br>
+					세탁 등 소비자 부주의로 인한 제품 훼손 및 변형, 품질 보증기간(6개월) 경과한 제품의 품질 
+					이상에 대해서는 보상의 책임을 지지않습니다. 수선이 가능한 경우 실비로 수선하여 드립니
+					다.
+				</p>
 			</div>
 			<div id="productReview">
 				<nav class="detail_nav">
@@ -868,17 +868,18 @@
 					<strong class="null_cont_icon tbox_rnd_x75">100xp</strong>
 					<span class="null_cont_tit">등록된 리뷰가 없습니다.</span>
 					<span class="null_cont_msg">
-						상품 리뷰를 작성해주시면 경험치 <em>100xp</em>를 드립니다.
+						 구매 후 상품평을 작성하면 경험치 <em>100xp</em>를 받을 수 있습니다. 
 					</span>
 				</div>
 				-->
 				<div class="custom_inner">
-					<h3>리뷰 요약</h3>
+					<h3>상품평 요약</h3>
 					<div class="double_col_box">
 						<div class="col_box col_left">
-							<div class="asset_review_count">
+							<h4 class="sub_tit">별점 평가 <em class="count">(1032)</em></h4>
+							<div class="asset_review_count type_b">
 								<div class="count_area">
-									<strong class="count">4.6 <em>/</em> 5</strong>
+									<strong class="count">4.6</strong>
 									<div class="rating">
 			    						<strong class="star_rating">
 			    							<i class="star_on"></i>
@@ -888,7 +889,6 @@
 			    							<i class="star_off"></i>
 			   							</strong>
 			    					</div>
-			    					<span><em>상품 만족도</em>1032개 / 리뷰 320개</span>
 		    					</div>
 		    					<div class="rating_gauge">
 		    						<ul>
@@ -922,8 +922,8 @@
 							</div>
 						</div>
 						<div id="reviewBestGauge" class="col_box col_right">
+							<h4 class="sub_tit">착화감 평가 <em class="count">(320)</em></h4>
 							<div class="step_gauge">
-								<strong class="title">착화감 평가</strong>
 								<ul class="gauge_area">
 									<li>
 										<em>길이</em>

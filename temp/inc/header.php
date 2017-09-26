@@ -326,6 +326,12 @@
 							<li><a href="#" data-value="2">여성 스토어 검색</a></li>
 							<li><a href="#" data-value="3">남성 스토어 검색</a></li>
 							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
+							<li><a href="#" data-value="4">매거진 검색</a></li>
 						</ul>
 					</div>
 					<!-- 
@@ -336,7 +342,10 @@
 						</select>
 					</div>
 					 -->
-					<input type="text" value="" class="search_inp" placeholder="브랜드,상품명,색상,테마등으로 제품을 찾아보세요.">
+					<input type="text" value="" class="search_inp" placeholder="색상, 계절, 테마 등으로 검색해 보세요.">
+					<div class="search_clear_btn">
+						<a href="#none">검색어 초기화</a>
+					</div>
 					<div class="profile_icon_toggle">
 						<label class="profile_label">
 							<input type="checkbox" class="chk">

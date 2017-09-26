@@ -16,7 +16,10 @@
 	margin:0 auto;
 }
 #main {
+	position:relative;
 	padding-bottom:100px;
+	overflow:hidden;
+	z-index:1000;
 }
 .sub_layout {
 	padding-bottom:125px;
@@ -28,7 +31,10 @@
 
 
 /* HEADER */
-#header {}
+#header {
+	position:relative;
+	z-index:1100;
+}
 #header img {
 	display:block;
 }
@@ -264,19 +270,19 @@
 .lnbSearch input.search_inp {
 	position:relative;
 	display:inline-block;
-	font-size:16px;
+	font-size:13px;
 	font-weight:400;
 	letter-spacing:-0.4px;
 	color: #000000;
 	line-height:19px;
 	height:43px;
 	border:0;
-	width:265px;
+	width:245px;
 	text-align:left;
-	text-indent: 7px;
+	text-indent:2px;
 	outline:none;
 	vertical-align:middle;
-	padding-right:45px;
+	padding-right:65px;
 	margin-right:-45px;
 	border-bottom:1px solid #ebebeb;
 	background:none;
@@ -284,6 +290,10 @@
 }
 .lnbSearch input.search_inp:focus {
 	border-bottom:1px solid #7053ff;
+	font-size:13px;
+}
+.lnbSearch input.search_inp:focus + .search_clear_btn {
+	display:block;
 }
 .lnbSearch .search_inp:focus::-webkit-input-placeholder { 
 	font-size:0;
@@ -297,12 +307,6 @@
 .lnbSearch .search_inp:focus:-ms-input-placeholder { 
 	font-size:0;
 }
-.lnbSearch .search_inp::-webkit-input-placeholder {
-	font-size:13px;
-	font-weight:300;
-	letter-spacing:-0.4px;
-	color:#f6a623;
-}
 .lnbSearch .search_inp::-moz-placeholder {
 	font-size:13px;
 	font-weight:300;
@@ -315,7 +319,19 @@
 	letter-spacing:-0.4px;
 	color:#f6a623;
 }
-.lnbSearch .search_inp:-moz-placeholder {
+.lnbSearch .search_inp::placeholder {
+	font-size:13px;
+	font-weight:300;
+	letter-spacing:-0.4px;
+	color:#f6a623;
+}
+.lnbSearch .search_inp::placeholder {
+	font-size:13px;
+	font-weight:300;
+	letter-spacing:-0.4px;
+	color:#f6a623;
+}
+.lnbSearch .search_inp::-webkit-input-placeholder {
 	font-size:13px;
 	font-weight:300;
 	letter-spacing:-0.4px;
@@ -327,6 +343,34 @@
 	display:inline-block;
 	vertical-align:middle;
 	margin-left:20px;
+}
+.search_clear_btn {
+	display:none;
+	position:absolute;
+	top:11px;
+	right:80px;
+	z-index:100;
+}
+.search_clear_btn a {
+	display:block;
+	font-size:0;
+	border-radius:100%;
+	background-color:#ddd;
+	padding-left:1px;
+	width:19px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	opacity:0.5;
+	cursor:pointer;
+}
+.search_clear_btn a:after {
+	content:"\EE83";
+	display:inline-block;
+	font-family: fontello;
+	font-size:9px;
+	text-indent:0;
+	color:#fff;
 }
 
 /* 상단 카테고리 드롭 다운 */

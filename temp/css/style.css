@@ -415,7 +415,6 @@
 	letter-spacing: -0.5px;
 	color: #bbbbbb;
 }
-
 .inp_login .add_msg {
 	display:block;
 	margin:10px 0 15px;
@@ -429,7 +428,7 @@
 	clear:both;
 }
 .inp_login .add_msg.lv1 {
-	color:red;
+	color:#f6a623;
 }
 .inp_login .add_msg.lv2 {
 	color:#F5A623
@@ -1027,9 +1026,6 @@
 	float:right;
 }
 
-
-
-
 /* 2단 박스 */
 .double_col_box {
 	display:table;
@@ -1045,8 +1041,9 @@
 	box-sizing:border-box;
 	border-left: solid 1px #e9e9e9;
 	vertical-align:top;
-	padding-bottom:10px;
+	padding-bottom:33px;
 }
+
 
 /* 리뷰 카운트 */
 .asset_review_count {}
@@ -1082,6 +1079,43 @@
 	display:block;
 	margin:5px 0px 0;
 }
+
+
+/* 리뷰 카운트 */
+.sub_tit {
+	padding:24px 30px;
+	font-size:18px;
+	font-weight:400;
+	line-height:27px;
+	color:#333;
+}
+.sub_tit .count {
+	font-family: 'Spoqa Han Sans', 'Sans-serif';
+}
+.asset_review_count.type_b {}
+.asset_review_count.type_b .count_area {
+   text-align:center;
+}
+.asset_review_count.type_b .count_area .count {
+   display:inline-block;
+   text-align:center;
+   vertical-align:middle;
+   padding:0;
+   font-size:26px;
+   font-family: 'Spoqa Han Sans', 'Sans-serif';
+   line-height:28px;
+}
+.asset_review_count.type_b .count_area .rating {
+	display:inline-block;
+	text-align:center;
+	vertical-align:top;
+	line-height:34px;	
+	margin-left:8px;
+}
+.asset_review_count.type_b .rating_gauge {
+	margin-top:0;
+}
+
 
 /* 별점 게이지 */
 .rating_gauge {
@@ -1787,12 +1821,21 @@
 .btn_order_submit .btn_head span {
 	display:inline-block;
 	font-size:12px;
-	font-weight:400;
+	font-weight:100;
 	line-height:18px;
 	text-align:left;
 	color:#8f8f8f;
 	vertical-align:middle;
 	margin-left:18px;
+}
+.btn_order_submit .btn_head.all_msg {
+	margin:0;
+	heihgt:60px;
+}
+.btn_order_submit .btn_head.all_msg span {
+	line-height:60px;
+	margin:0;
+	font-size:14px;
 }
 .btn_order_submit .side_btn_list {
 	font-size:0;
@@ -5100,4 +5143,79 @@
 	font-size: 14px;	
 	line-height: 20px;
 	margin-top:9px;
-} 
+}
+
+/*서비스안내*/
+.service_info_wrapper {
+	margin-top:48px;
+	margin-bottom:100px;
+}
+.service_info_area {
+	display:inline-block;
+	margin-bottom:89px;
+}
+.service_info_area:after {
+	content:"";
+	display:inline-block;
+	clear:both;
+}
+.service_info_area dt {
+	display:inline-block;
+	width:472px;
+	float:left;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 50px;
+}
+.service_info_area dd {
+	display:inline-block;
+	float:left;
+	color: #4A4A4A;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: justify;
+}
+.service_info_area dd span {
+	display:inline-block;
+	margin-top:20px;
+	font-weight:bold;
+	color: #4A4A4A;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+}
+.svc_info_ara {
+	background-color:red;
+}
+.svc_info_ara  dt {
+	display:inline-block;
+	width:461px;
+	float:left;
+	color: #000000;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 50px;
+}
+.svc_info_ara dd {
+	display:inline-block;
+	float:left;
+	color: #4A4A4A;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: justify;
+}
+.svc_info_ara dd span {
+	display:inline-block;
+	margin-top:20px;
+	font-weight:bold;
+	color: #4A4A4A;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+
+

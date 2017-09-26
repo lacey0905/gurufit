@@ -86,15 +86,14 @@
 								<tr>
 									<th colspan="2"></th>
 									<th colspan="2">필요 경험치(xp)</th>
-									<th colspan="3">등급혜택</th>
-									<th colspan="4">특별혜택</th>
+									<th colspan="2">등급 혜택</th>
+									<th colspan="4">특별 혜택</th>
 								</tr>
 								<tr>
 									<th colspan="2">멤버십 등급</th>
 									<th>등급<br>업그레이드</th>
 									<th>등급<br>유지</th>
 									<th>교환·반품<br>가능 기간</th>
-									<th>배송</th>
 									<th>상시할인</th>
 									<th>할인 상품<br>조기 공개</th>
 									<th>신상품<br>조기 접근</th>
@@ -106,8 +105,7 @@
 								<tr>
 									<td colspan="2">VIP</td>
 									<td colspan="2" class="table_grey_font">Invite only</td>
-									<td>제한없음</td>
-									<td rowspan="4">당일배송</td>
+									<td>제한 없음</td>
 									<td>12%</td>
 									<td>1순위</td>
 									<td>1순위</td>
@@ -130,7 +128,7 @@
 									<td class="merge">2400</td>
 									<td>1200</td>
 									<td>9%</td>
-									<td class="mem_txt_height">콜드전용<br>콜센터</td>
+									<td rowspan="2"  class="mem_txt_height">골드 전용<br>콜센터</td>
 								</tr>
 								<tr>
 									<td>골드Ⅰ</td>
@@ -144,7 +142,6 @@
 									<td class="merge">1200</td>
 									<td>600</td>
 									<td rowspan="3">90일</td>
-									<td rowspan="3">당일출고</td>
 									<td>7%</td>
 									<td rowspan="3">2순위</td>
 								</tr>
@@ -166,7 +163,6 @@
 									<td class="merge">400</td>
 									<td class="table_grey_font">—</td>
 									<td rowspan="4">30일</td>
-									<td rowspan="4">익일출고</td>
 								</tr>
 								<tr>
 									<td>브론즈Ⅱ</td>

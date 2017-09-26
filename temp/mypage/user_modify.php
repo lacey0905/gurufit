@@ -1,8 +1,3 @@
-<style>
-.service_list_table tbody td.box {
-  border-left: 1px dashed #EBEBEB;
-}
-</style>	
 <?php include "../inc/header.php" ?>
 <!-- 모달 팝업 -->
 <!-- 모달팝업 부모 앨리먼트 -->
@@ -20,6 +15,7 @@
 	<!-- 디자인상 팝업마다 그림자가 투명하게 들어가 있습니다. 때문에 팝업이 겹칠 경우에는  [f_modal_shadow]를 가장 하위 우선순위 팝업에만 적용 해야 합니다.-->
 	
 	<!-- 이메일 변경 -->
+	<!-- 
 	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
@@ -64,6 +60,7 @@
 		</div>
 	</div>
 	<!-- 비밀번호 변경 -->
+	<!-- 
 	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
@@ -118,7 +115,7 @@
 		</div>
 	</div>
 	<!-- 환불 계좌 정보 -->
-	<div class="f_modal_layer f_modal_shadow z6 blind">
+	<div id="test" class="f_modal_layer f_modal_shadow z6">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
         		<div class="f_modal_head">
@@ -131,14 +128,24 @@
         				<dt>은행</dt>
         				<dd>
         					<div class="form">
-	        					<div class="form_inp_area">
-                					<div class="sel_custom sel_nm_box sel_lar">
-                						<select class="sel_mid">
-                							<option>신한은행</option>
-                						</select>
-                					</div>       
-            					</div>
-        					</div> 				
+    							<div id="" class="set_select select_design_a select_design_x2 sel_lar">
+            						<strong class="box" data-value="0">신한은행</strong>
+            						<ul class="select_list">
+            							<li><a href="#none" data-value="test">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            							<li><a href="#none" data-value="vluae">신한은행</a></li>
+            						</ul>
+            					</div>        				
+    						</div>
         				</dd>
         				<dt>예금주</dt>
         				<dd>
@@ -171,6 +178,7 @@
 		</div>
 	</div>	
 	<!-- 개인 정보 변경 -->
+	<!-- 
 	<div class="f_modal_layer f_modal_shadow z5 blind">
 		<div class="f_modal_wrap">
 			<div class="f_modal_area">
@@ -252,7 +260,8 @@
 		</div>
 	</div>
 	<!-- 배송지 정보 입력 -->
-	<div class="f_modal_layer f_modal_shadow">
+	<!-- 
+	<div class="f_modal_layer f_modal_shadow blind">
 		<div class="f_modal_wrap">
     		<div class="f_modal_area">
         		<div class="f_modal_head">
